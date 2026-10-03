@@ -1,0 +1,223 @@
+{
+ "election": "2000 Lebanese parliamentary election",
+ "date": "2000-08-27",
+ "type": "parliamentary",
+ "law": "2000 election law: 14 qada-based districts within governorate rounds",
+ "held": true,
+ "rounds": [
+  {
+   "date": "2000-08-27",
+   "area": "Mount Lebanon and North",
+   "seats": 63
+  },
+  {
+   "date": "2000-09-03",
+   "area": "Beirut, Bekaa and South incl. Nabatieh",
+   "seats": 65
+  }
+ ],
+ "districts": [
+  {
+   "district": "Beirut",
+   "adm": "Beirut",
+   "seats": 19,
+   "seats_by_confession": {
+    "Maronite": 1,
+    "Greek Orthodox": 2,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 3,
+    "Armenian Catholic": 1,
+    "Sunni": 6,
+    "Shia": 2,
+    "Druze": 1,
+    "Minorities": 1,
+    "Evangelical": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Dignity List (Rafik Hariri)",
+     "votes": null,
+     "seats": 18,
+     "note": "plus one seat for a Hezbollah candidate supported by Hariri (IPU)"
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "Mount Lebanon",
+   "adm": "Mount Lebanon",
+   "seats": 35,
+   "seats_by_confession": {
+    "Maronite": 19,
+    "Shia": 3,
+    "Greek Orthodox": 3,
+    "Greek Catholic": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 5,
+    "Sunni": 2
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": 50.42,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "North",
+   "adm": "North",
+   "seats": 28,
+   "seats_by_confession": {
+    "Sunni": 11,
+    "Alawite": 2,
+    "Greek Orthodox": 6,
+    "Maronite": 9
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "South",
+   "adm": "South",
+   "seats": 23,
+   "seats_by_confession": {
+    "Sunni": 3,
+    "Shia": 14,
+    "Greek Catholic": 2,
+    "Maronite": 2,
+    "Druze": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Resistance and Development List (Amal-Hezbollah)",
+     "votes": null,
+     "seats": 23
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "Bekaa",
+   "adm": "Bekaa",
+   "seats": 23,
+   "seats_by_confession": {
+    "Shia": 8,
+    "Sunni": 5,
+    "Maronite": 3,
+    "Greek Catholic": 3,
+    "Greek Orthodox": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  }
+ ],
+ "national": {
+  "registered": 2746528,
+  "voters": 1112776,
+  "turnout": 40.5,
+  "registered_alt": 2748674,
+  "voters_alt": 1236168,
+  "turnout_alt": 44.97,
+  "party_seats": [
+   {
+    "name": "Hezbollah",
+    "seats": 10
+   },
+   {
+    "name": "Amal Movement",
+    "seats": 10
+   },
+   {
+    "name": "Progressive Socialist Party",
+    "seats": 6
+   },
+   {
+    "name": "Syrian Social Nationalist Party",
+    "seats": 4
+   },
+   {
+    "name": "Arab Socialist Ba'ath Party",
+    "seats": 3
+   },
+   {
+    "name": "Kataeb Party",
+    "seats": 2
+   },
+   {
+    "name": "National Bloc",
+    "seats": 2
+   },
+   {
+    "name": "Armenian Revolutionary Federation",
+    "seats": 2
+   },
+   {
+    "name": "Social Democrat Hunchakian Party",
+    "seats": 1
+   },
+   {
+    "name": "Armenian Democratic Liberal Party",
+    "seats": 1
+   },
+   {
+    "name": "Popular Nasserist Organization",
+    "seats": 1
+   },
+   {
+    "name": "Islamic Group",
+    "seats": 0
+   },
+   {
+    "name": "Toilers League",
+    "seats": 0
+   },
+   {
+    "name": "Promise Party",
+    "seats": 0
+   },
+   {
+    "name": "Arab Democratic Party",
+    "seats": 0
+   },
+   {
+    "name": "Al-Ahbash",
+    "seats": 0
+   },
+   {
+    "name": "Independents",
+    "seats": 86
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/2000_Lebanese_general_election",
+   "https://www.idea.int/data-tools/data/country?country=124&database_theme=293",
+   "https://ipu.org/parline-e/reports/arc/2179_00.htm"
+  ]
+ },
+ "notes": [
+  "Districts are the five traditional governorates (muhafazat; Nabatieh counted with South, Akkar with North, Baalbek-Hermel with Bekaa, Keserwan-Jbeil with Mount Lebanon). Seats by confession per governorate are the allocation unchanged by qada since 1992 (IFES), summed from the 2009 qada allocation.",
+  "Per-district registered voters, turnout and winners were not found in a free structured public source; see README-D5.md for the gap.",
+  "Mount Lebanon turnout 50.42% (EU EOM 2005 report, which compares to 2005). IPU reports round 1 electorate 1.3 million, about 51% turnout, and 1.4 million in round 2. National figures differ by source (Nohlen vs IDEA)."
+ ],
+ "source": [
+  "https://en.wikipedia.org/wiki/2000_Lebanese_general_election",
+  "https://ipu.org/parline-e/reports/arc/2179_00.htm",
+  "https://www.idea.int/data-tools/data/country?country=124&database_theme=293",
+  "https://www.eods.eu/library/FR%20LEBANON%202005_en.pdf"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0 (Nohlen et al. handbook as cited there); IPU Parline archive and IDEA turnout database, no licence stated, facts only, attributed"
+}

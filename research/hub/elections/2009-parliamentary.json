@@ -1,0 +1,1703 @@
+{
+ "election": "2009 Lebanese parliamentary election",
+ "date": "2009-06-07",
+ "type": "parliamentary",
+ "law": "Law No. 25/2008 (Doha Agreement): majoritarian block vote in 26 qada-based districts, seats allocated by confession",
+ "held": true,
+ "districts": [
+  {
+   "district": "Akkar",
+   "adm": "Akkar",
+   "seats": 7,
+   "seats_by_confession": {
+    "Sunni": 3,
+    "Alawite": 1,
+    "Greek Orthodox": 2,
+    "Maronite": 1
+   },
+   "registered": 223538,
+   "voters": 120600,
+   "turnout": 53.95,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 7,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Riad Nicola Rahal",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 78685,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Nidal Gergy Tohmé",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 78527,
+     "affiliation": null
+    },
+    {
+     "name": "Hadi Fawzi Hobeich",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 78450,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Khodor Mounif Habib",
+     "seat": "Alawite",
+     "list": null,
+     "votes": 76665,
+     "affiliation": null
+    },
+    {
+     "name": "Khaled Mohammad Daher",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 73954,
+     "affiliation": null
+    },
+    {
+     "name": "Khaled Abbas Zahraman",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 72658,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Mouïn Mohammad Tarek Al Merhebi",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 71586,
+     "affiliation": "FM"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Wajih Mohammad Al Baarini",
+     "seat": "Sunni",
+     "votes": 42758
+    }
+   ]
+  },
+  {
+   "district": "Minieh-Dennieh",
+   "adm": "North",
+   "seats": 3,
+   "seats_by_confession": {
+    "Sunni": 3
+   },
+   "registered": 97352,
+   "voters": 54916,
+   "turnout": 56.4,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 3,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Qassem Ali Abdul Aziz",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 39491,
+     "affiliation": null
+    },
+    {
+     "name": "Ahmad Chawki Mohammad Khodor Fatfat",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 37667,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Hachem Mohammad Moustapha Alameddine",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 36159,
+     "affiliation": "FM"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Jihad Mourched Al Samad",
+     "seat": "Sunni",
+     "votes": 16136
+    }
+   ]
+  },
+  {
+   "district": "Tripoli",
+   "adm": "North",
+   "seats": 8,
+   "seats_by_confession": {
+    "Sunni": 5,
+    "Alawite": 1,
+    "Greek Orthodox": 1,
+    "Maronite": 1
+   },
+   "registered": 196149,
+   "voters": 89886,
+   "turnout": 45.82,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 8,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Mohammad Ahmad Al Safadi",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 66539,
+     "affiliation": null
+    },
+    {
+     "name": "Mohammad Najib Mikati",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 65076,
+     "affiliation": null
+    },
+    {
+     "name": "Robert Maurice Fadel",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 55884,
+     "affiliation": null
+    },
+    {
+     "name": "Mohammad Abd Al Latif Kabbarah",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 55510,
+     "affiliation": null
+    },
+    {
+     "name": "Badr Kamel Mohammad Wannous",
+     "seat": "Alawite",
+     "list": null,
+     "votes": 55415,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Samir Adnan Al Jisr",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 54259,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Samer Georges Saadé",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 49861,
+     "affiliation": "Kataeb"
+    },
+    {
+     "name": "Ahmad Moustapha Karameh",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 42947,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Jean Badawi Obeid",
+     "seat": "Maronite",
+     "votes": 31973
+    },
+    {
+     "name": "Omar Abdel Hamid Karami",
+     "seat": "Sunni",
+     "votes": 30313
+    }
+   ]
+  },
+  {
+   "district": "Zgharta",
+   "adm": "North",
+   "seats": 3,
+   "seats_by_confession": {
+    "Maronite": 3
+   },
+   "registered": 71035,
+   "voters": 34399,
+   "turnout": 48.42,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Sleiman Antoine Frangieh",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 19227,
+     "affiliation": "Marada"
+    },
+    {
+     "name": "Éstephen Boutros Doueihi",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 17784,
+     "affiliation": null
+    },
+    {
+     "name": "Salim Beik Youssef Beik Karam",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 17784,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Michel René Mouawad",
+     "seat": "Maronite",
+     "votes": 16251
+    },
+    {
+     "name": "Jawad Simon Boulos",
+     "seat": "Maronite",
+     "votes": 15331
+    },
+    {
+     "name": "Youssef Sarkis Bahaa Doueihi",
+     "seat": "Maronite",
+     "votes": 13128
+    }
+   ]
+  },
+  {
+   "district": "Bcharre",
+   "adm": "North",
+   "seats": 2,
+   "seats_by_confession": {
+    "Maronite": 2
+   },
+   "registered": 46422,
+   "voters": 17183,
+   "turnout": 37.01,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 2,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Sethrida Élias Tawk",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 13066,
+     "affiliation": "LF"
+    },
+    {
+     "name": "Élie Karam Kayrouz",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 12751,
+     "affiliation": "LF"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Gebran Melhem Tawk",
+     "seat": "Maronite",
+     "votes": 4089
+    }
+   ]
+  },
+  {
+   "district": "Koura",
+   "adm": "North",
+   "seats": 3,
+   "seats_by_confession": {
+    "Greek Orthodox": 3
+   },
+   "registered": 57794,
+   "voters": 27417,
+   "turnout": 47.43,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 3,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Farid Nabil Mkarri",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 14952,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Farid Ishak Youssef Habib",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 13809,
+     "affiliation": "LF"
+    },
+    {
+     "name": "Nicola Fouad Ghosn Ghosn",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 13662,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Fayez Michel Ghosn Marada 12,",
+     "seat": "Greek Orthodox",
+     "votes": 201
+    },
+    {
+     "name": "Georges Naim Attallah",
+     "seat": "Greek Orthodox",
+     "votes": 12154
+    },
+    {
+     "name": "Salim Abdallah Saadeh",
+     "seat": "Greek Orthodox",
+     "votes": 11980
+    }
+   ]
+  },
+  {
+   "district": "Batroun",
+   "adm": "North",
+   "seats": 2,
+   "seats_by_confession": {
+    "Maronite": 2
+   },
+   "registered": 58444,
+   "voters": 32914,
+   "turnout": 56.31,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 2,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Boutros Joseph Al Khoury Harb",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 17733,
+     "affiliation": null
+    },
+    {
+     "name": "Antoine Moussa Moussa Zahra",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 17541,
+     "affiliation": "LF"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Gebran Gergi Bassil",
+     "seat": "Maronite",
+     "votes": 14267
+    },
+    {
+     "name": "Fayek Youssef Gebrayel Younés",
+     "seat": "Maronite",
+     "votes": 13132
+    }
+   ]
+  },
+  {
+   "district": "Jbeil",
+   "adm": "Keserwan-Jbeil",
+   "seats": 3,
+   "seats_by_confession": {
+    "Maronite": 2,
+    "Shia": 1
+   },
+   "registered": 75582,
+   "voters": 50432,
+   "turnout": 66.72,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Walid Najib Al Khoury",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 28852,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Simon Farid Abi Ramia",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 28598,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Abbas Hussein Hashem",
+     "seat": "Shia",
+     "list": null,
+     "votes": 28232,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Fares Antoine Souaid",
+     "seat": "Maronite",
+     "votes": 20698
+    }
+   ]
+  },
+  {
+   "district": "Keserwan",
+   "adm": "Keserwan-Jbeil",
+   "seats": 5,
+   "seats_by_confession": {
+    "Maronite": 5
+   },
+   "registered": 89228,
+   "voters": 60336,
+   "turnout": 67.62,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 5
+   },
+   "winners": [
+    {
+     "name": "Michel Naim Aoun",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 31861,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Farid Elias Khazen",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 31387,
+     "affiliation": null
+    },
+    {
+     "name": "Youssef (Joseph) Hanna Khalil",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 31313,
+     "affiliation": null
+    },
+    {
+     "name": "Nehmtallah Farès Abi Nasr",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 30989,
+     "affiliation": null
+    },
+    {
+     "name": "Gilberte Maurice Zouein",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 30444,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Mansour Fouad Ghanem Al Bon",
+     "seat": "Maronite",
+     "votes": 29111
+    },
+    {
+     "name": "Farid Haykal Khazen",
+     "seat": "Maronite",
+     "votes": 28494
+    }
+   ]
+  },
+  {
+   "district": "Metn",
+   "adm": "Mount Lebanon",
+   "seats": 8,
+   "seats_by_confession": {
+    "Maronite": 4,
+    "Greek Orthodox": 2,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 1
+   },
+   "registered": 170744,
+   "voters": 96748,
+   "turnout": 56.66,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 2,
+    "March 8": 6
+   },
+   "winners": [
+    {
+     "name": "Ibrahim Youssef Kanaan",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 49147,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Michel Élias El Murr",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 48953,
+     "affiliation": null
+    },
+    {
+     "name": "Salim Émile Salhab",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 48673,
+     "affiliation": null
+    },
+    {
+     "name": "Édgard Fouad Maalouf",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": null,
+     "affiliation": "FPM",
+     "note": "IFES prints 88,577, implausible against 96,748 voters; value withheld"
+    },
+    {
+     "name": "Nabil Sabah Nicolas",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 47844,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Sami Amin Al Gemayel",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 47688,
+     "affiliation": "Kataëb"
+    },
+    {
+     "name": "Ghassan Émile Moukhaiber",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 46869,
+     "affiliation": null
+    },
+    {
+     "name": "Hagop Ohaness Hagob Patradounian",
+     "seat": "Armenian Orthodox",
+     "list": null,
+     "votes": null,
+     "affiliation": "Tachnag",
+     "uncontested": true
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Ghassan Élias Al Rahbani",
+     "seat": "Greek Orthodox",
+     "votes": 46164
+    }
+   ]
+  },
+  {
+   "district": "Baabda",
+   "adm": "Mount Lebanon",
+   "seats": 6,
+   "seats_by_confession": {
+    "Maronite": 3,
+    "Shia": 2,
+    "Druze": 1
+   },
+   "registered": 151590,
+   "voters": 84546,
+   "turnout": 55.77,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 6
+   },
+   "winners": [
+    {
+     "name": "Fadi Najib Al Awar",
+     "seat": "Druze",
+     "list": null,
+     "votes": 45325,
+     "affiliation": null
+    },
+    {
+     "name": "Alain Joseph Aoun",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 45032,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Hikmat Farah Dib",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 44994,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Ali Fadel Ammar",
+     "seat": "Shia",
+     "list": null,
+     "votes": 44619,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Naji Kamil Gharious",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 44347,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Bilal Assad Farhat",
+     "seat": "Shia",
+     "list": null,
+     "votes": 43815,
+     "affiliation": "Hezbollah"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Bassem Ahmad Al Sabaa",
+     "seat": "Shia",
+     "votes": 37368
+    },
+    {
+     "name": "Édmond Michael Gharious",
+     "seat": "Maronite",
+     "votes": 37069
+    }
+   ]
+  },
+  {
+   "district": "Aley",
+   "adm": "Mount Lebanon",
+   "seats": 5,
+   "seats_by_confession": {
+    "Druze": 2,
+    "Maronite": 2,
+    "Greek Orthodox": 1
+   },
+   "registered": 116181,
+   "voters": 59779,
+   "turnout": 51.45,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 4,
+    "March 8": 1
+   },
+   "winners": [
+    {
+     "name": "Akram Hussein Shehaib",
+     "seat": "Druze",
+     "list": null,
+     "votes": 36138,
+     "affiliation": "PSP"
+    },
+    {
+     "name": "Henri Pierre Hélou",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 35322,
+     "affiliation": null
+    },
+    {
+     "name": "Fouad Raji Al Saad",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 35128,
+     "affiliation": null
+    },
+    {
+     "name": "Fadi Elias Al Habr",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 33884,
+     "affiliation": "Kataëb"
+    },
+    {
+     "name": "Talal Majid Erslan",
+     "seat": "Druze",
+     "list": null,
+     "votes": 23501,
+     "affiliation": "LebDemPty"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Marwan Mounir Abou Fadel",
+     "seat": "Greek Orthodox",
+     "votes": 21966
+    },
+    {
+     "name": "Antoine Chbib Al Zoghbi",
+     "seat": "Maronite",
+     "votes": 21595
+    },
+    {
+     "name": "César Redmond Abou Khalil",
+     "seat": "Maronite",
+     "votes": 21192
+    }
+   ]
+  },
+  {
+   "district": "Chouf",
+   "adm": "Mount Lebanon",
+   "seats": 8,
+   "seats_by_confession": {
+    "Maronite": 3,
+    "Druze": 2,
+    "Sunni": 2,
+    "Greek Catholic": 1
+   },
+   "registered": 181949,
+   "voters": 91642,
+   "turnout": 50.36,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 8,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Nehmeh Youssef Tohmé",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 62772,
+     "affiliation": null
+    },
+    {
+     "name": "Walid Kamal Beik Jumblatt",
+     "seat": "Druze",
+     "list": null,
+     "votes": 62450,
+     "affiliation": "PSP"
+    },
+    {
+     "name": "Michel Dory Kamil Chamoun",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 62236,
+     "affiliation": "NLP"
+    },
+    {
+     "name": "Mohammed Kassem Rachid Al Hajjar",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 62072,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Alaa Eddine Khodor Terro",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 62041,
+     "affiliation": null
+    },
+    {
+     "name": "Marwan Mohammed Hamedeh",
+     "seat": "Druze",
+     "list": null,
+     "votes": 61277,
+     "affiliation": null
+    },
+    {
+     "name": "Élie Michel Aoun",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 60773,
+     "affiliation": null
+    },
+    {
+     "name": "Georges Jamil Adwan",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 58502,
+     "affiliation": "LF"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Mario Aziz Aoun",
+     "seat": "Maronite",
+     "votes": 22985
+    }
+   ]
+  },
+  {
+   "district": "Beirut 1",
+   "adm": "Beirut",
+   "seats": 5,
+   "seats_by_confession": {
+    "Maronite": 1,
+    "Greek Orthodox": 1,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 1,
+    "Armenian Catholic": 1
+   },
+   "registered": 92764,
+   "voters": 37284,
+   "turnout": 40.19,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 5,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Nayla Gebran Tuéni",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 19985,
+     "affiliation": null
+    },
+    {
+     "name": "Michel Pierre Pharaon",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 19742,
+     "affiliation": null
+    },
+    {
+     "name": "Nadim Bachir Al Gemayel",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 19340,
+     "affiliation": "Kataëb"
+    },
+    {
+     "name": "Jean Loutfik Oghassabian",
+     "seat": "Armenian Orthodox",
+     "list": null,
+     "votes": 19317,
+     "affiliation": null
+    },
+    {
+     "name": "Serge Berge Torsarkissian",
+     "seat": "Armenian Catholic",
+     "list": null,
+     "votes": 19281,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Massoud Joseph Al Achkar",
+     "seat": "Maronite",
+     "votes": 17209
+    },
+    {
+     "name": "Gregoire Antoine Kaloost",
+     "seat": "Armenian Catholic",
+     "votes": 16817
+    },
+    {
+     "name": "Frid Ardashas Sabounjian",
+     "seat": "Armenian Orthodox",
+     "votes": 16778
+    }
+   ]
+  },
+  {
+   "district": "Beirut 2",
+   "adm": "Beirut",
+   "seats": 4,
+   "seats_by_confession": {
+    "Armenian Orthodox": 2,
+    "Sunni": 1,
+    "Shia": 1
+   },
+   "registered": 101787,
+   "voters": 27787,
+   "turnout": 27.29,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 2,
+    "March 8": 2
+   },
+   "winners": [
+    {
+     "name": "Nouhad Saleh Al Machnouk",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 16583,
+     "affiliation": null
+    },
+    {
+     "name": "Hani Hassan Kobeissi",
+     "seat": "Shia",
+     "list": null,
+     "votes": 15126,
+     "affiliation": null
+    },
+    {
+     "name": "Siboh Ohanis Kalbakian",
+     "seat": "Armenian Orthodox",
+     "list": null,
+     "votes": null,
+     "affiliation": null,
+     "uncontested": true
+    },
+    {
+     "name": "Arthur Garabet Nazaryan",
+     "seat": "Armenian Orthodox",
+     "list": null,
+     "votes": null,
+     "affiliation": "Tachnag",
+     "uncontested": true
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Adnan Ahmad Arakji",
+     "seat": "Sunni",
+     "votes": 8071
+    }
+   ]
+  },
+  {
+   "district": "Beirut 3",
+   "adm": "Beirut",
+   "seats": 10,
+   "seats_by_confession": {
+    "Sunni": 5,
+    "Shia": 1,
+    "Druze": 1,
+    "Greek Orthodox": 1,
+    "Minorities": 1,
+    "Evangelical": 1
+   },
+   "registered": 252301,
+   "voters": 103243,
+   "turnout": 40.92,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 10,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Saad Eddine Rafik Hariri",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 78382,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Tamam Saeb Neik Salam",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 76925,
+     "affiliation": null
+    },
+    {
+     "name": "Ghazi Hani Al Aridi",
+     "seat": "Druze",
+     "list": null,
+     "votes": 76786,
+     "affiliation": "PSP"
+    },
+    {
+     "name": "Mohammed Jamil Qabbani",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 76448,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Bassam Dr Ramzi Al Shabb",
+     "seat": "Evangelical",
+     "list": null,
+     "votes": 76410,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Ghazi Ali Youssef",
+     "seat": "Shia",
+     "list": null,
+     "votes": 76410,
+     "affiliation": null
+    },
+    {
+     "name": "Nabil Moussa de Freij",
+     "seat": "Minorities",
+     "list": null,
+     "votes": 76337,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Ammar Omar Houri",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 76201,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Atef Mourched Saliba Majdalani",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 76139,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Imad Medhat Al Hout",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 75964,
+     "affiliation": "Jama’a"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Rafiq Khalil Nassrallah",
+     "seat": "Shia",
+     "votes": 22217
+    }
+   ]
+  },
+  {
+   "district": "Baalbek-Hermel",
+   "adm": "Baalbek-Hermel",
+   "seats": 10,
+   "seats_by_confession": {
+    "Shia": 6,
+    "Sunni": 2,
+    "Maronite": 1,
+    "Greek Catholic": 1
+   },
+   "registered": 255637,
+   "voters": 126038,
+   "turnout": 49.3,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 10
+   },
+   "winners": [
+    {
+     "name": "Émile Georges Rahme",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 109104,
+     "affiliation": null
+    },
+    {
+     "name": "Kamal Mohammad Al Rifail",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 108678,
+     "affiliation": "IslmActFrnt"
+    },
+    {
+     "name": "Ali Mohammad Salman Bashir Al Moqdad",
+     "seat": "Shia",
+     "list": null,
+     "votes": 108455,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Nawwar Mohammad Al Sahily",
+     "seat": "Shia",
+     "list": null,
+     "votes": 108290,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Al Walid Mohammad Sukarieh",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 108178,
+     "affiliation": "IslmActFrnt"
+    },
+    {
+     "name": "Hussein Ali Al Hajj Hassan",
+     "seat": "Shia",
+     "list": null,
+     "votes": 108062,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Marwan Farès Farès",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 107885,
+     "affiliation": "SSNP"
+    },
+    {
+     "name": "Ghazi Mohammad Zaiter",
+     "seat": "Shia",
+     "list": null,
+     "votes": 107212,
+     "affiliation": "Amal"
+    },
+    {
+     "name": "Hussein Ali Al Moussawi",
+     "seat": "Shia",
+     "list": null,
+     "votes": 104707,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Assem Mohammad Kanso",
+     "seat": "Shia",
+     "list": null,
+     "votes": 102442,
+     "affiliation": "Baath"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Fadi Ali Younès",
+     "seat": "Shia",
+     "votes": 14753
+    }
+   ]
+  },
+  {
+   "district": "Zahle",
+   "adm": "Bekaa",
+   "seats": 7,
+   "seats_by_confession": {
+    "Greek Catholic": 2,
+    "Sunni": 1,
+    "Shia": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 1,
+    "Armenian Orthodox": 1
+   },
+   "registered": 158005,
+   "voters": 91848,
+   "turnout": 58.12,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 7,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Élie Michel Marouni",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 49328,
+     "affiliation": "Kataëb"
+    },
+    {
+     "name": "Okab Okab Saker",
+     "seat": "Shia",
+     "list": null,
+     "votes": 49238,
+     "affiliation": null
+    },
+    {
+     "name": "Shant Marderos Janjanian",
+     "seat": "Armenian Orthodox",
+     "list": null,
+     "votes": 48527,
+     "affiliation": null
+    },
+    {
+     "name": "Aassem Fayez Arraji",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 48524,
+     "affiliation": null
+    },
+    {
+     "name": "Joseph Anis Maalouf",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 48288,
+     "affiliation": null
+    },
+    {
+     "name": "Tony Mikhael Abou Khater",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 47999,
+     "affiliation": null
+    },
+    {
+     "name": "Nicola Michel Fattoush",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 47709,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Elias Al Skaff",
+     "seat": "Greek Catholic",
+     "votes": 42975
+    }
+   ]
+  },
+  {
+   "district": "West Bekaa-Rachaya",
+   "adm": "Bekaa",
+   "seats": 6,
+   "seats_by_confession": {
+    "Sunni": 2,
+    "Shia": 1,
+    "Druze": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": 122487,
+   "voters": 65237,
+   "turnout": 53.26,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 6,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Robert Iskander Ghanem",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 35429,
+     "affiliation": null
+    },
+    {
+     "name": "Wael Wehbi Abou Faour",
+     "seat": "Druze",
+     "list": null,
+     "votes": 35184,
+     "affiliation": null
+    },
+    {
+     "name": "Ziad Nazem Al Kadri",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 34886,
+     "affiliation": null
+    },
+    {
+     "name": "Amin Mohammad Wehbé",
+     "seat": "Shia",
+     "list": null,
+     "votes": 34424,
+     "affiliation": "DLM"
+    },
+    {
+     "name": "Antoine Nicola Saad",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 33729,
+     "affiliation": null
+    },
+    {
+     "name": "Jamal Salim Jarrah",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 33389,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Élie Najib Ferzli",
+     "seat": "Greek Orthodox",
+     "votes": 29344
+    },
+    {
+     "name": "Abdul Rahim Youssef Mraad",
+     "seat": "Sunni",
+     "votes": 29095
+    }
+   ]
+  },
+  {
+   "district": "Saida",
+   "adm": "South",
+   "seats": 2,
+   "seats_by_confession": {
+    "Sunni": 2
+   },
+   "registered": 53859,
+   "voters": 36401,
+   "turnout": 67.58,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 2,
+    "March 8": 0
+   },
+   "winners": [
+    {
+     "name": "Bahia Bahaa Eddine Hariri",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 25460,
+     "affiliation": "FM"
+    },
+    {
+     "name": "Fouad Abdel Baset Al Siniora",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 23041,
+     "affiliation": "FM"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Oussama Maarouf Saad Al Masri",
+     "seat": "Sunni",
+     "votes": 13512
+    }
+   ]
+  },
+  {
+   "district": "Zahrani",
+   "adm": "South",
+   "seats": 3,
+   "seats_by_confession": {
+    "Shia": 2,
+    "Greek Catholic": 1
+   },
+   "registered": 92995,
+   "voters": 49886,
+   "turnout": 53.64,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Nabih Moustapha Berri",
+     "seat": "Shia",
+     "list": null,
+     "votes": 45305,
+     "affiliation": "Amal"
+    },
+    {
+     "name": "Ali Adel Ousseiran",
+     "seat": "Shia",
+     "list": null,
+     "votes": 43746,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Michel Hanna Moussa",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 43648,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Riad Said El Assaad",
+     "seat": "Shia",
+     "votes": 3574
+    },
+    {
+     "name": "Robert Elias Khoury",
+     "seat": "Greek Catholic",
+     "votes": 3101
+    }
+   ]
+  },
+  {
+   "district": "Jezzine",
+   "adm": "South",
+   "seats": 3,
+   "seats_by_confession": {
+    "Maronite": 2,
+    "Greek Catholic": 1
+   },
+   "registered": 54188,
+   "voters": 29225,
+   "turnout": 53.93,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Ziad Michel Aswad",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 15648,
+     "affiliation": "FPM"
+    },
+    {
+     "name": "Issam Nkoula Sawaya",
+     "seat": "Greek Catholic",
+     "list": null,
+     "votes": 14914,
+     "affiliation": null
+    },
+    {
+     "name": "Michel Tanious El Hélou",
+     "seat": "Maronite",
+     "list": null,
+     "votes": 13291,
+     "affiliation": null
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Samir Ibrahim Azar",
+     "seat": "Maronite",
+     "votes": 10792
+    }
+   ]
+  },
+  {
+   "district": "Marjayoun-Hasbaya",
+   "adm": "Nabatieh",
+   "seats": 5,
+   "seats_by_confession": {
+    "Shia": 2,
+    "Sunni": 1,
+    "Druze": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": 138844,
+   "voters": 64975,
+   "turnout": 46.79,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 5
+   },
+   "winners": [
+    {
+     "name": "Anwar Mohammad Al Khalil",
+     "seat": "Druze",
+     "list": null,
+     "votes": 50837,
+     "affiliation": null
+    },
+    {
+     "name": "Ali Hassan Khalil",
+     "seat": "Shia",
+     "list": null,
+     "votes": 47964,
+     "affiliation": null
+    },
+    {
+     "name": "Assad Halim Hardane",
+     "seat": "Greek Orthodox",
+     "list": null,
+     "votes": 46690,
+     "affiliation": "SSNP"
+    },
+    {
+     "name": "Ali Rachid Fayad",
+     "seat": "Shia",
+     "list": null,
+     "votes": 46674,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Qassem Omar Hashem",
+     "seat": "Sunni",
+     "list": null,
+     "votes": 46482,
+     "affiliation": "Baath"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Mounif Ahmad Al Khatib",
+     "seat": "Sunni",
+     "votes": 13418
+    }
+   ]
+  },
+  {
+   "district": "Nabatieh",
+   "adm": "Nabatieh",
+   "seats": 3,
+   "seats_by_confession": {
+    "Shia": 3
+   },
+   "registered": 121912,
+   "voters": 68829,
+   "turnout": 56.45,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Mohammad Hassan Raad",
+     "seat": "Shia",
+     "list": null,
+     "votes": 62720,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Yassine Kamel Jaber",
+     "seat": "Shia",
+     "list": null,
+     "votes": 60068,
+     "affiliation": null
+    },
+    {
+     "name": "Abdullatif Beik Youssef Azzein",
+     "seat": "Shia",
+     "list": null,
+     "votes": 55250,
+     "affiliation": "Amal"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Adham Mohammad Jaber",
+     "seat": "Shia",
+     "votes": 3866
+    },
+    {
+     "name": "Nadim Samih Osseiran",
+     "seat": "Shia",
+     "votes": 3094
+    }
+   ]
+  },
+  {
+   "district": "Tyre",
+   "adm": "South",
+   "seats": 4,
+   "seats_by_confession": {
+    "Shia": 4
+   },
+   "registered": 153060,
+   "voters": 74941,
+   "turnout": 48.96,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 4
+   },
+   "winners": [
+    {
+     "name": "Adbul Majid Ali Saleh",
+     "seat": "Shia",
+     "list": null,
+     "votes": 69362,
+     "affiliation": "Amal"
+    },
+    {
+     "name": "Mohammad Abdel Moutaleb Fneish",
+     "seat": "Shia",
+     "list": null,
+     "votes": 69059,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Nawaf Mahmoud Al Moussawi",
+     "seat": "Shia",
+     "list": null,
+     "votes": 68991,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Ali Youssef Khreiss",
+     "seat": "Shia",
+     "list": null,
+     "votes": 67754,
+     "affiliation": "Amal"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Al Sayed Jamal Al Sayyed Safieddine",
+     "seat": "Shia",
+     "votes": 2322
+    },
+    {
+     "name": "Ali Sayyed Mohammad Baker Al Amin LbOpGrp",
+     "seat": "Shia",
+     "votes": 1946
+    }
+   ]
+  },
+  {
+   "district": "Bint Jbeil",
+   "adm": "Nabatieh",
+   "seats": 3,
+   "seats_by_confession": {
+    "Shia": 3
+   },
+   "registered": 123396,
+   "voters": 52899,
+   "turnout": 42.86,
+   "lists": [],
+   "alliance_seats": {
+    "March 14": 0,
+    "March 8": 3
+   },
+   "winners": [
+    {
+     "name": "Hassan Nizam Eldine Fadlallah",
+     "seat": "Shia",
+     "list": null,
+     "votes": 49852,
+     "affiliation": "Hezbollah"
+    },
+    {
+     "name": "Ali Ahmad Bazzi",
+     "seat": "Shia",
+     "list": null,
+     "votes": 49220,
+     "affiliation": "Amal"
+    },
+    {
+     "name": "Ayoub Fahd Hmayyed",
+     "seat": "Shia",
+     "list": null,
+     "votes": 48775,
+     "affiliation": "Amal"
+    }
+   ],
+   "other_candidates": [
+    {
+     "name": "Ali Akil Mhanna Leb Options",
+     "seat": "Shia",
+     "votes": 617
+    }
+   ]
+  }
+ ],
+ "national": {
+  "registered": 3258573,
+  "voters": 1758901,
+  "turnout": 53.98,
+  "sources": [
+   "https://www.idea.int/data-tools/data/country?country=124&database_theme=293"
+  ]
+ },
+ "notes": [
+  "registered/voters/turnout per district: IFES, registered = 2009 register; winners and votes: IFES (Sept 2011); affiliation is the winner affiliation as of 2011 per IFES, not a ballot list (no lists in 2009).",
+  "alliance_seats: March 14 and March 8 seats per district from Wikipedia table; its percentage shares contain typos and are not included.",
+  "Per-district seat order is by IFES rank (elected first)."
+ ],
+ "source": [
+  "https://qifanabki.com/wp-content/uploads/2011/10/ifes-lebanon-electoral-districts-2011.pdf",
+  "https://en.wikipedia.org/wiki/2009_Lebanese_general_election",
+  "https://recef.org/wp-content/plugins/cpt-bibliotheque/telecharger.php?id=1148"
+ ],
+ "license": "IFES publication (no licence stated; facts only, attributed); Wikipedia CC BY-SA 4.0"
+}

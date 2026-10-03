@@ -1,0 +1,89 @@
+{
+ "events": [
+  {
+   "date": "2020-03-07",
+   "title": "Lebanon announces it will withhold payment on its US$1.2bn 6.375% Eurobond due 9 March 2020",
+   "source": "https://www.finance.gov.lb/en-us/Finance/PublicDebt/Pages/Eurobonds-Restructuring-Information-for-Creditors.aspx",
+   "type": "default"
+  },
+  {
+   "date": "2020-03-09",
+   "title": "US$1.2bn Eurobond matures unpaid",
+   "type": "default",
+   "source": "https://www.finance.gov.lb/en-us/Finance/PublicDebt/Pages/Eurobonds-Restructuring-Information-for-Creditors.aspx"
+  },
+  {
+   "date": "2020-03-23",
+   "title": "Lebanon discontinues payments on all its outstanding US$-denominated Eurobonds",
+   "type": "default",
+   "source": "https://www.finance.gov.lb/en-us/Finance/PublicDebt/Info%20for%20Creditors/Lebanon%20will%20discontinue%20payments%20on%20all%20its%20foreign%20currency%20denominated%20Eurobonds.pdf"
+  },
+  {
+   "date": "2020-03-27",
+   "title": "MoF investor presentation: Eurobonds of US$31,314m to be restructured; BDL FX holdings c. US$29bn in January 2020 (US$22bn liquid)",
+   "type": "default",
+   "source": "https://www.finance.gov.lb/en-us/Finance/PublicDebt/Info%20for%20Creditors/Investor%20Presentation%2027%20March%202020_Final.pdf"
+  },
+  {
+   "date": null,
+   "title": "Council of Ministers suspends Eurobond prescription periods until 9 March 2028",
+   "type": "default",
+   "source": "https://www.finance.gov.lb/en-us/Finance/PublicDebt/Pages/Eurobonds-Restructuring-Information-for-Creditors.aspx"
+  },
+  {
+   "date": "2022-04-07",
+   "title": "IMF staff-level agreement with Lebanon on a 46-month Extended Fund Facility, access SDR 2,173.9 million (about US$3 billion), subject to prior actions and Board approval; no Board approval followed",
+   "type": "imf",
+   "source": "https://www.imf.org/en/news/articles/2022/04/07/pr22108-imf-reaches-agreement-on-economic-policies-with-lebanon-for-a-four-year-fund-facility"
+  },
+  {
+   "date": "2022-09-21",
+   "title": "IMF staff visit: prior actions under the April 2022 agreement still pending before the Board can consider a programme",
+   "type": "imf",
+   "source": "https://reliefweb.int/report/lebanon/imf-staff-concludes-visit-lebanon-september-21-2022"
+  },
+  {
+   "date": "2025-06-05",
+   "title": "IMF staff concludes mission to Lebanon (press release 25/182)",
+   "type": "imf",
+   "source": "https://www.imf.org/en/news/articles/2025/06/05/pr-25182-lebanon-imf-staff-concludes-mission-to-lebanon"
+  },
+  {
+   "date": "2026-02-13",
+   "title": "IMF staff visit 10-13 February 2026: discussed the draft financial-gap (FSDR) law, bank resolution law amendments and a medium-term fiscal framework (press release 26/050)",
+   "type": "imf",
+   "source": "https://www.imf.org/en/news/articles/2026/02/13/pr-26050-lebanon-imf-staff-concludes-visit"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "IMF staff visit 15-18 September 2026: welcomed bank resolution law amendments and budget management; FSDR law still to be aligned with international standards; no programme yet (press release 26/297)",
+   "type": "imf",
+   "source": "https://www.imf.org/en/news/articles/2026/09/18/pr26297-lebanon-imf-staff-concludes-visit-to-lebanon"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "Finance Minister says Lebanon hopes for a new IMF staff-level agreement; a full programme still requires the financial gap law (Reuters)",
+   "type": "imf",
+   "source": "https://www.reuters.com/world/middle-east/lebanon-hopes-for-new-staff-level-agreement-with-imf-2026-09-28/"
+  },
+  {
+   "date": "2023-02-01",
+   "title": "BDL changes the official exchange rate from LBP 1,507.5 to LBP 15,000 per US dollar",
+   "type": "fx",
+   "source": "https://brite.blominvestbank.com/series/Commercial-Banks-Deposits-with-BDL-3179/"
+  },
+  {
+   "date": "2024-01-31",
+   "title": "Banks required (Circular 167) to convert foreign-currency balance-sheet accounts at LBP 89,500 per US dollar",
+   "type": "fx",
+   "source": "https://brite.blominvestbank.com/series/Commercial-Banks-Deposits-with-BDL-3179/"
+  },
+  {
+   "date": "2026-01-12",
+   "title": "Lebanese Eurobonds reach about 28.4 cents on the dollar, highest since March 2020 (Bloomberg)",
+   "type": "market",
+   "source": "https://www.bloomberg.com/news/articles/2026-01-12/lebanese-bonds-rally-to-six-year-high-on-hopes-over-banking-law"
+  }
+ ],
+ "note": "Dated money events (default, IMF, FX regime, bonds). Each carries a source URL. D7 leg, 2026-10-02."
+}

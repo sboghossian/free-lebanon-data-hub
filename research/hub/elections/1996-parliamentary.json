@@ -1,0 +1,220 @@
+{
+ "election": "1996 Lebanese parliamentary election",
+ "date": "1996-08-18",
+ "type": "parliamentary",
+ "law": "1996 election law: governorate districts, with Mount Lebanon divided into sub-districts",
+ "held": true,
+ "rounds": [
+  {
+   "date": "1996-08-18",
+   "area": "Mount Lebanon",
+   "seats": 35
+  },
+  {
+   "date": "1996-08-25",
+   "area": "North",
+   "seats": 28
+  },
+  {
+   "date": "1996-09-01",
+   "area": "Beirut",
+   "seats": 19
+  },
+  {
+   "date": "1996-09-08",
+   "area": "South",
+   "seats": 23
+  },
+  {
+   "date": "1996-09-15",
+   "area": "Bekaa",
+   "seats": 23
+  }
+ ],
+ "districts": [
+  {
+   "district": "Beirut",
+   "adm": "Beirut",
+   "seats": 19,
+   "seats_by_confession": {
+    "Maronite": 1,
+    "Greek Orthodox": 2,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 3,
+    "Armenian Catholic": 1,
+    "Sunni": 6,
+    "Shia": 2,
+    "Druze": 1,
+    "Minorities": 1,
+    "Evangelical": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Mount Lebanon",
+   "adm": "Mount Lebanon",
+   "seats": 35,
+   "seats_by_confession": {
+    "Maronite": 19,
+    "Shia": 3,
+    "Greek Orthodox": 3,
+    "Greek Catholic": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 5,
+    "Sunni": 2
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": 45.0,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "North",
+   "adm": "North",
+   "seats": 28,
+   "seats_by_confession": {
+    "Sunni": 11,
+    "Alawite": 2,
+    "Greek Orthodox": 6,
+    "Maronite": 9
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "South",
+   "adm": "South",
+   "seats": 23,
+   "seats_by_confession": {
+    "Sunni": 3,
+    "Shia": 14,
+    "Greek Catholic": 2,
+    "Maronite": 2,
+    "Druze": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Bekaa",
+   "adm": "Bekaa",
+   "seats": 23,
+   "seats_by_confession": {
+    "Shia": 8,
+    "Sunni": 5,
+    "Maronite": 3,
+    "Greek Catholic": 3,
+    "Greek Orthodox": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  }
+ ],
+ "national": {
+  "registered": 2571476,
+  "voters": 1113130,
+  "turnout": 43.3,
+  "registered_alt": 2577257,
+  "voters_alt": 1112249,
+  "party_seats": [
+   {
+    "name": "Amal Movement",
+    "seats": 8
+   },
+   {
+    "name": "Hezbollah",
+    "seats": 7
+   },
+   {
+    "name": "Syrian Social Nationalist Party",
+    "seats": 5
+   },
+   {
+    "name": "Progressive Socialist Party",
+    "seats": 5
+   },
+   {
+    "name": "Arab Socialist Ba'ath Party",
+    "seats": 2
+   },
+   {
+    "name": "Islamic Group",
+    "seats": 1
+   },
+   {
+    "name": "Toilers League",
+    "seats": 1
+   },
+   {
+    "name": "Popular Nasserist Organization",
+    "seats": 1
+   },
+   {
+    "name": "Promise Party",
+    "seats": 1
+   },
+   {
+    "name": "Armenian Revolutionary Federation",
+    "seats": 1
+   },
+   {
+    "name": "Social Democrat Hunchakian Party",
+    "seats": 1
+   },
+   {
+    "name": "Armenian Democratic Liberal Party",
+    "seats": 1
+   },
+   {
+    "name": "Arab Democratic Party",
+    "seats": 0
+   },
+   {
+    "name": "Al-Ahbash",
+    "seats": 0
+   },
+   {
+    "name": "Kataeb Party",
+    "seats": 0
+   },
+   {
+    "name": "Independents",
+    "seats": 94
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/1996_Lebanese_general_election",
+   "https://www.idea.int/data-tools/data/country?country=124&database_theme=293",
+   "https://ipu.org/parline-e/reports/arc/2179_96.htm"
+  ]
+ },
+ "notes": [
+  "Districts are the five traditional governorates (muhafazat; Nabatieh counted with South, Akkar with North, Baalbek-Hermel with Bekaa, Keserwan-Jbeil with Mount Lebanon). Seats by confession per governorate are the allocation unchanged by qada since 1992 (IFES), summed from the 2009 qada allocation.",
+  "Per-district registered voters, turnout and winners were not found in a free structured public source; see README-D5.md for the gap.",
+  "Mount Lebanon round turnout about 45% (Wikipedia). National figures differ by source: Nohlen 2,571,476 registered and 43.3% (used here), IDEA 2,577,979 registered, 1,112,249 voters, 43.14%; IPU 2,577,257 registered, 1,137,040 voters (44.11%).",
+  "In May 1997 a judicial review removed four elected members (Wikipedia)."
+ ],
+ "source": [
+  "https://en.wikipedia.org/wiki/1996_Lebanese_general_election",
+  "https://ipu.org/parline-e/reports/arc/2179_96.htm",
+  "https://www.idea.int/data-tools/data/country?country=124&database_theme=293"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0 (Nohlen et al. handbook as cited there); IPU Parline archive and IDEA turnout database, no licence stated, facts only, attributed"
+}

@@ -1,0 +1,38 @@
+{"start": "1920-09-01", "end": "1943-11-22", "label": "French Mandate", "kind": "era", "source": "https://en.wikipedia.org/wiki/State_of_Greater_Lebanon", "confidence": "✅"}
+{"start": "1943-11-22", "end": "1975-04-13", "label": "First Republic", "kind": "era", "source": "https://en.wikipedia.org/wiki/State_of_Greater_Lebanon", "confidence": "✅"}
+{"start": "1943-09-21", "end": "1952-09-18", "label": "Khoury presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1952-09-23", "end": "1958-09-22", "label": "Chamoun presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1958-09-23", "end": "1964-09-22", "label": "Chehab presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1964-09-23", "end": "1970-09-22", "label": "Helou presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1970-09-23", "end": "1976-09-22", "label": "Frangieh presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1976-09-23", "end": "1982-09-22", "label": "Sarkis presidency", "kind": "era", "source": "https://en.wikipedia.org/wiki/Politics_of_Lebanon", "confidence": "🧪"}
+{"start": "1982-09-23", "end": "1988-09-22", "label": "Amine Gemayel presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1989-11-05", "end": "1989-11-22", "label": "Moawad presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "1989-11-24", "end": "1998-11-23", "label": "Hrawi presidency", "kind": "era", "source": "https://en.wikipedia.org/wiki/Taif_Agreement", "confidence": "🧪"}
+{"start": "1998-11-24", "end": "2007-11-23", "label": "Lahoud presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "2008-05-25", "end": "2014-05-25", "label": "Suleiman presidency", "kind": "era", "source": null, "confidence": "🧪"}
+{"start": "2016-10-31", "end": "2022-10-31", "label": "Aoun presidency", "kind": "era", "source": "https://en.wikipedia.org/wiki/2016_Lebanese_presidential_election", "confidence": "🧪"}
+{"start": "2025-01-09", "end": null, "label": "Joseph Aoun presidency", "kind": "era", "source": "https://en.wikipedia.org/wiki/List_of_presidents_of_Lebanon", "confidence": "✅"}
+{"start": "1948-05-15", "end": "1949-03-23", "label": "1948 Palestine war", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "1958-05-10", "end": "1958-10-25", "label": "1958 crisis", "kind": "war", "source": "https://en.wikipedia.org/wiki/1958_Lebanon_crisis", "confidence": "✅"}
+{"start": "1969-11-02", "end": "1982-09-01", "label": "PLO armed presence", "kind": "era", "source": "https://en.wikipedia.org/wiki/Cairo_Agreement_(1969)", "confidence": "✅"}
+{"start": "1975-04-13", "end": "1990-10-13", "label": "Civil war", "kind": "war", "source": "https://en.wikipedia.org/wiki/Lebanese_Civil_War", "confidence": "✅"}
+{"start": "1976-05-31", "end": "2005-04-26", "label": "Syrian military presence", "kind": "occupation", "source": "https://en.wikipedia.org/wiki/Syrian_occupation_of_Lebanon", "confidence": "✅"}
+{"start": "1978-03-14", "end": "2000-05-25", "label": "Israeli presence in south", "kind": "occupation", "source": "https://en.wikipedia.org/wiki/South_Lebanon_conflict_(1985%E2%80%932000)", "confidence": "✅"}
+{"start": "1982-06-06", "end": "1985-06-10", "label": "Israeli invasion and occupation", "kind": "occupation", "source": "https://en.wikipedia.org/wiki/South_Lebanon_conflict_(1985%E2%80%932000)", "confidence": "✅"}
+{"start": "1985-06-10", "end": "2000-05-25", "label": "Israeli security zone", "kind": "occupation", "source": "https://en.wikipedia.org/wiki/South_Lebanon_conflict_(1985%E2%80%932000)", "confidence": "✅"}
+{"start": "1982-06-05", "end": "1992-06-17", "label": "Western hostage crisis", "kind": "era", "source": "https://en.wikipedia.org/wiki/Lebanon_hostage_crisis", "confidence": "✅"}
+{"start": "1988-09-22", "end": "1989-11-05", "label": "Presidential vacuum, two governments", "kind": "vacuum", "source": null, "confidence": "🧪"}
+{"start": "1989-03-14", "end": "1990-10-13", "label": "Aoun's wars", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "1993-07-25", "end": "1993-07-31", "label": "Operation Accountability", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "1996-04-11", "end": "1996-04-27", "label": "Grapes of Wrath", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "2006-07-12", "end": "2006-08-14", "label": "July War", "kind": "war", "source": "https://en.wikipedia.org/wiki/2006_Lebanon_War", "confidence": "✅"}
+{"start": "2006-12-01", "end": "2008-05-21", "label": "Downtown sit-in crisis", "kind": "era", "source": "https://en.wikipedia.org/wiki/Politics_of_Lebanon", "confidence": "🧪"}
+{"start": "2007-05-20", "end": "2007-09-02", "label": "Nahr al-Bared battle", "kind": "war", "source": "https://en.wikipedia.org/wiki/2007_Lebanon_conflict", "confidence": "✅"}
+{"start": "2007-11-23", "end": "2008-05-25", "label": "Presidential vacuum", "kind": "vacuum", "source": "https://en.wikipedia.org/wiki/Politics_of_Lebanon", "confidence": "🧪"}
+{"start": "2008-06-01", "end": "2014-04-01", "label": "Tripoli Syria Street clashes", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "2011-03-15", "end": "2017-08-28", "label": "Syrian war spillover", "kind": "war", "source": "https://en.wikipedia.org/wiki/Syrian_civil_war_spillover_in_Lebanon", "confidence": "🧪"}
+{"start": "2014-05-25", "end": "2016-10-31", "label": "Presidential vacuum", "kind": "vacuum", "source": "https://en.wikipedia.org/wiki/2016_Lebanese_presidential_election", "confidence": "✅"}
+{"start": "2022-10-31", "end": "2025-01-09", "label": "Presidential vacuum", "kind": "vacuum", "source": "https://en.wikipedia.org/wiki/Politics_of_Lebanon", "confidence": "🧪"}
+{"start": "2023-10-08", "end": "2024-11-27", "label": "Israel-Hezbollah war", "kind": "war", "source": null, "confidence": "🧪"}
+{"start": "2026-03-02", "end": null, "label": "2026 Lebanon war", "kind": "war", "source": "https://en.wikipedia.org/wiki/2026_Lebanon_war", "confidence": "📣"}

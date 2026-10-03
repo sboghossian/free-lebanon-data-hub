@@ -1,0 +1,305 @@
+{
+"_note": "Common EN/AR/FR display names for major places; keys are gazetteer names. Override GeoNames spellings in the UI; search still matches every alt name.",
+"names": {
+"Beirut": {
+"en": "Beirut",
+"ar": "بيروت",
+"fr": "Beyrouth"
+},
+"Tripoli": {
+"en": "Tripoli",
+"ar": "طرابلس",
+"fr": "Tripoli"
+},
+"Saida": {
+"en": "Sidon",
+"ar": "صيدا",
+"fr": "Saïda"
+},
+"Sidon": {
+"en": "Sidon",
+"ar": "صيدا",
+"fr": "Saïda"
+},
+"Sour": {
+"en": "Tyre",
+"ar": "صور",
+"fr": "Tyr"
+},
+"Tyre": {
+"en": "Tyre",
+"ar": "صور",
+"fr": "Tyr"
+},
+"Nabatieh": {
+"en": "Nabatieh",
+"ar": "النبطية",
+"fr": "Nabatiyé"
+},
+"Nabatîyé et Tahta": {
+"en": "Nabatieh",
+"ar": "النبطية",
+"fr": "Nabatiyé"
+},
+"Zahle": {
+"en": "Zahle",
+"ar": "زحلة",
+"fr": "Zahlé"
+},
+"Zahlé": {
+"en": "Zahle",
+"ar": "زحلة",
+"fr": "Zahlé"
+},
+"Baalbek": {
+"en": "Baalbek",
+"ar": "بعلبك",
+"fr": "Baalbek"
+},
+"Baalbeck": {
+"en": "Baalbek",
+"ar": "بعلبك",
+"fr": "Baalbek"
+},
+"Jounieh": {
+"en": "Jounieh",
+"ar": "جونية",
+"fr": "Jounié"
+},
+"Jbail": {
+"en": "Byblos (Jbeil)",
+"ar": "جبيل",
+"fr": "Byblos"
+},
+"Jbeil": {
+"en": "Byblos (Jbeil)",
+"ar": "جبيل",
+"fr": "Byblos"
+},
+"Byblos": {
+"en": "Byblos (Jbeil)",
+"ar": "جبيل",
+"fr": "Byblos"
+},
+"Bent Jbail": {
+"en": "Bint Jbeil",
+"ar": "بنت جبيل",
+"fr": "Bint Jbeil"
+},
+"Bent Jubail": {
+"en": "Bint Jbeil",
+"ar": "بنت جبيل",
+"fr": "Bint Jbeil"
+},
+"Bint Jbeil": {
+"en": "Bint Jbeil",
+"ar": "بنت جبيل",
+"fr": "Bint Jbeil"
+},
+"Halba": {
+"en": "Halba",
+"ar": "حلبا",
+"fr": "Halba"
+},
+"Hermel": {
+"en": "Hermel",
+"ar": "الهرمل",
+"fr": "Hermel"
+},
+"Baabda": {
+"en": "Baabda",
+"ar": "بعبدا",
+"fr": "Baabda"
+},
+"Aley": {
+"en": "Aley",
+"ar": "عاليه",
+"fr": "Aley"
+},
+"Aaley": {
+"en": "Aley",
+"ar": "عاليه",
+"fr": "Aley"
+},
+"Jezzine": {
+"en": "Jezzine",
+"ar": "جزين",
+"fr": "Jezzine"
+},
+"Marjayoun": {
+"en": "Marjayoun",
+"ar": "مرجعيون",
+"fr": "Marjayoun"
+},
+"Marjayoûn": {
+"en": "Marjayoun",
+"ar": "مرجعيون",
+"fr": "Marjayoun"
+},
+"Hasbaya": {
+"en": "Hasbaya",
+"ar": "حاصبيا",
+"fr": "Hasbaya"
+},
+"Rashaya": {
+"en": "Rashaya",
+"ar": "راشيا",
+"fr": "Rachaya"
+},
+"Rachaiya": {
+"en": "Rashaya",
+"ar": "راشيا",
+"fr": "Rachaya"
+},
+"Zgharta": {
+"en": "Zgharta",
+"ar": "زغرتا",
+"fr": "Zghorta"
+},
+"Batroun": {
+"en": "Batroun",
+"ar": "البترون",
+"fr": "Batroun"
+},
+"Bcharre": {
+"en": "Bsharri",
+"ar": "بشري",
+"fr": "Bécharré"
+},
+"Bsharri": {
+"en": "Bsharri",
+"ar": "بشري",
+"fr": "Bécharré"
+},
+"Khiam": {
+"en": "Khiam",
+"ar": "الخيام",
+"fr": "Khiam"
+},
+"El Khiam": {
+"en": "Khiam",
+"ar": "الخيام",
+"fr": "Khiam"
+},
+"Qana": {
+"en": "Qana",
+"ar": "قانا",
+"fr": "Cana"
+},
+"Naqoura": {
+"en": "Naqoura",
+"ar": "الناقورة",
+"fr": "Naqoura"
+},
+"Ain el Delb": {
+"en": "Ain al-Delb",
+"ar": "عين الدلب",
+"fr": "Aïn el-Delb"
+},
+"Chtaura": {
+"en": "Chtaura",
+"ar": "شتورة",
+"fr": "Chtaura"
+},
+"Chtaoura": {
+"en": "Chtaura",
+"ar": "شتورة",
+"fr": "Chtaura"
+},
+"Anjar": {
+"en": "Anjar",
+"ar": "عنجر",
+"fr": "Anjar"
+},
+"Arsal": {
+"en": "Arsal",
+"ar": "عرسال",
+"fr": "Ersal"
+},
+"Aarsal": {
+"en": "Arsal",
+"ar": "عرسال",
+"fr": "Ersal"
+},
+"Akkar": {
+"en": "Akkar",
+"ar": "عكار",
+"fr": "Akkar"
+},
+"Damour": {
+"en": "Damour",
+"ar": "الدامور",
+"fr": "Damour"
+},
+"Dahieh": {
+"en": "Dahieh",
+"ar": "الضاحية",
+"fr": "Dahiyé"
+},
+"Haret Hreik": {
+"en": "Haret Hreik",
+"ar": "حارة حريك",
+"fr": "Haret Hreik"
+},
+"Byblos (Jbeil)": {
+"en": "Byblos (Jbeil)",
+"ar": "جبيل",
+"fr": "Byblos"
+},
+"Kfar Kila": {
+"en": "Kfar Kila",
+"ar": "كفركلا",
+"fr": "Kfar Kila"
+},
+"Aitaroun": {
+"en": "Aitaroun",
+"ar": "عيترون",
+"fr": "Aïtaroun"
+},
+"Aita ech Chaab": {
+"en": "Aita al-Shaab",
+"ar": "عيتا الشعب",
+"fr": "Aïta ech-Chaab"
+},
+"Yaroun": {
+"en": "Yaroun",
+"ar": "يارون",
+"fr": "Yaroun"
+},
+"Mais el Jabal": {
+"en": "Mays al-Jabal",
+"ar": "ميس الجبل",
+"fr": "Meiss el-Jabal"
+},
+"Houla": {
+"en": "Houla",
+"ar": "حولا",
+"fr": "Houla"
+},
+"Odaisseh": {
+"en": "Odaisseh",
+"ar": "العديسة",
+"fr": "Odaïssé"
+},
+"Rmaich": {
+"en": "Rmeish",
+"ar": "رميش",
+"fr": "Rmeich"
+},
+"Rmeish": {
+"en": "Rmeish",
+"ar": "رميش",
+"fr": "Rmeich"
+},
+"Ghandouriyeh": {
+"en": "Ghandouriyeh",
+"ar": "الغندورية",
+"fr": "Ghandouriyé"
+},
+"Ain Ebel": {
+"en": "Ain Ebel",
+"ar": "عين إبل",
+"fr": "Aïn Ebel"
+}
+}
+}

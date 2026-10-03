@@ -1,0 +1,56 @@
+{
+ "election": "2026 Lebanese parliamentary election",
+ "date": null,
+ "scheduled_date": "2026-05-10",
+ "type": "parliamentary",
+ "law": "Law No. 44/2017",
+ "held": false,
+ "status": "postponed",
+ "status_detail": "On 9 March 2026 parliament passed Law No. 41/2026 (Official Gazette, supplement to issue 11, 9 March 2026), an exceptional extension of its own term to 31 May 2028 because of the 2026 Lebanon war. The vote was 76 for, 41 against, 4 abstentions. Lebanese Forces, Free Patriotic Movement and some independent MPs challenged it; on 7 April 2026 the Constitutional Council (decision 7/2026) unanimously rejected the three appeals, but said parliament must shorten the extended term and hold elections once the exceptional circumstances end. No new election date is set; the vote is expected around May 2028. The election originally scheduled for 10 May 2026 was not held. IFES lists it as Cancelled. No 2026 register figure exists; the 3,967,507 shown under national.registered is the 2022 register (UNDP).",
+ "districts": [],
+ "national": {
+  "registered": 3967507,
+  "registered_note": "2022 register (3,967,507, UNDP; see 2022-parliamentary.json). Not a 2026 figure; IFES does not give a voter count for this election."
+ },
+ "source": [
+  "https://www.cc.gov.lb/documents/586/قرار_رقم_7_2026.pdf",
+  "http://www.cc.gov.lb/decisions-controle",
+  "https://carnegieendowment.org/middle-east/diwan/2026/03/lebanons-parliament-extends-its-term-under-fire",
+  "https://www.aa.com.tr/en/middle-east/lebanese-parliament-extends-its-mandate-by-2-years/3856274",
+  "https://www.mtv.com.lb/en/news/1678304",
+  "https://www.electionguide.org/elections/id/5069/",
+  "https://en.wikipedia.org/wiki/2028_Lebanese_general_election"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0; IFES Election Guide facts, attributed",
+ "notes": [
+  "No results exist. Verified 2026-10-03: law number, date, gazette and 31 May 2028 end date read in the Constitutional Council decision PDF (primary); vote count from Carnegie and Anadolu (not in the primary text); L'Orient Today and Legal Agenda returned 403 and were not read.",
+  "Confidence: law number, date, gazette, 31 May 2028 end date and decision 7/2026 (7 Apr, unanimous) read in the Constitutional Council PDF (high). Vote 76-41-4 from Carnegie and Anadolu only (medium-high). IFES page checked 2026-10-03: shows Cancelled and the two-year extension, no registered-voter figure."
+ ],
+ "extension_law": {
+  "law": "Law No. 41/2026",
+  "date": "2026-03-09",
+  "gazette": "Official Gazette, supplement to issue 11, 2026-03-09",
+  "term_extended_to": "2028-05-31",
+  "vote": {
+   "for": 76,
+   "against": 41,
+   "abstain": 4
+  },
+  "constitutional_council": {
+   "decision": "Decision No. 7/2026",
+   "date": "2026-04-07",
+   "outcome": "appeals 6/w/2026, 7/w/2026, 8/w/2026 rejected unanimously of the members present; extended term to be shortened and elections held once the exceptional circumstances end"
+  }
+ },
+ "new_date": null,
+ "new_date_note": "No date set. Term runs to 2028-05-31; election expected around May 2028 (Wikipedia: 'May 2028'). Constitutional Council says the term must be cut short if the emergency ends.",
+ "sources": [
+  "https://www.cc.gov.lb/documents/586/قرار_رقم_7_2026.pdf",
+  "http://www.cc.gov.lb/decisions-controle",
+  "https://carnegieendowment.org/middle-east/diwan/2026/03/lebanons-parliament-extends-its-term-under-fire",
+  "https://www.aa.com.tr/en/middle-east/lebanese-parliament-extends-its-mandate-by-2-years/3856274",
+  "https://www.mtv.com.lb/en/news/1678304",
+  "https://www.electionguide.org/elections/id/5069/",
+  "https://en.wikipedia.org/wiki/2028_Lebanese_general_election"
+ ]
+}

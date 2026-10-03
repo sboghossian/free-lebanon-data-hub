@@ -1,0 +1,2285 @@
+{
+ "series": [
+  {
+   "id": "pop_resident_model",
+   "label": "Resident population, modelled (OWID 1920-59; UN WPP via World Bank 1960-2025)",
+   "unit": "people",
+   "source": "https://api.worldbank.org/v2/country/LBN/indicator/SP.POP.TOTL?format=json",
+   "confidence": "✅",
+   "points": [
+    [
+     "1920",
+     769131,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1921",
+     783547,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1922",
+     798233,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1923",
+     813194,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1924",
+     828435,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1925",
+     843962,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1926",
+     859780,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1927",
+     875895,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1928",
+     892311,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1929",
+     909036,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1930",
+     926073,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1931",
+     943430,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1932",
+     961113,
+     "Census year: the 1932 count was 785,543-875,250 depending on source (see pop_census_official_estimates); this modelled value is higher and is not a count."
+    ],
+    [
+     "1933",
+     979126,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1934",
+     997478,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1935",
+     1016173,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1936",
+     1035219,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1937",
+     1054622,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1938",
+     1074388,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1939",
+     1094525,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1940",
+     1115039,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1941",
+     1135938,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1942",
+     1157228,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1943",
+     1178918,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1944",
+     1201014,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1945",
+     1223524,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1946",
+     1246456,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1947",
+     1269818,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1948",
+     1293618,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1949",
+     1320170,
+     "OWID composite series; pre-1950 values look interpolated (smooth annual growth), modelled not counted."
+    ],
+    [
+     "1950",
+     1349351,
+     "UN WPP era begins; Wikipedia Demographics also cites 1,350,000."
+    ],
+    [
+     "1951",
+     1387575,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1952",
+     1427087,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1953",
+     1468018,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1954",
+     1510417,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1955",
+     1554070,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1956",
+     1599146,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1957",
+     1645925,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1958",
+     1693554,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1959",
+     1742776,
+     "OWID (UN WPP-based)."
+    ],
+    [
+     "1960",
+     1794406,
+     ""
+    ],
+    [
+     "1961",
+     1850084,
+     ""
+    ],
+    [
+     "1962",
+     1909578,
+     ""
+    ],
+    [
+     "1963",
+     1970316,
+     ""
+    ],
+    [
+     "1964",
+     2030543,
+     ""
+    ],
+    [
+     "1965",
+     2088831,
+     ""
+    ],
+    [
+     "1966",
+     2148260,
+     ""
+    ],
+    [
+     "1967",
+     2206731,
+     ""
+    ],
+    [
+     "1968",
+     2266368,
+     ""
+    ],
+    [
+     "1969",
+     2328159,
+     ""
+    ],
+    [
+     "1970",
+     2386114,
+     ""
+    ],
+    [
+     "1971",
+     2446314,
+     ""
+    ],
+    [
+     "1972",
+     2509729,
+     ""
+    ],
+    [
+     "1973",
+     2572935,
+     ""
+    ],
+    [
+     "1974",
+     2635185,
+     ""
+    ],
+    [
+     "1975",
+     2693191,
+     "Civil war begins (13 Apr). Growth slows sharply in 1976 (+33,278 vs +58,006 in 1975)."
+    ],
+    [
+     "1976",
+     2726469,
+     ""
+    ],
+    [
+     "1977",
+     2762155,
+     ""
+    ],
+    [
+     "1978",
+     2822682,
+     ""
+    ],
+    [
+     "1979",
+     2882635,
+     ""
+    ],
+    [
+     "1980",
+     2944763,
+     ""
+    ],
+    [
+     "1981",
+     3008981,
+     ""
+    ],
+    [
+     "1982",
+     3054931,
+     ""
+    ],
+    [
+     "1983",
+     3094996,
+     ""
+    ],
+    [
+     "1984",
+     3152744,
+     ""
+    ],
+    [
+     "1985",
+     3217376,
+     ""
+    ],
+    [
+     "1986",
+     3300365,
+     ""
+    ],
+    [
+     "1987",
+     3385555,
+     ""
+    ],
+    [
+     "1988",
+     3454649,
+     ""
+    ],
+    [
+     "1989",
+     3525285,
+     ""
+    ],
+    [
+     "1990",
+     3595175,
+     "End of civil war; Wikipedia Demographics cites 3,594,000."
+    ],
+    [
+     "1991",
+     3668912,
+     ""
+    ],
+    [
+     "1992",
+     3747371,
+     ""
+    ],
+    [
+     "1993",
+     3820647,
+     ""
+    ],
+    [
+     "1994",
+     3889799,
+     ""
+    ],
+    [
+     "1995",
+     3960735,
+     ""
+    ],
+    [
+     "1996",
+     4034781,
+     ""
+    ],
+    [
+     "1997",
+     4108405,
+     ""
+    ],
+    [
+     "1998",
+     4181281,
+     ""
+    ],
+    [
+     "1999",
+     4255277,
+     ""
+    ],
+    [
+     "2000",
+     4329340,
+     ""
+    ],
+    [
+     "2001",
+     4401918,
+     ""
+    ],
+    [
+     "2002",
+     4463504,
+     ""
+    ],
+    [
+     "2003",
+     4525508,
+     ""
+    ],
+    [
+     "2004",
+     4599279,
+     ""
+    ],
+    [
+     "2005",
+     4671102,
+     ""
+    ],
+    [
+     "2006",
+     4751136,
+     ""
+    ],
+    [
+     "2007",
+     4844118,
+     ""
+    ],
+    [
+     "2008",
+     4925354,
+     ""
+    ],
+    [
+     "2009",
+     4992287,
+     ""
+    ],
+    [
+     "2010",
+     5041288,
+     ""
+    ],
+    [
+     "2011",
+     5096020,
+     ""
+    ],
+    [
+     "2012",
+     5235742,
+     ""
+    ],
+    [
+     "2013",
+     5743436,
+     "Jumps +507,694 in one year: Syrian arrivals are counted in the UN/World Bank resident total."
+    ],
+    [
+     "2014",
+     6346990,
+     ""
+    ],
+    [
+     "2015",
+     6472469,
+     "Series peak 6,472,469 (includes Syrian refugees and Palestinian refugees in camps)."
+    ],
+    [
+     "2016",
+     6323060,
+     ""
+    ],
+    [
+     "2017",
+     6160128,
+     ""
+    ],
+    [
+     "2018",
+     5984119,
+     "Conflicts with CAS 2018-19 survey estimate of about 4.8 million residents: CAS excludes camps, informal settlements and non-residential units."
+    ],
+    [
+     "2019",
+     5794594,
+     ""
+    ],
+    [
+     "2020",
+     5702398,
+     "Lowest since 2012 (5,702,398); emigration plus Syrian returns."
+    ],
+    [
+     "2021",
+     5718122,
+     ""
+    ],
+    [
+     "2022",
+     5744489,
+     ""
+    ],
+    [
+     "2023",
+     5773493,
+     ""
+    ],
+    [
+     "2024",
+     5805962,
+     ""
+    ],
+    [
+     "2025",
+     5849421,
+     "Latest value in World Bank series updated 2026-07-13; a model estimate, not a count."
+    ]
+   ],
+   "note": "Lebanon has had no census since 1932. 1920-1959 from OWID (https://ourworldindata.org/grapher/population); 1960+ from World Bank API (UN WPP, updated 2026-07-13). Counts foreign residents incl. refugees."
+  },
+  {
+   "id": "pop_census_official_estimates",
+   "label": "Census and official/CAS population estimates (separate from model series)",
+   "unit": "people",
+   "source": "https://en.wikipedia.org/wiki/Demographics_of_Lebanon",
+   "confidence": "📣",
+   "points": [
+    [
+     "1932",
+     793396,
+     "[✅ read: Wikipedia Demographics] Only census ever published. CONFLICT: 785,543 (search summary, not opened); 861,399 incl. Lebanese abroad (search summary, not opened); 875,250 (Fanack, https://fanack.com/lebanon/population-of-lebanon/, read). Tally differs by source; treat as 0.79-0.88 million."
+    ],
+    [
+     "1956",
+     1411000,
+     "[✅ read: Wikipedia Demographics; Fanack says 1.411 million] Search summary gives exact 1,411,416. Government estimate, not a census."
+    ],
+    [
+     "2007",
+     3759100,
+     "[📣 search summary of CAS Living Conditions Survey, not opened] CONFLICT: Wikipedia Demographics gives 4,810,000 for 2007 (UN-type estimate); World Bank model 4,844,118. CAS figure covers residents only, excluding camps."
+    ],
+    [
+     "2018",
+     4800000,
+     "[✅ read: Fanack] CAS Labour Force and Household Living Conditions Survey 2018-19: about 4.8 million (80% Lebanese, 20% non-Lebanese). Search summary says 4.842 million for mid-2018. Excludes camps, informal settlements, barracks. CONFLICT: World Bank model 5,984,119 for 2018."
+    ],
+    [
+     "2018",
+     6100075,
+     "[✅ read: Wikipedia Demographics, source of figure not named] Total 6,100,075 incl. 4,680,212 Lebanese nationals. Different basis from CAS."
+    ],
+    [
+     "2021",
+     5260000,
+     "[✅ read: Fanack] CIA World Factbook, first half 2021: 5.26 million."
+    ]
+   ]
+  },
+  {
+   "id": "emig_information_international",
+   "label": "Lebanese emigrants per year (Information International, from General Security departures/arrivals)",
+   "unit": "people",
+   "source": "https://www.middleeastmonitor.com/20220209-lebanon-emigration-increased-by-346-last-year/",
+   "confidence": "📣",
+   "points": [
+    [
+     "2018",
+     18863,
+     "[📣 search summary, figure not seen on a read page] Information International 2022 study; period total 215,653 is for 2017-2021."
+    ],
+    [
+     "2019",
+     null,
+     "NOT STATED. Sources conflict: SOAS LAU says emigration fell by 49,085 from 2019 to 2020 (implies about 66,806) but the 2018-2021 total of 195,433 implies about 79,700. No value published here."
+    ],
+    [
+     "2020",
+     17721,
+     "[✅ read: BLOMINVEST, Middle East Monitor] COVID year; airport closed from mid-March to 1 July 2020."
+    ],
+    [
+     "2021",
+     79134,
+     "[✅ read: BLOMINVEST, MEMO, AUB] +346% vs 2020 (4.5x). CONFLICT: LAU SOAS (read) says 77,777. Based on General Security data; it is departures net of arrivals per search summary, but BLOMINVEST does not state the method."
+    ]
+   ],
+   "note": "Period totals: 195,433 for 2018-2021 (LAU SOAS, read); 215,653 for 2017-2021 (search summary). Year-by-year 2022-2024 not found in any source I opened."
+  },
+  {
+   "id": "emig_general_security_1992_2018",
+   "label": "Lebanese emigrants 1992-2018 (General Security departures minus arrivals)",
+   "unit": "people",
+   "source": "https://monthlymagazine.com/en/article/4825/600000-lebanese-have-left-lebanon-since-1992",
+   "confidence": "✅",
+   "points": [
+    [
+     "1992-2018",
+     602227,
+     "Total over 27 years, average 22,305 a year. Peak years 1992, 1993, 2006, 2011-2014, 2018. Yearly table is an image, values not extractable."
+    ],
+    [
+     "1998",
+     -8323,
+     "Net immigration year: 8,323 more arrivals than departures."
+    ],
+    [
+     "2008-2017",
+     718584,
+     "CONFLICT: alternative count by 'some scholars' cited in the same article: 718,584 departures in 2008-2017 alone (71,858 a year), higher than the 602,227 above for 27 years. Different definition (gross departures likely); not verified."
+    ]
+   ]
+  },
+  {
+   "id": "emig_iom_2025",
+   "label": "Border crossings 2025 (IOM via The Beiruter)",
+   "unit": "people",
+   "source": "https://www.thebeiruter.com/article/what-2025%E2%80%99s-migration-figures-say/897",
+   "confidence": "✅",
+   "points": [
+    [
+     "2025",
+     220279,
+     "Net outflow: about 2.85 million departures vs 2.63 million arrivals. Counts all border crossings (residents, visitors, Syrians), not only Lebanese. CONFLICT: World Bank/UN model gives net migration of -10,230 for 2025 (see emig_wb_net_migration_model)."
+    ]
+   ]
+  },
+  {
+   "id": "emig_wb_net_migration_model",
+   "label": "Net migration, modelled (UN WPP via World Bank)",
+   "unit": "people (negative = net outflow)",
+   "source": "https://api.worldbank.org/v2/country/LBN/indicator/SM.POP.NETM?format=json",
+   "confidence": "✅",
+   "points": [
+    [
+     "1960",
+     0,
+     ""
+    ],
+    [
+     "1961",
+     4844,
+     ""
+    ],
+    [
+     "1962",
+     4569,
+     ""
+    ],
+    [
+     "1963",
+     4269,
+     ""
+    ],
+    [
+     "1964",
+     1311,
+     ""
+    ],
+    [
+     "1965",
+     -742,
+     ""
+    ],
+    [
+     "1966",
+     2864,
+     ""
+    ],
+    [
+     "1967",
+     -3434,
+     ""
+    ],
+    [
+     "1968",
+     4506,
+     ""
+    ],
+    [
+     "1969",
+     0,
+     ""
+    ],
+    [
+     "1970",
+     -4508,
+     ""
+    ],
+    [
+     "1971",
+     3042,
+     ""
+    ],
+    [
+     "1972",
+     294,
+     ""
+    ],
+    [
+     "1973",
+     482,
+     ""
+    ],
+    [
+     "1974",
+     -3831,
+     ""
+    ],
+    [
+     "1975",
+     0,
+     ""
+    ],
+    [
+     "1976",
+     0,
+     ""
+    ],
+    [
+     "1977",
+     0,
+     ""
+    ],
+    [
+     "1978",
+     0,
+     ""
+    ],
+    [
+     "1979",
+     -2103,
+     ""
+    ],
+    [
+     "1980",
+     2104,
+     ""
+    ],
+    [
+     "1981",
+     -1799,
+     ""
+    ],
+    [
+     "1982",
+     -12981,
+     ""
+    ],
+    [
+     "1983",
+     -14558,
+     ""
+    ],
+    [
+     "1984",
+     -2785,
+     ""
+    ],
+    [
+     "1985",
+     -1108,
+     ""
+    ],
+    [
+     "1986",
+     33549,
+     "Positive spike of 33,549 during civil war, modelled."
+    ],
+    [
+     "1987",
+     607,
+     ""
+    ],
+    [
+     "1988",
+     -1916,
+     ""
+    ],
+    [
+     "1989",
+     -1827,
+     ""
+    ],
+    [
+     "1990",
+     -6595,
+     ""
+    ],
+    [
+     "1991",
+     1159,
+     ""
+    ],
+    [
+     "1992",
+     -970,
+     ""
+    ],
+    [
+     "1993",
+     -5196,
+     ""
+    ],
+    [
+     "1994",
+     -4850,
+     ""
+    ],
+    [
+     "1995",
+     2634,
+     ""
+    ],
+    [
+     "1996",
+     3164,
+     ""
+    ],
+    [
+     "1997",
+     1313,
+     ""
+    ],
+    [
+     "1998",
+     1062,
+     ""
+    ],
+    [
+     "1999",
+     2589,
+     ""
+    ],
+    [
+     "2000",
+     455,
+     ""
+    ],
+    [
+     "2001",
+     -1094,
+     ""
+    ],
+    [
+     "2002",
+     -21543,
+     ""
+    ],
+    [
+     "2003",
+     1674,
+     ""
+    ],
+    [
+     "2004",
+     4974,
+     ""
+    ],
+    [
+     "2005",
+     1224,
+     ""
+    ],
+    [
+     "2006",
+     25126,
+     ""
+    ],
+    [
+     "2007",
+     27944,
+     ""
+    ],
+    [
+     "2008",
+     430,
+     ""
+    ],
+    [
+     "2009",
+     -2700,
+     ""
+    ],
+    [
+     "2010",
+     -40915,
+     ""
+    ],
+    [
+     "2011",
+     2246,
+     ""
+    ],
+    [
+     "2012",
+     124427,
+     ""
+    ],
+    [
+     "2013",
+     733500,
+     "Syrian inflow."
+    ],
+    [
+     "2014",
+     301111,
+     ""
+    ],
+    [
+     "2015",
+     -239829,
+     "Large modelled outflow starts (Syrian and other departures and revisions)."
+    ],
+    [
+     "2016",
+     -247921,
+     ""
+    ],
+    [
+     "2017",
+     -253664,
+     ""
+    ],
+    [
+     "2018",
+     -259700,
+     ""
+    ],
+    [
+     "2019",
+     -266992,
+     ""
+    ],
+    [
+     "2020",
+     -47787,
+     ""
+    ],
+    [
+     "2021",
+     -27290,
+     ""
+    ],
+    [
+     "2022",
+     -27507,
+     ""
+    ],
+    [
+     "2023",
+     -34193,
+     ""
+    ],
+    [
+     "2024",
+     -17267,
+     ""
+    ],
+    [
+     "2025",
+     -10230,
+     "CONFLICT with IOM border data (220,279 net outflow for 2025)."
+    ]
+   ],
+   "note": "Modelled, smoothed UN WPP estimates. Do not read year-to-year changes as observed flows."
+  },
+  {
+   "id": "emig_civil_war_periods",
+   "label": "Emigration estimates by period (academic and secondary)",
+   "unit": "people in period",
+   "source": "https://sites.aub.edu.lb/datavisualization/2022/11/29/wave-after-wave-the-lebanese-brain-drain/",
+   "confidence": "📣",
+   "points": [
+    [
+     "1945-1960",
+     3000,
+     "[✅ read: AUB data visualization] Pre-war, small."
+    ],
+    [
+     "1960-1970",
+     8000,
+     "[✅ read: AUB]"
+    ],
+    [
+     "1970-1975",
+     10000,
+     "[✅ read: AUB] Labaki (2005) per search summary."
+    ],
+    [
+     "1975-1989",
+     990000,
+     "[✅ read: AUB, Wikipedia Lebanese diaspora] About 40% of population. CONFLICT with the range below."
+    ],
+    [
+     "1975-1990",
+     600000,
+     "[✅ read: Wikipedia Demographics] Range 600,000-900,000 'fled the country'. Search summaries also show 680,000-990,000. Estimates vary by method; none is a count."
+    ],
+    [
+     "1991-2009",
+     220000,
+     "[📣 search summary, not opened] Range 220,000-400,000."
+    ]
+   ],
+   "note": "Kasparian/NDU LERC surveyed about 900,000 emigrants for 1975-2001 (search summary, LERC paper URL returned 404, not read)."
+  },
+  {
+   "id": "airport_pax_annual",
+   "label": "Beirut-Rafic Hariri airport total passengers per year",
+   "unit": "passengers",
+   "source": "https://en.wikipedia.org/wiki/Beirut%E2%80%93Rafic_Hariri_International_Airport",
+   "confidence": "✅",
+   "points": [
+    [
+     "1990",
+     637944,
+     "Earliest year in table; civil war ends 13 Oct."
+    ],
+    [
+     "1991",
+     837144,
+     ""
+    ],
+    [
+     "1992",
+     1092645,
+     ""
+    ],
+    [
+     "1993",
+     1343289,
+     ""
+    ],
+    [
+     "1994",
+     1489429,
+     ""
+    ],
+    [
+     "1995",
+     1672657,
+     ""
+    ],
+    [
+     "1996",
+     1715434,
+     "Identical to 1997 in source table (1,715,434): likely a copy error; treat 1996 and 1997 as unreliable."
+    ],
+    [
+     "1997",
+     1715434,
+     "Identical to 1996 in source table: likely copy error."
+    ],
+    [
+     "1998",
+     2006956,
+     ""
+    ],
+    [
+     "1999",
+     2222344,
+     ""
+    ],
+    [
+     "2000",
+     2343387,
+     ""
+    ],
+    [
+     "2001",
+     2444851,
+     ""
+    ],
+    [
+     "2002",
+     2606861,
+     ""
+    ],
+    [
+     "2003",
+     2840400,
+     ""
+    ],
+    [
+     "2004",
+     3334710,
+     ""
+    ],
+    [
+     "2005",
+     3892356,
+     "Pre-crisis peak until 2006."
+    ],
+    [
+     "2006",
+     2463576,
+     "War: runways hit 12-13 July; reopened to commercial flights 17 Aug; blockade lifted 7-8 Sep. -37% vs 2005."
+    ],
+    [
+     "2007",
+     3009749,
+     ""
+    ],
+    [
+     "2008",
+     4004972,
+     ""
+    ],
+    [
+     "2009",
+     4952899,
+     ""
+    ],
+    [
+     "2010",
+     5512435,
+     ""
+    ],
+    [
+     "2011",
+     5596034,
+     ""
+    ],
+    [
+     "2012",
+     5960414,
+     ""
+    ],
+    [
+     "2013",
+     6249503,
+     ""
+    ],
+    [
+     "2014",
+     6555069,
+     ""
+    ],
+    [
+     "2015",
+     7203781,
+     ""
+    ],
+    [
+     "2016",
+     7510828,
+     ""
+    ],
+    [
+     "2017",
+     8230990,
+     ""
+    ],
+    [
+     "2018",
+     8841966,
+     "All-time record."
+    ],
+    [
+     "2019",
+     8689603,
+     "[📣 search summary] Protests from 17 Oct; roads to airport blocked at times."
+    ],
+    [
+     "2020",
+     2492279,
+     "[📣 closure dates, search summary] COVID closure mid-Mar to 1 Jul; [✅ Wikipedia] port blast 4 Aug, terminal moderately damaged, flights continued. -71% vs 2019."
+    ],
+    [
+     "2021",
+     4322269,
+     ""
+    ],
+    [
+     "2022",
+     6349967,
+     "CONFLICT: a search summary gives 6,352,446; Wikipedia table 6,349,967."
+    ],
+    [
+     "2023",
+     7127649,
+     "CONFLICT: a search summary gives 7,102,847; Wikipedia table 7,127,649."
+    ],
+    [
+     "2024",
+     5622358,
+     "-21% vs 2023; war escalation from Sep."
+    ],
+    [
+     "2025",
+     7011129,
+     "+25% vs 2024, still 19% below 2018."
+    ]
+   ],
+   "note": "Wikipedia annual table (T4), primary airport/MoT tables not opened. BLOMINVEST BRITE series 'Beirut International Airport: Passenger Traffic' exists but was not opened. Pre-1990 figures not found."
+  },
+  {
+   "id": "airport_pax_2026_ytd",
+   "label": "Beirut airport passengers, 2026 year to date",
+   "unit": "passengers",
+   "source": "https://en.libnanews.com/beirut-airport-traffic-drops-by-24-17-per-cent/",
+   "confidence": "✅",
+   "points": [
+    [
+     "2026-01/04",
+     1242700,
+     "[✅ read: Hospitality News citing BLOMINVEST, 9 Jul 2026] Arrivals 566,296, departures 676,382, transit 1,441. -32.84% vs Jan-Apr 2025."
+    ],
+    [
+     "2026-01/08",
+     3581861,
+     "[✅ read: Libnanews, 24 Sep 2026] Arrivals 1,814,097, departures 1,766,630, transit 2,553. -24.17% vs Jan-Aug 2025 (arrivals -26.57%, departures -21.54%). August alone 835,903 (-10.04% vs Aug 2025)."
+    ]
+   ]
+  },
+  {
+   "id": "tourist_arrivals",
+   "label": "Tourist / visitor arrivals per year",
+   "unit": "arrivals",
+   "source": "https://blog.blominvestbank.com/tourism-activity-rose-by-44-59-yoy-in-2025/",
+   "confidence": "📣",
+   "points": [
+    [
+     "1974",
+     1400000,
+     "[📣 search summary, not opened] Pre-war peak about 1.4 million. CONFLICT: other sources say 2.4 million visitors 'before the war'; definitions differ."
+    ],
+    [
+     "1990",
+     180000,
+     "[📣 search summary, not opened] 'Only 180,000 tourists' at the end of the civil war; year approximate."
+    ],
+    [
+     "1995",
+     450000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "1996",
+     424000,
+     "[✅ World Bank API, UNWTO-based] Post-war low in this series (424,000)."
+    ],
+    [
+     "1997",
+     558000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "1998",
+     631000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "1999",
+     673000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2000",
+     742000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2001",
+     837000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2002",
+     956000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2003",
+     1016000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2004",
+     1278000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2005",
+     1140000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2006",
+     1063000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2007",
+     1017000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2008",
+     1333000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2009",
+     1844000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2010",
+     2168000,
+     "[✅ World Bank API, UNWTO-based] Series record 2,168,000."
+    ],
+    [
+     "2011",
+     1655000,
+     "[✅ World Bank API, UNWTO-based] Drop after Syrian war begins."
+    ],
+    [
+     "2012",
+     1366000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2013",
+     1274000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2014",
+     1355000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2015",
+     1518000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2016",
+     1688000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2017",
+     1857000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2018",
+     1964000,
+     "[✅ World Bank API, UNWTO-based] "
+    ],
+    [
+     "2019",
+     1936000,
+     "[✅ World Bank API, UNWTO-based] 2020 and 2021 full-year figures not found in any page I opened (H1 2020: 199,722 and H1 2021: 291,570 per search summary)."
+    ],
+    [
+     "2022",
+     1465953,
+     "[📣 search summary attributing Ministry of Tourism, not opened]"
+    ],
+    [
+     "2023",
+     1666492,
+     "[📣 search summary attributing Ministry of Tourism, not opened]"
+    ],
+    [
+     "2024",
+     1131100,
+     "[📣] Search summary says 1,131,100 (-32.1%); BLOMINVEST 2025 article implies about 1.13 million. L'Orient Today page returned 403."
+    ],
+    [
+     "2025",
+     1635490,
+     "[✅ read: BLOMINVEST citing Ministry of Tourism] +44.59% YoY."
+    ]
+   ],
+   "note": "1995-2019 World Bank series (ST.INT.ARVL, https://api.worldbank.org/v2/country/LBN/indicator/ST.INT.ARVL?format=json); 2022-2025 Ministry of Tourism via BLOMINVEST / press. Possible definitional break between the two."
+  },
+  {
+   "id": "syrian_refugees_unhcr",
+   "label": "Syrian refugees registered with UNHCR in Lebanon (year-end)",
+   "unit": "people",
+   "source": "https://api.unhcr.org/population/v1/population/?yearFrom=2010&yearTo=2025&coa=LBN&coo=SYR&cf_type=ISO",
+   "confidence": "✅",
+   "points": [
+    [
+     "2010",
+     64,
+     " Plus 141 asylum-seekers."
+    ],
+    [
+     "2011",
+     124,
+     " Plus 368 asylum-seekers."
+    ],
+    [
+     "2012",
+     126939,
+     "Open border phase; Oct 2012 passes 100,000 (search summary). Plus 242 asylum-seekers."
+    ],
+    [
+     "2013",
+     851284,
+     " Plus 332 asylum-seekers."
+    ],
+    [
+     "2014",
+     1147494,
+     "Peak year-end: 1,147,494. One million mark passed Apr 2014. Plus 418 asylum-seekers."
+    ],
+    [
+     "2015",
+     1062690,
+     "UNHCR asked to stop registering new arrivals in May 2015; counts fall. Plus 16 asylum-seekers."
+    ],
+    [
+     "2016",
+     1005503,
+     "CONFLICT: Wikipedia cites 1,011,366 for Dec 2016; API year-end shows 1,005,503. Plus 10 asylum-seekers."
+    ],
+    [
+     "2017",
+     992127,
+     " Plus 10 asylum-seekers."
+    ],
+    [
+     "2018",
+     944181,
+     " Plus 5 asylum-seekers."
+    ],
+    [
+     "2019",
+     910586,
+     "CONFLICT: Wikipedia cites 929,624 for Jul 2019; API year-end 910,586 (dates differ)."
+    ],
+    [
+     "2020",
+     865300,
+     ""
+    ],
+    [
+     "2021",
+     840929,
+     ""
+    ],
+    [
+     "2022",
+     814715,
+     ""
+    ],
+    [
+     "2023",
+     784884,
+     ""
+    ],
+    [
+     "2024",
+     755426,
+     "June 2024: 774,697 (Wikipedia). Assad falls Dec 2024."
+    ],
+    [
+     "2025",
+     532357,
+     "-29.5% in one year as returns accelerate. Wikipedia cites 273,094 registered in Jan 2026."
+    ]
+   ],
+   "note": "UNHCR-registered only. Lebanese government claimed about 1.5 million Syrians of all status (2015-2017, Wikipedia Syrians in Lebanon, read): a separate claim, not a UNHCR series. Returns 2025: UNHCR 379,000-400,000 vs authorities 500,000+."
+  },
+  {
+   "id": "syrians_govt_claims",
+   "label": "Government statements on number of Syrians (not UNHCR)",
+   "unit": "people",
+   "source": "https://en.wikipedia.org/wiki/Syrians_in_Lebanon",
+   "confidence": "✅",
+   "points": [
+    [
+     "2014",
+     900000,
+     "Jan 2014: PM Mikati, about 900,000 'conflict refugees'."
+    ],
+    [
+     "2015",
+     1500000,
+     "Sep 2015: FM Bassil, '1.5 [million Syrians] plus 500,000 Palestinians'."
+    ],
+    [
+     "2017",
+     1500000,
+     "Oct 2017: government said over 1.5 million, called it 'an understatement'."
+    ]
+   ]
+  },
+  {
+   "id": "palestine_refugees_unrwa",
+   "label": "Palestine refugees registered with UNRWA in Lebanon",
+   "unit": "people",
+   "source": "https://api.unhcr.org/population/v1/unrwa/?coa=LBN&cf_type=ISO",
+   "confidence": "✅",
+   "points": [
+    [
+     "1952",
+     103137,
+     "Earliest value in dataset. CONFLICT: search summaries give 106,896 (June 1951) and 127,600 for 1950."
+    ],
+    [
+     "1953",
+     100942,
+     ""
+    ],
+    [
+     "1954",
+     102851,
+     ""
+    ],
+    [
+     "1955",
+     101536,
+     ""
+    ],
+    [
+     "1956",
+     103167,
+     ""
+    ],
+    [
+     "1957",
+     108748,
+     ""
+    ],
+    [
+     "1958",
+     129228,
+     ""
+    ],
+    [
+     "1959",
+     134569,
+     ""
+    ],
+    [
+     "1960",
+     137884,
+     ""
+    ],
+    [
+     "1961",
+     142670,
+     ""
+    ],
+    [
+     "1962",
+     146969,
+     ""
+    ],
+    [
+     "1963",
+     152747,
+     ""
+    ],
+    [
+     "1964",
+     157274,
+     ""
+    ],
+    [
+     "1965",
+     162499,
+     ""
+    ],
+    [
+     "1966",
+     161262,
+     ""
+    ],
+    [
+     "1967",
+     122967,
+     "Dip to 122,967 then 168,927 in 1968: unexplained discontinuity in source."
+    ],
+    [
+     "1968",
+     168927,
+     ""
+    ],
+    [
+     "1969",
+     173539,
+     ""
+    ],
+    [
+     "1970",
+     177862,
+     ""
+    ],
+    [
+     "1971",
+     181764,
+     ""
+    ],
+    [
+     "1972",
+     185597,
+     ""
+    ],
+    [
+     "1973",
+     189277,
+     ""
+    ],
+    [
+     "1974",
+     192830,
+     ""
+    ],
+    [
+     "1975",
+     197974,
+     "Civil war begins."
+    ],
+    [
+     "1976",
+     199238,
+     ""
+    ],
+    [
+     "1977",
+     206521,
+     ""
+    ],
+    [
+     "1978",
+     215248,
+     ""
+    ],
+    [
+     "1979",
+     223470,
+     ""
+    ],
+    [
+     "1980",
+     230105,
+     ""
+    ],
+    [
+     "1981",
+     233881,
+     ""
+    ],
+    [
+     "1982",
+     239217,
+     ""
+    ],
+    [
+     "1983",
+     252593,
+     ""
+    ],
+    [
+     "1984",
+     260270,
+     ""
+    ],
+    [
+     "1985",
+     267614,
+     ""
+    ],
+    [
+     "1986",
+     274878,
+     ""
+    ],
+    [
+     "1987",
+     282757,
+     ""
+    ],
+    [
+     "1988",
+     292098,
+     ""
+    ],
+    [
+     "1989",
+     296871,
+     ""
+    ],
+    [
+     "1990",
+     306471,
+     ""
+    ],
+    [
+     "1991",
+     315508,
+     ""
+    ],
+    [
+     "1992",
+     324219,
+     ""
+    ],
+    [
+     "1993",
+     334659,
+     ""
+    ],
+    [
+     "1994",
+     342121,
+     ""
+    ],
+    [
+     "1995",
+     349773,
+     ""
+    ],
+    [
+     "1996",
+     356258,
+     ""
+    ],
+    [
+     "1997",
+     362098,
+     ""
+    ],
+    [
+     "1998",
+     367610,
+     ""
+    ],
+    [
+     "1999",
+     373440,
+     ""
+    ],
+    [
+     "2000",
+     380072,
+     ""
+    ],
+    [
+     "2001",
+     384918,
+     ""
+    ],
+    [
+     "2002",
+     389233,
+     ""
+    ],
+    [
+     "2003",
+     394532,
+     ""
+    ],
+    [
+     "2004",
+     399152,
+     ""
+    ],
+    [
+     "2005",
+     404170,
+     ""
+    ],
+    [
+     "2006",
+     408438,
+     ""
+    ],
+    [
+     "2007",
+     413962,
+     ""
+    ],
+    [
+     "2008",
+     422188,
+     ""
+    ],
+    [
+     "2009",
+     425640,
+     ""
+    ],
+    [
+     "2010",
+     430078,
+     ""
+    ],
+    [
+     "2011",
+     436154,
+     ""
+    ],
+    [
+     "2012",
+     441543,
+     ""
+    ],
+    [
+     "2013",
+     447328,
+     ""
+    ],
+    [
+     "2014",
+     452669,
+     ""
+    ],
+    [
+     "2015",
+     458369,
+     ""
+    ],
+    [
+     "2016",
+     463664,
+     ""
+    ],
+    [
+     "2017",
+     469555,
+     ""
+    ],
+    [
+     "2018",
+     475075,
+     ""
+    ],
+    [
+     "2019",
+     476033,
+     ""
+    ],
+    [
+     "2020",
+     479537,
+     ""
+    ],
+    [
+     "2021",
+     482676,
+     ""
+    ],
+    [
+     "2022",
+     487282,
+     ""
+    ],
+    [
+     "2023",
+     492833,
+     ""
+    ],
+    [
+     "2024",
+     486269,
+     "Search summary: 487,869 registered at 30 Jun 2025 (UNRWA)."
+    ],
+    [
+     "2025",
+     228274,
+     "DISCONTINUITY: drops to 228,274; close to UNRWA's digital-ID verified resident count (231,515, 30 Jun 2025, search summary). Reason for the series change not confirmed."
+    ]
+   ],
+   "note": "UNHCR Refugee Data Finder UNRWA dataset. Registered is not the same as resident: many registered refugees live abroad."
+  },
+  {
+   "id": "palestinians_resident_counts",
+   "label": "Palestinians actually resident in Lebanon (census / verification)",
+   "unit": "people",
+   "source": "https://www.un.org/unispal/document/report-palestinian-population-in-lebanon-findings-from-unrwas-digital-identity-verification/",
+   "confidence": "📣",
+   "points": [
+    [
+     "2017",
+     174422,
+     "[📣 from existing timeline file 13, Wikipedia Palestinians in Lebanon, not reopened] 2017 census of camps and gatherings."
+    ],
+    [
+     "2018-2020",
+     175555,
+     "[✅ read: Wikipedia Demographics] Palestinian refugees figure; exact date not given."
+    ],
+    [
+     "2025",
+     231515,
+     "[📣 search summary of UNRWA Digital Identity Verification, mid-2023 to 30 Jun 2025; UNRWA PDF returned 403] vs 487,869 registered."
+    ]
+   ]
+  },
+  {
+   "id": "idp_crisis_peaks",
+   "label": "Internally displaced at crisis peaks",
+   "unit": "people",
+   "source": "https://www.fmreview.org/assaf-elfil/",
+   "confidence": "✅",
+   "points": [
+    [
+     "1975-1990",
+     1000000,
+     "[✅ read: Forced Migration Review] 'Up to one million' at the height. CONFLICT: UNDP figure 810,000 (28%) temporarily or permanently forced out (search summary, not opened)."
+    ],
+    [
+     "1978",
+     120000,
+     "[✅ read: FMR] Over 120,000 displaced to Beirut suburbs after Israeli invasion."
+    ],
+    [
+     "1985",
+     367000,
+     "[✅ read: FMR] Mount Lebanon displacement wave."
+    ],
+    [
+     "1995",
+     450000,
+     "[✅ read: FMR] Still displaced after Taif (about 14%)."
+    ],
+    [
+     "2006",
+     1000000,
+     "[✅ read: Wikipedia 2006 Lebanon War] About one million. CONFLICT: UNHCR Refugee Data Finder shows only 200,000 IDPs for 2006 (different definition, stock vs peak)."
+    ],
+    [
+     "2024",
+     1000000,
+     "[✅ read: UN News 30 Sep 2024] More than one million by 30 Sep; 90% fled in the last week; 100,000 crossed to Syria. About 500,000 by 25 Sep (Foreign Minister, via Wikipedia). Earlier: 111,000 from Oct 2023 to 22 Sep 2024 (OCHA)."
+    ],
+    [
+     "2025",
+     64417,
+     "[✅ UNHCR Refugee Data Finder, end-2025] Still displaced a year after the Nov 2024 ceasefire."
+    ],
+    [
+     "2026",
+     1200000,
+     "[✅ read: Al Jazeera 13 Sep 2026, IOM] Peak over 1.2 million in April; about 330,000 still displaced in Sep; 810,000+ returned or moved nearby. IOM 3 Jul: 646,107 began returning, about 500,000 remained (New Arab)."
+    ]
+   ]
+  },
+  {
+   "id": "diaspora_size_estimates",
+   "label": "Diaspora size estimates (each kept separate; they vary wildly)",
+   "unit": "people",
+   "source": "https://en.wikipedia.org/wiki/Lebanese_diaspora",
+   "confidence": "✅",
+   "points": [
+    [
+     "undated",
+     1200000,
+     "[✅ read: Wikipedia Lebanese diaspora] 'Lebanese citizens residing abroad' 1.2 million; original source/year not shown."
+    ],
+    [
+     "undated",
+     4000000,
+     "[✅ read: Wikipedia Lebanese diaspora/people] 4-14 million of Lebanese origin (range; lower bound shown)."
+    ],
+    [
+     "undated",
+     8000000,
+     "[✅ read: Wikipedia] 'Minimum 8 million' per some projections."
+    ],
+    [
+     "undated",
+     15400000,
+     "[✅ read: Wikipedia Lebanese diaspora] 15.4 million outside vs 6 million inside."
+    ],
+    [
+     "2020",
+     10000000,
+     "[✅ read: Wikipedia Demographics] 10-15 million Lebanese and descendants vs about 4.6 million citizens in 2020."
+    ],
+    [
+     "1932",
+     861399,
+     "[📣 search summary, not opened] 1932 enumeration including Lebanese abroad."
+    ]
+   ],
+   "note": "Figures mix citizens abroad and people of ancestry; all are T4 secondary, origin unverified. Civil war-era emigrants: see emig_civil_war_periods."
+  },
+  {
+   "id": "remittances_usd",
+   "label": "Personal remittances received (World Bank, current USD)",
+   "unit": "USD",
+   "source": "https://api.worldbank.org/v2/country/LBN/indicator/BX.TRF.PWKR.CD.DT?format=json",
+   "confidence": "✅",
+   "points": [
+    [
+     "2002",
+     2544451535,
+     ""
+    ],
+    [
+     "2003",
+     4742999661,
+     ""
+    ],
+    [
+     "2004",
+     5591436083,
+     ""
+    ],
+    [
+     "2005",
+     4924310615,
+     ""
+    ],
+    [
+     "2006",
+     5202237750,
+     ""
+    ],
+    [
+     "2007",
+     5769240000,
+     ""
+    ],
+    [
+     "2008",
+     7180590000,
+     ""
+    ],
+    [
+     "2009",
+     7558138454,
+     ""
+    ],
+    [
+     "2010",
+     6914055025,
+     ""
+    ],
+    [
+     "2011",
+     6877547082,
+     ""
+    ],
+    [
+     "2012",
+     6671241575,
+     ""
+    ],
+    [
+     "2013",
+     7566589340,
+     ""
+    ],
+    [
+     "2014",
+     7190794585,
+     ""
+    ],
+    [
+     "2015",
+     7480817047,
+     ""
+    ],
+    [
+     "2016",
+     7605729645,
+     ""
+    ],
+    [
+     "2017",
+     7061853364,
+     ""
+    ],
+    [
+     "2018",
+     6977962174,
+     ""
+    ],
+    [
+     "2019",
+     7370928673,
+     ""
+    ],
+    [
+     "2020",
+     6593406648,
+     ""
+    ],
+    [
+     "2021",
+     6353531674,
+     ""
+    ],
+    [
+     "2022",
+     6435335349,
+     ""
+    ],
+    [
+     "2023",
+     6696174320,
+     ""
+    ],
+    [
+     "2024",
+     5800000000,
+     "[📣 search summary of World Bank via L'Orient Today, page 403] $5.8bn, -13.4%, 17.7% of GDP. 2023 shown in L'Orient as $6.7bn, consistent with API."
+    ]
+   ],
+   "note": "2002-2023 World Bank API (updated 2026-07-13); 2024 from press. No pre-2002 values in this indicator. Other estimates differ (BDL, UNDP 2023 report not readable)."
+  },
+  {
+   "id": "migrant_stock_wb",
+   "label": "International migrant stock in Lebanon (UN DESA via World Bank)",
+   "unit": "people",
+   "source": "https://api.worldbank.org/v2/country/LBN/indicator/SM.POP.TOTL?format=json",
+   "confidence": "✅",
+   "points": [
+    [
+     "1990",
+     424488,
+     ""
+    ],
+    [
+     "1995",
+     466437,
+     ""
+    ],
+    [
+     "2000",
+     514836,
+     ""
+    ],
+    [
+     "2005",
+     553850,
+     ""
+    ],
+    [
+     "2010",
+     625884,
+     ""
+    ],
+    [
+     "2015",
+     1763717,
+     "Jump from 625,884 (2010): Syrian refugees counted."
+    ],
+    [
+     "2020",
+     1586346,
+     ""
+    ],
+    [
+     "2024",
+     1422583,
+     ""
+    ]
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "id": "diaspora_by_country",
+   "title": "Lebanese diaspora, top 10 countries (latest estimates found)",
+   "source": "https://en.wikipedia.org/wiki/Lebanese_people",
+   "confidence": "📣",
+   "caveat": "Ancestry-based estimates, wide ranges, year mostly not stated; ordering is by upper estimate. Brazil: IBGE survey shows under 1 million claiming any Middle Eastern origin. Wikipedia T4, read; underlying sources not verified. A social-media ranking (Stats Globe) with different numbers was not used.",
+   "columns": [
+    "rank",
+    "country",
+    "estimate",
+    "low",
+    "high",
+    "note"
+   ],
+   "rows": [
+    [
+     1,
+     "Brazil",
+     "1-7 million",
+     1000000,
+     7000000,
+     "Wikipedia Lebanese people; 5.8-7 million upper claims"
+    ],
+    [
+     2,
+     "Argentina",
+     "1.2-1.5 million",
+     1200000,
+     1500000,
+     "Lebanese diaspora page: 1.2-3 million"
+    ],
+    [
+     3,
+     "Colombia",
+     "125,000-3.2 million",
+     125000,
+     3200000,
+     "Widest range of any country"
+    ],
+    [
+     4,
+     "Mexico",
+     "600,000",
+     600000,
+     620000,
+     "Lebanese diaspora page"
+    ],
+    [
+     5,
+     "United States",
+     "440,279",
+     440279,
+     450000,
+     "Labelled census data; year not stated"
+    ],
+    [
+     6,
+     "France",
+     "300,000",
+     300000,
+     375000,
+     "Lebanese diaspora page upper 375,000"
+    ],
+    [
+     7,
+     "Canada",
+     "250,000",
+     250000,
+     250000,
+     ""
+    ],
+    [
+     8,
+     "Australia",
+     "248,434",
+     248434,
+     390000,
+     "Lebanese diaspora page upper 390,000 (340,000 also cited)"
+    ],
+    [
+     9,
+     "Venezuela",
+     "130,000-340,000",
+     130000,
+     340000,
+     ""
+    ],
+    [
+     10,
+     "Saudi Arabia",
+     "120,000-300,000",
+     120000,
+     300000,
+     "Ivory Coast 100,000-300,000 ranks next"
+    ]
+   ]
+  }
+ ]
+}

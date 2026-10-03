@@ -1,0 +1,275 @@
+{
+ "series": [
+  {
+   "id": "war_totals_killed_low",
+   "label": "Lowest counted deaths, by war (start year); basis differs by point, see point_basis",
+   "unit": "people killed",
+   "topic": "war",
+   "freq": "yearly",
+   "source_url": "https://en.wikipedia.org/wiki/Lebanese_Civil_War",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "points": [
+    [
+     "1975",
+     120000
+    ],
+    [
+     "1978",
+     1100
+    ],
+    [
+     "1982",
+     5000
+    ],
+    [
+     "1993",
+     118
+    ],
+    [
+     "1996",
+     154
+    ],
+    [
+     "2006",
+     1109
+    ],
+    [
+     "2023",
+     3961
+    ]
+   ],
+   "notes": "One value per war, keyed by start year. Low and high are NOT always the same quantity: for 1982 and 1996 the low value counts civilians only and the high value counts all deaths; for 1993 both values are civilians (118 lead text, 140 infobox). 2023 low and high are two dated MoPH counts of the same war. 2026 is left out of this pair because it is an ongoing war with successive cumulative counts; see war_totals_killed_2026_dated_counts. Not comparable as a time series.",
+   "point_basis": {
+    "1975": "all deaths (estimate)",
+    "1978": "Lebanese and Palestinians killed (Norton)",
+    "1982": "civilians only (Gabriel 5,000-8,000 civilians); excludes about 2,400 PLO fighters, so it is not the same quantity as the high value",
+    "1993": "Lebanese civilians (Wikipedia lead text, 118)",
+    "1996": "civilians only (HRW, 154); not the same quantity as the high value",
+    "2006": "identified dead (HRW, 1,109)",
+    "2023": "MoPH count at the 27 Nov 2024 ceasefire (28 Nov 2024), all deaths"
+   }
+  },
+  {
+   "id": "war_totals_killed_high",
+   "label": "Highest counted deaths, by war (start year); basis differs by point, see point_basis",
+   "unit": "people killed",
+   "topic": "war",
+   "freq": "yearly",
+   "source_url": "https://en.wikipedia.org/wiki/Lebanese_Civil_War",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "points": [
+    [
+     "1975",
+     150000
+    ],
+    [
+     "1978",
+     2000
+    ],
+    [
+     "1982",
+     19085
+    ],
+    [
+     "1993",
+     140
+    ],
+    [
+     "1996",
+     250
+    ],
+    [
+     "2006",
+     1191
+    ],
+    [
+     "2023",
+     4047
+    ]
+   ],
+   "notes": "High value per war; see point_basis for what each point counts. 1993 high is 140 Lebanese civilians (Wikipedia infobox); combatant deaths there are disputed. 2023 is the last MoPH count (5 Dec 2024). Excludes Sabra and Shatila for 1982. 2026 is in war_totals_killed_2026_dated_counts.",
+   "point_basis": {
+    "1975": "all deaths (estimate)",
+    "1978": "Lebanese and Palestinians killed (upper estimate)",
+    "1982": "all deaths per Lebanese authorities (19,085)",
+    "1993": "Lebanese civilians (Wikipedia infobox, 140); competing figure to the 118 in the lead text; combatant deaths disputed and not included",
+    "1996": "all Lebanese killed (Bregman, 250)",
+    "2006": "Higher Relief Council (1,191), all deaths",
+    "2023": "last MoPH count, 5 Dec 2024, all deaths"
+   }
+  },
+  {
+   "id": "war_totals_killed_2026_dated_counts",
+   "label": "2026 war, cumulative MoPH deaths by count date",
+   "unit": "people killed",
+   "topic": "war",
+   "freq": "irregular",
+   "source_url": "https://www.emro.who.int/lebanon/information-resources/lebanon-emergency-situation-reports.html",
+   "license": "WHO/OCHA: not stated",
+   "points": [
+    [
+     "2026-04-17",
+     2294
+    ],
+    [
+     "2026-09-17",
+     4386
+    ]
+   ],
+   "point_basis": {
+    "2026-04-17": "MoPH cumulative count dated 17 Apr 2026 (WHO sitrep), after the ceasefire of 16 Apr 2026",
+    "2026-09-17": "latest MoPH cumulative count in our series"
+   },
+   "notes": "Two dated cumulative counts of one ongoing war (since 2 Mar 2026), same definition (MoPH, civilians and combatants together). They are successive counts, not a low-high range."
+  }
+ ],
+ "totals": [
+  {
+   "war": "Civil war 1975-1990",
+   "killed_low": 120000,
+   "killed_high": 150000,
+   "injured": null,
+   "displaced": 900000,
+   "displaced_low": null,
+   "as_of": "1990 (final estimates)",
+   "counted_by": "Press agencies and later scholarship; no official census of deaths",
+   "source": "https://en.wikipedia.org/wiki/Lebanese_Civil_War",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "Estimates: about 120,000 (Wikipedia lead) to 150,000 (AP, 1989; Reuters gave 140,000). Official Lebanese figures of 35,000-40,000 are cited as far lower. About 100,000 permanently disabled. Displaced is about one fifth of the pre-war population; perhaps 250,000 emigrated. Civilian split not given by the sources. Confidence: low on the exact range; no census exists."
+  },
+  {
+   "war": "1978 Litani (Operation Litani)",
+   "killed_low": 1100,
+   "killed_high": 2000,
+   "injured": null,
+   "displaced": 250000,
+   "displaced_low": 100000,
+   "as_of": "1978",
+   "counted_by": "Norton (Boston University), cited; other sources for the upper bound",
+   "source": "https://en.wikipedia.org/wiki/1978_South_Lebanon_conflict",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "Lebanese and Palestinians killed: about 1,100 (Norton; IDF internal review put at least 550 of them as Palestinian fighters) to about 2,000. 20 Israeli deaths in the operation; 38 Israeli civilians were killed in the 11 March 1978 coastal road attack that preceded it. Displaced 100,000-250,000."
+  },
+  {
+   "war": "1982 invasion (Operation Peace for Galilee), 6 Jun-Sep 1982",
+   "killed_low": 5000,
+   "killed_high": 19085,
+   "injured": 30000,
+   "displaced": null,
+   "displaced_low": null,
+   "as_of": "autumn 1982",
+   "counted_by": "Lebanese authorities (19,085 killed, 30,000 wounded); Gabriel estimate; Israeli government figures",
+   "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "High: 19,085 killed, 30,000 wounded, per Lebanese authorities (Beirut 6,775, 84% civilians; south about 20% civilians). Low: 5,000-8,000 civilians plus about 2,400 PLO fighters (Gabriel); the Israeli government counted about 1,000 Palestinian fighters and 800 Lebanese civilians outside the Beirut siege. Excludes Sabra and Shatila (460 counted by the Lebanese army's chief prosecutor, 700-800 Israeli intelligence, 2,000 Palestinian Red Crescent, up to 3,500 in other estimates). Early count: 9,583 dead and 16,608 injured by 14 Jun (Red Cross and Lebanese police). 368 Israelis killed to 10 Oct 1982. Counts mix civilians, PLO and Syrian fighters. 14,000+ PLO fighters left Beirut.",
+   "killed_basis": "killed_low civilians only (Gabriel); killed_high all deaths (Lebanese authorities)"
+  },
+  {
+   "war": "1982 siege of Beirut, 14 Jun-Aug 1982",
+   "killed_low": 4000,
+   "killed_high": 6776,
+   "injured": null,
+   "displaced": null,
+   "displaced_low": null,
+   "as_of": "late Aug 1982",
+   "counted_by": "Lebanese sources (6,776 in Beirut to late Aug); Gabriel (4,000-5,000 civilians)",
+   "source": "https://en.wikipedia.org/wiki/Siege_of_Beirut",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "Beirut deaths 6,776 per Lebanese sources, including the 4 Jun bombing before the operation; police and doctors put about 80% as civilians. Gabriel: 4,000-5,000 civilians died during the siege; he says 8,000-10,000 is too high. Overlaps with the 1982 invasion row, not additive."
+  },
+  {
+   "war": "1993 Accountability (Operation Accountability), 25-31 Jul 1993",
+   "killed_low": 118,
+   "killed_high": 140,
+   "injured": null,
+   "displaced": 400000,
+   "displaced_low": 300000,
+   "as_of": "31 Jul 1993",
+   "counted_by": "Civilian deaths as reported in the Wikipedia article (lead text 118, infobox 140); displacement estimate 300,000-400,000",
+   "source": "https://en.wikipedia.org/wiki/Operation_Accountability",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "118 Lebanese civilians killed per the lead text; the infobox says 140 Lebanese civilians killed, 500 wounded, 300,000 displaced. Combatant deaths are disputed: Lebanese PM Hariri said 8, Israeli PM Rabin said more than 50. Six Syrian soldiers killed; 2 Israeli civilians and 1 Israeli soldier killed. Displaced 300,000-400,000, about 150,000 reaching Beirut. No total is established, so killed_high is null.",
+   "killed_basis": "Lebanese civilians: 118 (Wikipedia lead text) to 140 (Wikipedia infobox)"
+  },
+  {
+   "war": "1996 Grapes of Wrath (11-27 Apr 1996)",
+   "killed_low": 154,
+   "killed_high": 250,
+   "injured": 351,
+   "displaced": 400000,
+   "displaced_low": null,
+   "as_of": "27 Apr 1996",
+   "counted_by": "Human Rights Watch (154 civilians killed, 351 wounded); Bregman (250 Lebanese)",
+   "source": "https://en.wikipedia.org/wiki/Operation_Grapes_of_Wrath",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "HRW: about 154 civilians killed and 351 wounded. Bregman: 250 Lebanese killed, including 106 civilians at the UN compound in Qana. HRW also said Israeli warnings aimed at displacing upwards of 400,000 civilians. 62 Israeli civilians wounded. Damage estimates: about $500 million.",
+   "killed_basis": "killed_low civilians only (HRW); killed_high all Lebanese killed (Bregman)"
+  },
+  {
+   "war": "2006 war (12 Jul-14 Aug 2006)",
+   "killed_low": 1109,
+   "killed_high": 1191,
+   "injured": 4409,
+   "displaced": 900000,
+   "displaced_low": 900000,
+   "as_of": "Aug 2006 ceasefire (14 Aug)",
+   "counted_by": "Lebanese Higher Relief Council (1,191 killed, 4,409 injured); Ministry of Health and police (1,123); HRW (1,109 identified); UN/OCHA (about 900,000 displaced)",
+   "source": "https://en.wikipedia.org/wiki/2006_Lebanon_War",
+   "license": "CC BY-SA 4.0 (Wikipedia text; underlying figures as published by each counter)",
+   "note": "The Lebanese government counts do not separate civilians from fighters. Ministry and police: 1,123 (37 soldiers and police, 894 identified, 192 unidentified). HRC: 1,191 killed, 4,409 injured, 15% permanently disabled. HRW identified 1,109. UNICEF: about 30% of those killed were children under 13. Hezbollah combatant deaths are estimated at 250-650. Displaced about 900,000 (UN) to about 1 million (Wikipedia). Israel: 165 killed (121 soldiers, 44-46 civilians). 2006 UN/OCHA pages could not be fetched (HTTP 403); figures come from a web search summary and Wikipedia, so confidence is moderate."
+  },
+  {
+   "war": "2023-24 war, to the 27 Nov 2024 ceasefire",
+   "killed_low": 3961,
+   "killed_high": 3961,
+   "injured": 16520,
+   "displaced": 899725,
+   "displaced_low": null,
+   "as_of": "2024-11-28",
+   "counted_by": "Lebanon Ministry of Public Health, via OCHA Lebanon Flash Updates; displaced IOM DTM via OCHA",
+   "source": "https://reliefweb.int/country/lbn?search=%22Lebanon%3A+Flash+Update%22",
+   "license": "not stated by OCHA; figures only, no dataset redistributed",
+   "note": "Cumulative since 8 Oct 2023. MoPH counts combatants and civilians together. Displaced is the IOM DTM figure of 25 Nov 2024 (899,725; peak, since returns began after the ceasefire). Government and other sources often cite about 1.2 million at the peak (not verified here)."
+  },
+  {
+   "war": "2023-24 war, final MoPH count",
+   "killed_low": 4047,
+   "killed_high": 4047,
+   "injured": 16638,
+   "displaced": null,
+   "displaced_low": null,
+   "as_of": "2024-12-05",
+   "counted_by": "Lebanon Ministry of Public Health, via OCHA Lebanon Flash Update",
+   "source": "https://reliefweb.int/country/lbn?search=%22Lebanon%3A+Flash+Update%22",
+   "license": "not stated by OCHA",
+   "note": "Last cumulative figure in our series (5 Dec 2024), including late reports after the ceasefire."
+  },
+  {
+   "war": "2026 war, at the ceasefire of 16 Apr 2026 (count as of 17 Apr)",
+   "killed_low": 2294,
+   "killed_high": 2294,
+   "injured": 7544,
+   "displaced": 1049328,
+   "displaced_low": null,
+   "as_of": "2026-04-17",
+   "counted_by": "Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA); displaced by the government's total at the peak (17 Mar 2026)",
+   "source": "https://www.emro.who.int/lebanon/information-resources/lebanon-emergency-situation-reports.html",
+   "license": "WHO/OCHA: not stated",
+   "note": "Cumulative since 2 Mar 2026. Ceasefire agreed 16 Apr 2026 (in effect 5 pm EST on 16 Apr, Wikipedia); the count is dated 17 Apr by the WHO sitrep. Displaced is the government registered total (>1,049K, 17 Mar 2026), the peak in our series; from mid-June the headline switches to the IOM DTM stock (844,243 on 17 Jun, 329,686 on 29 Sep).",
+   "killed_basis": "MoPH cumulative count, civilians and combatants together"
+  },
+  {
+   "war": "2026 war, latest MoPH count",
+   "killed_low": 4386,
+   "killed_high": 4386,
+   "injured": 12303,
+   "displaced": 1049328,
+   "displaced_low": null,
+   "as_of": "killed 2026-09-17; injured 2026-08-17",
+   "counted_by": "Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA)",
+   "source": "https://www.emro.who.int/lebanon/information-resources/lebanon-emergency-situation-reports.html",
+   "license": "WHO/OCHA: not stated",
+   "note": "Killed and injured are from different dates because the latest injured figure in our series is 17 Aug 2026. Of the killed, 1,822 were recorded after the 17 Apr ceasefire announcement (to 22 Jul). No distinction between civilians and combatants. Peak displaced is the government total of 17 Mar 2026."
+  }
+ ]
+}

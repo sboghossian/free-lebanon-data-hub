@@ -1,0 +1,187 @@
+{
+ "checked": 72,
+ "findings": [
+  {
+   "file": "series/D6-war.json",
+   "locator": "war2324_killed_cum, point 2024-10-04 (1699); war2324_injured_cum 2024-10-04 (9781)",
+   "issue": "WRONG. Killed total on 4 Oct 2024 is about 300 too low and inconsistent with the injured value on the same date.",
+   "evidence": "L'Orient Today 'War in Lebanon: human toll as of Oct. 3, 2024': MoPH total since 8 Oct 2023 = 2,011 at midnight 3-4 Oct; Minister Abiad press conference dawn 4 Oct: 1,974 killed, 9,384 injured (moph.gov.lb/en/Pages/0/75777). Series gives 1,699 killed next to 9,781 injured (injured already above MoPH 4 Oct).",
+   "fix": "Replace with 2,011 / sourced injured figure for 2024-10-03/04, or drop the point; re-read OCHA Flash Update for that date."
+  },
+  {
+   "file": "series/D6-war.json",
+   "locator": "war2324_killed_cum / injured 2024-10-07 (2083 / 9869)",
+   "issue": "Date probably shifted one day. These are MoPH totals reported on 8 Oct 2024.",
+   "evidence": "Middle East Eye: 'By 8 October 2024 the death toll had risen to 2,083 ... 9,869 wounded'; Anadolu 9 Oct: 2,119 killed, 10,019 injured. Series dates them 2024-10-07.",
+   "fix": "Date 2083/9869 as 2024-10-08 (or state 'reported 8 Oct, data to 7 Oct' in notes)."
+  },
+  {
+   "file": "series/D2-prices.json",
+   "locator": "fx_lbp_usd_official_monthly 2023-07..2023-12 vs series/D1-fx.json fx_official_monthly same months",
+   "issue": "Two 'official' LBP/USD series disagree for the same months: D2 85,500 (Jul-Nov 2023) and 89,500 (Dec 2023); D1 15,000 for Jul-Dec 2023 and 89,500 from Jan 2024. D2 mixes the Sayrafa platform rate into an 'official (BDL)' series. min_wage_private_usd_official_monthly is derived from the D2 version, so it jumps in 2023-12 instead of 2024-01.",
+   "evidence": "FAOSTAT lbn_faostat_exchange_rates.csv (HDX, CC BY-IGO): 2023-07..2023-12 = 15,000; 2024-01 = 89,500 (all 679 D1 monthly values match the file). D2 notes themselves say 'exact month of the move to 85,500 not verified'.",
+   "fix": "Use one official series (D1/FAOSTAT) for D2 derivations, or rename the D2 one 'BDL platform/regime rate' and keep it out of the 'official' variant."
+  },
+  {
+   "file": "series/D1-fx.json",
+   "locator": "fx_official_peg_steps, point ['1997-12', 1507.5]",
+   "issue": "Peg start date contradicted by the hub's own data: the rate was not 1,507.5 in Dec 1997.",
+   "evidence": "FAOSTAT monthly in fx_official_monthly: 1997-12 = 1,527.91, first 1,507.5 in 1999-01; World Bank PA.NUS.FCRF 1997 = 1,539.45, 1998 = 1,516.13. Note in the series admits 'some sources date the peg to 1999'.",
+   "fix": "Date the first 1,507.5 point 1999-01 (or mark the step 'announced 1997, in force 1999')."
+  },
+  {
+   "file": "series/D1-fx.json",
+   "locator": "fx_official_peg_steps, point ['2024-02-15', 89500] and fx_official_monthly",
+   "issue": "The 89,500 step has three different start dates in the hub: 2024-02-15 here (decision date), 2024-01 in fx_official_monthly/annual (effective 31 Jan 2024 per the same file's note), 2023-12-19 in D2.",
+   "evidence": "Notes of fx_official_peg_steps: 'BDL decision 48/4/24 dated 15 Feb 2024 adopted 89,500 ... from 31 Jan 2024'. Sayrafa milestone file has 89,500 on 2023-12-19.",
+   "fix": "Use the effective date (2024-01-31) for the step and keep the decision date in notes."
+  },
+  {
+   "file": "series/D1-fx.json + D2-prices.json + D4/D8 + D6-war.json",
+   "locator": "freq vs t granularity: D1 fx_official_peg_steps (daily, '1997-12'); D2 min_wage_private_lbp_month, bread_large_bundle_pre2022_lbp, public_salary_multiplier_admin (yearly, YYYY-MM points); D3-power edl_supply_hours_households_survey (yearly, '2021-12'); D7 d7-eurobond-price-press (monthly, 'YYYY-MM-DD' points)",
+   "issue": "`freq` does not match the granularity of `t` in 9 series; a build that parses by freq will mis-place or drop points.",
+   "evidence": "Programmatic scan of all series/*.json: len(t) != length implied by freq in these series.",
+   "fix": "Set freq to the real granularity (e.g. 'irregular') or normalise t."
+  },
+  {
+   "file": "series/ (all files)",
+   "locator": "license field",
+   "issue": "363 of 538 series have license null (D2 206/207, D3-power 56/56, D7 40/106, D8 38/79, D6-war 20/37, D1 3/7). For the 56 D3-power series the README says World Bank WDI is CC BY 4.0 for the wb_* series, yet the JSON says null (all 284 wb_* values verified equal to the World Bank API). Villages: ~1,060 records have license null (D4-municipalities 1001, D4-election-districts 15, D8-caza-vital-stats 26, D8-palestinian-camps 12, D6-displacement 6).",
+   "evidence": "Brief rule: every record carries a licence 'as stated, or null'. Null is allowed but the stated World Bank/UNHCR/UN licences are missing where they exist.",
+   "fix": "Fill CC BY 4.0 on wb_* series in D3-power; keep null only where nothing is stated, and list those series in the README for Stephane's publish decision."
+  },
+  {
+   "file": "series/D8-people.json",
+   "locator": "unhcr_odp_syrian_refugees and the 4 regional series, point 2026-06 (889,625; regions 286,316 / 278,523 / 238,808 / 85,978)",
+   "issue": "Definition break inside one series: 490,424 (2026-03) jumps to 889,625 (2026-06, +81%). Notes say the new point adds 'refugees awaiting registration'. Units/definitions mixed in one series.",
+   "evidence": "Series 2025-12 532,357 (matches UNHCR Refugee Data Finder year-end) then 490,424 then 889,625; regional sum for 2026-06 = 889,625.",
+   "fix": "Drop the 2026-06 point or put it in its own series (registered + awaiting registration)."
+  },
+  {
+   "file": "series/D7-money.json",
+   "locator": "d7-bdl-foreign-currencies-abl 2024-12 (89) and d7-bdl-foreign-securities-abl 2024-12 (68)",
+   "issue": "WRONG or mixed unit. 2024-12 values are about 100x below the next points and the sibling series for the same month.",
+   "evidence": "Same series 2025-09 = 9,740 and 2025-10 = 9,859 (equal to d7-bdl-fc-gross-reserves-abl 2025-09/10); d7-bdl-fc-gross-reserves-abl 2024-12 = 10,089. 89 x 1,000 LBP bn / 89,500 is about USD 1 bn, so the point looks like LBP trillion, not USD million; foreign securities 2025-10 = 2,135.",
+   "fix": "Re-read the Dec 2024 ABL bulletin and convert to USD million, or remove both 2024-12 points."
+  },
+  {
+   "file": "series/D7-money.json",
+   "locator": "d7-abl-total-usd, d7-abl-res-dep-usd, d7-abl-res-dep-fc-usd, d7-abl-nr-dep-usd, ... (all 'USD million (at legal rate)') point 2023-12",
+   "issue": "Conversion basis changes inside each series: Dec 2023 translated at LBP 15,000, Jul 2024 onward at 89,500. 115,249 -> 104,581 (total assets) is an accounting artefact, not a fall.",
+   "evidence": "Series note: 'LBP 89,500 per USD from 31 Jan 2024 per BDL Circular 167; LBP 15,000 for Dec 2023'.",
+   "fix": "Drop the 2023-12 point from these series or restate at 89,500 (and say so)."
+  },
+  {
+   "file": "series/D7-money.json",
+   "locator": "d7-eurobond-price-press",
+   "issue": "Points mix an upper bound and approximations as values ('less than 6 cents' stored as 6; 'around 25/30') in a series typed monthly with day dates; licence null.",
+   "evidence": "Notes: '2024-02 is an upper bound'.",
+   "fix": "Move bounds to notes or a separate qualitative table; keep only exact quotes as points."
+  },
+  {
+   "file": "villages/D4-cadasters.jsonl",
+   "locator": "attr.pop_kontur_2023 summed by adm2 vs LRP 2026 caza totals (D4-cazas/D8-caza-population-groups)",
+   "issue": "WRONG allocation at caza level. Summed per caza the Kontur column is up to 4x off other sources: Akkar 116,153 (LRP 2026 484,765; Landscan 2013 349,098; NPMPLT 2004 252,623), West Bekaa 38,293 (LRP 123,719), Jbeil 43,993 (LRP 131,683), Baabda 1,200,117 (LRP 568,296; Landscan 634,981). The national sum 5,365,550 is fine, so people are moved between cazas.",
+   "evidence": "Compared D4-cadasters sums with the OCHA LRP 2026 population package (HDX CC BY): the 208 caza values in D4-cazas/D8 match it exactly, the cadaster layer does not. Example: Mhammaret (Akkar) 10,522 vs NPMPLT 21,825.",
+   "fix": "Re-run the Kontur-to-cadaster join (hex centroid vs polygon) or mark pop_kontur_2023 as modelled and do not show cadaster populations next to caza totals."
+  },
+  {
+   "file": "villages/D4-municipalities.jsonl",
+   "locator": "23 records with attr.lat = attr.lon = 0.0 (e.g. Aabbassiye and Sour, Borj Brajneh, Kornet el Hamra, SEMMAQIYEH, Zrazir, Qalb es Sabaa, Al Ansar Baalbek)",
+   "issue": "Null-island coordinates: map pins for these places will appear in the Gulf of Guinea; 1,001 of 1,009 rows also have license null (source impact.gov.lb).",
+   "evidence": "Scan of all villages/*.jsonl for lat/lon outside Lebanon: only these 23 fail.",
+   "fix": "Set lat/lon to null (or geocode from the gazetteer); fill or flag the licence."
+  },
+  {
+   "file": "villages/D4-cadasters.jsonl, D4-places.jsonl, D4-municipalities.jsonl",
+   "locator": "attr.election_district null for Saida caza: 77 cadasters, 171 places, 48 municipalities (+2-5 in Beirut/null adm2)",
+   "issue": "Coverage gap against the brief's 'election district' per place. Saida city and most of the caza are South I; Zahrani villages are South II, so the caza-level join was left blank instead of resolved.",
+   "evidence": "D4-election-districts lists South I = Saida+Jezzine, South II = Sour+Zahrani ('sub-district of Saida caza in COD-AB').",
+   "fix": "Assign district by adm3/Zahrani sub-district: Saida/Jezzine -> South I, Zahrani -> South II."
+  },
+  {
+   "file": "villages/D6-displacement.jsonl",
+   "locator": "adm1 values 'Keserwan-Jbeil' (2 rows), 'Baalbek-Hermel' (1), 'Nabatiyeh' (1)",
+   "issue": "Off-vocabulary governorate names; other files use 'Mount Lebanon', 'Baalbek-El Hermel', 'El Nabatieh'. Breaks grouping by adm1 and place pages.",
+   "evidence": "Counter of adm1 across villages/*.jsonl.",
+   "fix": "Normalise to the OCHA names."
+  },
+  {
+   "file": "elections/2009-parliamentary.json",
+   "locator": "national.voters 1,758,901 / turnout 53.98 vs sum of districts",
+   "issue": "Internal inconsistency: district voters sum to 1,649,391 (50.6% of the 3,257,243 district registered) against national 1,758,901; Wikipedia gives 55.2%. Three turnouts for one election.",
+   "evidence": "Sum of districts[].voters; national from IDEA; Wikipedia 2009 infobox 'turnout = 55.2%'.",
+   "fix": "Show the source for each figure and state they are not comparable, or use one source for both national and districts."
+  },
+  {
+   "file": "elections/2016-municipal.json",
+   "locator": "districts[Beirut].turnout 20.1",
+   "issue": "Turnout does not equal voters/registered: 97,347 / 476,021 = 20.45%.",
+   "evidence": "Computed from the same record.",
+   "fix": "Use the official 20.1 with its own voters/registered, or recompute."
+  },
+  {
+   "file": "series/D8-people.json vs elections/",
+   "locator": "cas_voters 2009 (3,258,633) and 2025 (4,081,623) vs 2009-parliamentary registered 3,258,573 / district sum 3,257,243 and 2025-municipal registered_total 4,093,663",
+   "issue": "Same quantity (registered voters) differs across files by 60 to 12,000.",
+   "evidence": "Direct comparison of the three files.",
+   "fix": "Reconcile or note the different register dates."
+  },
+  {
+   "file": "series/D9-climate.json",
+   "locator": "D9.climate.beirut.temp_mean/max/min (e.g. 2020-07: 26.99/29.95/24.25; 2015-01: 11.15; 2026-09: 27.17)",
+   "issue": "Not reproducible: values are 0.15-0.20 C above the current Open-Meteo archive result for the stated point (33.85N, 35.53E): 2020-07 26.82/29.75/24.05; 2015-01 10.97/15.47/7.11; 2026-09 27.00/29.92/24.14. Precipitation matches exactly. README says grid elevation 33 m; the API returns 59 m.",
+   "evidence": "archive-api.open-meteo.com, daily temperature_2m_mean/max/min, timezone Asia/Beirut, monthly means.",
+   "fix": "Say which model/parameters were used, or rebuild with the default call."
+  },
+  {
+   "file": "series/D6-war.json",
+   "locator": "idmc_idu_cumulative_displaced_2026",
+   "issue": "Mixed definitions in one series (UNICEF 'nearly' upper bound 700,000 on 2026-03-09, 'at least' counts, Red Cross counts); 2026-03-03 stored as 58,000 where IDMC's row says 58,099. idp_total_registered_2026 ends with a 2026-06-18 point (1,049,328) that the notes call 'not a new count' and 517,000 is dated 2026-03-09 where IDMC dates the same figure 2026-03-08.",
+   "evidence": "IDMC IDU CSV on HDX (lbn_idmc_idu_events.csv, CC BY-IGO).",
+   "fix": "Keep one qualifier per series, drop the plateau marker, align the 517,000 date."
+  },
+  {
+   "file": "series/D6-war.json",
+   "locator": "idp_stock_dtm_2026 / idp_returned_dtm_2026 point 2026-09-29 (329,686 / 877,203)",
+   "issue": "Unverified values published: notes say they were 'read from a web-search extract of IOM's page, not fetched'.",
+   "evidence": "Notes of both series.",
+   "fix": "Verify against the IOM Round 118 page or remove before publishing."
+  },
+  {
+   "file": "series/D2-prices.json",
+   "locator": "fuel_petrol95_lbp_20l, fuel_petrol98_lbp_20l, fuel_diesel_lbp_20l, fuel_lpg10kg_lbp: 23 points (2024-03-22..2024-05-10, 2026-03-13..2026-05-19, 2026-09-04, 09-25, 09-29)",
+   "issue": "Per-point provenance missing: series source_url is the ministry page but these points come from DGO/press; the 2026-09-29 point cites only a section page (https://www.sawtbeirut.com/lebanon-news/), not an article. 2026-09-04 (2,602,000 / 2,620,000 / 2,474,000 / gas 1,167,000) matches imlebanon.org.",
+   "evidence": "Notes list the dates and URLs; ministry site stops at 2026-08-11.",
+   "fix": "Cite the exact article for 2026-09-25 and 2026-09-29, or flag them as press-sourced."
+  },
+  {
+   "file": "series/D2-prices.json",
+   "locator": "gen_ref_diesel_lbp_20l, gen_kwh_ministry_col_lbp, gen_fixed_*: month 2026-02 missing, 2026-03 = 30 Mar table",
+   "issue": "Month bucketing drops a table: the ministry table dated 2 Mar 2026 (diesel 1,398,957; col 30,244) is overwritten by the 30 Mar table (1,982,753) under 2026-03, leaving 2026-02 empty. The 2 Mar table is the pre-war February reading.",
+   "evidence": "energyandwater.gov.lb ajax type=2: rows 30 Jan, 2 Mar, 30 Mar 2026.",
+   "fix": "Key tables by their period (2 Mar -> 2026-02) or keep both with day dates."
+  },
+  {
+   "file": "series/D2-prices.json",
+   "locator": "gen_5a_fixed_2013_2018_as_published, gen_10a_fixed_2013_2018_as_published",
+   "issue": "Unit not verified ('probably thousand LBP/month'); same concept as gen_fixed_5a_lbp_month in a different unit, so charting them together mixes x1000.",
+   "evidence": "Series notes: HYPOTHESIS, not verified.",
+   "fix": "Keep out of the comparison charts or multiply by 1,000 only after the ministry confirms."
+  },
+  {
+   "file": "series/D3-power.json",
+   "locator": "edl_supply_hours_beirut_urban / edl_supply_hours_bekaa (2018), unmet_demand_edl_pct vs generator_share_of_demand_pct",
+   "issue": "Year assumed, not sourced: 'Year not stated in the extract; 2018 assumed'. Both unmet share and generator share are 37 in 2018 under different definitions, and 2022 uses two demand denominators (16,380 vs 15,117 GWh) giving 54.4% vs 76%.",
+   "evidence": "Series notes; arithmetic 8,913/16,380 = 54.4%, 3,648/15,117 = 24.1% supplied.",
+   "fix": "Mark year as estimated; show one denominator."
+  },
+  {
+   "file": "series/D6-war-tables.json",
+   "locator": "gov_cost_estimates_2026 row 4 / RDNA split",
+   "issue": "Quoted PM statement swaps damage and losses vs the World Bank RDNA (PM: 7.2 damage / 6.8 losses; RDNA 2025: damage 6,834, losses 7,164 USD million). Recorded as quoted, but not flagged as erroneous.",
+   "evidence": "wb_rdna2025_sector Total row.",
+   "fix": "Add a note that the quote reverses the RDNA split."
+  }
+ ]
+}

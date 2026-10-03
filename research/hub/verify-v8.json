@@ -1,0 +1,132 @@
+{
+ "checked": 82,
+ "checked_breakdown": {
+  "pre1920 timeline (80-83)": 15,
+  "T-war-totals + C-continuity": 20,
+  "villages/P-*": 12,
+  "world/lebanon-national.json": 12,
+  "laws (L-new, D10, lp 2026)": 16,
+  "2026 election + 84": 7
+ },
+ "verified_ok_examples": [
+  "15 pre-1920 events: 12 match their archive.org text or Wikipedia revision exactly",
+  "T-war-totals civil war 120-150k, 1978, 1982 19,085/30,000, siege 6,776, 1996 154/351, 2006 1,191/1,109/4,409, 2023-24 3,961/4,047 all match",
+  "C-continuity WFP pita bread: all 66 monthly medians and market counts recomputed from the HDX CSV, 0 differences; bread decisions Jun/Jul/17 Sep 2026 match press; petrol 2010 and Jun 2022 match the ministry listing",
+  "lebanon-national.json: CAS xlsx GDP LBN, real growth, exports, imports, exchange rates, WB CPI 2022-25, OWID population/TFR/life expectancy all match",
+  "laws: 6 D10 rows (title, number, date, gazette) match legallaw pages; 2025-26 lp.gov.lb rows match titles and session dates"
+ ],
+ "findings": [
+  {
+   "file": "villages/P-population.jsonl",
+   "locator": "place records with attr.resident_estimate: Tripoli, Zahle, Saida, Aarsal, Nabatieh, Cherin (El Meten); 774 of 1,314 places that have both figures",
+   "issue": "Place-level resident_estimate is far too low for towns and cities. 59% of places with both figures show fewer residents than 2014 registered voters, which is not plausible.",
+   "evidence": "Tripoli 46,761 (own gazetteer figure 229,398; Kontur cadaster total 47,220). Zahle 14,608 vs 63,954 registered voters. Saida 9,311 vs 58,475 voters. Nabatieh 5,938 vs 25,362 voters. Aarsal 1,027 vs 14,893 voters. Cherin 4 vs 589 voters. Median resident/voters ratio 0.80.",
+   "fix": "Do not publish the cadaster-split resident_estimate for places. Show caza totals and registered voters only, or suppress resident_estimate where it is below registered_voters_2014 or below pop_gazetteer. The cadaster Kontur totals for city cadasters look under-counted; recheck the cadaster-to-place join.",
+   "severity": "high"
+  },
+  {
+   "file": "villages/P-population.jsonl",
+   "locator": "name=Baalbek (pcode LBN21010), cadaster 53111",
+   "issue": "Baalbek city gets 2,281 residents while a neighbouring neighbourhood gets 29,317. The nearest-place split gave the city about 4% of its cadaster.",
+   "evidence": "Same cadaster 53111 (8 places, Kontur 53,733): Baalbek 2,281; Ech Chraoune 29,317; Douane 13,299; Ras el Ain 7,438. Baalbek's own pop_gazetteer_unspecified_date is 30,916.",
+   "fix": "Same fix as above; Voronoi split by 'nearest place' must not be published at place level.",
+   "severity": "high"
+  },
+  {
+   "file": "villages/P-population.jsonl",
+   "locator": "caza record Marjaayoun (LB43): attr.resident_estimate_lrp_2025_total / _2026_total",
+   "issue": "Marjaayoun's OCHA/LRP totals look wrong, and the 2026 total is the calibration base for every Marjaayoun place (factor 0.41).",
+   "evidence": "LRP 2025 = 7,255, LRP 2026 = 33,010, but CAS 2018-19 = 74,000, Kontur 2023 = 81,218, LandScan 2013 = 53,231, registered voters 2025 = 130,568.",
+   "fix": "Flag Marjaayoun LRP totals as unreliable and do not calibrate places on them; fall back to the CAS 2018-19 figure with a note.",
+   "severity": "medium"
+  },
+  {
+   "file": "villages/P-arabic-names.jsonl",
+   "locator": "name=Dahr es Safa (geonames 275888), Halioûnet et Tahta (274701), Haret el Knisse (274469)",
+   "issue": "The Arabic name is the wrong or incomplete GeoNames alternate, yet it is tagged confidence high. 3 of 8 sampled GeoNames-sourced names are affected.",
+   "evidence": "GeoNames 275888 lists 'ضهر الصفا' and 'الرويس'; the file keeps 'الرويس' (a different place name). GeoNames 274701 lists 'هليونة التحتا' and 'هليونة'; the file keeps 'هليونة'. GeoNames 274469 holds only the generic 'حارة', kept for 'Haret el Knisse'. Right: Darb es Souq, Sahat Jall ed Dib, Bouar, Ksar el Hanach, El Aaouad, 3 lub-anan voter-list names, 3 voter counts (all re-read from lub-anan).",
+   "fix": "When GeoNames has several Arabic alternates, pick the one that matches the Latin name tokens (longest match), downgrade to medium when only a generic word exists, and re-run on the 39 records whose Arabic name is one short word for a multi-word Latin name.",
+   "severity": "medium"
+  },
+  {
+   "file": "research/81-deep-1831-1860.timeline.jsonl",
+   "locator": "line 53, 1845 'Druze led by Hamud Abu Nakad enter Abeih; Catholic priest struck'",
+   "issue": "Understates the event. The source says the Capuchin priest was killed, not struck.",
+   "evidence": "Poujade, Le Liban et la Syrie p.82-85 (archive.org lelibanetlasyri00poujgoog): Druze entered Abey; they 'massacrent le père Charles', who tried to save two Maronite priests, killed them, burned the church and the father's body was reduced to ashes. Type 'attack' with deaths null hides 3 deaths.",
+   "fix": "Retitle to say a Capuchin priest and two Maronite priests were killed; set deaths to 3 (as reported by Poujade) and type massacre or attack with a note.",
+   "severity": "medium"
+  },
+  {
+   "file": "research/80-deep-1800-1830.timeline.jsonl",
+   "locator": "line 45, 1807-05 'Druze take Jubail after Baz's killing; Yusuf's sons blinded'",
+   "issue": "type 'massacre' and deaths '1 (Baz's brother)' are wrong: Baz himself was killed too, and the source describes an ambush and strangling, not a massacre.",
+   "evidence": "Wikipedia 'Bashir Shihab II' rev 1375192649: on 15 May 1807 Baz was ambushed and strangled; Druze partisans occupied Jubail, killing Baz's brother and blinding Yusuf's sons. Deaths at least 2. Day given as 15 May.",
+   "fix": "Set deaths to '2 (Baz and his brother)', type assassination, date 1807-05-15.",
+   "severity": "low"
+  },
+  {
+   "file": "research/80-deep-1800-1830.timeline.jsonl",
+   "locator": "line 88, 1827-01-14 'Maronite order read in Beirut church bans dealing with missionaries'",
+   "issue": "Two small overreaches: the source does not say the 14 Jan order was Maronite, and it says Latin and Greek churches proclaimed the same ban around 14 Jan, not only on 28 Jan.",
+   "evidence": "Goodell, Forty Years in the Turkish Empire p.95: 'an order was read in the church in Beyrout... Something of the same nature was proclaimed in the Latin church, and also in the Greek church' (14 Jan); 28 Jan: 'another blast in the Greek church, similar to that in the Maronite'.",
+   "fix": "Say 'church order' (Maronite per the 28 Jan entry), and say the Greek and Latin churches repeated it in January.",
+   "severity": "low"
+  },
+  {
+   "file": "research/hub/series/T-war-totals.json",
+   "locator": "series war_totals_killed_low / _high, points 1982, 1996, 2023, 2026",
+   "issue": "'Low' and 'high' mix definitions and dates, so the pair is not a range for the same quantity. 1982 low 5,000 is Gabriel's civilians-only figure (high 19,085 is all deaths); 1996 low 154 is HRW civilians only (high 250 is all Lebanese); 2026 low 2,294 (17 Apr) and high 4,386 (17 Sep) are two successive cumulative counts of one ongoing war.",
+   "evidence": "Wikipedia 1982 Lebanon War: Gabriel 5,000-8,000 civilians plus about 2,400 PLO; Operation Grapes of Wrath: HRW 154 civilians, Bregman 250 Lebanese. Own notes in the file say 'not comparable as a time series'.",
+   "fix": "Rename to 'lowest counted' / 'highest counted' with a per-point basis (civilians / all / date), or split the 2026 pair into two dated series.",
+   "severity": "medium"
+  },
+  {
+   "file": "research/hub/series/T-war-totals.json",
+   "locator": "totals[] '1993 Accountability' note",
+   "issue": "Omits the competing figure in the article's infobox: 140 Lebanese civilians killed (lead text says 118). killed_high is null, though 140 exists.",
+   "evidence": "Wikipedia 'Operation Accountability' infobox: '140 Lebanese civilians killed, 500 wounded, 300,000 displaced'; lead: 'deaths of 118 Lebanese civilians'.",
+   "fix": "Add 140 as killed_high (civilians) with the source and keep 118 as low.",
+   "severity": "low"
+  },
+  {
+   "file": "research/hub/series/T-war-totals.json",
+   "locator": "totals[] '2026 war, at the 17 Apr 2026 ceasefire announcement'",
+   "issue": "Ceasefire date label is a day late.",
+   "evidence": "Wikipedia '2026 Israel-Lebanon ceasefire': agreed 16 April 2026, in effect 5 pm EST on 16 April. The 2,294 count is dated 17 Apr by the WHO sitrep.",
+   "fix": "Label 'ceasefire of 16 Apr 2026 (count as of 17 Apr)'.",
+   "severity": "low"
+  },
+  {
+   "file": "research/hub/series/C-continuity.json",
+   "locator": "fuel_petrol95/petrol98/diesel *_continuous, points 2026-09-04, 2026-09-25, 2026-09-29",
+   "issue": "Labelled 'official price, Ministry table' and not in added_points, but the ministry listing has no rows between 11 Aug and 2 Oct 2026, so these three points come from press copies.",
+   "evidence": "Ministry ajax listing (pricesCtrl.php, type 1, queried 2026-10-03): rows 2026-08-07, 08-11, then 2026-10-02 (decision 221: 95 oct 2,837,000; diesel 2,726,000). cache D2 pages-t1.json ends 11 Aug 2026. 25 Sep 95 oct 2,845,000 is confirmed by press; 29 Sep 2,844,000 not independently confirmed. Series ends 29 Sep, so it lacks the 2 Oct ministry row.",
+   "fix": "Add the three dates to added_points with their press source and basis; append the 2 Oct 2026 ministry row.",
+   "severity": "low"
+  },
+  {
+   "file": "research/hub/elections/2026-parliamentary.json",
+   "locator": "status_detail and national.registered",
+   "issue": "'IFES lists it as Cancelled with 3,967,507 registered voters' is only half supported. The IFES page shows Cancelled and the 2-year extension but no registered-voter figure; 3,967,507 is the 2022 register.",
+   "evidence": "electionguide.org/elections/id/5069 shows 'May 10, 2026 Cancelled' and no voter count. research/hub/elections/2022-parliamentary.json national.registered = 3,967,507 (UNDP).",
+   "fix": "Say 'the 2022 register (3,967,507)' and drop IFES as the source of the number. All other fields were re-read in the Constitutional Council PDF: Law 41/2026 of 9 Mar 2026, supplement to Gazette 11, term to 31 May 2028, decision 7 of 7 Apr 2026, 'unanimous'.",
+   "severity": "low"
+  },
+  {
+   "file": "research/84-election-2026.timeline.jsonl",
+   "locator": "line 1, 2026-03-09 'Parliament extends its term two years (Law 41/2026)'",
+   "issue": "Tag is ✅ with Carnegie as the only source, but Carnegie gives the 76-41-4 vote and 'two years' only. It names no law number and does not mention the 7 April Constitutional Council ruling that the 'why' line states.",
+   "evidence": "Carnegie article (fetched): vote 76 to 41 with four abstentions; no law number; Constitutional Council not discussed. The facts are true per the Council's decision 7/2026 PDF.",
+   "fix": "Add the cc.gov.lb decision PDF (and law number source) to the source field or cite it in the 'why' line.",
+   "severity": "low"
+  },
+  {
+   "file": "research/hub/laws/L-new.jsonl (and D10-2020.jsonl)",
+   "locator": "12 of 15 rows have law_no null; law_no 1/2025",
+   "issue": "`date` mixes two meanings: session date for 14 rows, law date for Law 22 and Law 23. And (law_no, year) is not unique: two different laws are numbered 1 of 2025.",
+   "evidence": "lp.gov.lb Id=2273 session 31 Jul 2025 vs Law 23 dated 14 Aug 2025 (row date). Law 1 of 3/4/2025 (rents; legallaw lawId=333138, 'law in force by operation of law') and Law 1 of 24/4/2025 (banking secrecy; BLOMINVEST 'Law 1/2025'). Law 2 appears on 3/4 and 9/5/2025 too.",
+   "fix": "Add a `date_kind` field (session / law) and key rows by (type, law_no, date); say so in the README caveats.",
+   "severity": "low"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# W3: world geometry and Lebanon flows (2026-10-02)
+
+Files (all under research/hub/world/):
+- ne-110m.json (177 countries, 188 KB, globe) and ne-50m.json (242 features, 554 KB, flat map). Natural Earth admin_0_countries, public domain. Fields: iso3, a2, name, name_ar, name_fr, continent, subregion, pop_est, label [lon,lat], g (polygons > rings > [lon,lat]). 50m is Douglas-Peucker simplified at 0.04 deg, 2 decimals. Non-standard ids: XKX Kosovo, SOL Somaliland, CYN N. Cyprus, KAS Siachen, IOA/ATC (Australian territories). Natural Earth draws de facto boundaries.
+- flows/ (all `[origin, destination, value]`; "-all-years" variants carry `years` and a value array per pair):
+  - W3-emigrant-stock-2024 (+all-years 1990-2024): born in Lebanon abroad, 74 destinations, UN DESA IMS 2024, CC BY 3.0 IGO. World total 681,720 (74 mapped destinations sum to 681,491).
+  - W3-immigrant-stock-2024 (+all-years): foreign-born in Lebanon, only 8 origins mapped (UN DESA publishes few); total 1,422,583 (8 mapped origins plus "Others" 32,149 unmapped). Syria and Palestine dominate.
+  - W3-remittances-to-lebanon-2021, W3-remittances-from-lebanon-2021, W3-remittances-global-top-2021 (top 1,500 corridors): World Bank/KNOMAD bilateral remittance matrix 2021 (Dec 2022 version), million US$. MODELLED estimates (migrant stock + PPP incomes), not measured; Lebanon-Israel assumed zero. 2021 is the latest edition; KNOMAD ended 2024 and knomad.org now redirects, so the file was taken from the Wayback Machine copy (20230424). Licence: CC BY 4.0 per the World Bank data catalog entry. Unmapped names (Faeroe, Puerto Rico, Somalia, Vietnam) dropped.
+  - W3-unhcr-refugees-in-lebanon, W3-unhcr-lebanese-refugees-abroad (+all-years 1990-2025): UNHCR API, refugees + asylum-seekers (the D8/W2 files give refugees only: 535,168 vs 542,785 hosted in Lebanon, 2025), latest year 2025. UNRWA-registered Palestinians excluded. Licence string: CC BY-IGO (UNHCR, via HDX).
+  - W3-trade-exports-2023 / imports-2023 (+all-years 2000-2023, top 80 partners, US$): World Bank WITS SDMX API (keyless), Lebanon as reporter. 2024 not yet published. WITS: no open licence stated (checked 2026-10-02: wits.worldbank.org about page and World Bank dataset terms give no licence for WITS TradeStats; underlying UN Comtrade has its own terms). `redistribute: false`: shown with attribution, excluded from CSV downloads and the CC BY-SA claim.
+
+Gaps: no 2024 trade; Comtrade bulk not used (needs key); Comtrade public preview works keyless (500-row cap) if mirror data is wanted. No 2022+ bilateral remittance matrix exists publicly.
+Refresh: re-run the downloads in cache/hub-W3 (UN DESA xlsx URL under un.org/development/desa/pd; api.unhcr.org/population/v1; wits.worldbank.org/API/V1/SDMX/V21/...; scripts ne.py, trade.py). Cache is scratch.
+
+Schema notes: every indicator and flow file carries `redistribute` (true/false). "-all-years" flow files use `years` plus a value array per pair instead of a scalar `year`. Geometry `pop_est` is an old Natural Earth vintage (c.2019), not the hub population series.

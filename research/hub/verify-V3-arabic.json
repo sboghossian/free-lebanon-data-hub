@@ -1,0 +1,411 @@
+{
+ "checked": 150,
+ "findings": [
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=87e672c950ab",
+   "severity": "wrong",
+   "issue": "Place name wrong: Sahmar/Sohmor (West Bekaa) is سحمر",
+   "evidence": "EN: Israeli airstrike on Sahmar | AR: غارة جوية إسرائيلية على صهمر | gazetteer (OCHA CAS) name_ar: سحمر; same village rendered 5 different ways across the file",
+   "fix": "غارة جوية إسرائيلية على سحمر",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-02.jsonl",
+   "locator": "h=152212a37875",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Sohmor is سحمر",
+   "evidence": "EN: Sohmor massacre | AR: مجزرة صحمر | gazetteer name_ar: سحمر",
+   "fix": "مجزرة سحمر",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-08.jsonl",
+   "locator": "h=fb7bb2aa7013",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Sohmor is سحمر",
+   "evidence": "EN: Sohmor mayor killed at Baaloul; drone hits Netanyahu's Caesarea home | AR: مقتل رئيس بلدية صحمر في بعلول، ومسيّرة تصيب منزل نتنياهو في قيسارية | gazetteer name_ar: سحمر",
+   "fix": "مقتل رئيس بلدية سحمر في بعلول، ومسيّرة تصيب منزل نتنياهو في قيسارية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-09.jsonl",
+   "locator": "h=34ef57e738b4",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Sohmor is سحمر",
+   "evidence": "EN: Killings at Sohmor; the list attributes them to the South Lebanon Army. | AR: عمليات قتل في صهمور؛ وتنسبها القائمة إلى جيش لبنان الجنوبي. | gazetteer name_ar: سحمر",
+   "fix": "عمليات قتل في سحمر؛ وتنسبها القائمة إلى جيش لبنان الجنوبي.",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=a08c27307434",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Sohmor is سحمر",
+   "evidence": "EN: In the Bekaa, a strike targeted Sohmor, killing two people, according to our local | AR: في البقاع، استهدفت غارة سهمر، ما أدى إلى مقتل شخصين، بحسب مصدرنا المحلي | gazetteer name_ar: سحمر",
+   "fix": "في البقاع، استهدفت غارة سحمر، ما أدى إلى مقتل شخصين، بحسب مصدرنا المحلي",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=dec2695a1e45",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Sohmor is سحمر",
+   "evidence": "EN: Sohmor: In the Shi’a village of Sohmor, South Lebanon, the SLA… | AR: سهمر: في قرية سهمر الشيعية، جنوب لبنان، قام جيش لبنان الجنوبي… | gazetteer name_ar: سحمر",
+   "fix": "سحمر: في قرية سهمر الشيعية، جنوب لبنان، قام جيش لبنان الجنوبي…",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=96694a9f42fa",
+   "severity": "wrong",
+   "issue": "Place name: Adloun is عدلون (same file renders it عدلون elsewhere, e.g. h=124aa4d73eb8)",
+   "evidence": "EN: Israeli airstrike on Adloun | AR: غارة جوية إسرائيلية على أدلون | gazetteer name_ar: عدلون",
+   "fix": "غارة جوية إسرائيلية على عدلون",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=a0eb15a9b68d",
+   "severity": "wrong",
+   "issue": "Place name: Adloun is عدلون (same file renders it عدلون elsewhere, e.g. h=124aa4d73eb8)",
+   "evidence": "EN: Israeli ground operation on Adloun | AR: عملية برية إسرائيلية على أدلون | gazetteer name_ar: عدلون",
+   "fix": "عملية برية إسرائيلية على عدلون",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=d8459856a38c",
+   "severity": "wrong",
+   "issue": "Place name: Adloun is عدلون (same file renders it عدلون elsewhere, e.g. h=124aa4d73eb8)",
+   "evidence": "EN: Israeli drone strike on Adloun | AR: غارة بطائرة مسيّرة إسرائيلية على أدلون | gazetteer name_ar: عدلون",
+   "fix": "غارة بطائرة مسيّرة إسرائيلية على عدلون",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-02.jsonl",
+   "locator": "h=152ecb4a475f",
+   "severity": "wrong",
+   "issue": "Place name wrong: Araya (Baabda District) is عاريا",
+   "evidence": "EN: Israeli drone strike hits car in Araya area of Baabda District | AR: غارة بطائرة مسيّرة إسرائيلية تصيب سيارة في منطقة عرية بقضاء بعبدا | gazetteer: Arayia/Aaraiya name_ar عاريا, adm2 Baabda",
+   "fix": "غارة بطائرة مسيّرة إسرائيلية تصيب سيارة في منطقة عاريا بقضاء بعبدا",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=9c9af612c7b6",
+   "severity": "wrong",
+   "issue": "Place name wrong: Ras al-Nabaa (Beirut neighbourhood) rendered as Ras Naqoura",
+   "evidence": "EN: Israeli airstrike on Ras al-Nabaa | AR: غارة جوية إسرائيلية على رأس الناقورة | gazetteer: Ras al-Nabaa = راس النبع (adm2 Beirut); Naqoura is a different place",
+   "fix": "غارة جوية إسرائيلية على رأس النبع",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=e6d2d477b0c4",
+   "severity": "wrong",
+   "issue": "Place name wrong: Maaraboun (Baalbek) is معربون; معروب is Maaroub (Tyre), a different village that appears separately in the data",
+   "evidence": "EN: Israeli airstrike on Maaraboun | AR: غارة جوية إسرائيلية على معروب | gazetteer: Maarboun alt Maaraboun name_ar معربون (Baalbek); Maaroub = معروب (Sour)",
+   "fix": "غارة جوية إسرائيلية على معربون",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=c8e2f4536bfe",
+   "severity": "wrong",
+   "issue": "Place name wrong: Bashoura rendered as Basta (different Beirut quarter); sibling lines use البشورة",
+   "evidence": "EN: Israeli ground operation on Bashoura | AR: عملية برية إسرائيلية على البسطة | h=1dfa20a3286b and h=57b492761ac7 use البشورة",
+   "fix": "عملية برية إسرائيلية على البشورة",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=a01731181d68",
+   "severity": "wrong",
+   "issue": "Place name: Boudai (Baalbek) is بوداي",
+   "evidence": "EN: Israeli ground operation on Boudai | AR: عملية برية إسرائيلية على بودي | gazetteer name_ar: بوداي; other lines (h=0b72409773d8 area) use بوداي",
+   "fix": "عملية برية إسرائيلية على بوداي",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=ed9540f9d5ed",
+   "severity": "wrong",
+   "issue": "Place name: Boudai (Baalbek) is بوداي",
+   "evidence": "EN: Israeli airstrike on Boudai | AR: غارة جوية إسرائيلية على بودي | gazetteer name_ar: بوداي; other lines (h=0b72409773d8 area) use بوداي",
+   "fix": "غارة جوية إسرائيلية على بوداي",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=3f0c45c1f625",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Hortala (Baalbek) is حورتعلا",
+   "evidence": "EN: Israeli ground operation on Hortala | AR: عملية برية إسرائيلية على حرتالا | gazetteer alt: حور تعلا; the two lines use حرتالا and حرتلا",
+   "fix": "عملية برية إسرائيلية على حورتعلا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=b3471286a0dc",
+   "severity": "wrong",
+   "issue": "Place name wrong and inconsistent: Hortala (Baalbek) is حورتعلا",
+   "evidence": "EN: Israeli airstrike on Hortala | AR: غارة جوية إسرائيلية على حرتلا | gazetteer alt: حور تعلا",
+   "fix": "غارة جوية إسرائيلية على حورتعلا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=9986134717db",
+   "severity": "wrong",
+   "issue": "Place name wrong: Jouaiya (Tyre) is جويا, not الجوّية (the Air)",
+   "evidence": "EN: Israeli airstrike on Jouaiya | AR: غارة جوية إسرائيلية على الجوّية | gazetteer name_ar: جويا",
+   "fix": "غارة جوية إسرائيلية على جويا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=5a9f1372d2a6",
+   "severity": "wrong",
+   "issue": "Place name: Sarbin (Bint Jbeil) is صربين",
+   "evidence": "EN: Israeli airstrike on Sarbin | AR: غارة جوية إسرائيلية على سربين | gazetteer name_ar: صربين",
+   "fix": "غارة جوية إسرائيلية على صربين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=b8279e6e52af",
+   "severity": "wrong",
+   "issue": "Place name: Sarbin (Bint Jbeil) is صربين",
+   "evidence": "EN: Israeli ground operation on Sarbin | AR: عملية برية إسرائيلية على سربين | gazetteer name_ar: صربين",
+   "fix": "عملية برية إسرائيلية على صربين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=469e8e71bf99",
+   "severity": "wrong",
+   "issue": "Place name: Tefahta (Saida) is تفاحتا",
+   "evidence": "EN: Israeli airstrike on Tefahta | AR: غارة جوية إسرائيلية على طفحتا | gazetteer name_ar: تفاحتا",
+   "fix": "غارة جوية إسرائيلية على تفاحتا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=7537588493a6",
+   "severity": "wrong",
+   "issue": "Place name: Tefahta (Saida) is تفاحتا",
+   "evidence": "EN: Israeli ground operation on Tefahta | AR: عملية برية إسرائيلية على طفحتا | gazetteer name_ar: تفاحتا",
+   "fix": "عملية برية إسرائيلية على تفاحتا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=99dbe09aa99a",
+   "severity": "wrong",
+   "issue": "Place name: Toul (Nabatieh) is تول",
+   "evidence": "EN: Israeli airstrike on Toul | AR: غارة جوية إسرائيلية على طول | gazetteer name_ar: تول",
+   "fix": "غارة جوية إسرائيلية على تول",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=4f4908105ecf",
+   "severity": "wrong",
+   "issue": "Place name: Toulin (Marjayoun) is تولين",
+   "evidence": "EN: Israeli drone strike on Touline | AR: غارة إسرائيلية بطائرة مسيّرة على طولين | gazetteer name_ar: تولين",
+   "fix": "غارة إسرائيلية بطائرة مسيّرة على تولين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=ea5575b07191",
+   "severity": "wrong",
+   "issue": "Place name: Toulin (Marjayoun) is تولين",
+   "evidence": "EN: Israeli ground operation on Tulin | AR: عملية برية إسرائيلية على طولين | gazetteer name_ar: تولين",
+   "fix": "عملية برية إسرائيلية على تولين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=f5e57b3c1a86",
+   "severity": "wrong",
+   "issue": "Place name: Shaaitiyeh (Tyre) is الشعيتية",
+   "evidence": "EN: Israeli airstrike on Al-Shaitiya | AR: غارة جوية إسرائيلية على الشيتية | gazetteer name_ar: شعيتية",
+   "fix": "غارة جوية إسرائيلية على الشعيتية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=342bf8fa8a3b",
+   "severity": "wrong",
+   "issue": "Place name wrong: Sareen (Baalbek) rendered as Srifa (Tyre), a different village",
+   "evidence": "EN: Israeli ground operation on Sareen | AR: عملية برية إسرائيلية على صريفا | gazetteer: Sareen -> سرعين التحتا (Baalbek); Srifa is صريفا",
+   "fix": "عملية برية إسرائيلية على سرعين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=6290b8255175",
+   "severity": "wrong",
+   "issue": "Place name wrong: Sareen (Baalbek) rendered as Srifa (Tyre), a different village",
+   "evidence": "EN: Israeli attack on Sareen | AR: هجوم إسرائيلي على صريفا | gazetteer: Sareen -> سرعين التحتا (Baalbek); Srifa is صريفا",
+   "fix": "هجوم إسرائيلي على سرعين",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=a48222f94d2a",
+   "severity": "minor",
+   "issue": "Place name inconsistent: Al-Bissariya/Bissariyeh is البيسارية (sibling line h=8d00949599e6 uses it)",
+   "evidence": "EN: Israeli airstrike on Al-Bissariya | AR: غارة جوية إسرائيلية على البسارية",
+   "fix": "غارة جوية إسرائيلية على البيسارية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=bd71a92931e3",
+   "severity": "minor",
+   "issue": "Place name: Rashaf (Bint Jbeil) is رشاف",
+   "evidence": "EN: Israeli drone strike on Rachaf | AR: غارة بطائرة مسيّرة إسرائيلية على راشف | gazetteer name_ar: رشاف",
+   "fix": "غارة بطائرة مسيّرة إسرائيلية على رشاف",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-14.jsonl",
+   "locator": "h=173ca5cea6aa",
+   "severity": "minor",
+   "issue": "Place name inconsistent: Ramyeh is رامية elsewhere",
+   "evidence": "EN: Israeli attack on Ramyeh | AR: هجوم إسرائيلي على رميّة",
+   "fix": "هجوم إسرائيلي على رامية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=35aeb30b7b25",
+   "severity": "minor",
+   "issue": "Place name inconsistent: other Ramyah/Ramyeh lines use رامية without the article",
+   "evidence": "EN: Israeli airstrike on Ramyah | AR: غارة جوية إسرائيلية على الرامية",
+   "fix": "غارة جوية إسرائيلية على رامية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=7cb667202b78",
+   "severity": "minor",
+   "issue": "Place name inconsistent: other Ramyah/Ramyeh lines use رامية without the article",
+   "evidence": "EN: Israeli attack on Ramyah | AR: هجوم إسرائيلي على الرامية",
+   "fix": "هجوم إسرائيلي على رامية",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-14.jsonl",
+   "locator": "h=13a3d6d4e02f",
+   "severity": "minor",
+   "issue": "Place name: Kafr Hata is كفرحاتا",
+   "evidence": "EN: Israeli ground operation on Kafr Hata | AR: عملية برية إسرائيلية على كفرحتى | gazetteer name_ar: كفر حاتا. Confidence medium.",
+   "fix": "عملية برية إسرائيلية على كفرحاتا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-15.jsonl",
+   "locator": "h=3a30f3e4b84a",
+   "severity": "minor",
+   "issue": "Place name inconsistent: Janah rendered جناتا here and جناح in h=10c046bb8c15",
+   "evidence": "EN: Israeli ground operation on Janah | AR: عملية برية إسرائيلية على جناتا",
+   "fix": "عملية برية إسرائيلية على جناح",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-16.jsonl",
+   "locator": "h=d2d93183bc6b",
+   "severity": "wrong",
+   "issue": "Invents a time of day. The English \"Around 1,\" is a truncated figure (almost certainly \"Around 1,xxx\"); the Arabic turns it into \"around 1 o'clock\", adding information that is not in the source.",
+   "evidence": "EN: Jamiliyyeh: Around 1, refugees were displaced from the Iqlim al-Kharoub and… | AR: الجميلية: نحو الساعة 1، نزح لاجئون من إقليم الخروب و… | Keep the fragment literal and flag the source truncation upstream; do not add \"الساعة\".",
+   "fix": "الجميلية: نحو 1، نزح لاجئون من إقليم الخروب و…",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-12.jsonl",
+   "locator": "h=c58a9b9df15c",
+   "severity": "wrong",
+   "issue": "Grammar/meaning: \"stabilisation and tourism rebound supported 2025 growth\" became a noun phrase that reads \"the support of stabilisation and the rebound of tourism, growth 2025\".",
+   "evidence": "EN: Search summary: stabilisation and tourism rebound supported 2025 growth after war. | AR: ملخص بحث: دعم التثبيت وانتعاش السياحة نمو 2025 بعد الحرب.",
+   "fix": "ملخص بحث: الاستقرار وانتعاش السياحة دعما النمو في عام 2025 بعد الحرب.",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-03.jsonl",
+   "locator": "h=5133759a75be",
+   "severity": "minor",
+   "issue": "Register/neutrality: source says \"hold\"; \"تحتل\" (occupy) is the loaded word. Same for h=51657fa3fae2 (Allied forces hold Beirut...).",
+   "evidence": "EN: French troops hold Beirut and parts of Mount Lebanon until mid-1861 | AR: القوات الفرنسية تحتل بيروت وأجزاء من جبل لبنان حتى منتصف 1861",
+   "fix": "القوات الفرنسية تتمركز في بيروت وأجزاء من جبل لبنان حتى منتصف 1861",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-03.jsonl",
+   "locator": "h=51657fa3fae2",
+   "severity": "minor",
+   "issue": "Register/neutrality: source says \"hold\"; \"تحتل\" (occupy) is the loaded word.",
+   "evidence": "EN: Allied forces hold Beirut, Sidon, Tyre and Haifa | AR: قوات الحلفاء تحتل بيروت وصيدا وصور وحيفا",
+   "fix": "قوات الحلفاء تسيطر على بيروت وصيدا وصور وحيفا",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-02.jsonl",
+   "locator": "h=111084a81f77",
+   "severity": "minor",
+   "issue": "Institution name: \"Council on Money and Credit\" rendered with an extra \"central\" (المركزي), conflating it with the BDL Central Council that h=c7f0cb441df9 correctly calls المجلس المركزي.",
+   "evidence": "EN: Decree creates Council on Money and Credit | AR: مرسوم يُنشئ المجلس المركزي للنقد والتسليف | Confidence medium: verify against the Code of Money and Credit text.",
+   "fix": "مرسوم يُنشئ مجلس النقد والتسليف",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-04.jsonl",
+   "locator": "h=6287711b6133",
+   "severity": "minor",
+   "issue": "Ambiguous institution name: \"لجنة الحريري\" reads as a commission by Hariri. Every other line spells out the UN inquiry.",
+   "evidence": "EN: Hariri commission publishes interim report on new findings | AR: لجنة الحريري تنشر تقريراً مرحلياً عن نتائج جديدة | other lines use لجنة التحقيق في اغتيال الحريري / لجنة التحقيق الدولية المستقلة",
+   "fix": "لجنة التحقيق الدولية في اغتيال الحريري تنشر تقريراً مرحلياً عن نتائج جديدة",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-10.jsonl",
+   "locator": "h=67d0ab314804",
+   "severity": "minor",
+   "issue": "Meaning drift: \"highlighted\" rendered \"حُدّدت\" (designated/identified).",
+   "evidence": "EN: Three buildings were highlighted. | AR: حُدّدت ثلاثة مبانٍ. | Low confidence, context-dependent.",
+   "fix": "أُبرزت ثلاثة مبانٍ.",
+   "in_sample": true
+  },
+  {
+   "file": "research/i18n/ar/part-03.jsonl",
+   "locator": "h=4da23b3c5ea1",
+   "severity": "minor",
+   "issue": "Neutrality: source says \"killings\"; the Arabic upgrades it to \"مجزرة\" (massacre). The Arabic is the common name of the event but it is not what the source says. Apply a house rule or keep the source wording.",
+   "evidence": "EN: Frangieh leaves the Lebanese Front after the Ehden killings | AR: فرنجية يغادر الجبهة اللبنانية بعد مجزرة إهدن",
+   "fix": "فرنجية يغادر الجبهة اللبنانية بعد أحداث القتل في إهدن",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-05.jsonl",
+   "locator": "h=9ce237a49776",
+   "severity": "minor",
+   "issue": "Neutrality: source says \"killings\"; the Arabic upgrades it to \"مجزرة\" (massacre). The Arabic is the common name of the event but it is not what the source says. Apply a house rule or keep the source wording.",
+   "evidence": "EN: Israeli invasion begins; Sabra and Shatila killings follow in September | AR: بدء الغزو الإسرائيلي؛ وتلتها مجزرة صبرا وشاتيلا في أيلول",
+   "fix": "بدء الغزو الإسرائيلي؛ وتلتها عمليات القتل في صبرا وشاتيلا في أيلول",
+   "in_sample": false
+  },
+  {
+   "file": "research/i18n/ar/part-09.jsonl",
+   "locator": "h=331bd0089299",
+   "severity": "minor",
+   "issue": "Neutrality: source says \"killings\"; the Arabic upgrades it to \"مجزرة\" (massacre). The Arabic is the common name of the event but it is not what the source says. Apply a house rule or keep the source wording.",
+   "evidence": "EN: Move came the day after Bashir Gemayel's death and the day before the Sabra and Shatila killings. | AR: جاءت الخطوة في اليوم التالي لمقتل بشير الجميل وقبل يوم من مجزرة صبرا وشاتيلا.",
+   "fix": "جاءت الخطوة في اليوم التالي لمقتل بشير الجميل وقبل يوم من عمليات القتل في صبرا وشاتيلا.",
+   "in_sample": false
+  }
+ ],
+ "method": "150 lines sampled (stratified by kind: 40 event_title, 40 event_why, 25 strike_title, 15 dataset_field, 8 strike_target, 8 era_label, 8 series_label, 6 series_note; seed 7) and read in full: 5 wrong, 4 minor (in_sample=true). Corpus-wide scans of all 15,195 pairs: no missing/empty/duplicate hashes; numbers/dates match source (no digit mismatches found); place-name check of 532 'Israeli ... on <village>' strike titles against research/geo/gazetteer.jsonl added the other findings (in_sample=false). Terminology (UNIFIL, STL, SLA, BDL, Hezbollah, IDF) is consistent."
+}

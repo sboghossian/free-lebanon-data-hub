@@ -1,0 +1,2107 @@
+{
+ "election": "2018 Lebanese parliamentary election",
+ "date": "2018-05-06",
+ "type": "parliamentary",
+ "law": "Law No. 44/2017: proportional representation by list in 15 districts, one preferential vote in a minor district, seats allocated by confession",
+ "held": true,
+ "districts": [
+  {
+   "district": "Beirut I",
+   "adm": "Beirut",
+   "qadas": "Beirut (Achrafieh, Medawar, Rmeil, Saifi)",
+   "seats": 8,
+   "seats_by_confession": {
+    "Maronite": 1,
+    "Greek Orthodox": 1,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 3,
+    "Armenian Catholic": 1,
+    "Minorities": 1
+   },
+   "registered": 134736,
+   "voters": 44714,
+   "turnout": 33.19,
+   "turnout_computed": 33.19,
+   "lists": [
+    {
+     "name": "Strong Beirut One",
+     "votes": 18373,
+     "seats": 4,
+     "candidates": 8,
+     "pct_of_district": 42.08,
+     "parties": "FPM-Tashnaq-Hunchak-Union for Lebanon, supported by Future"
+    },
+    {
+     "name": "Beirut One",
+     "votes": 16772,
+     "seats": 3,
+     "candidates": 8,
+     "pct_of_district": 38.41,
+     "parties": "LF-Kataeb-Pharaon-Ramgavar"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 6842,
+     "seats": 1,
+     "candidates": 8,
+     "pct_of_district": 15.67,
+     "parties": "Civil Society-Sabaa-LiBaladi"
+    },
+    {
+     "name": "We are Beirut",
+     "votes": 1272,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 2.91,
+     "parties": "Independents"
+    },
+    {
+     "name": "Loyalty to Beirut",
+     "votes": 94,
+     "seats": 0,
+     "candidates": 4,
+     "pct_of_district": 0.22,
+     "parties": "Independents"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Nicolas Maurice Sehnaoui",
+     "seat": "Greek Catholic",
+     "list": "Strong Beirut One",
+     "votes": 4788,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Jean Arshak Talozian",
+     "seat": "Armenian Catholic",
+     "list": "Beirut One",
+     "votes": 4166,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Nadim Bachir Gemayel",
+     "seat": "Maronite",
+     "list": "Beirut One",
+     "votes": 4096,
+     "affiliation": "Kataeb",
+     "bloc": "Kataeb",
+     "minor_district": null,
+     "note": "Resigned on 8 August 2020"
+    },
+    {
+     "name": "Imad Naim Wakim",
+     "seat": "Greek Orthodox",
+     "list": "Beirut One",
+     "votes": 3936,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Hagop Mardrios Hambarsom Terezian",
+     "seat": "Armenian Orthodox",
+     "list": "Strong Beirut One",
+     "votes": 3451,
+     "affiliation": "Tashnag",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Paula Sirakan Yacobian",
+     "seat": "Armenian Orthodox",
+     "list": "Kulluna Watani",
+     "votes": 2500,
+     "affiliation": "Independent",
+     "bloc": null,
+     "minor_district": null,
+     "note": "Resigned on 8 August 2020"
+    },
+    {
+     "name": "Alexander Matossian",
+     "seat": "Armenian Orthodox",
+     "list": "Strong Beirut One",
+     "votes": 2376,
+     "affiliation": "Tashnag",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Antoine Costantine Bano",
+     "seat": "Minorities",
+     "list": "Strong Beirut One",
+     "votes": 539,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Beirut II",
+   "adm": "Beirut",
+   "qadas": "Beirut (Ras Beirut, Mazraa, Bashoura, Mseitbeh, Marfaa, Ain el-Mreisseh, Mina el-Hosn, Zkak el-Blat)",
+   "seats": 11,
+   "seats_by_confession": {
+    "Sunni": 6,
+    "Shia": 2,
+    "Druze": 1,
+    "Greek Orthodox": 1,
+    "Evangelical": 1
+   },
+   "registered": 353420,
+   "voters": 147801,
+   "turnout": 41.82,
+   "turnout_computed": 41.82,
+   "lists": [
+    {
+     "name": "Future for Beirut",
+     "votes": 62970,
+     "seats": 6,
+     "candidates": 11,
+     "pct_of_district": 43.78,
+     "parties": "Future-PSP"
+    },
+    {
+     "name": "Unity of Beirut",
+     "votes": 47087,
+     "seats": 4,
+     "candidates": 6,
+     "pct_of_district": 32.74,
+     "parties": "Hezbollah-Amal-Al-Ahbash-FPM-IAF"
+    },
+    {
+     "name": "Lebanon is Worthy",
+     "votes": 15773,
+     "seats": 1,
+     "candidates": 10,
+     "pct_of_district": 10.97,
+     "parties": "NDP"
+    },
+    {
+     "name": "Beirut The Homeland",
+     "votes": 7475,
+     "seats": 0,
+     "candidates": 11,
+     "pct_of_district": 5.2,
+     "parties": "Salah Salam-JI"
+    },
+    {
+     "name": "We are All Beirut",
+     "votes": 6174,
+     "seats": 0,
+     "candidates": 8,
+     "pct_of_district": 4.29,
+     "parties": "Civil society-Sabaa"
+    },
+    {
+     "name": "People’s Voice",
+     "votes": 1339,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 0.93,
+     "parties": "Mourabitoun-People's Movement-SSNP (Intifada)"
+    },
+    {
+     "name": "Dignity of Beirut",
+     "votes": 971,
+     "seats": 0,
+     "candidates": 9,
+     "pct_of_district": 0.68,
+     "parties": "Independents"
+    },
+    {
+     "name": "Beirutis Opposition",
+     "votes": 553,
+     "seats": 0,
+     "candidates": 8,
+     "pct_of_district": 0.38,
+     "parties": "Rifi"
+    },
+    {
+     "name": "Independent Beirutis",
+     "votes": 410,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 0.29,
+     "parties": "Independents"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Amin Mohammad Sharri",
+     "seat": "Shia",
+     "list": "Unity of Beirut",
+     "votes": 22961,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Saad Eddine Rafik Al Hariri",
+     "seat": "Sunni",
+     "list": "Future for Beirut",
+     "votes": 20751,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Adnan Khodor Traboulsi",
+     "seat": "Sunni",
+     "list": "Unity of Beirut",
+     "votes": 13018,
+     "affiliation": "Al-Ahbash",
+     "bloc": "Consultative Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Fouad Moustapha Makhzoumi",
+     "seat": "Sunni",
+     "list": "Lebanon is Worthy",
+     "votes": 11346,
+     "affiliation": "National Dialogue Party",
+     "bloc": null,
+     "minor_district": null
+    },
+    {
+     "name": "Edgard Joseph Traboulsi",
+     "seat": "Evangelical",
+     "list": "Unity of Beirut",
+     "votes": 10919,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Tamam Saeb Beik Salam",
+     "seat": "Sunni",
+     "list": "Future for Beirut",
+     "votes": 9599,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Mohammad Moutapha Khawaja",
+     "seat": "Shia",
+     "list": "Unity of Beirut",
+     "votes": 7834,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Roula Nizar El Tabesh",
+     "seat": "Sunni",
+     "list": "Future for Beirut",
+     "votes": 6637,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Nouhad Saleh Al Mashnouk",
+     "seat": "Sunni",
+     "list": "Future for Beirut",
+     "votes": 6411,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Nazih Nicolas Najem",
+     "seat": "Greek Orthodox",
+     "list": "Future for Beirut",
+     "votes": 2351,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Faisal Afif Al Sayegh",
+     "seat": "Druze",
+     "list": "Future for Beirut",
+     "votes": 1902,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Mount Lebanon I",
+   "adm": "Keserwan-Jbeil",
+   "qadas": "Jbeil, Keserwan",
+   "seats": 8,
+   "seats_by_confession": {
+    "Shia": 1,
+    "Maronite": 7
+   },
+   "registered": 176716,
+   "voters": 117603,
+   "turnout": 66.51,
+   "turnout_computed": 66.55,
+   "lists": [
+    {
+     "name": "Strong Lebanon",
+     "votes": 54544,
+     "seats": 4,
+     "candidates": 8,
+     "pct_of_district": 58.88,
+     "parties": "FPM"
+    },
+    {
+     "name": "Definite Change",
+     "votes": 26980,
+     "seats": 2,
+     "candidates": 8,
+     "pct_of_district": 27.08,
+     "parties": "LF-NLP"
+    },
+    {
+     "name": "Decision is Ours",
+     "votes": 18553,
+     "seats": 2,
+     "candidates": 8,
+     "pct_of_district": 16.05,
+     "parties": "Khazen-Kataeb-Independents"
+    },
+    {
+     "name": "National Solidarity",
+     "votes": 12551,
+     "seats": 0,
+     "candidates": 8,
+     "pct_of_district": 10.86,
+     "parties": "Hezbollah-Independents"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 2526,
+     "seats": 0,
+     "candidates": 6,
+     "pct_of_district": 2.18,
+     "parties": "Civil society-Sabaa-LCP-MMFD"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Simon Farid Abi Ramia",
+     "seat": "Maronite",
+     "list": "Strong Lebanon",
+     "votes": 20729,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Roger Gergi Azar",
+     "seat": "Maronite",
+     "list": "Strong Lebanon",
+     "votes": 14793,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Ziad Halim Al Hawwat",
+     "seat": "Maronite",
+     "list": "Definite Change",
+     "votes": 14424,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Nehmat Georges Frem",
+     "seat": "Maronite",
+     "list": "Strong Lebanon",
+     "votes": 10717,
+     "affiliation": "Independent",
+     "bloc": "Strong Lebanon until 25 October 2019, then independent",
+     "minor_district": null,
+     "note": "Resigned on 8 September 2020"
+    },
+    {
+     "name": "Shawki Gergi Al Dakash",
+     "seat": "Maronite",
+     "list": "Definite Change",
+     "votes": 10032,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Farid Haykal Al Khazen",
+     "seat": "Maronite",
+     "list": "Decision is Ours",
+     "votes": 9081,
+     "affiliation": "Independent",
+     "bloc": "National Coalition",
+     "minor_district": null
+    },
+    {
+     "name": "Shamel Rachid Roukoz",
+     "seat": "Maronite",
+     "list": "Strong Lebanon",
+     "votes": 7300,
+     "affiliation": "Independent",
+     "bloc": "Strong Lebanon until 25 October 2019, then independent",
+     "minor_district": null
+    },
+    {
+     "name": "Moustapha Ali Al Hussein",
+     "seat": "Shia",
+     "list": "Decision is Ours",
+     "votes": 256,
+     "affiliation": "Independent",
+     "bloc": "National Coalition",
+     "minor_district": null,
+     "note": "Died on 28 July 2021"
+    }
+   ]
+  },
+  {
+   "district": "Mount Lebanon II",
+   "adm": "Mount Lebanon",
+   "qadas": "Metn",
+   "seats": 8,
+   "seats_by_confession": {
+    "Maronite": 4,
+    "Greek Orthodox": 2,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 1
+   },
+   "registered": 169922,
+   "voters": 92446,
+   "turnout": 51.38,
+   "turnout_computed": 54.4,
+   "lists": [
+    {
+     "name": "Strong Metn",
+     "votes": 38897,
+     "seats": 4,
+     "candidates": 8,
+     "pct_of_district": 59.03,
+     "parties": "FPM-SSNP-Tashnaq"
+    },
+    {
+     "name": "Metn Pulse",
+     "votes": 19003,
+     "seats": 2,
+     "candidates": 8,
+     "pct_of_district": 21.02,
+     "parties": "Kataeb-NLP-Green"
+    },
+    {
+     "name": "Metn Loyalty",
+     "votes": 13779,
+     "seats": 1,
+     "candidates": 5,
+     "pct_of_district": 15.24,
+     "parties": "Murr-SSNP (Intifada)"
+    },
+    {
+     "name": "Metn Heart of Lebanon",
+     "votes": 13138,
+     "seats": 1,
+     "candidates": 8,
+     "pct_of_district": 14.53,
+     "parties": "LF-Ramgavar"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 5027,
+     "seats": 0,
+     "candidates": 6,
+     "pct_of_district": 5.56,
+     "parties": "Civil Society-Sabaa-MMFD"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Sami Amin Gemayel",
+     "seat": "Maronite",
+     "list": "Metn Pulse",
+     "votes": 13968,
+     "affiliation": "Kataeb",
+     "bloc": "Kataeb",
+     "minor_district": null,
+     "note": "Resigned on 8 August 2020"
+    },
+    {
+     "name": "Michel Elias El Murr",
+     "seat": "Greek Orthodox",
+     "list": "Metn Loyalty",
+     "votes": 11945,
+     "affiliation": "Independent",
+     "bloc": null,
+     "minor_district": null,
+     "note": "Died on 31 January 2021"
+    },
+    {
+     "name": "Ibrahim Youssef Kenaan",
+     "seat": "Maronite",
+     "list": "Strong Metn",
+     "votes": 11179,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Elias Nicolas Bou Saab",
+     "seat": "Greek Orthodox",
+     "list": "Strong Metn",
+     "votes": 9999,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Edgard Boulos Maalouf",
+     "seat": "Greek Catholic",
+     "list": "Strong Metn",
+     "votes": 8961,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Majed Eddy Faek Abi Lamaa",
+     "seat": "Maronite",
+     "list": "Metn Heart of Lebanon",
+     "votes": 8922,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Hagop Ohanes Hagop Bakradonian",
+     "seat": "Armenian Orthodox",
+     "list": "Strong Metn",
+     "votes": 7182,
+     "affiliation": "Tashnag",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Elias Rakif Hankash",
+     "seat": "Maronite",
+     "list": "Metn Pulse",
+     "votes": 2583,
+     "affiliation": "Kataeb",
+     "bloc": "Kataeb",
+     "minor_district": null,
+     "note": "Resigned on 8 August 2020"
+    }
+   ]
+  },
+  {
+   "district": "Mount Lebanon III",
+   "adm": "Mount Lebanon",
+   "qadas": "Baabda",
+   "seats": 6,
+   "seats_by_confession": {
+    "Shia": 2,
+    "Druze": 1,
+    "Maronite": 3
+   },
+   "registered": 166137,
+   "voters": 80052,
+   "turnout": 48.18,
+   "turnout_computed": 48.18,
+   "lists": [
+    {
+     "name": "National Accord",
+     "votes": 40669,
+     "seats": 4,
+     "candidates": 6,
+     "pct_of_district": 56.83,
+     "parties": "FPM-Hezbollah-Amal-LDP"
+    },
+    {
+     "name": "Baabda Unity & Development",
+     "votes": 26500,
+     "seats": 2,
+     "candidates": 5,
+     "pct_of_district": 33.77,
+     "parties": "LF-PSP"
+    },
+    {
+     "name": "Together for Baabda",
+     "votes": 5768,
+     "seats": 0,
+     "candidates": 6,
+     "pct_of_district": 7.35,
+     "parties": "Kataeb-NLP-Civil Society"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 4992,
+     "seats": 0,
+     "candidates": 6,
+     "pct_of_district": 6.36,
+     "parties": "Civil Society-Sabaa-MMFD"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Ali Fadel Ammar",
+     "seat": "Shia",
+     "list": "National Accord",
+     "votes": 13692,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Hadi Mohammad Rafik Aboul Hosn",
+     "seat": "Druze",
+     "list": "Baabda Unity & Development",
+     "votes": 11844,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Pierre Rachid Bou Assi",
+     "seat": "Maronite",
+     "list": "Baabda Unity & Development",
+     "votes": 11498,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Alain Aoun",
+     "seat": "Maronite",
+     "list": "National Accord",
+     "votes": 11200,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Hikmat Faraj Dib",
+     "seat": "Maronite",
+     "list": "National Accord",
+     "votes": 7928,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Fadi Fakhri Alameh",
+     "seat": "Shia",
+     "list": "National Accord",
+     "votes": 6348,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Mount Lebanon IV",
+   "adm": "Mount Lebanon",
+   "qadas": "Aley, Chouf",
+   "seats": 13,
+   "seats_by_confession": {
+    "Sunni": 2,
+    "Druze": 4,
+    "Maronite": 5,
+    "Greek Orthodox": 1,
+    "Greek Catholic": 1
+   },
+   "registered": 329870,
+   "voters": 173320,
+   "turnout": 52.14,
+   "turnout_computed": 52.54,
+   "lists": [
+    {
+     "name": "Reconciliation",
+     "votes": 98967,
+     "seats": 9,
+     "candidates": 12,
+     "pct_of_district": 58.0,
+     "parties": "PSP-Future-LF"
+    },
+    {
+     "name": "Mountain Pledge",
+     "votes": 39027,
+     "seats": 4,
+     "candidates": 12,
+     "pct_of_district": 22.87,
+     "parties": "LDP-FPM-SSNP"
+    },
+    {
+     "name": "National Unity",
+     "votes": 12796,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 7.5,
+     "parties": "AUP-Toilers League"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 9987,
+     "seats": 0,
+     "candidates": 11,
+     "pct_of_district": 5.85,
+     "parties": "Civil society-Sabaa-Lihaqqi-LCP"
+    },
+    {
+     "name": "Free Decision",
+     "votes": 5446,
+     "seats": 0,
+     "candidates": 11,
+     "pct_of_district": 3.19,
+     "parties": "Kataeb-NLP"
+    },
+    {
+     "name": "Civic",
+     "votes": 2916,
+     "seats": 0,
+     "candidates": 8,
+     "pct_of_district": 1.71,
+     "parties": "Civil society"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Akram Hussein Sheyab",
+     "seat": "Druze",
+     "list": "Reconciliation",
+     "votes": 14088,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Taymour Walid Joumblatt",
+     "seat": "Druze",
+     "list": "Reconciliation",
+     "votes": 11478,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Mario Aziz Aoun",
+     "seat": "Maronite",
+     "list": "Mountain Pledge",
+     "votes": 10124,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Mohammad Kassem Rachid Al Hajjar",
+     "seat": "Sunni",
+     "list": "Reconciliation",
+     "votes": 10003,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Georges Jamil Adwan",
+     "seat": "Maronite",
+     "list": "Reconciliation",
+     "votes": 9956,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Talal Majid Arslan",
+     "seat": "Druze",
+     "list": "Mountain Pledge",
+     "votes": 9887,
+     "affiliation": "Lebanese Democratic Party",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Farid Georges Philip Al Boustani",
+     "seat": "Maronite",
+     "list": "Mountain Pledge",
+     "votes": 9657,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Cezar Raymond Abi Khalil",
+     "seat": "Maronite",
+     "list": "Mountain Pledge",
+     "votes": 9124,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Bilal Ahmad Abdallah",
+     "seat": "Sunni",
+     "list": "Reconciliation",
+     "votes": 8492,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Henri Pierre El Helou",
+     "seat": "Maronite",
+     "list": "Reconciliation",
+     "votes": 7894,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null,
+     "note": "Resigned on 8 August 2020"
+    },
+    {
+     "name": "Anis Wadih Nassar",
+     "seat": "Greek Orthodox",
+     "list": "Reconciliation",
+     "votes": 7872,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Marwan Mohammad Hmadeh",
+     "seat": "Druze",
+     "list": "Reconciliation",
+     "votes": 7266,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null,
+     "note": "Resigned on 5 August 2020"
+    },
+    {
+     "name": "Nehme Youssef Tohme",
+     "seat": "Greek Catholic",
+     "list": "Reconciliation",
+     "votes": 7253,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "North I",
+   "adm": "Akkar",
+   "qadas": "Akkar",
+   "seats": 7,
+   "seats_by_confession": {
+    "Sunni": 3,
+    "Alawite": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 2
+   },
+   "registered": 283795,
+   "voters": 136947,
+   "turnout": 48.26,
+   "turnout_computed": 48.26,
+   "lists": [
+    {
+     "name": "Future for Akkar",
+     "votes": 76452,
+     "seats": 5,
+     "candidates": 7,
+     "pct_of_district": 57.31,
+     "parties": "Future-LF"
+    },
+    {
+     "name": "Strong Akkar",
+     "votes": 34430,
+     "seats": 2,
+     "candidates": 7,
+     "pct_of_district": 28.81,
+     "parties": "FPM-JI-LPM"
+    },
+    {
+     "name": "Decision for Akkar",
+     "votes": 14449,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 10.83,
+     "parties": "SSNP-Marada-APG"
+    },
+    {
+     "name": "Lebanon Sovereignty",
+     "votes": 4713,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 3.53,
+     "parties": "Rifi"
+    },
+    {
+     "name": "Akkar’s Decision",
+     "votes": 2032,
+     "seats": 0,
+     "candidates": 4,
+     "pct_of_district": 1.52,
+     "parties": "Independents-Resistance Movement"
+    },
+    {
+     "name": "Women of Akkar",
+     "votes": 498,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 0.37,
+     "parties": "Independents"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Walid Wajih El Baarin",
+     "seat": "Sunni",
+     "list": "Future for Akkar",
+     "votes": 20426,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Assad Ramez Dargham",
+     "seat": "Greek Orthodox",
+     "list": "Strong Akkar",
+     "votes": 16435,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Mohamd Moustafa Sleiman",
+     "seat": "Sunni",
+     "list": "Future for Akkar",
+     "votes": 14911,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Mohamad Tarek Talal El Merehbi",
+     "seat": "Sunni",
+     "list": "Future for Akkar",
+     "votes": 14145,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Hadi Fawzi Hobeich",
+     "seat": "Maronite",
+     "list": "Future for Akkar",
+     "votes": 13055,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Wehbe Khalil Khalil Katicha",
+     "seat": "Greek Orthodox",
+     "list": "Future for Akkar",
+     "votes": 7911,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Moustafa Ali Hussein",
+     "seat": "Alawite",
+     "list": "Strong Akkar",
+     "votes": 1353,
+     "affiliation": "Independent",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "North II",
+   "adm": "North",
+   "qadas": "Tripoli, Minieh, Dinnieh",
+   "seats": 11,
+   "seats_by_confession": {
+    "Sunni": 8,
+    "Alawite": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": 350151,
+   "voters": 151759,
+   "turnout": 45.39,
+   "turnout_computed": 43.34,
+   "lists": [
+    {
+     "name": "The Future for the North",
+     "votes": 51937,
+     "seats": 5,
+     "candidates": 11,
+     "pct_of_district": 35.47,
+     "parties": "Future"
+    },
+    {
+     "name": "Determination",
+     "votes": 42019,
+     "seats": 4,
+     "candidates": 11,
+     "pct_of_district": 28.7,
+     "parties": "Azm Movement"
+    },
+    {
+     "name": "National Dignity",
+     "votes": 29101,
+     "seats": 2,
+     "candidates": 9,
+     "pct_of_district": 19.88,
+     "parties": "DM-Al-Ahbash-Marada"
+    },
+    {
+     "name": "Sovereign Lebanon",
+     "votes": 9656,
+     "seats": 0,
+     "candidates": 11,
+     "pct_of_district": 6.59,
+     "parties": "Rifi"
+    },
+    {
+     "name": "Independent Decision",
+     "votes": 4184,
+     "seats": 0,
+     "candidates": 9,
+     "pct_of_district": 2.86,
+     "parties": "Ahdab-JI"
+    },
+    {
+     "name": "People's Decision",
+     "votes": 4122,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 2.82,
+     "parties": "FPM-Kheir"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 2680,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 1.83,
+     "parties": "Civil society-Lebanon Vanguard"
+    },
+    {
+     "name": "Independent Civil Society",
+     "votes": 448,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 0.31,
+     "parties": "Civil Society"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Mohamad Nagib Azmi Mikati",
+     "seat": "Sunni",
+     "list": "Determination",
+     "votes": 21300,
+     "affiliation": "Azm Movement",
+     "bloc": "Independent Centre Bloc",
+     "minor_district": null
+    },
+    {
+     "name": "Jihad Mourched El Samad",
+     "seat": "Sunni",
+     "list": "National Dignity",
+     "votes": 11897,
+     "affiliation": "Independent",
+     "bloc": "Consultative Gathering (Withdrew from Consultative Gathering)",
+     "minor_district": null
+    },
+    {
+     "name": "Osman Mohamad Alameddine",
+     "seat": "Sunni",
+     "list": "The Future for the North",
+     "votes": 10221,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Mohamd Abdel Latif Kabbara",
+     "seat": "Sunni",
+     "list": "The Future for the North",
+     "votes": 9600,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Samir Adnan El Jisr",
+     "seat": "Sunni",
+     "list": "The Future for the North",
+     "votes": 9527,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Sami Ahmad Chaouki Fatfat",
+     "seat": "Sunni",
+     "list": "The Future for the North",
+     "votes": 7943,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Faysal Omar Karami",
+     "seat": "Sunni",
+     "list": "National Dignity",
+     "votes": 7126,
+     "affiliation": "Arab Liberation Party",
+     "bloc": "Consultative Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Ahmad Darwish",
+     "seat": "Alawite",
+     "list": "Determination",
+     "votes": 2246,
+     "affiliation": "Azm Movement",
+     "bloc": "Independent Centre Bloc",
+     "minor_district": null
+    },
+    {
+     "name": "Dima Mohamad Rachid El Jamali",
+     "seat": "Sunni",
+     "list": "The Future for the North",
+     "votes": 2066,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Jean Badawi Obeid",
+     "seat": "Maronite",
+     "list": "Determination",
+     "votes": 1136,
+     "affiliation": "Independent",
+     "bloc": "Independent Centre Bloc",
+     "minor_district": null,
+     "note": "Died on 8 February 2021"
+    },
+    {
+     "name": "Nicolas Kamil Nahas",
+     "seat": "Greek Orthodox",
+     "list": "Determination",
+     "votes": 1057,
+     "affiliation": "Azm Movement",
+     "bloc": "Independent Centre Bloc",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "North III",
+   "adm": "North",
+   "qadas": "Batroun, Bsharri, Koura, Zgharta",
+   "seats": 10,
+   "seats_by_confession": {
+    "Maronite": 7,
+    "Greek Orthodox": 3
+   },
+   "registered": 249416,
+   "voters": 117811,
+   "turnout": 46.95,
+   "turnout_computed": 47.23,
+   "lists": [
+    {
+     "name": "Together for the North and Lebanon",
+     "votes": 40788,
+     "seats": 4,
+     "candidates": 9,
+     "pct_of_district": 35.22,
+     "parties": "Marada-SSNP-Harb"
+    },
+    {
+     "name": "Strong Republic Pulse",
+     "votes": 37376,
+     "seats": 3,
+     "candidates": 10,
+     "pct_of_district": 32.28,
+     "parties": "LF-Kataeb-DLM"
+    },
+    {
+     "name": "Strong North",
+     "votes": 33342,
+     "seats": 3,
+     "candidates": 10,
+     "pct_of_district": 29.79,
+     "parties": "FPM-IM-Future Movement"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 3160,
+     "seats": 0,
+     "candidates": 9,
+     "pct_of_district": 2.73,
+     "parties": "Civil Society-Sabaa-MMFD"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Gebran Gergi Bassil",
+     "seat": "Maronite",
+     "list": "Strong North",
+     "votes": 16269,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Tony Sleiman Franjieh",
+     "seat": "Maronite",
+     "list": "Together for the North and Lebanon",
+     "votes": 11407,
+     "affiliation": "Marada",
+     "bloc": "National Coalition",
+     "minor_district": null
+    },
+    {
+     "name": "Fadi Youssef Saad",
+     "seat": "Maronite",
+     "list": "Strong Republic Pulse",
+     "votes": 9842,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Michel Rene Mouawad",
+     "seat": "Maronite",
+     "list": "Strong North",
+     "votes": 8571,
+     "affiliation": "Independence Movement",
+     "bloc": "Strong Lebanon (Withdrew from Strong Lebanon Bloc)",
+     "minor_district": null,
+     "note": "Resigned on 9 August 2020"
+    },
+    {
+     "name": "Georges Naim Atallah",
+     "seat": "Greek Orthodox",
+     "list": "Strong North",
+     "votes": 7383,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Sitrida Elias Tawk",
+     "seat": "Maronite",
+     "list": "Strong Republic Pulse",
+     "votes": 6677,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Joseph Gerges Ishak",
+     "seat": "Maronite",
+     "list": "Strong Republic Pulse",
+     "votes": 5990,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Estephan Boutros El Doueihy",
+     "seat": "Maronite",
+     "list": "Together for the North and Lebanon",
+     "votes": 5435,
+     "affiliation": "Marada",
+     "bloc": "National Coalition",
+     "minor_district": null
+    },
+    {
+     "name": "Salim Abdallah Saadeh",
+     "seat": "Greek Orthodox",
+     "list": "Together for the North and Lebanon",
+     "votes": 5263,
+     "affiliation": "Syrian Social Nationalist Party",
+     "bloc": "Social Nationalist Bloc",
+     "minor_district": null
+    },
+    {
+     "name": "Fayez Michel Ghosn",
+     "seat": "Greek Orthodox",
+     "list": "Together for the North and Lebanon",
+     "votes": 4224,
+     "affiliation": "Marada",
+     "bloc": "National Coalition",
+     "minor_district": null,
+     "note": "Died on November 22, 2021"
+    }
+   ]
+  },
+  {
+   "district": "South I",
+   "adm": "South",
+   "qadas": "Saida, Jezzine",
+   "seats": 5,
+   "seats_by_confession": {
+    "Sunni": 2,
+    "Maronite": 2,
+    "Greek Catholic": 1
+   },
+   "registered": 122528,
+   "voters": 67346,
+   "turnout": 54.92,
+   "turnout_computed": 54.96,
+   "lists": [
+    {
+     "name": "For Everyone",
+     "votes": 22083,
+     "seats": 2,
+     "candidates": 4,
+     "pct_of_district": 34.02,
+     "parties": "PNO-Independents"
+    },
+    {
+     "name": "Saida and Jezzine Together",
+     "votes": 20127,
+     "seats": 2,
+     "candidates": 5,
+     "pct_of_district": 31.0,
+     "parties": "FPM-JI-Bizri"
+    },
+    {
+     "name": "Integrity and Dignity",
+     "votes": 16470,
+     "seats": 1,
+     "candidates": 5,
+     "pct_of_district": 25.37,
+     "parties": "Future-Independents"
+    },
+    {
+     "name": "Power of Change",
+     "votes": 6238,
+     "seats": 0,
+     "candidates": 3,
+     "pct_of_district": 9.61,
+     "parties": "LF-Kataeb-11 March"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Bahia Bahaa El din El Hariri",
+     "seat": "Sunni",
+     "list": "Integrity and Dignity",
+     "votes": 13739,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Ibrahim Samir Azar",
+     "seat": "Maronite",
+     "list": "For Everyone",
+     "votes": 11663,
+     "affiliation": "Independent",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ziad Michel Assouad",
+     "seat": "Maronite",
+     "list": "Saida and Jezzine Together",
+     "votes": 10270,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Oussama Maarouf Saad El Masri",
+     "seat": "Sunni",
+     "list": "For Everyone",
+     "votes": 9880,
+     "affiliation": "Popular Nasserite Organization",
+     "bloc": null,
+     "minor_district": null
+    },
+    {
+     "name": "Selim Antoine Khoury",
+     "seat": "Greek Catholic",
+     "list": "Saida and Jezzine Together",
+     "votes": 7708,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "South II",
+   "adm": "South",
+   "qadas": "Tyre, Zahrani",
+   "seats": 7,
+   "seats_by_confession": {
+    "Shia": 6,
+    "Greek Catholic": 1
+   },
+   "registered": 304197,
+   "voters": 150264,
+   "turnout": 49.9,
+   "turnout_computed": 49.4,
+   "lists": [
+    {
+     "name": "Hope and Loyalty",
+     "votes": 134068,
+     "seats": 7,
+     "candidates": 7,
+     "pct_of_district": 91.02,
+     "parties": "Amal-Hezbollah"
+    },
+    {
+     "name": "Together towards Change",
+     "votes": 11481,
+     "seats": 0,
+     "candidates": 6,
+     "pct_of_district": 7.79,
+     "parties": "LCP-Independents"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Nabih Moustafa Berri",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 42137,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Nouaf Mahmoud El Mousawi",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 24379,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null,
+     "note": "Resigned on 18 July 2019"
+    },
+    {
+     "name": "Hussein Said Jechi",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 23864,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Inaya Mohamad Eizzidine",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 18815,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Youssef Khreiss",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 15672,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Michel Hanna Moussa",
+     "seat": "Greek Catholic",
+     "list": "Hope and Loyalty",
+     "votes": 4162,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Adel Ossairan",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 2203,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "South III",
+   "adm": "Nabatieh",
+   "qadas": "Nabatieh, Bint Jbeil, Marjayoun, Hasbaya",
+   "seats": 11,
+   "seats_by_confession": {
+    "Sunni": 1,
+    "Shia": 8,
+    "Druze": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": 460575,
+   "voters": 228563,
+   "turnout": 48.9,
+   "turnout_computed": 49.63,
+   "lists": [
+    {
+     "name": "Hope and Loyalty",
+     "votes": 193224,
+     "seats": 11,
+     "candidates": 11,
+     "pct_of_district": 85.58,
+     "parties": "Amal-Hezbollah-SSNP"
+    },
+    {
+     "name": "The South Deserves",
+     "votes": 17058,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 7.55,
+     "parties": "Independents-LDP-FPM, supported by Future"
+    },
+    {
+     "name": "A Vote for Change",
+     "votes": 5895,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 2.61,
+     "parties": "LCP-Independents"
+    },
+    {
+     "name": "Enough Talking",
+     "votes": 4710,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 2.09,
+     "parties": "LF-Independents"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 2262,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 1.0,
+     "parties": "Civil society-Sabaa"
+    },
+    {
+     "name": "We Can Change",
+     "votes": 659,
+     "seats": 0,
+     "candidates": 8,
+     "pct_of_district": 0.29,
+     "parties": "Lebanese Option"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Mohamad Hassan Raad",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 43797,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Hassan Nizamddine Fadlallah",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 39722,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Rachid Fayad",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 27460,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Hani Hassan Kobaisi",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 20504,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Hassan Khalil",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 16765,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Ahmad Bazzi",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 9290,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Yassin Kamel Jaber",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 7920,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ayoub Fahed Hmayid",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 7875,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Anwar Mohamad El Khalil",
+     "seat": "Druze",
+     "list": "Hope and Loyalty",
+     "votes": 6347,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Kassem Omar Hachem",
+     "seat": "Sunni",
+     "list": "Hope and Loyalty",
+     "votes": 6012,
+     "affiliation": "Arab Socialist Ba'ath Party – Lebanon Region",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Assaad Halim Hardan",
+     "seat": "Greek Orthodox",
+     "list": "Hope and Loyalty",
+     "votes": 3321,
+     "affiliation": "Syrian Social Nationalist Party",
+     "bloc": "Social Nationalist Bloc",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Bekaa I",
+   "adm": "Bekaa",
+   "qadas": "Zahle",
+   "seats": 7,
+   "seats_by_confession": {
+    "Sunni": 1,
+    "Shia": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 1,
+    "Greek Catholic": 2,
+    "Armenian Orthodox": 1
+   },
+   "registered": 175616,
+   "voters": 94082,
+   "turnout": 53.57,
+   "turnout_computed": 53.57,
+   "lists": [
+    {
+     "name": "Zahle for Everyone",
+     "votes": 36391,
+     "seats": 3,
+     "candidates": 7,
+     "pct_of_district": 39.7,
+     "parties": "Future-FPM"
+    },
+    {
+     "name": "Zahle Choice and Decision",
+     "votes": 23546,
+     "seats": 2,
+     "candidates": 6,
+     "pct_of_district": 25.69,
+     "parties": "Hezbollah-SSNP-Fattouch"
+    },
+    {
+     "name": "Zahle Our Cause",
+     "votes": 18702,
+     "seats": 2,
+     "candidates": 7,
+     "pct_of_district": 20.4,
+     "parties": "LF-Kataeb"
+    },
+    {
+     "name": "Popular Bloc",
+     "votes": 10885,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 11.87,
+     "parties": "Popular Bloc"
+    },
+    {
+     "name": "Kulluna Watani",
+     "votes": 1599,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 1.74,
+     "parties": "Civil Society-Sabaa"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Anwar Hussein Joumaa",
+     "seat": "Shia",
+     "list": "Zahle Choice and Decision",
+     "votes": 15601,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Georges Elie Okais",
+     "seat": "Greek Catholic",
+     "list": "Zahle Our Cause",
+     "votes": 11363,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Michel Georges Daher",
+     "seat": "Greek Catholic",
+     "list": "Zahle for Everyone",
+     "votes": 9742,
+     "affiliation": "Independent",
+     "bloc": "Strong Lebanon (Withdrew from Strong Lebanon Bloc)",
+     "minor_district": null
+    },
+    {
+     "name": "Salim Georges Aoun",
+     "seat": "Maronite",
+     "list": "Zahle for Everyone",
+     "votes": 8567,
+     "affiliation": "Free Patriotic Movement",
+     "bloc": "Strong Lebanon",
+     "minor_district": null
+    },
+    {
+     "name": "Assem Fayez Araji",
+     "seat": "Sunni",
+     "list": "Zahle for Everyone",
+     "votes": 7224,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Cesar Naim Risk El Maalouf",
+     "seat": "Greek Orthodox",
+     "list": "Zahle Our Cause",
+     "votes": 3554,
+     "affiliation": "Independent",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Eddy Bokhos Demerjian",
+     "seat": "Armenian Orthodox",
+     "list": "Zahle Choice and Decision",
+     "votes": 77,
+     "affiliation": "Independent",
+     "bloc": null,
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Bekaa II",
+   "adm": "Bekaa",
+   "qadas": "West Bekaa, Rashaya",
+   "seats": 6,
+   "seats_by_confession": {
+    "Sunni": 2,
+    "Shia": 1,
+    "Druze": 1,
+    "Maronite": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": 143812,
+   "voters": 68227,
+   "turnout": 45.99,
+   "turnout_computed": 47.44,
+   "lists": [
+    {
+     "name": "Better Tomorrow",
+     "votes": 32578,
+     "seats": 3,
+     "candidates": 5,
+     "pct_of_district": 49.0,
+     "parties": "Amal-Lebanese Arab Struggle"
+    },
+    {
+     "name": "Future for West Bekaa and Rashaya",
+     "votes": 31817,
+     "seats": 3,
+     "candidates": 6,
+     "pct_of_district": 47.86,
+     "parties": "Future-PSP"
+    },
+    {
+     "name": "Civil Society",
+     "votes": 1546,
+     "seats": 0,
+     "candidates": 5,
+     "pct_of_district": 2.33,
+     "parties": "Civil Society"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Abdel Rahim Youssef Mrad",
+     "seat": "Sunni",
+     "list": "Better Tomorrow",
+     "votes": 15111,
+     "affiliation": "Union Party",
+     "bloc": "Consultative Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Wael Wehbe Abou Faour",
+     "seat": "Druze",
+     "list": "Future for West Bekaa and Rashaya",
+     "votes": 10677,
+     "affiliation": "Progressive Socialist Party",
+     "bloc": "Democratic Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Mohamad Dib Nasrallah",
+     "seat": "Shia",
+     "list": "Better Tomorrow",
+     "votes": 8897,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Mohamad Kassem El Karaaoui",
+     "seat": "Sunni",
+     "list": "Future for West Bekaa and Rashaya",
+     "votes": 8768,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Elie Nagib Ferzli",
+     "seat": "Greek Orthodox",
+     "list": "Better Tomorrow",
+     "votes": 6899,
+     "affiliation": "Independent",
+     "bloc": "Strong Lebanon Expelled from Strong Lebanon bloc on 21 April 2021",
+     "minor_district": null
+    },
+    {
+     "name": "Henry Youssef Chedid",
+     "seat": "Maronite",
+     "list": "Future for West Bekaa and Rashaya",
+     "votes": 1584,
+     "affiliation": "Independent",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    }
+   ]
+  },
+  {
+   "district": "Bekaa III",
+   "adm": "Baalbek-Hermel",
+   "qadas": "Baalbek, Hermel",
+   "seats": 10,
+   "seats_by_confession": {
+    "Sunni": 2,
+    "Shia": 6,
+    "Maronite": 1,
+    "Greek Catholic": 1
+   },
+   "registered": 315648,
+   "voters": 190268,
+   "turnout": 60.29,
+   "turnout_computed": 60.28,
+   "lists": [
+    {
+     "name": "Hope and Loyalty",
+     "votes": 140747,
+     "seats": 8,
+     "candidates": 10,
+     "pct_of_district": 75.24,
+     "parties": "Amal-Hezbollah-Solidarity-SSNP"
+    },
+    {
+     "name": "Dignity and Development",
+     "votes": 35607,
+     "seats": 2,
+     "candidates": 10,
+     "pct_of_district": 19.03,
+     "parties": "Future-LF"
+    },
+    {
+     "name": "The Independent",
+     "votes": 5470,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 2.92,
+     "parties": "Independents-FPM"
+    },
+    {
+     "name": "Development and Change",
+     "votes": 4053,
+     "seats": 0,
+     "candidates": 7,
+     "pct_of_district": 2.17,
+     "parties": "LCP-Independents"
+    },
+    {
+     "name": "National Cedars",
+     "votes": 491,
+     "seats": 0,
+     "candidates": 10,
+     "pct_of_district": 0.26,
+     "parties": "Independents-Kataeb"
+    }
+   ],
+   "winners": [
+    {
+     "name": "Jamil Mohamad Amin Amin El Sayed",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 33223,
+     "affiliation": "Independent",
+     "bloc": null,
+     "minor_district": null
+    },
+    {
+     "name": "Ihab Arwa Hmade",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 18404,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Ghazy Mohamad Zeatir",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 17767,
+     "affiliation": "Amal Movement",
+     "bloc": "Development and Liberation",
+     "minor_district": null
+    },
+    {
+     "name": "Ali Mohamad Salman Bachir El Mokdad",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 17321,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Ibrahim Ali El Mousawi",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 16942,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Hussein Ali El Hajj Hassan",
+     "seat": "Shia",
+     "list": "Hope and Loyalty",
+     "votes": 15662,
+     "affiliation": "Hezbollah",
+     "bloc": "Loyalty to the Resistance",
+     "minor_district": null
+    },
+    {
+     "name": "Antoine El Badaoui Habchi",
+     "seat": "Maronite",
+     "list": "Dignity and Development",
+     "votes": 14858,
+     "affiliation": "Lebanese Forces",
+     "bloc": "Strong Republic",
+     "minor_district": null
+    },
+    {
+     "name": "Walid Mohamad Souccarieh",
+     "seat": "Sunni",
+     "list": "Hope and Loyalty",
+     "votes": 6916,
+     "affiliation": "Independent",
+     "bloc": "Consultative Gathering",
+     "minor_district": null
+    },
+    {
+     "name": "Baker Mahmoud El Houjairi",
+     "seat": "Sunni",
+     "list": "Dignity and Development",
+     "votes": 5994,
+     "affiliation": "Future Movement",
+     "bloc": "Lebanon First",
+     "minor_district": null
+    },
+    {
+     "name": "Albert Sami Mansour",
+     "seat": "Greek Catholic",
+     "list": "Hope and Loyalty",
+     "votes": 5881,
+     "affiliation": "Syrian Social Nationalist Party",
+     "bloc": "Social Nationalist Bloc",
+     "minor_district": null
+    }
+   ]
+  }
+ ],
+ "national": {
+  "registered": 3746483,
+  "voters": 1862103,
+  "turnout": 49.7,
+  "sources": [
+   "https://www.idea.int/data-tools/data/country?country=124&database_theme=293"
+  ]
+ },
+ "source": [
+  "https://en.wikipedia.org/wiki/2018_Lebanese_general_election",
+  "https://en.wikipedia.org/wiki/List_of_members_of_the_2018%E2%80%932022_Lebanese_Parliament"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0 (attribution: Wikipedia contributors); underlying official results published by the Lebanese Ministry of Interior and Municipalities, no licence stated",
+ "notes": [
+  "seat = confessional seat the winner holds; winner votes are preferential votes; list votes are valid list votes.",
+  "registered and voters per district come from the Wikipedia member list (voters = valid votes). turnout is the official published district figure from L'Orient (via Wikipedia). The two differ by more than 1 point in Mount Lebanon II (51.38 vs 54.40 computed), North II, Bekaa II and South III, and registered sums to 3,736,539 against the national 3,746,483, so treat per-district registered and voters as approximate.",
+  "Winner roster is Wikipedia list of members of the 2018-2022 Parliament (128 elected; later by-election replacements excluded). Winners listed under Mount Lebanon 5, 6 and 7 in the source belong to Mount Lebanon IV."
+ ]
+}

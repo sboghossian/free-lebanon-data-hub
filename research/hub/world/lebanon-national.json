@@ -1,0 +1,258 @@
+{
+ "meta": {
+  "generated": "2026-10-03",
+  "purpose": "Overlay for Lebanon's gaps. Never replaces the international series.",
+  "un_wpp": {
+   "edition": "World Population Prospects 2024",
+   "estimates_through": 2023,
+   "projections_from": 2024,
+   "variant": "medium",
+   "source_url": "https://ourworldindata.org/grapher/population-with-un-projections"
+  },
+  "imf_weo_lebanon": {
+   "edition": "April 2026",
+   "latest_actual_year_by_indicator": {
+    "NGDP_RPCH": 2021,
+    "NGDP_R": 2021,
+    "NGDPD": 2021,
+    "NGDP": 2021,
+    "PCPIPCH": 2025,
+    "PCPI": 2025,
+    "LUR": 2019,
+    "BCA_NGDPD": 2024,
+    "GGXWDG_NGDP": 2025,
+    "GGR_NGDP": 2025,
+    "GGX_NGDP": 2025,
+    "GGXCNL_NGDP": 2025,
+    "NGSD_NGDP": 2021
+   },
+   "note": "The IMF marks Lebanon's national accounts as actual only through 2021. WEO real GDP, nominal GDP and unemployment values after that year are IMF staff estimates. CAS published its own 2022-2024 accounts in April 2026."
+  },
+  "not_filled": {
+   "BdL": "Banque du Liban Macroeconomic Review (Dec 2025) estimates 2025 real growth 3.8% and GDP US$33bn, but its copyright notice bars redistribution without BdL's written consent, so no BdL values are included.",
+   "IMF": "No IMF Article IV report since 2023; imf.org blocks automated access, and the Sept 2026 staff visit statement gives no numbers.",
+   "other": "2025-26 GDP and growth, general-government debt, poverty, Gini, tourism receipts, money supply, current account and remittances for 2024-25 have no usable official source reachable without a login or consent."
+  }
+ },
+ "indicators": {
+  "NY.GDP.MKTP.CD": {
+   "label": "GDP, current US$ (CAS national accounts)",
+   "unit": "current US$",
+   "years": {
+    "2011": 39927125961,
+    "2012": 44014397681,
+    "2013": 46868147588,
+    "2014": 48067657541,
+    "2015": 49892750908,
+    "2016": 50618206513,
+    "2017": 52880426370,
+    "2018": 55289538214,
+    "2019": 53306090514,
+    "2020": 23921066290,
+    "2021": 19588299343,
+    "2022": 20387894988,
+    "2023": 25938894930,
+    "2024": 30493632028
+   },
+   "source": "Lebanon Central Administration of Statistics (CAS), National Accounts 2024",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "CAS National Accounts Estimates for 2024 (SNA 2008), Table 1.1/2.1, published 13 Apr 2026, with revised 2020-2023. 2020-2024 USD figures use CAS's weighted-average annual exchange rate, not the official peg. 2011-2018 at the 1,507.5 peg. The CAS press coverage quoted 2022 as US$21.4bn; the published table gives 20.39bn. The table is used here. No official 2025 figure yet (CAS: 2025 accounts pending data from the Finance Ministry)."
+  },
+  "NY.GDP.MKTP.KD.ZG": {
+   "label": "Real GDP growth (CAS national accounts)",
+   "unit": "% per year",
+   "years": {
+    "2012": 2.78,
+    "2013": 3.79,
+    "2014": 2.45,
+    "2015": 0.49,
+    "2016": 1.63,
+    "2017": 0.79,
+    "2018": -1.89,
+    "2019": -6.64,
+    "2020": -28.7,
+    "2021": 1.61,
+    "2022": 1.43,
+    "2023": -0.46,
+    "2024": -5.16
+   },
+   "source": "Lebanon Central Administration of Statistics (CAS), National Accounts 2024",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "CAS National Accounts Estimates for 2024 (SNA 2008), Table 1.1/2.1, published 13 Apr 2026, with revised 2020-2023. 2020-2024 USD figures use CAS's weighted-average annual exchange rate, not the official peg. Chain-linked, 2019 prices. 2023 is -0.46 in the table and the report text ('slight decline of 0.5 per cent'). No official 2025 figure yet."
+  },
+  "NY.GDP.PCAP.CD": {
+   "label": "GDP per capita, current US$ (CAS GDP / UN WPP population)",
+   "unit": "current US$",
+   "years": {
+    "2011": 7835,
+    "2012": 8407,
+    "2013": 8160,
+    "2014": 7573,
+    "2015": 7708,
+    "2016": 8005,
+    "2017": 8584,
+    "2018": 9239,
+    "2019": 9199,
+    "2020": 4195,
+    "2021": 3426,
+    "2022": 3549,
+    "2023": 4493,
+    "2024": 5252
+   },
+   "source": "Derived: CAS National Accounts 2024 GDP (US$) divided by UN WPP 2024 mid-year population (via Our World in Data)",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "Derived by this hub, not published by CAS. Lebanon has had no census since 1932, so the population is a UN WPP estimate (2024 onward is a projection)."
+  },
+  "NE.EXP.GNFS.CD": {
+   "label": "Exports of goods and services, current US$ (CAS)",
+   "unit": "current US$",
+   "years": {
+    "2011": 14518739635,
+    "2012": 12680893475,
+    "2013": 12492026093,
+    "2014": 11425578094,
+    "2015": 11553482873,
+    "2016": 11112344036,
+    "2017": 11627344114,
+    "2018": 11394547409,
+    "2019": 11010749255,
+    "2020": 7043711381,
+    "2021": 7658700285,
+    "2022": 8103428520,
+    "2023": 7824732955,
+    "2024": 6932094138
+   },
+   "source": "Lebanon Central Administration of Statistics (CAS), National Accounts 2024, Table 2.1",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "CAS National Accounts Estimates for 2024 (SNA 2008), Table 1.1/2.1, published 13 Apr 2026, with revised 2020-2023. 2020-2024 USD figures use CAS's weighted-average annual exchange rate, not the official peg. Expenditure-approach exports (goods fob plus services) in LBP, converted at the CAS annual rate."
+  },
+  "NE.IMP.GNFS.CD": {
+   "label": "Imports of goods and services, current US$ (CAS)",
+   "unit": "current US$",
+   "years": {
+    "2011": 26262779873,
+    "2012": 26294002587,
+    "2013": 27906587980,
+    "2014": 26962653976,
+    "2015": 24315275422,
+    "2016": 23526463868,
+    "2017": 24672982325,
+    "2018": 26079751235,
+    "2019": 22493702869,
+    "2020": 18661842500,
+    "2021": 17475632946,
+    "2022": 20844202589,
+    "2023": 20064561794,
+    "2024": 19875615401
+   },
+   "source": "Lebanon Central Administration of Statistics (CAS), National Accounts 2024, Table 2.1",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "CAS National Accounts Estimates for 2024 (SNA 2008), Table 1.1/2.1, published 13 Apr 2026, with revised 2020-2023. 2020-2024 USD figures use CAS's weighted-average annual exchange rate, not the official peg. Expenditure-approach imports (goods fob plus services) in LBP, converted at the CAS annual rate."
+  },
+  "NE.TRD.GNFS.ZS": {
+   "label": "Trade, % of GDP (CAS)",
+   "unit": "% of GDP",
+   "years": {
+    "2011": 102.14,
+    "2012": 88.55,
+    "2013": 86.2,
+    "2014": 79.86,
+    "2015": 71.89,
+    "2016": 68.43,
+    "2017": 68.65,
+    "2018": 67.78,
+    "2019": 62.85,
+    "2020": 107.46,
+    "2021": 128.31,
+    "2022": 141.98,
+    "2023": 107.52,
+    "2024": 87.91
+   },
+   "source": "Derived: (exports + imports) / GDP, all at current LBP prices, CAS National Accounts 2024",
+   "source_url": "https://www.cas.gov.lb/national-accounts/",
+   "license": null,
+   "note": "Derived by this hub from CAS Table 2.1; no exchange rate is involved."
+  },
+  "FP.CPI.TOTL.ZG": {
+   "label": "Inflation, consumer prices, annual average (CAS CPI)",
+   "unit": "% per year",
+   "years": {
+    "2022": 171.21,
+    "2023": 221.34,
+    "2024": 45.24,
+    "2025": 14.58,
+    "2026": 16.16
+   },
+   "source": "Lebanon Central Administration of Statistics (CAS), Consumer Price Index (Dec 2013 = 100), monthly index via the CAS CPI data portal",
+   "source_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+   "license": null,
+   "note": "Derived by this hub: average of the 12 monthly Lebanon CPI indexes over the average of the previous year. 2022-2024 match the World Bank series, 2025 is 14.58. 2026 is provisional: January-August 2026 average over January-August 2025 (index for April-August 2026 is based on partly imputed prices; Nabatieh collection is limited). December-on-December 2025 is 12.23%.",
+   "year_notes": {
+    "2026": "year to date, Jan-Aug"
+   }
+  },
+  "SL.UEM.TOTL.ZS": {
+   "label": "Unemployment rate (CAS household labour force surveys)",
+   "unit": "% of labour force",
+   "years": {
+    "2018": 11.35,
+    "2022": 29.56
+   },
+   "source": "Lebanon CAS with ILO: Labour Force and Household Living Conditions Survey 2018-19 (LU1, 15+, 203.65k unemployed of 1,794.05k labour force) and Follow-up Labour Force Survey, January 2022 (LU1, 15+)",
+   "source_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+   "license": null,
+   "note": "Two survey points, not a continuous series. The 2022 survey was a phone (CATI) survey in January 2022, so it is not strictly comparable with 2018-19. No CAS labour survey exists for 2023 onward."
+  },
+  "W2-SP.POP.TOTL": {
+   "label": "Population (UN WPP 2024 medium variant)",
+   "unit": "people",
+   "years": {
+    "2026": 5897462
+   },
+   "source": "UN World Population Prospects 2024, via Our World in Data",
+   "source_url": "https://ourworldindata.org/grapher/population-with-un-projections",
+   "license": "CC BY 4.0 (OWID processing); UN WPP data CC BY 3.0 IGO",
+   "note": "PROJECTION (WPP 2024 estimates end in 2023; 2024 onward is the medium variant). Mid-year population."
+  },
+  "W2-SP.POP.GROW": {
+   "label": "Population growth (derived from UN WPP 2024 projection)",
+   "unit": "% per year",
+   "years": {
+    "2026": 0.82
+   },
+   "source": "Derived from UN WPP 2024 medium-variant mid-year population, via Our World in Data",
+   "source_url": "https://ourworldindata.org/grapher/population-with-un-projections",
+   "license": "CC BY 4.0 (OWID processing); UN WPP data CC BY 3.0 IGO",
+   "note": "PROJECTION, derived by this hub (2026 over 2025)."
+  },
+  "W2-SP.DYN.LE00.IN": {
+   "label": "Life expectancy at birth (UN WPP 2024 projection)",
+   "unit": "years",
+   "years": {
+    "2025": 78.084,
+    "2026": 78.218
+   },
+   "source": "UN World Population Prospects 2024, via Our World in Data",
+   "source_url": "https://ourworldindata.org/grapher/life-expectancy-at-birth-including-the-un-projections",
+   "license": "CC BY 4.0 (OWID processing); UN WPP data CC BY 3.0 IGO",
+   "note": "PROJECTION (medium variant); estimates end in 2023."
+  },
+  "W2-SP.DYN.TFRT.IN": {
+   "label": "Total fertility rate (UN WPP 2024 projection)",
+   "unit": "births per woman",
+   "years": {
+    "2025": 2.208,
+    "2026": 2.188
+   },
+   "source": "UN World Population Prospects 2024, via Our World in Data",
+   "source_url": "https://ourworldindata.org/grapher/fertility-rate-with-projections",
+   "license": "CC BY 4.0 (OWID processing); UN WPP data CC BY 3.0 IGO",
+   "note": "PROJECTION (medium variant); estimates end in 2023."
+  }
+ }
+}

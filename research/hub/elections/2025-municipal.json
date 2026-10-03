@@ -1,0 +1,313 @@
+{
+ "election": "2025 Lebanese municipal and mukhtar elections",
+ "date": "2025-05-04",
+ "type": "municipal",
+ "law": "Municipal Law: plurality at-large lists, councils of 9 to 24 members; elections staged by governorate",
+ "held": true,
+ "phases": [
+  {
+   "date": "2025-05-04",
+   "area": "Mount Lebanon, Keserwan-Jbeil"
+  },
+  {
+   "date": "2025-05-11",
+   "area": "North, Akkar"
+  },
+  {
+   "date": "2025-05-18",
+   "area": "Beirut, Bekaa, Baalbek-Hermel"
+  },
+  {
+   "date": "2025-05-24",
+   "area": "South, Nabatieh"
+  }
+ ],
+ "national": {
+  "registered_total": 4093663,
+  "registered_in_contested_municipalities": 3715639,
+  "voters": 1457134,
+  "turnout": 39,
+  "municipalities": 1065,
+  "municipal_council_members": 12849,
+  "uncontested_municipalities_by_phase": {
+   "Mount Lebanon": 70,
+   "North and Akkar": 89,
+   "South and Nabatieh": 127
+  },
+  "sources": [
+   "https://www.undp.org/sites/g/files/zskgke326/files/2026-05/key_results_2025municipal_elections_updated.pdf"
+  ]
+ },
+ "districts": [
+  {
+   "district": "Beirut",
+   "adm": "Beirut",
+   "seats": null,
+   "registered": 514800,
+   "voters": 108638,
+   "turnout": 21.1,
+   "date": "2025-05-18",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Baalbek-Hermel",
+   "adm": "Baalbek-Hermel",
+   "seats": null,
+   "registered": 328006,
+   "voters": 155911,
+   "turnout": 47.53,
+   "date": "2025-05-18",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Bekaa",
+   "adm": "Bekaa",
+   "seats": null,
+   "registered": 326186,
+   "voters": 145597,
+   "turnout": 44.64,
+   "date": "2025-05-18",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "North",
+   "adm": "North",
+   "seats": null,
+   "registered": 614295,
+   "voters": 228511,
+   "turnout": 37.2,
+   "date": "2025-05-11",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Akkar",
+   "adm": "Akkar",
+   "seats": null,
+   "registered": 294647,
+   "voters": 142535,
+   "turnout": 48.37,
+   "date": "2025-05-11",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Mount Lebanon (incl. Keserwan-Jbeil)",
+   "adm": "Mount Lebanon",
+   "seats": null,
+   "registered": 834168,
+   "voters": 376725,
+   "turnout": 45.16,
+   "date": "2025-05-04",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Nabatieh",
+   "adm": "Nabatieh",
+   "seats": null,
+   "registered": 408706,
+   "voters": 139887,
+   "turnout": 34.23,
+   "date": "2025-05-24",
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "South",
+   "adm": "South",
+   "seats": null,
+   "registered": 394831,
+   "voters": 159330,
+   "turnout": 40.35,
+   "date": "2025-05-24",
+   "lists": [],
+   "winners": []
+  }
+ ],
+ "qada_turnout": [
+  {
+   "qada": "Akkar",
+   "turnout": 48.37
+  },
+  {
+   "qada": "Aley",
+   "turnout": 42.3
+  },
+  {
+   "qada": "Baabda",
+   "turnout": 39.11
+  },
+  {
+   "qada": "Baalbek",
+   "turnout": 46.73,
+   "turnout_ministry_final": 48.7
+  },
+  {
+   "qada": "Hermel",
+   "turnout": 34.56,
+   "turnout_ministry_final": 35.7
+  },
+  {
+   "qada": "Batroun",
+   "turnout": 49.84
+  },
+  {
+   "qada": "Beirut",
+   "turnout": 20.0,
+   "turnout_ministry_final": 21.03
+  },
+  {
+   "qada": "Bint Jbeil",
+   "turnout": 26.5
+  },
+  {
+   "qada": "Bsharre",
+   "turnout": 34.47
+  },
+  {
+   "qada": "Chouf",
+   "turnout": 45.75
+  },
+  {
+   "qada": "Jbeil",
+   "turnout": 57.46
+  },
+  {
+   "qada": "Jezzine",
+   "turnout": 41.73
+  },
+  {
+   "qada": "Keserwan",
+   "turnout": 60.94
+  },
+  {
+   "qada": "Koura",
+   "turnout": 39.94
+  },
+  {
+   "qada": "Marjaayoun",
+   "turnout": 30.4
+  },
+  {
+   "qada": "Hasbaya",
+   "turnout": 35.28
+  },
+  {
+   "qada": "Metn",
+   "turnout": 38.86
+  },
+  {
+   "qada": "Minnieh",
+   "turnout": 52.49
+  },
+  {
+   "qada": "Nabatieh",
+   "turnout": 41.13
+  },
+  {
+   "qada": "Saida-Zahrani",
+   "turnout": 41.46
+  },
+  {
+   "qada": "Tripoli",
+   "turnout": 27.03
+  },
+  {
+   "qada": "Tyre",
+   "turnout": 36.51
+  },
+  {
+   "qada": "West Bekaa",
+   "turnout": 41.41,
+   "turnout_ministry_final": 42.91
+  },
+  {
+   "qada": "Rachaya",
+   "turnout": 37.1,
+   "turnout_ministry_final": 37.06
+  },
+  {
+   "qada": "Zahle",
+   "turnout": 45.16,
+   "turnout_ministry_final": 46.19
+  },
+  {
+   "qada": "Zgharta",
+   "turnout": 39.27
+  }
+ ],
+ "city_races": [
+  {
+   "city": "Beirut",
+   "adm": "Beirut",
+   "registered": 514800,
+   "turnout": null,
+   "seats": 24,
+   "lists": [
+    {
+     "name": "Beirut Unites Us (LF, Hezbollah, FPM, Amal, Kataeb, NDP, AICP, ARF, SDHP)",
+     "candidates": 24,
+     "pct": 50.9,
+     "seats": 23,
+     "average_votes": 42054
+    },
+    {
+     "name": "Beirut Loves You (Islamic Group)",
+     "candidates": 23,
+     "pct": 31.1,
+     "seats": 1,
+     "average_votes": 25650
+    },
+    {
+     "name": "Beirut Madinati",
+     "candidates": 24,
+     "pct": 8.6,
+     "seats": 0,
+     "average_votes": 7090
+    },
+    {
+     "name": "Beirut our Capital",
+     "candidates": 11,
+     "pct": 4.2,
+     "seats": 0,
+     "average_votes": 3495
+    },
+    {
+     "name": "Sons of the Country",
+     "candidates": 23,
+     "pct": 2.9,
+     "seats": 0,
+     "average_votes": 2389
+    },
+    {
+     "name": "Citizens in Beirut (MMFD)",
+     "candidates": 13,
+     "pct": 0.7,
+     "seats": 0,
+     "average_votes": 615
+    },
+    {
+     "name": "Independents",
+     "candidates": 24,
+     "pct": 1.6,
+     "seats": 0,
+     "average_votes": 1308
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Governorate registered and actual voters are from the UNDP key results brochure (Interior Ministry data); they cover municipalities where voting took place and exclude uncontested municipalities, so registered sums to 3,715,639 rather than the 4,093,663 register.",
+  "qada_turnout is the 2025 column of the Wikipedia table sourced to elections.gov.lb; for Beirut, Baalbek, Zahle, West Bekaa, Hermel and Rashaya the Interior Ministry final figures reported on 18-19 May 2025 differ and are given as turnout_ministry_final."
+ ],
+ "source": [
+  "https://www.undp.org/sites/g/files/zskgke326/files/2026-05/key_results_2025municipal_elections_updated.pdf",
+  "https://en.wikipedia.org/wiki/2025_Lebanese_municipal_elections",
+  "https://www.thisislebanon.com/lebanon/515537/"
+ ],
+ "license": "UNDP publication (UNDP copyright, facts only, attributed); Wikipedia text CC BY-SA 4.0; Interior Ministry figures, no licence stated"
+}

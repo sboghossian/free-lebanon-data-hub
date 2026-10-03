@@ -1,0 +1,117 @@
+{
+ "checked": 64209,
+ "findings": [
+  {
+   "file": "research/hub/world/indicators/WEO.NGDPD.json",
+   "locator": "unit (all 209 country arrays)",
+   "issue": "SEVERITY WRONG. Unit says \"billion US$\" but values are in plain US$ (scaled x1e9). A UI that prints the unit beside the value shows 34,496,524,000 billion US$ for Lebanon.",
+   "evidence": "LBN 2025 in file = 34496524000.0; IMF datamapper NGDPD LBN 2025 = 34.497 (billion US$); same x1e9 ratio for SDN 1980 (9095438000.0 vs 9.095), and all 8,359 compared values differ by exactly 1e9. Every other value in the file matches IMF api.imf.org/SDMX (0 of 1032 mismatches across the 4 SDMX-only WEO series; all other WEO series 0 mismatches).",
+   "fix": "Set unit to \"US$\" (and label \"GDP, current prices, US$\") or divide values by 1e9 and keep \"billion US$\". Check chart axis formatting for this id."
+  },
+  {
+   "file": "research/hub/world/indicators/WEO.GGR_NGDP.json, WEO.GGX_NGDP.json, WEO.NGSD_NGDP.json, WEO.NID_NGDP.json",
+   "locator": "source_url",
+   "issue": "SEVERITY MINOR. source_url points at imf.org/external/datamapper/<code>@WEO for four codes that do not exist in the IMF DataMapper.",
+   "evidence": "https://www.imf.org/external/datamapper/api/v1/indicators lists no GGR_NGDP, GGX_NGDP, NGSD_NGDP or NID_NGDP (datamapper has \"rev\"/\"exp\" with different vintages: LBN 2020 revenue 15.83 vs hub 16.73). Values themselves were verified against api.imf.org SDMX (IMF.RES,WEO) for LBN+SYR+JOR+EGY+TUR+FRA+USA: 1032 values, 0 mismatches.",
+   "fix": "Point source_url at the WEO dataset on data.imf.org or the api.imf.org SDMX query actually used."
+  },
+  {
+   "file": "research/hub/world/indicators/WEO.*.json (13 files) and flows/W3-trade-*.json (4 files)",
+   "locator": "license",
+   "issue": "SEVERITY LICENCE RISK. Files carry licences that are explicitly \"not an open licence\" (IMF terms) or \"explicit open licence not stated; verify before redistribution\" (WITS), yet the brief says never include a dataset whose licence forbids redistribution and the Hub is going public.",
+   "evidence": "IMF terms page returned HTTP 403 to my scripted fetch, so the claim \"freely reusable with attribution\" is UNVERIFIED by me (confidence low). The licence string itself says to check before bulk redistribution. Contrast: WDI (CC BY 4.0 per WDISeries.csv License Type, 38/38 series), UN DESA (CC BY 3.0 IGO, quoted in xlsx), KNOMAD (CC BY 4.0, confirmed on datacatalog.worldbank.org/search/dataset/0066146), UNDP, OWID all clear.",
+   "fix": "Stephane to decide: read IMF/WITS terms in a browser and either keep with attribution banner or drop the 17 files. Do not publish as is on the assumption that terms allow it."
+  },
+  {
+   "file": "research/hub/world/README-W3.md",
+   "locator": "Files > flows > emigrant-stock / immigrant-stock totals",
+   "issue": "SEVERITY MINOR (doc only). The two totals are swapped.",
+   "evidence": "README says emigrant world total 1,422,583 and immigrant total 681,720. UN DESA IMS 2024 Table 1: Lebanese-born abroad (origin LBN, destination World) = 681,720; foreign-born in Lebanon (destination LBN, origin World) = 1,422,583. W3-emigrant-stock-2024.json sums to 681,491 over 74 destinations, W3-immigrant sums to 1,390,434 + 32,149 \"Others\". All 75 emigrant series (1990-2024) match the xlsx exactly.",
+   "fix": "Swap the two totals in the README. README-W3.md also sits in hub/world/, not hub/README-W3.md as the brief requires."
+  },
+  {
+   "file": "research/hub/world/flows/W2-unhcr-refugees-2025.json, D8-unhcr-refugees-in-lebanon-2025.json, W3-unhcr-refugees-in-lebanon.json; indicators/W2-UNHCR.REF.ASYLUM.json",
+   "locator": "unit / label",
+   "issue": "SEVERITY MINOR. Same concept, two definitions, no visible distinction: Lebanon hosted refugees 2025 = 535,168 (refugees only) in W2 indicator and D8 file, but 542,785 (refugees + asylum-seekers) in W3 file. Same split for Lebanese abroad? (D8 and W3 both 18,366, consistent).",
+   "evidence": "UNHCR API year=2025 coa=LBN: refugees 535,168, asylum_seekers 7,617; sum 542,785. All values verified: 220 refugees-in-Lebanon cells (1995/2005/2016/2025), 273 Lebanese-abroad cells and 42 peer asylum/origin cells match the API exactly.",
+   "fix": "Add \"refugees only\" / \"refugees + asylum-seekers\" to unit or label so a viewer comparing tabs does not see two different Lebanon totals."
+  },
+  {
+   "file": "research/hub/world/flows/W2-unhcr-refugees-2025.json",
+   "locator": "flows (top 600)",
+   "issue": "SEVERITY MINOR. Labelled \"Refugees\" and technically correct, but it omits UNHCR's large \"other people in need of international protection\" category, so the flow map hides the Venezuelan displacement.",
+   "evidence": "VEN->COL 2025: file 1,097 (= refugees); API shows refugees 1,097, asylum_seekers 16,320, oip 2,810,778. 10 of 10 spot-checked corridors match the refugees field exactly.",
+   "fix": "Add a note on the flow map: refugees only, excludes Venezuelans displaced abroad (OIP) and UNRWA Palestinians."
+  },
+  {
+   "file": "research/hub/world/indicators/BX.KLT.DINV.WD.GD.ZS.json and 16 other WB files",
+   "locator": "values keys XD, XM, XN, XT",
+   "issue": "SEVERITY MINOR. Non-ISO3 keys XD, XM, XN, XT appear in 17 World Bank files. They are legacy WB income-group codes (High, Low, Lower-middle, Upper-middle income = HIC, LIC, LMC, UMC) and have no entry in W1-wb-entities.json, so the front end cannot name or flag them.",
+   "evidence": "Values match the group: NY.GDP.PCAP.CD XD 2023 ~47,056, XM ~779, XN ~2,348, XT ~9,796 (current US$). HIC/LIC/LMC/UMC do not appear as keys. The WDI API returns countryiso3code blank for them, and the builder fell back to the 2-letter id.",
+   "fix": "Rename XD->HIC, XM->LIC, XN->LMC, XT->UMC (or drop them) and add them to W1-wb-entities.json with aggregate: true."
+  },
+  {
+   "file": "research/hub/world/indicators/ (all WB-sourced files)",
+   "locator": "values keys",
+   "issue": "SEVERITY MINOR. 43 of 261 keys in NY.GDP.PCAP.CD (same pattern in all WB files) are aggregates (ARB, EAS, LMY, OED, ...) mixed into the same dict as countries. Any ranking, percentile, scatter or \"all countries\" count that does not filter on W1 aggregate=true will include them.",
+   "evidence": "W1-wb-entities.json flags 43 of the keys present as aggregate: true; the file itself carries no marker.",
+   "fix": "Have the emitter write an \"aggregates\" list or split aggregates into their own object, or make sure every FE ranking filters through the entity flag."
+  },
+  {
+   "file": "research/hub/world/indicators/ (28 files lack MEA, 17 lack EUU, 15 lack WLD, 3 lack USA)",
+   "locator": "values keys",
+   "issue": "SEVERITY MINOR (contract gap). Brief requires WLD, MEA, EUU, USA in every indicator. Not present in many files; README-W2 also claims UNHCR files carry computed WLD/MEA/EUU, but W2-UNHCR.IDP has none of them.",
+   "evidence": "Counts from a scan of all 64 files. All WEO files lack MEA by design (IMF group is not the WB MENA); WB lacks WLD for current account, reserves, Gini; USA absent at source for BX.TRF.PWKR.CD, SE.ADT.LITR.ZS (WB API returns nothing) and UNHCR IDP. MEA = \"Middle East, North Africa, Afghanistan & Pakistan\" (WB 2025 definition), not MENA, in W1-wb-entities.json, while README-W1 calls it \"Middle East and North Africa\".",
+   "fix": "Document which aggregates exist per file in the index; fix the README wording (MEA includes Afghanistan and Pakistan); drop the IDP aggregate claim from README-W2."
+  },
+  {
+   "file": "research/hub/world/indicators/W2-UCDP.DEATHS.json; WEO.*.json",
+   "locator": "points for 2026 (UCDP) and for 2025-2026 (WEO)",
+   "issue": "SEVERITY MINOR. Partial-year and estimated values sit in the same array as full-year actuals with no per-point flag; unit still says \"deaths per year\".",
+   "evidence": "LBN deaths: 2024 4,335; 2025 347; 2026 4,365 (partial year; matches OWID exactly). WEO values after each country's last actual year are IMF estimates (documented only in the source string). A lagged correlation or trend line will treat the 2026 figure as a complete year.",
+   "fix": "Add a \"partial_from\" or \"estimate_from\" field per indicator (or per country) and have charts dash or exclude those points."
+  },
+  {
+   "file": "research/hub/world/indicators/OWID.per_capita_electricity_demand.json vs OWID.per_capita_electricity_generation.json",
+   "locator": "values.LBN",
+   "issue": "SEVERITY MINOR (caveat, cause not verified). For Lebanon demand and generation are identical in 2020 and 2022-2024, and WLD is identical for all years, so \"demand\" is not an independent series there. Lebanon drops from 3,741 (2019) to 920 kWh per person (2024).",
+   "evidence": "Hub equals OWID CSV exactly (per-capita-electricity-demand and -generation, 261 and 346 values, 0 mismatches): LBN 2022 760.7287 in both, 2023 1087.7296 in both, 2024 919.7443 in both. Whether the series excludes private generators I did NOT verify (confidence low).",
+   "fix": "Add a notes field: source coverage of the Lebanese grid, and that demand = generation where trade data is absent. Do not present as total national consumption."
+  },
+  {
+   "file": "research/hub/world/indicators/ (26 W2-* files)",
+   "locator": "id vs file name",
+   "issue": "SEVERITY MINOR (contract). Contract and the FE fetch pattern use data/world/indicators/<id>.json, but the 26 W2 files are named W2-<id>.json while their id field has no prefix (e.g. file W2-SP.POP.TOTL.json, id SP.POP.TOTL). A fetch by id gets a 404.",
+   "evidence": "26 of 64 files have id != file name; W2-index.json maps id -> file. Also topic is mixed case: 18 distinct topic strings, e.g. \"economy\", \"energy\" next to \"People\", \"Environment\", \"Migration and displacement\".",
+   "fix": "Emit by id (rename on write) or keep W2-index as the source of truth in FE; normalise topic to one casing/slug set before it drives tab filters."
+  },
+  {
+   "file": "research/hub/world/flows/W3-trade-exports-2023.json; W3-trade-imports-2023.json; W3-unhcr-refugees-in-lebanon-all-years.json; D8-emigrant-stock-2024.json; ne-50m.json",
+   "locator": "partner codes CCK, BVT, UMI, TKL, XXA, UNK, GLP",
+   "issue": "SEVERITY MINOR. A few ISO3-like codes have no polygon in ne-110m or ne-50m and no name in the entity list, so a flow arc to them has nowhere to land. XXA (stateless) and UNK (unknown) are not countries at all.",
+   "evidence": "Tiny values (e.g. LBN->CCK 37,795 US$; BVT->LBN 571 US$; TKL->LBN 30,297 US$). Also GIB, CHI appear in indicators with no ne-50m geometry. All other flow codes resolve. WITS code mapping verified: ROM->ROU, SUD->SDN, SER->SRB values match exactly. UN DESA M49->ISO3 verified for 75 destinations.",
+   "fix": "Drop zero-geometry codes from flows or route them to \"Other\" in the FE."
+  },
+  {
+   "file": "research/hub/world/flows/*-all-years.json (W3, 6 files)",
+   "locator": "schema",
+   "issue": "SEVERITY MINOR (contract). Multi-year flow files use \"years\" plus an array per pair instead of the contract's \"year\" and a scalar, and W2-unhcr-refugees-2025.json has no source_url.",
+   "evidence": "Keys of W3-*-all-years: id,label,unit,years,source,source_url,license,flows (no \"year\"). Index alignment itself verified: years 2005/2015/2023 in trade and 1990-2024 in emigrant stock match the sources cell by cell.",
+   "fix": "Document the \"years\" variant for FE-A and add source_url to W2-unhcr-refugees-2025.json."
+  },
+  {
+   "file": "research/hub/world/indicators/W2-UNHCR.*.json vs flows/W3-unhcr-*.json, D8-unhcr-*.json",
+   "locator": "license",
+   "issue": "SEVERITY MINOR. Same UNHCR API labelled \"CC BY-IGO\" in W2 and \"CC BY 4.0\" in W3/D8.",
+   "evidence": "HDX lists UNHCR packages under \"Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)\" for yearbooks and \"Creative Commons Attribution International (CC BY)\" for others; the exact licence of the population API is not stated per file.",
+   "fix": "Use one string everywhere, \"CC BY-IGO (UNHCR, via HDX)\", and cite the HDX page."
+  },
+  {
+   "file": "research/hub/world/ne-110m.json, ne-50m.json",
+   "locator": "countries[].pop_est",
+   "issue": "SEVERITY MINOR. Natural Earth pop_est is an old vintage and disagrees with the hub's own population indicator.",
+   "evidence": "LBN pop_est 6,855,713 vs W2-SP.POP.TOTL LBN 2025 5,849,421 (17% higher). Not used for any value comparison, but if the globe sizes or labels by pop_est it contradicts the World tab.",
+   "fix": "Drop pop_est from the geometry file or label it \"Natural Earth estimate (c.2019)\"."
+  }
+ ]
+}

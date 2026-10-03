@@ -1,0 +1,483 @@
+{
+ "election": "2016 Lebanese municipal and mukhtar elections",
+ "date": "2016-05-08",
+ "type": "municipal",
+ "law": "Municipal Law (Decree-Law 118/1977): plurality at-large lists, councils of 9 to 24 members; elections staged by governorate",
+ "held": true,
+ "phases": [
+  {
+   "date": "2016-05-08",
+   "area": "Beirut, Bekaa, Baalbek-Hermel"
+  },
+  {
+   "date": "2016-05-15",
+   "area": "Mount Lebanon"
+  },
+  {
+   "date": "2016-05-22",
+   "area": "South Lebanon, Nabatieh"
+  },
+  {
+   "date": "2016-05-29",
+   "area": "North Lebanon, Akkar"
+  }
+ ],
+ "national": {
+  "turnout": 48.54,
+  "municipalities": 1030,
+  "council_members": 12234,
+  "sources": [
+   "https://lebanon.ec-undp-electoralassistance.net/wp-content/uploads/sites/11/2018/10/ec-undp-jft-lebanon-resources-publications-women-in-municipal-elections-2016-key-results-en.pdf"
+  ]
+ },
+ "districts": [
+  {
+   "district": "Beirut",
+   "adm": "Beirut",
+   "seats": 24,
+   "registered": 476021,
+   "voters": 97347,
+   "turnout": 20.1,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Mount Lebanon",
+   "adm": "Mount Lebanon",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Keserwan-Jbeil",
+   "adm": "Keserwan-Jbeil",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "North",
+   "adm": "North",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Akkar",
+   "adm": "Akkar",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Bekaa",
+   "adm": "Bekaa",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Baalbek-Hermel",
+   "adm": "Baalbek-Hermel",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "South",
+   "adm": "South",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  },
+  {
+   "district": "Nabatieh",
+   "adm": "Nabatieh",
+   "seats": null,
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [],
+   "winners": []
+  }
+ ],
+ "qada_turnout": [
+  {
+   "qada": "Akkar",
+   "turnout": 61.6
+  },
+  {
+   "qada": "Aley",
+   "turnout": 52.0
+  },
+  {
+   "qada": "Baabda",
+   "turnout": 50.2
+  },
+  {
+   "qada": "Baalbek",
+   "turnout": 62.0,
+   "note": "62% (Hermel incl)"
+  },
+  {
+   "qada": "Hermel",
+   "turnout": 62.0,
+   "note": "62% (Baalbek incl)"
+  },
+  {
+   "qada": "Batroun",
+   "turnout": 54.4
+  },
+  {
+   "qada": "Beirut",
+   "turnout": 21.0
+  },
+  {
+   "qada": "Bint Jbeil",
+   "turnout": 42.5
+  },
+  {
+   "qada": "Bsharre",
+   "turnout": 36.6
+  },
+  {
+   "qada": "Chouf",
+   "turnout": 53.5
+  },
+  {
+   "qada": "Jbeil",
+   "turnout": 65.0
+  },
+  {
+   "qada": "Jezzine",
+   "turnout": 53.0
+  },
+  {
+   "qada": "Keserwan",
+   "turnout": 62.8
+  },
+  {
+   "qada": "Koura",
+   "turnout": 43.8
+  },
+  {
+   "qada": "Marjaayoun",
+   "turnout": 43.2
+  },
+  {
+   "qada": "Hasbaya",
+   "turnout": 47.0
+  },
+  {
+   "qada": "Metn",
+   "turnout": 58.24
+  },
+  {
+   "qada": "Minnieh",
+   "turnout": 57.2
+  },
+  {
+   "qada": "Nabatieh",
+   "turnout": 49.0
+  },
+  {
+   "qada": "Saida-Zahrani",
+   "turnout": 52.76
+  },
+  {
+   "qada": "Tripoli",
+   "turnout": 26.9
+  },
+  {
+   "qada": "Tyre",
+   "turnout": 47.0
+  },
+  {
+   "qada": "Zgharta",
+   "turnout": 36.6
+  }
+ ],
+ "city_races": [
+  {
+   "city": "Baalbek",
+   "adm": "Baalbek-Hermel",
+   "registered": 31510,
+   "turnout": 44.0,
+   "seats": 21,
+   "lists": [
+    {
+     "name": "Development and Loyalty (Hezbollah, Amal, AICP)",
+     "candidates": 21,
+     "pct": 53.4,
+     "seats": 21,
+     "average_votes": 7404
+    },
+    {
+     "name": "Baalbek Madinati (Future, JI)",
+     "candidates": 20,
+     "pct": 36.5,
+     "seats": 0,
+     "average_votes": 5058
+    },
+    {
+     "name": "MMFD",
+     "candidates": 3,
+     "pct": 2.3,
+     "seats": 0,
+     "average_votes": 320
+    },
+    {
+     "name": "Independents",
+     "candidates": 3,
+     "pct": 3.7,
+     "seats": 0,
+     "average_votes": 516
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  },
+  {
+   "city": "Beirut",
+   "adm": "Beirut",
+   "registered": 476021,
+   "turnout": 20.1,
+   "seats": 24,
+   "lists": [
+    {
+     "name": "Beirutis List (Future, FPM, Amal, LF, Kataeb, ARF)",
+     "candidates": 24,
+     "pct": 44.3,
+     "seats": 24,
+     "average_votes": 43095
+    },
+    {
+     "name": "Beirut Madinati",
+     "candidates": 24,
+     "pct": 30.2,
+     "seats": 0,
+     "average_votes": 29353
+    },
+    {
+     "name": "AICP",
+     "candidates": 1,
+     "pct": 14.0,
+     "seats": 0,
+     "average_votes": 13654
+    },
+    {
+     "name": "MMFD",
+     "candidates": 4,
+     "pct": 3.6,
+     "seats": 0,
+     "average_votes": 3532
+    },
+    {
+     "name": "Beirut List",
+     "candidates": 19,
+     "pct": 2.6,
+     "seats": 0,
+     "average_votes": 2560
+    },
+    {
+     "name": "Al-Beiruti List",
+     "candidates": 12,
+     "pct": 0.7,
+     "seats": 0,
+     "average_votes": 718
+    },
+    {
+     "name": "Independents",
+     "candidates": 9,
+     "pct": null,
+     "seats": 0,
+     "average_votes": null
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  },
+  {
+   "city": "Jounieh",
+   "adm": "Keserwan-Jbeil",
+   "registered": 16524,
+   "turnout": 60.4,
+   "seats": 18,
+   "lists": [
+    {
+     "name": "Dignity of Jounieh (FPM, Kataeb)",
+     "candidates": 18,
+     "pct": 45.4,
+     "seats": 14,
+     "average_votes": 4535
+    },
+    {
+     "name": "Jounieh al-Tajaddod (LF, Frem)",
+     "candidates": 18,
+     "pct": 43.8,
+     "seats": 4,
+     "average_votes": 4378
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  },
+  {
+   "city": "Saida",
+   "adm": "South",
+   "registered": 60610,
+   "turnout": 44.5,
+   "seats": 21,
+   "lists": [
+    {
+     "name": "Saida's Development (Future, JI, Bizri)",
+     "candidates": 21,
+     "pct": 53.0,
+     "seats": 21,
+     "average_votes": 14283
+    },
+    {
+     "name": "Voice of People (PNO)",
+     "candidates": 21,
+     "pct": 29.5,
+     "seats": 0,
+     "average_votes": 7947
+    },
+    {
+     "name": "Al-Ahrar",
+     "candidates": 9,
+     "pct": 8.4,
+     "seats": 0,
+     "average_votes": 2277
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  },
+  {
+   "city": "Tripoli",
+   "adm": "North",
+   "registered": 176000,
+   "turnout": 25.8,
+   "seats": 24,
+   "lists": [
+    {
+     "name": "Tripoli's Choice (Rifi)",
+     "candidates": 24,
+     "pct": 36.3,
+     "seats": 16,
+     "average_votes": 16475
+    },
+    {
+     "name": "For Tripoli (Future, Azm, Dignity, JI, AICP)",
+     "candidates": 24,
+     "pct": 34.0,
+     "seats": 8,
+     "average_votes": 15427
+    },
+    {
+     "name": "Tripoli Capital",
+     "candidates": 14,
+     "pct": 4.4,
+     "seats": 0,
+     "average_votes": 1975
+    },
+    {
+     "name": "MMFD",
+     "candidates": 1,
+     "pct": 2.1,
+     "seats": 0,
+     "average_votes": 945
+    },
+    {
+     "name": "FPM",
+     "candidates": 1,
+     "pct": 0.9,
+     "seats": 0,
+     "average_votes": 429
+    },
+    {
+     "name": "Independents",
+     "candidates": 1,
+     "pct": 9.7,
+     "seats": 0,
+     "average_votes": 4411
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  },
+  {
+   "city": "Zahle",
+   "adm": "Bekaa",
+   "registered": 64623,
+   "turnout": 41.6,
+   "seats": 21,
+   "lists": [
+    {
+     "name": "Zahle Development (LF, FPM, Kataeb)",
+     "candidates": 21,
+     "pct": 37.8,
+     "seats": 21,
+     "average_votes": 10157
+    },
+    {
+     "name": "Zahle Al-Amana (Popular Bloc)",
+     "candidates": 21,
+     "pct": 29.5,
+     "seats": 0,
+     "average_votes": 7930
+    },
+    {
+     "name": "Zahle Deserves",
+     "candidates": 21,
+     "pct": 22.3,
+     "seats": 0,
+     "average_votes": 6005
+    },
+    {
+     "name": "MMFD",
+     "candidates": 1,
+     "pct": 1.3,
+     "seats": 0,
+     "average_votes": 361
+    },
+    {
+     "name": "Independents",
+     "candidates": 13,
+     "pct": null,
+     "seats": 0,
+     "average_votes": null
+    }
+   ],
+   "note": "list votes are the average votes per candidate as printed in the source; registered figure is as printed (for Beirut it is registered voters, 476,021)."
+  }
+ ],
+ "notes": [
+  "Official governorate-level registered and voters for 2016 were not found in a free public source other than Beirut (Wikipedia/Doha Institute: 476,021 registered, 97,347 voters). The qada_turnout figures are the Interior Ministry 2016 column of its 2016-2025 comparison, reproduced by Wikipedia; the South and Nabatieh phase turnout was reported at about 48.15% by a news outlet (Newsroom Nomad, 23 May 2016, not official).",
+  "Baalbek-Hermel 2016 turnout 62% is given for the two qadas together."
+ ],
+ "source": [
+  "https://en.wikipedia.org/wiki/2016_Lebanese_municipal_elections",
+  "https://en.wikipedia.org/wiki/2025_Lebanese_municipal_elections",
+  "https://lebanon.ec-undp-electoralassistance.net/wp-content/uploads/sites/11/2018/10/ec-undp-jft-lebanon-resources-publications-women-in-municipal-elections-2016-key-results-en.pdf",
+  "https://newsroomnomad.com/south-lebanon-nabatiyeh-municipal-election-overview/"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0; UNDP publication (UNDP copyright, facts only, attributed); Interior Ministry figures, no licence stated"
+}

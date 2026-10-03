@@ -1,0 +1,469 @@
+{
+ "checked": 150,
+ "findings": [
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=aaf238abd22c",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Berri rejects 3 June deal; Aoun and Salam reject Iran's linkage | FR: Berry rejette l'accord du 3 juin ; Aoun et Salam rejettent le lien établi par l'Iran",
+   "fix": "Berri rejette l'accord du 3 juin ; Aoun et Salam rejettent le lien établi par l'Iran"
+  },
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=ce7fa0ce32f7",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Hochstein in Beirut: Berri studies verbal US proposal on implementing Resolution 1701 | FR: Hochstein à Beyrouth : Berry étudie une proposition américaine verbale sur l'application de la résolution 1701",
+   "fix": "Hochstein à Beyrouth : Berri étudie une proposition américaine verbale sur l'application de la résolution 1701"
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=da24f71291ac",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Berri rejects ceasefire deal with Israel | FR: Berry rejette l'accord de cessez-le-feu avec Israël",
+   "fix": "Berri rejette l'accord de cessez-le-feu avec Israël"
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=def00d2111d1",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Berri announces parliament will convene to elect a president on 9 January | FR: Berry annonce que le Parlement se réunira le 9 janvier pour élire un président",
+   "fix": "Berri annonce que le Parlement se réunira le 9 janvier pour élire un président"
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=7682e4800589",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Those under $100,000 are 85% of depositors; Berri opposed it; the bill went to parliament. | FR: Ceux de moins de 100 000 dollars représentent 85 % des déposants ; Berry s'y est opposé ; le projet de loi est passé devant le Parlement.",
+   "fix": "Ceux de moins de 100 000 dollars représentent 85 % des déposants ; Berri s'y est opposé ; le projet de loi est passé devant le Parlement."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=7cadf8ea9fea",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Visit with Aoun, Salam and Berri shortly after the new government formed. | FR: Visite avec Aoun, Salam et Berry peu après la formation du nouveau gouvernement.",
+   "fix": "Visite avec Aoun, Salam et Berri peu après la formation du nouveau gouvernement."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=87e8fd876a0f",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: 24 ministers; backed by Aoun and Berri; resumes IMF talks. | FR: 24 ministres ; soutenu par Aoun et Berry ; reprise des pourparlers avec le FMI.",
+   "fix": "24 ministres ; soutenu par Aoun et Berri ; reprise des pourparlers avec le FMI."
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=f306a5ff786e",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Says he will pursue the arms monopoly through coordination with Speaker Berri, not force. | FR: Dit qu'il poursuivra le monopole des armes par la coordination avec le président du Parlement Berry, et non par la force.",
+   "fix": "Dit qu'il poursuivra le monopole des armes par la coordination avec le président du Parlement Berri, et non par la force."
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=f850a1c175d9",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: The channel is tied to the Amal Movement and the Berri family. | FR: La chaîne est liée au Mouvement Amal et à la famille Berry.",
+   "fix": "La chaîne est liée au Mouvement Amal et à la famille Berri."
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=fc77cbff89af",
+   "severity": "wrong",
+   "issue": "Nabih Berri's name misspelled 'Berry' (French usage: Berri; the EN source and 14 other lines use Berri)",
+   "evidence": "EN: Met Berri and Mikati as Israel pressed for freedom of action in any deal. | FR: A rencontré Berry et Mikati alors qu'Israël réclamait une liberté d'action dans tout accord.",
+   "fix": "A rencontré Berri et Mikati alors qu'Israël réclamait une liberté d'action dans tout accord."
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=f502b8ca4542",
+   "severity": "wrong",
+   "issue": "Wrong acronym: ANRT is Morocco's telecoms regulator. Lebanon's TRA is rendered 'ART' in line 66598676c557 of the same file set (inconsistent). Confidence ~85%.",
+   "evidence": "EN: TRA board finally appointed | FR: Le conseil d'administration de l'ANRT enfin nommé",
+   "fix": "Le conseil d'administration de l'ART enfin nommé"
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=c6cfe1c4474f",
+   "severity": "wrong",
+   "issue": "Neutrality: 'alleged' rendered 'prétendue', which in French implies the claim is false",
+   "evidence": "EN: alleged naval training base | FR: prétendue base d'entraînement naval",
+   "fix": "base d'entraînement navale présumée"
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=bf03c3f3c27f",
+   "severity": "wrong",
+   "issue": "Neutrality: 'alleged' rendered 'prétendu' (implies falsehood)",
+   "evidence": "EN: alleged Hezbollah communications centre | FR: prétendu centre de communications du Hezbollah",
+   "fix": "centre de communications du Hezbollah présumé"
+  },
+  {
+   "file": "research/i18n/fr/part-12.jsonl",
+   "locator": "h=b44deb874ddb",
+   "severity": "wrong",
+   "issue": "Neutrality: 'allegedly' rendered 'prétendument' (implies falsehood)",
+   "evidence": "EN: Arrested 9 Aug 2012 for allegedly moving explosives from Syria with Ali Mamlouk's help; sentenced in 2016 (see existing row). | FR: Arrêté le 9 août 2012 pour avoir prétendument transporté des explosifs depuis la Syrie avec l'aide d'Ali Mamlouk ; condamné en 2016 (voir la ligne existante).",
+   "fix": "Arrêté le 9 août 2012, soupçonné d'avoir transporté des explosifs depuis la Syrie avec l'aide d'Ali Mamlouk ; condamné en 2016 (voir la ligne existante)."
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=2ee2714a7e0d",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Lebanon files UN complaint over Saleh Al Arouri killing in Beirut | FR: Le Liban dépose une plainte auprès de l'ONU après l'assassinat de Saleh al-Arouri à Beyrouth",
+   "fix": "Le Liban dépose une plainte auprès de l'ONU après la mort de Saleh al-Arouri, tué à Beyrouth"
+  },
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=af3d8d0196d3",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Hezbollah and Israel exchange large strikes after Shukr's killing | FR: Le Hezbollah et Israël échangent de lourdes frappes après l'assassinat de Chokr",
+   "fix": "Le Hezbollah et Israël échangent de lourdes frappes après la mort de Chokr"
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=d62502fcf176",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Nasrallah says war enters 'new phase' after Shukr and Haniyeh killings | FR: Nasrallah déclare que la guerre entre dans une « nouvelle phase » après les assassinats de Chokr et de Haniyeh",
+   "fix": "Nasrallah déclare que la guerre entre dans une « nouvelle phase » après la mort de Chokr et de Haniyeh"
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=e4b653691738",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Nasrallah vows revenge for Moughniyeh's killing, blaming Israel | FR: Nasrallah promet de se venger de l'assassinat de Moughniyeh, en accusant Israël",
+   "fix": "Nasrallah promet de se venger de la mort de Moughniyeh, en accusant Israël"
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=306dfbc268cb",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Nasrallah said the conflict entered a new phase after Haniyeh's and Shukr's killings. | FR: Nasrallah a déclaré que le conflit était entré dans une nouvelle phase après l'assassinat de Haniyeh et de Chokr.",
+   "fix": "Nasrallah a déclaré que le conflit était entré dans une nouvelle phase après la mort de Haniyeh et de Chokr."
+  },
+  {
+   "file": "research/i18n/fr/part-10.jsonl",
+   "locator": "h=60c4fb1ed01e",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Israel blames Hezbollah, which denies it; Israel retaliates with Shukr's killing three days later. | FR: Israël accuse le Hezbollah, qui dément ; Israël riposte par l'assassinat de Shukr trois jours plus tard.",
+   "fix": "Israël accuse le Hezbollah, qui dément ; Israël riposte trois jours plus tard en tuant Chokr."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=9009b63f9ee4",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Preemptive strike and Hezbollah's declared first response to Shukr's killing. | FR: Frappe préventive et première riposte déclarée du Hezbollah à l'assassinat de Chokr.",
+   "fix": "Frappe préventive et première riposte déclarée du Hezbollah à la mort de Chokr."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=9a9ab2570953",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Israel says he ordered Majdal Shams strike; killing followed by Haniyeh's in Tehran. | FR: Israël dit qu'il a ordonné la frappe de Majdal Shams ; son assassinat a été suivi de celui de Haniyeh à Téhéran.",
+   "fix": "Israël dit qu'il a ordonné la frappe de Majdal Shams ; sa mort a été suivie de celle de Haniyeh à Téhéran."
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=49f255f75014",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Succeeds Nasrallah after the Sept 2024 killing and Safieddine's death. | FR: Succède à Nasrallah après son assassinat de septembre 2024 et la mort de Safieddine.",
+   "fix": "Succède à Nasrallah après sa mort en septembre 2024 et celle de Safieddine."
+  },
+  {
+   "file": "research/i18n/fr/part-10.jsonl",
+   "locator": "h=69744f4614f7",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Officials absent from the second anniversary of the Nasrallah killing, as the arms dispute deepens. | FR: Des responsables absents de la cérémonie du deuxième anniversaire de l'assassinat de Nasrallah, alors que le différend sur les armes s'aggrave.",
+   "fix": "Des responsables absents de la cérémonie du deuxième anniversaire de la mort de Nasrallah, alors que le différend sur les armes s'aggrave."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=9bd099708a8e",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Second direct Iranian attack, launched as Israel invades south Lebanon and after Nasrallah's killing. | FR: Deuxième attaque directe iranienne, lancée alors qu'Israël envahit le Sud-Liban et après l'assassinat de Nasrallah.",
+   "fix": "Deuxième attaque directe iranienne, lancée alors qu'Israël envahit le Sud-Liban et après la mort de Nasrallah."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=999d82cbd157",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: The text adds that airstrikes resumed on 2 March 2026 after the 2026 Iran war and Ali Khamenei's killing. | FR: Le texte ajoute que les frappes aériennes ont repris le 2 mars 2026 après la guerre de 2026 contre l'Iran et l'assassinat d'Ali Khamenei.",
+   "fix": "Le texte ajoute que les frappes aériennes ont repris le 2 mars 2026 après la guerre de 2026 contre l'Iran et la mort d'Ali Khamenei."
+  },
+  {
+   "file": "research/i18n/fr/part-08.jsonl",
+   "locator": "h=1382a819fb54",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Targeted killing during the ceasefire. | FR: Assassinat ciblé pendant le cessez-le-feu.",
+   "fix": "Frappe ciblée meurtrière pendant le cessez-le-feu."
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=42ae243e1fd9",
+   "severity": "wrong",
+   "issue": "Neutrality: EN 'killing/killed' rendered 'assassinat' (murder). For killings by a state or party, the source's neutral wording must be kept; reserve 'assassinat' for lines whose EN says assassination/murder or where a court established it (e.g. Hariri)",
+   "evidence": "EN: Targeted killings of Palestinian-faction members expanded beyond Hezbollah. | FR: Les assassinats ciblés de membres de factions palestiniennes se sont étendus au-delà du Hezbollah.",
+   "fix": "Les frappes ciblées meurtrières contre des membres de factions palestiniennes se sont étendues au-delà du Hezbollah."
+  },
+  {
+   "file": "research/i18n/fr/part-03.jsonl",
+   "locator": "h=3becc70fe87c",
+   "severity": "minor",
+   "issue": "Neutrality drift: EN 'killed' rendered 'assassiné'",
+   "evidence": "EN: MP Antoine Ghanem killed | FR: Le député Antoine Ghanem assassiné",
+   "fix": "Le député Antoine Ghanem tué"
+  },
+  {
+   "file": "research/i18n/fr/part-03.jsonl",
+   "locator": "h=3ec065886db1",
+   "severity": "minor",
+   "issue": "Neutrality drift: EN 'attempted killing' rendered 'tentative d'assassinat'",
+   "evidence": "EN: Tripoli clashes after attempted killing of two pro-Hezbollah clerics leave eight dead | FR: Des affrontements à Tripoli après la tentative d'assassinat de deux religieux pro-Hezbollah font huit morts",
+   "fix": "Des affrontements à Tripoli après une tentative de meurtre contre deux religieux pro-Hezbollah font huit morts"
+  },
+  {
+   "file": "research/i18n/fr/part-10.jsonl",
+   "locator": "h=60d30fa014b2",
+   "severity": "minor",
+   "issue": "Neutrality drift: EN 'killing' rendered 'assassinat'",
+   "evidence": "EN: Rare killing of a local official in the first months of the border war. | FR: Assassinat rare d'un responsable local dans les premiers mois de la guerre à la frontière.",
+   "fix": "Meurtre rare d'un responsable local dans les premiers mois de la guerre à la frontière."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=80d8c0df9fa0",
+   "severity": "minor",
+   "issue": "Neutrality drift: EN 'killings' rendered 'assassinats'",
+   "evidence": "EN: Series of sectarian killings in the opening phase of the civil war. | FR: Série d'assassinats confessionnels lors de la phase initiale de la guerre civile.",
+   "fix": "Série de meurtres confessionnels lors de la phase initiale de la guerre civile."
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=2810386d51da",
+   "severity": "minor",
+   "issue": "Neutrality drift: EN 'killing' rendered 'assassinat' (minor, same drift)",
+   "evidence": "EN: The killing took place on 23 August 1991. | FR: L'assassinat a eu lieu le 23 août 1991.",
+   "fix": "Le meurtre a eu lieu le 23 août 1991."
+  },
+  {
+   "file": "research/i18n/fr/part-05.jsonl",
+   "locator": "h=9ce237a49776",
+   "severity": "minor",
+   "issue": "EN 'killings' rendered 'massacres' (same for Sabra/Shatila in 331bd0089299, 75a8efbae63b, and Deir al-Qamar in d9271a653235); source wording was deliberately neutral. 'massacres de Sabra et Chatila' is the standard proper name, so low severity there",
+   "evidence": "EN: Israeli invasion begins; Sabra and Shatila killings follow in September | FR: Début de l'invasion israélienne ; les massacres de Sabra et Chatila suivent en septembre",
+   "fix": "Début de l'invasion israélienne ; les tueries de Sabra et Chatila suivent en septembre"
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=331bd0089299",
+   "severity": "minor",
+   "issue": "EN 'killings' rendered 'massacres'",
+   "evidence": "EN: Move came the day after Bashir Gemayel's death and the day before the Sabra and Shatila killings. | FR: La décision est intervenue le lendemain de la mort de Bachir Gemayel et la veille des massacres de Sabra et Chatila.",
+   "fix": "La décision est intervenue le lendemain de la mort de Bachir Gemayel et la veille des tueries de Sabra et Chatila."
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=75a8efbae63b",
+   "severity": "minor",
+   "issue": "EN 'camp killings' rendered 'massacres'",
+   "evidence": "EN: Israeli inquiry into the 1982 camp killings; its report was published on 8 February 1983. | FR: Enquête israélienne sur les massacres de 1982 dans les camps ; son rapport a été publié le 8 février 1983.",
+   "fix": "Enquête israélienne sur les tueries de 1982 dans les camps ; son rapport a été publié le 8 février 1983."
+  },
+  {
+   "file": "research/i18n/fr/part-07.jsonl",
+   "locator": "h=d9271a653235",
+   "severity": "minor",
+   "issue": "EN 'the killings' (1860) rendered 'les massacres'",
+   "evidence": "EN: Khurshid Pasha reaches Deir al-Qamar after the killings | FR: Khourchid Pacha arrive à Deir el-Qamar après les massacres",
+   "fix": "Khourchid Pacha arrive à Deir el-Qamar après les tueries"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=0c7371a4e42e",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: Israeli military says commandos targeted Hezbollah operatives on motorcycles near Nabatieh | FR: L'armée israélienne affirme que des commandos ont visé des combattants du Hezbollah à moto près de Nabatiyé",
+   "fix": "L'armée israélienne affirme que des commandos ont visé des membres du Hezbollah à moto près de Nabatiyé"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=24183b21b2da",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: IDF says strikes on 110 targets killed about 60 Hezbollah operatives | FR: L'armée israélienne dit que des frappes sur 110 cibles ont tué environ 60 combattants du Hezbollah",
+   "fix": "L'armée israélienne dit que des frappes sur 110 cibles ont tué environ 60 membres du Hezbollah"
+  },
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=b55564c0adb6",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: IDF says it killed Hezbollah operatives near a southern church | FR: L'armée israélienne affirme avoir tué des combattants du Hezbollah près d'une église du Sud",
+   "fix": "L'armée israélienne affirme avoir tué des membres du Hezbollah près d'une église du Sud"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=2438aaa4c005",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: IDF says strikes in Houmine El Faouqa and as-Sawana killed two militants | FR: L'armée israélienne dit que des frappes à Houmine el-Faouqa et à Sawana ont tué deux combattants",
+   "fix": "L'armée israélienne dit que des frappes à Houmine el-Faouqa et à Sawana ont tué deux militants"
+  },
+  {
+   "file": "research/i18n/fr/part-04.jsonl",
+   "locator": "h=6ae0d4a7b7e1",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: Israeli strikes kill seven Hezbollah militants in south Lebanon | FR: Des frappes israéliennes tuent sept combattants du Hezbollah dans le sud du Liban",
+   "fix": "Des frappes israéliennes tuent sept militants du Hezbollah dans le sud du Liban"
+  },
+  {
+   "file": "research/i18n/fr/part-08.jsonl",
+   "locator": "h=0e38732af103",
+   "severity": "minor",
+   "issue": "Neutrality: EN 'operatives'/'militants' rendered 'combattants' (a status term). 69 lines do this; 'operatives' should be 'membres/agents', 'militants' 'militants'. Attribution to the IDF is kept, but the rank/status claim is stronger in French",
+   "evidence": "EN: The IDF said the dead man was a Hezbollah militant who deployed communication networks. | FR: L'armée israélienne a dit que l'homme tué était un combattant du Hezbollah qui déployait des réseaux de communication.",
+   "fix": "L'armée israélienne a dit que l'homme tué était un militant du Hezbollah qui déployait des réseaux de communication."
+  },
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=cc29bcc5263d",
+   "severity": "minor",
+   "issue": "Grammar: 'au Akkar' (Akkar takes 'en/dans l'Akkar')",
+   "evidence": "EN: Akkar fuel tank explosion kills dozens | FR: L'explosion d'une citerne de carburant au Akkar fait des dizaines de morts",
+   "fix": "L'explosion d'une citerne de carburant dans l'Akkar fait des dizaines de morts"
+  },
+  {
+   "file": "research/i18n/fr/part-10.jsonl",
+   "locator": "h=6998b459ad26",
+   "severity": "minor",
+   "issue": "Grammar and meaning: 'les morts ... se sont poursuivies' (should be masculine plural); 'days before' lost",
+   "evidence": "EN: Rescuer deaths continued days before the ceasefire. | FR: Les morts parmi les secouristes se sont poursuivies jusqu'à quelques jours du cessez-le-feu.",
+   "fix": "Les décès de secouristes se sont poursuivis jusqu'à quelques jours avant le cessez-le-feu."
+  },
+  {
+   "file": "research/i18n/fr/part-01.jsonl",
+   "locator": "h=0879a596bf37",
+   "severity": "minor",
+   "issue": "'re-enters' rendered 'reprend' (implies retaking)",
+   "evidence": "EN: Colonel Aoun's 6th Defence Brigade re-enters West Beirut | FR: La 6e brigade de défense du colonel Aoun reprend Beyrouth-Ouest",
+   "fix": "La 6e brigade de défense du colonel Aoun entre à nouveau dans Beyrouth-Ouest"
+  },
+  {
+   "file": "research/i18n/fr/part-06.jsonl",
+   "locator": "h=bc69e2ea778e",
+   "severity": "minor",
+   "issue": "'Agreement' rendered 'Convention'; standard French is 'Accord d'armistice général' (1949)",
+   "evidence": "EN: Israel-Lebanon General Armistice Agreement (Ras Naqoura) | FR: Convention d'armistice générale israélo-libanaise (Ras Naqoura)",
+   "fix": "Accord d'armistice général israélo-libanais (Ras Naqoura)"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=0b2d5fb31e1e",
+   "severity": "minor",
+   "issue": "'civilian deaths' rendered 'morts civiles' (calque)",
+   "evidence": "EN: Human Rights Watch finds most civilian deaths came from indiscriminate Israeli airstrikes | FR: Human Rights Watch constate que la plupart des morts civiles proviennent de frappes aériennes israéliennes aveugles",
+   "fix": "Human Rights Watch constate que la plupart des victimes civiles ont été tuées par des frappes aériennes israéliennes aveugles"
+  },
+  {
+   "file": "research/i18n/fr/part-12.jsonl",
+   "locator": "h=a0d2a3bf3488",
+   "severity": "minor",
+   "issue": "'UN force mandated on 19 March' rendered 'créée par mandat' (unclear; UNIFIL was authorised by the Security Council)",
+   "evidence": "EN: UN force mandated on 19 March began arriving; its mandate began the same week. | FR: La force de l'ONU, créée par mandat le 19 mars, a commencé à arriver ; son mandat a débuté la même semaine.",
+   "fix": "La force de l'ONU, mandatée le 19 mars, a commencé à arriver ; son mandat a débuté la même semaine."
+  },
+  {
+   "file": "research/i18n/fr/part-12.jsonl",
+   "locator": "h=9e5b6ba071b8",
+   "severity": "minor",
+   "issue": "'conquered the Beqaa from Dervish Pasha's deputy' rendered 'face au lieutenant' (loses 'from')",
+   "evidence": "EN: Son Khalil conquered the Beqaa from Dervish Pasha's deputy; the Porte sent Aleppo's Mustafa Pasha against Abdullah and Bashir. | FR: Son fils Khalil a conquis la Bekaa face au lieutenant de Dervich Pacha ; la Porte a envoyé Mustafa Pacha d'Alep contre Abdallah et Bachir.",
+   "fix": "Son fils Khalil a conquis la Bekaa sur le lieutenant de Dervich Pacha ; la Porte a envoyé Mustafa Pacha d'Alep contre Abdallah et Bachir."
+  },
+  {
+   "file": "research/i18n/fr/part-09.jsonl",
+   "locator": "h=2f026917e62a",
+   "severity": "minor",
+   "issue": "Addition: 'Banks froze' rendered 'ont gelé les retraits' (adds 'withdrawals')",
+   "evidence": "EN: Banks froze; startup funding collapsed. | FR: Les banques ont gelé les retraits ; le financement des start-up s'est effondré.",
+   "fix": "Les banques se sont figées ; le financement des start-up s'est effondré."
+  },
+  {
+   "file": "research/i18n/fr/part-14.jsonl",
+   "locator": "h=1b2abb63ce73",
+   "severity": "minor",
+   "issue": "Date style inconsistent: ISO dates in parentheses become '02-03-2024' here (62 lines) but stay ISO in adf59877a7e1 ('2024-11-20') and spelled out in others; numeric DD-MM-YYYY is correct French but ambiguous on a multilingual hub",
+   "evidence": "EN: Israeli airstrike on Beirut (corrected from 2024-03-02) | FR: Frappe aérienne israélienne sur Beyrouth (corrigé à partir du 02-03-2024)",
+   "fix": "Frappe aérienne israélienne sur Beyrouth (corrigé à partir du 2 mars 2024)"
+  },
+  {
+   "file": "research/i18n/fr/part-11.jsonl",
+   "locator": "h=752a5e9accca",
+   "severity": "minor",
+   "issue": "Date style: '20-07-1980 au 25-10-1980' while sibling 'Term as listed' lines spell dates out ('du 14 février 1951')",
+   "evidence": "EN: Term as listed ran 1980-07-20 to 1980-10-25. Date is the PM term start in the Wikipedia table; formation decree date not separately checked. | FR: Mandat tel qu'indiqué : du 20-07-1980 au 25-10-1980. La date est celle du début du mandat du Premier ministre dans le tableau de Wikipédia ; la date du décret de formation n'a pas été vérifiée séparément.",
+   "fix": "Mandat tel qu'indiqué : du 20 juillet 1980 au 25 octobre 1980. La date est celle du début du mandat du Premier ministre dans le tableau de Wikipédia ; la date du décret de formation n'a pas été vérifiée séparément."
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=0b4478d73249",
+   "severity": "minor",
+   "issue": "Spelling inconsistent: 'Baalbeck' (41 lines) vs 'Baalbek' (87 lines)",
+   "evidence": "EN: New York Philharmonic and Ballet Rambert play Baalbeck | FR: Le New York Philharmonic et le Ballet Rambert se produisent à Baalbeck",
+   "fix": "Le New York Philharmonic et le Ballet Rambert se produisent à Baalbek"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=1c692dd14414",
+   "severity": "minor",
+   "issue": "Spelling inconsistent: 'Baalbeck' (41 lines) vs 'Baalbek' (87 lines)",
+   "evidence": "EN: First Lebanese talkie, In the Ruins of Baalbek, per French Wikipedia | FR: Premier film parlant libanais, Dans les ruines de Baalbeck, selon Wikipédia en français",
+   "fix": "Premier film parlant libanais, Dans les ruines de Baalbek, selon Wikipédia en français"
+  },
+  {
+   "file": "research/i18n/fr/part-02.jsonl",
+   "locator": "h=1e82984527da",
+   "severity": "minor",
+   "issue": "Spelling inconsistent: 'Baalbeck' (41 lines) vs 'Baalbek' (87 lines)",
+   "evidence": "EN: Australian Ballet and Moscow Chamber Orchestra at Baalbeck | FR: L'Australian Ballet et l'Orchestre de chambre de Moscou à Baalbeck",
+   "fix": "L'Australian Ballet et l'Orchestre de chambre de Moscou à Baalbek"
+  },
+  {
+   "file": "research/i18n/fr/part-04.jsonl",
+   "locator": "h=6befd52a2256",
+   "severity": "minor",
+   "issue": "Place name inconsistent: ancient/modern Sidon left as English 'Sidon' in 5 lines while 151 use 'Saïda' (also 'eyalet de Sidon' in 19e70bd305df)",
+   "evidence": "EN: Ottoman excavation of Sidon's royal necropolis begins | FR: Début des fouilles ottomanes de la nécropole royale de Sidon",
+   "fix": "Début des fouilles ottomanes de la nécropole royale de Saïda"
+  },
+  {
+   "file": "research/i18n/fr/part-04.jsonl",
+   "locator": "h=64df21310a9c",
+   "severity": "minor",
+   "issue": "Terminology inconsistent for the 'gap law': « gap » here, 'écart financier' in 6c60e19e0670, 76e5781a5219, bcfd3a8f519e. Pick one term across lines",
+   "evidence": "EN: Cabinet passes gap bill 13 to 9; $100,000 back over four years | FR: Le Conseil des ministres adopte le projet de loi sur le « gap » par 13 voix contre 9 ; 100 000 dollars restitués sur quatre ans",
+   "fix": "Le Conseil des ministres adopte le projet de loi sur le gap financier par 13 voix contre 9 ; 100 000 dollars restitués sur quatre ans"
+  }
+ ]
+}

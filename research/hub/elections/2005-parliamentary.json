@@ -1,0 +1,266 @@
+{
+ "election": "2005 Lebanese parliamentary election",
+ "date": "2005-05-29",
+ "type": "parliamentary",
+ "law": "2000 election law: 14 qada-based constituencies, block vote; voting staged by governorate over four Sundays",
+ "held": true,
+ "rounds": [
+  {
+   "date": "2005-05-29",
+   "area": "Beirut",
+   "seats": 19
+  },
+  {
+   "date": "2005-06-05",
+   "area": "South and Nabatieh",
+   "seats": 23
+  },
+  {
+   "date": "2005-06-12",
+   "area": "Bekaa and Mount Lebanon",
+   "seats": 58
+  },
+  {
+   "date": "2005-06-19",
+   "area": "North",
+   "seats": 28
+  }
+ ],
+ "districts": [
+  {
+   "district": "Beirut",
+   "adm": "Beirut",
+   "seats": 19,
+   "seats_by_confession": {
+    "Maronite": 1,
+    "Greek Orthodox": 2,
+    "Greek Catholic": 1,
+    "Armenian Orthodox": 3,
+    "Armenian Catholic": 1,
+    "Sunni": 6,
+    "Shia": 2,
+    "Druze": 1,
+    "Minorities": 1,
+    "Evangelical": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Rafik Hariri Martyr List",
+     "votes": null,
+     "seats": 19
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "Mount Lebanon",
+   "adm": "Mount Lebanon",
+   "seats": 35,
+   "seats_by_confession": {
+    "Maronite": 19,
+    "Shia": 3,
+    "Greek Orthodox": 3,
+    "Greek Catholic": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 5,
+    "Sunni": 2
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": 54.46,
+   "lists": [
+    {
+     "name": "Hariri List",
+     "votes": null,
+     "seats": 17
+    },
+    {
+     "name": "Aoun Alliance",
+     "votes": null,
+     "seats": 17
+    },
+    {
+     "name": "Hezbollah",
+     "votes": null,
+     "seats": 1
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "North",
+   "adm": "North",
+   "seats": 28,
+   "seats_by_confession": {
+    "Sunni": 11,
+    "Alawite": 2,
+    "Greek Orthodox": 6,
+    "Maronite": 9
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Hariri List",
+     "votes": null,
+     "seats": 28
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "South",
+   "adm": "South",
+   "seats": 23,
+   "seats_by_confession": {
+    "Sunni": 3,
+    "Shia": 14,
+    "Greek Catholic": 2,
+    "Maronite": 2,
+    "Druze": 1,
+    "Greek Orthodox": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Resistance and Development Bloc (Amal-Hezbollah)",
+     "votes": null,
+     "seats": 21
+    },
+    {
+     "name": "Saida seats (Bahia Hariri, Oussama Saad)",
+     "votes": null,
+     "seats": 2
+    }
+   ],
+   "winners": []
+  },
+  {
+   "district": "Bekaa",
+   "adm": "Bekaa",
+   "seats": 23,
+   "seats_by_confession": {
+    "Shia": 8,
+    "Sunni": 5,
+    "Maronite": 3,
+    "Greek Catholic": 3,
+    "Greek Orthodox": 2,
+    "Armenian Orthodox": 1,
+    "Druze": 1
+   },
+   "registered": null,
+   "voters": null,
+   "turnout": null,
+   "lists": [
+    {
+     "name": "Resistance and Development Bloc",
+     "votes": null,
+     "seats": 11
+    },
+    {
+     "name": "Hariri List",
+     "votes": null,
+     "seats": 8
+    },
+    {
+     "name": "Aoun Alliance",
+     "votes": null,
+     "seats": 4
+    }
+   ],
+   "winners": []
+  }
+ ],
+ "national": {
+  "registered": 3002028,
+  "voters": 1395015,
+  "turnout": 46.47,
+  "party_seats": [
+   {
+    "name": "Future Movement",
+    "seats": 36
+   },
+   {
+    "name": "Progressive Socialist Party",
+    "seats": 16
+   },
+   {
+    "name": "Lebanese Forces",
+    "seats": 6
+   },
+   {
+    "name": "Qornet Shehwan Gathering",
+    "seats": 6
+   },
+   {
+    "name": "Tripoli Bloc independents and allies",
+    "seats": 5
+   },
+   {
+    "name": "Free Patriotic Movement",
+    "seats": 15
+   },
+   {
+    "name": "Amal Movement",
+    "seats": 14
+   },
+   {
+    "name": "Hezbollah",
+    "seats": 14
+   },
+   {
+    "name": "Popular Bloc",
+    "seats": 4
+   },
+   {
+    "name": "Armenian Revolutionary Federation",
+    "seats": 2
+   },
+   {
+    "name": "Syrian Social Nationalist Party",
+    "seats": 2
+   },
+   {
+    "name": "Murr Bloc",
+    "seats": 1
+   },
+   {
+    "name": "Others",
+    "seats": 5
+   },
+   {
+    "name": "Independents",
+    "seats": 2
+   }
+  ],
+  "alliance_seats": {
+   "March 14": 69,
+   "March 8": 57,
+   "Independents": 2
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/2005_Lebanese_general_election",
+   "https://www.idea.int/data-tools/data/country?country=124&database_theme=293",
+   "https://www.opemam.org/node/6710"
+  ]
+ },
+ "notes": [
+  "Districts are the five traditional governorates (muhafazat; Nabatieh counted with South, Akkar with North, Baalbek-Hermel with Bekaa, Keserwan-Jbeil with Mount Lebanon). Seats by confession per governorate are the allocation unchanged by qada since 1992 (IFES), summed from the 2009 qada allocation.",
+  "Per-district registered voters, turnout and winners were not found in a free structured public source; see README-D5.md for the gap.",
+  "Mount Lebanon turnout 54.46% (EU EOM; 50.42% in 2000), Keserwan-Jbeil 62.55%; Beirut constituency turnout 20% (Beirut III) to 31% (Beirut I); North I 51.61%, North II 44.89%; Jezzine 22%, Nabatieh 55% (EU EOM Final Report).",
+  "Seats per list by governorate are from Wikipedia round summaries; Saida seats are listed apart because they are described as outside the Amal-Hezbollah bloc."
+ ],
+ "source": [
+  "https://en.wikipedia.org/wiki/2005_Lebanese_general_election",
+  "https://www.eods.eu/library/FR%20LEBANON%202005_en.pdf",
+  "https://www.opemam.org/node/6710",
+  "https://www.idea.int/data-tools/data/country?country=124&database_theme=293"
+ ],
+ "license": "Wikipedia text CC BY-SA 4.0 (Nohlen et al. handbook as cited there); IPU Parline archive and IDEA turnout database, no licence stated, facts only, attributed"
+}

@@ -1,0 +1,814 @@
+{
+ "series": [
+  {
+   "id": "manousheh",
+   "label": "Za'atar manousheh (plain, Beirut bakery)",
+   "unit": "LBP|USD",
+   "source": "https://today.lorientlejour.com/article/1326026/why-is-the-manoushe-so-expensive.html",
+   "sources": [
+    "https://today.lorientlejour.com/article/1326026/why-is-the-manoushe-so-expensive.html"
+   ],
+   "points": [
+    [
+     "2022-23",
+     "30000-50000",
+     "LBP",
+     "market",
+     "L'Orient Today: Beirut price range; ~14,000 LBP of it was flour; baker quoted 30,000 when the dollar was 48,000-51,000 (date of article not read, 📣 search summary). Pre-2019 price not found."
+    ]
+   ],
+   "note": "GAP: no sourced price for 1950-2019. Only one sourced crisis-era point. Do not interpolate."
+  },
+  {
+   "id": "bread_bundle",
+   "label": "Official bread bundle (rabta), Lebanese white bread",
+   "unit": "LBP|USD",
+   "source": "https://the961.com/lebanon-raised-price-of-bread/",
+   "sources": [
+    "https://the961.com/lebanon-raised-price-of-bread/",
+    "https://www.arabnews.com/node/1802666/business-economy",
+    "https://www.lbcgroup.tv/news/lebanon-news/958184/lebanon-raises-price-of-white-bread-bundle-to-80000-lbp/en",
+    "https://www.mtv.com.lb/en/News/Local/1284101/price-of-bread-bundle-increases-in-lebanon",
+    "https://the961.com/fact-check-price-bread-jump-lbp-1500-lebanon/"
+   ],
+   "points": [
+    [
+     "2019",
+     1500,
+     "LBP",
+     "official",
+     "Standard bundle sold at 1,500 LBP 'for many years' (📣 The961 search summary; weight not stated). At 1,507.5 official = about USD 1.00."
+    ],
+    [
+     "2021-02",
+     2500,
+     "LBP",
+     "official",
+     "930 g loaf/bundle, about 11% of the 650,000 LBP minimum wage quoted by Arab News (2 Feb 2021). Labour leader quoted as warning of 5,000."
+    ],
+    [
+     "2021-03",
+     2500,
+     "LBP",
+     "official",
+     "870 g bundle (was 910 g at same price). Smaller 385 g bundle 1,500 LBP (was 430 g): shrinkflation, per The961 (11 Mar 2021)."
+    ],
+    [
+     "2026-09",
+     80000,
+     "LBP",
+     "official",
+     "Medium bundle raised from 75,000 to 80,000 LBP on 17 Sep 2026 (LBCI). At 89,500 LBP/USD = about USD 0.89. Ministry blames diesel (22% of cost)."
+    ]
+   ],
+   "note": "Bundle weights differ between data points; not a like-for-like series. 2022-2025 intermediate steps exist (961 lists several) but were not read."
+  },
+  {
+   "id": "falafel",
+   "label": "Falafel sandwich (Beirut, regular spots)",
+   "unit": "LBP",
+   "source": "https://www.beirut.com/en/64941/heres-how-much-a-falafel-sandwich-costs-at-these-7-spots/",
+   "sources": [
+    "https://www.beirut.com/en/64941/heres-how-much-a-falafel-sandwich-costs-at-these-7-spots/"
+   ],
+   "points": [
+    [
+     "2023-03",
+     150000,
+     "LBP",
+     "market",
+     "Sahyoun 150,000-180,000; Abou Andre 145-160k; Freiha 140-150k; Zouk Mikael 125,000 (Beirut.com, Mar 2023). Cash LBP; USD not given in source."
+    ]
+   ],
+   "note": "GAP: pre-2019 price not found in a citable source."
+  },
+  {
+   "id": "benzine_20l",
+   "label": "Petrol 95 octane, per 20 litre canister",
+   "unit": "LBP|USD",
+   "source": "https://www.aljadeed.tv/news/localnews/590141/lebanons-latest-fuel-price-update/en",
+   "sources": [
+    "https://www.aljadeed.tv/news/localnews/590141/lebanons-latest-fuel-price-update/en",
+    "https://www.lbcgroup.tv/news/economy/896158/lebanon-updates-fuel-prices/en",
+    "https://www.aljazeera.com/economy/2021/6/25/lebanon-reduces-critical-fuel-subsidies-amid-petrol-crisis",
+    "https://www.pressreader.com/uae/gulf-news/20210923/281887301451347",
+    "https://today.lorientlejour.com/article/1500563/fuel-prices-continue-to-rise-in-lebanon-3.html",
+    "https://www.aljazeera.com/economy/2021/10/29/in-lebanon-petrol-is-now-priced-out-of-reach",
+    "https://dailybeirut.com/en/lebanon-news/gasoline-surpasses-31-heres-the-new-price-table/"
+   ],
+   "points": [
+    [
+     "2021-06",
+     62000,
+     "LBP",
+     "official (ministry table, subsidy partly lifted)",
+     "+35% in June 2021; about USD 3.60 at black-market rate (📣 Al Jazeera/press summaries)."
+    ],
+    [
+     "2021-09",
+     202400,
+     "LBP",
+     "official (ministry table)",
+     "About USD 14.45 at the market rate (📣 Gulf News summary). Al Jazeera Oct 2021: a full tank costs more than the monthly minimum wage (✅)."
+    ],
+    [
+     "2025-12",
+     1384000,
+     "LBP",
+     "official (ministry table)",
+     "23 Dec 2025, after a 24,000 cut (LBCI). About USD 15.5 at 89,500."
+    ],
+    [
+     "2026-03",
+     2314000,
+     "LBP",
+     "official (ministry table)",
+     "After +25,000 (L'Orient Today summary, 📣). Steep rise vs Dec 2025; cause not verified here."
+    ],
+    [
+     "2026-09",
+     2845000,
+     "LBP",
+     "official (ministry table)",
+     "25 Sep 2026, +11,000 on the week (Al Jadeed). About USD 31.8 at 89,500; 98 octane 2,863,000."
+    ]
+   ],
+   "note": "GAP: no sourced price for 1950-2020. Ministry of Energy weekly tables are the primary source; not fetched directly."
+  },
+  {
+   "id": "generator_5a",
+   "label": "Private generator, 5 A monthly subscription",
+   "unit": "LBP|USD",
+   "source": "https://the961.com/power-generator-subscription-price-doubles/",
+   "sources": [
+    "https://the961.com/power-generator-subscription-price-doubles/",
+    "https://www.the961.com/august-tariffs-private-electric-generators-lebanon/",
+    "https://www.the961.com/lebanon-new-prices-for-private-generators/",
+    "https://waradana.com/english/article/171706-private-generator-prices-in-lebanon-for-july-2023",
+    "https://today.lorientlejour.com/article/1542775/lebanon-generator-rates-fall-again-as-operators-protest-outside-energy-ministry.html",
+    "https://thisisbeirut.com.lb/articles/1323030/private-generators-in-lebanon-the-toll-of-a-profitable-highly-polluting-industry"
+   ],
+   "points": [
+    [
+     "2021-07",
+     1000000,
+     "LBP",
+     "market (operators)",
+     "Fixed fee 'doubles' to 1,000,000 LBP (The961, 12 Jul 2021); Association head Abdo Saadeh blamed black-market diesel. Previous figure not stated."
+    ],
+    [
+     "2022-07",
+     100000,
+     "LBP",
+     "official (ministry tariff)",
+     "Fixed 100,000 plus 13,545 LBP/kWh (📣 The961 search summary)."
+    ],
+    [
+     "2022-08",
+     110000,
+     "LBP",
+     "official (ministry tariff)",
+     "Fixed 110,000 plus 13,796 LBP/kWh, diesel at 679,241 LBP per 20 l (The961, 1 Sep 2022). Below 700 m altitude."
+    ],
+    [
+     "2023-07",
+     390000,
+     "LBP",
+     "official (ministry tariff)",
+     "Fixed 390,000 plus 31,870 LBP/kWh (📣 Waradana)."
+    ],
+    [
+     "2025",
+     385000,
+     "LBP",
+     "official (ministry tariff)",
+     "Fixed fee 385,000 LBP (USD 4.29) and kWh at 48,241 LBP (about USD 0.54), Aug 2025 (📣 L'Orient Today summary)."
+    ],
+    [
+     "2025",
+     4.29,
+     "USD",
+     "official (ministry tariff)",
+     "Fixed fee only; the bill is fixed fee plus metered kWh."
+    ]
+   ],
+   "note": "The subscription is not the whole bill: add the kWh charge. Pre-2019 figures not found. The 2021 point is what operators asked, not a ministry tariff."
+  },
+  {
+   "id": "min_wage",
+   "label": "Monthly private-sector minimum wage",
+   "unit": "LBP|USD",
+   "source": "https://monthlymagazine.com/en/article/4959/lebanon-devaluation-of-currency-erosion-of-salaries-and-wages-and-minimum-wage-of-usd-72",
+   "sources": [
+    "https://monthlymagazine.com/en/article/4959/lebanon-devaluation-of-currency-erosion-of-salaries-and-wages-and-minimum-wage-of-usd-72",
+    "https://monthlymagazine.com/en/article/4958/lebanese-minimum-wage-among-the-lowest-in-the-world-as-currency-plumbs-new-depths",
+    "https://nowlebanon.com/salaries-adjustments-fail-to-meet-inflation-and-income-erosion/",
+    "https://www.lbcgroup.tv/news/economy/864189/lebanon-raises-minimum-wage-to-lbp-28-million/en",
+    "https://www.globalization-partners.com/globalpedia/lebanon/compensation-benefits/",
+    "https://www.arabnews.com/node/1802666/business-economy"
+   ],
+   "points": [
+    [
+     "1996",
+     300000,
+     "LBP",
+     "official",
+     "First post-war adjustment (📣 search summary of The Monthly / Globalization Partners). At 1,507.5 = about USD 199."
+    ],
+    [
+     "2008",
+     500000,
+     "LBP",
+     "official",
+     "Raised from 300,000 (📣 same sources). Some sources add a 40% rise to 700,000 in 2011: unresolved."
+    ],
+    [
+     "2012",
+     675000,
+     "LBP",
+     "official",
+     "Level quoted as unchanged to 2019 (The Monthly, ✅). At 1,500 = USD 450."
+    ],
+    [
+     "2021-02",
+     650000,
+     "LBP",
+     "official",
+     "Arab News quotes 650,000 (Bread article, ✅), conflicting with 675,000 elsewhere; flagged."
+    ],
+    [
+     "2019-2021",
+     72,
+     "USD",
+     "market",
+     "The Monthly: USD 450 at 1,500 became USD 72 at 9,400 LBP/USD with no change in LBP (article date not shown, ✅ read)."
+    ],
+    [
+     "2025-08",
+     28000000,
+     "LBP",
+     "official",
+     "Decree 699: up from 18,000,000, effective 1 Aug 2025 (📣 LBCI headline and search summary); about USD 312 (NOW Lebanon, ✅ read)."
+    ]
+   ],
+   "note": "GAP: nothing sourced for 1950-1995. Conflicts: 650,000 vs 675,000; NOW Lebanon says the last adjustment was Jan 2019, other sources say 2012. Unresolved."
+  },
+  {
+   "id": "mea_paris",
+   "label": "Beirut-Paris economy return, MEA",
+   "unit": "USD",
+   "source": "https://today.lorientlejour.com/article/1342644/are-meas-flight-prices-really-excessive-this-year.html",
+   "sources": [
+    "https://today.lorientlejour.com/article/1342644/are-meas-flight-prices-really-excessive-this-year.html",
+    "https://www.trip.com/hot/middle-east-airlines(me)-flights-from-beirut-to-paris/",
+    "https://www.mea.com.lb/plan-and-book/special-offers/beirut-to-paris"
+   ],
+   "points": [
+    [
+     "2022-23",
+     1600,
+     "USD",
+     "market",
+     "Peak fare 'exceeding $1,600' quoted after 2022 (📣 search summary; route Paris-Beirut). MEA says fares are up about 18% since 2019 (📣)."
+    ],
+    [
+     "2026",
+     570,
+     "USD",
+     "market",
+     "Round-trip economy from USD 570 (📣 MEA/aggregator search summary); typical 497-770."
+    ]
+   ],
+   "note": "GAP: the pre-2019 price is not sourced; the L'Orient Today article was not readable (HTTP 403)."
+  },
+  {
+   "id": "cinema",
+   "label": "Cinema ticket, standard",
+   "unit": "LBP",
+   "source": "https://www.the961.com/everything-to-know-cinema-lebanon/",
+   "sources": [
+    "https://www.the961.com/everything-to-know-cinema-lebanon/",
+    "https://www.moviegoers.me/news/view/171/movie-ticket-prices-in-cinemas-across-lebanon/"
+   ],
+   "points": [
+    [
+     "2019",
+     "10000-12500",
+     "LBP",
+     "official",
+     "Derived, not quoted: The961 says reopening prices are 'almost 4-5 times' the old price, so the old price is about 10-12.5k (🧪 derived from a ✅ read)."
+    ],
+    [
+     "2021-22",
+     50000,
+     "LBP",
+     "market",
+     "50,000 adult, 35,000 child under 15 at reopening after Covid (The961, ✅ read; the page also carries a 2025 date stamp)."
+    ],
+    [
+     "2025-03",
+     800000,
+     "LBP",
+     "market",
+     "Grand Cinemas standard 800,000, VIP 1,200,000; Empire 500,000; Vox IMAX 800,000-900,000 (📣 MovieGoers.me, T4)."
+    ]
+   ],
+   "note": "Each cinema chain prices differently; not like-for-like."
+  },
+  {
+   "id": "mobile",
+   "label": "Mobile calls and prepaid lines (Alfa, Touch)",
+   "unit": "USD",
+   "source": "https://www.aljazeera.com/news/2004/8/16/lebanese-boycott-mobile-phones",
+   "sources": [
+    "https://www.aljazeera.com/news/2004/8/16/lebanese-boycott-mobile-phones",
+    "https://the961.com/touch-lebanon-new-telecom-prices/",
+    "https://www.alfa.com.lb/en/prepaid/plans"
+   ],
+   "points": [
+    [
+     "2004",
+     121,
+     "USD",
+     "market",
+     "500 minutes of calls cost USD 121 in Lebanon vs 65 Syria, 66 Jordan, 47 Cyprus, 42 Egypt, 39 UAE (Al Jazeera, 16 Aug 2004, ✅). Consumers boycotted for 24 hours; mobile was the state's third-largest income after customs and VAT."
+    ],
+    [
+     "2022-07",
+     3,
+     "USD",
+     "official",
+     "New prepaid SIM USD 3 incl. tax (📣); Alfa 30-day card USD 5.01; 365-day card USD 85.79 (📣 The961)."
+    ],
+    [
+     "2026",
+     7,
+     "USD",
+     "official",
+     "Alfa new prepaid line USD 7 excl. VAT; local calls USD 0.08/min peak (📣 alfa.com.lb search summary)."
+    ]
+   ],
+   "note": "GAP: pre-2004 tariffs not sourced."
+  },
+  {
+   "id": "big_mac",
+   "label": "Economist Big Mac index, Lebanon",
+   "unit": "LBP|USD",
+   "source": "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv",
+   "sources": [
+    "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv",
+    "https://english.alarabiya.net/business/economy/2021/07/29/World-s-cheapest-Big-Mac-can-be-found-in-Lebanon-most-expensive-in-Venezuela"
+   ],
+   "points": [
+    [
+     "2018-07",
+     6500,
+     "LBP",
+     "official",
+     "Big Mac at 1511 LBP/USD = USD 4.30"
+    ],
+    [
+     "2018-07",
+     4.3,
+     "USD",
+     "official",
+     "Economist dollar_price column"
+    ],
+    [
+     "2019-01",
+     6500,
+     "LBP",
+     "official",
+     "Big Mac at 1507 LBP/USD = USD 4.31"
+    ],
+    [
+     "2019-01",
+     4.31,
+     "USD",
+     "official",
+     "Economist dollar_price column"
+    ],
+    [
+     "2019-07",
+     6500,
+     "LBP",
+     "official",
+     "Big Mac at 1507 LBP/USD = USD 4.31"
+    ],
+    [
+     "2019-07",
+     4.31,
+     "USD",
+     "official",
+     "Economist dollar_price column"
+    ],
+    [
+     "2020-01",
+     6500,
+     "LBP",
+     "official",
+     "Big Mac at 1514 LBP/USD = USD 4.29"
+    ],
+    [
+     "2020-01",
+     4.29,
+     "USD",
+     "official",
+     "Economist dollar_price column"
+    ],
+    [
+     "2020-07",
+     9000,
+     "LBP",
+     "official",
+     "Big Mac at 1512 LBP/USD = USD 5.95"
+    ],
+    [
+     "2020-07",
+     5.95,
+     "USD",
+     "official",
+     "Economist dollar_price column"
+    ],
+    [
+     "2021-01",
+     15500,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 8750 LBP/USD = USD 1.77"
+    ],
+    [
+     "2021-01",
+     1.77,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2021-07",
+     37000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 22000 LBP/USD = USD 1.68"
+    ],
+    [
+     "2021-07",
+     1.68,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2022-01",
+     70000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 21500 LBP/USD = USD 3.26"
+    ],
+    [
+     "2022-01",
+     3.26,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2022-07",
+     130000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 25600 LBP/USD = USD 5.08"
+    ],
+    [
+     "2022-07",
+     5.08,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2023-01",
+     170000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 38000 LBP/USD = USD 4.47"
+    ],
+    [
+     "2023-01",
+     4.47,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2023-07",
+     430000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 85500 LBP/USD = USD 5.03"
+    ],
+    [
+     "2023-07",
+     5.03,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2024-01",
+     430000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89500 LBP/USD = USD 4.80"
+    ],
+    [
+     "2024-01",
+     4.8,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2024-07",
+     460000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89550 LBP/USD = USD 5.14"
+    ],
+    [
+     "2024-07",
+     5.14,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2025-01",
+     480000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89550 LBP/USD = USD 5.36"
+    ],
+    [
+     "2025-01",
+     5.36,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2025-07",
+     480000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89560 LBP/USD = USD 5.36"
+    ],
+    [
+     "2025-07",
+     5.36,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2026-01",
+     480000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89550 LBP/USD = USD 5.36"
+    ],
+    [
+     "2026-01",
+     5.36,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ],
+    [
+     "2026-07",
+     480000,
+     "LBP",
+     "market (rate chosen by The Economist)",
+     "Big Mac at 89550 LBP/USD = USD 5.36"
+    ],
+    [
+     "2026-07",
+     5.36,
+     "USD",
+     "market (rate chosen by The Economist)",
+     "Economist dollar_price column"
+    ]
+   ],
+   "note": "Source is the Economist open dataset (read via curl). Lebanon rows start July 2018. Rate is official to mid-2020, then the Economist used a market rate, so local price, not the dollar figure, is the stable series. 2021-01 dollar price USD 1.77 (most undervalued currency in the index)."
+  },
+  {
+   "id": "almaza",
+   "label": "Almaza beer, supermarket bottle",
+   "unit": "LBP|USD",
+   "source": "https://www.spinneyslebanon.com/default/brands/almaza",
+   "sources": [
+    "https://www.spinneyslebanon.com/default/brands/almaza"
+   ],
+   "points": [
+    [
+     "2026",
+     59184,
+     "LBP",
+     "market",
+     "250 ml bottle, about USD 0.89 (Spinneys listing, 📣 search result, retrieval date unknown)."
+    ],
+    [
+     "2026",
+     119292,
+     "LBP",
+     "market",
+     "500 ml bottle, about USD 1.49 (same listing)."
+    ]
+   ],
+   "note": "GAP: no historical bottle price found; the brewery does not publish one."
+  },
+  {
+   "id": "an_nahar",
+   "label": "An-Nahar newspaper, cover price",
+   "unit": "LBP",
+   "source": null,
+   "sources": [],
+   "points": [],
+   "note": "GAP: searched; no citable cover-price series found. Best route: the AUB/Palestinian Museum digital archive of issue covers (not read)."
+  },
+  {
+   "id": "lbp_usd",
+   "label": "LBP per USD (context for the series above)",
+   "unit": "LBP per USD",
+   "source": "https://en.wikipedia.org/wiki/Lebanese_pound",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lebanese_pound",
+    "https://en.wikipedia.org/wiki/Lebanese_liquidity_crisis",
+    "https://www.elibrary.imf.org/display/book/9781557754592/ch006.xml",
+    "https://www.aljazeera.com/economy/2023/2/1/lebanon-devalues-official-exchange-rate-by-90-percent",
+    "https://today.lorientlejour.com/article/1361826/bdl-exchange-rate-becomes-ll89500-to-the-dollar-what-does-this-mean.html"
+   ],
+   "points": [
+    [
+     "1975",
+     2.3,
+     "LBP",
+     "official",
+     "Average (📣 IMF/search summary)."
+    ],
+    [
+     "1984",
+     6.51,
+     "LBP",
+     "official",
+     "Average (📣)."
+    ],
+    [
+     "1987",
+     455,
+     "LBP",
+     "market",
+     "📣."
+    ],
+    [
+     "1990",
+     842,
+     "LBP",
+     "market",
+     "📣."
+    ],
+    [
+     "1992-05",
+     2825,
+     "LBP",
+     "market",
+     "Post-war low before recovery (📣)."
+    ],
+    [
+     "1997-12",
+     1507.5,
+     "LBP",
+     "official",
+     "Peg announced; held until Oct 2019 at the official window (Wikipedia, ✅ read)."
+    ],
+    [
+     "2020-04",
+     3000,
+     "LBP",
+     "market",
+     "Wikipedia Lebanese liquidity crisis (✅ read)."
+    ],
+    [
+     "2021-03",
+     14000,
+     "LBP",
+     "market",
+     "✅ read."
+    ],
+    [
+     "2023-02",
+     15000,
+     "LBP",
+     "official",
+     "Official rate reset 1 Feb 2023 after 25 years (✅ read; Al Jazeera 📣)."
+    ],
+    [
+     "2023-03",
+     111000,
+     "LBP",
+     "market",
+     "Lowest ever (Wikipedia, ✅ read)."
+    ],
+    [
+     "2023-12",
+     89500,
+     "LBP",
+     "official (Sayrafa/BDL)",
+     "Held roughly flat since (Wikipedia ✅; L'Orient Today 📣)."
+    ]
+   ]
+  },
+  {
+   "id": "tourist_arrivals",
+   "label": "Tourist arrivals ('Paris of the Middle East' to 2026)",
+   "unit": "persons",
+   "source": "https://en.wikipedia.org/wiki/Tourism_in_Lebanon",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tourism_in_Lebanon",
+    "https://www.thebeiruter.com/article/lebanon%E2%80%99s-economy-in-numbers-a-complex-reality-with-layered-challenges/386"
+   ],
+   "points": [
+    [
+     "1974",
+     1400000,
+     "persons",
+     "official",
+     "Pre-war peak (Wikipedia, ✅ read)."
+    ],
+    [
+     "1995",
+     450000,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2000",
+     472000,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2003",
+     1016000,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2005",
+     1140000,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2009",
+     2000000,
+     "persons",
+     "official",
+     "About 2 million, +39% on 2008 (✅)."
+    ],
+    [
+     "2010",
+     2351081,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2011",
+     2001811,
+     "persons",
+     "official",
+     "✅."
+    ],
+    [
+     "2023",
+     1660000,
+     "persons",
+     "official",
+     "About 1.66 million (📣 Tourism Ministry via summary)."
+    ],
+    [
+     "2024",
+     1130000,
+     "persons",
+     "official",
+     "About 1.13 million, -32% (📣)."
+    ]
+   ]
+  }
+ ]
+}

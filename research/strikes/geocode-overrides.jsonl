@@ -1,0 +1,76 @@
+{"place": "Kafra", "district": null, "lat": 33.17431, "lon": 35.3509, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Kafra,_Bint_Jbeil"}
+{"place": "Ansar", "district": null, "lat": 33.37811, "lon": 35.353, "pcode": "LBN44024", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Ansar,_Lebanon"}
+{"place": "Ansariya", "district": null, "lat": 33.4134, "lon": 35.27714, "pcode": "LBN61035", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Ansariyeh,_Lebanon"}
+{"place": "Ansarieh", "district": null, "lat": 33.4134, "lon": 35.27714, "pcode": "LBN61035", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Ansariyeh,_Lebanon"}
+{"place": "Ansariyah", "district": null, "lat": 33.4134, "lon": 35.27714, "pcode": "LBN61035", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Ansariyeh,_Lebanon"}
+{"place": "Yohmor al-Shaqif", "district": null, "lat": 33.30973, "lon": 35.51552, "pcode": "LBN44058", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Yohmor,_Nabatieh"}
+{"place": "Beaufort Castle", "district": null, "lat": 33.3244, "lon": 35.532, "pcode": null, "precision": "exact", "evidence": "https://en.wikipedia.org/wiki/Beaufort_Castle,_Lebanon"}
+{"place": "Beaufort Castle", "district": "Nabatieh", "lat": 33.3244, "lon": 35.532, "pcode": null, "precision": "exact", "evidence": "https://en.wikipedia.org/wiki/Beaufort_Castle,_Lebanon"}
+{"place": "Beaufort Ridge", "district": null, "lat": 33.3244, "lon": 35.532, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Beaufort_Castle,_Lebanon"}
+{"place": "Khalde", "district": null, "lat": 33.78301, "lon": 35.47594, "pcode": "LBN31078", "precision": "village", "evidence": "https://apnews.com/article/lebanon-israel-strike-khaldeh-beirut-airport-23602e2802160251400403f141b85488"}
+{"place": "Adsheet", "district": null, "lat": 33.27677, "lon": 35.48004, "pcode": "LBN43002", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Aadshit_al-Qusayr"}
+{"place": "Arabsalim", "district": null, "lat": 33.42899, "lon": 35.51546, "pcode": "LBN44006", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Arabsalim"}
+{"place": "Hamra", "district": null, "lat": 33.89631, "lon": 35.48196, "pcode": "LBN11018", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Hamra,_Beirut"}
+{"place": "Haniyeh", "district": null, "lat": 33.18658, "lon": 35.22189, "pcode": "LBN63052", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Al-Hanniye"}
+{"place": "Hanaouay", "district": null, "lat": 33.22114, "lon": 35.27657, "pcode": "LBN63051", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Hannaouiyah"}
+{"place": "Shab", "district": null, "lat": 33.09757, "lon": 35.33451, "pcode": "LBN41005", "precision": "village", "evidence": "https://www.timesofisrael.com/liveblog_entry/israeli-drone-strike-reported-on-car-in-southern-lebanon/"}
+{"place": "Hadath", "district": null, "lat": 33.84376, "lon": 35.53222, "pcode": "LBN320050", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Hadath,_Mount_Lebanon"}
+{"place": "Ammiq", "district": null, "lat": 33.71806, "lon": 35.58139, "pcode": null, "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Basta", "district": null, "lat": 33.88621, "lon": 35.50205, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/2024_Basta_airstrikes"}
+{"place": "Joya", "district": null, "lat": 33.23694, "lon": 35.33533, "pcode": "LBN63059", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Jwaya"}
+{"place": "Kantari", "district": null, "lat": 33.89534, "lon": 35.49561, "pcode": "LBN11044", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Mansourieh", "district": null, "lat": 33.8581, "lon": 35.5686, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Mansourieh,_Lebanon"}
+{"place": "Masnaa", "district": null, "lat": 33.70307, "lon": 35.9237, "pcode": "LBN25044", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Masnaa_Border_Crossing"}
+{"place": "Meiss El", "district": null, "lat": 33.16916, "lon": 35.5203, "pcode": "LBN43029", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Meiss_Ej_Jabal"}
+{"place": "Sabra", "district": "Beirut", "lat": 33.8628, "lon": 35.4984, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Sabra_and_Shatila_massacre"}
+{"place": "Salima", "district": null, "lat": 33.87306, "lon": 35.69611, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Salima,_Lebanon"}
+{"place": "Aazze", "district": null, "lat": 33.45376, "lon": 35.4301, "pcode": "LBN44004", "precision": "village", "evidence": "https://www.timesofisrael.com/liveblog_entry/lebanese-media-report-israeli-strikes-in-the-nabatieh-area-no-com"}
+{"place": "Ain Dara", "district": null, "lat": 33.7811, "lon": 35.72228, "pcode": "LBN31009", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Ain al-Hilweh", "district": null, "lat": 33.54361, "lon": 35.37806, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Ain_al-Hilweh"}
+{"place": "Aitaroun", "district": "Bint Jbeil", "lat": 33.11564, "lon": 35.46783, "pcode": "LBN41003", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Aitaroun"}
+{"place": "Ayta ash-Shaab", "district": "Bent Jbeil", "lat": 33.09757, "lon": 35.33451, "pcode": "LBN41005", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/2000%E2%80%932006_Shebaa_Farms_conflict"}
+{"place": "Arayya", "district": null, "lat": 33.83174, "lon": 35.59102, "pcode": "LBN320007", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Arsoun", "district": null, "lat": 33.86042, "lon": 35.68956, "pcode": "LBN320008", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Azziyeh", "district": null, "lat": 33.17937, "lon": 35.22623, "pcode": "LBN63006", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Baalbek's Harfouche", "district": null, "lat": 34.19966, "lon": 36.244, "pcode": "LBN21059", "precision": "village", "evidence": "https://data.humdata.org/dataset/ucdp-data-for-lebanon"}
+{"place": "Barish", "district": "Bint Jbeil", "lat": 33.27288, "lon": 35.35186, "pcode": "LBN63012", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Barish"}
+{"place": "Beirut airport", "district": "Aley", "lat": 33.82111, "lon": 35.48833, "pcode": null, "precision": "exact", "evidence": "https://en.wikipedia.org/wiki/Beirut%E2%80%93Rafic_Hariri_International_Airport"}
+{"place": "Beirut airport", "district": "Baabda", "lat": 33.82111, "lon": 35.48833, "pcode": null, "precision": "exact", "evidence": "https://en.wikipedia.org/wiki/Beirut%E2%80%93Rafic_Hariri_International_Airport"}
+{"place": "Bireh", "district": null, "lat": 33.72166, "lon": 35.63798, "pcode": "LBN33032", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Brih", "district": null, "lat": 33.71631, "lon": 35.65749, "pcode": "LBN33041", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Chekka", "district": "El Batroun", "lat": 34.32868, "lon": 35.73127, "pcode": "LBN52026", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Chekka"}
+{"place": "Chihine", "district": "Bint Jbeil", "lat": 33.12621, "lon": 35.25528, "pcode": "LBN63033", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Shihin,_Lebanon"}
+{"place": "Shikhin", "district": null, "lat": 33.12621, "lon": 35.25528, "pcode": "LBN63033", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Shihin,_Lebanon"}
+{"place": "Dahr al-Baidar", "district": "Zahle", "lat": 33.812, "lon": 35.76228, "pcode": "LBN320028", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Mountain_War_(Lebanon)"}
+{"place": "Damour", "district": "Chouf", "lat": 33.73074, "lon": 35.45689, "pcode": "LBN33055", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Damour"}
+{"place": "Daraya, Chouf", "district": null, "lat": 33.10106, "lon": 35.2259, "pcode": "LBN63040", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/2024_in_Lebanon"}
+{"place": "El Bass", "district": null, "lat": 33.2725, "lon": 35.21, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Al-Buss_refugee_camp"}
+{"place": "Harbata", "district": null, "lat": 34.20786, "lon": 36.2654, "pcode": "LBN21058", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Harbata"}
+{"place": "Harissa", "district": null, "lat": 33.98166, "lon": 35.65138, "pcode": "LBN35103", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Hasbaya", "district": null, "lat": 33.39793, "lon": 35.68422, "pcode": "LBN42017", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Hasbaya"}
+{"place": "Hazmieh", "district": null, "lat": 33.85258, "lon": 35.53993, "pcode": "LBN320060", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Hazmieh"}
+{"place": "Jarmaq", "district": "Nabatiyeh", "lat": 33.38547, "lon": 35.53401, "pcode": "LBN62045", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Jarmaq"}
+{"place": "Kaoutariyet", "district": null, "lat": 33.41492, "lon": 35.38574, "pcode": "LBN61041", "precision": "village", "evidence": "https://english.alarabiya.net/News/middle-east/2025/04/20/lebanon-says-one-dead-in-israeli-strike-on-south-"}
+{"place": "The town of Kawthriya Al-Sayyad", "district": null, "lat": 33.41492, "lon": 35.38574, "pcode": "LBN61041", "precision": "village", "evidence": "https://airwars.org/incidents/islb230924zk-september-23-2024"}
+{"place": "Maaliye", "district": "Tyre", "lat": 33.20391, "lon": 35.23693, "pcode": "LBN63065", "precision": "village", "evidence": "https://www.hrw.org/reports/2007/lebanon0907/lebanon0907web.pdf"}
+{"place": "Qana", "district": "Tyre", "lat": 33.20829, "lon": 35.29933, "pcode": "LBN63089", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Qana"}
+{"place": "Mahmoudiyeh", "district": null, "lat": 33.38722, "lon": 35.55306, "pcode": null, "precision": "village", "evidence": "https://today.lorientlejour.com/article/1503090/in-nabatieh-israeli-strike-kills-several-people-including-13-s"}
+{"place": "Makassed Hospital", "district": null, "lat": 33.87667, "lon": 35.50413, "pcode": null, "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Mashaghara", "district": null, "lat": 33.53363, "lon": 35.65577, "pcode": "LBN24029", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Machghara"}
+{"place": "Mazraa", "district": null, "lat": 33.8787, "lon": 35.50291, "pcode": "LBN11037", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Monot", "district": "Beirut", "lat": 33.88518, "lon": 35.51912, "pcode": "LBN11002", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Attacks_linked_to_the_Cedar_Revolution"}
+{"place": "Nahr al-Kalb", "district": "El Meten", "lat": 33.95729, "lon": 35.59883, "pcode": "LBN35143", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Nahr_al-Kalb"}
+{"place": "Qalaouiyeh", "district": null, "lat": 33.25528, "lon": 35.4175, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Qalaouiyah"}
+{"place": "Ras Naqoura", "district": null, "lat": 33.11824, "lon": 35.139, "pcode": "LBN63084", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/An-Naqoura"}
+{"place": "Ras al-Naqoura", "district": null, "lat": 33.11824, "lon": 35.139, "pcode": "LBN63084", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/An-Naqoura"}
+{"place": "Rmeil", "district": null, "lat": 33.89467, "lon": 35.51729, "pcode": "LBN11049", "precision": "village", "evidence": "https://www.ictj.org/sites/default/files/ICTJ-Report-Lebanon-Mapping-2013-EN_0.pdf"}
+{"place": "Sultan Yacoub", "district": "West Bekaa", "lat": 33.64333, "lon": 35.85972, "pcode": null, "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Sultan_Yacoub"}
+{"place": "Tel al-Zaatar", "district": "El Meten", "lat": 33.86931, "lon": 35.54899, "pcode": "LBN36176", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Tel_al-Zaatar_massacre"}
+{"place": "Shamshtar", "district": null, "lat": 33.96409, "lon": 36.01736, "pcode": "LBN21028", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Shmustar"}
+{"place": "Shuhour", "district": null, "lat": 33.29977, "lon": 35.36958, "pcode": "LBN63029", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Shehour"}
+{"place": "Wata al-Khiam", "district": null, "lat": 33.31791, "lon": 35.62625, "pcode": null, "precision": "village", "evidence": "https://airwars.org/incidents/islb281024zk-october-28-2024"}
+{"place": "Zawtar", "district": null, "lat": 33.32076, "lon": 35.46644, "pcode": null, "precision": "village", "evidence": "https://www.mtv.com.lb/en/News/Local/1543683/how-many-were-injured-in-the-two-airstrikes-on-nabatieh-al-fawqa-"}
+{"place": "Al-Sharqiyah", "district": "El Nabatieh", "lat": 33.39993, "lon": 35.41919, "pcode": "LBN44009", "precision": "village", "evidence": "https://en.wikipedia.org/wiki/Assassination_of_Abbas_al-Musawi"}
+{"place": "Bayada", "district": null, "lat": 33.16284, "lon": 35.1778, "pcode": "LBN63042", "precision": "village", "evidence": "https://today.lorientlejour.com/article/1501416/israeli-strike-on-beirut-south-suburbs-israeli-projectile-kill"}
+{"place": "Bayyada", "district": null, "lat": 33.16284, "lon": 35.1778, "pcode": "LBN63042", "precision": "village", "evidence": "https://today.lorientlejour.com/article/1504470/israel-launches-drone-strike-on-jabbour-killing-1-and-continue"}
+{"place": "Al-Bayyada", "district": null, "lat": 33.16284, "lon": 35.1778, "pcode": "LBN63042", "precision": "village", "evidence": "https://www.aa.com.tr/en/middle-east/hezbollah-says-it-targeted-israeli-army-position-in-southern-lebanon-with"}
