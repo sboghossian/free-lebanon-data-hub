@@ -1,0 +1,40 @@
+// Place display names (research/hub/villages/display-names.json): common EN/AR/FR names on the Places list and page, the strike map's top places and incident cards; search still matches every spelling.
+export default async function (T) {
+  const { ok, sleep, open, SITE } = T;
+  const q = (p, s) => p.ev(`(() => { const i = document.getElementById("plQ"); i.value = ${JSON.stringify(s)}; i.dispatchEvent(new Event("input")); })()`);
+  const names = p => p.ev('[...document.querySelectorAll("#plList .pl-it b")].map(b => b.textContent)');
+  const en = await open(1400, SITE, { query: '?lang=en', hash: '#places' });
+  await en.wait('document.querySelectorAll("#plList li").length >= 20', 20000);
+  await q(en, 'Sour'); await sleep(500);
+  ok('place names: in EN, searching "Sour" lists the place as "Tyre" first', (await names(en))[0] === 'Tyre', (await names(en)).slice(0, 3));
+  await q(en, 'Tyre'); await sleep(400);
+  ok('place names: searching "Tyre" and the French "Tyr" and the Arabic "صور" find the same place', (await names(en))[0] === 'Tyre');
+  await q(en, 'Tyr'); await sleep(400); const fr1 = await names(en);
+  await q(en, 'صور'); await sleep(400); const ar1 = await names(en);
+  ok('place names: "Tyr" and "صور" also find Tyre', fr1.includes('Tyre') && ar1.includes('Tyre'), [fr1.slice(0, 3), ar1.slice(0, 3)]);
+  await q(en, 'Nabatiyeh'); await sleep(400);
+  ok('place names: an alternate spelling ("Nabatiyeh") finds Nabatieh', (await names(en)).includes('Nabatieh'));
+  await en.ev('location.hash = "#place/LBN63110"'); await en.wait('document.querySelector("#plPageH")?.textContent.includes("Tyre")', 20000);
+  ok('place names: the place page of Sour is headed Tyre, with its Arabic name', await en.ev('/Tyre/.test(document.getElementById("plPageH").textContent) && /صور/.test(document.getElementById("plPageH").textContent) && !/Sour/.test(document.getElementById("plPageH").textContent)'));
+  await en.ev('document.getElementById("t-map").click()'); await sleep(2500);
+  ok('place names: the strike map top places say Tyre, not Sour', await en.ev('(() => { const t = [...document.querySelectorAll("#mpTop .mp-place")].map(b => b.textContent); return t.length > 0 && !t.includes("Sour") && !t.includes("Saida"); })()'));
+  await en.ev('(() => { const i = document.getElementById("mpQ"); i.value = "Sour"; i.dispatchEvent(new Event("input")); })()'); await sleep(700);
+  ok('place names: on the strike map "Sour" still finds the incidents, and the cards say Tyre, never Sour', await en.ev('(() => { const b = [...document.querySelectorAll("#mpList .mp-li b")].map(x => x.textContent); return b.length > 0 && b.includes("Tyre") && !b.includes("Sour"); })()'), await en.ev('[...document.querySelectorAll("#mpList .mp-li b")].slice(0, 3).map(x => x.textContent)'));
+  ok('place names: 0 console errors (EN)', en.errors().length === 0, en.errors().slice(0, 2));
+  await en.close();
+  const ar = await open(1400, SITE, { query: '?lang=ar', hash: '#places' });
+  await ar.wait('document.querySelectorAll("#plList li").length >= 20', 20000);
+  await q(ar, 'Nabatieh'); await sleep(500);
+  ok('place names: in AR, searching "Nabatieh" shows النبطية first (not a sub-locality name)', (await names(ar))[0] === 'النبطية', (await names(ar)).slice(0, 3));
+  await q(ar, 'النبطية'); await sleep(500);
+  ok('place names: in AR, searching النبطية also shows النبطية first', (await names(ar))[0] === 'النبطية');
+  await ar.ev('location.hash = "#place/LBN44050"'); await ar.wait('document.querySelector("#plPageH")', 20000);
+  ok('place names: in AR the page of Nabatieh is headed النبطية', await ar.ev('document.getElementById("plPageH").textContent.trim().startsWith("النبطية")'));
+  ok('place names: 0 console errors (AR)', ar.errors().length === 0, ar.errors().slice(0, 2));
+  await ar.close();
+  const fr = await open(1400, SITE, { query: '?lang=fr', hash: '#places' });
+  await fr.wait('document.querySelectorAll("#plList li").length >= 20', 20000);
+  await q(fr, 'Sour'); await sleep(500);
+  ok('place names: in FR, "Sour" is shown as Tyr', (await names(fr))[0] === 'Tyr', (await names(fr)).slice(0, 3));
+  await fr.close();
+}

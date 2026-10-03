@@ -1,0 +1,27 @@
+/* Wide screens (loaded last): the header, tabs and every panel fill the viewport with a fluid gutter. Only running prose keeps a readable measure (about 72ch).
+   Logical properties and theme tokens only; the timeline scales with width in js/00_core.js (renderTimeline, k = clamp(width/1400, 1, 1.9)). */
+:root{--hub-gut:clamp(16px,2.5vw,56px);--hub-measure:72ch}
+main.wrap{max-width:none;padding-inline:var(--hub-gut)}
+.hub-head,.hub-tabs{max-width:none;margin-inline:0}
+section.panel,section.panel.wide,.hub-panel,#map.hub-panel{max-width:none;margin-inline:0}
+.hub-counts{max-width:none;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.hub-head .lead,.hub-panel .lead,.about .lead{max-width:var(--hub-measure)}
+.about{max-width:none}
+.about > p,.about > ul,.about > ol{max-width:var(--hub-measure)}
+.about-stats{max-width:none}
+.tl-list{max-width:none}
+.fsearch{flex:1 1 360px}
+.sp-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.fb-stats{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+@media (min-width:1400px){
+  .fb-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr))}
+  .fb-grid.one{grid-template-columns:minmax(0,1fr)}
+  .tl-list{column-width:520px;column-gap:32px}
+  .tl-list .yr-h{break-after:avoid}
+  .tl-list details.evr{break-inside:avoid}
+  .mp-stage{height:clamp(380px,min(82vh,44vw),1400px)}
+}
+@media (min-width:1800px){
+  .mp-grid{grid-template-columns:minmax(0,1fr) 380px;gap:28px}
+  .wd-main{grid-template-columns:minmax(0,1fr) 380px;gap:28px}
+}

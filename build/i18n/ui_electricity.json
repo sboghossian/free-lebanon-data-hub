@@ -1,0 +1,682 @@
+{
+ "% of electricity produced, World Bank": {
+  "ar": "٪ من الكهرباء المنتجة، البنك الدولي",
+  "fr": "% de l'électricité produite, Banque mondiale"
+ },
+ "% of output, World Bank": {
+  "ar": "٪ من الإنتاج، البنك الدولي",
+  "fr": "% de la production, Banque mondiale"
+ },
+ "% of population, World Bank": {
+  "ar": "٪ من السكان، البنك الدولي",
+  "fr": "% de la population, Banque mondiale"
+ },
+ "(January to June)": {
+  "ar": "(من كانون الثاني إلى حزيران)",
+  "fr": "(janvier à juin)"
+ },
+ "5 A subscription": {
+  "ar": "اشتراك ٥ أمبير",
+  "fr": "Abonnement 5 A"
+ },
+ "Access means any connection. It does not measure hours of supply.": {
+  "ar": "يعني الوصول وجود أي اتصال بالشبكة، ولا يقيس ساعات التغذية.",
+  "fr": "L'accès signifie un raccordement quelconque. Il ne mesure pas les heures de fourniture."
+ },
+ "Access to electricity": {
+  "ar": "الوصول إلى الكهرباء",
+  "fr": "Accès à l'électricité"
+ },
+ "After the collapse, 2019 to 2022": {
+  "ar": "بعد الانهيار، من ٢٠١٩ إلى ٢٠٢٢",
+  "fr": "Après l'effondrement, 2019 à 2022"
+ },
+ "Air quality (OpenAQ) is not included: its data service needs a free API key.": {
+  "ar": "جودة الهواء (OpenAQ) غير مشمولة: تحتاج خدمة بياناتها إلى مفتاح مجاني.",
+  "fr": "La qualité de l'air (OpenAQ) n'est pas incluse : son service de données exige une clé d'API gratuite."
+ },
+ "Akkar": {
+  "ar": "عكار",
+  "fr": "Akkar"
+ },
+ "Akkar, VASyR": {
+  "ar": "عكار، VASyR",
+  "fr": "Akkar, VASyR"
+ },
+ "All": {
+  "ar": "الكل",
+  "fr": "Tous"
+ },
+ "Baalbek-Hermel": {
+  "ar": "بعلبك الهرمل",
+  "fr": "Baalbek-Hermel"
+ },
+ "Before the collapse": {
+  "ar": "قبل الانهيار",
+  "fr": "Avant l'effondrement"
+ },
+ "Beirut and Mount Lebanon": {
+  "ar": "بيروت وجبل لبنان",
+  "fr": "Beyrouth et Mont-Liban"
+ },
+ "Beirut, 2018": {
+  "ar": "بيروت، ٢٠١٨",
+  "fr": "Beyrouth, 2018"
+ },
+ "Bekaa, 2018": {
+  "ar": "البقاع، ٢٠١٨",
+  "fr": "Békaa, 2018"
+ },
+ "Blackouts and supply milestones": {
+  "ar": "انقطاعات التيار ومحطات التغذية",
+  "fr": "Coupures de courant et jalons de l'approvisionnement"
+ },
+ "Blue: cooler than the 1961 to 1990 average. Red: warmer. Full colour is 2 °C away.": {
+  "ar": "الأزرق: أبرد من متوسط ١٩٦١-١٩٩٠. الأحمر: أدفأ. اللون الكامل يعني فارقاً قدره درجتان مئويتان.",
+  "fr": "Bleu : plus frais que la moyenne 1961-1990. Rouge : plus chaud. La couleur pleine correspond à un écart de 2 °C."
+ },
+ "Busiest year": {
+  "ar": "السنة الأكثر نشاطاً",
+  "fr": "Année la plus active"
+ },
+ "Change": {
+  "ar": "التغيّر",
+  "fr": "Variation"
+ },
+ "Change from the 1961 to 1990 average": {
+  "ar": "التغيّر عن متوسط ١٩٦١-١٩٩٠",
+  "fr": "Écart par rapport à la moyenne 1961-1990"
+ },
+ "Climate and fires": {
+  "ar": "المناخ والحرائق",
+  "fr": "Climat et incendies"
+ },
+ "Colour is on a log scale, so the dimmer regions stay visible next to Beirut, which is far brighter than the rest.": {
+  "ar": "اللون بمقياس لوغاريتمي، فتبقى المناطق الأخفت مرئية إلى جانب بيروت، وهي أسطع بكثير من بقية المناطق.",
+  "fr": "La couleur suit une échelle logarithmique : les régions les plus faibles restent visibles à côté de Beyrouth, bien plus lumineuse que le reste."
+ },
+ "Consumption per person": {
+  "ar": "الاستهلاك للفرد",
+  "fr": "Consommation par personne"
+ },
+ "Coolest": {
+  "ar": "الأبرد",
+  "fr": "Le plus frais"
+ },
+ "Delivered to the network": {
+  "ar": "المسلَّم إلى الشبكة",
+  "fr": "Livrée au réseau"
+ },
+ "Demand EDL does not meet": {
+  "ar": "الطلب الذي لا تلبّيه كهرباء لبنان",
+  "fr": "Demande que l'EDL ne couvre pas"
+ },
+ "Demand met by private generators": {
+  "ar": "الطلب الذي تغطيه المولدات الخاصة",
+  "fr": "Demande couverte par les générateurs privés"
+ },
+ "EDL production and purchases": {
+  "ar": "إنتاج كهرباء لبنان ومشترياتها",
+  "fr": "Production et achats de l'EDL"
+ },
+ "EDL raised its own tariff in November 2022, the first rise since the 1990s (IMF). EDL tariff history per kWh is not yet in the Hub, so the two are not compared on one chart.": {
+  "ar": "رفعت كهرباء لبنان تعرفتها في تشرين الثاني ٢٠٢٢، وهي الزيادة الأولى منذ التسعينيات (صندوق النقد الدولي). وتاريخ تعرفة كهرباء لبنان للكيلوواط ساعة ليس في المنصة بعد، لذلك لا تُقارَن الاثنتان في رسم واحد.",
+  "fr": "L'EDL a relevé son tarif en novembre 2022, première hausse depuis les années 1990 (FMI). L'historique du tarif de l'EDL par kWh n'est pas encore dans le Hub : les deux ne sont donc pas comparés sur un même graphique."
+ },
+ "EDL supply today": {
+  "ar": "تغذية كهرباء لبنان اليوم",
+  "fr": "Fourniture de l'EDL aujourd'hui"
+ },
+ "EDL thermal plants": {
+  "ar": "محطات كهرباء لبنان الحرارية",
+  "fr": "Centrales thermiques de l'EDL"
+ },
+ "Each line links to its own source; the licence of those pages is not stated.": {
+  "ar": "يرتبط كل سطر بمصدره، وترخيص تلك الصفحات غير مذكور.",
+  "fr": "Chaque ligne renvoie à sa propre source ; la licence de ces pages n'est pas indiquée."
+ },
+ "Electricity use per person": {
+  "ar": "استهلاك الكهرباء للفرد",
+  "fr": "Consommation d'électricité par personne"
+ },
+ "Estimated demand": {
+  "ar": "الطلب المقدَّر",
+  "fr": "Demande estimée"
+ },
+ "Every series behind this tab, with its unit, span, licence and a CSV download.": {
+  "ar": "كل سلسلة وراء هذا التبويب، مع وحدتها ومداها وترخيصها وتنزيل CSV.",
+  "fr": "Toutes les séries de cet onglet, avec unité, période, licence et téléchargement CSV."
+ },
+ "Fire hotspots": {
+  "ar": "بؤر الحرائق",
+  "fr": "Points chauds d'incendie"
+ },
+ "Fire hotspots per year": {
+  "ar": "بؤر الحرائق في كل سنة",
+  "fr": "Points chauds d'incendie par année"
+ },
+ "From Egypt": {
+  "ar": "من مصر",
+  "fr": "D'Égypte"
+ },
+ "From Syria": {
+  "ar": "من سوريا",
+  "fr": "De Syrie"
+ },
+ "From the national greenhouse gas inventory report (UNFCCC), citing EDL and the Lebanese Center for Energy Conservation. Fuel for power plants is only in a chart there, so it is not tabulated.": {
+  "ar": "من تقرير جرد غازات الدفيئة الوطني (اتفاقية الأمم المتحدة الإطارية)، نقلاً عن كهرباء لبنان والمركز اللبناني لحفظ الطاقة. وقود محطات الكهرباء وارد في رسم بياني فقط، لذا لم يُجدول.",
+  "fr": "Tiré du rapport national d'inventaire des gaz à effet de serre (CCNUCC), citant l'EDL et le Centre libanais pour la conservation de l'énergie. Le combustible des centrales n'y figure que dans un graphique ; il n'est donc pas tabulé."
+ },
+ "Fuel imports for the power plants alone are not published openly.": {
+  "ar": "واردات الوقود لمحطات الكهرباء وحدها غير منشورة بشكل مفتوح.",
+  "fr": "Les importations de combustible pour les seules centrales ne sont pas publiées en accès libre."
+ },
+ "Fuel oil": {
+  "ar": "الفيول أويل",
+  "fr": "Fioul lourd"
+ },
+ "GWh a month, 1995 to October 2019": {
+  "ar": "غيغاواط ساعة في الشهر، من ١٩٩٥ إلى تشرين الأول ٢٠١٩",
+  "fr": "GWh par mois, de 1995 à octobre 2019"
+ },
+ "GWh a year": {
+  "ar": "غيغاواط ساعة في السنة",
+  "fr": "GWh par an"
+ },
+ "GWh a year, 1995 to 2018": {
+  "ar": "غيغاواط ساعة في السنة، من ١٩٩٥ إلى ٢٠١٨",
+  "fr": "GWh par an, de 1995 à 2018"
+ },
+ "Gas oil (diesel)": {
+  "ar": "المازوت (الديزل)",
+  "fr": "Gazole (diesel)"
+ },
+ "Gasoline": {
+  "ar": "البنزين",
+  "fr": "Essence"
+ },
+ "Generator subscription (5 A) in US dollars": {
+  "ar": "اشتراك المولّد (٥ أمبير) بالدولار",
+  "fr": "Abonnement au générateur (5 A) en dollars"
+ },
+ "Governorate": {
+  "ar": "المحافظة",
+  "fr": "Gouvernorat"
+ },
+ "Grid, generator and cut hours": {
+  "ar": "ساعات الشبكة والمولّد والانقطاع",
+  "fr": "Heures réseau, générateur et coupure"
+ },
+ "Hotspots, {a} to {b}": {
+  "ar": "البؤر، {a} إلى {b}",
+  "fr": "Points chauds, {a} à {b}"
+ },
+ "Hottest": {
+  "ar": "الأحرّ",
+  "fr": "Le plus chaud"
+ },
+ "Hours of public electricity per day": {
+  "ar": "ساعات الكهرباء العامة في اليوم",
+  "fr": "Heures d'électricité publique par jour"
+ },
+ "Hours of public power, generator tariffs, production and fuel imports, and night lights seen from space, by governorate. Below them, the climate and the fire hotspots NASA has detected since 2000.": {
+  "ar": "ساعات الكهرباء العامة وتعرفة المولّدات والإنتاج وواردات الوقود، والأضواء الليلية من الفضاء بحسب المحافظة. وتحتها المناخ وبؤر الحرائق التي رصدتها ناسا منذ ٢٠٠٠.",
+  "fr": "Heures d'électricité publique, tarifs des générateurs, production et importations de carburant, et lumières nocturnes vues de l'espace par gouvernorat. En dessous, le climat et les points chauds d'incendie détectés par la NASA depuis 2000."
+ },
+ "Households, HRW survey": {
+  "ar": "الأسر، استطلاع هيومن رايتس ووتش",
+  "fr": "Ménages, enquête de HRW"
+ },
+ "How the climate of five places has changed since 1940, and where NASA satellites have detected fire hotspots since 2000.": {
+  "ar": "كيف تغيّر مناخ خمسة أماكن منذ ١٩٤٠، وأين رصدت أقمار ناسا بؤر الحرائق منذ ٢٠٠٠.",
+  "fr": "Comment le climat de cinq lieux a changé depuis 1940, et où les satellites de la NASA ont détecté des points chauds d'incendie depuis 2000."
+ },
+ "Hydro": {
+  "ar": "المائية",
+  "fr": "Hydraulique"
+ },
+ "Imported electricity": {
+  "ar": "الكهرباء المستوردة",
+  "fr": "Électricité importée"
+ },
+ "Kerosene": {
+  "ar": "الكاز",
+  "fr": "Kérosène"
+ },
+ "LBP billion a month, 2009 to March 2019": {
+  "ar": "مليار ليرة في الشهر، من ٢٠٠٩ إلى آذار ٢٠١٩",
+  "fr": "milliards de LBP par mois, de 2009 à mars 2019"
+ },
+ "Lebanon's mean night-time radiance was highest around {a} ({va}), fell to {vb} in {b}, and stood at {vc} in {c}. Unit: nW/cm2/sr, annual average of monthly values.": {
+  "ar": "بلغ متوسط الإشعاع الليلي في لبنان أعلاه نحو {a} ({va})، ثم تراجع إلى {vb} في {b}، وكان {vc} في {c}. الوحدة: nW/cm2/sr، المتوسط السنوي للقيم الشهرية.",
+  "fr": "La luminance nocturne moyenne du Liban a été la plus élevée vers {a} ({va}), est tombée à {vb} en {b}, et valait {vc} en {c}. Unité : nW/cm2/sr, moyenne annuelle des valeurs mensuelles."
+ },
+ "Lebanon: mean night-time radiance": {
+  "ar": "لبنان: متوسط الإشعاع الليلي",
+  "fr": "Liban : luminance nocturne moyenne"
+ },
+ "Liquid gas": {
+  "ar": "الغاز المسال",
+  "fr": "Gaz liquéfié"
+ },
+ "Losses on the grid": {
+  "ar": "الهدر على الشبكة",
+  "fr": "Pertes sur le réseau"
+ },
+ "MODIS (2000 to 2024)": {
+  "ar": "موديس (٢٠٠٠ إلى ٢٠٢٤)",
+  "fr": "MODIS (2000 à 2024)"
+ },
+ "MODIS, 2000 to 2024 (1 km)": {
+  "ar": "موديس، ٢٠٠٠ إلى ٢٠٢٤ (١ كلم)",
+  "fr": "MODIS, 2000 à 2024 (1 km)"
+ },
+ "Map of fire hotspots detected by NASA satellites": {
+  "ar": "خريطة بؤر الحرائق التي رصدتها أقمار ناسا",
+  "fr": "Carte des points chauds d'incendie détectés par les satellites de la NASA"
+ },
+ "Map of night-time radiance by governorate": {
+  "ar": "خريطة الإشعاع الليلي بحسب المحافظة",
+  "fr": "Carte de la luminance nocturne par gouvernorat"
+ },
+ "Mean": {
+  "ar": "المتوسط",
+  "fr": "Moyenne"
+ },
+ "Mean radiance, nW/cm2/sr. A year marked * has fewer than twelve months.": {
+  "ar": "متوسط الإشعاع، nW/cm2/sr. السنة المعلّمة بـ * فيها أقل من اثني عشر شهراً.",
+  "fr": "Luminance moyenne, nW/cm2/sr. Une année marquée * compte moins de douze mois."
+ },
+ "Mean temperature by year": {
+  "ar": "متوسط الحرارة بحسب السنة",
+  "fr": "Température moyenne par année"
+ },
+ "Mean temperature {a} to {b}": {
+  "ar": "متوسط الحرارة {a} إلى {b}",
+  "fr": "Température moyenne {a} à {b}"
+ },
+ "Monthly mean of the daily maximum, mean and minimum.": {
+  "ar": "المتوسط الشهري لأعلى حرارة يومية ومتوسطها وأدناها.",
+  "fr": "Moyenne mensuelle du maximum, de la moyenne et du minimum quotidiens."
+ },
+ "Monthly production": {
+  "ar": "الإنتاج الشهري",
+  "fr": "Production mensuelle"
+ },
+ "Monthly temperature, Beirut": {
+  "ar": "الحرارة الشهرية، بيروت",
+  "fr": "Température mensuelle, Beyrouth"
+ },
+ "NASA FIRMS hotspots (MODIS), {n} detections in {c} cells. Squares are about 5 km; the archive covers November 2000 to December 2024.": {
+  "ar": "بؤر ناسا (موديس): {n} عملية رصد في {c} خلية. المربعات نحو ٥ كلم، ويغطي الأرشيف من تشرين الثاني ٢٠٠٠ إلى كانون الأول ٢٠٢٤.",
+  "fr": "Points chauds NASA FIRMS (MODIS) : {n} détections dans {c} cellules. Les carrés font environ 5 km ; l'archive couvre de novembre 2000 à décembre 2024."
+ },
+ "NASA fire hotspots layer (2000 to 2024)": {
+  "ar": "طبقة بؤر الحرائق من ناسا (٢٠٠٠ إلى ٢٠٢٤)",
+  "fr": "Couche des points chauds d'incendie de la NASA (2000 à 2024)"
+ },
+ "NASA satellites detect heat from active fires. A hotspot is a detection, not a fire and not a burned area. Strikes and fires both show up, and so do agricultural burns; this layer is not an attribution of cause.": {
+  "ar": "ترصد أقمار ناسا حرارة الحرائق النشطة. والبؤرة رصد لا حريق ولا مساحة محروقة. وتظهر الغارات والحرائق معاً وكذلك الحرق الزراعي؛ فهذه الطبقة لا تنسب سبباً.",
+  "fr": "Les satellites de la NASA détectent la chaleur des incendies actifs. Un point chaud est une détection, pas un incendie ni une surface brûlée. Frappes et incendies apparaissent tous deux, de même que les brûlis agricoles ; cette couche n'attribue pas de cause."
+ },
+ "National average, official and press": {
+  "ar": "المتوسط الوطني، رسمي وصحافة",
+  "fr": "Moyenne nationale, officielle et presse"
+ },
+ "National grid": {
+  "ar": "الشبكة الوطنية",
+  "fr": "Réseau national"
+ },
+ "Night lights": {
+  "ar": "الأضواء الليلية",
+  "fr": "Lumières nocturnes"
+ },
+ "Night lights by governorate": {
+  "ar": "الأضواء الليلية بحسب المحافظة",
+  "fr": "Lumières nocturnes par gouvernorat"
+ },
+ "No fire hotspots on record for this period. The NASA archive covers November 2000 to December 2024.": {
+  "ar": "لا توجد بؤر حرائق مسجّلة لهذه الفترة. يغطي أرشيف ناسا من تشرين الثاني ٢٠٠٠ إلى كانون الأول ٢٠٢٤.",
+  "fr": "Aucun point chaud d'incendie enregistré pour cette période. L'archive de la NASA couvre de novembre 2000 à décembre 2024."
+ },
+ "No night-light data is in this build.": {
+  "ar": "لا توجد بيانات أضواء ليلية في هذا الإصدار.",
+  "fr": "Aucune donnée de lumières nocturnes dans cette version."
+ },
+ "No power": {
+  "ar": "بلا كهرباء",
+  "fr": "Sans courant"
+ },
+ "Nominal pounds at the official rate, which was fixed at 1,507.5 in this period.": {
+  "ar": "ليرات اسمية بالسعر الرسمي الذي كان ثابتاً عند ١٬٥٠٧٫٥ في هذه الفترة.",
+  "fr": "Livres nominales au taux officiel, fixé à 1 507,5 sur cette période."
+ },
+ "North, VASyR": {
+  "ar": "الشمال، VASyR",
+  "fr": "Nord, VASyR"
+ },
+ "Oil": {
+  "ar": "النفط",
+  "fr": "Pétrole"
+ },
+ "Own plants": {
+  "ar": "المحطات الخاصة",
+  "fr": "Centrales propres"
+ },
+ "Petroleum imports by product": {
+  "ar": "واردات المشتقات النفطية بحسب المنتج",
+  "fr": "Importations de produits pétroliers par produit"
+ },
+ "Power barges (Karpowership)": {
+  "ar": "البواخر المولّدة (كارباورشيب)",
+  "fr": "Barges électriques (Karpowership)"
+ },
+ "Private generator": {
+  "ar": "المولّد الخاص",
+  "fr": "Générateur privé"
+ },
+ "Private generators": {
+  "ar": "المولّدات الخاصة",
+  "fr": "Générateurs privés"
+ },
+ "Public power": {
+  "ar": "الكهرباء العامة",
+  "fr": "Électricité publique"
+ },
+ "Purchases": {
+  "ar": "المشتريات",
+  "fr": "Achats"
+ },
+ "Rain a year, {a} to {b}": {
+  "ar": "الأمطار في السنة، {a} إلى {b}",
+  "fr": "Pluie par an, {a} à {b}"
+ },
+ "Rain by year": {
+  "ar": "الأمطار بحسب السنة",
+  "fr": "Pluie par année"
+ },
+ "Refugee households, VASyR": {
+  "ar": "الأسر اللاجئة، VASyR",
+  "fr": "Ménages réfugiés, VASyR"
+ },
+ "Renewables (all)": {
+  "ar": "المتجددة (الكل)",
+  "fr": "Renouvelables (total)"
+ },
+ "Rooftop solar": {
+  "ar": "الطاقة الشمسية على الأسطح",
+  "fr": "Solaire en toiture"
+ },
+ "Rural": {
+  "ar": "الريف",
+  "fr": "Rural"
+ },
+ "Satellites record the light Lebanon emits at night. Light follows electricity, but also streets, generators, solar panels and the weather, so read it as a rough signal of where the grid and private power were running.": {
+  "ar": "ترصد الأقمار الصناعية الضوء الذي يبعثه لبنان ليلاً. والضوء يتبع الكهرباء، لكنه يتبع أيضاً الشوارع والمولّدات والألواح الشمسية والطقس، فاقرأه كإشارة تقريبية إلى أين كانت الشبكة والطاقة الخاصة تعملان.",
+  "fr": "Les satellites enregistrent la lumière émise la nuit par le Liban. La lumière suit l'électricité, mais aussi les rues, les générateurs, les panneaux solaires et la météo : lisez-la comme un signal approximatif de l'endroit où le réseau et l'énergie privée fonctionnaient."
+ },
+ "Sensor": {
+  "ar": "المستشعر",
+  "fr": "Capteur"
+ },
+ "Source: Open-Meteo Historical Weather API (ERA5 reanalysis, about 25 km grid, not station data), CC BY 4.0, attribution Open-Meteo and Copernicus/ECMWF. Elevations of the grid cells: Beirut 33 m, Tripoli 71 m, Zahle 959 m, Tyre 9 m, The Cedars 1,892 m. Only years with all twelve months are used.": {
+  "ar": "المصدر: واجهة Open-Meteo للطقس التاريخي (إعادة تحليل ERA5، شبكة نحو ٢٥ كلم، وليست بيانات محطات)، CC BY 4.0، مع نسب المصدر إلى Open-Meteo وCopernicus/ECMWF. ارتفاعات خلايا الشبكة: بيروت ٣٣ م، طرابلس ٧١ م، زحلة ٩٥٩ م، صور ٩ م، الأرز ١٬٨٩٢ م. تُستعمل السنوات التي فيها الأشهر الاثنا عشر كلها فقط.",
+  "fr": "Source : API météo historique Open-Meteo (réanalyse ERA5, maille d'environ 25 km, pas des stations), CC BY 4.0, attribution Open-Meteo et Copernicus/ECMWF. Altitudes des mailles : Beyrouth 33 m, Tripoli 71 m, Zahlé 959 m, Tyr 9 m, Les Cèdres 1 892 m. Seules les années complètes de douze mois sont utilisées."
+ },
+ "Source: World Bank Light Every Night (VIIRS day/night band, monthly composites, stray-light corrected), computed here for the governorates; licence ODbL. Months missing in the archive: March 2014, October and November 2017, August 2021, June and August 2022, October 2024. The archive stops in June 2025. Not used because they need a login: Colorado School of Mines EOG and NASA Black Marble.": {
+  "ar": "المصدر: «ضوء كل ليلة» للبنك الدولي (نطاق النهار والليل في VIIRS، تركيبات شهرية مصححة من الضوء الشارد)، محسوب هنا للمحافظات؛ الترخيص ODbL. أشهر ناقصة في الأرشيف: آذار ٢٠١٤، تشرين الأول وتشرين الثاني ٢٠١٧، آب ٢٠٢١، حزيران وآب ٢٠٢٢، تشرين الأول ٢٠٢٤. ويتوقف الأرشيف في حزيران ٢٠٢٥. لم تُستعمل مصادر تتطلب تسجيل دخول: EOG لمدرسة كولورادو للمناجم وBlack Marble لناسا.",
+  "fr": "Source : Light Every Night de la Banque mondiale (bande jour/nuit VIIRS, composites mensuels corrigés de la lumière parasite), calculé ici par gouvernorat ; licence ODbL. Mois manquants dans l'archive : mars 2014, octobre et novembre 2017, août 2021, juin et août 2022, octobre 2024. L'archive s'arrête en juin 2025. Non utilisés car ils exigent une connexion : EOG de la Colorado School of Mines et Black Marble de la NASA."
+ },
+ "Squares are 0.05 degrees, about 5 km. Darker means more detections in the period. NASA publishes country archives to 2024; 2025 and 2026 and the NOAA-20 and NOAA-21 satellites need a free NASA key and are not included.": {
+  "ar": "المربعات ٠٫٠٥ درجة، نحو ٥ كلم. اللون الأغمق يعني رصداً أكثر في الفترة. تنشر ناسا أرشيفات البلدان حتى ٢٠٢٤؛ أما ٢٠٢٥ و٢٠٢٦ والقمران NOAA-20 وNOAA-21 فيحتاجون إلى مفتاح ناسا المجاني ولم يُدرجوا.",
+  "fr": "Les carrés font 0,05 degré, environ 5 km. Plus c'est foncé, plus il y a de détections sur la période. La NASA publie les archives par pays jusqu'en 2024 ; 2025 et 2026 et les satellites NOAA-20 et NOAA-21 exigent une clé NASA gratuite et ne sont pas inclus."
+ },
+ "The Cedars": {
+  "ar": "الأرز",
+  "fr": "Les Cèdres"
+ },
+ "The fire data could not be loaded.": {
+  "ar": "تعذّر تحميل بيانات الحرائق.",
+  "fr": "Les données d'incendie n'ont pas pu être chargées."
+ },
+ "There is no official time series of supply hours. The points below are dated statements from the ministry, EDL, surveys and the press; a range is shown at its midpoint. Refugee-household figures (VASyR) are self-reported by Syrian households.": {
+  "ar": "لا توجد سلسلة رسمية لساعات التغذية. النقاط أدناه تصريحات مؤرّخة من الوزارة وكهرباء لبنان واستطلاعات والصحافة؛ ويُعرض النطاق عند نقطة منتصفه. وأرقام الأسر اللاجئة (VASyR) يبلّغ بها الأسر السورية عن نفسها.",
+  "fr": "Il n'existe pas de série officielle des heures de fourniture. Les points ci-dessous sont des déclarations datées du ministère, de l'EDL, d'enquêtes et de la presse ; une fourchette est montrée à son milieu. Les chiffres des ménages réfugiés (VASyR) sont déclarés par les ménages syriens eux-mêmes."
+ },
+ "Thermal": {
+  "ar": "الحرارية",
+  "fr": "Thermique"
+ },
+ "These are households reporting for themselves, not the national picture.": {
+  "ar": "هذه أسر تبلّغ عن نفسها، وليست الصورة الوطنية.",
+  "fr": "Ce sont des ménages qui déclarent pour eux-mêmes, pas le tableau national."
+ },
+ "This counts technical losses only as reported to the World Bank; it does not include unbilled or stolen power as EDL reports it.": {
+  "ar": "تحتسب الهدر الفني فقط كما أُبلغ للبنك الدولي، ولا تشمل الكهرباء غير المفوترة أو المسروقة كما تعرضها كهرباء لبنان.",
+  "fr": "Ne compte que les pertes techniques déclarées à la Banque mondiale ; n'inclut pas l'électricité non facturée ou volée telle que l'EDL la présente."
+ },
+ "Total public supply after losses": {
+  "ar": "إجمالي الإمداد العام بعد الهدر",
+  "fr": "Approvisionnement public total après pertes"
+ },
+ "Transfers": {
+  "ar": "التحويلات",
+  "fr": "Transferts"
+ },
+ "Transmission and distribution losses": {
+  "ar": "خسائر النقل والتوزيع",
+  "fr": "Pertes de transport et de distribution"
+ },
+ "Treasury transfers to EDL": {
+  "ar": "تحويلات الخزينة إلى كهرباء لبنان",
+  "fr": "Transferts du Trésor à l'EDL"
+ },
+ "Tripoli": {
+  "ar": "طرابلس",
+  "fr": "Tripoli"
+ },
+ "Typical before 2019": {
+  "ar": "المعتاد قبل ٢٠١٩",
+  "fr": "Habituel avant 2019"
+ },
+ "Tyre": {
+  "ar": "صور",
+  "fr": "Tyr"
+ },
+ "USD per month at the market rate": {
+  "ar": "دولار في الشهر بسعر السوق",
+  "fr": "USD par mois au taux du marché"
+ },
+ "VIIRS (2012 to 2024)": {
+  "ar": "فييرس (٢٠١٢ إلى ٢٠٢٤)",
+  "fr": "VIIRS (2012 à 2024)"
+ },
+ "VIIRS sees smaller fires than MODIS, so its counts are higher. Compare each line with itself, never one sensor with the other.": {
+  "ar": "يرى «فييرس» حرائق أصغر مما يراه «موديس»، فأعداده أعلى. قارن كل خط بنفسه ولا تقارن مستشعراً بآخر.",
+  "fr": "VIIRS voit des feux plus petits que MODIS, ses décomptes sont donc plus élevés. Comparez chaque courbe avec elle-même, jamais un capteur avec l'autre."
+ },
+ "VIIRS, 2012 to 2024 (375 m)": {
+  "ar": "فييرس، ٢٠١٢ إلى ٢٠٢٤ (٣٧٥ م)",
+  "fr": "VIIRS, 2012 à 2024 (375 m)"
+ },
+ "Warming stripes": {
+  "ar": "خطوط الاحترار",
+  "fr": "Bandes de réchauffement"
+ },
+ "Warming stripes: one bar for each year, blue below the 1961 to 1990 average and red above it": {
+  "ar": "خطوط الاحترار: عمود لكل سنة، أزرق تحت متوسط ١٩٦١-١٩٩٠ وأحمر فوقه",
+  "fr": "Bandes de réchauffement : une barre par année, bleue sous la moyenne 1961-1990 et rouge au-dessus"
+ },
+ "Where the electricity comes from": {
+  "ar": "من أين تأتي الكهرباء",
+  "fr": "D'où vient l'électricité"
+ },
+ "Winter months are noisier because of cloud: the series nl_cf_* in the download holds the number of cloud-free observations.": {
+  "ar": "أشهر الشتاء أكثر ضجيجاً بسبب الغيوم: تحتوي السلسلة nl_cf_* في التنزيل على عدد الأرصاد الخالية من الغيوم.",
+  "fr": "Les mois d'hiver sont plus bruités à cause des nuages : la série nl_cf_* du téléchargement donne le nombre d'observations sans nuage."
+ },
+ "Zahle": {
+  "ar": "زحلة",
+  "fr": "Zahlé"
+ },
+ "h a day": {
+  "ar": "ساعة في اليوم",
+  "fr": "h par jour"
+ },
+ "hotspots": {
+  "ar": "بؤر",
+  "fr": "points chauds"
+ },
+ "hotspots detected in Lebanon, by satellite sensor": {
+  "ar": "بؤر رُصدت في لبنان، بحسب مستشعر القمر",
+  "fr": "points chauds détectés au Liban, par capteur satellitaire"
+ },
+ "hours per day, Syrian refugee households (VASyR)": {
+  "ar": "ساعة في اليوم، الأسر اللاجئة السورية (VASyR)",
+  "fr": "heures par jour, ménages réfugiés syriens (VASyR)"
+ },
+ "hours per day, dated statements": {
+  "ar": "ساعة في اليوم، تصريحات مؤرّخة",
+  "fr": "heures par jour, déclarations datées"
+ },
+ "in {n} grid cells of 0.05 degrees": {
+  "ar": "في {n} خلية شبكة بحجم ٠٫٠٥ درجة",
+  "fr": "dans {n} cellules de 0,05 degré"
+ },
+ "kWh per person a year, World Bank": {
+  "ar": "كيلوواط ساعة للفرد في السنة، البنك الدولي",
+  "fr": "kWh par personne et par an, Banque mondiale"
+ },
+ "mean radiance, nW/cm2/sr, monthly, 2012 to June 2025, log scale": {
+  "ar": "متوسط الإشعاع، nW/cm2/sr، شهرياً، من ٢٠١٢ إلى حزيران ٢٠٢٥، مقياس لوغاريتمي",
+  "fr": "luminance moyenne, nW/cm2/sr, mensuel, de 2012 à juin 2025, échelle logarithmique"
+ },
+ "mean {a} °C in 1961 to 1990": {
+  "ar": "المتوسط {a} °م في ١٩٦١ إلى ١٩٩٠",
+  "fr": "moyenne de {a} °C en 1961 à 1990"
+ },
+ "nW/cm2/sr, monthly": {
+  "ar": "nW/cm2/sr، شهرياً",
+  "fr": "nW/cm2/sr, mensuel"
+ },
+ "national average, {d}": {
+  "ar": "المتوسط الوطني، {d}",
+  "fr": "moyenne nationale, {d}"
+ },
+ "tonnes a year, 1995 to 2018 (the whole economy, not power alone)": {
+  "ar": "طن في السنة، من ١٩٩٥ إلى ٢٠١٨ (الاقتصاد كله لا الكهرباء وحدها)",
+  "fr": "tonnes par an, de 1995 à 2018 (toute l'économie, pas seulement l'électricité)"
+ },
+ "typical, 2019 (survey recall and estimates)": {
+  "ar": "المعتاد، ٢٠١٩ (من الذاكرة في الاستطلاعات وتقديرات)",
+  "fr": "habituel, 2019 (souvenirs d'enquête et estimations)"
+ },
+ "{a} mm in 1961 to 1990": {
+  "ar": "{a} ملم في ١٩٦١ إلى ١٩٩٠",
+  "fr": "{a} mm en 1961 à 1990"
+ },
+ "{n} hotspots": {
+  "ar": "{n} بؤرة",
+  "fr": "{n} points chauds"
+ },
+ "{y}, from {a}% in {z}": {
+  "ar": "{y}، من {a}٪ في {z}",
+  "fr": "{y}, contre {a} % en {z}"
+ },
+ "Rationing deepens": {
+  "ar": "تفاقم التقنين",
+  "fr": "Le rationnement s'aggrave"
+ },
+ "EDL cuts output after the central bank stops paying fuel shipments; a harsh rationing schedule starts.": {
+  "ar": "تخفّض كهرباء لبنان إنتاجها بعد أن يتوقف مصرف لبنان عن دفع ثمن شحنات الوقود، ويبدأ جدول تقنين قاسٍ.",
+  "fr": "L'EDL réduit sa production après l'arrêt du paiement des cargaisons de carburant par la banque centrale ; un programme de rationnement sévère commence."
+ },
+ "Beirut port explosion hits EDL": {
+  "ar": "انفجار مرفأ بيروت يصيب كهرباء لبنان",
+  "fr": "L'explosion du port de Beyrouth frappe l'EDL"
+ },
+ "EDL headquarters destroyed and the national grid control centre lost; control moved to Bsalim.": {
+  "ar": "دُمّر مقر كهرباء لبنان وفُقد مركز التحكم بالشبكة الوطنية، ونُقل التحكم إلى بصاليم.",
+  "fr": "Le siège de l'EDL est détruit et le centre de contrôle du réseau national perdu ; le contrôle est transféré à Bsalim."
+ },
+ "Karpowership barges stop": {
+  "ar": "توقف بواخر كارباورشيب",
+  "fr": "Les barges Karpowership s'arrêtent"
+ },
+ "Two Turkish power barges (370 MW) stop supplying over payment arrears.": {
+  "ar": "تتوقف باخرتان تركيتان لتوليد الكهرباء (370 ميغاواط) عن التزويد بسبب متأخرات الدفع.",
+  "fr": "Deux barges électriques turques (370 MW) cessent de fournir du courant en raison d'arriérés de paiement."
+ },
+ "Supply falls below 4 h/day": {
+  "ar": "التغذية تنخفض إلى أقل من 4 ساعات يومياً",
+  "fr": "L'alimentation tombe sous 4 h par jour"
+ },
+ "EDL average supply drops to under 4 hours a day from June 2021.": {
+  "ar": "ينخفض متوسط تغذية كهرباء لبنان إلى أقل من 4 ساعات يومياً اعتباراً من حزيران 2021.",
+  "fr": "L'alimentation moyenne de l'EDL tombe sous 4 heures par jour à partir de juin 2021."
+ },
+ "Nationwide blackout": {
+  "ar": "انقطاع عام للكهرباء في البلاد",
+  "fr": "Panne générale dans tout le pays"
+ },
+ "Zahrani and Deir Ammar shut down for lack of fuel, leaving no centrally generated electricity.": {
+  "ar": "يتوقف معملا الزهراني ودير عمار لنقص الوقود، فلا تبقى كهرباء مولّدة مركزياً.",
+  "fr": "Zahrani et Deir Ammar s'arrêtent faute de carburant, ce qui ne laisse aucune production centralisée."
+ },
+ "First tariff increase since the 1990s": {
+  "ar": "أول رفع للتعرفة منذ التسعينيات",
+  "fr": "Première hausse des tarifs depuis les années 1990"
+ },
+ "EDL tariffs raised for the first time since the 1990s.": {
+  "ar": "رُفعت تعرفة كهرباء لبنان للمرة الأولى منذ التسعينيات.",
+  "fr": "Les tarifs de l'EDL sont relevés pour la première fois depuis les années 1990."
+ },
+ "Distributed Renewable Energy Law passed": {
+  "ar": "إقرار قانون الطاقة المتجددة الموزّعة",
+  "fr": "Adoption de la loi sur les énergies renouvelables distribuées"
+ },
+ "Parliament passes the law; it awaits the Electricity Regulatory Authority.": {
+  "ar": "يقرّ مجلس النواب القانون، وهو بانتظار هيئة تنظيم قطاع الكهرباء.",
+  "fr": "Le Parlement adopte la loi ; elle attend l'Autorité de régulation de l'électricité."
+ },
+ "Total nationwide blackout": {
+  "ar": "انقطاع تام للكهرباء في البلاد",
+  "fr": "Panne totale dans tout le pays"
+ },
+ "Last operating plant shuts after EDL runs out of fuel (delayed Iraqi swap shipments); more than 24 hours without public electricity.": {
+  "ar": "يتوقف آخر معمل عامل بعد نفاد وقود كهرباء لبنان (تأخر شحنات المبادلة العراقية)، وأكثر من 24 ساعة بلا كهرباء عامة.",
+  "fr": "La dernière centrale en service s'arrête quand l'EDL manque de carburant (cargaisons d'échange irakiennes retardées) ; plus de 24 heures sans électricité publique."
+ },
+ "Algerian fuel shipment": {
+  "ar": "شحنة وقود جزائرية",
+  "fr": "Cargaison de carburant algérienne"
+ },
+ "Algeria sends several thousand tonnes of fuel to restart the plants.": {
+  "ar": "ترسل الجزائر عدة آلاف من أطنان الوقود لإعادة تشغيل المعامل.",
+  "fr": "L'Algérie envoie plusieurs milliers de tonnes de carburant pour relancer les centrales."
+ },
+ "Holiday supply increase": {
+  "ar": "زيادة التغذية في فترة الأعياد",
+  "fr": "Hausse de l'alimentation pendant les fêtes"
+ },
+ "EDL commissions +200 MW at Zahrani, lifting supply from about 4-6 h to 6-8 h a day. Only Zahrani and Deir Ammar run; Zouk and Jiyeh idle.": {
+  "ar": "تشغّل كهرباء لبنان 200 ميغاواط إضافية في الزهراني، فترتفع التغذية من نحو 4 إلى 6 ساعات إلى 6 إلى 8 ساعات يومياً. لا يعمل سوى الزهراني ودير عمار، وتتوقف الذوق والجية.",
+  "fr": "L'EDL met en service +200 MW à Zahrani, portant l'alimentation d'environ 4-6 h à 6-8 h par jour. Seules Zahrani et Deir Ammar fonctionnent ; Zouk et Jiyeh sont à l'arrêt."
+ },
+ "7-9 hours a day": {
+  "ar": "من 7 إلى 9 ساعات يومياً",
+  "fr": "7 à 9 heures par jour"
+ },
+ "EDL reaches 7-9 hours a day by end February 2026, per the Energy Minister.": {
+  "ar": "تصل تغذية كهرباء لبنان إلى 7 إلى 9 ساعات يومياً بحلول نهاية شباط 2026، بحسب وزير الطاقة.",
+  "fr": "L'EDL atteint 7 à 9 heures par jour fin février 2026, selon le ministre de l'Énergie."
+ },
+ "About 4 hours a day, collapse warning": {
+  "ar": "نحو 4 ساعات يومياً وتحذير من الانهيار",
+  "fr": "Environ 4 heures par jour, alerte à l'effondrement"
+ },
+ "EDL reports a national average of about 4 hours and warns of a possible general collapse because about 1,000 MW of capacity is missing.": {
+  "ar": "تعلن كهرباء لبنان متوسطاً وطنياً نحو 4 ساعات وتحذّر من انهيار عام محتمل لأن نحو 1000 ميغاواط من القدرة مفقودة.",
+  "fr": "L'EDL annonce une moyenne nationale d'environ 4 heures et met en garde contre un possible effondrement général, car environ 1 000 MW de capacité manquent."
+ }
+}

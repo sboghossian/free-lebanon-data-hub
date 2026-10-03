@@ -1,0 +1,123 @@
+{
+ "content_strings": 16841,
+ "ui_strings": 1668,
+ "ui_missing": 0,
+ "ar": {
+  "translated": 16841,
+  "same_as_english": 176,
+  "pct": 100.0,
+  "by_kind": {
+   "district": [
+    48,
+    48
+   ],
+   "election_text": [
+    179,
+    179
+   ],
+   "event": [
+    38,
+    38
+   ],
+   "list": [
+    161,
+    161
+   ],
+   "party": [
+    84,
+    84
+   ],
+   "people_extra": [
+    21,
+    21
+   ],
+   "places_text": [
+    109,
+    109
+   ],
+   "series_label": [
+    535,
+    535
+   ],
+   "series_note": [
+    333,
+    333
+   ],
+   "unit": [
+    86,
+    86
+   ],
+   "war_row": [
+    75,
+    75
+   ],
+   "war_table": [
+    16,
+    16
+   ]
+  },
+  "core": [
+   15194,
+   15194
+  ]
+ },
+ "fr": {
+  "translated": 16840,
+  "same_as_english": 214,
+  "pct": 100.0,
+  "by_kind": {
+   "district": [
+    48,
+    48
+   ],
+   "election_text": [
+    179,
+    179
+   ],
+   "event": [
+    38,
+    38
+   ],
+   "list": [
+    161,
+    161
+   ],
+   "party": [
+    84,
+    84
+   ],
+   "people_extra": [
+    21,
+    21
+   ],
+   "places_text": [
+    109,
+    109
+   ],
+   "series_label": [
+    535,
+    535
+   ],
+   "series_note": [
+    333,
+    333
+   ],
+   "unit": [
+    86,
+    86
+   ],
+   "war_row": [
+    75,
+    75
+   ],
+   "war_table": [
+    16,
+    16
+   ]
+  },
+  "core": [
+   15193,
+   15194
+  ]
+ }
+}

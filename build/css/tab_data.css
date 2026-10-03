@@ -1,0 +1,9 @@
+/* Data tab (v8): link freshness badges and the laws list additions */
+.d-fresh{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-2)}
+.d-fresh b{font-weight:500;color:var(--ink)}
+.fr-dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--ink-3)}
+.fr-reachable .fr-dot{background:var(--good)}
+.fr-moved .fr-dot{background:var(--warn)}
+.fr-unreachable .fr-dot{background:var(--bad)}
+.d-sum{margin:2px 0 4px;color:var(--ink-2)}
+.d-full{white-space:nowrap}

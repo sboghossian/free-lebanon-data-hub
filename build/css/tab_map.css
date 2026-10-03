@@ -1,0 +1,15 @@
+/* Strike map: official toll per war (v8). Theme tokens only, logical properties. */
+.mp-toll{margin:0 0 16px}
+.mp-toll .d-h{margin:6px 0 4px}
+.mp-tdet>summary{cursor:pointer;padding:8px 0}
+.mp-tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px;margin-top:8px}
+.mp-tc{background:var(--paper);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;min-width:0}
+.mp-tc h4{margin:0 0 8px;font:600 15px/1.3 var(--display);color:var(--ink)}
+.mp-tc dl{margin:0;display:grid;gap:4px}
+.mp-tc dl>div{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.mp-tc dt{font-size:13px;color:var(--ink-2)}
+.mp-tc dd{margin:0;font:500 14px/1.3 var(--mono);color:var(--ink);text-align:end}
+.mp-tc .mp-tc-doc{border-top:1px dashed var(--rule-2);margin-top:4px;padding-top:6px}
+.mp-tc .mp-tc-doc dd{color:var(--cedar)}
+.mp-tc-by{font-size:13px;line-height:1.5;color:var(--ink-2);margin:8px 0 0;overflow-wrap:anywhere}
+.mp-tc .note{margin:6px 0 0;font-size:13px}

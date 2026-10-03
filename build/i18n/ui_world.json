@@ -1,0 +1,1182 @@
+{
+ "3D globe": {
+  "ar": "كرة أرضية ثلاثية الأبعاد",
+  "fr": "Globe 3D"
+ },
+ "3D globe. Drag to turn it, use the arrow keys to rotate and plus and minus to zoom.": {
+  "ar": "كرة أرضية ثلاثية الأبعاد. اسحب لتدويرها، واستخدم مفاتيح الأسهم للتدوير ومفتاحي + و − للتكبير.",
+  "fr": "Globe 3D. Faites-le glisser pour le tourner, utilisez les flèches pour pivoter et + et − pour zoomer."
+ },
+ "95% interval {a} to {b}": {
+  "ar": "فاصل ثقة 95% من {a} إلى {b}",
+  "fr": "intervalle à 95 % de {a} à {b}"
+ },
+ "A higher value is generally better on this indicator.": {
+  "ar": "القيمة الأعلى أفضل عموماً في هذا المؤشر.",
+  "fr": "Une valeur plus élevée est en général meilleure pour cet indicateur."
+ },
+ "A higher value is generally worse on this indicator.": {
+  "ar": "القيمة الأعلى أسوأ عموماً في هذا المؤشر.",
+  "fr": "Une valeur plus élevée est en général pire pour cet indicateur."
+ },
+ "A lead in time does not show that one series causes the other. Correlation is not causation, and with a few dozen yearly points a single year can move r.": {
+  "ar": "سبق إحدى السلسلتين للأخرى زمنياً لا يثبت أنها تسبّبها. الارتباط ليس سببية، ومع بضع عشرات من النقاط السنوية يمكن لسنة واحدة أن تغيّر r.",
+  "fr": "Qu'une série précède l'autre ne prouve pas qu'elle la cause. Corrélation n'est pas causalité, et avec quelques dizaines de points annuels, une seule année peut faire bouger r."
+ },
+ "Across countries": {
+  "ar": "بين البلدان",
+  "fr": "Entre pays"
+ },
+ "Add a country or group": {
+  "ar": "أضف بلداً أو مجموعة",
+  "fr": "Ajouter un pays ou un groupe"
+ },
+ "Arab World": {
+  "ar": "العالم العربي",
+  "fr": "Monde arabe"
+ },
+ "Arcs shown": {
+  "ar": "الأقواس المعروضة",
+  "fr": "Arcs affichés"
+ },
+ "Borders are drawn as Natural Earth shows them (de facto boundaries).": {
+  "ar": "تُرسم الحدود كما تعرضها Natural Earth (حدود الأمر الواقع).",
+  "fr": "Les frontières sont tracées comme les montre Natural Earth (frontières de fait)."
+ },
+ "Both series are shown in standard units (distance from their own average) so they fit one axis. {a}; {b}.": {
+  "ar": "تُعرض السلسلتان بوحدات معيارية (البعد عن متوسط كل منهما) لتناسبا محوراً واحداً. {a}؛ {b}.",
+  "fr": "Les deux séries sont en unités standard (écart par rapport à leur propre moyenne) pour tenir sur un seul axe. {a} ; {b}."
+ },
+ "Change from the previous year": {
+  "ar": "التغيّر عن السنة السابقة",
+  "fr": "Variation par rapport à l'année précédente"
+ },
+ "Choose...": {
+  "ar": "اختر...",
+  "fr": "Choisir..."
+ },
+ "Clear selection": {
+  "ar": "إلغاء التحديد",
+  "fr": "Effacer la sélection"
+ },
+ "Climate": {
+  "ar": "المناخ",
+  "fr": "Climat"
+ },
+ "Colour scale from {a} to {b}": {
+  "ar": "سلّم الألوان من {a} إلى {b}",
+  "fr": "Échelle de couleurs de {a} à {b}"
+ },
+ "Compare": {
+  "ar": "قارن",
+  "fr": "Comparer"
+ },
+ "Compare with Lebanon": {
+  "ar": "قارن مع لبنان",
+  "fr": "Comparer avec le Liban"
+ },
+ "Conflict and safety": {
+  "ar": "النزاع والأمان",
+  "fr": "Conflits et sécurité"
+ },
+ "Correlation at each lag": {
+  "ar": "الارتباط عند كل تأخير",
+  "fr": "Corrélation à chaque décalage"
+ },
+ "Correlation is not causation. A high r only says that two things move together across countries. A third factor, such as national income, can drive both, and a few unusual countries can change r a lot.": {
+  "ar": "الارتباط ليس سببية. ارتفاع r يعني فقط أن أمرين يتحركان معاً عبر البلدان. قد يدفعهما عامل ثالث، مثل الدخل الوطني، وقد تغيّر بضعة بلدان شاذة قيمة r كثيراً.",
+  "fr": "Corrélation n'est pas causalité. Un r élevé dit seulement que deux choses évoluent ensemble d'un pays à l'autre. Un troisième facteur, comme le revenu national, peut influencer les deux, et quelques pays atypiques peuvent beaucoup changer r."
+ },
+ "Correlations": {
+  "ar": "الارتباطات",
+  "fr": "Corrélations"
+ },
+ "Countries": {
+  "ar": "البلدان",
+  "fr": "Pays"
+ },
+ "Country": {
+  "ar": "البلد",
+  "fr": "Pays"
+ },
+ "Default set": {
+  "ar": "المجموعة الافتراضية",
+  "fr": "Ensemble par défaut"
+ },
+ "Development": {
+  "ar": "التنمية",
+  "fr": "Développement"
+ },
+ "Displacement": {
+  "ar": "النزوح",
+  "fr": "Déplacement"
+ },
+ "Each dot is a country in one year. Pick two indicators.": {
+  "ar": "كل نقطة بلد في سنة واحدة. اختر مؤشرين.",
+  "fr": "Chaque point est un pays pour une année. Choisissez deux indicateurs."
+ },
+ "East Asia & Pacific": {
+  "ar": "شرق آسيا والمحيط الهادئ",
+  "fr": "Asie de l'Est et Pacifique"
+ },
+ "Education": {
+  "ar": "التعليم",
+  "fr": "Éducation"
+ },
+ "Emigration": {
+  "ar": "الهجرة إلى الخارج",
+  "fr": "Émigration"
+ },
+ "Euro area": {
+  "ar": "منطقة اليورو",
+  "fr": "Zone euro"
+ },
+ "Europe": {
+  "ar": "أوروبا",
+  "fr": "Europe"
+ },
+ "Europe & Central Asia": {
+  "ar": "أوروبا وآسيا الوسطى",
+  "fr": "Europe et Asie centrale"
+ },
+ "Europe, median country": {
+  "ar": "أوروبا، البلد الوسيط",
+  "fr": "Europe, pays médian"
+ },
+ "European Union": {
+  "ar": "الاتحاد الأوروبي",
+  "fr": "Union européenne"
+ },
+ "Exchange rates": {
+  "ar": "أسعار الصرف",
+  "fr": "Taux de change"
+ },
+ "Filter series A": {
+  "ar": "صفِّ السلسلة أ",
+  "fr": "Filtrer la série A"
+ },
+ "Filter series B": {
+  "ar": "صفِّ السلسلة ب",
+  "fr": "Filtrer la série B"
+ },
+ "Find Lebanon": {
+  "ar": "أين لبنان",
+  "fr": "Trouver le Liban"
+ },
+ "Flat map": {
+  "ar": "خريطة مسطحة",
+  "fr": "Carte plane"
+ },
+ "Flat world map. Lebanon is marked.": {
+  "ar": "خريطة العالم المسطحة. لبنان معلَّم.",
+  "fr": "Carte du monde plane. Le Liban est repéré."
+ },
+ "Flow": {
+  "ar": "التدفق",
+  "fr": "Flux"
+ },
+ "Flows": {
+  "ar": "التدفقات",
+  "fr": "Flux"
+ },
+ "Foreign-born people living in Lebanon, by country of birth": {
+  "ar": "المولودون في الخارج المقيمون في لبنان، حسب بلد الميلاد",
+  "fr": "Personnes nées à l'étranger vivant au Liban, par pays de naissance"
+ },
+ "Groups": {
+  "ar": "المجموعات",
+  "fr": "Groupes"
+ },
+ "Gulf states": {
+  "ar": "دول الخليج",
+  "fr": "Pays du Golfe"
+ },
+ "Height shows how many countries Lebanon is above: 100 means the highest value of all, 0 the lowest. Hover for the rank. Rank 1 is the highest value, which is not always the best outcome.": {
+  "ar": "يبيّن الارتفاع عدد البلدان التي يتفوّق عليها لبنان: 100 تعني أعلى قيمة بين الجميع و0 أدناها. مرّر المؤشر لرؤية الترتيب. الترتيب 1 هو أعلى قيمة، وليس بالضرورة أفضل نتيجة.",
+  "fr": "La hauteur indique sur combien de pays le Liban est au-dessus : 100 = la valeur la plus élevée de toutes, 0 = la plus basse. Survolez pour le rang. Le rang 1 est la valeur la plus élevée, pas toujours le meilleur résultat."
+ },
+ "High income": {
+  "ar": "الدخل المرتفع",
+  "fr": "Revenu élevé"
+ },
+ "Highlight": {
+  "ar": "إبراز",
+  "fr": "Mettre en avant"
+ },
+ "Horizontal axis": {
+  "ar": "المحور الأفقي",
+  "fr": "Axe horizontal"
+ },
+ "Indicator": {
+  "ar": "المؤشر",
+  "fr": "Indicateur"
+ },
+ "Inequality and poverty": {
+  "ar": "التفاوت والفقر",
+  "fr": "Inégalités et pauvreté"
+ },
+ "Lag in years (positive: A comes first)": {
+  "ar": "التأخير بالسنوات (موجب: أ تسبق)",
+  "fr": "Décalage en années (positif : A vient d'abord)"
+ },
+ "Lag {lag}: r = {r}, n = {n}": {
+  "ar": "التأخير {lag}: r = {r}، n = {n}",
+  "fr": "Décalage {lag} : r = {r}, n = {n}"
+ },
+ "Lag {lag}: too few overlapping years (n = {n})": {
+  "ar": "التأخير {lag}: سنوات متداخلة قليلة جداً (n = {n})",
+  "fr": "Décalage {lag} : trop peu d'années en commun (n = {n})"
+ },
+ "Largest absolute r: {r} at lag {lag}": {
+  "ar": "أكبر قيمة مطلقة لـ r: {r} عند التأخير {lag}",
+  "fr": "Plus grand r en valeur absolue : {r} au décalage {lag}"
+ },
+ "Largest lag": {
+  "ar": "أكبر تأخير",
+  "fr": "Décalage maximal"
+ },
+ "Latest value: {v} ({y}).": {
+  "ar": "آخر قيمة: {v} ({y}).",
+  "fr": "Dernière valeur : {v} ({y})."
+ },
+ "Latin America & Caribbean": {
+  "ar": "أمريكا اللاتينية والكاريبي",
+  "fr": "Amérique latine et Caraïbes"
+ },
+ "Lebanese diaspora: people born in Lebanon who live abroad": {
+  "ar": "الانتشار اللبناني: مولودون في لبنان يعيشون في الخارج",
+  "fr": "Diaspora libanaise : personnes nées au Liban vivant à l'étranger"
+ },
+ "Lebanese exports, by partner": {
+  "ar": "الصادرات اللبنانية حسب الشريك",
+  "fr": "Exportations libanaises, par partenaire"
+ },
+ "Lebanese imports, by partner": {
+  "ar": "الواردات اللبنانية حسب الشريك",
+  "fr": "Importations libanaises, par partenaire"
+ },
+ "Lebanese refugees and asylum-seekers abroad": {
+  "ar": "اللاجئون وطالبو اللجوء اللبنانيون في الخارج",
+  "fr": "Réfugiés et demandeurs d'asile libanais à l'étranger"
+ },
+ "Lebanon has no value for one of the two indicators in {year}.": {
+  "ar": "ليس للبنان قيمة لأحد المؤشرين في {year}.",
+  "fr": "Le Liban n'a pas de valeur pour l'un des deux indicateurs en {year}."
+ },
+ "Lebanon has too few values on this indicator to chart a rank.": {
+  "ar": "قيم لبنان في هذا المؤشر قليلة جداً لرسم الترتيب.",
+  "fr": "Le Liban a trop peu de valeurs pour cet indicateur pour tracer un rang."
+ },
+ "Lebanon in {year}": {
+  "ar": "لبنان في {year}",
+  "fr": "Le Liban en {year}"
+ },
+ "Lebanon is the thick line. Colours follow the country, not its rank.": {
+  "ar": "لبنان هو الخط السميك. الألوان تتبع البلد لا ترتيبه.",
+  "fr": "Le Liban est la ligne épaisse. Les couleurs suivent le pays, pas son rang."
+ },
+ "Lebanon is {p}% of it": {
+  "ar": "لبنان يساوي {p}% منها",
+  "fr": "le Liban en est {p} %"
+ },
+ "Lebanon only": {
+  "ar": "لبنان فقط",
+  "fr": "Liban seul"
+ },
+ "Lebanon's own series, with a lag": {
+  "ar": "سلاسل لبنان نفسه، مع تأخير",
+  "fr": "Les séries propres du Liban, avec un décalage"
+ },
+ "Lebanon's rank over time": {
+  "ar": "ترتيب لبنان عبر الزمن",
+  "fr": "Le rang du Liban dans le temps"
+ },
+ "Lebanon, {a} to {b}": {
+  "ar": "لبنان، من {a} إلى {b}",
+  "fr": "Liban, de {a} à {b}"
+ },
+ "Lebanon: {x} and {y}. The fitted line gives {p} for that horizontal value.": {
+  "ar": "لبنان: {x} و{y}. يعطي الخط الملائم {p} لهذه القيمة الأفقية.",
+  "fr": "Liban : {x} et {y}. La droite ajustée donne {p} pour cette valeur horizontale."
+ },
+ "Levels": {
+  "ar": "المستويات",
+  "fr": "Niveaux"
+ },
+ "Licence": {
+  "ar": "الترخيص",
+  "fr": "Licence"
+ },
+ "Log colour scale": {
+  "ar": "سلّم ألوان لوغاريتمي",
+  "fr": "Échelle de couleurs logarithmique"
+ },
+ "Log horizontal axis": {
+  "ar": "محور أفقي لوغاريتمي",
+  "fr": "Axe horizontal logarithmique"
+ },
+ "Log scale": {
+  "ar": "مقياس لوغاريتمي",
+  "fr": "Échelle logarithmique"
+ },
+ "Log vertical axis": {
+  "ar": "محور عمودي لوغاريتمي",
+  "fr": "Axe vertical logarithmique"
+ },
+ "Low & middle income": {
+  "ar": "الدخل المنخفض والمتوسط",
+  "fr": "Revenu faible et intermédiaire"
+ },
+ "Low income": {
+  "ar": "الدخل المنخفض",
+  "fr": "Revenu faible"
+ },
+ "Lower middle income": {
+  "ar": "الدخل المتوسط الأدنى",
+  "fr": "Revenu intermédiaire inférieur"
+ },
+ "Map": {
+  "ar": "الخريطة",
+  "fr": "Carte"
+ },
+ "Map type": {
+  "ar": "نوع الخريطة",
+  "fr": "Type de carte"
+ },
+ "Mark 1975, 1990 and 2019": {
+  "ar": "علّم 1975 و1990 و2019",
+  "fr": "Repérer 1975, 1990 et 2019"
+ },
+ "Median country": {
+  "ar": "البلد الوسيط",
+  "fr": "Pays médian"
+ },
+ "Middle East & North Africa": {
+  "ar": "الشرق الأوسط وشمال أفريقيا",
+  "fr": "Moyen-Orient et Afrique du Nord"
+ },
+ "Middle East (developing only)": {
+  "ar": "الشرق الأوسط (النامية فقط)",
+  "fr": "Moyen-Orient (pays en développement seulement)"
+ },
+ "Middle East, North Africa, Afghanistan & Pakistan": {
+  "ar": "الشرق الأوسط وشمال أفريقيا وأفغانستان وباكستان",
+  "fr": "Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan"
+ },
+ "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)": {
+  "ar": "الشرق الأوسط وشمال أفريقيا وأفغانستان وباكستان (باستثناء الدخل المرتفع)",
+  "fr": "Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan (hors revenu élevé)"
+ },
+ "Middle income": {
+  "ar": "الدخل المتوسط",
+  "fr": "Revenu intermédiaire"
+ },
+ "Migration": {
+  "ar": "الهجرة",
+  "fr": "Migration"
+ },
+ "Migration and displacement": {
+  "ar": "الهجرة والنزوح",
+  "fr": "Migration et déplacement"
+ },
+ "Modelled estimates, not measured bilateral data. 2021 is the latest edition.": {
+  "ar": "تقديرات نمذجية وليست بيانات ثنائية مقاسة. 2021 هو أحدث إصدار.",
+  "fr": "Estimations modélisées, pas des données bilatérales mesurées. 2021 est la dernière édition."
+ },
+ "Modelled estimates, not measured bilateral data. The 1,500 largest corridors; the map shows the top ones.": {
+  "ar": "تقديرات نمذجية وليست بيانات ثنائية مقاسة. أكبر 1500 مسار؛ وتعرض الخريطة الأكبر منها.",
+  "fr": "Estimations modélisées, pas des données bilatérales mesurées. Les 1 500 plus grands corridors ; la carte montre les premiers."
+ },
+ "Money": {
+  "ar": "المال",
+  "fr": "Argent"
+ },
+ "Money flows": {
+  "ar": "التدفقات المالية",
+  "fr": "Flux financiers"
+ },
+ "Neighbours": {
+  "ar": "الجيران",
+  "fr": "Voisins"
+ },
+ "Neither a higher nor a lower value is better on this indicator.": {
+  "ar": "لا تُعدّ القيمة الأعلى ولا الأدنى أفضل في هذا المؤشر.",
+  "fr": "Ni une valeur plus élevée ni une valeur plus basse n'est meilleure pour cet indicateur."
+ },
+ "No country has a value for this indicator.": {
+  "ar": "لا يوجد أي بلد له قيمة لهذا المؤشر.",
+  "fr": "Aucun pays n'a de valeur pour cet indicateur."
+ },
+ "No country has values for both indicators.": {
+  "ar": "لا يوجد بلد له قيم للمؤشرين معاً.",
+  "fr": "Aucun pays n'a de valeurs pour les deux indicateurs."
+ },
+ "No data": {
+  "ar": "لا بيانات",
+  "fr": "Pas de données"
+ },
+ "No data for this indicator": {
+  "ar": "لا بيانات لهذا المؤشر",
+  "fr": "Pas de données pour cet indicateur"
+ },
+ "No data for {year}": {
+  "ar": "لا بيانات لعام {year}",
+  "fr": "Pas de données pour {year}"
+ },
+ "North America": {
+  "ar": "أمريكا الشمالية",
+  "fr": "Amérique du Nord"
+ },
+ "Not a partner in this data": {
+  "ar": "ليس شريكاً في هذه البيانات",
+  "fr": "Pas un partenaire dans ces données"
+ },
+ "OECD members": {
+  "ar": "أعضاء منظمة التعاون والتنمية",
+  "fr": "Membres de l'OCDE"
+ },
+ "One colour scale for every year, so colours can be compared over time. The ends are the 2nd and 98th percentiles.": {
+  "ar": "سلّم ألوان واحد لكل السنوات كي تُقارَن الألوان عبر الزمن. طرفاه هما المئين الثاني والثامن والتسعون.",
+  "fr": "Une seule échelle de couleurs pour toutes les années, pour comparer les couleurs dans le temps. Les extrémités sont les 2e et 98e centiles."
+ },
+ "Only six peers get a colour. The others are grey: click a name to highlight its line, or hover the chart for every value.": {
+  "ar": "ستة نظراء فقط ينالون لوناً. الباقون رماديون: انقر على اسم لإبراز خطه، أو مرّر المؤشر على الرسم لرؤية كل القيم.",
+  "fr": "Seuls six pays ont une couleur. Les autres sont gris : cliquez sur un nom pour mettre sa ligne en avant, ou survolez le graphique pour toutes les valeurs."
+ },
+ "Partner": {
+  "ar": "الشريك",
+  "fr": "Partenaire"
+ },
+ "Pause": {
+  "ar": "إيقاف مؤقت",
+  "fr": "Pause"
+ },
+ "People are counted by place of birth, not by citizenship. UN DESA publishes data for 75 destinations.": {
+  "ar": "يُحصى الأشخاص حسب مكان الولادة لا الجنسية. تنشر إدارة الشؤون الاقتصادية والاجتماعية بالأمم المتحدة بيانات 75 وجهة.",
+  "fr": "Les personnes sont comptées par lieu de naissance, pas par nationalité. L'ONU DAES publie des données pour 75 destinations."
+ },
+ "Percent change from the previous year": {
+  "ar": "النسبة المئوية للتغيّر عن السنة السابقة",
+  "fr": "Variation en pourcentage par rapport à l'année précédente"
+ },
+ "Play": {
+  "ar": "تشغيل",
+  "fr": "Lecture"
+ },
+ "Public domain": {
+  "ar": "ملكية عامة",
+  "fr": "Domaine public"
+ },
+ "Public finance": {
+  "ar": "المالية العامة",
+  "fr": "Finances publiques"
+ },
+ "Public money": {
+  "ar": "المال العام",
+  "fr": "Argent public"
+ },
+ "Rank": {
+  "ar": "الترتيب",
+  "fr": "Rang"
+ },
+ "Rank 1 is the highest value among {n} countries and territories with data in {year}.": {
+  "ar": "الترتيب 1 هو أعلى قيمة بين {n} بلداً وإقليماً لديها بيانات في {year}.",
+  "fr": "Le rang 1 est la valeur la plus élevée parmi {n} pays et territoires disposant de données en {year}."
+ },
+ "Recent years are IMF estimates or projections.": {
+  "ar": "السنوات الأخيرة تقديرات أو توقعات لصندوق النقد الدولي.",
+  "fr": "Les années récentes sont des estimations ou projections du FMI."
+ },
+ "Refugees": {
+  "ar": "اللاجئون",
+  "fr": "Réfugiés"
+ },
+ "Refugees and asylum-seekers in Lebanon, by country of origin": {
+  "ar": "اللاجئون وطالبو اللجوء في لبنان حسب بلد المنشأ",
+  "fr": "Réfugiés et demandeurs d'asile au Liban, par pays d'origine"
+ },
+ "Refugees and asylum-seekers registered with UNHCR. Palestinians registered with UNRWA are not included.": {
+  "ar": "لاجئون وطالبو لجوء مسجلون لدى المفوضية السامية للأمم المتحدة لشؤون اللاجئين. لا يشمل الفلسطينيين المسجلين لدى الأونروا.",
+  "fr": "Réfugiés et demandeurs d'asile enregistrés auprès du HCR. Les Palestiniens enregistrés auprès de l'UNRWA ne sont pas inclus."
+ },
+ "Refugees worldwide, the largest corridors (2025)": {
+  "ar": "اللاجئون في العالم، أكبر المسارات (2025)",
+  "fr": "Réfugiés dans le monde, les plus grands corridors (2025)"
+ },
+ "Remittances sent from Lebanon (2021, modelled)": {
+  "ar": "التحويلات المرسلة من لبنان (2021، نمذجة)",
+  "fr": "Transferts envoyés depuis le Liban (2021, modélisés)"
+ },
+ "Remittances sent to Lebanon (2021, modelled)": {
+  "ar": "التحويلات المرسلة إلى لبنان (2021، نمذجة)",
+  "fr": "Transferts envoyés vers le Liban (2021, modélisés)"
+ },
+ "Remittances worldwide, the largest corridors (2021, modelled)": {
+  "ar": "التحويلات في العالم، أكبر المسارات (2021، نمذجة)",
+  "fr": "Transferts dans le monde, les plus grands corridors (2021, modélisés)"
+ },
+ "Remove {name}": {
+  "ar": "أزِل {name}",
+  "fr": "Retirer {name}"
+ },
+ "Reported by Lebanon. The 80 largest partners by cumulative value; 2024 is not yet published.": {
+  "ar": "بيانات أبلغ عنها لبنان. أكبر 80 شريكاً بالقيمة التراكمية؛ ولم تُنشر بيانات 2024 بعد.",
+  "fr": "Déclaré par le Liban. Les 80 plus grands partenaires en valeur cumulée ; 2024 n'est pas encore publié."
+ },
+ "Same-year r = {r} (n = {n}).": {
+  "ar": "r للسنة نفسها = {r} (n = {n}).",
+  "fr": "r la même année = {r} (n = {n})."
+ },
+ "Scale colours to this region": {
+  "ar": "اضبط الألوان على هذه المنطقة",
+  "fr": "Adapter les couleurs à cette région"
+ },
+ "Series A": {
+  "ar": "السلسلة أ",
+  "fr": "Série A"
+ },
+ "Series A and B in standard units": {
+  "ar": "السلسلتان أ وب بوحدات معيارية",
+  "fr": "Séries A et B en unités standard"
+ },
+ "Series B": {
+  "ar": "السلسلة ب",
+  "fr": "Série B"
+ },
+ "Series that rise or fall over many years correlate even when unrelated. \"Change from the previous year\" removes much of that.": {
+  "ar": "السلاسل التي ترتفع أو تنخفض على مدى سنوات كثيرة ترتبط حتى لو لم تكن متصلة. «التغيّر عن السنة السابقة» يزيل الكثير من ذلك.",
+  "fr": "Des séries qui montent ou descendent pendant de nombreuses années sont corrélées même sans lien. « Variation par rapport à l'année précédente » en supprime l'essentiel."
+ },
+ "Sets of countries": {
+  "ar": "مجموعات البلدان",
+  "fr": "Ensembles de pays"
+ },
+ "Share": {
+  "ar": "الحصة",
+  "fr": "Part"
+ },
+ "Source": {
+  "ar": "المصدر",
+  "fr": "Source"
+ },
+ "South Asia": {
+  "ar": "جنوب آسيا",
+  "fr": "Asie du Sud"
+ },
+ "Sub-Saharan Africa": {
+  "ar": "أفريقيا جنوب الصحراء",
+  "fr": "Afrique subsaharienne"
+ },
+ "Swap axes": {
+  "ar": "بدّل المحورين",
+  "fr": "Inverser les axes"
+ },
+ "Table of all partners": {
+  "ar": "جدول بكل الشركاء",
+  "fr": "Tableau de tous les partenaires"
+ },
+ "Table of the latest values": {
+  "ar": "جدول بأحدث القيم",
+  "fr": "Tableau des dernières valeurs"
+ },
+ "Table of values for this year": {
+  "ar": "جدول قيم هذه السنة",
+  "fr": "Tableau des valeurs de cette année"
+ },
+ "Technology": {
+  "ar": "التكنولوجيا",
+  "fr": "Technologie"
+ },
+ "That indicator is not in this build. Showing the default one.": {
+  "ar": "هذا المؤشر غير موجود في هذه النسخة. يُعرض المؤشر الافتراضي.",
+  "fr": "Cet indicateur n'est pas dans cette version. L'indicateur par défaut est affiché."
+ },
+ "The 3D globe needs WebGL, which this browser does not provide. The flat map shows the same data.": {
+  "ar": "الكرة ثلاثية الأبعاد تحتاج إلى WebGL ولا يوفرها هذا المتصفح. الخريطة المسطحة تعرض البيانات نفسها.",
+  "fr": "Le globe 3D nécessite WebGL, que ce navigateur ne fournit pas. La carte plane montre les mêmes données."
+ },
+ "The map could not be loaded. The table below has the same values.": {
+  "ar": "تعذّر تحميل الخريطة. الجدول أدناه يحوي القيم نفسها.",
+  "fr": "La carte n'a pas pu être chargée. Le tableau ci-dessous contient les mêmes valeurs."
+ },
+ "These two series overlap in too few years to compute a correlation.": {
+  "ar": "تتداخل هاتان السلسلتان في سنوات قليلة جداً لحساب ارتباط.",
+  "fr": "Ces deux séries se recoupent sur trop peu d'années pour calculer une corrélation."
+ },
+ "This indicator has no value for Lebanon.": {
+  "ar": "ليس للبنان قيمة في هذا المؤشر.",
+  "fr": "Cet indicateur n'a pas de valeur pour le Liban."
+ },
+ "Top {n}": {
+  "ar": "أعلى {n}",
+  "fr": "Top {n}"
+ },
+ "Tourism": {
+  "ar": "السياحة",
+  "fr": "Tourisme"
+ },
+ "Transport": {
+  "ar": "النقل",
+  "fr": "Transports"
+ },
+ "UN DESA publishes only a few origins for Lebanon, so most of the foreign-born are not split by country.": {
+  "ar": "لا تنشر إدارة الشؤون الاقتصادية والاجتماعية سوى بضعة أصول للبنان، فلا يُقسَّم معظم المولودين في الخارج حسب البلد.",
+  "fr": "L'ONU DAES ne publie que quelques origines pour le Liban : la plupart des personnes nées à l'étranger ne sont donc pas ventilées par pays."
+ },
+ "UNHCR counts of refugees by country of origin and asylum, the 600 largest corridors.": {
+  "ar": "إحصاءات المفوضية للاجئين حسب بلد المنشأ وبلد اللجوء، أكبر 600 مسار.",
+  "fr": "Données du HCR sur les réfugiés par pays d'origine et d'asile, les 600 plus grands corridors."
+ },
+ "UNHCR counts. Lebanese people who left without claiming asylum are not included.": {
+  "ar": "إحصاءات المفوضية. لا تشمل اللبنانيين الذين غادروا دون طلب لجوء.",
+  "fr": "Données du HCR. Les Libanais partis sans demander l'asile ne sont pas inclus."
+ },
+ "UNIFIL": {
+  "ar": "اليونيفيل",
+  "fr": "FINUL"
+ },
+ "United States": {
+  "ar": "الولايات المتحدة",
+  "fr": "États-Unis"
+ },
+ "Upper middle income": {
+  "ar": "الدخل المتوسط الأعلى",
+  "fr": "Revenu intermédiaire supérieur"
+ },
+ "Value": {
+  "ar": "القيمة",
+  "fr": "Valeur"
+ },
+ "Vertical axis": {
+  "ar": "المحور العمودي",
+  "fr": "Axe vertical"
+ },
+ "World views": {
+  "ar": "طرق عرض العالم",
+  "fr": "Vues du monde"
+ },
+ "Worldwide": {
+  "ar": "عالمياً",
+  "fr": "Dans le monde"
+ },
+ "Year": {
+  "ar": "السنة",
+  "fr": "Année"
+ },
+ "Yearly values of Lebanese series: World Bank and other indicators, and the Hub series (monthly or weekly ones are averaged over each year). For a lag k the pairs are series A in a year and series B k years later.": {
+  "ar": "قيم سنوية لسلاسل لبنانية: مؤشرات البنك الدولي وغيره، وسلاسل المنصّة (تُحسب الشهرية والأسبوعية كمتوسط لكل سنة). لتأخير k تكون الأزواج السلسلة أ في سنة والسلسلة ب بعد k سنوات.",
+  "fr": "Valeurs annuelles de séries libanaises : indicateurs de la Banque mondiale et autres, et séries du Hub (les mensuelles ou hebdomadaires sont moyennées sur chaque année). Pour un décalage k, les paires sont la série A une année et la série B k années plus tard."
+ },
+ "amber below zero, blue above": {
+  "ar": "كهرماني تحت الصفر، أزرق فوقه",
+  "fr": "ambre sous zéro, bleu au-dessus"
+ },
+ "change in {unit}": {
+  "ar": "التغيّر في {unit}",
+  "fr": "variation de {unit}"
+ },
+ "civil war": {
+  "ar": "الحرب الأهلية",
+  "fr": "guerre civile"
+ },
+ "daily": {
+  "ar": "اليومية",
+  "fr": "quotidiennes"
+ },
+ "log scale": {
+  "ar": "مقياس لوغاريتمي",
+  "fr": "échelle logarithmique"
+ },
+ "monthly": {
+  "ar": "الشهرية",
+  "fr": "mensuelles"
+ },
+ "n = {n}": {
+  "ar": "n = {n}",
+  "fr": "n = {n}"
+ },
+ "not stated": {
+  "ar": "غير مذكور",
+  "fr": "non précisée"
+ },
+ "percent change": {
+  "ar": "نسبة التغيّر المئوية",
+  "fr": "variation en pourcentage"
+ },
+ "r is the Pearson correlation of the plotted values (on the log scale where that is chosen). The rank correlation ignores outliers. The interval is a rough 95% range that assumes the countries are a random sample, which they are not.": {
+  "ar": "r هو معامل بيرسون للقيم المرسومة (على المقياس اللوغاريتمي حيث يُختار). ارتباط الرتب يتجاهل القيم الشاذة. الفاصل مدى تقريبي بنسبة 95% يفترض أن البلدان عيّنة عشوائية، وهي ليست كذلك.",
+  "fr": "r est la corrélation de Pearson des valeurs tracées (à l'échelle logarithmique si elle est choisie). La corrélation de rang ignore les valeurs extrêmes. L'intervalle est une plage approximative à 95 % qui suppose que les pays forment un échantillon aléatoire, ce qui n'est pas le cas."
+ },
+ "rank correlation {r}": {
+  "ar": "ارتباط الرتب {r}",
+  "fr": "corrélation de rang {r}"
+ },
+ "same year": {
+  "ar": "السنة نفسها",
+  "fr": "même année"
+ },
+ "war ends": {
+  "ar": "نهاية الحرب",
+  "fr": "fin de la guerre"
+ },
+ "weekly": {
+  "ar": "الأسبوعية",
+  "fr": "hebdomadaires"
+ },
+ "yearly average of {freq} values": {
+  "ar": "متوسط سنوي للقيم {freq}",
+  "fr": "moyenne annuelle des valeurs {freq}"
+ },
+ "{a} comes {k} years before {b}": {
+  "ar": "{a} تسبق {b} بـ {k} سنوات",
+  "fr": "{a} précède {b} de {k} ans"
+ },
+ "{b} comes {k} years before {a}": {
+  "ar": "{b} تسبق {a} بـ {k} سنوات",
+  "fr": "{b} précède {a} de {k} ans"
+ },
+ "{k} lags were tried, so one of them will often look strong by chance. Read the biggest r as a lead to check, not a finding.": {
+  "ar": "جُرّب {k} تأخيراً، فكثيراً ما يبدو أحدها قوياً بالصدفة. اعتبر أكبر r خيطاً يستحق التحقق لا نتيجة.",
+  "fr": "{k} décalages ont été essayés : l'un d'eux paraîtra souvent fort par hasard. Lisez le plus grand r comme une piste à vérifier, pas comme un résultat."
+ },
+ "{n} partners in the data. Arcs run from the origin (amber) to the destination (green).": {
+  "ar": "{n} شريكاً في البيانات. تمتد الأقواس من الأصل (كهرماني) إلى الوجهة (أخضر).",
+  "fr": "{n} partenaires dans les données. Les arcs vont de l'origine (ambre) à la destination (vert)."
+ },
+ "{n} places in the top list are too small for this map; see the table.": {
+  "ar": "{n} أماكن في القائمة العليا أصغر من أن تظهر على هذه الخريطة؛ راجع الجدول.",
+  "fr": "{n} lieux de la liste sont trop petits pour cette carte ; voir le tableau."
+ },
+ "{n} years": {
+  "ar": "{n} سنوات",
+  "fr": "{n} ans"
+ },
+ "{place}: no data for {year}": {
+  "ar": "{place}: لا بيانات لعام {year}",
+  "fr": "{place} : pas de données pour {year}"
+ },
+ "{place}: {rank} of {n}": {
+  "ar": "{place}: المرتبة {rank} من {n}",
+  "fr": "{place} : {rank} sur {n}"
+ },
+ "{p}% of the total": {
+  "ar": "{p}% من المجموع",
+  "fr": "{p} % du total"
+ },
+ "{rank} of {n}": {
+  "ar": "المرتبة {rank} من {n}",
+  "fr": "{rank} sur {n}"
+ },
+ "GDP (current US$)": {
+  "ar": "الناتج المحلي الإجمالي (بالدولار الأمريكي الجاري)",
+  "fr": "PIB (en dollars US courants)"
+ },
+ "GDP growth (annual %)": {
+  "ar": "نمو الناتج المحلي الإجمالي (% سنوياً)",
+  "fr": "Croissance du PIB (% annuel)"
+ },
+ "GDP per capita (current US$)": {
+  "ar": "نصيب الفرد من الناتج المحلي الإجمالي (بالدولار الأمريكي الجاري)",
+  "fr": "PIB par habitant (en dollars US courants)"
+ },
+ "GDP per capita, current prices (IMF WEO)": {
+  "ar": "نصيب الفرد من الناتج المحلي الإجمالي بالأسعار الجارية (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "PIB par habitant, prix courants (FMI WEO)"
+ },
+ "GDP per capita, PPP (current international $)": {
+  "ar": "نصيب الفرد من الناتج المحلي الإجمالي بتعادل القوة الشرائية (بالدولار الدولي الجاري)",
+  "fr": "PIB par habitant, PPA (en dollars internationaux courants)"
+ },
+ "GDP per capita, PPP (IMF WEO)": {
+  "ar": "نصيب الفرد من الناتج المحلي الإجمالي بتعادل القوة الشرائية (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "PIB par habitant, PPA (FMI WEO)"
+ },
+ "GDP, current prices (IMF WEO)": {
+  "ar": "الناتج المحلي الإجمالي بالأسعار الجارية (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "PIB, prix courants (FMI WEO)"
+ },
+ "Gross national savings (IMF WEO)": {
+  "ar": "إجمالي المدخرات الوطنية (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Épargne nationale brute (FMI WEO)"
+ },
+ "Real GDP growth (IMF WEO)": {
+  "ar": "نمو الناتج المحلي الإجمالي الحقيقي (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Croissance du PIB réel (FMI WEO)"
+ },
+ "Total investment (IMF WEO)": {
+  "ar": "إجمالي الاستثمار (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Investissement total (FMI WEO)"
+ },
+ "Inflation, average consumer prices (IMF WEO)": {
+  "ar": "التضخم، متوسط أسعار المستهلك (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Inflation, prix à la consommation moyens (FMI WEO)"
+ },
+ "Inflation, consumer prices (annual %)": {
+  "ar": "التضخم، أسعار المستهلك (% سنوياً)",
+  "fr": "Inflation, prix à la consommation (% annuel)"
+ },
+ "Broad money (% of GDP)": {
+  "ar": "عرض النقود بمعناه الواسع (% من الناتج المحلي الإجمالي)",
+  "fr": "Monnaie au sens large (% du PIB)"
+ },
+ "Current account balance (% of GDP)": {
+  "ar": "رصيد الحساب الجاري (% من الناتج المحلي الإجمالي)",
+  "fr": "Solde du compte courant (% du PIB)"
+ },
+ "Current account balance (BoP, current US$)": {
+  "ar": "رصيد الحساب الجاري (ميزان المدفوعات، بالدولار الأمريكي الجاري)",
+  "fr": "Solde du compte courant (balance des paiements, en dollars US courants)"
+ },
+ "Current account balance (IMF WEO)": {
+  "ar": "رصيد الحساب الجاري (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Solde du compte courant (FMI WEO)"
+ },
+ "Foreign direct investment, net inflows (% of GDP)": {
+  "ar": "الاستثمار الأجنبي المباشر، صافي التدفقات الداخلة (% من الناتج المحلي الإجمالي)",
+  "fr": "Investissements directs étrangers, entrées nettes (% du PIB)"
+ },
+ "Personal remittances, received (% of GDP)": {
+  "ar": "تحويلات الأفراد المستلمة (% من الناتج المحلي الإجمالي)",
+  "fr": "Transferts personnels reçus (% du PIB)"
+ },
+ "Personal remittances, received (current US$)": {
+  "ar": "تحويلات الأفراد المستلمة (بالدولار الأمريكي الجاري)",
+  "fr": "Transferts personnels reçus (en dollars US courants)"
+ },
+ "Total reserves incl. gold (current US$)": {
+  "ar": "إجمالي الاحتياطيات بما فيها الذهب (بالدولار الأمريكي الجاري)",
+  "fr": "Réserves totales y compris l'or (en dollars US courants)"
+ },
+ "Central government debt, total (% of GDP)": {
+  "ar": "دين الحكومة المركزية، الإجمالي (% من الناتج المحلي الإجمالي)",
+  "fr": "Dette de l'administration centrale, total (% du PIB)"
+ },
+ "General government gross debt (IMF WEO)": {
+  "ar": "إجمالي الدين الحكومي العام (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Dette brute des administrations publiques (FMI WEO)"
+ },
+ "General government net lending/borrowing (IMF WEO)": {
+  "ar": "صافي إقراض/اقتراض الحكومة العامة (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Capacité ou besoin de financement net des administrations publiques (FMI WEO)"
+ },
+ "General government revenue (IMF WEO)": {
+  "ar": "إيرادات الحكومة العامة (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Recettes des administrations publiques (FMI WEO)"
+ },
+ "General government total expenditure (IMF WEO)": {
+  "ar": "إجمالي إنفاق الحكومة العامة (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Dépenses totales des administrations publiques (FMI WEO)"
+ },
+ "Exports of goods and services (current US$)": {
+  "ar": "صادرات السلع والخدمات (بالدولار الأمريكي الجاري)",
+  "fr": "Exportations de biens et services (en dollars US courants)"
+ },
+ "Imports of goods and services (current US$)": {
+  "ar": "واردات السلع والخدمات (بالدولار الأمريكي الجاري)",
+  "fr": "Importations de biens et services (en dollars US courants)"
+ },
+ "Trade (% of GDP)": {
+  "ar": "التجارة (% من الناتج المحلي الإجمالي)",
+  "fr": "Commerce (% du PIB)"
+ },
+ "Unemployment rate (IMF WEO)": {
+  "ar": "معدل البطالة (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "Taux de chômage (FMI WEO)"
+ },
+ "Unemployment, total (% of labour force, modelled ILO estimate)": {
+  "ar": "البطالة، الإجمالي (% من القوى العاملة، تقدير نمذجته منظمة العمل الدولية)",
+  "fr": "Chômage, total (% de la population active, estimation modélisée de l'OIT)"
+ },
+ "Gini index (0 = equality, 100 = inequality)": {
+  "ar": "مؤشر جيني (0 = مساواة، 100 = تفاوت)",
+  "fr": "Indice de Gini (0 = égalité, 100 = inégalité)"
+ },
+ "Poverty headcount ratio at $3.00 a day (2021 PPP, % of population)": {
+  "ar": "نسبة الفقر عند 3.00 دولارات يومياً (تعادل القوة الشرائية 2021، % من السكان)",
+  "fr": "Taux de pauvreté à 3,00 $ par jour (PPA 2021, % de la population)"
+ },
+ "International tourism, receipts (current US$)": {
+  "ar": "السياحة الدولية، الإيرادات (بالدولار الأمريكي الجاري)",
+  "fr": "Tourisme international, recettes (en dollars US courants)"
+ },
+ "Access to electricity (% of population)": {
+  "ar": "الحصول على الكهرباء (% من السكان)",
+  "fr": "Accès à l'électricité (% de la population)"
+ },
+ "Electricity demand per person": {
+  "ar": "الطلب على الكهرباء للفرد",
+  "fr": "Demande d'électricité par personne"
+ },
+ "Electricity generation per person": {
+  "ar": "توليد الكهرباء للفرد",
+  "fr": "Production d'électricité par personne"
+ },
+ "Individuals using the Internet (% of population)": {
+  "ar": "الأفراد الذين يستخدمون الإنترنت (% من السكان)",
+  "fr": "Personnes utilisant Internet (% de la population)"
+ },
+ "Mobile cellular subscriptions (per 100 people)": {
+  "ar": "اشتراكات الهاتف الخلوي (لكل 100 شخص)",
+  "fr": "Abonnements au téléphone mobile (pour 100 personnes)"
+ },
+ "CO2 emissions per capita (territorial, fossil and industry)": {
+  "ar": "انبعاثات ثاني أكسيد الكربون للفرد (إقليمية، وقود أحفوري وصناعة)",
+  "fr": "Émissions de CO2 par habitant (territoriales, fossiles et industrie)"
+ },
+ "Renewable energy share of final energy consumption": {
+  "ar": "حصة الطاقة المتجددة من الاستهلاك النهائي للطاقة",
+  "fr": "Part des énergies renouvelables dans la consommation finale d'énergie"
+ },
+ "Crude birth rate": {
+  "ar": "معدل المواليد الخام",
+  "fr": "Taux brut de natalité"
+ },
+ "Crude death rate": {
+  "ar": "معدل الوفيات الخام",
+  "fr": "Taux brut de mortalité"
+ },
+ "Fertility rate": {
+  "ar": "معدل الخصوبة",
+  "fr": "Indice de fécondité"
+ },
+ "Net migration": {
+  "ar": "صافي الهجرة",
+  "fr": "Migration nette"
+ },
+ "Population aged 0-14": {
+  "ar": "السكان بين 0 و14 عاماً",
+  "fr": "Population de 0 à 14 ans"
+ },
+ "Population aged 65 and over": {
+  "ar": "السكان بعمر 65 عاماً فأكثر",
+  "fr": "Population de 65 ans et plus"
+ },
+ "Population growth": {
+  "ar": "النمو السكاني",
+  "fr": "Croissance démographique"
+ },
+ "Population, total": {
+  "ar": "عدد السكان، الإجمالي",
+  "fr": "Population totale"
+ },
+ "Urban population share": {
+  "ar": "حصة سكان المدن",
+  "fr": "Part de la population urbaine"
+ },
+ "Infant mortality rate": {
+  "ar": "معدل وفيات الرضع",
+  "fr": "Taux de mortalité infantile"
+ },
+ "Life expectancy at birth": {
+  "ar": "العمر المتوقع عند الولادة",
+  "fr": "Espérance de vie à la naissance"
+ },
+ "Under-5 mortality rate": {
+  "ar": "معدل وفيات الأطفال دون الخامسة",
+  "fr": "Taux de mortalité des moins de 5 ans"
+ },
+ "Adult literacy rate": {
+  "ar": "معدل إلمام البالغين بالقراءة والكتابة",
+  "fr": "Taux d'alphabétisation des adultes"
+ },
+ "Mean years of schooling (adults 25+)": {
+  "ar": "متوسط سنوات الدراسة (البالغون 25 عاماً فأكثر)",
+  "fr": "Durée moyenne de scolarisation (adultes de 25 ans et plus)"
+ },
+ "Tertiary school enrolment": {
+  "ar": "الالتحاق بالتعليم العالي",
+  "fr": "Inscription dans l'enseignement supérieur"
+ },
+ "Human Development Index": {
+  "ar": "مؤشر التنمية البشرية",
+  "fr": "Indice de développement humain"
+ },
+ "Internally displaced people (conflict and violence)": {
+  "ar": "النازحون داخلياً (النزاع والعنف)",
+  "fr": "Personnes déplacées à l'intérieur du pays (conflit et violence)"
+ },
+ "Refugees by country of origin": {
+  "ar": "اللاجئون حسب بلد المنشأ",
+  "fr": "Réfugiés par pays d'origine"
+ },
+ "Refugees hosted, by country of asylum": {
+  "ar": "اللاجئون المستضافون حسب بلد اللجوء",
+  "fr": "Réfugiés accueillis, par pays d'asile"
+ },
+ "Deaths in armed conflicts, by location (UCDP best estimate)": {
+  "ar": "الوفيات في النزاعات المسلحة حسب الموقع (أفضل تقدير لبرنامج أوبسالا UCDP)",
+  "fr": "Décès dans les conflits armés, par lieu (meilleure estimation UCDP)"
+ },
+ "Intentional homicide rate": {
+  "ar": "معدل جرائم القتل العمد",
+  "fr": "Taux d'homicides volontaires"
+ },
+ "Electoral democracy index (V-Dem)": {
+  "ar": "مؤشر الديمقراطية الانتخابية (V-Dem)",
+  "fr": "Indice de démocratie électorale (V-Dem)"
+ },
+ "Liberal democracy index (V-Dem)": {
+  "ar": "مؤشر الديمقراطية الليبرالية (V-Dem)",
+  "fr": "Indice de démocratie libérale (V-Dem)"
+ },
+ "Political regime type (V-Dem, Regimes of the World)": {
+  "ar": "نوع النظام السياسي (V-Dem، أنظمة العالم)",
+  "fr": "Type de régime politique (V-Dem, Regimes of the World)"
+ },
+ "% gross": {
+  "ar": "% إجمالي",
+  "fr": "% brut"
+ },
+ "% of GDP": {
+  "ar": "% من الناتج المحلي الإجمالي",
+  "fr": "% du PIB"
+ },
+ "% of final energy": {
+  "ar": "% من الطاقة النهائية",
+  "fr": "% de l'énergie finale"
+ },
+ "% of labour force": {
+  "ar": "% من القوى العاملة",
+  "fr": "% de la population active"
+ },
+ "% of people aged 15+": {
+  "ar": "% من الأشخاص بعمر 15 عاماً فأكثر",
+  "fr": "% des personnes de 15 ans et plus"
+ },
+ "% of population": {
+  "ar": "% من السكان",
+  "fr": "% de la population"
+ },
+ "% per year": {
+  "ar": "% سنوياً",
+  "fr": "% par an"
+ },
+ "US$": {
+  "ar": "دولار أمريكي",
+  "fr": "US$"
+ },
+ "billion US$": {
+  "ar": "مليار دولار أمريكي",
+  "fr": "milliards de US$"
+ },
+ "births per woman": {
+  "ar": "مولود لكل امرأة",
+  "fr": "naissances par femme"
+ },
+ "category 0-3": {
+  "ar": "فئة من 0 إلى 3",
+  "fr": "catégorie de 0 à 3"
+ },
+ "current US$": {
+  "ar": "دولار أمريكي جاري",
+  "fr": "US$ courants"
+ },
+ "current international $": {
+  "ar": "دولار دولي جاري",
+  "fr": "$ internationaux courants"
+ },
+ "deaths per year": {
+  "ar": "وفاة في السنة",
+  "fr": "décès par an"
+ },
+ "index 0-1": {
+  "ar": "مؤشر من 0 إلى 1",
+  "fr": "indice de 0 à 1"
+ },
+ "index 0-100": {
+  "ar": "مؤشر من 0 إلى 100",
+  "fr": "indice de 0 à 100"
+ },
+ "kWh per person per year": {
+  "ar": "كيلوواط ساعة للفرد في السنة",
+  "fr": "kWh par personne et par an"
+ },
+ "people": {
+  "ar": "شخص",
+  "fr": "personnes"
+ },
+ "people per year": {
+  "ar": "شخص في السنة",
+  "fr": "personnes par an"
+ },
+ "per 1,000 live births": {
+  "ar": "لكل 1000 مولود حي",
+  "fr": "pour 1 000 naissances vivantes"
+ },
+ "per 1,000 people": {
+  "ar": "لكل 1000 شخص",
+  "fr": "pour 1 000 personnes"
+ },
+ "per 100 people": {
+  "ar": "لكل 100 شخص",
+  "fr": "pour 100 personnes"
+ },
+ "per 100,000 people": {
+  "ar": "لكل 100000 شخص",
+  "fr": "pour 100 000 personnes"
+ },
+ "tonnes per person": {
+  "ar": "طن للفرد",
+  "fr": "tonnes par personne"
+ },
+ "years": {
+  "ar": "سنة",
+  "fr": "ans"
+ },
+ "Scorecard": {
+  "ar": "بطاقة الأداء",
+  "fr": "Tableau de bord"
+ },
+ "Lebanon on every indicator: its value and its rank in the latest year it has data. Rank 1 is the highest value among countries and territories. The bar shows the share of countries Lebanon is above. Click an indicator to see it on the map.": {
+  "ar": "لبنان في كل مؤشر: قيمته وترتيبه في أحدث سنة تتوفر فيها بياناته. الترتيب 1 هو أعلى قيمة بين البلدان والأقاليم. يبيّن الشريط حصة البلدان التي يتفوّق عليها لبنان. انقر على مؤشر لعرضه على الخريطة.",
+  "fr": "Le Liban sur chaque indicateur : sa valeur et son rang pour la dernière année disponible. Le rang 1 est la valeur la plus élevée parmi les pays et territoires. La barre montre la part des pays au-dessus desquels se place le Liban. Cliquez sur un indicateur pour le voir sur la carte."
+ },
+ "Sort": {
+  "ar": "الترتيب حسب",
+  "fr": "Trier"
+ },
+ "By topic": {
+  "ar": "حسب الموضوع",
+  "fr": "Par thème"
+ },
+ "Highest rank first": {
+  "ar": "الأعلى ترتيباً أولاً",
+  "fr": "Rang le plus haut d'abord"
+ },
+ "Lowest rank first": {
+  "ar": "الأدنى ترتيباً أولاً",
+  "fr": "Rang le plus bas d'abord"
+ },
+ "World rank": {
+  "ar": "الترتيب العالمي",
+  "fr": "Rang mondial"
+ },
+ "Position": {
+  "ar": "الموقع",
+  "fr": "Position"
+ },
+ "MENA rank": {
+  "ar": "الترتيب في المنطقة",
+  "fr": "Rang MENA"
+ },
+ "Above {p}% of countries": {
+  "ar": "أعلى من {p}% من البلدان",
+  "fr": "Au-dessus de {p} % des pays"
+ },
+ "{n} indicator": {
+  "ar": "{n} مؤشر",
+  "fr": "{n} indicateur"
+ },
+ "{n} indicators": {
+  "ar": "{n} مؤشراً",
+  "fr": "{n} indicateurs"
+ },
+ "Download": {
+  "ar": "تنزيل",
+  "fr": "Télécharger"
+ },
+ "topic file: filter indicator_id = {id}": {
+  "ar": "ملف الموضوع: صفِّ حسب indicator_id = {id}",
+  "fr": "fichier du thème : filtrer indicator_id = {id}"
+ }
+}

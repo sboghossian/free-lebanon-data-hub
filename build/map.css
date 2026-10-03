@@ -1,0 +1,71 @@
+/* ---- Strike map (#map). Colours are categorical per war and re-tuned for dark. */
+#map.hub-panel{max-width:1240px}
+#mapRoot{--mw-all:#5B6B63;--mw-cw:#7B4EA3;--mw-w78:#B86F00;--mw-w93:#2E8B57;--mw-w06:#1D6FA5;--mw-w23:#C2301F;--mw-wot:#8A6D5A;--mw-ac:#3a4540}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #mapRoot{--mw-all:#9AA8A0;--mw-cw:#B78BE0;--mw-w78:#E5A63D;--mw-w93:#5CC389;--mw-w06:#6AB0E6;--mw-w23:#F0776A;--mw-wot:#C4A18A;--mw-ac:#C9D1CC}}
+:root[data-theme="dark"] #mapRoot{--mw-all:#9AA8A0;--mw-cw:#B78BE0;--mw-w78:#E5A63D;--mw-w93:#5CC389;--mw-w06:#6AB0E6;--mw-w23:#F0776A;--mw-wot:#C4A18A;--mw-ac:#C9D1CC}
+.mp{min-width:0}
+.mp .chips{margin:0 0 10px}
+.mp-wc[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);opacity:1}
+.mp-wc[aria-pressed="true"] .sw{background:var(--lc);box-shadow:0 0 0 1.5px var(--paper)}
+.mp-wc[aria-pressed="false"]{opacity:1;background:var(--paper)}
+.mp-wc[aria-pressed="false"] .sw{background:var(--lc);box-shadow:none}
+.mp-note{max-width:78ch;margin:4px 0 14px;font-size:15px;line-height:1.55;color:var(--ink-2)}
+.mp-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;align-items:start}
+.mp-main,.mp-side{min-width:0}
+.mp-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+.mp-tools input[type=search]{flex:1 1 220px;min-width:0;font:15px var(--display);color:var(--ink);background:var(--paper);border:1px solid var(--rule-2);border-radius:5px;padding:8px 10px}
+.mp-seg{display:flex;gap:4px}
+.mp-kinds{margin-bottom:10px}
+.mp-stage{position:relative;height:clamp(380px,62vh,700px);background:var(--stone);border:1px solid var(--rule-2);overflow:hidden;touch-action:none;cursor:grab;user-select:none}
+.mp-stage:active{cursor:grabbing}
+.mp-stage:focus{outline:none}
+.mp-svg,.mp-cv{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mp-cv{pointer-events:none}
+.mp-cv[hidden]{display:none}
+.mp-d2 path{fill:var(--paper);stroke:var(--rule-2);stroke-width:.6;vector-effect:non-scaling-stroke}
+.mp-d1 path{fill:none;stroke:var(--ink-3);stroke-width:1.3;vector-effect:non-scaling-stroke}
+.mp-pt{fill-opacity:.6;stroke:var(--paper);stroke-width:.6;pointer-events:none}
+.mp-pt.cw{fill:var(--mw-cw)}.mp-pt.w78{fill:var(--mw-w78)}.mp-pt.w93{fill:var(--mw-w93)}.mp-pt.w06{fill:var(--mw-w06)}.mp-pt.w23{fill:var(--mw-w23)}.mp-pt.wot{fill:var(--mw-wot)}
+.mp-pt.sel{fill-opacity:1;stroke:var(--ink);stroke-width:2.2}
+.mp-ac{fill:none;stroke:var(--mw-ac);stroke-width:1.2;stroke-opacity:.8;pointer-events:none}
+.mp-hex{fill:var(--cedar);stroke:var(--paper);stroke-width:.6;pointer-events:none}
+.mp-svg text{pointer-events:none;paint-order:stroke;stroke:var(--paper);stroke-width:3px;stroke-linejoin:round}
+.mp-l1{font:600 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;fill:var(--ink-3)}
+.mp-l2{font:500 9.5px var(--mono);fill:var(--ink-3)}
+.mp-zoom{position:absolute;top:8px;left:8px;display:flex;flex-direction:column;gap:6px;z-index:2}
+.mp-zoom .chip{justify-content:center;min-width:38px;min-height:38px;font-size:16px;background:var(--paper)}
+.mp-tip{position:absolute;z-index:3;pointer-events:none;background:var(--ink);color:var(--paper);font:13px/1.4 var(--display);padding:7px 10px;border-radius:5px;max-width:260px}
+.mp-tip .dim{opacity:.7}
+.mp-hint{font-size:13px;color:var(--ink-3);margin:8px 0 0;max-width:80ch}
+.mp-stats{display:grid;grid-template-columns:1fr;gap:1px;margin:0;background:var(--rule);border:1px solid var(--rule)}
+.mp-stats div{background:var(--paper);padding:10px 14px}
+.mp-stats dt{font:500 10.5px/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.mp-stats dd{margin:2px 0 0;font:800 26px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.mp-more p{font-size:13.5px;line-height:1.5;color:var(--ink-2);margin:10px 0 0}
+.mp-top{list-style:none;margin:0 0 6px;padding:0}
+.mp-top li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--rule)}
+.mp-place{appearance:none;border:0;background:none;padding:0;font:600 14px var(--display);color:var(--cedar);cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:3px}
+.mp-chk{display:flex;gap:8px;align-items:flex-start;font-size:14px;line-height:1.35;margin:12px 0 0;color:var(--ink-2)}
+.mp-ac-note{font-size:12.5px;line-height:1.45;color:var(--ink-3);margin:6px 0 0}
+.mp-time{margin:18px 0 6px}
+.mp-dates{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.mp-dates input[type=date]{font:14px var(--display);color:var(--ink);background:var(--paper);border:1px solid var(--rule-2);border-radius:5px;padding:5px 8px}
+.mp-hist svg{display:block;width:100%;height:70px;touch-action:none;cursor:crosshair}
+.mp-bar{fill:var(--rule-2)}.mp-bar.on{fill:var(--ink-2)}
+.mp-brush{fill:var(--cedar);fill-opacity:.14;stroke:var(--cedar);stroke-width:1}
+.mp-ax{font:10px var(--mono);fill:var(--ink-3)}
+.mp-list{list-style:none;margin:0 0 12px;padding:0}
+.mp-li{display:grid;grid-template-columns:128px minmax(0,1fr) minmax(0,1.3fr);gap:4px 14px;width:100%;text-align:left;appearance:none;border:0;border-bottom:1px solid var(--rule);background:none;padding:9px 0;font:14px/1.35 var(--display);color:var(--ink);cursor:pointer}
+.mp-li:hover{background:var(--paper)}
+.mp-li:focus-visible,.mp-place:focus-visible{outline:2px solid var(--cedar);outline-offset:2px}
+.mp-open{margin:12px 0 0}
+#mapCard h4{font:800 20px/1.25 var(--display);margin:6px 0 10px}
+#mapCard h4:focus{outline:none}
+#mapCard .af-r{display:grid;grid-template-columns:minmax(0,84px) minmax(0,1fr);gap:8px;padding:5px 0;border-bottom:1px solid var(--rule);font-size:14.5px;line-height:1.4;overflow-wrap:anywhere}
+#mapCard .af-r .k{margin:0}
+@media (max-width:900px){.mp-grid{grid-template-columns:minmax(0,1fr)}.mp-stage{height:min(68vh,540px)}}
+@media (max-width:560px){.mp-li{grid-template-columns:minmax(0,1fr)}.mp-stats dd{font-size:22px}.mp-wc{font-size:12.5px;padding:6px 9px}}
+.mp-more p.mp-left{margin:10px 0 0;padding:8px 10px;border-left:3px solid var(--mw-w23);background:var(--stone);color:var(--ink)}
+
+/* wide screens: Lebanon is tall and narrow, so the map grows with the window height rather than stopping at 700px */
+@media (min-width:1400px){.mp-stage{height:clamp(560px,84vh,1500px)}}

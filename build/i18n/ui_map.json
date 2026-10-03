@@ -1,0 +1,214 @@
+{
+"Official toll": {
+"ar": "الحصيلة الرسمية",
+"fr": "Bilan officiel"
+},
+"Official toll, killed": {
+"ar": "الحصيلة الرسمية للقتلى",
+"fr": "Bilan officiel, morts"
+},
+"Displaced": {
+"ar": "النازحون",
+"fr": "Déplacés"
+},
+"Documented in mapped incidents": {
+"ar": "الموثّق في الحوادث المرسومة على الخريطة",
+"fr": "Documenté dans les incidents cartographiés"
+},
+"{k} killed in {n} incidents": {
+"ar": "{k} قتيلًا في {n} حادثة",
+"fr": "{k} morts dans {n} incidents"
+},
+"Counted by": {
+"ar": "جهة العدّ",
+"fr": "Compté par"
+},
+"As of": {
+"ar": "حتى تاريخ",
+"fr": "À la date du"
+},
+"at least {n}": {
+"ar": "{n} على الأقل",
+"fr": "au moins {n}"
+},
+"not given": {
+"ar": "غير محدد",
+"fr": "non communiqué"
+},
+"{n} count": {
+"ar": "{n} حصيلة",
+"fr": "{n} bilan"
+},
+"{n} counts": {
+"ar": "{n} حصائل",
+"fr": "{n} bilans"
+},
+"Counts as published by the counters named. They differ by war and are not comparable. Mapped incidents are only those a source documents with a place, so the two figures are not expected to match.": {
+"ar": "الأرقام كما نشرتها الجهات المذكورة، وهي تختلف من حرب إلى أخرى ولا تصحّ المقارنة بينها. أما الحوادث المرسومة فهي فقط ما توثّقه مصادر مع تحديد المكان، ولذلك لا يُنتظر أن يتطابق الرقمان.",
+"fr": "Chiffres tels que publiés par les décompteurs cités. Ils diffèrent d'une guerre à l'autre et ne sont pas comparables. Les incidents cartographiés sont seulement ceux qu'une source documente avec un lieu : les deux chiffres ne sont donc pas censés coïncider."
+},
+"Civil war 1975-1990": {
+"ar": "الحرب الأهلية ١٩٧٥-١٩٩٠",
+"fr": "Guerre civile 1975-1990"
+},
+"1978 Litani (Operation Litani)": {
+"ar": "اجتياح الليطاني ١٩٧٨ (عملية الليطاني)",
+"fr": "Litani 1978 (opération Litani)"
+},
+"1982 invasion (Operation Peace for Galilee), 6 Jun-Sep 1982": {
+"ar": "اجتياح ١٩٨٢ (عملية سلامة الجليل)، من ٦ حزيران إلى أيلول ١٩٨٢",
+"fr": "Invasion de 1982 (opération Paix en Galilée), 6 juin-septembre 1982"
+},
+"1982 siege of Beirut, 14 Jun-Aug 1982": {
+"ar": "حصار بيروت ١٩٨٢، من ١٤ حزيران إلى آب ١٩٨٢",
+"fr": "Siège de Beyrouth 1982, 14 juin-août 1982"
+},
+"1993 Accountability (Operation Accountability), 25-31 Jul 1993": {
+"ar": "عملية تصفية الحساب ١٩٩٣، ٢٥-٣١ تموز ١٩٩٣",
+"fr": "Opération Règlement de comptes 1993, 25-31 juillet 1993"
+},
+"1996 Grapes of Wrath (11-27 Apr 1996)": {
+"ar": "عناقيد الغضب ١٩٩٦ (١١-٢٧ نيسان ١٩٩٦)",
+"fr": "Raisins de la colère 1996 (11-27 avril 1996)"
+},
+"2006 war (12 Jul-14 Aug 2006)": {
+"ar": "حرب ٢٠٠٦ (١٢ تموز - ١٤ آب ٢٠٠٦)",
+"fr": "Guerre de 2006 (12 juillet-14 août 2006)"
+},
+"2023-24 war, to the 27 Nov 2024 ceasefire": {
+"ar": "حرب ٢٠٢٣-٢٠٢٤، حتى وقف إطلاق النار في ٢٧ تشرين الثاني ٢٠٢٤",
+"fr": "Guerre de 2023-2024, jusqu'au cessez-le-feu du 27 novembre 2024"
+},
+"2023-24 war, final MoPH count": {
+"ar": "حرب ٢٠٢٣-٢٠٢٤، الحصيلة النهائية لوزارة الصحة العامة",
+"fr": "Guerre de 2023-2024, bilan final du ministère de la Santé publique"
+},
+"2026 war, at the 17 Apr 2026 ceasefire announcement": {
+"ar": "حرب ٢٠٢٦، عند إعلان وقف إطلاق النار في ١٧ نيسان ٢٠٢٦",
+"fr": "Guerre de 2026, à l'annonce du cessez-le-feu du 17 avril 2026"
+},
+"2026 war, latest MoPH count": {
+"ar": "حرب ٢٠٢٦، آخر حصيلة لوزارة الصحة العامة",
+"fr": "Guerre de 2026, dernier bilan du ministère de la Santé publique"
+},
+"Press agencies and later scholarship; no official census of deaths": {
+"ar": "وكالات الأنباء والدراسات اللاحقة؛ لا يوجد إحصاء رسمي للوفيات",
+"fr": "Agences de presse et travaux universitaires ultérieurs ; pas de recensement officiel des décès"
+},
+"Norton (Boston University), cited; other sources for the upper bound": {
+"ar": "نورتون (جامعة بوسطن)، كما ورد في المصادر؛ ومصادر أخرى للحد الأعلى",
+"fr": "Norton (Université de Boston), cité ; d'autres sources pour la borne haute"
+},
+"Lebanese authorities (19,085 killed, 30,000 wounded); Gabriel estimate; Israeli government figures": {
+"ar": "السلطات اللبنانية (١٩٬٠٨٥ قتيلًا و٣٠٬٠٠٠ جريح)؛ تقدير غابرييل؛ أرقام الحكومة الإسرائيلية",
+"fr": "Autorités libanaises (19 085 morts, 30 000 blessés) ; estimation de Gabriel ; chiffres du gouvernement israélien"
+},
+"Lebanese sources (6,776 in Beirut to late Aug); Gabriel (4,000-5,000 civilians)": {
+"ar": "مصادر لبنانية (٦٬٧٧٦ في بيروت حتى أواخر آب)؛ غابرييل (٤٬٠٠٠-٥٬٠٠٠ مدني)",
+"fr": "Sources libanaises (6 776 à Beyrouth jusqu'à fin août) ; Gabriel (4 000-5 000 civils)"
+},
+"Civilian deaths as reported in the Wikipedia article; displacement estimate 300,000-400,000": {
+"ar": "وفيات المدنيين كما وردت في مقالة ويكيبيديا؛ وتقدير النزوح بين ٣٠٠٬٠٠٠ و٤٠٠٬٠٠٠",
+"fr": "Décès de civils selon l'article de Wikipédia ; déplacés estimés entre 300 000 et 400 000"
+},
+"Human Rights Watch (154 civilians killed, 351 wounded); Bregman (250 Lebanese)": {
+"ar": "هيومن رايتس ووتش (١٥٤ مدنيًا قتيلًا و٣٥١ جريحًا)؛ بريغمان (٢٥٠ لبنانيًا)",
+"fr": "Human Rights Watch (154 civils tués, 351 blessés) ; Bregman (250 Libanais)"
+},
+"Lebanese Higher Relief Council (1,191 killed, 4,409 injured); Ministry of Health and police (1,123); HRW (1,109 identified); UN/OCHA (about 900,000 displaced)": {
+"ar": "الهيئة العليا للإغاثة (١٬١٩١ قتيلًا و٤٬٤٠٩ جرحى)؛ وزارة الصحة والشرطة (١٬١٢٣)؛ هيومن رايتس ووتش (١٬١٠٩ تم تحديد هويتهم)؛ الأمم المتحدة/أوتشا (نحو ٩٠٠٬٠٠٠ نازح)",
+"fr": "Haut Conseil de secours libanais (1 191 morts, 4 409 blessés) ; ministère de la Santé et police (1 123) ; HRW (1 109 identifiés) ; ONU/OCHA (environ 900 000 déplacés)"
+},
+"Lebanon Ministry of Public Health, via OCHA Lebanon Flash Updates; displaced IOM DTM via OCHA": {
+"ar": "وزارة الصحة العامة اللبنانية، عبر نشرات أوتشا السريعة للبنان؛ والنازحون من مصفوفة تتبع النزوح (IOM DTM) عبر أوتشا",
+"fr": "Ministère libanais de la Santé publique, via les Flash Updates d'OCHA Liban ; déplacés : IOM DTM via OCHA"
+},
+"Lebanon Ministry of Public Health, via OCHA Lebanon Flash Update": {
+"ar": "وزارة الصحة العامة اللبنانية، عبر النشرة السريعة لأوتشا في لبنان",
+"fr": "Ministère libanais de la Santé publique, via le Flash Update d'OCHA Liban"
+},
+"Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA); displaced by the government's total at the peak (17 Mar 2026)": {
+"ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)؛ والنازحون بحسب إجمالي الحكومة في الذروة (١٧ آذار ٢٠٢٦)",
+"fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA) ; déplacés : total du gouvernement au pic (17 mars 2026)"
+},
+"Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA)": {
+"ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)",
+"fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA)"
+},
+"{d1}": {
+"ar": "{d1}",
+"fr": "{d1}"
+},
+"1990 (final estimates)": {
+"ar": "١٩٩٠ (التقديرات النهائية)",
+"fr": "1990 (estimations finales)"
+},
+"autumn 1982": {
+"ar": "خريف ١٩٨٢",
+"fr": "automne 1982"
+},
+"late Aug 1982": {
+"ar": "أواخر آب ١٩٨٢",
+"fr": "fin août 1982"
+},
+"31 Jul 1993": {
+"ar": "٣١ تموز ١٩٩٣",
+"fr": "31 juillet 1993"
+},
+"27 Apr 1996": {
+"ar": "٢٧ نيسان ١٩٩٦",
+"fr": "27 avril 1996"
+},
+"Aug 2006 ceasefire (14 Aug)": {
+"ar": "وقف إطلاق النار في آب ٢٠٠٦ (١٤ آب)",
+"fr": "cessez-le-feu d'août 2006 (14 août)"
+},
+"killed {d1}; injured {d2}": {
+"ar": "القتلى حتى {d1}؛ الجرحى حتى {d2}",
+"fr": "morts au {d1} ; blessés au {d2}"
+},
+"Estimates only: no official census of deaths exists. Official Lebanese figures of 35,000 to 40,000 are cited as far lower.": {
+"ar": "تقديرات فقط: لا يوجد إحصاء رسمي للوفيات. وتُذكر أرقام لبنانية رسمية بين ٣٥٬٠٠٠ و٤٠٬٠٠٠ أي أقل بكثير.",
+"fr": "Estimations seulement : il n'existe pas de recensement officiel des décès. Des chiffres officiels libanais de 35 000 à 40 000 sont cités, bien plus bas."
+},
+"Lebanese and Palestinians killed; Israeli deaths are not counted here. Displaced: 100,000 to 250,000.": {
+"ar": "القتلى من اللبنانيين والفلسطينيين؛ ولا تُحتسب هنا وفيات الإسرائيليين. النازحون: من ١٠٠٬٠٠٠ إلى ٢٥٠٬٠٠٠.",
+"fr": "Libanais et Palestiniens tués ; les décès israéliens ne sont pas comptés ici. Déplacés : de 100 000 à 250 000."
+},
+"The high figure is from Lebanese authorities, the low one a scholar's estimate. Excludes Sabra and Shatila. Counts mix civilians and fighters.": {
+"ar": "الرقم الأعلى من السلطات اللبنانية والأدنى تقدير باحث. لا يشمل صبرا وشاتيلا. وتجمع الأعداد بين المدنيين والمقاتلين.",
+"fr": "Le chiffre haut vient des autorités libanaises, le bas d'un universitaire. Sabra et Chatila exclus. Les décomptes mêlent civils et combattants."
+},
+"Overlaps with the 1982 invasion count: do not add the two.": {
+"ar": "يتداخل مع حصيلة اجتياح ١٩٨٢: لا تجمعوا الرقمين.",
+"fr": "Recoupe le bilan de l'invasion de 1982 : ne pas additionner les deux."
+},
+"Civilian deaths only. Fighters' deaths are disputed, so there is no upper estimate.": {
+"ar": "وفيات المدنيين فقط. وفيات المقاتلين موضع خلاف، فلا يوجد تقدير أعلى.",
+"fr": "Décès de civils seulement. Ceux des combattants sont contestés, donc pas d'estimation haute."
+},
+"Human Rights Watch counted 154 civilians killed; another count gives 250 Lebanese.": {
+"ar": "أحصت هيومن رايتس ووتش ١٥٤ مدنيًا قتيلًا؛ وفي إحصاء آخر ٢٥٠ لبنانيًا.",
+"fr": "Human Rights Watch a compté 154 civils tués ; un autre décompte donne 250 Libanais."
+},
+"Government counts do not separate civilians from fighters.": {
+"ar": "لا تفصل الإحصاءات الحكومية بين المدنيين والمقاتلين.",
+"fr": "Les décomptes du gouvernement ne séparent pas civils et combattants."
+},
+"Fighters and civilians are counted together. Displaced is the IOM figure at its peak, 25 Nov 2024.": {
+"ar": "يُحتسب المقاتلون والمدنيون معًا. النازحون هو رقم المنظمة الدولية للهجرة في ذروته، ٢٥ تشرين الثاني ٢٠٢٤.",
+"fr": "Combattants et civils sont comptés ensemble. Les déplacés sont le chiffre de l'OIM à son pic, le 25 novembre 2024."
+},
+"The last cumulative figure in our series, including late reports after the ceasefire.": {
+"ar": "آخر رقم تراكمي في سلسلتنا، ويشمل تقارير متأخرة بعد وقف إطلاق النار.",
+"fr": "Dernier chiffre cumulé de notre série, y compris des signalements tardifs après le cessez-le-feu."
+},
+"Cumulative since 2 Mar 2026. Displaced is the government's registered total at its peak, 17 Mar 2026.": {
+"ar": "تراكمي منذ ٢ آذار ٢٠٢٦. النازحون هو إجمالي المسجلين لدى الحكومة في ذروته، ١٧ آذار ٢٠٢٦.",
+"fr": "Cumulé depuis le 2 mars 2026. Les déplacés sont le total enregistré par le gouvernement à son pic, le 17 mars 2026."
+},
+"Killed and injured are from different dates. Fighters and civilians are not separated.": {
+"ar": "أرقام القتلى والجرحى من تواريخ مختلفة. ولا يُفصل بين المقاتلين والمدنيين.",
+"fr": "Les morts et les blessés datent de jours différents. Combattants et civils ne sont pas séparés."
+}
+}

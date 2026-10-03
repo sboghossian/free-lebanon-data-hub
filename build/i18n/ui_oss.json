@@ -1,0 +1,34 @@
+{
+ "The Hub's code and data are open. Anyone can fix a row, add a source or a dataset, or translate.": {
+  "ar": "الشيفرة والبيانات في المركز مفتوحة. يمكن لأي شخص تصحيح سطر أو إضافة مصدر أو مجموعة بيانات أو الترجمة.",
+  "fr": "Le code et les données du Hub sont ouverts. Chacun peut corriger une ligne, ajouter une source ou un jeu de données, ou traduire."
+ },
+ "Open source": {
+  "ar": "مفتوح المصدر",
+  "fr": "Open source"
+ },
+ "The Hub on GitHub": {
+  "ar": "المركز على GitHub",
+  "fr": "Le Hub sur GitHub"
+ },
+ "How to contribute": {
+  "ar": "كيفية المساهمة",
+  "fr": "Comment contribuer"
+ },
+ "Report a problem or suggest a dataset": {
+  "ar": "الإبلاغ عن مشكلة أو اقتراح مجموعة بيانات",
+  "fr": "Signaler un problème ou proposer un jeu de données"
+ },
+ "The code is under the MIT licence.": {
+  "ar": "الشيفرة مرخّصة بموجب رخصة MIT.",
+  "fr": "Le code est sous licence MIT."
+ },
+ "The data is under CC BY-SA 4.0, unless a source says otherwise.": {
+  "ar": "البيانات مرخّصة بموجب CC BY-SA 4.0 ما لم يذكر المصدر خلاف ذلك.",
+  "fr": "Les données sont sous licence CC BY-SA 4.0, sauf indication contraire d'une source."
+ },
+ "Open source on GitHub": {
+  "ar": "مفتوح المصدر على GitHub",
+  "fr": "Open source sur GitHub"
+ }
+}

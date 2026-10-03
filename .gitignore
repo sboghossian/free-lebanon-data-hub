@@ -1,0 +1,12 @@
+cache/
+site/
+v5/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+_check*/
+.env
+# written by every build
+research/strikes/_left_out.tsv
+research/strikes/_unresolved.tsv

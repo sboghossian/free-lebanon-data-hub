@@ -1,0 +1,96 @@
+/* Hub shell v7: language switch, loader and error states, downloads, chart helpers, RTL. Theme tokens come from style.css (:root, light and dark). */
+.hub-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.hub-top .eyebrow{margin:0}
+.lang-sw{display:inline-flex;border:1px solid var(--rule-2);border-radius:999px;overflow:hidden;background:var(--paper)}
+.lang-sw button{appearance:none;border:0;background:none;color:var(--ink-2);font:600 13px/1 var(--display);padding:8px 14px;cursor:pointer;min-height:34px}
+.lang-sw button+button{border-inline-start:1px solid var(--rule)}
+.lang-sw button[aria-pressed="true"]{background:var(--cedar);color:var(--on-strong)}
+.lang-sw button:focus-visible{outline:2px solid var(--cedar);outline-offset:-3px}
+.hub-counts{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));max-width:900px}
+.enm{font:600 8.5px/1 var(--mono);letter-spacing:.04em;color:var(--ink-3);border:1px solid var(--rule-2);border-radius:3px;padding:1px 3px;margin-inline-start:4px;vertical-align:super}
+/* lazy load: spinner and error state */
+.hub-load{display:flex;align-items:center;gap:12px;margin:22px 0;color:var(--ink-2);font:500 15px/1.4 var(--display)}
+.hub-spin{width:20px;height:20px;border-radius:50%;border:3px solid var(--rule-2);border-top-color:var(--cedar);animation:hubspin .8s linear infinite;flex:none}
+@keyframes hubspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.hub-spin{animation-duration:2.4s}}
+.hub-err{margin:18px 0;padding:16px 18px;border:1px solid var(--bad);background:var(--bad-soft);color:var(--ink);max-width:70ch;border-radius:4px}
+.hub-err p{margin:0 0 8px}
+.hub-err .mono{font-size:12px;overflow-wrap:anywhere}
+/* downloads */
+.dl-list{list-style:none;margin:8px 0 18px;padding:0;border-top:1px solid var(--rule)}
+.dl-row{display:grid;grid-template-columns:minmax(0,1fr);gap:2px 14px;padding:9px 0;border-bottom:1px solid var(--rule)}
+.dl-t{font:600 15px/1.35 var(--display);overflow-wrap:anywhere}
+.dl-row .d-meta{display:flex;flex-wrap:wrap;gap:2px 12px;font:500 12.5px/1.4 var(--mono);color:var(--ink-3)}
+.dl-src{font-size:12.5px;overflow-wrap:anywhere}
+.dl-det{margin:10px 0 0;border:1px solid var(--rule);background:var(--paper);padding:0 14px}
+.dl-det>summary{cursor:pointer;font:700 15px/1.3 var(--display);padding:12px 0}
+.dl-det input[type=search]{width:100%;max-width:420px;margin:0 0 6px;font:15px var(--body);padding:9px 11px;border:1px solid var(--rule-2);background:var(--ground);color:var(--ink)}
+/* chart helpers (HUB.line, HUB.bars, HUB.scatter) */
+.hc{position:relative;max-width:100%}
+.hc-svg{display:block;max-width:100%;height:auto;direction:ltr}
+.hc-svg .gl{stroke:var(--rule);stroke-width:1}
+.hc-svg .ax{font:500 10.5px var(--mono);fill:var(--ink-3)}
+.hc-line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.hc-line.dim{opacity:.3}
+.hc-cur,.hc-mk{stroke:var(--ink-3);stroke-width:1;stroke-dasharray:3 3}
+.hc-fit{stroke:var(--ink-3);stroke-width:1.5;stroke-dasharray:5 4}
+.sc-dot{fill:var(--sea);fill-opacity:.55;stroke:var(--paper);stroke-width:1}
+.sc-dot.hi{fill:var(--war);fill-opacity:1}
+.sc-dot[role=button]{cursor:pointer}
+.hc-tip{position:absolute;top:8px;background:var(--paper);border:1px solid var(--rule-2);padding:6px 9px;font:12.5px/1.4 var(--body);box-shadow:0 4px 14px var(--shadow);pointer-events:none;z-index:2;white-space:nowrap}
+.hc-tip i,.hc-lg i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-inline-end:6px}
+.hc-tip div{margin-top:2px}
+.hc-lg{display:flex;flex-wrap:wrap;gap:4px 16px;list-style:none;margin:8px 0 0;padding:0;font:13px/1.3 var(--display)}
+.hc-bars{list-style:none;margin:0;padding:0}
+.hc-bars li{display:grid;grid-template-columns:minmax(80px,170px) minmax(0,1fr) auto;gap:10px;align-items:center;padding:3px 0;font:14px/1.3 var(--display)}
+.hc-bars .hb-b{display:block;height:10px;background:var(--stone);border-radius:2px;overflow:hidden}
+.hc-bars .hb-b i{display:block;height:100%;background:var(--cedar)}
+.hc-bars li.hi .hb-b i{background:var(--war)}
+.hc-bars li.hi .hb-l{font-weight:800}
+.hc-r{margin:8px 0 0;font-size:14px}
+/* Arabic: right-to-left, Arabic fonts, charts and maps stay left-to-right (a time axis and a map do not mirror) */
+html[lang="ar"]{--display:"IBM Plex Sans Arabic","Noto Naskh Arabic","Bricolage Grotesque","Segoe UI",Tahoma,system-ui,sans-serif;--body:"Noto Naskh Arabic","IBM Plex Sans Arabic","Source Serif 4","Iowan Old Style",Georgia,serif}
+html[lang="ar"] body{line-height:1.8}
+/* Arabic letters must join: no letter-spacing and no case transform anywhere (HTML, SVG text, pseudo-elements), and the Arabic face replaces DM Mono in Latin-only mono labels, KPI labels and axis labels. Digits stay as Intl gives them (ar-LB, Arabic-Indic). */
+html[lang="ar"]{--mono:"IBM Plex Sans Arabic","Noto Naskh Arabic","DM Mono",ui-monospace,Menlo,Consolas,monospace}
+:lang(ar) *,:lang(ar) *::before,:lang(ar) *::after,html[dir="rtl"] *,html[dir="rtl"] *::before,html[dir="rtl"] *::after,html[lang="ar"] svg text,html[lang="ar"] svg tspan{letter-spacing:0 !important;text-transform:none !important;word-spacing:normal !important}
+html[dir="rtl"] .hub-head h1,html[dir="rtl"] .hub-head .eyebrow{letter-spacing:0}
+html[dir="rtl"] .eyebrow,html[dir="rtl"] .hub-counts dt{letter-spacing:0;text-transform:none}
+html[dir="rtl"] .tl,html[dir="rtl"] .tl svg,html[dir="rtl"] .mp-stage,html[dir="rtl"] .mp-hist,html[dir="rtl"] .sp,html[dir="rtl"] .hc-svg,html[dir="rtl"] .yc-top{direction:ltr}
+html[dir="rtl"] .mono,html[dir="rtl"] .cite,html[dir="rtl"] code{direction:ltr;unicode-bidi:plaintext;text-align:start}
+html[dir="rtl"] .hub-tabs{direction:rtl}
+html[dir="rtl"] .d-ar{text-align:start}
+@media (max-width:640px){.hub-top{gap:8px}.hc-bars li{grid-template-columns:minmax(70px,120px) minmax(0,1fr) auto}}
+/* RTL mirrors of older physical rules the Hub still uses (style.css, v4.css, map.css) */
+html[dir="rtl"] .cf,html[dir="rtl"] .lg-more .chip{margin-left:0;margin-right:5px}
+html[dir="rtl"] .src{margin-right:0;margin-left:8px}
+html[dir="rtl"] .tl-legend svg,html[dir="rtl"] .tl-legend .sq{margin-right:0;margin-left:5px}
+html[dir="rtl"] .fcount,html[dir="rtl"] .cn-why .k,html[dir="rtl"] .d-deaths .k{margin-right:0;margin-left:6px}
+html[dir="rtl"] .sl,html[dir="rtl"] .lvb,html[dir="rtl"] .yc-x{margin-left:0;margin-right:3px}
+html[dir="rtl"] .preset-note{border-left:1px solid var(--rule);border-right:4px solid var(--cedar)}
+html[dir="rtl"] .d-conf{border-left:0;border-right:3px solid var(--diesel)}
+html[dir="rtl"] .mp-more p.mp-left{border-left:0;border-right:3px solid var(--mw-w23)}
+html[dir="rtl"] .d-conf ul,html[dir="rtl"] .yc-life,html[dir="rtl"] .about ul,html[dir="rtl"] .about ol,html[dir="rtl"] .insights ol{padding-left:0;padding-right:20px}
+html[dir="rtl"] .lnk,html[dir="rtl"] .mp-place,html[dir="rtl"] .mp-li,html[dir="rtl"] .cn-ev{text-align:start}
+@media (min-width:681px){html[dir="rtl"] .ycard{right:auto;left:16px}}
+/* long translated option labels must not widen the page (French: "Administration centrale de la statistique") */
+.d-filters .sel{min-width:0;max-width:100%}
+.d-filters select{max-width:100%;min-width:0;text-overflow:ellipsis}
+@media (max-width:640px){.d-filters .sel{display:flex;flex-wrap:wrap;gap:4px 8px}.d-filters .sel select{flex:1 1 100%}}
+
+/* skip link (FE-D): first Tab stop, visible on focus */
+.skip{position:absolute;inset-inline-start:8px;top:-80px;z-index:1000;background:var(--cedar);color:var(--on-strong);font:600 14px/1 var(--display);padding:10px 14px;border-radius:6px;text-decoration:none}
+.skip:focus{top:8px;outline:2px solid var(--ink);outline-offset:2px}
+
+/* download status (viewer confirmations) */
+.dl-note{position:fixed;inset-inline-end:16px;bottom:16px;z-index:70;max-width:min(92vw,360px);background:var(--ink);color:var(--paper);font:13.5px/1.4 var(--body);padding:10px 14px;border-radius:6px;box-shadow:0 6px 20px var(--shadow)}
+.dl-note[hidden]{display:none}
+/* v8: hollow dots for filled values, dashed estimate segments, shaded zones (hubLine) */
+.hc-fl{fill:var(--paper);stroke-width:1.4;pointer-events:none}
+.hc-est{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.hc-est.dim{opacity:.3}
+.hc-zone{fill:var(--stone);opacity:.55;pointer-events:none}
+.hc-zt{fill:var(--ink-2)}
+.hc-fn{display:block;font-size:11.5px;color:var(--ink-2);font-weight:400;margin-inline-start:14px;max-width:30ch;white-space:normal;overflow-wrap:anywhere}
+.fb-fillnote{display:flex;gap:6px;align-items:center;font-size:12.5px}
+.fb-fillnote svg{flex:none}

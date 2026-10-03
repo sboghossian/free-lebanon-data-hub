@@ -1,0 +1,838 @@
+{
+ "%": {
+  "ar": "٪",
+  "fr": "%"
+ },
+ "% change over 12 months, computed from the monthly index": {
+  "ar": "التغيّر خلال ١٢ شهراً بالنسبة المئوية، محسوب من المؤشر الشهري",
+  "fr": "variation sur 12 mois en %, calculée à partir de l'indice mensuel"
+ },
+ "% of government revenue": {
+  "ar": "٪ من إيرادات الحكومة",
+  "fr": "% des recettes de l'État"
+ },
+ "%, 2010 to 2019": {
+  "ar": "٪، من ٢٠١٠ إلى ٢٠١٩",
+  "fr": "%, de 2010 à 2019"
+ },
+ "10 A": {
+  "ar": "١٠ أمبير",
+  "fr": "10 A"
+ },
+ "15,000": {
+  "ar": "١٥٬٠٠٠",
+  "fr": "15 000"
+ },
+ "1950 to 1959 comes from the Penn World Table, 1960 on from the World Bank.": {
+  "ar": "تأتي بيانات ١٩٥٠ إلى ١٩٥٩ من جداول بن العالمية، وما بعد ١٩٦٠ من البنك الدولي.",
+  "fr": "1950 à 1959 vient des Penn World Table, 1960 et après de la Banque mondiale."
+ },
+ "20 L canisters of petrol 95 that one month of the minimum wage buys": {
+  "ar": "عدد صفائح البنزين ٩٥ (٢٠ ليتراً) التي يشتريها الحد الأدنى للأجور في الشهر",
+  "fr": "bidons d'essence 95 (20 L) qu'un mois de salaire minimum permet d'acheter"
+ },
+ "2019": {
+  "ar": "٢٠١٩",
+  "fr": "2019"
+ },
+ "2026": {
+  "ar": "٢٠٢٦",
+  "fr": "2026"
+ },
+ "2026 vs 2019": {
+  "ar": "٢٠٢٦ مقابل ٢٠١٩",
+  "fr": "2026 par rapport à 2019"
+ },
+ "5 A": {
+  "ar": "٥ أمبير",
+  "fr": "5 A"
+ },
+ "89,500": {
+  "ar": "٨٩٬٥٠٠",
+  "fr": "89 500"
+ },
+ "Add": {
+  "ar": "أضف",
+  "fr": "Ajouter"
+ },
+ "Alcohol and tobacco": {
+  "ar": "الكحول والتبغ",
+  "fr": "Alcool et tabac"
+ },
+ "All items": {
+  "ar": "كل البنود",
+  "fr": "Tous les postes"
+ },
+ "All series": {
+  "ar": "كل السلاسل",
+  "fr": "Toutes les séries"
+ },
+ "All-items price index by region": {
+  "ar": "مؤشر الأسعار العام بحسب المنطقة",
+  "fr": "Indice général des prix par région"
+ },
+ "Arrears": {
+  "ar": "المتأخرات",
+  "fr": "Arriérés"
+ },
+ "At the market rate": {
+  "ar": "بسعر السوق",
+  "fr": "Au taux du marché"
+ },
+ "At the official rate": {
+  "ar": "بالسعر الرسمي",
+  "fr": "Au taux officiel"
+ },
+ "At the official rate, to September 2019": {
+  "ar": "بالسعر الرسمي، حتى أيلول ٢٠١٩",
+  "fr": "Au taux officiel, jusqu'en septembre 2019"
+ },
+ "Bank rate for dollar deposits": {
+  "ar": "سعر المصارف لودائع الدولار",
+  "fr": "Taux bancaire des dépôts en dollars"
+ },
+ "Banks before the crisis": {
+  "ar": "المصارف قبل الأزمة",
+  "fr": "Les banques avant la crise"
+ },
+ "Beirut": {
+  "ar": "بيروت",
+  "fr": "Beyrouth"
+ },
+ "Bekaa": {
+  "ar": "البقاع",
+  "fr": "Békaa"
+ },
+ "Bread bundle in US dollars": {
+  "ar": "ربطة الخبز بالدولار الأميركي",
+  "fr": "Paquet de pain en dollars américains"
+ },
+ "Bread bundle in pounds": {
+  "ar": "ربطة الخبز بالليرة",
+  "fr": "Paquet de pain en livres libanaises"
+ },
+ "Bread bundles, medium size (2022 on)": {
+  "ar": "ربطات الخبز، الحجم المتوسط (من ٢٠٢٢)",
+  "fr": "Paquets de pain, taille moyenne (depuis 2022)"
+ },
+ "Bread bundles, standard size (to 2021)": {
+  "ar": "ربطات الخبز، الحجم العادي (حتى ٢٠٢١)",
+  "fr": "Paquets de pain, taille standard (jusqu'en 2021)"
+ },
+ "Budget laws": {
+  "ar": "قوانين الموازنة",
+  "fr": "Lois de finances"
+ },
+ "Budgets, public debt, central bank reserves and banks. Pound amounts after 2019 are nominal at a moving exchange rate: compare them across years only with care, or use the percent-of-GDP and dollar series.": {
+  "ar": "الموازنات والدين العام واحتياطيات المصرف المركزي والمصارف. المبالغ بالليرة بعد ٢٠١٩ اسمية بسعر صرف متحرك: قارنها بين السنوات بحذر، أو استعمل سلاسل النسبة إلى الناتج والدولار.",
+  "fr": "Budgets, dette publique, réserves de la banque centrale et banques. Les montants en livres après 2019 sont nominaux à un taux de change mouvant : à comparer d'une année à l'autre avec prudence, ou utiliser les séries en % du PIB et en dollars."
+ },
+ "Bundle weights change between decisions, so compare a series with itself, not with another bundle.": {
+  "ar": "تتغير أوزان الربطات بين قرار وآخر، فقارن السلسلة بنفسها لا بربطة أخرى.",
+  "fr": "Le poids des paquets change d'une décision à l'autre : comparez une série avec elle-même, pas avec un autre paquet."
+ },
+ "Canisters per month": {
+  "ar": "صفائح في الشهر",
+  "fr": "Bidons par mois"
+ },
+ "Capital to risk-weighted assets": {
+  "ar": "رأس المال إلى الأصول المرجّحة بالمخاطر",
+  "fr": "Fonds propres rapportés aux actifs pondérés"
+ },
+ "Categories": {
+  "ar": "الفئات",
+  "fr": "Catégories"
+ },
+ "Central bank reserves": {
+  "ar": "احتياطيات المصرف المركزي",
+  "fr": "Réserves de la banque centrale"
+ },
+ "Central bank reserves with gold": {
+  "ar": "احتياطيات المصرف المركزي مع الذهب",
+  "fr": "Réserves de la banque centrale, or compris"
+ },
+ "Change since December {y}": {
+  "ar": "التغيّر منذ كانون الأول {y}",
+  "fr": "Variation depuis décembre {y}"
+ },
+ "Chosen series": {
+  "ar": "السلاسل المختارة",
+  "fr": "Séries choisies"
+ },
+ "Clothing and shoes": {
+  "ar": "الملابس والأحذية",
+  "fr": "Vêtements et chaussures"
+ },
+ "Communication": {
+  "ar": "الاتصالات",
+  "fr": "Communication"
+ },
+ "Compare any series": {
+  "ar": "قارن أي سلسلة",
+  "fr": "Comparer des séries"
+ },
+ "Compare prices now with": {
+  "ar": "قارن الأسعار الآن مع",
+  "fr": "Comparer les prix actuels à"
+ },
+ "Correlation of the first two series on yearly values: r = {r} over {n} shared years. A correlation is not a cause: series that both rise over time correlate strongly.": {
+  "ar": "ارتباط أول سلسلتين على القيم السنوية: r = {r} على {n} سنة مشتركة. الارتباط ليس سبباً: السلسلتان اللتان ترتفعان معاً مع الزمن ترتبطان بقوة.",
+  "fr": "Corrélation des deux premières séries sur les valeurs annuelles : r = {r} sur {n} années communes. Une corrélation n'est pas une cause : deux séries qui montent avec le temps sont fortement corrélées."
+ },
+ "Dated events": {
+  "ar": "أحداث مؤرّخة",
+  "fr": "Événements datés"
+ },
+ "Debt service": {
+  "ar": "خدمة الدين",
+  "fr": "Service de la dette"
+ },
+ "December {y}": {
+  "ar": "كانون الأول {y}",
+  "fr": "Décembre {y}"
+ },
+ "Deficit": {
+  "ar": "العجز",
+  "fr": "Déficit"
+ },
+ "Deposits in commercial banks": {
+  "ar": "الودائع في المصارف التجارية",
+  "fr": "Dépôts dans les banques commerciales"
+ },
+ "Derived from Ministry of Finance pound amounts at its end-of-period rate. Principal is US$31.3 billion.": {
+  "ar": "مشتق من مبالغ وزارة المالية بالليرة بسعر الصرف في نهاية الفترة. أصل الدين ٣١٫٣ مليار دولار.",
+  "fr": "Dérivé des montants en livres du ministère des Finances au taux de fin de période. Le principal est de 31,3 milliards de dollars."
+ },
+ "Diesel": {
+  "ar": "المازوت",
+  "fr": "Diesel"
+ },
+ "Diesel, 20 L canisters": {
+  "ar": "المازوت، صفائح ٢٠ ليتراً",
+  "fr": "Diesel, bidons de 20 L"
+ },
+ "Eurobond default": {
+  "ar": "التخلف عن سندات اليوروبوند",
+  "fr": "Défaut sur les eurobonds"
+ },
+ "Eurobonds": {
+  "ar": "سندات اليوروبوند",
+  "fr": "Eurobonds"
+ },
+ "Eurobonds incl. interest": {
+  "ar": "سندات اليوروبوند مع الفوائد",
+  "fr": "Eurobonds, intérêts compris"
+ },
+ "Eurobonds outstanding": {
+  "ar": "سندات اليوروبوند القائمة",
+  "fr": "Eurobonds en circulation"
+ },
+ "Every series in the three cost and money files, with its unit, span, licence and a CSV download.": {
+  "ar": "كل سلسلة في ملفات الكلفة والمال الثلاثة، مع وحدتها ومداها وترخيصها وتنزيل CSV.",
+  "fr": "Toutes les séries des trois fichiers coût de la vie et argent, avec unité, période, licence et téléchargement CSV."
+ },
+ "Exchange rate": {
+  "ar": "سعر الصرف",
+  "fr": "Taux de change"
+ },
+ "Expenditure": {
+  "ar": "النفقات",
+  "fr": "Dépenses"
+ },
+ "External debt": {
+  "ar": "الدين الخارجي",
+  "fr": "Dette extérieure"
+ },
+ "Food and drink": {
+  "ar": "الغذاء والشراب",
+  "fr": "Alimentation et boissons"
+ },
+ "Food, housing, transport and health": {
+  "ar": "الغذاء والسكن والنقل والصحة",
+  "fr": "Alimentation, logement, transport et santé"
+ },
+ "Foreign-currency deposits, weekly": {
+  "ar": "ودائع العملات الأجنبية، أسبوعياً",
+  "fr": "Dépôts en devises, hebdomadaires"
+ },
+ "Foreign-currency loans, % of loans": {
+  "ar": "القروض بالعملات الأجنبية، ٪ من القروض",
+  "fr": "Prêts en devises, % des prêts"
+ },
+ "Fuel prices in pounds": {
+  "ar": "أسعار الوقود بالليرة",
+  "fr": "Prix des carburants en livres"
+ },
+ "Furnishings and home upkeep": {
+  "ar": "الأثاث وصيانة المنزل",
+  "fr": "Ameublement et entretien du logement"
+ },
+ "Gas cylinder": {
+  "ar": "قارورة الغاز",
+  "fr": "Bouteille de gaz"
+ },
+ "Gas cylinders, 10 kg": {
+  "ar": "قوارير الغاز، ١٠ كلغ",
+  "fr": "Bouteilles de gaz, 10 kg"
+ },
+ "Generator subscription": {
+  "ar": "اشتراك المولّد",
+  "fr": "Abonnement au générateur"
+ },
+ "Generator subscription in US dollars": {
+  "ar": "اشتراك المولّد بالدولار",
+  "fr": "Abonnement au générateur en dollars"
+ },
+ "Gross debt, IMF": {
+  "ar": "الدين الإجمالي، صندوق النقد الدولي",
+  "fr": "Dette brute, FMI"
+ },
+ "Gross debt, Ministry of Finance": {
+  "ar": "الدين الإجمالي، وزارة المالية",
+  "fr": "Dette brute, ministère des Finances"
+ },
+ "Gross domestic product": {
+  "ar": "الناتج المحلي الإجمالي",
+  "fr": "Produit intérieur brut"
+ },
+ "Gross public debt, % of GDP": {
+  "ar": "الدين العام الإجمالي، ٪ من الناتج",
+  "fr": "Dette publique brute, % du PIB"
+ },
+ "Household gas cylinder (10 kg)": {
+  "ar": "قارورة الغاز المنزلية (١٠ كلغ)",
+  "fr": "Bouteille de gaz domestique (10 kg)"
+ },
+ "Housing, water, electricity, fuels": {
+  "ar": "السكن والمياه والكهرباء والوقود",
+  "fr": "Logement, eau, électricité, combustibles"
+ },
+ "How much prices have risen": {
+  "ar": "كم ارتفعت الأسعار",
+  "fr": "De combien les prix ont augmenté"
+ },
+ "IMF World Economic Outlook, {y}": {
+  "ar": "آفاق الاقتصاد العالمي، صندوق النقد الدولي، {y}",
+  "fr": "Perspectives de l'économie mondiale du FMI, {y}"
+ },
+ "IMF figures for recent years are estimates; the vintage is not labelled in the API.": {
+  "ar": "أرقام صندوق النقد للسنوات الأخيرة تقديرية، ولا تحمل واجهة البيانات تاريخ الإصدار.",
+  "fr": "Les chiffres du FMI pour les années récentes sont des estimations ; la version n'est pas indiquée dans l'API."
+ },
+ "IMF series carry the IMF terms of use; World Bank series are CC BY 4.0; Ministry of Finance and bank-association figures state no licence. Left out: commercial price histories (Bloomberg, CEIC).": {
+  "ar": "تخضع سلاسل صندوق النقد لشروط استخدامه، وسلاسل البنك الدولي مرخّصة CC BY 4.0، ولا تذكر أرقام وزارة المالية وجمعية المصارف ترخيصاً. وتُركت جانباً سلاسل الأسعار التجارية (بلومبرغ، CEIC).",
+  "fr": "Les séries du FMI suivent ses conditions d'utilisation ; celles de la Banque mondiale sont en CC BY 4.0 ; les chiffres du ministère des Finances et de l'association des banques n'indiquent pas de licence. Écartés : historiques de prix commerciaux (Bloomberg, CEIC)."
+ },
+ "IMF, {d}": {
+  "ar": "صندوق النقد الدولي، {d}",
+  "fr": "FMI, {d}"
+ },
+ "In US dollars, January 2012": {
+  "ar": "بالدولار الأميركي، كانون الثاني ٢٠١٢",
+  "fr": "En dollars américains, janvier 2012"
+ },
+ "In US dollars, market rate": {
+  "ar": "بالدولار الأميركي، بسعر السوق",
+  "fr": "En dollars américains, au taux du marché"
+ },
+ "In {y} the minimum wage was worth about ${v} at the market rate.": {
+  "ar": "في {y} كان الحد الأدنى للأجور يساوي نحو ${v} بسعر السوق.",
+  "fr": "En {y}, le salaire minimum valait environ {v} $ au taux du marché."
+ },
+ "Index to 100 at the first date they share": {
+  "ar": "مؤشر ١٠٠ عند أول تاريخ مشترك",
+  "fr": "Indice 100 à la première date commune"
+ },
+ "Index, 100 at the first shared date": {
+  "ar": "مؤشر، ١٠٠ عند أول تاريخ مشترك",
+  "fr": "Indice, 100 à la première date commune"
+ },
+ "Interest payments": {
+  "ar": "مدفوعات الفوائد",
+  "fr": "Paiements d'intérêts"
+ },
+ "Interest, % of revenue": {
+  "ar": "الفوائد، ٪ من الإيرادات",
+  "fr": "Intérêts, % des recettes"
+ },
+ "Item": {
+  "ar": "البند",
+  "fr": "Poste"
+ },
+ "Kerosene (to 2017)": {
+  "ar": "الكاز (حتى ٢٠١٧)",
+  "fr": "Kérosène (jusqu'en 2017)"
+ },
+ "LBP": {
+  "ar": "ليرة",
+  "fr": "LBP"
+ },
+ "LBP billion, as voted": {
+  "ar": "مليار ليرة، كما أُقرّت",
+  "fr": "milliards de LBP, tels que votés"
+ },
+ "LBP per 20 L canister, weekly, log scale": {
+  "ar": "ليرة لكل صفيحة ٢٠ ليتراً، أسبوعياً، مقياس لوغاريتمي",
+  "fr": "LBP par bidon de 20 L, hebdomadaire, échelle logarithmique"
+ },
+ "LBP per US dollar": {
+  "ar": "ليرة لكل دولار أميركي",
+  "fr": "LBP pour un dollar américain"
+ },
+ "LBP per US dollar, annual average, log scale": {
+  "ar": "ليرة لكل دولار أميركي، المتوسط السنوي، مقياس لوغاريتمي",
+  "fr": "LBP pour un dollar américain, moyenne annuelle, échelle logarithmique"
+ },
+ "LBP per US dollar, monthly, 2012 to 2026": {
+  "ar": "ليرة لكل دولار أميركي، شهرياً، من ٢٠١٢ إلى ٢٠٢٦",
+  "fr": "LBP pour un dollar américain, mensuel, 2012 à 2026"
+ },
+ "LBP per US dollar, {d}": {
+  "ar": "ليرة لكل دولار أميركي، {d}",
+  "fr": "LBP pour un dollar américain, {d}"
+ },
+ "LBP per bundle at the bakery, official price decisions, log scale": {
+  "ar": "ليرة لكل ربطة عند الفرن، بحسب قرارات التسعير الرسمية، مقياس لوغاريتمي",
+  "fr": "LBP par paquet à la boulangerie, décisions officielles de prix, échelle logarithmique"
+ },
+ "LBP per month, ministry tariff, 5 A and 10 A": {
+  "ar": "ليرة في الشهر، تعرفة الوزارة، ٥ أمبير و١٠ أمبير",
+  "fr": "LBP par mois, tarif du ministère, 5 A et 10 A"
+ },
+ "Large bundle (2022 to 2024)": {
+  "ar": "ربطة كبيرة (٢٠٢٢ إلى ٢٠٢٤)",
+  "fr": "Grand paquet (2022 à 2024)"
+ },
+ "Lebanon": {
+  "ar": "لبنان",
+  "fr": "Liban"
+ },
+ "Lebanon, index, December 2013 = 100": {
+  "ar": "لبنان، المؤشر، كانون الأول ٢٠١٣ = ١٠٠",
+  "fr": "Liban, indice, décembre 2013 = 100"
+ },
+ "Lebanon, index, December 2013 = 100, log scale": {
+  "ar": "لبنان، المؤشر، كانون الأول ٢٠١٣ = ١٠٠، مقياس لوغاريتمي",
+  "fr": "Liban, indice, décembre 2013 = 100, échelle logarithmique"
+ },
+ "Market rate": {
+  "ar": "سعر السوق",
+  "fr": "Taux du marché"
+ },
+ "Market rate since July 2019": {
+  "ar": "سعر السوق منذ تموز ٢٠١٩",
+  "fr": "Taux du marché depuis juillet 2019"
+ },
+ "Market rate, July 2019": {
+  "ar": "سعر السوق، تموز ٢٠١٩",
+  "fr": "Taux du marché, juillet 2019"
+ },
+ "Medium bundle": {
+  "ar": "ربطة متوسطة",
+  "fr": "Paquet moyen"
+ },
+ "Minimum wage in US dollars": {
+  "ar": "الحد الأدنى للأجور بالدولار الأميركي",
+  "fr": "Salaire minimum en dollars américains"
+ },
+ "Minimum wage today": {
+  "ar": "الحد الأدنى للأجور اليوم",
+  "fr": "Salaire minimum aujourd'hui"
+ },
+ "Ministry of Energy and Water price tables. The pound price is converted at the monthly market rate.": {
+  "ar": "جداول أسعار وزارة الطاقة والمياه. يُحوَّل سعر الليرة بسعر السوق الشهري.",
+  "fr": "Tableaux de prix du ministère de l'Énergie et de l'Eau. Le prix en livres est converti au taux mensuel du marché."
+ },
+ "Ministry of Finance, end {y}": {
+  "ar": "وزارة المالية، نهاية {y}",
+  "fr": "Ministère des Finances, fin {y}"
+ },
+ "Month-on-month change, all items": {
+  "ar": "التغيّر الشهري، كل البنود",
+  "fr": "Variation mensuelle, tous postes"
+ },
+ "Months for November 2022, December 2024 and March 2026 have lower confidence. The 2026 figure is decided, not necessarily paid.": {
+  "ar": "أشهر تشرين الثاني ٢٠٢٢ وكانون الأول ٢٠٢٤ وآذار ٢٠٢٦ أقل ثقة. رقم ٢٠٢٦ مقرَّر وليس بالضرورة مدفوعاً.",
+  "fr": "Les mois de novembre 2022, décembre 2024 et mars 2026 sont moins fiables. Le chiffre de 2026 est décidé, pas forcément versé."
+ },
+ "Months of a 5 A generator subscription": {
+  "ar": "أشهر من اشتراك مولّد ٥ أمبير",
+  "fr": "Mois d'abonnement à un générateur de 5 A"
+ },
+ "Mount Lebanon": {
+  "ar": "جبل لبنان",
+  "fr": "Mont-Liban"
+ },
+ "Multiple": {
+  "ar": "المضاعف",
+  "fr": "Multiple"
+ },
+ "Nabatieh": {
+  "ar": "النبطية",
+  "fr": "Nabatié"
+ },
+ "Net debt, IMF": {
+  "ar": "الدين الصافي، صندوق النقد الدولي",
+  "fr": "Dette nette, FMI"
+ },
+ "New rent": {
+  "ar": "الإيجار الجديد",
+  "fr": "Loyer nouveau"
+ },
+ "No market-rate conversion is on record for {y}.": {
+  "ar": "لا يوجد تحويل بسعر السوق مسجّل لعام {y}.",
+  "fr": "Aucune conversion au taux du marché n'est enregistrée pour {y}."
+ },
+ "Nominal pounds: the pound lost most of its value from 2019, so later laws are not comparable with earlier ones. No budget law was found for 1993 to 1997, 2006 to 2017 and 2021.": {
+  "ar": "ليرات اسمية: فقدت الليرة معظم قيمتها منذ ٢٠١٩، فلا تقارَن القوانين اللاحقة بالسابقة. ولم يُعثر على قانون موازنة للأعوام ١٩٩٣ إلى ١٩٩٧ و٢٠٠٦ إلى ٢٠١٧ و٢٠٢١.",
+  "fr": "Livres nominales : la livre a perdu l'essentiel de sa valeur depuis 2019, les lois récentes ne sont donc pas comparables aux anciennes. Aucune loi de finances n'a été trouvée pour 1993 à 1997, 2006 à 2017 et 2021."
+ },
+ "Non-performing loans, % of loans": {
+  "ar": "القروض المتعثرة، ٪ من القروض",
+  "fr": "Prêts non performants, % des prêts"
+ },
+ "Non-resident": {
+  "ar": "غير المقيمين",
+  "fr": "Non-résidents"
+ },
+ "North": {
+  "ar": "الشمال",
+  "fr": "Nord"
+ },
+ "Not enough shared years to compute a correlation.": {
+  "ar": "لا تكفي السنوات المشتركة لحساب الارتباط.",
+  "fr": "Pas assez d'années communes pour calculer une corrélation."
+ },
+ "Nothing chosen yet: use Add on a series above.": {
+  "ar": "لم يُختر شيء بعد: استعمل «أضف» على سلسلة أعلاه.",
+  "fr": "Rien n'est choisi : utilisez Ajouter sur une série ci-dessus."
+ },
+ "Official and market rate": {
+  "ar": "السعر الرسمي وسعر السوق",
+  "fr": "Taux officiel et taux du marché"
+ },
+ "Official peg": {
+  "ar": "الربط الرسمي",
+  "fr": "Parité officielle"
+ },
+ "Official rate": {
+  "ar": "السعر الرسمي",
+  "fr": "Taux officiel"
+ },
+ "Official rate, 1950 to 2025": {
+  "ar": "السعر الرسمي، من ١٩٥٠ إلى ٢٠٢٥",
+  "fr": "Taux officiel, 1950 à 2025"
+ },
+ "Old rent": {
+  "ar": "الإيجار القديم",
+  "fr": "Loyer ancien"
+ },
+ "Other goods and services": {
+  "ar": "سلع وخدمات أخرى",
+  "fr": "Autres biens et services"
+ },
+ "Overall balance": {
+  "ar": "الرصيد الإجمالي",
+  "fr": "Solde global"
+ },
+ "Owner-occupied": {
+  "ar": "السكن المملوك",
+  "fr": "Occupé par le propriétaire"
+ },
+ "Petrol 95": {
+  "ar": "بنزين ٩٥",
+  "fr": "Essence 95"
+ },
+ "Petrol 95, 20 L canisters": {
+  "ar": "بنزين ٩٥، صفائح ٢٠ ليتراً",
+  "fr": "Essence 95, bidons de 20 L"
+ },
+ "Petrol and diesel in US dollars": {
+  "ar": "البنزين والمازوت بالدولار الأميركي",
+  "fr": "Essence et diesel en dollars américains"
+ },
+ "Petrol canisters per minimum wage": {
+  "ar": "صفائح البنزين لكل حد أدنى للأجور",
+  "fr": "Bidons d'essence par salaire minimum"
+ },
+ "Pick any of the series the Lebanese tabs publish, put up to six on one chart, and compare how they moved. Series with different units are shown as an index, so you compare change and never two axes.": {
+  "ar": "اختر أي سلسلة من السلاسل التي تنشرها التبويبات اللبنانية، وضع حتى ست منها في رسم واحد، وقارن كيف تحركت. تُعرض السلاسل المختلفة الوحدات كمؤشر، فتقارن التغيّر ولا يوجد محوران أبداً.",
+  "fr": "Choisissez parmi les séries publiées par les onglets libanais, placez-en jusqu'à six sur un même graphique et comparez leur évolution. Les séries d'unités différentes sont montrées en indice : on compare la variation, jamais deux axes."
+ },
+ "Pound balances are converted at the legal rate (89,500 from 2024), an accounting value rather than a market one.": {
+  "ar": "تُحوَّل أرصدة الليرة بالسعر القانوني (٨٩٬٥٠٠ منذ ٢٠٢٤)، وهو قيمة محاسبية لا قيمة سوقية.",
+  "fr": "Les soldes en livres sont convertis au taux légal (89 500 depuis 2024), une valeur comptable plutôt que de marché."
+ },
+ "Prices by category": {
+  "ar": "الأسعار بحسب الفئة",
+  "fr": "Prix par catégorie"
+ },
+ "Primary balance": {
+  "ar": "الرصيد الأولي",
+  "fr": "Solde primaire"
+ },
+ "Public and publicly guaranteed": {
+  "ar": "العام والمضمون من الدولة",
+  "fr": "Public et garanti par l'État"
+ },
+ "Public pay as a multiple of the 2019 base": {
+  "ar": "الأجور العامة كمضاعف لأساس ٢٠١٩",
+  "fr": "Rémunération publique en multiple de la base 2019"
+ },
+ "Recreation and culture": {
+  "ar": "الترفيه والثقافة",
+  "fr": "Loisirs et culture"
+ },
+ "Remove {s}": {
+  "ar": "أزل {s}",
+  "fr": "Retirer {s}"
+ },
+ "Rent": {
+  "ar": "الإيجار",
+  "fr": "Loyer"
+ },
+ "Resident deposits in banks": {
+  "ar": "ودائع المقيمين في المصارف",
+  "fr": "Dépôts des résidents dans les banques"
+ },
+ "Resident foreign-currency deposits": {
+  "ar": "ودائع المقيمين بالعملات الأجنبية",
+  "fr": "Dépôts des résidents en devises"
+ },
+ "Resident, all currencies": {
+  "ar": "المقيمون، كل العملات",
+  "fr": "Résidents, toutes devises"
+ },
+ "Resident, foreign currency": {
+  "ar": "المقيمون، عملة أجنبية",
+  "fr": "Résidents, devises"
+ },
+ "Restaurants and hotels": {
+  "ar": "المطاعم والفنادق",
+  "fr": "Restaurants et hôtels"
+ },
+ "Revenue": {
+  "ar": "الإيرادات",
+  "fr": "Recettes"
+ },
+ "Revenue and spending": {
+  "ar": "الإيرادات والإنفاق",
+  "fr": "Recettes et dépenses"
+ },
+ "Sayrafa": {
+  "ar": "صيرفة",
+  "fr": "Sayrafa"
+ },
+ "Sayrafa (dated points)": {
+  "ar": "صيرفة (نقاط مؤرّخة)",
+  "fr": "Sayrafa (points datés)"
+ },
+ "Sayrafa is a sparse sample: the central bank website blocks automated downloads, so the full daily file is not included.": {
+  "ar": "صيرفة عيّنة متفرقة: موقع المصرف المركزي يحجب التنزيل الآلي، لذا لا يشمل الملف اليومي الكامل.",
+  "fr": "Sayrafa est un échantillon épars : le site de la banque centrale bloque les téléchargements automatisés, le fichier quotidien complet n'est donc pas inclus."
+ },
+ "Search sub-classes": {
+  "ar": "ابحث في البنود الفرعية",
+  "fr": "Chercher dans les sous-classes"
+ },
+ "Series": {
+  "ar": "السلسلة",
+  "fr": "Série"
+ },
+ "Source and licence are the page linked on each line; the compilation is CC BY-SA 4.0.": {
+  "ar": "المصدر والترخيص في الصفحة المرتبطة بكل سطر؛ والتجميع مرخّص CC BY-SA 4.0.",
+  "fr": "La source et la licence sont celles de la page liée sur chaque ligne ; la compilation est en CC BY-SA 4.0."
+ },
+ "South": {
+  "ar": "الجنوب",
+  "fr": "Sud"
+ },
+ "Standard bundle (to 2021)": {
+  "ar": "ربطة عادية (حتى ٢٠٢١)",
+  "fr": "Paquet standard (jusqu'en 2021)"
+ },
+ "Sub-class": {
+  "ar": "البند الفرعي",
+  "fr": "Sous-classe"
+ },
+ "Sub-class indices were re-based in the source and some reach millions, so extreme changes below can be artefacts of re-basing. Check them against the division index above.": {
+  "ar": "أُعيدت معايرة المؤشرات الفرعية في المصدر وبلغ بعضها الملايين، لذا قد تكون التغيّرات المتطرفة أدناه من آثار إعادة المعايرة. قارنها بمؤشر القسم أعلاه.",
+  "fr": "Les indices des sous-classes ont été rebasés à la source et certains atteignent des millions : les variations extrêmes ci-dessous peuvent être des artefacts du rebasage. Comparez-les à l'indice de la division ci-dessus."
+ },
+ "Sub-classes": {
+  "ar": "البنود الفرعية",
+  "fr": "Sous-classes"
+ },
+ "The Central Administration of Statistics consumer price index, base December 2013 = 100. It is published from January 2014, by division, by region and for 101 sub-classes.": {
+  "ar": "مؤشر أسعار المستهلك الذي تنشره الإدارة المركزية للإحصاء، أساسه كانون الأول ٢٠١٣ = ١٠٠. يصدر من كانون الثاني ٢٠١٤ بحسب القسم والمنطقة و١٠١ بنداً فرعياً.",
+  "fr": "L'indice des prix à la consommation de l'Administration centrale de la statistique, base décembre 2013 = 100. Il est publié depuis janvier 2014, par division, par région et pour 101 sous-classes."
+ },
+ "The central bank changed the definition of foreign-currency reserves in January 2024, so the later bank-association series is not comparable.": {
+  "ar": "غيّر المصرف المركزي تعريف احتياطي العملات الأجنبية في كانون الثاني ٢٠٢٤، فلا تُقارَن سلسلة جمعية المصارف اللاحقة به.",
+  "fr": "La banque centrale a changé la définition des réserves en devises en janvier 2024 ; la série ultérieure de l'association des banques n'est donc pas comparable."
+ },
+ "The decree minimum for private-sector workers, converted at the monthly rate. After October 2019 the official rate is not what people paid, so the official-rate line stops there. In 2020 to 2023 a monthly market rate can be 10 to 15% off the rate on a given day, so the dollar value is approximate.": {
+  "ar": "الحد الأدنى بالمرسوم للعاملين في القطاع الخاص، محوّلاً بالسعر الشهري. وبعد تشرين الأول ٢٠١٩ لم يعد السعر الرسمي ما يدفعه الناس، لذا يتوقف خط السعر الرسمي عندها. وفي ٢٠٢٠ إلى ٢٠٢٣ قد يبعد سعر السوق الشهري ١٠ إلى ١٥٪ عن سعر يوم معيّن، فالقيمة بالدولار تقريبية.",
+  "fr": "Le minimum fixé par décret pour le secteur privé, converti au taux mensuel. Après octobre 2019, le taux officiel n'est plus ce que les gens payaient : la courbe au taux officiel s'arrête donc là. De 2020 à 2023, un taux mensuel du marché peut s'écarter de 10 à 15 % du taux d'un jour donné : la valeur en dollars est approximative."
+ },
+ "The decree minimum wage divided by the price at mid-year. Prices are the ministry and bakery listings in the series below; an item is left out in years with no price on record.": {
+  "ar": "الحد الأدنى للأجور بالمرسوم مقسوماً على السعر في منتصف السنة. الأسعار من قوائم الوزارة والأفران في السلاسل أدناه؛ ويُستبعد البند في السنوات التي لا سعر مسجّلاً لها.",
+  "fr": "Le salaire minimum fixé par décret divisé par le prix en milieu d'année. Les prix viennent des listes du ministère et des boulangeries dans les séries ci-dessous ; un poste est écarté les années sans prix enregistré."
+ },
+ "The index was set to 100 in December 2013 in each region, so levels compare how fast prices rose, not how expensive each region is.": {
+  "ar": "ضُبط المؤشر على ١٠٠ في كانون الأول ٢٠١٣ في كل منطقة، فتقارن المستويات سرعة ارتفاع الأسعار لا غلاء كل منطقة.",
+  "fr": "L'indice a été fixé à 100 en décembre 2013 dans chaque région : les niveaux comparent la vitesse de hausse des prix, pas le coût de la vie de chaque région."
+ },
+ "The market rate is the national monthly median of the World Bank Real Time Prices survey, partly estimated by the World Bank. The official rate is the regime value set by the central bank.": {
+  "ar": "سعر السوق هو الوسيط الشهري الوطني لمسح الأسعار الآنية للبنك الدولي، وبعضه مقدَّر من البنك الدولي. والسعر الرسمي هو قيمة النظام التي حددها المصرف المركزي.",
+  "fr": "Le taux du marché est la médiane mensuelle nationale de l'enquête Real Time Prices de la Banque mondiale, en partie estimée par celle-ci. Le taux officiel est la valeur du régime fixée par la banque centrale."
+ },
+ "The ministry prints the 10 A fee only from August 2024. Per-kWh generator figures are not charted: the source column is not clearly labelled.": {
+  "ar": "تطبع الوزارة رسم ١٠ أمبير منذ آب ٢٠٢٤ فقط. ولا تُرسم أرقام المولّدات للكيلوواط ساعة لأن عنوان العمود في المصدر غير واضح.",
+  "fr": "Le ministère n'imprime le tarif 10 A qu'à partir d'août 2024. Les chiffres par kWh des générateurs ne sont pas tracés : la colonne source n'est pas clairement intitulée."
+ },
+ "The ministry table has holes (for example May to August 2024); the line joins the nearest published prices.": {
+  "ar": "في جدول الوزارة ثغرات (مثلاً من أيار إلى آب ٢٠٢٤)؛ ويصل الخط بين أقرب الأسعار المنشورة.",
+  "fr": "Le tableau du ministère a des trous (par exemple mai à août 2024) ; la courbe relie les prix publiés les plus proches."
+ },
+ "The official rate was held at 1,507.5 pounds to the dollar from December 1997 to January 2023. From 2019 Lebanon had several rates at once: the official peg, the bank rate for dollar deposits (the \"lollar\"), the Sayrafa platform and the market. They were merged step by step between 2023 and 2024.": {
+  "ar": "ثبّت المصرف المركزي السعر الرسمي عند ١٬٥٠٧٫٥ ليرة للدولار من كانون الأول ١٩٩٧ إلى كانون الثاني ٢٠٢٣. ومنذ ٢٠١٩ عرف لبنان عدة أسعار في آن واحد: الربط الرسمي، وسعر المصارف لودائع الدولار («اللولار»)، ومنصة صيرفة، والسوق. ووُحّدت تدريجياً بين ٢٠٢٣ و٢٠٢٤.",
+  "fr": "Le taux officiel a été maintenu à 1 507,5 livres pour un dollar de décembre 1997 à janvier 2023. À partir de 2019, le Liban a connu plusieurs taux à la fois : la parité officielle, le taux bancaire des dépôts en dollars (le « lollar »), la plateforme Sayrafa et le marché. Ils ont été fusionnés progressivement entre 2023 et 2024."
+ },
+ "The other rates, 2020 to 2024": {
+  "ar": "الأسعار الأخرى، ٢٠٢٠ إلى ٢٠٢٤",
+  "fr": "Les autres taux, 2020 à 2024"
+ },
+ "Total external debt": {
+  "ar": "إجمالي الدين الخارجي",
+  "fr": "Dette extérieure totale"
+ },
+ "USD at the market rate, weekly": {
+  "ar": "دولار بسعر السوق، أسبوعياً",
+  "fr": "USD au taux du marché, hebdomadaire"
+ },
+ "USD million": {
+  "ar": "مليون دولار",
+  "fr": "millions USD"
+ },
+ "USD million at the legal rate, monthly": {
+  "ar": "مليون دولار بالسعر القانوني، شهرياً",
+  "fr": "millions USD au taux légal, mensuel"
+ },
+ "USD million, incl. accrued interest, end of year": {
+  "ar": "مليون دولار، مع الفوائد المتراكمة، في نهاية السنة",
+  "fr": "millions USD, intérêts courus compris, fin d'année"
+ },
+ "USD million, monthly, 1980 to March 2025": {
+  "ar": "مليون دولار، شهرياً، من ١٩٨٠ إلى آذار ٢٠٢٥",
+  "fr": "millions USD, mensuel, de 1980 à mars 2025"
+ },
+ "USD million, nominal, IMF": {
+  "ar": "مليون دولار، اسمي، صندوق النقد الدولي",
+  "fr": "millions USD, nominal, FMI"
+ },
+ "USD million, resident private sector": {
+  "ar": "مليون دولار، القطاع الخاص المقيم",
+  "fr": "millions USD, secteur privé résident"
+ },
+ "USD per 20 L canister at the market rate, weekly": {
+  "ar": "دولار لكل صفيحة ٢٠ ليتراً بسعر السوق، أسبوعياً",
+  "fr": "USD par bidon de 20 L au taux du marché, hebdomadaire"
+ },
+ "USD per medium bundle at the market rate": {
+  "ar": "دولار لكل ربطة متوسطة بسعر السوق",
+  "fr": "USD par paquet moyen au taux du marché"
+ },
+ "USD per month": {
+  "ar": "دولار في الشهر",
+  "fr": "USD par mois"
+ },
+ "USD per month, 5 A, at the market rate": {
+  "ar": "دولار في الشهر، ٥ أمبير، بسعر السوق",
+  "fr": "USD par mois, 5 A, au taux du marché"
+ },
+ "Wages and prices": {
+  "ar": "الأجور والأسعار",
+  "fr": "Salaires et prix"
+ },
+ "Water, electricity and gas": {
+  "ar": "المياه والكهرباء والغاز",
+  "fr": "Eau, électricité et gaz"
+ },
+ "What a month's minimum wage buys": {
+  "ar": "ماذا يشتري الحد الأدنى للأجور في الشهر",
+  "fr": "Ce qu'un mois de salaire minimum permet d'acheter"
+ },
+ "What things cost in Lebanon: the exchange rate (official and market), bread, fuel, generator subscriptions, the minimum wage in US dollars, prices by category, and the public finances behind them.": {
+  "ar": "كم تكلّف الأشياء في لبنان: سعر الصرف (الرسمي والسوق) والخبز والوقود واشتراكات المولّدات والحد الأدنى للأجور بالدولار والأسعار بحسب الفئة، والمالية العامة وراءها.",
+  "fr": "Ce que les choses coûtent au Liban : taux de change (officiel et marché), pain, carburant, abonnements aux générateurs, salaire minimum en dollars, prix par catégorie, et les finances publiques qui les sous-tendent."
+ },
+ "With gold at market value": {
+  "ar": "مع الذهب بالقيمة السوقية",
+  "fr": "Or compris, à la valeur de marché"
+ },
+ "Without gold": {
+  "ar": "بدون الذهب",
+  "fr": "Hors or"
+ },
+ "Year-on-year inflation by category": {
+  "ar": "التضخم السنوي بحسب الفئة",
+  "fr": "Inflation sur un an par catégorie"
+ },
+ "Your chart": {
+  "ar": "رسمك البياني",
+  "fr": "Votre graphique"
+ },
+ "at the legal rate, {d}": {
+  "ar": "بالسعر القانوني، {d}",
+  "fr": "au taux légal, {d}"
+ },
+ "bn": {
+  "ar": "مليار",
+  "fr": "Md"
+ },
+ "general government, % of GDP": {
+  "ar": "الحكومة العامة، ٪ من الناتج",
+  "fr": "administrations publiques, % du PIB"
+ },
+ "how many times more pounds a dollar costs": {
+  "ar": "كم مرة تضاعفت الليرات اللازمة لشراء دولار",
+  "fr": "combien de fois plus de livres coûte un dollar"
+ },
+ "index": {
+  "ar": "مؤشر",
+  "fr": "indice"
+ },
+ "index, December 2013 = 100, log scale": {
+  "ar": "المؤشر، كانون الأول ٢٠١٣ = ١٠٠، مقياس لوغاريتمي",
+  "fr": "indice, décembre 2013 = 100, échelle logarithmique"
+ },
+ "market rate": {
+  "ar": "سعر السوق",
+  "fr": "taux du marché"
+ },
+ "multiple of the pre-crisis base salary (civil servants, cumulative decisions)": {
+  "ar": "مضاعف الراتب الأساسي قبل الأزمة (موظفو الإدارة، قرارات تراكمية)",
+  "fr": "multiple du salaire de base d'avant la crise (fonctionnaires, décisions cumulées)"
+ },
+ "no price on record": {
+  "ar": "لا سعر مسجّلاً",
+  "fr": "aucun prix enregistré"
+ },
+ "per month, private sector, since {d}": {
+  "ar": "في الشهر، القطاع الخاص، منذ {d}",
+  "fr": "par mois, secteur privé, depuis {d}"
+ },
+ "price level in {d} divided by December {y}": {
+  "ar": "مستوى الأسعار في {d} مقسوماً على كانون الأول {y}",
+  "fr": "niveau des prix en {d} divisé par celui de décembre {y}"
+ },
+ "{a} of {b} series": {
+  "ar": "{a} من {b} سلسلة",
+  "fr": "{a} séries sur {b}"
+ },
+ "filter series_id = {id}": {
+  "ar": "صفِّ حسب series_id = {id}",
+  "fr": "filtrer series_id = {id}"
+ }
+}

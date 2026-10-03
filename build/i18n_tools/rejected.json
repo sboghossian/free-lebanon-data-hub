@@ -1,0 +1,20 @@
+[
+ {
+  "en": "Cuinet says it reported directly to the Interior Ministry, split by Mount Lebanon; by the mid-1890s five sanjaks, 21 cazas, 2,237 villages.",
+  "why": [
+   "ar numbers ['1890', '2237'] vs ['2237']"
+  ]
+ },
+ {
+  "en": "Cuinet says the faculty, subsidised by France, had ten professors and 64 external students by the mid-1890s; Paris examiners gave the doctorate.",
+  "why": [
+   "ar numbers ['1890'] vs []"
+  ]
+ },
+ {
+  "en": "He puts Jazzar's age at 84 at death. Wikipedia's biography places his birth in the 1720s-30s, so the age is doubtful.",
+  "why": [
+   "ar numbers ['1720'] vs ['1720', '1730']"
+  ]
+ }
+]

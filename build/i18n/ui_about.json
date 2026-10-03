@@ -1,0 +1,166 @@
+{
+ "Audit passes, run by agents that did not write the rows, re-read samples against their sources and scan whole files for impossible values. Rows they find wrong are corrected, or dropped if the source contradicts them.": {
+  "ar": "تعيد جولات التدقيق، التي ينفّذها وكلاء لم يكتبوا الصفوف، قراءة عيّنات منها مقابل مصادرها وتفحص ملفات كاملة بحثاً عن قيم مستحيلة. وتُصحَّح الصفوف التي تُكتشف خاطئة، أو تُحذف إذا ناقضها المصدر.",
+  "fr": "Des passes d'audit, menées par des agents qui n'ont pas écrit les lignes, relisent des échantillons face à leurs sources et passent des fichiers entiers au crible à la recherche de valeurs impossibles. Les lignes jugées fausses sont corrigées, ou supprimées si la source les contredit."
+ },
+ "Copied": {
+  "ar": "تم النسخ",
+  "fr": "Copié"
+ },
+ "Copy the citation": {
+  "ar": "انسخ الاستشهاد",
+  "fr": "Copier la citation"
+ },
+ "Cost of living and electricity: exchange rates, bread, fuel, generators, wages, prices by category, supply hours, production and night lights.": {
+  "ar": "كلفة المعيشة والكهرباء: أسعار الصرف والخبز والوقود والمولّدات والأجور والأسعار حسب الفئة وساعات التغذية والإنتاج والأضواء الليلية.",
+  "fr": "Coût de la vie et électricité : taux de change, pain, carburant, générateurs, salaires, prix par catégorie, heures d'alimentation, production et lumières nocturnes."
+ },
+ "Countries and groups": {
+  "ar": "البلدان والمجموعات",
+  "fr": "Pays et groupes"
+ },
+ "Data series": {
+  "ar": "السلاسل الإحصائية",
+  "fr": "Séries de données"
+ },
+ "Data: public Lebanese datasets, long-run series, elections, public money, the 2023 to 2026 war, fires, climate and an index of laws. Every file can be downloaded.": {
+  "ar": "البيانات: مجموعات بيانات لبنانية عامة وسلاسل طويلة الأمد والانتخابات والمال العام وحرب 2023 إلى 2026 والحرائق والمناخ وفهرس للقوانين. يمكن تنزيل كل ملف.",
+  "fr": "Données : jeux de données publics libanais, séries longues, élections, argent public, guerre de 2023 à 2026, incendies, climat et index des lois. Chaque fichier peut être téléchargé."
+ },
+ "Datasets in the catalogue": {
+  "ar": "مجموعات البيانات في الفهرس",
+  "fr": "Jeux de données au catalogue"
+ },
+ "Downloadable files": {
+  "ar": "ملفات قابلة للتنزيل",
+  "fr": "Fichiers téléchargeables"
+ },
+ "How rows are checked": {
+  "ar": "كيف تُراجَع الصفوف",
+  "fr": "Comment les lignes sont vérifiées"
+ },
+ "IMF data keeps the IMF terms of use. NASA fire data is free to use with acknowledgement.": {
+  "ar": "تبقى بيانات صندوق النقد الدولي خاضعة لشروط استخدامه. بيانات حرائق ناسا مجانية الاستخدام مع الإشارة إلى المصدر.",
+  "fr": "Les données du FMI restent soumises aux conditions d'utilisation du FMI. Les données d'incendies de la NASA sont libres d'usage avec mention de la source."
+ },
+ "Jev, a small model that judges text, checks that the page we cite says what the row says. Each source shows its verdict. Jev does not judge data pages.": {
+  "ar": "يتحقق Jev، وهو نموذج صغير يحكم على النصوص، من أن الصفحة التي نستشهد بها تقول ما يقوله الصف. ويعرض كل مصدر حكمه. ولا يحكم Jev على صفحات البيانات.",
+  "fr": "Jev, un petit modèle qui juge des textes, vérifie que la page citée dit bien ce que dit la ligne. Chaque source affiche son verdict. Jev ne juge pas les pages de données."
+ },
+ "Languages": {
+  "ar": "اللغات",
+  "fr": "Langues"
+ },
+ "Laws": {
+  "ar": "القوانين",
+  "fr": "Lois"
+ },
+ "Lebanon has held no census since 1932. Place populations are estimates, and village names are spelled in many ways.": {
+  "ar": "لم يُجرَ في لبنان أي تعداد للسكان منذ عام 1932. وأعداد سكان الأماكن تقديرية، وتُكتب أسماء القرى بطرق كثيرة.",
+  "fr": "Le Liban n'a tenu aucun recensement depuis 1932. Les populations des lieux sont des estimations, et les noms de villages s'écrivent de nombreuses façons."
+ },
+ "Place names come from OCHA, GeoNames (CC BY 4.0) and OpenStreetMap contributors (ODbL).": {
+  "ar": "تأتي أسماء الأماكن من أوتشا وGeoNames (CC BY 4.0) والمساهمين في OpenStreetMap (ODbL).",
+  "fr": "Les noms de lieux viennent d'OCHA, de GeoNames (CC BY 4.0) et des contributeurs d'OpenStreetMap (ODbL)."
+ },
+ "Places: a page for every village and town, with its strikes, events, municipality, population, displacement and election district.": {
+  "ar": "الأماكن: صفحة لكل قرية وبلدة، مع غاراتها وأحداثها وبلديتها وسكانها ونزوحها ودائرتها الانتخابية.",
+  "fr": "Lieux : une page pour chaque village et ville, avec ses frappes, ses événements, sa municipalité, sa population, ses déplacements et sa circonscription électorale."
+ },
+ "Research agents read pages and write one row per fact: a date or a value, a link to the page and a confidence tag.": {
+  "ar": "يقرأ وكلاء البحث الصفحات ويكتبون صفاً لكل واقعة: تاريخاً أو قيمة، ورابطاً إلى الصفحة، ووسم ثقة.",
+  "fr": "Des agents de recherche lisent des pages et écrivent une ligne par fait : une date ou une valeur, un lien vers la page et une étiquette de confiance."
+ },
+ "Select the text and copy it": {
+  "ar": "حدّد النص وانسخه",
+  "fr": "Sélectionnez le texte et copiez-le"
+ },
+ "Several price and electricity series are dated points from officials and the press, not a continuous record. There is no official series of electricity supply hours.": {
+  "ar": "عدد من سلاسل الأسعار والكهرباء نقاط مؤرّخة من مسؤولين ومن الصحافة، وليست سجلاً متصلاً. ولا توجد سلسلة رسمية لساعات التغذية بالكهرباء.",
+  "fr": "Plusieurs séries de prix et d'électricité sont des points datés issus de responsables et de la presse, pas un relevé continu. Il n'existe pas de série officielle des heures d'alimentation en électricité."
+ },
+ "Source links on the timeline": {
+  "ar": "روابط المصادر في الخط الزمني",
+  "fr": "Liens de sources sur la chronologie"
+ },
+ "Strike map: documented incidents in the civil war, in 2006 and from 2023 to 2026.": {
+  "ar": "خريطة الغارات: حوادث موثّقة في الحرب الأهلية وفي 2006 ومن 2023 إلى 2026.",
+  "fr": "Carte des frappes : incidents documentés pendant la guerre civile, en 2006 et de 2023 à 2026."
+ },
+ "The Data tab lists the licence of every file you can download.": {
+  "ar": "يعرض تبويب البيانات ترخيص كل ملف يمكنك تنزيله.",
+  "fr": "L'onglet Données indique la licence de chaque fichier téléchargeable."
+ },
+ "The data of the Hub is licensed CC BY-SA 4.0 unless a source says otherwise. You may copy and reuse it with credit to the Hub and to the original source, and you must share your changes under the same licence.": {
+  "ar": "بيانات المركز مرخّصة بموجب CC BY-SA 4.0 ما لم يذكر مصدر خلاف ذلك. يمكنك نسخها وإعادة استخدامها مع نسبتها إلى المركز وإلى المصدر الأصلي، وعليك مشاركة تعديلاتك بالترخيص نفسه.",
+  "fr": "Les données du Hub sont sous licence CC BY-SA 4.0, sauf indication contraire d'une source. Vous pouvez les copier et les réutiliser en citant le Hub et la source d'origine, et vous devez partager vos modifications sous la même licence."
+ },
+ "The interface and the content are in English, Arabic and French. Translations were made by language models, then checked by scripts and by sample audits. No native editor has read all of it yet. A text with no translation shows in English with a small EN mark. Names of candidates are not translated.": {
+  "ar": "الواجهة والمحتوى بالإنكليزية والعربية والفرنسية. أُنجزت الترجمات بنماذج لغوية، ثم فُحصت بنصوص برمجية وبتدقيق عيّنات. لم يقرأها محرّر ناطق بالعربية أو الفرنسية كاملةً بعد. ويظهر النص الذي لا ترجمة له بالإنكليزية مع علامة EN صغيرة. ولا تُترجم أسماء المرشحين.",
+  "fr": "L'interface et le contenu sont en anglais, en arabe et en français. Les traductions ont été faites par des modèles de langue, puis vérifiées par des scripts et des audits d'échantillons. Aucun relecteur natif ne l'a encore lu en entier. Un texte sans traduction s'affiche en anglais avec une petite marque EN. Les noms des candidats ne sont pas traduits."
+ },
+ "The laws index holds titles, numbers and dates only. Numbers before about 1960 are mostly missing, and 2025 is probably incomplete.": {
+  "ar": "يضم فهرس القوانين العناوين والأرقام والتواريخ فقط. معظم الأرقام قبل نحو عام 1960 مفقودة، وعام 2025 غالباً غير مكتمل.",
+  "fr": "L'index des lois ne contient que les titres, les numéros et les dates. Les numéros d'avant 1960 environ manquent le plus souvent, et 2025 est probablement incomplet."
+ },
+ "The most complete free hub of data on Lebanon that we could build. Lebanese data is scattered, or was never published. So it is collected here, with a source on every row.": {
+  "ar": "أكمل مركز بيانات مجاني عن لبنان استطعنا بناءه. البيانات اللبنانية مبعثرة أو لم تُنشر قط، لذلك جُمعت هنا، مع مصدر لكل صف.",
+  "fr": "Le hub de données gratuit sur le Liban le plus complet que nous ayons pu construire. Les données libanaises sont dispersées, ou n'ont jamais été publiées. Elles sont donc réunies ici, avec une source pour chaque ligne."
+ },
+ "The strike map shows documented incidents only. No complete public record exists for the civil war. Some incidents have no usable place and are not drawn. Totals are not casualty counts.": {
+  "ar": "تعرض خريطة الغارات الحوادث الموثّقة فقط. ولا يوجد سجل عام كامل للحرب الأهلية. وبعض الحوادث بلا مكان صالح للاستخدام فلا تُرسم. والمجاميع ليست إحصاءً للضحايا.",
+  "fr": "La carte des frappes ne montre que des incidents documentés. Il n'existe aucun registre public complet de la guerre civile. Certains incidents n'ont pas de lieu exploitable et ne sont pas dessinés. Les totaux ne sont pas des bilans de victimes."
+ },
+ "The timeline gets thinner the further back it goes. Before 1920 it is patchy.": {
+  "ar": "يزداد الخط الزمني شحّاً كلما رجعنا إلى الوراء. وقبل عام 1920 يكون متقطعاً.",
+  "fr": "La chronologie s'appauvrit à mesure qu'on remonte dans le temps. Avant 1920, elle est lacunaire."
+ },
+ "There are no results for the 2026 parliamentary election.": {
+  "ar": "لا توجد نتائج للانتخابات النيابية لعام 2026.",
+  "fr": "Il n'existe pas de résultats pour les élections législatives de 2026."
+ },
+ "Timeline: events from 1800 to today, each with a date, a link to its source and a confidence tag.": {
+  "ar": "الخط الزمني: أحداث من 1800 حتى اليوم، لكل منها تاريخ ورابط إلى مصدره ووسم ثقة.",
+  "fr": "Chronologie : des événements de 1800 à aujourd'hui, chacun avec une date, un lien vers sa source et une étiquette de confiance."
+ },
+ "What is in it": {
+  "ar": "ماذا يضم",
+  "fr": "Ce qu'il contient"
+ },
+ "Where a source states no licence, only facts are republished, with attribution, and the file says so.": {
+  "ar": "حيث لا يذكر المصدر أي ترخيص، لا تُعاد نشر سوى الوقائع مع نسبتها إلى مصدرها، ويذكر الملف ذلك.",
+  "fr": "Lorsqu'une source n'indique aucune licence, seuls les faits sont republiés, avec attribution, et le fichier le précise."
+ },
+ "Wikipedia text and tables: CC BY-SA 4.0. World Bank, Open-Meteo and most Our World in Data series: CC BY 4.0. OCHA and UNHCR data: CC BY-IGO.": {
+  "ar": "نصوص ويكيبيديا وجداولها: CC BY-SA 4.0. البنك الدولي وOpen-Meteo ومعظم سلاسل Our World in Data: CC BY 4.0. بيانات أوتشا والمفوضية: CC BY-IGO.",
+  "fr": "Texte et tableaux de Wikipédia : CC BY-SA 4.0. Banque mondiale, Open-Meteo et la plupart des séries d'Our World in Data : CC BY 4.0. Données d'OCHA et du HCR : CC BY-IGO."
+ },
+ "World indicators": {
+  "ar": "المؤشرات العالمية",
+  "fr": "Indicateurs mondiaux"
+ },
+ "World indicators are as published by each source. Lebanon has gaps in some years, and values after a country's last actual year can be estimates.": {
+  "ar": "المؤشرات العالمية كما نشرها كل مصدر. وفي بيانات لبنان فجوات في بعض السنوات، وقد تكون القيم بعد آخر سنة فعلية للبلد تقديرات.",
+  "fr": "Les indicateurs mondiaux sont ceux publiés par chaque source. Le Liban a des lacunes certaines années, et les valeurs postérieures à la dernière année réelle d'un pays peuvent être des estimations."
+ },
+ "World: Lebanon against the Middle East, Europe, the US and the world on dozens of indicators from 1960 to 2026, with flows of people, money and trade.": {
+  "ar": "العالم: لبنان في مواجهة الشرق الأوسط وأوروبا والولايات المتحدة والعالم على عشرات المؤشرات من 1960 إلى 2026، مع تدفقات الأشخاص والأموال والتجارة.",
+  "fr": "Monde : le Liban face au Moyen-Orient, à l'Europe, aux États-Unis et au monde, sur des dizaines d'indicateurs de 1960 à 2026, avec les flux de personnes, d'argent et de commerce."
+ },
+ "World: {a}, one row per country, one column per year": {
+  "ar": "العالم: {a}، صف لكل بلد وعمود لكل سنة",
+  "fr": "Monde : {a}, une ligne par pays, une colonne par année"
+ },
+ "World: {a}, {b} countries and groups, {c} to {d}": {
+  "ar": "العالم: {a}، {b} بلداً ومجموعة، من {c} إلى {d}",
+  "fr": "Monde : {a}, {b} pays et groupes, de {c} à {d}"
+ },
+ "{p}% of {n} content strings translated, the interface in full": {
+  "ar": "{p}٪ من {n} نصاً من المحتوى مترجمة، والواجهة كاملة",
+  "fr": "{p} % de {n} textes de contenu traduits, l'interface en entier"
+ },
+ "Skip to the content": {
+  "ar": "تخطَّ إلى المحتوى",
+  "fr": "Aller au contenu"
+ }
+}

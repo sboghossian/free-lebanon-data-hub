@@ -1,0 +1,354 @@
+{
+ "Laws of Lebanon": {
+  "ar": "قوانين لبنان",
+  "fr": "Lois du Liban"
+ },
+ "An index of laws and legislative decrees, 1900 to 2026: number, date, title, subject and a link to the text. Only titles, numbers and dates are republished.": {
+  "ar": "فهرس للقوانين والمراسيم الاشتراعية من 1900 إلى 2026: الرقم والتاريخ والعنوان والموضوع ورابط إلى النص. لا يُعاد نشر سوى العناوين والأرقام والتواريخ.",
+  "fr": "Un index des lois et décrets législatifs, de 1900 à 2026 : numéro, date, titre, sujet et lien vers le texte. Seuls les titres, numéros et dates sont republiés."
+ },
+ "Search the laws index": {
+  "ar": "ابحث في فهرس القوانين",
+  "fr": "Chercher dans l'index des lois"
+ },
+ "repealed": {
+  "ar": "ملغى",
+  "fr": "abrogée"
+ },
+ "number not yet shown on the source": {
+  "ar": "الرقم لم يظهر بعد في المصدر",
+  "fr": "numéro pas encore affiché sur la source"
+ },
+ "Law no. {n}": {
+  "ar": "القانون رقم {n}",
+  "fr": "Loi n° {n}"
+ },
+ "no number on the source": {
+  "ar": "من دون رقم في المصدر",
+  "fr": "sans numéro sur la source"
+ },
+ "Official Gazette no. {n} of {y}": {
+  "ar": "الجريدة الرسمية العدد {n} لسنة {y}",
+  "fr": "Journal officiel n° {n} de {y}"
+ },
+ "{a} of {b} laws": {
+  "ar": "{a} من أصل {b} قانوناً",
+  "fr": "{a} lois sur {b}"
+ },
+ "No law matches these filters.": {
+  "ar": "لا يوجد قانون يطابق هذه الفلاتر.",
+  "fr": "Aucune loi ne correspond à ces filtres."
+ },
+ "Search laws": {
+  "ar": "ابحث في القوانين",
+  "fr": "Chercher des lois"
+ },
+ "Search: 81/2018, banking secrecy, municipalities": {
+  "ar": "ابحث: 81/2018، السرية المصرفية، البلديات",
+  "fr": "Chercher : 81/2018, secret bancaire, municipalités"
+ },
+ "Subject": {
+  "ar": "الموضوع",
+  "fr": "Sujet"
+ },
+ "all subjects": {
+  "ar": "كل المواضيع",
+  "fr": "tous les sujets"
+ },
+ "Decade": {
+  "ar": "العقد",
+  "fr": "Décennie"
+ },
+ "all years": {
+  "ar": "كل السنوات",
+  "fr": "toutes les années"
+ },
+ "{y}s": {
+  "ar": "عقد {y}",
+  "fr": "années {y}"
+ },
+ "English titles and subjects were written by hand from the Arabic title, which is the authoritative text. Titles describe the purpose of a law, not its legal effect. Laws passed in 2025 may be incomplete.": {
+  "ar": "كُتبت العناوين والمواضيع بالإنكليزية يدوياً انطلاقاً من العنوان العربي، وهو النص المرجعي. تصف العناوين غاية القانون لا أثره القانوني. قد تكون قوانين 2025 غير مكتملة.",
+  "fr": "Les titres et sujets en anglais ont été rédigés à la main à partir du titre arabe, qui fait foi. Les titres décrivent l'objet d'une loi, pas son effet juridique. Les lois de 2025 peuvent être incomplètes."
+ },
+ "public administration and civil service": {
+  "ar": "الإدارة العامة والوظيفة العامة",
+  "fr": "administration publique et fonction publique"
+ },
+ "international treaties and conventions": {
+  "ar": "المعاهدات والاتفاقيات الدولية",
+  "fr": "traités et conventions internationaux"
+ },
+ "taxation, fees and customs": {
+  "ar": "الضرائب والرسوم والجمارك",
+  "fr": "fiscalité, droits et douanes"
+ },
+ "justice, courts and criminal law": {
+  "ar": "العدل والمحاكم والقانون الجزائي",
+  "fr": "justice, tribunaux et droit pénal"
+ },
+ "army, security and defence": {
+  "ar": "الجيش والأمن والدفاع",
+  "fr": "armée, sécurité et défense"
+ },
+ "municipalities and territorial divisions": {
+  "ar": "البلديات والتقسيمات الإدارية",
+  "fr": "municipalités et divisions territoriales"
+ },
+ "real estate, housing, rent and planning": {
+  "ar": "العقارات والإسكان والإيجارات والتنظيم المدني",
+  "fr": "immobilier, logement, loyers et urbanisme"
+ },
+ "loans and financing agreements": {
+  "ar": "القروض واتفاقيات التمويل",
+  "fr": "prêts et accords de financement"
+ },
+ "trade, companies, industry and tourism": {
+  "ar": "التجارة والشركات والصناعة والسياحة",
+  "fr": "commerce, sociétés, industrie et tourisme"
+ },
+ "budget and public finance": {
+  "ar": "الموازنة والمالية العامة",
+  "fr": "budget et finances publiques"
+ },
+ "banking, monetary and insurance": {
+  "ar": "المصارف والنقد والتأمين",
+  "fr": "banque, monnaie et assurance"
+ },
+ "professions and syndicates": {
+  "ar": "المهن والنقابات",
+  "fr": "professions et syndicats"
+ },
+ "civil law, personal status and nationality": {
+  "ar": "القانون المدني والأحوال الشخصية والجنسية",
+  "fr": "droit civil, statut personnel et nationalité"
+ },
+ "labour, social security and pensions": {
+  "ar": "العمل والضمان الاجتماعي والتقاعد",
+  "fr": "travail, sécurité sociale et retraites"
+ },
+ "transport and traffic": {
+  "ar": "النقل والسير",
+  "fr": "transports et circulation"
+ },
+ "environment, agriculture and forests": {
+  "ar": "البيئة والزراعة والغابات",
+  "fr": "environnement, agriculture et forêts"
+ },
+ "energy, water and mining": {
+  "ar": "الطاقة والمياه والمناجم",
+  "fr": "énergie, eau et mines"
+ },
+ "culture, sports, honours and associations": {
+  "ar": "الثقافة والرياضة والأوسمة والجمعيات",
+  "fr": "culture, sport, distinctions et associations"
+ },
+ "constitution, parliament and elections": {
+  "ar": "الدستور والبرلمان والانتخابات",
+  "fr": "constitution, parlement et élections"
+ },
+ "amnesty, exceptional measures and deadlines": {
+  "ar": "العفو والتدابير الاستثنائية والمهل",
+  "fr": "amnistie, mesures exceptionnelles et délais"
+ },
+ "telecom, media and information": {
+  "ar": "الاتصالات والإعلام والمعلومات",
+  "fr": "télécoms, médias et information"
+ },
+ "other": {
+  "ar": "أخرى",
+  "fr": "autre"
+ },
+ "Law": {
+  "ar": "قانون",
+  "fr": "Loi"
+ },
+ "Legislative decree": {
+  "ar": "مرسوم اشتراعي",
+  "fr": "Décret législatif"
+ },
+ "Law promulgated by decree": {
+  "ar": "قانون صادر بمرسوم",
+  "fr": "Loi promulguée par décret"
+ },
+ "Law in force by operation of law": {
+  "ar": "قانون نافذ حكماً",
+  "fr": "Loi en vigueur de plein droit"
+ },
+ "Decree promulgated by law": {
+  "ar": "مرسوم صادر بقانون",
+  "fr": "Décret promulgué par loi"
+ },
+ "population": {
+  "ar": "السكان",
+  "fr": "population"
+ },
+ "prices": {
+  "ar": "الأسعار",
+  "fr": "prix"
+ },
+ "labour": {
+  "ar": "العمل",
+  "fr": "travail"
+ },
+ "finance": {
+  "ar": "المالية",
+  "fr": "finances"
+ },
+ "justice": {
+  "ar": "العدالة",
+  "fr": "justice"
+ },
+ "municipal": {
+  "ar": "البلديات",
+  "fr": "municipalités"
+ },
+ "elections": {
+  "ar": "الانتخابات",
+  "fr": "élections"
+ },
+ "national": {
+  "ar": "وطني",
+  "fr": "national"
+ },
+ "caza": {
+  "ar": "قضاء",
+  "fr": "caza"
+ },
+ "governorate": {
+  "ar": "محافظة",
+  "fr": "gouvernorat"
+ },
+ "municipality": {
+  "ar": "بلدية",
+  "fr": "municipalité"
+ },
+ "Arabic translations: interface and content": {
+  "ar": "الترجمات العربية: الواجهة والمحتوى",
+  "fr": "Traductions arabes : interface et contenu"
+ },
+ "French translations: interface and content": {
+  "ar": "الترجمات الفرنسية: الواجهة والمحتوى",
+  "fr": "Traductions françaises : interface et contenu"
+ },
+ "Nahr el-Bared": {
+  "ar": "نهر البارد",
+  "fr": "Nahr el-Bared"
+ },
+ "Beddawi": {
+  "ar": "البداوي",
+  "fr": "Beddawi"
+ },
+ "Wavel": {
+  "ar": "ويفل (الجليل)",
+  "fr": "Wavel"
+ },
+ "Dbayeh": {
+  "ar": "ضبية",
+  "fr": "Dbayeh"
+ },
+ "Mar Elias": {
+  "ar": "مار إلياس",
+  "fr": "Mar Elias"
+ },
+ "Shatila": {
+  "ar": "شاتيلا",
+  "fr": "Chatila"
+ },
+ "Burj el-Barajneh": {
+  "ar": "برج البراجنة",
+  "fr": "Bourj el-Barajneh"
+ },
+ "Mieh Mieh": {
+  "ar": "مية ومية",
+  "fr": "Mieh Mieh"
+ },
+ "Ein el-Hilweh": {
+  "ar": "عين الحلوة",
+  "fr": "Aïn el-Héloué"
+ },
+ "El Buss": {
+  "ar": "البص",
+  "fr": "El Buss"
+ },
+ "Burj el-Shemali": {
+  "ar": "البرج الشمالي",
+  "fr": "Bourj el-Chemali"
+ },
+ "Rashidieh": {
+  "ar": "الرشيدية",
+  "fr": "Rachidiyé"
+ },
+ "GDP, current prices, US$ (IMF WEO)": {
+  "ar": "الناتج المحلي الإجمالي بالأسعار الجارية بالدولار الأمريكي (آفاق الاقتصاد العالمي، صندوق النقد)",
+  "fr": "PIB, prix courants, en US$ (FMI WEO)"
+ },
+ "Series: {a}, {b} series, long format": {
+  "ar": "السلاسل: {a}، {b} سلسلة، بصيغة طويلة",
+  "fr": "Séries : {a}, {b} séries, format long"
+ },
+ "World: {a}, {b} indicators, long format": {
+  "ar": "العالم: {a}، {b} مؤشراً، بصيغة طويلة",
+  "fr": "Monde : {a}, {b} indicateurs, format long"
+ },
+ ", part {a} of {b}": {
+  "ar": "، الجزء {a} من {b}",
+  "fr": ", partie {a} sur {b}"
+ },
+ "War and displacement": {
+  "ar": "الحرب والنزوح",
+  "fr": "Guerre et déplacement"
+ },
+ "Timeline bands": {
+  "ar": "مسارات الخط الزمني",
+  "fr": "Bandes de la chronologie"
+ },
+ "Open data portals": {
+  "ar": "بوابات البيانات المفتوحة",
+  "fr": "Portails de données ouvertes"
+ },
+ "See the source_url column": {
+  "ar": "انظر عمود source_url",
+  "fr": "Voir la colonne source_url"
+ },
+ "See the source column": {
+  "ar": "انظر عمود source",
+  "fr": "Voir la colonne source"
+ },
+ "CC BY-SA 4.0 for the compilation; each row carries its own source and licence": {
+  "ar": "CC BY-SA 4.0 للمجموعة؛ ويحمل كل صف مصدره ورخصته",
+  "fr": "CC BY-SA 4.0 pour la compilation ; chaque ligne porte sa propre source et sa licence"
+ },
+ "The series and world topic CSVs hold only keys and values. Join them on series_id or indicator_id with series-dictionary.csv or world-dictionary.csv (label, unit, source, licence), and on iso3 with countries.csv.": {
+  "ar": "ملفات CSV الموضوعية للسلاسل والعالم تحتوي على المفاتيح والقيم فقط. اربطها عبر series_id أو indicator_id مع series-dictionary.csv أو world-dictionary.csv (التسمية والوحدة والمصدر والترخيص)، وعبر iso3 مع countries.csv.",
+  "fr": "Les CSV thématiques des séries et du monde ne contiennent que des clés et des valeurs. Joignez-les sur series_id ou indicator_id avec series-dictionary.csv ou world-dictionary.csv (libellé, unité, source, licence), et sur iso3 avec countries.csv."
+ },
+ "Series dictionary: label, unit, frequency, topic, file, source and licence of every series_id": {
+  "ar": "قاموس السلاسل: التسمية والوحدة والتواتر والموضوع والملف والمصدر والترخيص لكل series_id",
+  "fr": "Dictionnaire des séries : libellé, unité, fréquence, thème, fichier, source et licence de chaque series_id"
+ },
+ "World dictionary: label, unit, topic, file, source and licence of every indicator_id": {
+  "ar": "قاموس العالم: التسمية والوحدة والموضوع والملف والمصدر والترخيص لكل indicator_id",
+  "fr": "Dictionnaire du monde : libellé, unité, thème, fichier, source et licence de chaque indicator_id"
+ },
+ "Countries and groups: names in English, Arabic and French for every iso3 code": {
+  "ar": "البلدان والمجموعات: الأسماء بالإنجليزية والعربية والفرنسية لكل رمز iso3",
+  "fr": "Pays et groupes : noms en anglais, arabe et français pour chaque code iso3"
+ },
+ "Natural Earth and World Bank country names": {
+  "ar": "أسماء البلدان من Natural Earth والبنك الدولي",
+  "fr": "Noms de pays de Natural Earth et de la Banque mondiale"
+ },
+ "A download is already waiting for your confirmation.": {
+  "ar": "هناك تنزيل ينتظر تأكيدك.",
+  "fr": "Un téléchargement attend déjà votre confirmation."
+ },
+ "This file is too large to save here.": {
+  "ar": "هذا الملف أكبر من أن يُحفظ هنا.",
+  "fr": "Ce fichier est trop volumineux pour être enregistré ici."
+ },
+ "Downloads are not available in this view.": {
+  "ar": "التنزيلات غير متاحة في هذا العرض.",
+  "fr": "Les téléchargements ne sont pas disponibles dans cet affichage."
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "CAS and DGCS, voter tables": {
+  "ar": "الإدارة المركزية للإحصاء والمديرية العامة للأحوال الشخصية، جداول الناخبين",
+  "fr": "CAS et DGCS, tableaux des électeurs"
+ },
+ "CAS, ILO and EU household survey, rounded to 100": {
+  "ar": "مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية والاتحاد الأوروبي للأسر، مقرَّبًا إلى أقرب مئة",
+  "fr": "enquête sur les ménages de la CAS, de l'OIT et de l'UE, arrondie à la centaine"
+ },
+ "Kontur, sum of the district's cadasters": {
+  "ar": "كونتور، مجموع عقارات القضاء",
+  "fr": "Kontur, somme des cadastres du caza"
+ },
+ "LandScan, via INFORM Lebanon 2015": {
+  "ar": "لاند سكان، عبر مؤشر إنفورم للبنان ٢٠١٥",
+  "fr": "LandScan, via INFORM Liban 2015"
+ },
+ "NPMPLT, via INFORM Lebanon 2015": {
+  "ar": "المخطط الشامل لترتيب الأراضي اللبنانية، عبر مؤشر إنفورم للبنان ٢٠١٥",
+  "fr": "NPMPLT (schéma directeur d'aménagement du territoire), via INFORM Liban 2015"
+ },
+ "OCHA Lebanon Response Plan 2026 package": {
+  "ar": "حزمة خطة الاستجابة للبنان لعام ٢٠٢٦ الصادرة عن أوتشا",
+  "fr": "dossier du Plan de réponse pour le Liban 2026 de l'OCHA"
+ },
+ "Registered voters, 2018": {
+  "ar": "الناخبون المسجّلون، ٢٠١٨",
+  "fr": "Électeurs inscrits, 2018"
+ },
+ "Registered voters, 2022": {
+  "ar": "الناخبون المسجّلون، ٢٠٢٢",
+  "fr": "Électeurs inscrits, 2022"
+ },
+ "Registered voters, 2025": {
+  "ar": "الناخبون المسجّلون، ٢٠٢٥",
+  "fr": "Électeurs inscrits, 2025"
+ },
+ "Residents of the district, by source": {
+  "ar": "مقيمو القضاء بحسب المصدر",
+  "fr": "Habitants du caza, selon la source"
+ },
+ "Residents, 2004, modelled": {
+  "ar": "المقيمون، ٢٠٠٤، بالنمذجة",
+  "fr": "Habitants, 2004, modélisé"
+ },
+ "Residents, 2013, modelled": {
+  "ar": "المقيمون، ٢٠١٣، بالنمذجة",
+  "fr": "Habitants, 2013, modélisé"
+ },
+ "Residents, 2018 to 2019": {
+  "ar": "المقيمون، ٢٠١٨ إلى ٢٠١٩",
+  "fr": "Habitants, 2018 à 2019"
+ },
+ "Residents, 2023, modelled": {
+  "ar": "المقيمون، ٢٠٢٣، بالنمذجة",
+  "fr": "Habitants, 2023, modélisé"
+ },
+ "Residents, 2025": {
+  "ar": "المقيمون، ٢٠٢٥",
+  "fr": "Habitants, 2025"
+ },
+ "Residents, 2026": {
+  "ar": "المقيمون، ٢٠٢٦",
+  "fr": "Habitants, 2026"
+ },
+ "The OCHA totals for 2025 and 2026 look unreliable for this district, so they are not shown. Use the survey figure.": {
+  "ar": "تبدو مجاميع أوتشا لعامي ٢٠٢٥ و٢٠٢٦ غير موثوقة لهذا القضاء، لذلك لا تُعرض. يُستعمل رقم المسح.",
+  "fr": "Les totaux de l'OCHA pour 2025 et 2026 paraissent peu fiables pour ce caza ; ils ne sont donc pas affichés. Utilisez le chiffre de l'enquête."
+ },
+ "There is no resident estimate for single places. For the district of {c}, these are the estimates sources give. They use different methods and years, so they differ, and none is a census count. Registered voters are not residents.": {
+  "ar": "لا يوجد تقدير لعدد المقيمين في كل مكان على حدة. وهذه هي التقديرات التي تقدمها المصادر لقضاء {c}. وهي تعتمد أساليب وسنوات مختلفة، لذلك تتباين، وليس أي منها نتيجة تعداد. والناخبون المسجّلون ليسوا مقيمين.",
+  "fr": "Il n'existe pas d'estimation des habitants pour chaque lieu. Pour le caza de {c}, voici les estimations que donnent les sources. Elles emploient des méthodes et des années différentes, donc elles diffèrent, et aucune n'est issue d'un recensement. Les électeurs inscrits ne sont pas des habitants."
+ },
+ "modelled estimate": {
+  "ar": "تقدير نمذجي",
+  "fr": "estimation modélisée"
+ },
+ "planning estimate": {
+  "ar": "تقدير تخطيطي",
+  "fr": "estimation de planification"
+ },
+ "survey estimate": {
+  "ar": "تقدير مسحي",
+  "fr": "estimation d'enquête"
+ },
+ "{n} {what}": {
+  "ar": "{n} {what}",
+  "fr": "{n} {what}"
+ },
+ "For that reason it is not in the CSV downloads.": {
+  "ar": "ولهذا السبب لا ترد في تنزيلات ملفات CSV.",
+  "fr": "Pour cette raison, elle ne figure pas dans les téléchargements CSV."
+ },
+ "The two figures count different things, so they are not a range. Both exclude Sabra and Shatila. Counts mix civilians and fighters.": {
+  "ar": "الرقمان يعدّان أمرين مختلفين، لذلك ليسا نطاقًا واحدًا. وكلاهما يستثني صبرا وشاتيلا. وتجمع الأعداد بين المدنيين والمقاتلين.",
+  "fr": "Les deux chiffres ne comptent pas la même chose : ce n'est donc pas une fourchette. Ni l'un ni l'autre n'inclut Sabra et Chatila. Les décomptes mêlent civils et combattants."
+ },
+ "The two figures count different things, so they are not a range. Overlaps with the 1982 invasion count: do not add the two.": {
+  "ar": "الرقمان يعدّان أمرين مختلفين، لذلك ليسا نطاقًا واحدًا. ويتداخل مع حصيلة اجتياح ١٩٨٢: لا تجمع الحصيلتين.",
+  "fr": "Les deux chiffres ne comptent pas la même chose : ce n'est donc pas une fourchette. Recoupe le décompte de l'invasion de 1982 : ne pas additionner les deux."
+ },
+ "Lebanese civilian deaths only, as two readings of one source (118 in its text, 140 in its summary box). Fighters' deaths are disputed, so there is no total.": {
+  "ar": "وفيات المدنيين اللبنانيين فقط، وهما قراءتان لمصدر واحد (١١٨ في نصه و١٤٠ في إطاره الملخِّص). أما وفيات المقاتلين فمتنازَع عليها، فلا يوجد إجمالي.",
+  "fr": "Seulement les civils libanais tués, selon deux lectures d'une même source (118 dans son texte, 140 dans son encadré). Les morts parmi les combattants sont contestés : il n'y a donc pas de total."
+ },
+ "The two figures count different things, so they are not a range.": {
+  "ar": "الرقمان يعدّان أمرين مختلفين، لذلك ليسا نطاقًا واحدًا.",
+  "fr": "Les deux chiffres ne comptent pas la même chose : ce n'est donc pas une fourchette."
+ },
+ "The two figures count different things, so they are not a range. Government counts do not separate civilians from fighters.": {
+  "ar": "الرقمان يعدّان أمرين مختلفين، لذلك ليسا نطاقًا واحدًا. ولا تفصل أعداد الحكومة بين المدنيين والمقاتلين.",
+  "fr": "Les deux chiffres ne comptent pas la même chose : ce n'est donc pas une fourchette. Les décomptes du gouvernement ne séparent pas civils et combattants."
+ },
+ "Cumulative since 2 Mar 2026, counted on 17 Apr, the day after the ceasefire. Displaced is the government's registered total at its peak, 17 Mar 2026.": {
+  "ar": "حصيلة تراكمية منذ ٢ آذار ٢٠٢٦، عُدَّت في ١٧ نيسان، أي في اليوم التالي لوقف إطلاق النار. والنازحون هم إجمالي المسجَّلين لدى الحكومة في ذروته في ١٧ آذار ٢٠٢٦.",
+  "fr": "Cumul depuis le 2 mars 2026, compté le 17 avril, le lendemain du cessez-le-feu. Les déplacés sont le total enregistré par le gouvernement à son pic, le 17 mars 2026."
+ },
+ "civilians only (Gabriel's estimate)": {
+  "ar": "المدنيون فقط (تقدير غابرييل)",
+  "fr": "civils seulement (estimation de Gabriel)"
+ },
+ "all deaths (Lebanese authorities)": {
+  "ar": "جميع الوفيات (السلطات اللبنانية)",
+  "fr": "tous les morts (autorités libanaises)"
+ },
+ "civilians (Gabriel's estimate)": {
+  "ar": "المدنيون (تقدير غابرييل)",
+  "fr": "civils (estimation de Gabriel)"
+ },
+ "all deaths in Beirut (Lebanese sources)": {
+  "ar": "جميع الوفيات في بيروت (مصادر لبنانية)",
+  "fr": "tous les morts à Beyrouth (sources libanaises)"
+ },
+ "civilians only (Human Rights Watch)": {
+  "ar": "المدنيون فقط (هيومن رايتس ووتش)",
+  "fr": "civils seulement (Human Rights Watch)"
+ },
+ "all Lebanese killed (Bregman)": {
+  "ar": "جميع اللبنانيين الذين قُتلوا (بريغمان)",
+  "fr": "tous les Libanais tués (Bregman)"
+ },
+ "identified dead (Human Rights Watch)": {
+  "ar": "القتلى الذين عُرفت هوياتهم (هيومن رايتس ووتش)",
+  "fr": "morts identifiés (Human Rights Watch)"
+ },
+ "all deaths (Lebanese Higher Relief Council)": {
+  "ar": "جميع الوفيات (الهيئة العليا للإغاثة اللبنانية)",
+  "fr": "tous les morts (Haut Conseil de secours libanais)"
+ },
+ "Civilian deaths as reported in the Wikipedia article (lead text 118, infobox 140); displacement estimate 300,000-400,000": {
+  "ar": "وفيات المدنيين كما وردت في مقالة ويكيبيديا (١١٨ في النص التمهيدي، ١٤٠ في الإطار المعلوماتي)؛ وتقدير النزوح ٣٠٠٬٠٠٠ إلى ٤٠٠٬٠٠٠",
+  "fr": "Morts civils selon l'article de Wikipédia (118 dans le texte d'introduction, 140 dans l'infobox) ; estimation des déplacés : 300 000 à 400 000"
+ },
+ "2026 war, at the ceasefire of 16 Apr 2026 (count as of 17 Apr)": {
+  "ar": "حرب ٢٠٢٦، عند وقف إطلاق النار في ١٦ نيسان ٢٠٢٦ (حصيلة ١٧ نيسان)",
+  "fr": "Guerre de 2026, au cessez-le-feu du 16 avril 2026 (décompte du 17 avril)"
+ },
+ "Confidence: law number, date, gazette, 31 May 2028 end date and decision 7/2026 (7 Apr, unanimous) read in the Constitutional Council PDF (high). Vote 76-41-4 from Carnegie and Anadolu only (medium-high). IFES page checked 2026-10-03: shows Cancelled and the two-year extension, no registered-voter figure.": {
+  "ar": "درجة الثقة: رقم القانون وتاريخه والجريدة الرسمية وتاريخ انتهاء الولاية في ٣١ أيار ٢٠٢٨ والقرار ٧/٢٠٢٦ (٧ نيسان، بالإجماع) قُرئت في ملف المجلس الدستوري بصيغة PDF (مرتفعة). أما التصويت ٧٦ مقابل ٤١ وامتناع ٤ فمن كارنيغي وأنادولو فقط (متوسطة إلى مرتفعة). وصفحة IFES جرى الاطلاع عليها في ٣ تشرين الأول ٢٠٢٦: تُظهر «ملغاة» والتمديد لسنتين، ولا تذكر عدد ناخبين.",
+  "fr": "Confiance : le numéro de la loi, sa date, le Journal officiel, la date de fin du mandat (31 mai 2028) et la décision 7/2026 (7 avril, à l'unanimité) ont été lus dans le PDF du Conseil constitutionnel (élevée). Le vote 76-41-4 vient de Carnegie et d'Anadolu seulement (moyenne à élevée). Page de l'IFES consultée le 3 octobre 2026 : elle indique « annulée » et la prolongation de deux ans, sans nombre d'électeurs inscrits."
+ },
+ "On 9 March 2026 parliament passed Law No. 41/2026 (Official Gazette, supplement to issue 11, 9 March 2026), an exceptional extension of its own term to 31 May 2028 because of the 2026 Lebanon war. The vote was 76 for, 41 against, 4 abstentions. Lebanese Forces, Free Patriotic Movement and some independent MPs challenged it; on 7 April 2026 the Constitutional Council (decision 7/2026) unanimously rejected the three appeals, but said parliament must shorten the extended term and hold elections once the exceptional circumstances end. No new election date is set; the vote is expected around May 2028. The election originally scheduled for 10 May 2026 was not held. IFES lists it as Cancelled. No 2026 register figure exists; the 3,967,507 shown under national.registered is the 2022 register (UNDP).": {
+  "ar": "في ٩ آذار ٢٠٢٦ أقرّ مجلس النواب القانون رقم ٤١/٢٠٢٦ (الجريدة الرسمية، ملحق العدد ١١، ٩ آذار ٢٠٢٦)، وهو تمديد استثنائي لولايته حتى ٣١ أيار ٢٠٢٨ بسبب حرب لبنان في ٢٠٢٦. وكان التصويت ٧٦ مع و٤١ ضد وامتناع ٤. وطعنت فيه القوات اللبنانية والتيار الوطني الحر وبعض النواب المستقلين؛ وفي ٧ نيسان ٢٠٢٦ ردّ المجلس الدستوري (القرار ٧/٢٠٢٦) الطعون الثلاثة بالإجماع، لكنه قال إن على المجلس النيابي تقصير الولاية الممدَّدة وإجراء الانتخابات متى زالت الظروف الاستثنائية. ولم يُحدَّد موعد جديد للانتخابات؛ ومن المتوقع إجراء الاقتراع نحو أيار ٢٠٢٨. أما الانتخابات التي كان مقررًا إجراؤها في ١٠ أيار ٢٠٢٦ فلم تُجرَ. وتصنّفها IFES «ملغاة». ولا يوجد رقم لسجل الناخبين لعام ٢٠٢٦؛ والرقم ٣٬٩٦٧٬٥٠٧ الوارد تحت national.registered هو سجل ٢٠٢٢ (برنامج الأمم المتحدة الإنمائي).",
+  "fr": "Le 9 mars 2026, le Parlement a adopté la loi n° 41/2026 (Journal officiel, supplément au numéro 11, 9 mars 2026), prolongation exceptionnelle de son propre mandat jusqu'au 31 mai 2028 en raison de la guerre de 2026 au Liban. Le vote a été de 76 pour, 41 contre et 4 abstentions. Les Forces libanaises, le Courant patriotique libre et quelques députés indépendants l'ont contestée ; le 7 avril 2026, le Conseil constitutionnel (décision 7/2026) a rejeté à l'unanimité les trois recours, mais a dit que le Parlement doit raccourcir le mandat prolongé et organiser des élections dès que les circonstances exceptionnelles prendront fin. Aucune nouvelle date d'élection n'est fixée ; le scrutin est attendu vers mai 2028. L'élection prévue à l'origine le 10 mai 2026 n'a pas eu lieu. L'IFES la classe comme annulée. Il n'existe pas de chiffre du registre de 2026 ; les 3 967 507 indiqués sous national.registered correspondent au registre de 2022 (PNUD)."
+ },
+ "OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; district resident estimates from CAS/ILO 2018-19, the OCHA Lebanon Response Plan 2026 package, Kontur 2023, INFORM 2015 and LandScan 2013; Arabic names from GeoNames, lub-anan.com and Wikidata": {
+  "ar": "قائمة قرى أوتشا والإدارة المركزية للإحصاء ٢٠١٧، وحدود أوتشا الإدارية COD-AB الإصدار ٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإدارة المركزية للإحصاء ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين في الأقضية من مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية ٢٠١٨-٢٠١٩ وحزمة خطة الاستجابة للبنان ٢٠٢٦ الصادرة عن أوتشا وكونتور ٢٠٢٣ وإنفورم ٢٠١٥ ولاند سكان ٢٠١٣؛ والأسماء العربية من GeoNames وlub-anan.com وويكي داتا",
+  "fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 transcrites par lub-anan.com ; estimations des habitants par caza de l'enquête CAS/OIT 2018-2019, du dossier du Plan de réponse pour le Liban 2026 de l'OCHA, de Kontur 2023, d'INFORM 2015 et de LandScan 2013 ; noms arabes de GeoNames, lub-anan.com et Wikidata"
+ },
+ "OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; district resident estimates from CAS/ILO 2018-19, the OCHA Lebanon Response Plan 2026 package, Kontur 2023, INFORM 2015 and LandScan 2013; Arabic names from GeoNames, lub-anan.com and Wikidata; strikes from the Strike map data; events from the timeline": {
+  "ar": "قائمة قرى أوتشا والإدارة المركزية للإحصاء ٢٠١٧، وحدود أوتشا الإدارية COD-AB الإصدار ٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإدارة المركزية للإحصاء ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين في الأقضية من مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية ٢٠١٨-٢٠١٩ وحزمة خطة الاستجابة للبنان ٢٠٢٦ الصادرة عن أوتشا وكونتور ٢٠٢٣ وإنفورم ٢٠١٥ ولاند سكان ٢٠١٣؛ والأسماء العربية من GeoNames وlub-anan.com وويكي داتا؛ والغارات من بيانات خريطة الغارات؛ والأحداث من الخط الزمني",
+  "fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 transcrites par lub-anan.com ; estimations des habitants par caza de l'enquête CAS/OIT 2018-2019, du dossier du Plan de réponse pour le Liban 2026 de l'OCHA, de Kontur 2023, d'INFORM 2015 et de LandScan 2013 ; noms arabes de GeoNames, lub-anan.com et Wikidata ; frappes issues des données de la Carte des frappes ; événements issus de la chronologie"
+ },
+ "CC BY / CC BY-IGO / CC BY 4.0; names and coordinates that come from OpenStreetMap are ODbL 1.0 (c) OpenStreetMap contributors; voter counts: no licence stated, facts from official lists; district resident estimates: CC BY (OCHA/LRP, Kontur, INFORM), CAS/ILO 2018-19 short excerpt with source; Arabic names: GeoNames CC BY 4.0, Wikidata CC0": {
+  "ar": "CC BY / CC BY-IGO / CC BY 4.0؛ والأسماء والإحداثيات المأخوذة من OpenStreetMap ترخيصها ODbL 1.0 (c) مساهمو OpenStreetMap؛ وأعداد الناخبين: لا ترخيص مذكورًا، وهي وقائع من قوائم رسمية؛ وتقديرات المقيمين في الأقضية: CC BY (أوتشا/خطة الاستجابة، كونتور، إنفورم)، ومقتطف قصير من مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية ٢٠١٨-٢٠١٩ مع ذكر المصدر؛ والأسماء العربية: GeoNames بترخيص CC BY 4.0 وويكي داتا بترخيص CC0",
+  "fr": "CC BY / CC BY-IGO / CC BY 4.0 ; les noms et coordonnées issus d'OpenStreetMap sont sous ODbL 1.0 (c) contributeurs d'OpenStreetMap ; nombres d'électeurs : aucune licence indiquée, faits tirés de listes officielles ; estimations des habitants par caza : CC BY (OCHA/PRL, Kontur, INFORM), court extrait de l'enquête CAS/OIT 2018-2019 avec la source ; noms arabes : GeoNames CC BY 4.0, Wikidata CC0"
+ },
+ "Facts as published by each source; CAS states no licence, so these figures are shown with attribution and are not offered as a CSV download": {
+  "ar": "وقائع كما نشرها كل مصدر؛ ولا تذكر الإدارة المركزية للإحصاء ترخيصًا، لذلك تُعرض هذه الأرقام مع نسبتها إلى مصدرها ولا تُتاح للتنزيل بصيغة CSV",
+  "fr": "Faits tels que publiés par chaque source ; la CAS n'indique aucune licence : ces chiffres sont donc affichés avec leur attribution et ne sont pas proposés en téléchargement CSV"
+ },
+ "Timeline before 1920.": {
+  "ar": "الخط الزمني قبل ١٩٢٠.",
+  "fr": "Chronologie avant 1920."
+ },
+ "Done: four deeper passes over public-domain books, archives and Wikipedia add events for 1800 to 1830, 1831 to 1860, 1861 to 1890 and 1891 to 1919, each with a link to its page. Not possible: the further back, the fewer sources survive, and old books give their author's view, so these years stay thinner than later ones.": {
+  "ar": "ما أُنجز: أربع جولات أعمق في كتب من الملك العام وأرشيفات وويكيبيديا تضيف أحداثًا للسنوات ١٨٠٠ إلى ١٨٣٠ و١٨٣١ إلى ١٨٦٠ و١٨٦١ إلى ١٨٩٠ و١٨٩١ إلى ١٩١٩، ولكل حدث رابط إلى صفحته. المستحيل: كلما رجعنا أبعد قلّت المصادر الباقية، والكتب القديمة تنقل وجهة نظر مؤلفها، فتبقى هذه السنوات أقل ثراءً من السنوات اللاحقة.",
+  "fr": "Fait : quatre passes plus approfondies sur des livres du domaine public, des archives et Wikipédia ajoutent des événements pour 1800-1830, 1831-1860, 1861-1890 et 1891-1919, chacun avec un lien vers sa page. Impossible : plus on remonte, moins il reste de sources, et les vieux livres donnent le point de vue de leur auteur ; ces années restent donc plus maigres que les suivantes."
+ },
+ "Sources code cannot read.": {
+  "ar": "مصادر لا تستطيع الشيفرة قراءتها.",
+  "fr": "Sources que le code ne peut pas lire."
+ },
+ "Done: PDFs are read as text, archived copies on web.archive.org are used where a page is gone, and scanned books are read by OCR. Not possible: paywalls, bot blocks and dead links cannot be read, and we do not get around them. Rows still not machine-checked:": {
+  "ar": "ما أُنجز: تُقرأ ملفات PDF كنصوص، وتُستعمل النسخ المؤرشفة على web.archive.org حيث تختفي الصفحة، وتُقرأ الكتب الممسوحة ضوئيًا بالتعرّف البصري على الحروف. المستحيل: لا يمكن قراءة المحتوى خلف جدران الدفع وما تحجبه الحماية من الروبوتات والروابط الميتة، ولا نتحايل عليها. الصفوف التي لم يُتحقَّق منها آليًا بعد:",
+  "fr": "Fait : les PDF sont lus comme du texte, les copies archivées de web.archive.org servent quand une page a disparu, et les livres numérisés sont lus par reconnaissance de caractères (OCR). Impossible : les murs payants, les blocages anti-robots et les liens morts ne peuvent pas être lus, et nous ne les contournons pas. Lignes pas encore vérifiées par machine :"
+ },
+ "Done: hand-checked place corrections put more incidents on the map, and each war shows its official toll next to the incidents we documented: who counted, when, and a range only where both ends count the same thing. Not possible: no complete public record of the civil war exists, some incidents still have no usable place and are not drawn, and the mapped totals are not casualty counts.": {
+  "ar": "ما أُنجز: تصحيحات يدوية لمواقع الحوادث تضع مزيدًا منها على الخريطة، وتعرض كل حرب حصيلتها الرسمية إلى جانب الحوادث التي وثّقناها: من أحصى ومتى، ولا يظهر نطاق إلا حين يعدّ طرفاه الأمر نفسه. المستحيل: لا يوجد سجل عام كامل للحرب الأهلية، وبعض الحوادث ما زال بلا موقع صالح فلا تُرسم، والمجاميع المرسومة ليست أعداد ضحايا.",
+  "fr": "Fait : des corrections de lieux vérifiées à la main placent davantage d'incidents sur la carte, et chaque guerre montre son bilan officiel à côté des incidents que nous avons documentés : qui a compté, quand, et une fourchette seulement quand les deux bornes comptent la même chose. Impossible : il n'existe aucun registre public complet de la guerre civile, certains incidents n'ont toujours pas de lieu exploitable et ne sont pas dessinés, et les totaux cartographiés ne sont pas des bilans de victimes."
+ },
+ "Places and population.": {
+  "ar": "الأماكن والسكان.",
+  "fr": "Lieux et population."
+ },
+ "Done: each town shows its registered voters for 2014, labelled as registered voters and not residents, each district shows resident estimates from several sources, and more places have Arabic names. Not possible: Lebanon has had no census since 1932, so there is no true population count, we publish no resident estimate for a single place (a model we tried gave impossible results and was removed), and village names are still spelled in many ways.": {
+  "ar": "ما أُنجز: تعرض كل بلدة ناخبيها المسجّلين لعام ٢٠١٤، موسومين بأنهم ناخبون مسجّلون وليسوا مقيمين، ويعرض كل قضاء تقديرات للمقيمين من عدة مصادر، وصار لأماكن أكثر أسماء بالعربية. المستحيل: لم يُجرَ في لبنان تعداد منذ ١٩٣٢، فلا يوجد عدد سكان حقيقي، ولا ننشر تقديرًا لعدد المقيمين في مكان واحد (نموذج جرّبناه أعطى نتائج مستحيلة فأُزيل)، وما زالت أسماء القرى تُكتب بطرق كثيرة.",
+  "fr": "Fait : chaque ville montre ses électeurs inscrits de 2014, étiquetés comme électeurs inscrits et non comme habitants ; chaque caza montre des estimations des habitants issues de plusieurs sources ; et davantage de lieux ont un nom arabe. Impossible : le Liban n'a pas fait de recensement depuis 1932, donc il n'y a pas de vrai chiffre de population ; nous ne publions aucune estimation des habitants pour un lieu isolé (un modèle essayé donnait des résultats impossibles et a été retiré) ; et les noms de villages s'écrivent encore de bien des façons."
+ },
+ "Done: holes in fuel prices and generator fees are filled from ministry statements and press copies, marked with hollow dots and their source, and bread and generator prices per kWh are added. Supply hours are shown as a proxy, labelled as one, with its method. Not possible: there is no official series of electricity supply hours, the ministry's own pages hold no archive for the missing fuel dates, and some series are still dated points.": {
+  "ar": "ما أُنجز: سُدّت ثغرات أسعار الوقود ورسوم المولدات من بيانات الوزارة ونسخ الصحف، ووُسمت بنقاط مجوّفة مع مصدرها، وأُضيفت أسعار الخبز وسعر كيلوواط ساعة المولدات. وتُعرض ساعات التغذية كمؤشر بديل (بروكسي)، موسومًا بأنه كذلك، مع طريقة احتسابه. المستحيل: لا توجد سلسلة رسمية لساعات التغذية بالكهرباء، وليس في صفحات الوزارة نفسها أرشيف لتواريخ الوقود الناقصة، وبعض السلاسل ما زال نقاطًا مؤرَّخة متفرقة.",
+  "fr": "Fait : les trous des prix des carburants et des frais de générateur sont comblés à partir des relevés du ministère et de copies de presse, signalés par des points creux avec leur source ; les prix du pain et du kWh des générateurs sont ajoutés. Les heures d'alimentation sont présentées comme un indicateur indirect (proxy), étiqueté comme tel, avec sa méthode. Impossible : il n'existe pas de série officielle des heures d'alimentation en électricité, les pages du ministère ne gardent pas d'archive des dates de carburant manquantes, et certaines séries restent des points datés épars."
+ },
+ "Done: values after a country's last actual year are dashed and shaded, UN projections are marked, and Lebanon's national figures can be laid over the international series, with their source. Not possible: Lebanon still has gaps in some years, national figures carry no open licence so they are left out of the downloads, and each indicator is as its source publishes it.": {
+  "ar": "ما أُنجز: تُرسم القيم اللاحقة لآخر سنة فعلية لكل بلد بخط متقطع وتظليل، وتُعلَّم إسقاطات الأمم المتحدة، ويمكن وضع أرقام لبنان الوطنية فوق السلاسل الدولية مع مصدرها. المستحيل: ما زالت لدى لبنان ثغرات في بعض السنوات، والأرقام الوطنية لا ترخيص مفتوحًا لها فلا تدخل في التنزيلات، وكل مؤشر يبقى كما ينشره مصدره.",
+  "fr": "Fait : les valeurs postérieures à la dernière année réelle d'un pays sont en pointillés et ombrées, les projections de l'ONU sont signalées, et les chiffres nationaux du Liban peuvent être superposés aux séries internationales, avec leur source. Impossible : le Liban a encore des trous certaines années, les chiffres nationaux n'ont pas de licence ouverte et sont donc exclus des téléchargements, et chaque indicateur reste tel que sa source le publie."
+ },
+ "Done: the laws of 2025 are completed from the Parliament's site, and each law links to its full text and has an English title and summary. Not possible: the index holds titles, numbers, dates and summaries, never the article text; numbers before about 1960 are still partial, and a few recent laws may be absent.": {
+  "ar": "ما أُنجز: اكتملت قوانين ٢٠٢٥ من موقع مجلس النواب، ولكل قانون رابط إلى نصه الكامل وعنوان وملخص بالإنكليزية. المستحيل: يضم الفهرس العناوين والأرقام والتواريخ والملخصات، ولا يضم نص المواد أبدًا؛ وأرقام ما قبل نحو ١٩٦٠ ما زالت ناقصة، وقد تغيب بضعة قوانين حديثة.",
+  "fr": "Fait : les lois de 2025 sont complétées à partir du site du Parlement, et chaque loi renvoie à son texte intégral avec un titre et un résumé en anglais. Impossible : l'index contient les titres, numéros, dates et résumés, jamais le texte des articles ; les numéros d'avant 1960 environ sont encore partiels, et quelques lois récentes peuvent manquer."
+ },
+ "Done: the 2026 election is shown as a fact card with its sources: postponed by Law 41/2026 of 9 March 2026, which extends parliament's term to 31 May 2028, and the Constitutional Council's decision of 7 April 2026. Not possible: there are no results, because no vote has been held, and no new date is set.": {
+  "ar": "ما أُنجز: تُعرض انتخابات ٢٠٢٦ في بطاقة وقائع مع مصادرها: أُجّلت بالقانون ٤١/٢٠٢٦ الصادر في ٩ آذار ٢٠٢٦ الذي يمدّد ولاية المجلس النيابي حتى ٣١ أيار ٢٠٢٨، وبقرار المجلس الدستوري في ٧ نيسان ٢٠٢٦. المستحيل: لا توجد نتائج لأن الاقتراع لم يُجرَ، ولم يُحدَّد موعد جديد.",
+  "fr": "Fait : l'élection de 2026 est présentée dans une fiche de faits avec ses sources : reportée par la loi 41/2026 du 9 mars 2026, qui prolonge le mandat du Parlement jusqu'au 31 mai 2028, et décision du Conseil constitutionnel du 7 avril 2026. Impossible : il n'y a pas de résultats, car aucun vote n'a eu lieu, et aucune nouvelle date n'est fixée."
+ },
+ "Done: each dataset link shows when it was last checked and whether it was reachable, moved or unreachable. Not possible: a reachable link does not show that the file is current.": {
+  "ar": "ما أُنجز: يعرض كل رابط لمجموعة بيانات تاريخ آخر فحص له وهل كان متاحًا أو منقولًا أو غير متاح. المستحيل: الرابط المتاح لا يدل على أن الملف محدَّث.",
+  "fr": "Fait : chaque lien de jeu de données indique la date de sa dernière vérification et s'il était accessible, déplacé ou inaccessible. Impossible : un lien accessible ne prouve pas que le fichier est à jour."
+ },
+ "Places: a page for every village and town, with its strikes, events, municipality, registered voters, displacement and election district, and population estimates for each district.": {
+  "ar": "الأماكن: صفحة لكل قرية وبلدة، فيها غاراتها وأحداثها وبلديتها وناخبوها المسجّلون ونزوحها ودائرتها الانتخابية، وتقديرات لعدد السكان في كل قضاء.",
+  "fr": "Lieux : une page pour chaque village et chaque ville, avec ses frappes, ses événements, sa municipalité, ses électeurs inscrits, ses déplacements et sa circonscription électorale, et des estimations de population pour chaque caza."
+ },
+ "Cuinet says it reported directly to the Interior Ministry, split by Mount Lebanon; by the mid-1890s five sanjaks, 21 cazas, 2,237 villages.": {
+  "ar": "يقول كينيه إنها كانت ترفع تقاريرها مباشرة إلى وزارة الداخلية، منفصلةً عن جبل لبنان؛ وبحلول منتصف تسعينيات القرن التاسع عشر كانت فيها خمسة سناجق و٢١ قضاءً و٢٬٢٣٧ قرية.",
+  "fr": "Cuinet dit qu'elle relevait directement du ministère de l'Intérieur, séparément du Mont-Liban ; vers le milieu des années 1890, elle comptait cinq sandjaks, 21 cazas et 2 237 villages."
+ },
+ "Cuinet says the faculty, subsidised by France, had ten professors and 64 external students by the mid-1890s; Paris examiners gave the doctorate.": {
+  "ar": "يقول كينيه إن الكلية، التي كانت فرنسا تدعمها، كان فيها بحلول منتصف تسعينيات القرن التاسع عشر عشرة أساتذة و٦٤ طالبًا خارجيًا؛ وكان ممتحنون من باريس يمنحون الدكتوراه.",
+  "fr": "Cuinet dit que la faculté, subventionnée par la France, comptait vers le milieu des années 1890 dix professeurs et 64 étudiants externes ; des examinateurs de Paris délivraient le doctorat."
+ },
+ "He puts Jazzar's age at 84 at death. Wikipedia's biography places his birth in the 1720s-30s, so the age is doubtful.": {
+  "ar": "يقدّر عمر الجزار عند وفاته بـ٨٤ عامًا. أما سيرته في ويكيبيديا فتضع ولادته بين عشرينيات القرن الثامن عشر وثلاثينياته، فالعمر موضع شك.",
+  "fr": "Il estime l'âge de Jazzar à sa mort à 84 ans. La biographie de Wikipédia place sa naissance dans les années 1720-1730, donc cet âge est douteux."
+ }
+}
