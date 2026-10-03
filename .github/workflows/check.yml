@@ -1,0 +1,27 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate research files (JSON parses, file:line keys point at their rows)
+        run: python3 tools/validate_research.py
+      - name: Unit tests (build)
+        run: python3 -m unittest discover -s build -p 'test_*.py'
+      - name: Unit tests (tools)
+        run: python3 -m unittest discover -s tools
+      - name: Build the Hub (no network, no Jev)
+        run: python3 build/build_timeline.py
+      - name: Page and manifest exist
+        run: |
+          test -s site/lebanon-timeline.html
+          test -s site/data/manifest.json

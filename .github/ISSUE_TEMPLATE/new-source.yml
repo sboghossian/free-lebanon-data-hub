@@ -1,0 +1,23 @@
+name: New source
+description: Suggest a better or additional source for an existing row.
+labels: [source]
+body:
+  - type: input
+    id: row
+    attributes:
+      label: Row (title and date)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to the page
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: says
+    attributes:
+      label: What the page says about the row
+    validations:
+      required: true

@@ -1,0 +1,34 @@
+name: New dataset
+description: Suggest a public dataset about Lebanon for the catalogue or the series.
+labels: [dataset]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Dataset title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence as the publisher states it
+      description: Write "none stated" if there is none. We never host data whose licence forbids redistribution.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Years covered, format, anything odd

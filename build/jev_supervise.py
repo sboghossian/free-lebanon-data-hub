@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jev supervision for the MITAI dossier research.
+"""Jev supervision for the Hub research (optional: needs TYPESAFE_API_KEY).
 
 Code owns candidates, fetching, date checks, domain tiers and every write.
 Jev makes one semantic call per row:

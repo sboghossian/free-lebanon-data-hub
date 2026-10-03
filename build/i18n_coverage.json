@@ -1,9 +1,9 @@
 {
- "content_strings": 16841,
- "ui_strings": 1668,
+ "content_strings": 16740,
+ "ui_strings": 1665,
  "ui_missing": 0,
  "ar": {
-  "translated": 16841,
+  "translated": 16740,
   "same_as_english": 176,
   "pct": 100.0,
   "by_kind": {
@@ -57,12 +57,12 @@
    ]
   },
   "core": [
-   15194,
-   15194
+   15093,
+   15093
   ]
  },
  "fr": {
-  "translated": 16840,
+  "translated": 16739,
   "same_as_english": 214,
   "pct": 100.0,
   "by_kind": {
@@ -116,8 +116,8 @@
    ]
   },
   "core": [
-   15193,
-   15194
+   15092,
+   15093
   ]
  }
 }

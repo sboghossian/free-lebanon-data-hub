@@ -1,0 +1,27 @@
+name: Translation
+description: Fix or improve an Arabic or French string.
+labels: [translation]
+body:
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Language
+      options: [Arabic, French]
+    validations:
+      required: true
+  - type: textarea
+    id: english
+    attributes:
+      label: The English text
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What it says now
+  - type: textarea
+    id: better
+    attributes:
+      label: Your suggestion
+    validations:
+      required: true

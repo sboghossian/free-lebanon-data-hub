@@ -1,0 +1,24 @@
+name: Correction
+description: A row, number or translation is wrong, or you want something removed.
+labels: [correction]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Quote the row (title and date) or paste the link to it in the Hub.
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source for the correction
+      placeholder: https://
+    validations:
+      required: true
