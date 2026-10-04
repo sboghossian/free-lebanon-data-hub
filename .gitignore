@@ -10,3 +10,4 @@ _check*/
 # written by every build
 research/strikes/_left_out.tsv
 research/strikes/_unresolved.tsv
+research/i18n/fix-gloss-*.jsonl

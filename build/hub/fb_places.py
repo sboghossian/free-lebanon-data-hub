@@ -48,6 +48,9 @@ def build(ctx, hub):
     pop = {r["attr"]["place_id"]: r["attr"] for r in jl(hub + "villages/P-population.jsonl") if r["attr"].get("place_id")}
     ar_extra = {r["attr"]["place_id"]: (r["name_ar"], r["attr"].get("name_ar_source") or "") for r in jl(hub + "villages/P-arabic-names.jsonl")
                 if r["attr"].get("place_id") and r.get("name_ar") and r["attr"].get("name_ar_confidence") in ("high", "medium")}
+    for f in ("P-arabic-osm.jsonl", "P-arabic-osm-consonant.jsonl"):  # nearest OSM place with the same name (strict) or the same consonants (reviewed)
+        if os.path.exists(hub + "villages/" + f):
+            ar_extra.update({r["place_id"]: (r["name_ar"], "osm") for r in jl(hub + "villages/" + f) if r["place_id"] not in ar_extra})
     places, by_id = [], {}
     for r in rows:
         a = r["attr"]
@@ -176,7 +179,7 @@ def build(ctx, hub):
         det["stn"] = n_st
         if p["id"] in pl_name:
             det["sn"] = pl_name[p["id"]]
-        if "OSM" in (a.get("src_flags") or ""):
+        if "OSM" in (a.get("src_flags") or "") or p["ars"] == "osm":
             det["osm"] = 1
         if p["ars"]:
             det["ars"] = p["ars"]

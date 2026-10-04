@@ -1,94 +1,98 @@
 {
-"Kind": {
-"ar": "النوع",
-"fr": "Nature"
-},
-"estimate": {
-"ar": "تقدير",
-"fr": "estimation"
-},
-"registered voters, not residents": {
-"ar": "ناخبون مسجّلون، وليسوا مقيمين",
-"fr": "électeurs inscrits, pas des habitants"
-},
-"Registered voters, 2014": {
-"ar": "الناخبون المسجّلون، ٢٠١٤",
-"fr": "Électeurs inscrits, 2014"
-},
-"Registered voters, 2022, scaled": {
-"ar": "الناخبون المسجّلون، ٢٠٢٢، بعد تعديل النسبة",
-"fr": "Électeurs inscrits, 2022, mis à l'échelle"
-},
-"Resident estimate, {y}": {
-"ar": "تقدير عدد المقيمين، {y}",
-"fr": "Estimation des habitants, {y}"
-},
-"Interior Ministry lists, via lub-anan.com": {
-"ar": "قوائم وزارة الداخلية، عبر موقع lub-anan.com",
-"fr": "Listes du ministère de l'Intérieur, via lub-anan.com"
-},
-"2014 count scaled by the change in the district": {
-"ar": "رقم ٢٠١٤ معدَّلًا بتغيّر عدد الناخبين في القضاء",
-"fr": "chiffre de 2014 ajusté selon l'évolution dans le district"
-},
-"OCHA response plan 2026 and Kontur 2023": {
-"ar": "خطة استجابة أوتشا ٢٠٢٦ وبيانات Kontur ٢٠٢٣",
-"fr": "Plan de réponse d'OCHA 2026 et Kontur 2023"
-},
-"the cadaster population split between its places by their 2014 registered voters": {
-"ar": "توزيع سكان العقار على أماكنه بحسب ناخبيها المسجّلين عام ٢٠١٤",
-"fr": "la population du cadastre répartie entre ses lieux selon leurs électeurs inscrits en 2014"
-},
-"the only place in its cadaster, so it gets the cadaster population": {
-"ar": "المكان الوحيد في عقاره، فيأخذ سكان العقار كلهم",
-"fr": "le seul lieu de son cadastre, il reçoit donc toute la population du cadastre"
-},
-"the cadaster population split by the nearest place": {
-"ar": "توزيع سكان العقار بحسب أقرب مكان",
-"fr": "la population du cadastre répartie selon le lieu le plus proche"
-},
-"GeoNames (CC BY 4.0)": {
-"ar": "GeoNames (CC BY ٤٫٠)",
-"fr": "GeoNames (CC BY 4.0)"
-},
-"lub-anan.com": {
-"ar": "lub-anan.com",
-"fr": "lub-anan.com"
-},
-"Wikidata (CC0)": {
-"ar": "Wikidata (CC٠)",
-"fr": "Wikidata (CC0)"
-},
-"Registered voters in 2014: {f} women and {m} men.": {
-"ar": "الناخبون المسجّلون عام ٢٠١٤: {f} امرأة و{m} رجلًا.",
-"fr": "Électeurs inscrits en 2014 : {f} femmes et {m} hommes."
-},
-"This count overlaps with another place's list, so do not add places up.": {
-"ar": "يتداخل هذا العدد مع قائمة مكان آخر، فلا تجمعوا الأماكن.",
-"fr": "Ce chiffre recoupe la liste d'un autre lieu : ne pas additionner les lieux."
-},
-"List as transcribed": {
-"ar": "القائمة كما نُقلت",
-"fr": "Liste transcrite"
-},
-"The resident estimate is {m}. It is a modelled allocation of the district total, not a count. Confidence: low.": {
-"ar": "تقدير المقيمين هو {m}. وهو توزيع نمذجي لمجموع القضاء وليس عدًّا. درجة الثقة: منخفضة.",
-"fr": "L'estimation des habitants est {m}. C'est une répartition modélisée du total du district, pas un décompte. Confiance : faible."
-},
-"No resident estimate is given for this place: the model gives its cadaster population to other places inside the cadaster. Use the cadaster figures.": {
-"ar": "لا يُعطى تقدير للمقيمين في هذا المكان: فالنموذج يمنح سكان عقاره لأماكن أخرى داخل العقار. استخدموا أرقام العقار.",
-"fr": "Aucune estimation d'habitants pour ce lieu : le modèle attribue la population de son cadastre à d'autres lieux du cadastre. Utilisez les chiffres du cadastre."
-},
-"Lebanon has had no census since 1932. Every figure here is an estimate or a voter count, not a count of residents.": {
-"ar": "لم يُجرَ في لبنان تعداد منذ ١٩٣٢. كل رقم هنا تقدير أو عدد ناخبين، وليس عدًّا للمقيمين.",
-"fr": "Le Liban n'a pas eu de recensement depuis 1932. Chaque chiffre ici est une estimation ou un nombre d'électeurs, pas un décompte des habitants."
-},
-"Arabic name: {s}": {
-"ar": "الاسم بالعربية: {s}",
-"fr": "Nom arabe : {s}"
-},
-"registered voters: Interior Ministry lists of 2014 as transcribed by lub-anan.com, no licence stated, facts only": {
-"ar": "الناخبون المسجّلون: قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com، دون ترخيص مذكور، وقائع فقط",
-"fr": "électeurs inscrits : listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com, sans licence indiquée, faits seulement"
-}
+ "Kind": {
+  "ar": "النوع",
+  "fr": "Nature"
+ },
+ "estimate": {
+  "ar": "تقدير",
+  "fr": "estimation"
+ },
+ "registered voters, not residents": {
+  "ar": "ناخبون مسجّلون، وليسوا مقيمين",
+  "fr": "électeurs inscrits, pas des habitants"
+ },
+ "Registered voters, 2014": {
+  "ar": "الناخبون المسجّلون، ٢٠١٤",
+  "fr": "Électeurs inscrits, 2014"
+ },
+ "Registered voters, 2022, scaled": {
+  "ar": "الناخبون المسجّلون، ٢٠٢٢، بعد تعديل النسبة",
+  "fr": "Électeurs inscrits, 2022, mis à l'échelle"
+ },
+ "Resident estimate, {y}": {
+  "ar": "تقدير عدد المقيمين، {y}",
+  "fr": "Estimation des habitants, {y}"
+ },
+ "Interior Ministry lists, via lub-anan.com": {
+  "ar": "قوائم وزارة الداخلية، عبر موقع lub-anan.com",
+  "fr": "Listes du ministère de l'Intérieur, via lub-anan.com"
+ },
+ "2014 count scaled by the change in the district": {
+  "ar": "رقم ٢٠١٤ معدَّلًا بتغيّر عدد الناخبين في القضاء",
+  "fr": "chiffre de 2014 ajusté selon l'évolution dans le district"
+ },
+ "OCHA response plan 2026 and Kontur 2023": {
+  "ar": "خطة استجابة أوتشا ٢٠٢٦ وبيانات Kontur ٢٠٢٣",
+  "fr": "Plan de réponse d'OCHA 2026 et Kontur 2023"
+ },
+ "the cadaster population split between its places by their 2014 registered voters": {
+  "ar": "توزيع سكان العقار على أماكنه بحسب ناخبيها المسجّلين عام ٢٠١٤",
+  "fr": "la population du cadastre répartie entre ses lieux selon leurs électeurs inscrits en 2014"
+ },
+ "the only place in its cadaster, so it gets the cadaster population": {
+  "ar": "المكان الوحيد في عقاره، فيأخذ سكان العقار كلهم",
+  "fr": "le seul lieu de son cadastre, il reçoit donc toute la population du cadastre"
+ },
+ "the cadaster population split by the nearest place": {
+  "ar": "توزيع سكان العقار بحسب أقرب مكان",
+  "fr": "la population du cadastre répartie selon le lieu le plus proche"
+ },
+ "GeoNames (CC BY 4.0)": {
+  "ar": "GeoNames (CC BY 4.0)",
+  "fr": "GeoNames (CC BY 4.0)"
+ },
+ "lub-anan.com": {
+  "ar": "lub-anan.com",
+  "fr": "lub-anan.com"
+ },
+ "Wikidata (CC0)": {
+  "ar": "Wikidata (CC0)",
+  "fr": "Wikidata (CC0)"
+ },
+ "Registered voters in 2014: {f} women and {m} men.": {
+  "ar": "الناخبون المسجّلون عام ٢٠١٤: {f} امرأة و{m} رجلًا.",
+  "fr": "Électeurs inscrits en 2014 : {f} femmes et {m} hommes."
+ },
+ "This count overlaps with another place's list, so do not add places up.": {
+  "ar": "يتداخل هذا العدد مع قائمة مكان آخر، فلا تجمعوا الأماكن.",
+  "fr": "Ce chiffre recoupe la liste d'un autre lieu : ne pas additionner les lieux."
+ },
+ "List as transcribed": {
+  "ar": "القائمة كما نُقلت",
+  "fr": "Liste transcrite"
+ },
+ "The resident estimate is {m}. It is a modelled allocation of the district total, not a count. Confidence: low.": {
+  "ar": "تقدير المقيمين هو {m}. وهو توزيع نمذجي لمجموع القضاء وليس عدًّا. درجة الثقة: منخفضة.",
+  "fr": "L'estimation des habitants est {m}. C'est une répartition modélisée du total du district, pas un décompte. Confiance : faible."
+ },
+ "No resident estimate is given for this place: the model gives its cadaster population to other places inside the cadaster. Use the cadaster figures.": {
+  "ar": "لا يُعطى تقدير للمقيمين في هذا المكان: فالنموذج يمنح سكان عقاره لأماكن أخرى داخل العقار. استخدموا أرقام العقار.",
+  "fr": "Aucune estimation d'habitants pour ce lieu : le modèle attribue la population de son cadastre à d'autres lieux du cadastre. Utilisez les chiffres du cadastre."
+ },
+ "Lebanon has had no census since 1932. Every figure here is an estimate or a voter count, not a count of residents.": {
+  "ar": "لم يُجرَ في لبنان تعداد منذ ١٩٣٢. كل رقم هنا تقدير أو عدد ناخبين، وليس عدًّا للمقيمين.",
+  "fr": "Le Liban n'a pas eu de recensement depuis 1932. Chaque chiffre ici est une estimation ou un nombre d'électeurs, pas un décompte des habitants."
+ },
+ "Arabic name: {s}": {
+  "ar": "الاسم بالعربية: {s}",
+  "fr": "Nom arabe : {s}"
+ },
+ "registered voters: Interior Ministry lists of 2014 as transcribed by lub-anan.com, no licence stated, facts only": {
+  "ar": "الناخبون المسجّلون: قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com، دون ترخيص مذكور، وقائع فقط",
+  "fr": "électeurs inscrits : listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com, sans licence indiquée, faits seulement"
+ },
+ "OpenStreetMap contributors (ODbL 1.0)": {
+  "ar": "المساهمون في OpenStreetMap (ODbL 1.0)",
+  "fr": "contributeurs d’OpenStreetMap (ODbL 1.0)"
+ }
 }

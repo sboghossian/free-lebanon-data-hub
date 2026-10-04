@@ -88,7 +88,7 @@ function plPlaceView(el, id) {
     const mu = (d.mu || []).map((m, i) => (LANG === 'ar' && d.mua && d.mua[i]) ? d.mua[i] : m).join(', ');
     const cad = d.cad || {}, mn = (d.mn || [])[0] || {};
     const KIND_EST = N('estimate'), KIND_RV = N('registered voters, not residents');
-    const AR_SRC = { geonames: N('GeoNames (CC BY 4.0)'), lub: N('lub-anan.com'), wikidata: N('Wikidata (CC0)') };
+    const AR_SRC = { geonames: N('GeoNames (CC BY 4.0)'), lub: N('lub-anan.com'), wikidata: N('Wikidata (CC0)'), osm: N('OpenStreetMap contributors (ODbL 1.0)') };
     const popRows = [
       [t('Registered voters, 2014'), d.rv && d.rv[0], t('Interior Ministry lists, via lub-anan.com'), KIND_RV],
       [t('Registered voters, 2022, scaled'), d.rv22, t('2014 count scaled by the change in the district'), KIND_EST],

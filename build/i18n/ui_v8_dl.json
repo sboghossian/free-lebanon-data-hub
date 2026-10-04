@@ -1,74 +1,74 @@
 {
-"Laws of Lebanon: {n1} laws and legislative decrees (titles, numbers, dates, English summaries)": {
-"ar": "قوانين لبنان: {n1} قانونًا ومرسومًا اشتراعيًا (العناوين والأرقام والتواريخ والملخّصات بالإنكليزية)",
-"fr": "Lois du Liban : {n1} lois et décrets législatifs (titres, numéros, dates, résumés en anglais)"
-},
-"Lebanon's own national figures: {n1} indicators (CAS and other national sources) to lay over the international series": {
-"ar": "أرقام لبنان الوطنية: {n1} مؤشّرًا (من إدارة الإحصاء المركزي ومصادر وطنية أخرى) لوضعها فوق السلاسل الدولية",
-"fr": "Chiffres nationaux du Liban : {n1} indicateurs (Administration centrale de la statistique et autres sources nationales) à superposer aux séries internationales"
-},
-"Lebanon's own national figures: {n1} indicators, one row per year": {
-"ar": "أرقام لبنان الوطنية: {n1} مؤشّرًا، سطر لكل سنة",
-"fr": "Chiffres nationaux du Liban : {n1} indicateurs, une ligne par année"
-},
-"Places: {n1} villages, towns and neighbourhoods with district, municipality, elevation, population, registered voters and resident estimates": {
-"ar": "الأماكن: {n1} قرية وبلدة وحيًّا مع القضاء والبلدية والارتفاع وعدد السكان والناخبين المسجّلين وتقديرات المقيمين",
-"fr": "Lieux : {n1} villages, villes et quartiers avec district, municipalité, altitude, population, électeurs inscrits et estimations des habitants"
-},
-"Strike map: official toll per war ({n1} counts, who counted and when)": {
-"ar": "خريطة الغارات: الحصيلة الرسمية لكل حرب ({n1} حصيلة، من أحصى ومتى)",
-"fr": "Carte des frappes : bilan officiel par guerre ({n1} bilans, qui a compté et quand)"
-},
-"Central Administration of Statistics (Lebanon), UN WPP 2024 via Our World in Data; each indicator names its source": {
-"ar": "إدارة الإحصاء المركزي (لبنان)، توقعات سكان العالم ٢٠٢٤ للأمم المتحدة عبر Our World in Data؛ وكل مؤشّر يسمّي مصدره",
-"fr": "Administration centrale de la statistique (Liban), UN WPP 2024 via Our World in Data ; chaque indicateur nomme sa source"
-},
-"Central Administration of Statistics (Lebanon); UN WPP 2024 via Our World in Data": {
-"ar": "إدارة الإحصاء المركزي (لبنان)؛ توقعات سكان العالم ٢٠٢٤ للأمم المتحدة عبر Our World in Data",
-"fr": "Administration centrale de la statistique (Liban) ; UN WPP 2024 via Our World in Data"
-},
-"Lebanese Ministry of Public Health, OCHA, WHO, Human Rights Watch and other counters named in each row; Wikipedia for the older wars": {
-"ar": "وزارة الصحة العامة اللبنانية وأوتشا ومنظمة الصحة العالمية وهيومن رايتس ووتش وجهات أخرى مذكورة في كل سطر؛ وويكيبيديا للحروب الأقدم",
-"fr": "Ministère libanais de la Santé publique, OCHA, OMS, Human Rights Watch et autres décompteurs nommés dans chaque ligne ; Wikipédia pour les guerres plus anciennes"
-},
-"Ministry of Energy and Water, Ministry of Economy and Trade, WFP (HDX), Central Administration of Statistics, decrees, press copies of ministry tables where marked, World Bank (see each series)": {
-"ar": "وزارة الطاقة والمياه ووزارة الاقتصاد والتجارة وبرنامج الأغذية العالمي (HDX) وإدارة الإحصاء المركزي والمراسيم ونسخ صحافية من جداول الوزارة حيث يُشار إلى ذلك والبنك الدولي (انظر كل سلسلة)",
-"fr": "Ministère de l'Énergie et de l'Eau, ministère de l'Économie et du Commerce, PAM (HDX), Administration centrale de la statistique, décrets, copies de presse des tableaux du ministère là où c'est indiqué, Banque mondiale (voir chaque série)"
-},
-"OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; resident estimates modelled from OCHA Lebanon Response Plan 2026 district totals and Kontur 2023 (HDX); Arabic names from GeoNames, lub-anan.com and Wikidata": {
-"ar": "قائمة قرى أوتشا وإدارة الإحصاء المركزي ٢٠١٧، وحدود أوتشا COD-AB v٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإحصاء المركزي ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين نمذجة من مجاميع الأقضية في خطة استجابة أوتشا للبنان ٢٠٢٦ وبيانات Kontur ٢٠٢٣ (HDX)؛ والأسماء العربية من GeoNames وlub-anan.com وWikidata",
-"fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com ; estimations des habitants modélisées à partir des totaux de district du plan de réponse d'OCHA Liban 2026 et de Kontur 2023 (HDX) ; noms arabes de GeoNames, lub-anan.com et Wikidata"
-},
-"OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; resident estimates modelled from OCHA Lebanon Response Plan 2026 district totals and Kontur 2023 (HDX); Arabic names from GeoNames, lub-anan.com and Wikidata; strikes from the Strike map data; events from the timeline": {
-"ar": "قائمة قرى أوتشا وإدارة الإحصاء المركزي ٢٠١٧، وحدود أوتشا COD-AB v٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإحصاء المركزي ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين نمذجة من مجاميع الأقضية في خطة استجابة أوتشا للبنان ٢٠٢٦ وبيانات Kontur ٢٠٢٣ (HDX)؛ والأسماء العربية من GeoNames وlub-anan.com وWikidata؛ والغارات من بيانات خريطة الغارات؛ والأحداث من الخط الزمني",
-"fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com ; estimations des habitants modélisées à partir des totaux de district du plan de réponse d'OCHA Liban 2026 et de Kontur 2023 (HDX) ; noms arabes de GeoNames, lub-anan.com et Wikidata ; frappes issues des données de la carte des frappes ; événements de la chronologie"
-},
-"Open Data Lebanon, Central Administration of Statistics, CIB IMPACT; each row links to its original; link status checked by the Hub": {
-"ar": "البيانات المفتوحة في لبنان، إدارة الإحصاء المركزي، CIB IMPACT؛ كل سطر يرتبط بأصله؛ وحالة الرابط يفحصها الـHub",
-"fr": "Open Data Lebanon, Administration centrale de la statistique, CIB IMPACT ; chaque ligne renvoie à son original ; l'état du lien est vérifié par le Hub"
-},
-"CC BY / CC BY-IGO / CC BY 4.0; names and coordinates that come from OpenStreetMap are ODbL 1.0 (c) OpenStreetMap contributors; voter counts: no licence stated, facts from official lists; resident estimates: CC BY inputs (Kontur, OCHA/LRP), the estimate itself is a modelled allocation, not a count; Arabic names: GeoNames CC BY 4.0, Wikidata CC0": {
-"ar": "CC BY / CC BY-IGO / CC BY ٤٫٠؛ الأسماء والإحداثيات المأخوذة من OpenStreetMap ترخيصها ODbL ١٫٠ (c) مساهمو OpenStreetMap؛ أعداد الناخبين: لا ترخيص مذكور، وقائع من قوائم رسمية؛ تقديرات المقيمين: مدخلات CC BY (Kontur وOCHA/LRP) والتقدير نفسه توزيع نمذجي وليس عدًّا؛ الأسماء العربية: GeoNames CC BY ٤٫٠ وWikidata CC٠",
-"fr": "CC BY / CC BY-IGO / CC BY 4.0 ; les noms et coordonnées venant d'OpenStreetMap sont sous ODbL 1.0 (c) contributeurs d'OpenStreetMap ; nombres d'électeurs : aucune licence indiquée, faits issus de listes officielles ; estimations des habitants : données d'entrée CC BY (Kontur, OCHA/LRP), l'estimation elle-même est une répartition modélisée, pas un décompte ; noms arabes : GeoNames CC BY 4.0, Wikidata CC0"
-},
-"CC BY-SA 4.0 for the compilation; each row carries its own licence": {
-"ar": "CC BY-SA ٤٫٠ للتجميعة؛ ولكل سطر ترخيصه",
-"fr": "CC BY-SA 4.0 pour la compilation ; chaque ligne porte sa propre licence"
-},
-"Facts as published by each counter; Wikipedia text CC BY-SA 4.0": {
-"ar": "وقائع كما نشرتها كل جهة إحصاء؛ نص ويكيبيديا CC BY-SA ٤٫٠",
-"fr": "Faits tels que publiés par chaque décompteur ; texte de Wikipédia CC BY-SA 4.0"
-},
-"Facts as published by each source; none states an open licence except where shown": {
-"ar": "وقائع كما نشرها كل مصدر؛ ولا يذكر أي منها ترخيصًا مفتوحًا إلا حيث يُشار إلى ذلك",
-"fr": "Faits tels que publiés par chaque source ; aucune n'indique de licence ouverte sauf là où c'est précisé"
-},
-"Facts as published; see the license column": {
-"ar": "وقائع كما نُشرت؛ انظر عمود الترخيص",
-"fr": "Faits tels que publiés ; voir la colonne license"
-},
-"No licence stated by the Legal Informatics Centre (Lebanese University) or the Parliament. Only titles, numbers, dates and short English summaries of public legislation are republished, with a link to the full text; no article text.": {
-"ar": "لا ترخيص مذكورًا لدى مركز المعلوماتية القانونية (الجامعة اللبنانية) ولا لدى مجلس النواب. لا يُعاد نشر سوى العناوين والأرقام والتواريخ وملخّصات إنكليزية قصيرة للتشريعات العلنية، مع رابط إلى النص الكامل؛ ولا نص للمواد.",
-"fr": "Aucune licence indiquée par le Centre d'informatique juridique (Université libanaise) ni par le Parlement. Seuls les titres, numéros, dates et brefs résumés en anglais de la législation publique sont republiés, avec un lien vers le texte intégral ; pas le texte des articles."
-}
+ "Laws of Lebanon: {n1} laws and legislative decrees (titles, numbers, dates, English summaries)": {
+  "ar": "قوانين لبنان: {n1} قانونًا ومرسومًا اشتراعيًا (العناوين والأرقام والتواريخ والملخّصات بالإنكليزية)",
+  "fr": "Lois du Liban : {n1} lois et décrets législatifs (titres, numéros, dates, résumés en anglais)"
+ },
+ "Lebanon's own national figures: {n1} indicators (CAS and other national sources) to lay over the international series": {
+  "ar": "أرقام لبنان الوطنية: {n1} مؤشّرًا (من إدارة الإحصاء المركزي ومصادر وطنية أخرى) لوضعها فوق السلاسل الدولية",
+  "fr": "Chiffres nationaux du Liban : {n1} indicateurs (Administration centrale de la statistique et autres sources nationales) à superposer aux séries internationales"
+ },
+ "Lebanon's own national figures: {n1} indicators, one row per year": {
+  "ar": "أرقام لبنان الوطنية: {n1} مؤشّرًا، سطر لكل سنة",
+  "fr": "Chiffres nationaux du Liban : {n1} indicateurs, une ligne par année"
+ },
+ "Places: {n1} villages, towns and neighbourhoods with district, municipality, elevation, population, registered voters and resident estimates": {
+  "ar": "الأماكن: {n1} قرية وبلدة وحيًّا مع القضاء والبلدية والارتفاع وعدد السكان والناخبين المسجّلين وتقديرات المقيمين",
+  "fr": "Lieux : {n1} villages, villes et quartiers avec district, municipalité, altitude, population, électeurs inscrits et estimations des habitants"
+ },
+ "Strike map: official toll per war ({n1} counts, who counted and when)": {
+  "ar": "خريطة الغارات: الحصيلة الرسمية لكل حرب ({n1} حصيلة، من أحصى ومتى)",
+  "fr": "Carte des frappes : bilan officiel par guerre ({n1} bilans, qui a compté et quand)"
+ },
+ "Central Administration of Statistics (Lebanon), UN WPP 2024 via Our World in Data; each indicator names its source": {
+  "ar": "إدارة الإحصاء المركزي (لبنان)، توقعات سكان العالم ٢٠٢٤ للأمم المتحدة عبر Our World in Data؛ وكل مؤشّر يسمّي مصدره",
+  "fr": "Administration centrale de la statistique (Liban), UN WPP 2024 via Our World in Data ; chaque indicateur nomme sa source"
+ },
+ "Central Administration of Statistics (Lebanon); UN WPP 2024 via Our World in Data": {
+  "ar": "إدارة الإحصاء المركزي (لبنان)؛ توقعات سكان العالم ٢٠٢٤ للأمم المتحدة عبر Our World in Data",
+  "fr": "Administration centrale de la statistique (Liban) ; UN WPP 2024 via Our World in Data"
+ },
+ "Lebanese Ministry of Public Health, OCHA, WHO, Human Rights Watch and other counters named in each row; Wikipedia for the older wars": {
+  "ar": "وزارة الصحة العامة اللبنانية وأوتشا ومنظمة الصحة العالمية وهيومن رايتس ووتش وجهات أخرى مذكورة في كل سطر؛ وويكيبيديا للحروب الأقدم",
+  "fr": "Ministère libanais de la Santé publique, OCHA, OMS, Human Rights Watch et autres décompteurs nommés dans chaque ligne ; Wikipédia pour les guerres plus anciennes"
+ },
+ "Ministry of Energy and Water, Ministry of Economy and Trade, WFP (HDX), Central Administration of Statistics, decrees, press copies of ministry tables where marked, World Bank (see each series)": {
+  "ar": "وزارة الطاقة والمياه ووزارة الاقتصاد والتجارة وبرنامج الأغذية العالمي (HDX) وإدارة الإحصاء المركزي والمراسيم ونسخ صحافية من جداول الوزارة حيث يُشار إلى ذلك والبنك الدولي (انظر كل سلسلة)",
+  "fr": "Ministère de l'Énergie et de l'Eau, ministère de l'Économie et du Commerce, PAM (HDX), Administration centrale de la statistique, décrets, copies de presse des tableaux du ministère là où c'est indiqué, Banque mondiale (voir chaque série)"
+ },
+ "OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; resident estimates modelled from OCHA Lebanon Response Plan 2026 district totals and Kontur 2023 (HDX); Arabic names from GeoNames, lub-anan.com and Wikidata": {
+  "ar": "قائمة قرى أوتشا وإدارة الإحصاء المركزي ٢٠١٧، وحدود أوتشا COD-AB v٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإحصاء المركزي ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين نمذجة من مجاميع الأقضية في خطة استجابة أوتشا للبنان ٢٠٢٦ وبيانات Kontur ٢٠٢٣ (HDX)؛ والأسماء العربية من GeoNames وlub-anan.com وWikidata",
+  "fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com ; estimations des habitants modélisées à partir des totaux de district du plan de réponse d'OCHA Liban 2026 et de Kontur 2023 (HDX) ; noms arabes de GeoNames, lub-anan.com et Wikidata"
+ },
+ "OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list; registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; resident estimates modelled from OCHA Lebanon Response Plan 2026 district totals and Kontur 2023 (HDX); Arabic names from GeoNames, lub-anan.com and Wikidata; strikes from the Strike map data; events from the timeline": {
+  "ar": "قائمة قرى أوتشا وإدارة الإحصاء المركزي ٢٠١٧، وحدود أوتشا COD-AB v٠٢، وGeoNames، وHOT/OSM (عبر research/geo/gazetteer.jsonl)؛ والبلديات من CIB IMPACT وقائمة الإحصاء المركزي ٢٠١٧؛ والناخبون المسجّلون من قوائم وزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com؛ وتقديرات المقيمين نمذجة من مجاميع الأقضية في خطة استجابة أوتشا للبنان ٢٠٢٦ وبيانات Kontur ٢٠٢٣ (HDX)؛ والأسماء العربية من GeoNames وlub-anan.com وWikidata؛ والغارات من بيانات خريطة الغارات؛ والأحداث من الخط الزمني",
+  "fr": "Liste des villages OCHA/CAS 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl) ; municipalités de CIB IMPACT et de la liste CAS 2017 ; électeurs inscrits d'après les listes du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com ; estimations des habitants modélisées à partir des totaux de district du plan de réponse d'OCHA Liban 2026 et de Kontur 2023 (HDX) ; noms arabes de GeoNames, lub-anan.com et Wikidata ; frappes issues des données de la carte des frappes ; événements de la chronologie"
+ },
+ "Open Data Lebanon, Central Administration of Statistics, CIB IMPACT; each row links to its original; link status checked by the Hub": {
+  "ar": "البيانات المفتوحة في لبنان، إدارة الإحصاء المركزي، CIB IMPACT؛ كل سطر يرتبط بأصله؛ وحالة الرابط يفحصها الـHub",
+  "fr": "Open Data Lebanon, Administration centrale de la statistique, CIB IMPACT ; chaque ligne renvoie à son original ; l'état du lien est vérifié par le Hub"
+ },
+ "CC BY / CC BY-IGO / CC BY 4.0; names and coordinates that come from OpenStreetMap are ODbL 1.0 (c) OpenStreetMap contributors; voter counts: no licence stated, facts from official lists; resident estimates: CC BY inputs (Kontur, OCHA/LRP), the estimate itself is a modelled allocation, not a count; Arabic names: GeoNames CC BY 4.0, Wikidata CC0": {
+  "ar": "CC BY / CC BY-IGO / CC BY 4.0؛ الأسماء والإحداثيات المأخوذة من OpenStreetMap ترخيصها ODbL 1.0 (c) مساهمو OpenStreetMap؛ أعداد الناخبين: لا ترخيص مذكور، وقائع من قوائم رسمية؛ تقديرات المقيمين: مدخلات CC BY (Kontur وOCHA/LRP) والتقدير نفسه توزيع نمذجي وليس عدًّا؛ الأسماء العربية: GeoNames CC BY 4.0 وWikidata CC0",
+  "fr": "CC BY / CC BY-IGO / CC BY 4.0 ; les noms et coordonnées venant d'OpenStreetMap sont sous ODbL 1.0 (c) contributeurs d'OpenStreetMap ; nombres d'électeurs : aucune licence indiquée, faits issus de listes officielles ; estimations des habitants : données d'entrée CC BY (Kontur, OCHA/LRP), l'estimation elle-même est une répartition modélisée, pas un décompte ; noms arabes : GeoNames CC BY 4.0, Wikidata CC0"
+ },
+ "CC BY-SA 4.0 for the compilation; each row carries its own licence": {
+  "ar": "CC BY-SA 4.0 للتجميعة؛ ولكل سطر ترخيصه",
+  "fr": "CC BY-SA 4.0 pour la compilation ; chaque ligne porte sa propre licence"
+ },
+ "Facts as published by each counter; Wikipedia text CC BY-SA 4.0": {
+  "ar": "وقائع كما نشرتها كل جهة إحصاء؛ نص ويكيبيديا CC BY-SA 4.0",
+  "fr": "Faits tels que publiés par chaque décompteur ; texte de Wikipédia CC BY-SA 4.0"
+ },
+ "Facts as published by each source; none states an open licence except where shown": {
+  "ar": "وقائع كما نشرها كل مصدر؛ ولا يذكر أي منها ترخيصًا مفتوحًا إلا حيث يُشار إلى ذلك",
+  "fr": "Faits tels que publiés par chaque source ; aucune n'indique de licence ouverte sauf là où c'est précisé"
+ },
+ "Facts as published; see the license column": {
+  "ar": "وقائع كما نُشرت؛ انظر عمود الترخيص",
+  "fr": "Faits tels que publiés ; voir la colonne license"
+ },
+ "No licence stated by the Legal Informatics Centre (Lebanese University) or the Parliament. Only titles, numbers, dates and short English summaries of public legislation are republished, with a link to the full text; no article text.": {
+  "ar": "لا ترخيص مذكورًا لدى مركز المعلوماتية القانونية (الجامعة اللبنانية) ولا لدى مجلس النواب. لا يُعاد نشر سوى العناوين والأرقام والتواريخ وملخّصات إنكليزية قصيرة للتشريعات العلنية، مع رابط إلى النص الكامل؛ ولا نص للمواد.",
+  "fr": "Aucune licence indiquée par le Centre d'informatique juridique (Université libanaise) ni par le Parlement. Seuls les titres, numéros, dates et brefs résumés en anglais de la législation publique sont republiés, avec un lien vers le texte intégral ; pas le texte des articles."
+ }
 }

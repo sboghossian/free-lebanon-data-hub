@@ -1,10 +1,10 @@
 {
- "content_strings": 16740,
+ "content_strings": 16741,
  "ui_strings": 1665,
  "ui_missing": 0,
  "ar": {
-  "translated": 16740,
-  "same_as_english": 176,
+  "translated": 16741,
+  "same_as_english": 175,
   "pct": 100.0,
   "by_kind": {
    "district": [
@@ -57,12 +57,12 @@
    ]
   },
   "core": [
-   15093,
-   15093
+   15094,
+   15094
   ]
  },
  "fr": {
-  "translated": 16739,
+  "translated": 16741,
   "same_as_english": 214,
   "pct": 100.0,
   "by_kind": {
@@ -116,8 +116,8 @@
    ]
   },
   "core": [
-   15092,
-   15093
+   15094,
+   15094
   ]
  }
 }

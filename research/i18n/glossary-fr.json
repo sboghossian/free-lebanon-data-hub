@@ -1,0 +1,2341 @@
+{
+ "Berry": {
+  "canonical": "Berry",
+  "variants_ok": [
+   "Nabih Berry"
+  ],
+  "source": "press-usage"
+ },
+ "Chehab": {
+  "canonical": "Chéhab",
+  "variants_ok": [
+   "Chehab",
+   "Shihab"
+  ],
+  "source": "press-usage"
+ },
+ "Shihab": {
+  "canonical": "Chéhab",
+  "variants_ok": [
+   "Chehab",
+   "Shihab"
+  ],
+  "source": "press-usage"
+ },
+ "Karami": {
+  "canonical": "Karamé",
+  "variants_ok": [
+   "Karami"
+  ],
+  "source": "press-usage"
+ },
+ "Frangieh": {
+  "canonical": "Frangié",
+  "variants_ok": [
+   "Frangieh"
+  ],
+  "source": "press-usage"
+ },
+ "Sidon": {
+  "canonical": "Saïda",
+  "variants_ok": [
+   "Saida",
+   "Sidon"
+  ],
+  "source": "press-usage"
+ },
+ "Saida": {
+  "canonical": "Saïda",
+  "variants_ok": [
+   "Saida",
+   "Sidon"
+  ],
+  "source": "press-usage"
+ },
+ "Tyre": {
+  "canonical": "Tyr",
+  "variants_ok": [
+   "Sour"
+  ],
+  "source": "press-usage"
+ },
+ "Sour": {
+  "canonical": "Tyr",
+  "variants_ok": [
+   "Sour"
+  ],
+  "source": "press-usage"
+ },
+ "Beirut": {
+  "canonical": "Beyrouth",
+  "variants_ok": [
+   "Beirut"
+  ],
+  "source": "press-usage"
+ },
+ "Beyrouth": {
+  "canonical": "Beyrouth",
+  "variants_ok": [
+   "Beirut"
+  ],
+  "source": "press-usage"
+ },
+ "Zahle": {
+  "canonical": "Zahlé",
+  "variants_ok": [
+   "Zahle",
+   "Zahleh"
+  ],
+  "source": "press-usage"
+ },
+ "Zahleh": {
+  "canonical": "Zahlé",
+  "variants_ok": [
+   "Zahle",
+   "Zahleh"
+  ],
+  "source": "press-usage"
+ },
+ "South Lebanon": {
+  "canonical": "Liban-Sud",
+  "variants_ok": [
+   "Sud-Liban",
+   "Liban du Sud"
+  ],
+  "source": "press-usage"
+ },
+ "Hezbollah": {
+  "canonical": "Hezbollah",
+  "variants_ok": [
+   "Hizbullah"
+  ],
+  "source": "press-usage"
+ },
+ "Amal": {
+  "canonical": "Amal",
+  "variants_ok": [
+   "mouvement Amal"
+  ],
+  "source": "press-usage"
+ },
+ "Amal Movement": {
+  "canonical": "Mouvement Amal",
+  "variants_ok": [
+   "Amal"
+  ],
+  "source": "press-usage"
+ },
+ "Kataeb": {
+  "canonical": "Kataëb",
+  "variants_ok": [
+   "Kataeb",
+   "Parti Kataëb",
+   "Phalanges libanaises"
+  ],
+  "source": "press-usage"
+ },
+ "Lebanese Forces": {
+  "canonical": "Forces libanaises",
+  "variants_ok": [
+   "FL"
+  ],
+  "source": "press-usage"
+ },
+ "The LF": {
+  "canonical": "Forces libanaises",
+  "variants_ok": [
+   "FL"
+  ],
+  "source": "press-usage"
+ },
+ "UNIFIL": {
+  "canonical": "FINUL",
+  "variants_ok": [
+   "Force intérimaire des Nations unies au Liban",
+   "UNIFIL"
+  ],
+  "source": "press-usage"
+ },
+ "Banque du Liban": {
+  "canonical": "Banque du Liban",
+  "variants_ok": [
+   "BDL",
+   "Banque centrale du Liban"
+  ],
+  "source": "press-usage"
+ },
+ "Central Bank of Lebanon": {
+  "canonical": "Banque du Liban",
+  "variants_ok": [
+   "BDL",
+   "Banque centrale du Liban"
+  ],
+  "source": "press-usage"
+ },
+ "Bashir II": {
+  "canonical": "Bachir Chéhab II",
+  "variants_ok": [
+   "Bachir Chehab II",
+   "Bachir II"
+  ],
+  "source": "press-usage"
+ },
+ "Lebanon": {
+  "canonical": "Liban",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Liban": {
+  "canonical": "Liban",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Israel": {
+  "canonical": "Israël",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Syria": {
+  "canonical": "Syrie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Damascus": {
+  "canonical": "Damas",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "France": {
+  "canonical": "France",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Iran": {
+  "canonical": "Iran",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Egypt": {
+  "canonical": "Égypte",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Jordan": {
+  "canonical": "Jordanie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Saudi Arabia": {
+  "canonical": "Arabie saoudite",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Turkey": {
+  "canonical": "Turquie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Germany": {
+  "canonical": "Allemagne",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kuwait": {
+  "canonical": "Koweït",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Qatar": {
+  "canonical": "Qatar",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Iraq": {
+  "canonical": "Irak",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Libya": {
+  "canonical": "Libye",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Algeria": {
+  "canonical": "Algérie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bahrain": {
+  "canonical": "Bahreïn",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Malta": {
+  "canonical": "Malte",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Italy": {
+  "canonical": "Italie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "China": {
+  "canonical": "Chine",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Japan": {
+  "canonical": "Japon",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Russia": {
+  "canonical": "Russie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Canada": {
+  "canonical": "Canada",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Austria": {
+  "canonical": "Autriche",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Australia": {
+  "canonical": "Australie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Argentina": {
+  "canonical": "Argentine",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Indonesia": {
+  "canonical": "Indonésie",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Morocco": {
+  "canonical": "Maroc",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Europe": {
+  "canonical": "Europe",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Middle East": {
+  "canonical": "Moyen-Orient",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Levant": {
+  "canonical": "Levant",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Haifa": {
+  "canonical": "Haïfa",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Safed": {
+  "canonical": "Safed",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kiryat Shmona": {
+  "canonical": "Kiryat Shmona",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nahariya": {
+  "canonical": "Nahariya",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Majdal Shams": {
+  "canonical": "Majdal Shams",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Homs": {
+  "canonical": "Homs",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Aleppo": {
+  "canonical": "Alep",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Latakia": {
+  "canonical": "Lattaquié",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hauran": {
+  "canonical": "Hauran",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cairo": {
+  "canonical": "Le Caire",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Istanbul": {
+  "canonical": "Istanbul",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Washington": {
+  "canonical": "Washington",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "London": {
+  "canonical": "Londres",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Paris": {
+  "canonical": "Paris",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Rome": {
+  "canonical": "Rome",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Geneva": {
+  "canonical": "Genève",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cannes": {
+  "canonical": "Cannes",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tehran": {
+  "canonical": "Téhéran",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Riyadh": {
+  "canonical": "Riyad",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Constantinople": {
+  "canonical": "Constantinople",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "The Hague": {
+  "canonical": "La Haye",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "New Jersey": {
+  "canonical": "New Jersey",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Doha": {
+  "canonical": "Doha",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Golan Heights": {
+  "canonical": "Plateau du Golan",
+  "variants_ok": [
+   "Golan"
+  ],
+  "source": "langlinks"
+ },
+ "Galilee": {
+  "canonical": "Galilée",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Upper Galilee": {
+  "canonical": "Haute Galilée",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tripoli": {
+  "canonical": "Tripoli",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nabatieh": {
+  "canonical": "Nabatieh",
+  "variants_ok": [
+   "Nabatiyeh"
+  ],
+  "source": "langlinks"
+ },
+ "Baalbek": {
+  "canonical": "Baalbek",
+  "variants_ok": [
+   "Baalbeck"
+  ],
+  "source": "langlinks"
+ },
+ "Bint Jbeil": {
+  "canonical": "Bint-Jbeil",
+  "variants_ok": [
+   "Bint Jbeil"
+  ],
+  "source": "langlinks"
+ },
+ "Naqoura": {
+  "canonical": "Naqoura",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Khiam": {
+  "canonical": "Khiam",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Baabda": {
+  "canonical": "Baabda",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Marjayoun": {
+  "canonical": "Marjayoun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Jounieh": {
+  "canonical": "Jounieh",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Aley": {
+  "canonical": "Aley",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Houla": {
+  "canonical": "Houla",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Haret Hreik": {
+  "canonical": "Haret Hreik",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Yaroun": {
+  "canonical": "Yaroun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Byblos": {
+  "canonical": "Byblos",
+  "variants_ok": [
+   "Jbeil"
+  ],
+  "source": "langlinks"
+ },
+ "Aitaroun": {
+  "canonical": "Aitaroun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sabra": {
+  "canonical": "Sabra",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Jezzine": {
+  "canonical": "Jezzine",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hazmieh": {
+  "canonical": "Hazmieh",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Blida": {
+  "canonical": "Blida",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Markaba": {
+  "canonical": "Markaba",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hasbaya": {
+  "canonical": "Hasbaya",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Damour": {
+  "canonical": "Damour",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ghobeiry": {
+  "canonical": "Ghobeiry",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hermel": {
+  "canonical": "Hermel",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bourj Hammoud": {
+  "canonical": "Bourj Hammoud",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Beit Lif": {
+  "canonical": "Beit Lif",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ehden": {
+  "canonical": "Ehden",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Batroun": {
+  "canonical": "Batroun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bhamdoun": {
+  "canonical": "Bhamdoun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Chiyah": {
+  "canonical": "Chiyah",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Rayak": {
+  "canonical": "Rayak",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ghazir": {
+  "canonical": "Ghazir",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Zouk Mikael": {
+  "canonical": "Zouk Mikael",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Mansouri": {
+  "canonical": "Mansouri",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Rachaya": {
+  "canonical": "Rachaya",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Beit Mery": {
+  "canonical": "Beit Mery",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Roumieh": {
+  "canonical": "Roumieh",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Harissa": {
+  "canonical": "Harissa",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Koura": {
+  "canonical": "Koura",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Qaraoun": {
+  "canonical": "Qaraoun",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ain Ebel": {
+  "canonical": "Ain Ebel",
+  "variants_ok": [
+   "Aïn Ebel"
+  ],
+  "source": "langlinks"
+ },
+ "Hasbani": {
+  "canonical": "Hasbani",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kfarchouba": {
+  "canonical": "Kfarchouba",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hajjar": {
+  "canonical": "Hajjar",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ashrafieh": {
+  "canonical": "Achrafieh",
+  "variants_ok": [
+   "Ashrafieh"
+  ],
+  "source": "langlinks"
+ },
+ "Achrafieh": {
+  "canonical": "Achrafieh",
+  "variants_ok": [
+   "Ashrafieh"
+  ],
+  "source": "langlinks"
+ },
+ "Mount Lebanon": {
+  "canonical": "Mont-Liban",
+  "variants_ok": [
+   "Mont Liban"
+  ],
+  "source": "langlinks"
+ },
+ "Arsal": {
+  "canonical": "Ersal",
+  "variants_ok": [
+   "Arsal"
+  ],
+  "source": "langlinks"
+ },
+ "Taif": {
+  "canonical": "Taëf",
+  "variants_ok": [
+   "Taif"
+  ],
+  "source": "langlinks"
+ },
+ "Shebaa": {
+  "canonical": "Chebaa",
+  "variants_ok": [
+   "Shebaa"
+  ],
+  "source": "langlinks"
+ },
+ "Shebaa Farms": {
+  "canonical": "Fermes de Chebaa",
+  "variants_ok": [
+   "Shebaa Farms"
+  ],
+  "source": "langlinks"
+ },
+ "Shatila": {
+  "canonical": "Chatila",
+  "variants_ok": [
+   "Shatila"
+  ],
+  "source": "langlinks"
+ },
+ "Chatila": {
+  "canonical": "Chatila",
+  "variants_ok": [
+   "Shatila"
+  ],
+  "source": "langlinks"
+ },
+ "Khalde": {
+  "canonical": "Khaldé",
+  "variants_ok": [
+   "Khalde"
+  ],
+  "source": "langlinks"
+ },
+ "Antelias": {
+  "canonical": "Antélias",
+  "variants_ok": [
+   "Antelias"
+  ],
+  "source": "langlinks"
+ },
+ "Meiss Ej Jabal": {
+  "canonical": "Meiss El Jabal",
+  "variants_ok": [
+   "Meiss el-Jabal",
+   "Mais al-Jabal"
+  ],
+  "source": "langlinks"
+ },
+ "Mais al-Jabal": {
+  "canonical": "Meiss El Jabal",
+  "variants_ok": [
+   "Meiss el-Jabal",
+   "Mais al-Jabal"
+  ],
+  "source": "langlinks"
+ },
+ "Mays al-Jabal": {
+  "canonical": "Meiss El Jabal",
+  "variants_ok": [
+   "Meiss el-Jabal",
+   "Mais al-Jabal"
+  ],
+  "source": "langlinks"
+ },
+ "Yater": {
+  "canonical": "Yater",
+  "variants_ok": [
+   "Yatar"
+  ],
+  "source": "langlinks"
+ },
+ "Yatar": {
+  "canonical": "Yater",
+  "variants_ok": [
+   "Yatar"
+  ],
+  "source": "langlinks"
+ },
+ "Tibnin": {
+  "canonical": "Tibnine",
+  "variants_ok": [
+   "Tebnine",
+   "Tibnin"
+  ],
+  "source": "langlinks"
+ },
+ "Tebnine": {
+  "canonical": "Tibnine",
+  "variants_ok": [
+   "Tebnine",
+   "Tibnin"
+  ],
+  "source": "langlinks"
+ },
+ "Bourj el-Barajneh": {
+  "canonical": "Bourj el-Brajné",
+  "variants_ok": [
+   "Bourj el-Barajneh",
+   "Burj el-Barajneh",
+   "Burj al-Barajneh"
+  ],
+  "source": "langlinks"
+ },
+ "Burj el-Barajneh": {
+  "canonical": "Bourj el-Brajné",
+  "variants_ok": [
+   "Bourj el-Barajneh",
+   "Burj el-Barajneh",
+   "Burj al-Barajneh"
+  ],
+  "source": "langlinks"
+ },
+ "Zgharta": {
+  "canonical": "Zghorta",
+  "variants_ok": [
+   "Zgharta"
+  ],
+  "source": "langlinks"
+ },
+ "Chtaura": {
+  "canonical": "Chtoura",
+  "variants_ok": [
+   "Chtaura"
+  ],
+  "source": "langlinks"
+ },
+ "Jdeideh": {
+  "canonical": "Jdeïdé",
+  "variants_ok": [
+   "Jdeideh"
+  ],
+  "source": "langlinks"
+ },
+ "Metula": {
+  "canonical": "Metoula",
+  "variants_ok": [
+   "Metula"
+  ],
+  "source": "langlinks"
+ },
+ "Habboush": {
+  "canonical": "Habbouche",
+  "variants_ok": [
+   "Habboush"
+  ],
+  "source": "langlinks"
+ },
+ "Yarzeh": {
+  "canonical": "Yarzé",
+  "variants_ok": [
+   "Yarzeh"
+  ],
+  "source": "langlinks"
+ },
+ "Barashit": {
+  "canonical": "Baraachit",
+  "variants_ok": [
+   "Barashit"
+  ],
+  "source": "langlinks"
+ },
+ "Aitou": {
+  "canonical": "Aïto",
+  "variants_ok": [
+   "Aitou"
+  ],
+  "source": "langlinks"
+ },
+ "Kfarshima": {
+  "canonical": "Kfarchima",
+  "variants_ok": [
+   "Kfarshima"
+  ],
+  "source": "langlinks"
+ },
+ "Deir al-Qamar": {
+  "canonical": "Deir el-Qamar",
+  "variants_ok": [
+   "Deir al-Qamar"
+  ],
+  "source": "langlinks"
+ },
+ "Deir el-Qamar": {
+  "canonical": "Deir el-Qamar",
+  "variants_ok": [
+   "Deir al-Qamar"
+  ],
+  "source": "langlinks"
+ },
+ "Tel Aviv": {
+  "canonical": "Tel-Aviv",
+  "variants_ok": [
+   "Tel Aviv-Jaffa",
+   "Tel Aviv"
+  ],
+  "source": "langlinks"
+ },
+ "Hormuz": {
+  "canonical": "Ormuz",
+  "variants_ok": [
+   "Hormuz"
+  ],
+  "source": "langlinks"
+ },
+ "Mediterranean": {
+  "canonical": "Mer Méditerranée",
+  "variants_ok": [
+   "Méditerranée"
+  ],
+  "source": "langlinks"
+ },
+ "South Governorate": {
+  "canonical": "Gouvernorat du Liban-Sud",
+  "variants_ok": [
+   "gouvernorat du Sud"
+  ],
+  "source": "langlinks"
+ },
+ "Nabatieh Governorate": {
+  "canonical": "Gouvernorat de Nabatieh",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Beqaa Governorate": {
+  "canonical": "Gouvernorat de la Bekaa",
+  "variants_ok": [
+   "Gouvernorat de la Békaa"
+  ],
+  "source": "langlinks"
+ },
+ "Baalbek-Hermel Governorate": {
+  "canonical": "Gouvernorat de Baalbek-Hermel",
+  "variants_ok": [
+   "Baalbeck-Hermel"
+  ],
+  "source": "langlinks"
+ },
+ "Nabatieh District": {
+  "canonical": "District de Nabatieh",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tyre District": {
+  "canonical": "District de Tyr",
+  "variants_ok": [
+   "caza de Tyr"
+  ],
+  "source": "langlinks"
+ },
+ "Sidon District": {
+  "canonical": "District de Saïda",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bint Jbeil District": {
+  "canonical": "District de Bint-Jbeil",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Greater Lebanon": {
+  "canonical": "Grand Liban",
+  "variants_ok": [
+   "État du Grand Liban"
+  ],
+  "source": "langlinks"
+ },
+ "State of Greater Lebanon": {
+  "canonical": "Grand Liban",
+  "variants_ok": [
+   "État du Grand Liban"
+  ],
+  "source": "langlinks"
+ },
+ "Beaufort Castle": {
+  "canonical": "Château de Beaufort",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sassine Square": {
+  "canonical": "Place Sassine",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cedars of God": {
+  "canonical": "Cèdres de Dieu",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bekaa": {
+  "canonical": "Békaa",
+  "variants_ok": [
+   "Bekaa",
+   "plaine de la Békaa"
+  ],
+  "source": "manual"
+ },
+ "Beqaa": {
+  "canonical": "Békaa",
+  "variants_ok": [
+   "Bekaa",
+   "plaine de la Békaa"
+  ],
+  "source": "manual"
+ },
+ "Bekaa Valley": {
+  "canonical": "Békaa",
+  "variants_ok": [
+   "Bekaa",
+   "plaine de la Békaa"
+  ],
+  "source": "manual"
+ },
+ "Beqaa Valley": {
+  "canonical": "Békaa",
+  "variants_ok": [
+   "Bekaa",
+   "plaine de la Békaa"
+  ],
+  "source": "manual"
+ },
+ "Dahieh": {
+  "canonical": "Dahié",
+  "variants_ok": [
+   "banlieue sud de Beyrouth",
+   "Dahiyé",
+   "Dahieh"
+  ],
+  "source": "manual"
+ },
+ "Chouf": {
+  "canonical": "Chouf",
+  "variants_ok": [
+   "District du Chouf"
+  ],
+  "source": "manual"
+ },
+ "Shuf": {
+  "canonical": "Chouf",
+  "variants_ok": [
+   "District du Chouf"
+  ],
+  "source": "manual"
+ },
+ "Akkar": {
+  "canonical": "Akkar",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Kesrouan": {
+  "canonical": "Kesrouan",
+  "variants_ok": [
+   "Keserwan",
+   "Kesrwan"
+  ],
+  "source": "manual"
+ },
+ "Keserwan": {
+  "canonical": "Kesrouan",
+  "variants_ok": [
+   "Keserwan",
+   "Kesrwan"
+  ],
+  "source": "manual"
+ },
+ "Kesrwan": {
+  "canonical": "Kesrouan",
+  "variants_ok": [
+   "Keserwan",
+   "Kesrwan"
+  ],
+  "source": "manual"
+ },
+ "Kesrwane": {
+  "canonical": "Kesrouan",
+  "variants_ok": [
+   "Keserwan",
+   "Kesrwan"
+  ],
+  "source": "manual"
+ },
+ "Metn": {
+  "canonical": "Metn",
+  "variants_ok": [
+   "Matn"
+  ],
+  "source": "manual"
+ },
+ "Qana": {
+  "canonical": "Qana",
+  "variants_ok": [
+   "Cana"
+  ],
+  "source": "manual"
+ },
+ "Rmeish": {
+  "canonical": "Rmeich",
+  "variants_ok": [
+   "Rmeish"
+  ],
+  "source": "manual"
+ },
+ "West Beirut": {
+  "canonical": "Beyrouth-Ouest",
+  "variants_ok": [
+   "Beyrouth Ouest"
+  ],
+  "source": "manual"
+ },
+ "East Beirut": {
+  "canonical": "Beyrouth-Est",
+  "variants_ok": [
+   "Beyrouth Est"
+  ],
+  "source": "manual"
+ },
+ "Greater Beirut": {
+  "canonical": "Grand Beyrouth",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "North Lebanon": {
+  "canonical": "Liban-Nord",
+  "variants_ok": [
+   "Nord-Liban"
+  ],
+  "source": "manual"
+ },
+ "Litani": {
+  "canonical": "Litani",
+  "variants_ok": [
+   "fleuve Litani"
+  ],
+  "source": "manual"
+ },
+ "Litani River": {
+  "canonical": "Litani",
+  "variants_ok": [
+   "fleuve Litani"
+  ],
+  "source": "manual"
+ },
+ "Awali": {
+  "canonical": "Awali",
+  "variants_ok": [
+   "Nahr el-Awali"
+  ],
+  "source": "manual"
+ },
+ "Tel al-Zaatar": {
+  "canonical": "Tel al-Zaatar",
+  "variants_ok": [
+   "Tell el-Zaatar"
+  ],
+  "source": "manual"
+ },
+ "Palestine": {
+  "canonical": "Palestine",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Gaza": {
+  "canonical": "Gaza",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Jabal Mohsen": {
+  "canonical": "Jabal Mohsen",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Martyrs' Square": {
+  "canonical": "place des Martyrs",
+  "variants_ok": [
+   "Martyrs' Square"
+  ],
+  "source": "manual"
+ },
+ "National Museum": {
+  "canonical": "Musée national de Beyrouth",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Lake Qaraoun": {
+  "canonical": "lac de Qaraoun",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Kafr Kila": {
+  "canonical": "Kfar Kila",
+  "variants_ok": [
+   "Kfarkila",
+   "Kafr Kila"
+  ],
+  "source": "gazetteer"
+ },
+ "Kfar Kila": {
+  "canonical": "Kfar Kila",
+  "variants_ok": [
+   "Kfarkila"
+  ],
+  "source": "gazetteer"
+ },
+ "Jiyeh": {
+  "canonical": "Jiyé",
+  "variants_ok": [
+   "Jiyeh"
+  ],
+  "source": "gazetteer"
+ },
+ "Choueifat": {
+  "canonical": "Choueifat",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Srifa": {
+  "canonical": "Srifa",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Fayadieh": {
+  "canonical": "Fayadieh",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Harouf": {
+  "canonical": "Harouf",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Arnoun": {
+  "canonical": "Arnoun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yarine": {
+  "canonical": "Yarine",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chamaa": {
+  "canonical": "Chamaa",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Marwahin": {
+  "canonical": "Marwahin",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Shaqra": {
+  "canonical": "Chaqra",
+  "variants_ok": [
+   "Shaqra"
+  ],
+  "source": "gazetteer"
+ },
+ "Ainata": {
+  "canonical": "Ainata",
+  "variants_ok": [
+   "Aïnata"
+  ],
+  "source": "gazetteer"
+ },
+ "Ras Baalbek": {
+  "canonical": "Ras Baalbeck",
+  "variants_ok": [
+   "Ras Baalbek"
+  ],
+  "source": "gazetteer"
+ },
+ "Ain Qana": {
+  "canonical": "Ain Qana",
+  "variants_ok": [
+   "Aïn Qana"
+  ],
+  "source": "gazetteer"
+ },
+ "Anjar": {
+  "canonical": "Anjar",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hanine": {
+  "canonical": "Hanine",
+  "variants_ok": [
+   "Hanin"
+  ],
+  "source": "gazetteer"
+ },
+ "Deir Ammar": {
+  "canonical": "Deir Ammar",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Baal": {
+  "canonical": "Ain Baal",
+  "variants_ok": [
+   "Aïn Baal"
+  ],
+  "source": "gazetteer"
+ },
+ "Adloun": {
+  "canonical": "Adloun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sarafand": {
+  "canonical": "Sarafand",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chihine": {
+  "canonical": "Chihine",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Al-Nabi Shayth": {
+  "canonical": "Nabi Chit",
+  "variants_ok": [
+   "Al-Nabi Shayth"
+  ],
+  "source": "gazetteer"
+ },
+ "Yohmor": {
+  "canonical": "Yohmor",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Kfar Tebnit": {
+  "canonical": "Kfar Tebnit",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Duris": {
+  "canonical": "Douris",
+  "variants_ok": [
+   "Duris"
+  ],
+  "source": "gazetteer"
+ },
+ "Joun": {
+  "canonical": "Joun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Toul": {
+  "canonical": "Toul",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jwaya": {
+  "canonical": "Jwaya",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jnah": {
+  "canonical": "Jnah",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Deir Qanoun": {
+  "canonical": "Deir Qanoun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Boudai": {
+  "canonical": "Boudai",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Alaq": {
+  "canonical": "Ain Alaq",
+  "variants_ok": [
+   "Aïn Alaq"
+  ],
+  "source": "gazetteer"
+ },
+ "Maaroub": {
+  "canonical": "Maaroub",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Mayfadoun": {
+  "canonical": "Mayfadoun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Derdghaya": {
+  "canonical": "Derdghaya",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Awkar": {
+  "canonical": "Awkar",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Deir Mimas": {
+  "canonical": "Deir Mimas",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Beddawi": {
+  "canonical": "Beddawi",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Brital": {
+  "canonical": "Brital",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bachoura": {
+  "canonical": "Bachoura",
+  "variants_ok": [
+   "Bashoura"
+  ],
+  "source": "gazetteer"
+ },
+ "Kfour": {
+  "canonical": "Kfour",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Touline": {
+  "canonical": "Touline",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Toura": {
+  "canonical": "Toura",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Haris": {
+  "canonical": "Haris",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Masnaa": {
+  "canonical": "Masnaa",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Naameh": {
+  "canonical": "Naameh",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Taalabaya": {
+  "canonical": "Taalabaya",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Dibbine": {
+  "canonical": "Dibbine",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Karantina": {
+  "canonical": "Karantina",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Halta": {
+  "canonical": "Halta",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Nahr el-Bared": {
+  "canonical": "Nahr el-Bared",
+  "variants_ok": [
+   "Nahr al-Bared"
+  ],
+  "source": "gazetteer"
+ },
+ "Beit Yahoun": {
+  "canonical": "Beit Yahoun",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bir Hassan": {
+  "canonical": "Bir Hassan",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Haddatha": {
+  "canonical": "Haddatha",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sohmor": {
+  "canonical": "Sohmor",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Majdal Zoun": {
+  "canonical": "Majdal Zoun",
+  "variants_ok": [
+   "Majdal Zun"
+  ],
+  "source": "manual"
+ },
+ "Ajaltun": {
+  "canonical": "Ajaltoun",
+  "variants_ok": [
+   "Ajaltun"
+  ],
+  "source": "gazetteer"
+ },
+ "Qantara": {
+  "canonical": "Qantara",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Odaisseh": {
+  "canonical": "Odaisseh",
+  "variants_ok": [
+   "Adaisseh"
+  ],
+  "source": "gazetteer"
+ },
+ "Bayt Lif": {
+  "canonical": "Beit Lif",
+  "variants_ok": [
+   "Bayt Lif"
+  ],
+  "source": "gazetteer"
+ },
+ "Rashidieh": {
+  "canonical": "Rashidieh",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tayr Harfa": {
+  "canonical": "Tayr Harfa",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Maroun al-Ras": {
+  "canonical": "Maroun al-Ras",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Ain al-Hilweh": {
+  "canonical": "Aïn el-Héloué",
+  "variants_ok": [
+   "Ain al-Hilweh"
+  ],
+  "source": "manual"
+ },
+ "Majdal Zun": {
+  "canonical": "Majdal Zoun",
+  "variants_ok": [
+   "Majdal Zun"
+  ],
+  "source": "gazetteer"
+ },
+ "Adaisseh": {
+  "canonical": "Odaisseh",
+  "variants_ok": [
+   "Adaisseh"
+  ],
+  "source": "gazetteer"
+ },
+ "Nahr al-Bared": {
+  "canonical": "Nahr el-Bared",
+  "variants_ok": [
+   "Nahr al-Bared"
+  ],
+  "source": "manual"
+ },
+ "Bashoura": {
+  "canonical": "Bachoura",
+  "variants_ok": [
+   "Bashoura"
+  ],
+  "source": "manual"
+ },
+ "Hanin": {
+  "canonical": "Hanine",
+  "variants_ok": [
+   "Hanin"
+  ],
+  "source": "gazetteer"
+ },
+ "Aoun": {
+  "canonical": "Aoun",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hariri": {
+  "canonical": "Hariri",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Rafik Hariri": {
+  "canonical": "Rafic Hariri",
+  "variants_ok": [
+   "Rafiq Hariri",
+   "Rafik Hariri"
+  ],
+  "source": "manual"
+ },
+ "Rafic Hariri": {
+  "canonical": "Rafic Hariri",
+  "variants_ok": [
+   "Rafiq Hariri",
+   "Rafik Hariri"
+  ],
+  "source": "manual"
+ },
+ "Jumblatt": {
+  "canonical": "Joumblatt",
+  "variants_ok": [
+   "Jumblatt",
+   "Jomblatt"
+  ],
+  "source": "manual"
+ },
+ "Geagea": {
+  "canonical": "Geagea",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Gemayel": {
+  "canonical": "Gemayel",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Amine Gemayel": {
+  "canonical": "Amine Gemayel",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bachir Gemayel": {
+  "canonical": "Bachir Gemayel",
+  "variants_ok": [
+   "Bashir Gemayel"
+  ],
+  "source": "langlinks"
+ },
+ "Nasrallah": {
+  "canonical": "Nasrallah",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Siniora": {
+  "canonical": "Fouad Siniora",
+  "variants_ok": [
+   "Siniora"
+  ],
+  "source": "langlinks"
+ },
+ "Mikati": {
+  "canonical": "Najib Mikati",
+  "variants_ok": [
+   "Mikati"
+  ],
+  "source": "langlinks"
+ },
+ "Hoss": {
+  "canonical": "Hoss",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Lahoud": {
+  "canonical": "Lahoud",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hrawi": {
+  "canonical": "Hraoui",
+  "variants_ok": [
+   "Hrawi"
+  ],
+  "source": "manual"
+ },
+ "Chamoun": {
+  "canonical": "Chamoun",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Solh": {
+  "canonical": "Solh",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Salameh": {
+  "canonical": "Salamé",
+  "variants_ok": [
+   "Salameh"
+  ],
+  "source": "manual"
+ },
+ "Bassil": {
+  "canonical": "Bassil",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Moawad": {
+  "canonical": "Moawad",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Helou": {
+  "canonical": "Hélou",
+  "variants_ok": [
+   "Helou"
+  ],
+  "source": "manual"
+ },
+ "Suleiman": {
+  "canonical": "Sleiman",
+  "variants_ok": [
+   "Suleiman"
+  ],
+  "source": "manual"
+ },
+ "Assad": {
+  "canonical": "Assad",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hobeika": {
+  "canonical": "Hobeika",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Rahbani": {
+  "canonical": "Rahbani",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Tueni": {
+  "canonical": "Tuéni",
+  "variants_ok": [
+   "Tueni"
+  ],
+  "source": "manual"
+ },
+ "Bechara el-Khoury": {
+  "canonical": "Béchara el-Khoury",
+  "variants_ok": [
+   "Bechara el-Khoury"
+  ],
+  "source": "manual"
+ },
+ "Arslan": {
+  "canonical": "Arslane",
+  "variants_ok": [
+   "Arslan"
+  ],
+  "source": "manual"
+ },
+ "Gouraud": {
+  "canonical": "Gouraud",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Catroux": {
+  "canonical": "Catroux",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Salim Ayyash": {
+  "canonical": "Salim Ayyash",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Ibrahim Pasha": {
+  "canonical": "Ibrahim Pacha",
+  "variants_ok": [
+   "Ibrahim Pasha"
+  ],
+  "source": "manual"
+ },
+ "Muhammad Ali": {
+  "canonical": "Méhémet Ali",
+  "variants_ok": [
+   "Muhammad Ali"
+  ],
+  "source": "manual"
+ },
+ "Netanyahu": {
+  "canonical": "Benyamin Netanyahou",
+  "variants_ok": [
+   "Benjamin Netanyahu"
+  ],
+  "source": "langlinks"
+ },
+ "Trump": {
+  "canonical": "Donald Trump",
+  "variants_ok": [
+   "Trump"
+  ],
+  "source": "langlinks"
+ },
+ "Naim Qassem": {
+  "canonical": "Naïm Qassem",
+  "variants_ok": [
+   "Naim Qassem"
+  ],
+  "source": "langlinks"
+ },
+ "Haniyeh": {
+  "canonical": "Ismaël Haniyeh",
+  "variants_ok": [
+   "Ismaïl Haniyeh"
+  ],
+  "source": "langlinks"
+ },
+ "Sharaa": {
+  "canonical": "Ahmed al-Charaa",
+  "variants_ok": [
+   "Ahmad al-Chareh",
+   "Ahmed al-Sharaa"
+  ],
+  "source": "langlinks"
+ },
+ "Fairuz": {
+  "canonical": "Faïrouz",
+  "variants_ok": [
+   "Fairuz",
+   "Fayrouz"
+  ],
+  "source": "langlinks"
+ },
+ "Nasser": {
+  "canonical": "Gamal Abdel Nasser",
+  "variants_ok": [
+   "Nasser"
+  ],
+  "source": "langlinks"
+ },
+ "Khazen": {
+  "canonical": "Khazen",
+  "variants_ok": [
+   "famille Khazen"
+  ],
+  "source": "manual"
+ },
+ "Hamas": {
+  "canonical": "Hamas",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Fatah": {
+  "canonical": "Fatah",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Fatah al-Islam": {
+  "canonical": "Fatah al-Islam",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Islamic Jihad": {
+  "canonical": "Jihad islamique",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tahrir al-Sham": {
+  "canonical": "Hayat Tahrir al-Cham",
+  "variants_ok": [
+   "HTC"
+  ],
+  "source": "langlinks"
+ },
+ "ISIS": {
+  "canonical": "État islamique",
+  "variants_ok": [
+   "EI",
+   "Daech"
+  ],
+  "source": "langlinks"
+ },
+ "ISIL": {
+  "canonical": "État islamique",
+  "variants_ok": [
+   "EI",
+   "Daech"
+  ],
+  "source": "langlinks"
+ },
+ "Islamic State": {
+  "canonical": "État islamique",
+  "variants_ok": [
+   "EI",
+   "Daech"
+  ],
+  "source": "langlinks"
+ },
+ "Al-Nusra": {
+  "canonical": "Front al-Nosra",
+  "variants_ok": [
+   "Al-Nosra"
+  ],
+  "source": "langlinks"
+ },
+ "Nusra": {
+  "canonical": "Front al-Nosra",
+  "variants_ok": [
+   "Al-Nosra"
+  ],
+  "source": "langlinks"
+ },
+ "SSNP": {
+  "canonical": "Parti social nationaliste syrien",
+  "variants_ok": [
+   "PSNS"
+  ],
+  "source": "langlinks"
+ },
+ "PSP": {
+  "canonical": "Parti socialiste progressiste",
+  "variants_ok": [
+   "PSP"
+  ],
+  "source": "langlinks"
+ },
+ "Progressive Socialist Party": {
+  "canonical": "Parti socialiste progressiste",
+  "variants_ok": [
+   "PSP"
+  ],
+  "source": "langlinks"
+ },
+ "The PSP": {
+  "canonical": "Parti socialiste progressiste",
+  "variants_ok": [
+   "PSP"
+  ],
+  "source": "langlinks"
+ },
+ "Free Patriotic Movement": {
+  "canonical": "Courant patriotique libre",
+  "variants_ok": [
+   "CPL"
+  ],
+  "source": "langlinks"
+ },
+ "Future Movement": {
+  "canonical": "Courant du futur",
+  "variants_ok": [
+   "Mouvement du futur"
+  ],
+  "source": "langlinks"
+ },
+ "Lebanese Army": {
+  "canonical": "armée libanaise",
+  "variants_ok": [
+   "Forces armées libanaises"
+  ],
+  "source": "manual"
+ },
+ "The Lebanese Army": {
+  "canonical": "armée libanaise",
+  "variants_ok": [
+   "Forces armées libanaises"
+  ],
+  "source": "manual"
+ },
+ "Lebanese Armed Forces": {
+  "canonical": "Forces armées libanaises",
+  "variants_ok": [
+   "armée libanaise"
+  ],
+  "source": "langlinks"
+ },
+ "South Lebanon Army": {
+  "canonical": "Armée du Liban-Sud",
+  "variants_ok": [
+   "ALS",
+   "Armée du Liban sud"
+  ],
+  "source": "press-usage"
+ },
+ "Radwan Force": {
+  "canonical": "Force Radwan",
+  "variants_ok": [
+   "Force Redwan"
+  ],
+  "source": "manual"
+ },
+ "Redwan Force": {
+  "canonical": "Force Radwan",
+  "variants_ok": [
+   "Force Redwan"
+  ],
+  "source": "manual"
+ },
+ "Radwan": {
+  "canonical": "Radwan",
+  "variants_ok": [
+   "Redwan"
+  ],
+  "source": "manual"
+ },
+ "Redwan": {
+  "canonical": "Radwan",
+  "variants_ok": [
+   "Redwan"
+  ],
+  "source": "manual"
+ },
+ "Arab Deterrent Force": {
+  "canonical": "Force arabe de dissuasion",
+  "variants_ok": [
+   "FAD"
+  ],
+  "source": "langlinks"
+ },
+ "Internal Security Forces": {
+  "canonical": "Forces de sécurité intérieure",
+  "variants_ok": [
+   "FSI"
+  ],
+  "source": "langlinks"
+ },
+ "General Security": {
+  "canonical": "Sûreté générale",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Lebanese Front": {
+  "canonical": "Front libanais",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "National Bloc": {
+  "canonical": "Bloc national",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Mossad": {
+  "canonical": "Mossad",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese University": {
+  "canonical": "Université libanaise",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "American University of Beirut": {
+  "canonical": "Université américaine de Beyrouth",
+  "variants_ok": [
+   "AUB"
+  ],
+  "source": "langlinks"
+ },
+ "Saint Joseph University": {
+  "canonical": "Université Saint-Joseph de Beyrouth",
+  "variants_ok": [
+   "USJ"
+  ],
+  "source": "langlinks"
+ },
+ "Balamand": {
+  "canonical": "Université de Balamand",
+  "variants_ok": [
+   "Balamand"
+  ],
+  "source": "manual"
+ },
+ "Lebanese Health Ministry": {
+  "canonical": "ministère de la Santé publique",
+  "variants_ok": [
+   "ministère libanais de la Santé"
+  ],
+  "source": "langlinks"
+ },
+ "Ministry of Tourism": {
+  "canonical": "ministère du Tourisme",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "UNRWA": {
+  "canonical": "UNRWA",
+  "variants_ok": [
+   "Office de secours et de travaux des Nations unies"
+  ],
+  "source": "manual"
+ },
+ "UNHCR": {
+  "canonical": "HCR",
+  "variants_ok": [
+   "Haut Commissariat des Nations unies pour les réfugiés",
+   "UNHCR"
+  ],
+  "source": "manual"
+ },
+ "UNDP": {
+  "canonical": "PNUD",
+  "variants_ok": [
+   "Programme des Nations unies pour le développement"
+  ],
+  "source": "manual"
+ },
+ "UNESCO": {
+  "canonical": "UNESCO",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Red Cross": {
+  "canonical": "Croix-Rouge",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "World Bank": {
+  "canonical": "Banque mondiale",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "United Nations": {
+  "canonical": "Organisation des Nations unies",
+  "variants_ok": [
+   "ONU"
+  ],
+  "source": "langlinks"
+ },
+ "Security Council": {
+  "canonical": "Conseil de sécurité des Nations unies",
+  "variants_ok": [
+   "Conseil de sécurité de l'ONU"
+  ],
+  "source": "langlinks"
+ },
+ "UN Security Council": {
+  "canonical": "Conseil de sécurité des Nations unies",
+  "variants_ok": [
+   "Conseil de sécurité de l'ONU"
+  ],
+  "source": "langlinks"
+ },
+ "General Assembly": {
+  "canonical": "Assemblée générale des Nations unies",
+  "variants_ok": [
+   "Assemblée générale de l'ONU"
+  ],
+  "source": "manual"
+ },
+ "Arab League": {
+  "canonical": "Ligue arabe",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Al Jazeera": {
+  "canonical": "Al Jazeera",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Jazeera": {
+  "canonical": "Al Jazeera",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Al-Manar": {
+  "canonical": "Al-Manar",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Al Mayadeen": {
+  "canonical": "Al Mayadeen",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Al Jadeed": {
+  "canonical": "Al Jadeed",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "LBCI": {
+  "canonical": "LBCI",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "An-Nahar": {
+  "canonical": "An-Nahar",
+  "variants_ok": [
+   "An Nahar"
+  ],
+  "source": "manual"
+ },
+ "Tele Liban": {
+  "canonical": "Télé-Liban",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "L'Orient Today": {
+  "canonical": "L'Orient Today",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Reuters": {
+  "canonical": "Reuters",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Middle East Airlines": {
+  "canonical": "Middle East Airlines",
+  "variants_ok": [
+   "MEA"
+  ],
+  "source": "langlinks"
+ },
+ "Solidere": {
+  "canonical": "Solidere",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "TotalEnergies": {
+  "canonical": "TotalEnergies",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "QatarEnergy": {
+  "canonical": "QatarEnergy",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Novatek": {
+  "canonical": "Novatek",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Banque de Syrie": {
+  "canonical": "Banque de Syrie et du Liban",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Constitutional Council": {
+  "canonical": "Conseil constitutionnel",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cairo Agreement": {
+  "canonical": "accord du Caire",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "National Pact": {
+  "canonical": "Pacte national",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sykes-Picot": {
+  "canonical": "accords Sykes-Picot",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "French Mandate": {
+  "canonical": "Mandat français",
+  "variants_ok": [
+   "Mandat français en Syrie et au Liban"
+  ],
+  "source": "langlinks"
+ },
+ "Free French": {
+  "canonical": "France libre",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Blue Line": {
+  "canonical": "Ligne bleue",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Mountain War": {
+  "canonical": "guerre de la Montagne",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Arab Gas Pipeline": {
+  "canonical": "Gazoduc arabe",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Official Gazette": {
+  "canonical": "Journal officiel",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Druze": {
+  "canonical": "Druzes",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Maronites": {
+  "canonical": "Maronites",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Alawite": {
+  "canonical": "Alaouites",
+  "variants_ok": [],
+  "source": "langlinks"
+ }
+}

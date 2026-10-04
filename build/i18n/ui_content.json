@@ -832,7 +832,7 @@
   "fr": "Nommé alors que la maladie de Jazzar s'aggravait, pour éviter une lutte de succession à Acre."
  },
  "Approximate levels quoted in articles. 2024-02 is an upper bound ('less than 6 cents', Bloomberg 12 Jan 2026); 2025-12 and 2026-01-12 from the same Bloomberg article; 2026-02 ('around 30 cents at the end of February') and 2026-07-18 ('around 25 cents') from L'Orient Today, 18 Jul 2026. Licence not stated: confirm before publishing. No free full price history exists; Eurobond prices before 2024 are not public.": {
-  "ar": "مستويات تقريبية مقتبسة من مقالات. 2024-02 هو حد أعلى («أقل من 6 سنتات»، Bloomberg، 12 كانون الثاني 2026)؛ و2025-12 و2026-01-12 من مقال Bloomberg نفسه؛ و2026-02 («نحو 30 سنتاً في نهاية شباط») و2026-07-18 («نحو 25 سنتاً») من L'Orient Today، 18 تموز 2026. الترخيص غير مذكور: يجب التأكد منه قبل النشر. لا يوجد سجل أسعار كامل ومجاني؛ وأسعار سندات اليوروبوند قبل 2024 غير متاحة للعموم.",
+  "ar": "مستويات تقريبية مقتبسة من مقالات. 2024-02 هو حد أعلى («أقل من 6 سنتات»، Bloomberg، 12 كانون الثاني 2026)؛ و2025-12 و2026-01-12 من مقال Bloomberg نفسه؛ و2026-02 («نحو 30 سنتاً في نهاية شباط») و2026-07-18 («نحو 25 سنتاً») من لوريان توداي، 18 تموز 2026. الترخيص غير مذكور: يجب التأكد منه قبل النشر. لا يوجد سجل أسعار كامل ومجاني؛ وأسعار سندات اليوروبوند قبل 2024 غير متاحة للعموم.",
   "fr": "Niveaux approximatifs cités dans des articles. 2024-02 est une borne supérieure (« moins de 6 cents », Bloomberg, 12 janvier 2026) ; 2025-12 et 2026-01-12 proviennent du même article de Bloomberg ; 2026-02 (« environ 30 cents à la fin de février ») et 2026-07-18 (« environ 25 cents ») proviennent de L'Orient Today, 18 juillet 2026. Licence non précisée : à confirmer avant publication. Il n'existe aucun historique de prix complet et gratuit ; les prix des Eurobonds avant 2024 ne sont pas publics."
  },
  "Arab Democratic Party": {
@@ -1115,6 +1115,10 @@
   "ar": "بعبدا التغيير",
   "fr": "Baabda le changement"
  },
+ "Baalbek's young emir seats his uncle in chains after a staged peace": {
+  "ar": "أمير بعلبك الشاب يجلس عمه مكبلاً بالسلاسل بعد سلام مفتعل",
+  "fr": "Le jeune émir de Baalbek installe son oncle enchaîné après une paix mise en scène"
+ },
  "Baalbek, Hermel": {
   "ar": "بعلبك، الهرمل",
   "fr": "Baalbek, Hermel"
@@ -1264,7 +1268,7 @@
   "fr": "Bachir verse 530 bourses par an à Tripoli et à Acre"
  },
  "Bashir pledges 4,000 fighters to Muhammad Ali in return for support": {
-  "ar": "بشير يتعهد بتقديم 4,000 مقاتل إلى محمد علي مقابل الدعم",
+  "ar": "بشير يتعهد بتقديم 4,000 مقاتل إلى محمد علي باشا مقابل الدعم",
   "fr": "Bachir promet 4,000 combattants à Muhammad Ali en échange de son soutien"
  },
  "Bashir razes Jumblatt and Imad houses; Druze flee to Hauran": {
@@ -1284,7 +1288,7 @@
   "fr": "Bashir soupçonna Asaad d'avoir des liens avec le parti qui s'unissait contre son pouvoir ; Asaad trouva ensuite refuge à Tripoli puis à Damas."
  },
  "Bashir then sent loyalty assurances to the governors of Tripoli and Sidon. (corrected from 1807-05: Wikipedia has Baz ambushed and strangled on 15 May 1807 and Druze partisans killing his brother at Jubail; type was massacre, deaths 1 (Baz's brother))": {
-  "ar": "ثم بعث بشير بتطمينات الولاء إلى والييْ طرابلس وصيدا. (مصحَّح من 1807-05: تفيد Wikipedia بأن Baz تعرض لكمين وخُنق في 15 أيار 1807 وأن أنصارًا دروزًا قتلوا شقيقه في جبيل؛ النوع مجزرة، الوفيات 1 (شقيق Baz))",
+  "ar": "ثم بعث بشير بتطمينات الولاء إلى والييْ طرابلس وصيدا. (مصحَّح من 1807-05: تفيد ويكيبيديا بأن Baz تعرض لكمين وخُنق في 15 أيار 1807 وأن أنصارًا دروزًا قتلوا شقيقه في جبيل؛ النوع مجزرة، الوفيات 1 (شقيق Baz))",
   "fr": "Bashir envoya ensuite des assurances de loyauté aux gouverneurs de Tripoli et de Sidon. (corrigé à partir de 1807-05 : selon Wikipedia, Baz fut pris en embuscade et étranglé le 15 mai 1807 et des partisans druzes tuèrent son frère à Jubail ; type : massacre, décès : 1 (frère de Baz))"
  },
  "Bashir took Abdullah's troops against Rashayya; Mansur's Imad Druze allies and Emir Effendi's rivalry shaped the clash.": {
@@ -1293,7 +1297,7 @@
  },
  "Bashir tried to mediate; Abdullah refused Damascus's offer to cede the Beqaa and asked Bashir to take it instead.": {
   "ar": "حاول بشير الوساطة؛ ورفض Abdullah عرض دمشق التخلي عن البقاع وطلب من بشير أن يتولاه بدلًا منه.",
-  "fr": "Bashir tenta une médiation ; Abdullah refusa l'offre de Damas de céder la Beqaa et demanda à Bashir de la prendre à sa place."
+  "fr": "Bashir tenta une médiation ; Abdullah refusa l'offre de Damas de céder la Békaa et demanda à Bashir de la prendre à sa place."
  },
  "Bashir turns to Maronite clergy as his main administrators until 1840": {
   "ar": "يتحول بشير إلى رجال الدين الموارنة بوصفهم إداريّيه الرئيسيين حتى 1840",
@@ -1304,7 +1308,7 @@
   "fr": "L'armée de montagne de Bashir bat les troupes de Damas aux murailles de la ville"
  },
  "Bashir's mountain forces joined Sulayman near Tiberias; Yusuf fell back to Egypt and Muhammad Ali's protection; Sulayman entered Damascus.": {
-  "ar": "انضمت قوات بشير الجبلية إلى Sulayman قرب طبريا؛ وتراجع Yusuf إلى مصر وحماية محمد علي؛ ودخل Sulayman دمشق.",
+  "ar": "انضمت قوات بشير الجبلية إلى Sulayman قرب طبريا؛ وتراجع Yusuf إلى مصر وحماية محمد علي باشا؛ ودخل Sulayman دمشق.",
   "fr": "Les forces de montagne de Bashir rejoignirent Sulayman près de Tibériade ; Yusuf se replia en Égypte sous la protection de Muhammad Ali ; Sulayman entra à Damas."
  },
  "Bashir's new palace at Beiteddine unfinished, five more years estimated": {
@@ -1500,7 +1504,7 @@
   "fr": "Le majlis de Beyrouth supervise la quarantaine, les travaux publics et la police ; dépenses d'environ 800,000 livres"
  },
  "Beirut managers approve by-laws for the Syrian Protestant College": {
-  "ar": "مديرو بيروت يوافقون على النظام الداخلي للكلية الإنجيلية السورية",
+  "ar": "مديرو بيروت يوافقون على النظام الداخلي للكلية السورية الإنجيلية",
   "fr": "Les administrateurs de Beyrouth approuvent le règlement intérieur du Syrian Protestant College"
  },
  "Beirut merchants flee or are jailed as pasha extorts money before invasion": {
@@ -1840,7 +1844,7 @@
   "fr": "Départs aux frontières : Océanie (Administration centrale de la statistique / Sûreté générale)"
  },
  "Bought after Muhammad Ali's 1811 massacre in Egypt, as grain sales to England filled the Acre treasury.": {
-  "ar": "اشتُريت بعد مجزرة محمد علي عام 1811 في مصر، فيما كانت مبيعات الحبوب إلى إنكلترا تملأ خزينة عكا.",
+  "ar": "اشتُريت بعد مجزرة محمد علي باشا عام 1811 في مصر، فيما كانت مبيعات الحبوب إلى إنكلترا تملأ خزينة عكا.",
   "fr": "Achetée après le massacre de 1811 perpétré par Muhammad Ali en Égypte, alors que les ventes de céréales à l'Angleterre remplissaient le trésor d'Acre."
  },
  "Boys' seminary moves from Beirut to Abeih in Mount Lebanon": {
@@ -1872,7 +1876,7 @@
   "fr": "Un rapport consulaire britannique évalue la population du Mont-Liban à 200,000 habitants"
  },
  "British despatch tells Ibrahim Pasha the Sultan concedes Syria to Muhammad Ali": {
-  "ar": "رسالة بريطانية تُبلغ إبراهيم باشا بأن السلطان يتنازل عن سوريا لمحمد علي",
+  "ar": "رسالة بريطانية تُبلغ إبراهيم باشا بأن السلطان يتنازل عن سوريا لمحمد علي باشا",
   "fr": "Une dépêche britannique informe Ibrahim Pacha que le sultan cède la Syrie à Muhammad Ali"
  },
  "British midshipmen wreck a Beirut confectioner's shop and are court-martialled": {
@@ -2065,7 +2069,7 @@
  },
  "CC BY (HDX: World Bank DECDG Real Time Prices)": {
   "ar": "CC BY (HDX: World Bank DECDG Real Time Prices)",
-  "fr": "CC BY (HDX: World Bank DECDG Real Time Prices)"
+  "fr": "CC BY (HDX: Banque mondiale DECDG Real Time Prices)"
  },
  "CC BY / CC BY-IGO / CC BY 4.0; names and coordinates that come from OpenStreetMap are ODbL 1.0 (c) OpenStreetMap contributors": {
   "ar": "CC BY / CC BY-IGO / CC BY 4.0؛ الأسماء والإحداثيات المأخوذة من OpenStreetMap مرخّصة بموجب ODbL 1.0 (c) OpenStreetMap contributors",
@@ -2985,7 +2989,7 @@
  },
  "Central Administration of Statistics (CAS), Consumer Price Index, base December 2013 = 100, monthly. Read from the public CAS CPI dashboard data service (wp-json/cas-cpi/v2). Geography: Bekaa. Weight in the basket: 7.8% (current weights; Lebanon-wide) . Index values are as published (CAS rounds to 1 in 10,000 and some divisions reach tens of thousands after the 2019-23 collapse).": {
   "ar": "إدارة الإحصاء المركزي (CAS)، مؤشر أسعار المستهلك، الأساس كانون الأول 2013 = 100، شهري. مقروء من خدمة بيانات لوحة مؤشر أسعار المستهلك العامة لدى CAS (wp-json/cas-cpi/v2). المنطقة الجغرافية: البقاع. الوزن في السلة: 7.8% (الأوزان الحالية؛ على مستوى لبنان). قيم المؤشر كما هي منشورة (تقرّب CAS إلى 1 من 10,000 وتبلغ بعض الأقسام عشرات الآلاف بعد انهيار 2019-23).",
-  "fr": "Administration centrale de la statistique (CAS), indice des prix à la consommation (IPC), base décembre 2013 = 100, mensuel. Données lues sur le service de données du tableau de bord public de l'IPC du CAS (wp-json/cas-cpi/v2). Géographie : Bekaa. Poids dans le panier : 7.8% (pondérations actuelles ; au niveau national). Les valeurs de l'indice sont telles que publiées (le CAS arrondit à 1 sur 10,000 et certaines divisions atteignent des dizaines de milliers après l'effondrement de 2019-23)."
+  "fr": "Administration centrale de la statistique (CAS), indice des prix à la consommation (IPC), base décembre 2013 = 100, mensuel. Données lues sur le service de données du tableau de bord public de l'IPC du CAS (wp-json/cas-cpi/v2). Géographie : Bekaa. Poids dans le panier : 7.8% (pondérations actuelles ; pour l'ensemble du Liban). Les valeurs de l'indice sont telles que publiées (le CAS arrondit à 1 sur 10,000 et certaines divisions atteignent des dizaines de milliers après l'effondrement de 2019-23)."
  },
  "Central Administration of Statistics (CAS), Consumer Price Index, base December 2013 = 100, monthly. Read from the public CAS CPI dashboard data service (wp-json/cas-cpi/v2). Geography: Lebanon. Weight in the basket: 0.361% (current weights; Lebanon-wide) . Index values are as published (CAS rounds to 1 in 10,000 and some divisions reach tens of thousands after the 2019-23 collapse).": {
   "ar": "إدارة الإحصاء المركزي (CAS)، مؤشر أسعار المستهلك، الأساس كانون الأول 2013 = 100، شهري. مقروء من خدمة بيانات لوحة مؤشر أسعار المستهلك العامة لدى CAS (wp-json/cas-cpi/v2). المنطقة الجغرافية: لبنان. الوزن في السلة: 0.361% (الأوزان الحالية؛ على مستوى لبنان). قيم المؤشر كما هي منشورة (تقرّب CAS إلى 1 من 10,000 وتبلغ بعض الأقسام عشرات الآلاف بعد انهيار 2019-23).",
@@ -3725,7 +3729,7 @@
  },
  "Closed at the date of the sitrep. Bint Jbeil Public, Mays al-Jabal Public and Salah Ghandour hospitals still closed on 22 Jul 2026.": {
   "ar": "مغلقة بتاريخ تقرير الوضع. لا تزال مستشفيات بنت جبيل الحكومي وميس الجبل الحكومي وصلاح غندور مغلقة في 22 تموز 2026.",
-  "fr": "Fermés à la date du rapport de situation. Les hôpitaux publics de Bint Jbeil et de Mays al-Jabal ainsi que l'hôpital Salah Ghandour étaient toujours fermés le 22 juillet 2026."
+  "fr": "Fermés à la date du rapport de situation. Les hôpitaux publics de Bint Jbeil et de Meiss El Jabal ainsi que l'hôpital Salah Ghandour étaient toujours fermés le 22 juillet 2026."
  },
  "Coalition for Change": {
   "ar": "ائتلاف التغيير",
@@ -3920,7 +3924,7 @@
   "fr": "Coût des deux guerres depuis octobre 2023 : plus de 20, pourrait dépasser 27 une fois la guerre de 2026 entièrement comptabilisée"
  },
  "Costa Brava lasted five months against a planned 3.5 years, showing the stopgap failed. (title corrected: LBCI says cabinet asked the CDR to draft an expansion study within 15 days)": {
-  "ar": "دامت كوستا برافا خمسة أشهر مقابل 3.5 سنوات كانت مخططة، ما يُظهر فشل الحل المؤقت. (تم تصحيح العنوان: تفيد LBCI بأن مجلس الوزراء طلب من مجلس الإنماء والإعمار إعداد دراسة للتوسعة في غضون 15 يوماً)",
+  "ar": "دامت كوستا برافا خمسة أشهر مقابل 3.5 سنوات كانت مخططة، ما يُظهر فشل الحل المؤقت. (تم تصحيح العنوان: تفيد المؤسسة اللبنانية للإرسال بأن مجلس الوزراء طلب من مجلس الإنماء والإعمار إعداد دراسة للتوسعة في غضون 15 يوماً)",
   "fr": "Costa Brava a duré cinq mois contre 3.5 ans prévus, ce qui montre l'échec de la solution provisoire. (titre corrigé : selon LBCI, le Conseil des ministres a demandé au CDR de rédiger une étude d'extension dans un délai de 15 jours)"
  },
  "Council of Ministers suspends Eurobond prescription periods until 9 March 2028": {
@@ -4024,7 +4028,7 @@
   "fr": "Blessés cumulés, MoPH, même méthode et mêmes lacunes que war26_killed_cum. Codes point_src : W = rapport de situation d'urgence Liban de l'OMS EMRO (encadré MoPH-PHEOC), O = OCHA Lebanon Flash Update (MoPH), P = chiffre du MoPH cité par la presse et compilé dans la chronologie de Wikipédia. Priorité W > O > P lorsque deux sources donnent la même date."
  },
  "Cumulative multiplier on the base salary (scale of Law 46/2017) for active public-administration staff, not including the fuel-canister, perseverance and transport allowances. 2022-11: x3 = base + two supplementary salaries under law 10 of 15 Nov 2022 (L'Orient Today 18 Apr 2023 says staff had received \"two basic salaries since the start of the year\", so the effective month may be Jan 2023: low confidence on the month). 2023-05: x7 after Decree 11227 of 18 Apr 2023 (+4 salaries, 14 days attendance a month, effective 1 May 2023; L'Orient Today, NNA). 2023-12: x9, +2 for active administration (+": {
-  "ar": "معامل تراكمي على الراتب الأساسي (سلسلة رواتب القانون 46/2017) للعاملين في الإدارة العامة، لا يشمل بدل صفيحة الوقود وبدل المثابرة وبدل النقل. 2022-11: x3 = الراتب الأساسي + راتبان إضافيان بموجب القانون 10 الصادر في 15 تشرين الثاني 2022 (ذكرت L'Orient Today في 18 نيسان 2023 أن الموظفين تلقّوا «راتبين أساسيين منذ مطلع العام»، لذا قد يكون الشهر الفعلي كانون الثاني 2023: ثقة منخفضة بشأن الشهر). 2023-05: x7 بعد المرسوم 11227 الصادر في 18 نيسان 2023 (+4 رواتب، الحضور 14 يوماً في الشهر، ساري المفعول اعتباراً من 1 أيار 2023؛ L'Orient Today، NNA). 2023-12: x9، +2 للإدارة العامة العاملة (+",
+  "ar": "معامل تراكمي على الراتب الأساسي (سلسلة رواتب القانون 46/2017) للعاملين في الإدارة العامة، لا يشمل بدل صفيحة الوقود وبدل المثابرة وبدل النقل. 2022-11: x3 = الراتب الأساسي + راتبان إضافيان بموجب القانون 10 الصادر في 15 تشرين الثاني 2022 (ذكرت لوريان توداي في 18 نيسان 2023 أن الموظفين تلقّوا «راتبين أساسيين منذ مطلع العام»، لذا قد يكون الشهر الفعلي كانون الثاني 2023: ثقة منخفضة بشأن الشهر). 2023-05: x7 بعد المرسوم 11227 الصادر في 18 نيسان 2023 (+4 رواتب، الحضور 14 يوماً في الشهر، ساري المفعول اعتباراً من 1 أيار 2023؛ لوريان توداي، NNA). 2023-12: x9، +2 للإدارة العامة العاملة (+",
   "fr": "Multiplicateur cumulé appliqué au salaire de base (échelle de la loi 46/2017) pour le personnel actif de l'administration publique, hors indemnités de bidon de carburant, de persévérance et de transport. 2022-11 : x3 = salaire de base + deux salaires supplémentaires en vertu de la loi 10 du 15 novembre 2022 (L'Orient Today du 18 avril 2023 indique que le personnel avait reçu « deux salaires de base depuis le début de l'année », le mois effectif pourrait donc être janvier 2023 : faible confiance quant au mois). 2023-05 : x7 après le décret 11227 du 18 avril 2023 (+4 salaires, 14 jours de présence par mois, en vigueur le 1er mai 2023 ; L'Orient Today, NNA). 2023-12 : x9, +2 pour l'administration active (+"
  },
  "Cumulative people displaced since 2 March 2026, first two weeks (IDMC Internal Displacement Updates)": {
@@ -4220,7 +4224,7 @@
   "fr": "Les délégués s'accordent pour agir de concert sur les origines des événements et la responsabilité des chefs insurgés et des agents ottomans [Churchill p.269]."
  },
  "Delegates from the mudirates choose the council: Maronite 4, Druze 3, Orthodox 2, Greek Catholic 1, Sunni 1, Metawali 1.": {
-  "ar": "ينتخب مندوبو المديريات المجلس: موارنة 4، دروز 3، أرثوذكس 2، روم كاثوليك 1، سنّة 1، متاوِلة 1.",
+  "ar": "ينتخب مندوبو المديريات المجلس: موارنة 4، دروز 3، أرثوذكس 2، الروم الكاثوليك 1، سنّة 1، متاوِلة 1.",
   "fr": "Les délégués des mudirats choisissent le conseil : maronites 4, druzes 3, orthodoxes 2, grecs-catholiques 1, sunnites 1, metawalis 1."
  },
  "Delegates inspect the damage of the July riots [Churchill p.261].": {
@@ -4444,7 +4448,7 @@
   "fr": "Les circonscriptions sont les cinq gouvernorats traditionnels (muhafazat ; Nabatieh comptée avec le Sud, Akkar avec le Nord, Baalbek-Hermel avec la Bekaa, Keserwan-Jbeil avec le Mont-Liban). Les sièges par confession et par gouvernorat correspondent à la répartition inchangée au niveau du caza depuis 1992 (IFES), additionnée à partir de la répartition par caza de 2009."
  },
  "Districts south of the Litani: Bent Jbeil, Marjaayoun, Nabatieh, Tyre, Saida. GeoAI on satellite imagery with desk verification (about 85% precision), no field visits; excludes basements, roads, bridges, utilities. Situation at 29 Apr 2026 only, before the May-June fighting. Named cadasters in D6-displacement.jsonl. UNDP's site refused our client (HTTP 403); numbers from the Daily Beirut and Pakistan Today reprints of the release.": {
-  "ar": "الأقضية الواقعة جنوب الليطاني: بنت جبيل ومرجعيون والنبطية وصور وصيدا. ذكاء اصطناعي جغرافي مكاني على صور الأقمار الاصطناعية مع تحقق مكتبي (دقة نحو 85%)، دون زيارات ميدانية؛ ويستثني الأقبية والطرق والجسور والمرافق. الوضع في 29 نيسان/أبريل 2026 فقط، قبل معارك أيار/مايو-حزيران/يونيو. العقارات المسماة (الكاداسترات) واردة في D6-displacement.jsonl. رفض موقع UNDP طلبات عميلنا (HTTP 403)؛ والأرقام مأخوذة من إعادة نشر Daily Beirut وPakistan Today للبيان.",
+  "ar": "الأقضية الواقعة جنوب الليطاني: بنت جبيل ومرجعيون والنبطية وصور وصيدا. ذكاء اصطناعي جغرافي مكاني على صور الأقمار الاصطناعية مع تحقق مكتبي (دقة نحو 85%)، دون زيارات ميدانية؛ ويستثني الأقبية والطرق والجسور والمرافق. الوضع في 29 نيسان/أبريل 2026 فقط، قبل معارك أيار/مايو-حزيران/يونيو. العقارات المسماة (الكاداسترات) واردة في D6-displacement.jsonl. رفض موقع برنامج الأمم المتحدة الإنمائي طلبات عميلنا (HTTP 403)؛ والأرقام مأخوذة من إعادة نشر Daily Beirut وPakistan Today للبيان.",
   "fr": "Districts au sud du Litani : Bent Jbeil, Marjaayoun, Nabatieh, Tyr, Saida. GeoAI sur imagerie satellite avec vérification sur dossier (environ 85% de précision), sans visites de terrain ; exclut les sous-sols, routes, ponts et réseaux. Situation au 29 avril 2026 uniquement, avant les combats de mai-juin. Cadastres nommés dans D6-displacement.jsonl. Le site du PNUD a refusé notre client (HTTP 403) ; chiffres tirés des reprises du communiqué par Daily Beirut et Pakistan Today."
  },
  "Districts: population by group {n1} and {n2}, displacement and returns": {
@@ -4652,7 +4656,7 @@
   "fr": "Décisions du ministère de l'Économie telles que rapportées par la presse. Point d'octobre 2019 = prix d'avant la crise « pendant de nombreuses années » (1,500 LBP pour un paquet de ~960 g, Beirut Today 23 juin 2021 ; Aawsat 12 janvier 2021). Juin 2020 : pain de 900 g passé de 1,500 à 2,000 (Aawsat). 11 janvier 2021 : minimum de 900 g à 2,250 (Aawsat). 23 juin 2021 : paquet de 910 g à 3,000 en boulangerie (3,250 en magasin), cinquième hausse de cette année-là (Beirut Today). Un palier de février 2021 à 2,500 pour ~930 g et un paquet de 395 g à 2,000 (juin 2021) existent aussi ; le poids des paquets change d'une décision à l'autre, il ne s'agit donc pas d'une série à périmètre constant. Sources : https://beirut-today.com/2021/0"
  },
  "Economy and Trade Ministry decisions, each point at the decision date, value holds until the next. Weights per decision: 10 Mar 2022 825 g (LBCI), 29 Mar 2022 815 g (Kataeb), 8 Feb 2023 837 g (LBCI), 10 Mar 2023 837 g, 20 Mar 2023 815 g, 23 Mar 2023 823 g, 3 Apr 2023 not stated, 11 Apr 2023 809 g (economy.gov.lb), 24 Apr 2024 weight not stated (Kataeb), 26 Sep 2024 840 g (L'Orient Today; the previous 800 g bundle was 55,000), then \"medium bundle\" 65,000 until 10 Mar 2026 (70,000), 27 Mar 2026 (75,000; shops 90,000), 30 Jun 2026 (70,000), 21 Jul 2026 (75,000) and 17 Sep 2026 (80,000, NNA). Gaps": {
-  "ar": "قرارات وزارة الاقتصاد والتجارة، وتُسجَّل كل نقطة في تاريخ القرار وتبقى قيمتها سارية حتى القرار التالي. الأوزان بحسب القرار: 10 آذار 2022 825 g (LBCI)، 29 آذار 2022 815 g (Kataeb)، 8 شباط 2023 837 g (LBCI)، 10 آذار 2023 837 g، 20 آذار 2023 815 g، 23 آذار 2023 823 g، 3 نيسان 2023 غير مذكور، 11 نيسان 2023 809 g (economy.gov.lb)، 24 نيسان 2024 الوزن غير مذكور (Kataeb)، 26 أيلول 2024 840 g (L'Orient Today؛ كان سعر الربطة السابقة 800 g هو 55,000)، ثم «الربطة المتوسطة» 65,000 حتى 10 آذار 2026 (70,000)، 27 آذار 2026 (75,000؛ المحلات 90,000)، 30 حزيران 2026 (70,000)، 21 تموز 2026 (75,000) و17 أيلول 2026 (80,000، NNA). الفجوات",
+  "ar": "قرارات وزارة الاقتصاد والتجارة، وتُسجَّل كل نقطة في تاريخ القرار وتبقى قيمتها سارية حتى القرار التالي. الأوزان بحسب القرار: 10 آذار 2022 825 g (المؤسسة اللبنانية للإرسال)، 29 آذار 2022 815 g (الكتائب)، 8 شباط 2023 837 g (المؤسسة اللبنانية للإرسال)، 10 آذار 2023 837 g، 20 آذار 2023 815 g، 23 آذار 2023 823 g، 3 نيسان 2023 غير مذكور، 11 نيسان 2023 809 g (economy.gov.lb)، 24 نيسان 2024 الوزن غير مذكور (الكتائب)، 26 أيلول 2024 840 g (لوريان توداي؛ كان سعر الربطة السابقة 800 g هو 55,000)، ثم «الربطة المتوسطة» 65,000 حتى 10 آذار 2026 (70,000)، 27 آذار 2026 (75,000؛ المحلات 90,000)، 30 حزيران 2026 (70,000)، 21 تموز 2026 (75,000) و17 أيلول 2026 (80,000، NNA). الفجوات",
   "fr": "Décisions du ministère de l'Économie et du Commerce, chaque point à la date de la décision, la valeur restant en vigueur jusqu'à la suivante. Poids par décision : 10 mars 2022 825 g (LBCI), 29 mars 2022 815 g (Kataeb), 8 février 2023 837 g (LBCI), 10 mars 2023 837 g, 20 mars 2023 815 g, 23 mars 2023 823 g, 3 avril 2023 non précisé, 11 avril 2023 809 g (economy.gov.lb), 24 avril 2024 poids non précisé (Kataeb), 26 septembre 2024 840 g (L'Orient Today ; le paquet précédent de 800 g était à 55,000), puis « paquet moyen » 65,000 jusqu'au 10 mars 2026 (70,000), 27 mars 2026 (75,000 ; magasins 90,000), 30 juin 2026 (70,000), 21 juillet 2026 (75,000) et 17 septembre 2026 (80,000, NNA). Lacunes"
  },
  "Eddy's letter of 7 Dec 1858 calls it the first finished Protestant church in Syria; Alma lies in the Sidon district.": {
@@ -5068,7 +5072,7 @@
   "fr": "Chiffres commerciaux de Farley, sans source indiquée : importations de 66,748 livres en 1841 ; exportations de 253,648 livres en 1848 [Farley p.185]."
  },
  "Fear of Muhammad Ali invasion and European intervention in Greece unsettles Beirut": {
-  "ar": "الخوف من غزو محمد علي ومن تدخل أوروبي في اليونان يزعزع الاستقرار في بيروت",
+  "ar": "الخوف من غزو محمد علي باشا ومن تدخل أوروبي في اليونان يزعزع الاستقرار في بيروت",
   "fr": "La crainte d'une invasion de Muhammad Ali et d'une intervention européenne en Grèce trouble Beyrouth"
  },
  "Female population, 1 July (UN WPP 2024)": {
@@ -5296,7 +5300,7 @@
   "fr": "Groupes d'âge quinquennaux, en milliers, au 1er juillet. 2026 est une projection ; les groupes sont age_start 0,5,...,100."
  },
  "Fixed $25,000 yearly fee plus 25% of gross revenue; licence later widened in March 2026. (Decree date: enmaeya gives 8 Oct 2025; L'Orient Today says signed on a Tuesday, i.e. 7 Oct; one-day uncertainty.)": {
-  "ar": "رسم سنوي ثابت قدره 25,000 دولار أميركي بالإضافة إلى 25% من الإيرادات الإجمالية؛ ووُسّعت الرخصة لاحقاً في آذار/مارس 2026. (تاريخ المرسوم: تذكر enmaeya أنه 8 تشرين الأول/أكتوبر 2025؛ وتقول L'Orient Today إنه وُقّع يوم الثلاثاء، أي 7 تشرين الأول/أكتوبر؛ هامش عدم يقين قدره يوم واحد.)",
+  "ar": "رسم سنوي ثابت قدره 25,000 دولار أميركي بالإضافة إلى 25% من الإيرادات الإجمالية؛ ووُسّعت الرخصة لاحقاً في آذار/مارس 2026. (تاريخ المرسوم: تذكر enmaeya أنه 8 تشرين الأول/أكتوبر 2025؛ وتقول لوريان توداي إنه وُقّع يوم الثلاثاء، أي 7 تشرين الأول/أكتوبر؛ هامش عدم يقين قدره يوم واحد.)",
   "fr": "Redevance annuelle fixe de 25,000 USD plus 25% des recettes brutes ; licence élargie par la suite en mars 2026. (Date du décret : enmaeya indique le 8 octobre 2025 ; L'Orient Today indique qu'il a été signé un mardi, soit le 7 octobre ; incertitude d'un jour.)"
  },
  "Flash flood in Wady Beshiza kills about 15 fleeing villagers": {
@@ -6077,7 +6081,7 @@
  },
  "He redistributed Chouf, Kharrub, Tuffah, Jezzine and Beqaa districts to his son Khalil, the Talhuqs and the Abu Nakads.": {
   "ar": "أعاد توزيع أقضية الشوف والخروب والتفاح وجزين والبقاع على ابنه Khalil وآل تلحوق وآل أبي نكد.",
-  "fr": "Il a redistribué les districts du Chouf, de Kharrub, de Tuffah, de Jezzine et de la Beqaa à son fils Khalil, aux Talhuq et aux Abu Nakad."
+  "fr": "Il a redistribué les districts du Chouf, de Kharrub, de Tuffah, de Jezzine et de la Békaa à son fils Khalil, aux Talhuq et aux Abu Nakad."
  },
  "He reported few Syrians in Jamaica held bank accounts and said most had lived there years, contradicting Haiti's claim.": {
   "ar": "أفاد بأن قلة من السوريين في جامايكا كانوا يملكون حسابات مصرفية، وقال إن معظمهم أقاموا هناك سنوات، وهو ما يناقض ادعاء هايتي.",
@@ -6513,7 +6517,7 @@
  },
  "Imad-led Yazbakis back rival Shihab emirs against Bashir": {
   "ar": "اليزبكيون بقيادة عماد يدعمون الأمراء الشهابيين المنافسين ضد بشير",
-  "fr": "Les Yazbakis dirigés par Imad soutiennent les émirs chihab rivaux contre Bachir"
+  "fr": "Les Yazbakis dirigés par Imad soutiennent les émirs Chéhab rivaux contre Bachir"
  },
  "Imperial firman installing Wassa Pasha read at Hadath": {
   "ar": "قراءة الفرمان السلطاني بتنصيب وصّا باشا في الحدث",
@@ -6653,7 +6657,7 @@
  },
  "Insurgent Maronites fear for the Shihab emirs' residences an hour from Beirut, the day before fighting broke out [Churchill p.144].": {
   "ar": "الموارنة الثائرون يخشون على قصور الأمراء الشهابيين التي تبعد ساعة عن بيروت، في اليوم السابق لاندلاع القتال [Churchill p.144].",
-  "fr": "Les maronites insurgés craignent pour les résidences des émirs chihab à une heure de Beyrouth, la veille du début des combats [Churchill p.144]."
+  "fr": "Les maronites insurgés craignent pour les résidences des émirs Chéhab à une heure de Beyrouth, la veille du début des combats [Churchill p.144]."
  },
  "Integrity and Dignity": {
   "ar": "النزاهة والكرامة",
@@ -6732,7 +6736,7 @@
   "fr": "Istanbul prélève 3,500 bourses (393,750 francs) par l'intermédiaire du gouverneur, pouvant être portées à 7,000 ; les dépenses locales et les travaux publics passent en premier."
  },
  "Istanbul refuses to authorise Syrian Protestant College medical diplomas": {
-  "ar": "ترفض إسطنبول الترخيص بشهادات الطب الصادرة عن الكلية البروتستانتية السورية",
+  "ar": "ترفض إسطنبول الترخيص بشهادات الطب الصادرة عن الكلية السورية الإنجيلية",
   "fr": "Istanbul refuse d'autoriser les diplômes de médecine du Syrian Protestant College"
  },
  "It also reported that most Sunni and Shia and many Orthodox in Tyre, Sidon, the Bekaa and Tripoli opposed French rule.": {
@@ -7689,7 +7693,7 @@
  },
  "Lebanon: 2,698 displacements, 01 January - 26 March. International armed conflict (iac) resulted in a total of 2698 people being displaced to Bint Jbeil District, Nabatiya Governorate, Lebanon between 1 January and 31 March, according to IOM Displacement Track": {
   "ar": "لبنان: 2,698 حالة نزوح، 01 كانون الثاني - 26 آذار. أدى نزاع مسلح دولي (iac) إلى نزوح ما مجموعه 2698 شخصاً إلى قضاء بنت جبيل، محافظة النبطية، لبنان، بين 1 كانون الثاني و31 آذار، وفق مصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة",
-  "fr": "Liban : 2,698 déplacements, 01 janvier - 26 mars. Le conflit armé international (iac) a entraîné le déplacement d'un total de 2698 personnes vers le caza de Bint Jbeil, gouvernorat de Nabatieh, Liban, entre le 1 janvier et le 31 mars, selon la matrice de suivi des déplacements de l'OIM"
+  "fr": "Liban : 2,698 déplacements, 01 janvier - 26 mars. Le conflit armé international (iac) a entraîné le déplacement d'un total de 2698 personnes vers le district de Bint-Jbeil, gouvernorat de Nabatieh, Liban, entre le 1 janvier et le 31 mars, selon la matrice de suivi des déplacements de l'OIM"
  },
  "Lebanon: 2,872 displacements, 01 January - 26 March. International armed conflict (iac) resulted in a total of 2872 people being displaced to Beirut, Beirut Governorate, Lebanon between 1 January and 31 March, according to IOM Displacement Tracking Matrix (IOM": {
   "ar": "لبنان: 2,872 نازحًا، 01 كانون الثاني - 26 آذار. أدّى نزاع مسلح دولي (iac) إلى نزوح ما مجموعه 2872 شخصًا إلى بيروت، محافظة بيروت، لبنان بين 1 كانون الثاني و31 آذار، وفقًا لمصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة (IOM",
@@ -7713,7 +7717,7 @@
  },
  "Lebanon: 221 displacements, 01 April - 30 June. A total of 221 people were displaced due to international armed conflict (iac) between 01 April and 30 June in Nabatieh District, Nabatiya Governorate, Lebanon, according to IOM Displacement Tracking Matrix (IOM": {
   "ar": "لبنان: 221 نازحًا، 01 نيسان - 30 حزيران. نزح ما مجموعه 221 شخصًا بسبب نزاع مسلح دولي (iac) بين 01 نيسان و30 حزيران في قضاء النبطية، محافظة النبطية، لبنان، وفقًا لمصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة (IOM",
-  "fr": "Liban : 221 déplacements, 01 avril - 30 juin. Un total de 221 personnes ont été déplacées en raison d'un conflit armé international (iac) entre le 01 avril et le 30 juin dans le caza de Nabatieh, gouvernorat de Nabatieh, Liban, selon la Matrice de suivi des déplacements de l'OIM (IOM"
+  "fr": "Liban : 221 déplacements, 01 avril - 30 juin. Un total de 221 personnes ont été déplacées en raison d'un conflit armé international (iac) entre le 01 avril et le 30 juin dans le district de Nabatieh, gouvernorat de Nabatieh, Liban, selon la Matrice de suivi des déplacements de l'OIM (IOM"
  },
  "Lebanon: 241 displacements (sheltered), 02 March - 04 March. According to the Lebanese Red Cross, 241 people were sheltered in Tyre District (South Governorate) between March 2 and 4 due to International Armed Conflict (IAC). Red Cross/Red Crescent Movement -": {
   "ar": "لبنان: 241 نازحًا (في مراكز الإيواء)، 02 آذار - 04 آذار. وفقًا للصليب الأحمر اللبناني، تم إيواء 241 شخصًا في قضاء صور (محافظة الجنوب) بين 2 و4 آذار بسبب نزاع مسلح دولي (IAC). الحركة الدولية للصليب الأحمر والهلال الأحمر -",
@@ -7729,7 +7733,7 @@
  },
  "Lebanon: 3,081 displacements, 01 January - 26 March. A total of 3081 people were displaced due to international armed conflict (iac) between 1 January and 31 March to Sidon District, Lebanon, according to IOM Displacement Tracking Matrix (IOM DTM). Internation": {
   "ar": "لبنان: 3,081 نازحًا، 01 كانون الثاني - 26 آذار. نزح ما مجموعه 3081 شخصًا بسبب نزاع مسلح دولي (iac) بين 1 كانون الثاني و31 آذار إلى قضاء صيدا، لبنان، وفقًا لمصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة (IOM DTM). Internation",
-  "fr": "Liban : 3,081 déplacements, 01 janvier - 26 mars. Un total de 3081 personnes ont été déplacées en raison d'un conflit armé international (iac) entre le 1er janvier et le 31 mars vers le caza de Saïda, Liban, selon la Matrice de suivi des déplacements de l'OIM (IOM DTM). Internation"
+  "fr": "Liban : 3,081 déplacements, 01 janvier - 26 mars. Un total de 3081 personnes ont été déplacées en raison d'un conflit armé international (iac) entre le 1er janvier et le 31 mars vers le district de Saïda, Liban, selon la Matrice de suivi des déplacements de l'OIM (IOM DTM). Internation"
  },
  "Lebanon: 3,489 displacements, 01 January - 26 March. A total of 3489 people were displaced due to international armed conflict (iac) between 1 January and 31 March to Marjeyoun District, Nabatiya Governorate, Lebanon, according to IOM Displacement Tracking Mat": {
   "ar": "لبنان: 3,489 حالة نزوح، 01 كانون الثاني - 26 آذار. نزح ما مجموعه 3489 شخصاً بسبب نزاع مسلح دولي (iac) بين 1 كانون الثاني و31 آذار إلى قضاء مرجعيون، محافظة النبطية، لبنان، وفق مصفوفة تتبّع النزوح التابعة للمنظمة الدولية للهجرة",
@@ -7753,7 +7757,7 @@
  },
  "Lebanon: 35 displacements, 01 April - 30 June. According to IOM Displacement Tracking Matrix (IOM DTM), a total of 35 people were displaced in Bint Jbeil District, Nabatiya Governorate, Lebanon due to international armed conflict (iac) between 01 April and 30": {
   "ar": "لبنان: 35 حالة نزوح، 01 نيسان - 30 حزيران. وفق مصفوفة تتبّع النزوح التابعة للمنظمة الدولية للهجرة (IOM DTM)، نزح ما مجموعه 35 شخصاً في قضاء بنت جبيل، محافظة النبطية، لبنان، بسبب نزاع مسلح دولي (iac) بين 01 نيسان و30",
-  "fr": "Liban : 35 déplacements, 01 avril - 30 juin. Selon la matrice de suivi des déplacements de l'Organisation internationale pour les migrations (IOM DTM), 35 personnes au total ont été déplacées dans le caza de Bint Jbeil, gouvernorat de Nabatieh, Liban, en raison d'un conflit armé international (iac) entre le 01 avril et le 30"
+  "fr": "Liban : 35 déplacements, 01 avril - 30 juin. Selon la matrice de suivi des déplacements de l'Organisation internationale pour les migrations (IOM DTM), 35 personnes au total ont été déplacées dans le district de Bint-Jbeil, gouvernorat de Nabatieh, Liban, en raison d'un conflit armé international (iac) entre le 01 avril et le 30"
  },
  "Lebanon: 354 displacements, 01 January - 26 March. International armed conflict (iac) resulted in a total of 354 people being displaced to Caza of Rashayya, Beqaa Governorate, Lebanon between 1 January and 31 March, according to IOM Displacement Tracking Matri": {
   "ar": "لبنان: 354 حالة نزوح، 01 كانون الثاني - 26 آذار. أدى نزاع مسلح دولي (iac) إلى نزوح ما مجموعه 354 شخصاً إلى قضاء راشيا، محافظة البقاع، لبنان، بين 1 كانون الثاني و31 آذار، وفق مصفوفة تتبّع النزوح التابعة للمنظمة الدولية للهجرة",
@@ -7797,7 +7801,7 @@
  },
  "Lebanon: 5,231 displacements, 01 January - 26 March. According to IOM Displacement Tracking Matrix (IOM DTM), a total of 5231 people were displaced to Nabatieh District, Nabatiya Governorate, Lebanon due to international armed conflict (iac) between 1 January": {
   "ar": "لبنان: 5,231 نزوحاً، 01 كانون الثاني - 26 آذار. وفقاً لمصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة (IOM DTM)، نزح ما مجموعه 5231 شخصاً إلى قضاء النبطية، محافظة النبطية، لبنان بسبب نزاع مسلح دولي (iac) بين 1 كانون الثاني",
-  "fr": "Liban : 5,231 déplacements, 01 janvier - 26 mars. Selon la Matrice de suivi des déplacements de l'OIM (IOM DTM), au total 5231 personnes ont été déplacées vers le caza de Nabatieh, gouvernorat de Nabatieh, Liban en raison d'un conflit armé international (iac) entre le 1 janvier"
+  "fr": "Liban : 5,231 déplacements, 01 janvier - 26 mars. Selon la Matrice de suivi des déplacements de l'OIM (IOM DTM), au total 5231 personnes ont été déplacées vers le district de Nabatieh, gouvernorat de Nabatieh, Liban en raison d'un conflit armé international (iac) entre le 1 janvier"
  },
  "Lebanon: 50 displacements (sheltered), 02 March - 04 March. According to the Lebanese Red Cross, 50 people were sheltered in Jbeil District (Mount Lebanon Governorate) between March 2 and 4 due to International Armed Conflict (IAC). Red Cross/Red Crescent Move": {
   "ar": "لبنان: 50 نازحاً (في مراكز الإيواء)، 02 آذار - 04 آذار. وفقاً للصليب الأحمر اللبناني، تم إيواء 50 شخصاً في قضاء جبيل (محافظة جبل لبنان) بين 2 و4 آذار بسبب نزاع مسلح دولي (IAC). حركة الصليب الأحمر والهلال الأحمر",
@@ -7901,11 +7905,11 @@
  },
  "Lebanon: 95,000 displacements, 02 March - 06 March. According to the Lebanese health ministry, more than or equal to 95000 people were displaced in South Governorate, Lebanon, Nabatiya Governorate, Lebanon, Beqaa Governorate, Lebanon, Mount Lebanon Governorate": {
   "ar": "لبنان: 95,000 حالة نزوح، 02 آذار - 06 آذار. وفقًا لوزارة الصحة العامة اللبنانية، نزح 95000 شخص أو أكثر في محافظة الجنوب، لبنان، ومحافظة النبطية، لبنان، ومحافظة البقاع، لبنان، ومحافظة جبل لبنان",
-  "fr": "Liban : 95,000 déplacements, 02 mars - 06 mars. Selon le ministère libanais de la Santé publique, 95000 personnes ou plus ont été déplacées dans le gouvernorat du Sud, Liban, le gouvernorat de Nabatiyé, Liban, le gouvernorat de la Béqaa, Liban, le gouvernorat du Mont-Liban"
+  "fr": "Liban : 95,000 déplacements, 02 mars - 06 mars. Selon le ministère libanais de la Santé publique, 95000 personnes ou plus ont été déplacées dans le gouvernorat du Sud, Liban, le gouvernorat de Nabatiyé, Liban, le gouvernorat de la Bekaa, Liban, le gouvernorat du Mont-Liban"
  },
  "Lebanon: 993 displacements (sheltered), 04 March - 04 March. According to the Lebanese Red Cross, 993 people were sheltered in Sidon District (South Governorate) on March 4 due to International Armed Conflict (IAC). Red Cross/Red Crescent Movement - 04 March 2": {
   "ar": "لبنان: 993 حالة نزوح (إيواء)، 04 آذار - 04 آذار. وفقًا للصليب الأحمر اللبناني، تم إيواء 993 شخصًا في قضاء صيدا (محافظة الجنوب) في 4 آذار بسبب النزاع المسلح الدولي (IAC). حركة الصليب الأحمر والهلال الأحمر - 04 آذار 2",
-  "fr": "Liban : 993 déplacements (hébergés), 04 mars - 04 mars. Selon la Croix-Rouge libanaise, 993 personnes ont été hébergées dans le caza de Saïda (gouvernorat du Sud) le 4 mars en raison du conflit armé international (IAC). Mouvement de la Croix-Rouge et du Croissant-Rouge - 04 mars 2"
+  "fr": "Liban : 993 déplacements (hébergés), 04 mars - 04 mars. Selon la Croix-Rouge libanaise, 993 personnes ont été hébergées dans le district de Saïda (gouvernorat du Sud) le 4 mars en raison du conflit armé international (IAC). Mouvement de la Croix-Rouge et du Croissant-Rouge - 04 mars 2"
  },
  "Legacy of trauma, missing persons and divided communities. (corrected from about 3.6 million: CIA World Factbook 1990 gives 3,339,331; UN-based series about 3.6 million)": {
   "ar": "إرث من الصدمات والمفقودين والمجتمعات المنقسمة. (صُحّح من نحو 3.6 مليون: يعطي الكتاب السنوي لوكالة الاستخبارات المركزية الأميركية CIA World Factbook لعام 1990 الرقم 3,339,331؛ والسلاسل المستندة إلى الأمم المتحدة نحو 3.6 مليون)",
@@ -8252,7 +8256,7 @@
   "fr": "Tableau des générateurs du ministère, colonne « mazout » (mensuelle ; janvier 2017 - juin 2026, vide pour 2013-2016). Se lit comme la référence mensuelle du diesel de 20 L (2,061,450 pour juin 2026 contre 2,185,000 dans le tableau hebdomadaire du 28 juillet 2026)."
  },
  "Ministry generator table, last column, whose printed header is \"number of cut hours per month\". The values scale with the diesel reference (Jun 2026 41,973 with diesel 2,061,450; Jan 2017 302 with diesel 14,906), so they read as an LBP per kWh tariff, but the header and a press report disagree: L'Orient Today gives 48,241 LBP/kWh for Aug 2025 against 30,309 in this column (29 Aug 2025). HYPOTHESIS: LBP per kWh; the discrepancy may be a second tariff band (altitude or metering). Treat as unverified and compare gen_kwh_press_lbp.": {
-  "ar": "جدول المولدات الصادر عن الوزارة، العمود الأخير، وعنوانه المطبوع «عدد ساعات التقنين في الشهر». تتدرج القيم بحسب مرجع المازوت (حزيران 2026: 41,973 مع مازوت 2,061,450؛ كانون الثاني 2017: 302 مع مازوت 14,906)، لذا تُقرأ على أنها تعرفة بالليرة اللبنانية لكل kWh، لكن العنوان وتقريراً صحفياً متعارضان: تورد L'Orient Today الرقم 48,241 LBP/kWh لآب 2025 مقابل 30,309 في هذا العمود (29 آب 2025). فرضية: ليرة لبنانية لكل kWh؛ وقد يكون التباين ناتجاً عن شريحة تعرفة ثانية (الارتفاع أو العدّاد). يُعتبر غير متحقق منه وتجب مقارنته مع gen_kwh_press_lbp.",
+  "ar": "جدول المولدات الصادر عن الوزارة، العمود الأخير، وعنوانه المطبوع «عدد ساعات التقنين في الشهر». تتدرج القيم بحسب مرجع المازوت (حزيران 2026: 41,973 مع مازوت 2,061,450؛ كانون الثاني 2017: 302 مع مازوت 14,906)، لذا تُقرأ على أنها تعرفة بالليرة اللبنانية لكل kWh، لكن العنوان وتقريراً صحفياً متعارضان: تورد لوريان توداي الرقم 48,241 LBP/kWh لآب 2025 مقابل 30,309 في هذا العمود (29 آب 2025). فرضية: ليرة لبنانية لكل kWh؛ وقد يكون التباين ناتجاً عن شريحة تعرفة ثانية (الارتفاع أو العدّاد). يُعتبر غير متحقق منه وتجب مقارنته مع gen_kwh_press_lbp.",
   "fr": "Tableau des générateurs du ministère, dernière colonne, dont l'en-tête imprimé est « nombre d'heures de coupure par mois ». Les valeurs évoluent avec la référence du diesel (juin 2026 41,973 avec diesel 2,061,450 ; janvier 2017 302 avec diesel 14,906), elles se lisent donc comme un tarif en LBP par kWh, mais l'en-tête et un article de presse divergent : L'Orient Today donne 48,241 LBP/kWh pour août 2025 contre 30,309 dans cette colonne (29 août 2025). HYPOTHÈSE : LBP par kWh ; l'écart peut venir d'une seconde tranche tarifaire (altitude ou comptage). À traiter comme non vérifié et à comparer avec gen_kwh_press_lbp."
  },
  "Ministry of Education (MEHE) figures quoted by OCHA: 287 (8 Mar), 328 (9 Mar), 331 public schools (22 Jun), 179 (13 Jul). The government had designated 700 public schools as possible shelters on 5 Mar (Flash Update #1).": {
@@ -8464,7 +8468,7 @@
   "fr": "Bilan du ministère de la Santé publique tel que cité par le Secrétaire général, 20 juin 2026"
  },
  "MoPH wounded since 8 Oct 2023. For 18 Apr-20 Sep 2024 the value is derived: OCHA's 'casualties' total minus its 'deaths' figure. The 20 Sep 2024 value (3,112) includes the 17-18 Sep device explosions. Same gaps as war2324_killed_cum. CORRECTION 2026-10-02 (V2 verification): 2024-10-04 was 1,699 killed / 9,781 injured (inconsistent: injured above MoPH 4 Oct); replaced with MoPH press-conference figures 1,974 killed / 9,384 injured (Minister Abiad, 4 Oct 2024, via Anadolu; L'Orient Today gives a 2,011 total at midnight 3-4 Oct, not used). The 2,083 / 9,869 point is now dated 2024-10-08 (MoPH tot": {
-  "ar": "الجرحى المسجّلون لدى وزارة الصحة العامة منذ 8 تشرين الأول 2023. للفترة 18 نيسان-20 أيلول 2024 القيمة مشتقة: مجموع «الإصابات» لدى أوتشا مطروحًا منه رقم «الوفيات». تشمل قيمة 20 أيلول 2024 (3,112) انفجارات الأجهزة في 17-18 أيلول. الفجوات نفسها الواردة في war2324_killed_cum. تصحيح 2026-10-02 (تحقق V2): كان رقم 2024-10-04 هو 1,699 قتيلًا / 9,781 جريحًا (غير متسق: عدد الجرحى أعلى من رقم وزارة الصحة العامة في 4 تشرين الأول)؛ وقد استُبدل بأرقام المؤتمر الصحفي لوزارة الصحة العامة: 1,974 قتيلًا / 9,384 جريحًا (الوزير الأبيض، 4 تشرين الأول 2024، عبر الأناضول؛ وتورد L'Orient Today مجموعًا قدره 2,011 عند منتصف الليل 3-4 تشرين الأول، ولم يُعتمد). تحمل نقطة 2,083 / 9,869 الآن تاريخ 2024-10-08 (إجمالي وزارة الصحة العامة",
+  "ar": "الجرحى المسجّلون لدى وزارة الصحة العامة منذ 8 تشرين الأول 2023. للفترة 18 نيسان-20 أيلول 2024 القيمة مشتقة: مجموع «الإصابات» لدى أوتشا مطروحًا منه رقم «الوفيات». تشمل قيمة 20 أيلول 2024 (3,112) انفجارات الأجهزة في 17-18 أيلول. الفجوات نفسها الواردة في war2324_killed_cum. تصحيح 2026-10-02 (تحقق V2): كان رقم 2024-10-04 هو 1,699 قتيلًا / 9,781 جريحًا (غير متسق: عدد الجرحى أعلى من رقم وزارة الصحة العامة في 4 تشرين الأول)؛ وقد استُبدل بأرقام المؤتمر الصحفي لوزارة الصحة العامة: 1,974 قتيلًا / 9,384 جريحًا (الوزير الأبيض، 4 تشرين الأول 2024، عبر الأناضول؛ وتورد لوريان توداي مجموعًا قدره 2,011 عند منتصف الليل 3-4 تشرين الأول، ولم يُعتمد). تحمل نقطة 2,083 / 9,869 الآن تاريخ 2024-10-08 (إجمالي وزارة الصحة العامة",
   "fr": "Blessés selon le ministère de la Santé publique depuis le 8 octobre 2023. Pour le 18 avril-20 septembre 2024, la valeur est dérivée : total des « victimes » d'OCHA moins son chiffre des « décès ». La valeur du 20 septembre 2024 (3,112) inclut les explosions d'appareils des 17-18 septembre. Mêmes lacunes que war2324_killed_cum. CORRECTION 2026-10-02 (vérification V2) : le chiffre du 2024-10-04 était de 1,699 tués / 9,781 blessés (incohérent : blessés supérieurs au chiffre du ministère de la Santé publique du 4 octobre) ; remplacé par les chiffres de la conférence de presse du ministère de la Santé publique : 1,974 tués / 9,384 blessés (ministre Abiad, 4 octobre 2024, via Anadolu ; L'Orient Today donne un total de 2,011 à minuit les 3-4 octobre, non retenu). Le point 2,083 / 9,869 est désormais daté du 2024-10-08 (total du ministère de la Santé publique"
  },
  "MoPH, WHO, OCHA, IDMC, Insecurity Insight, UNIFIL, World Bank; each series names its source": {
@@ -8624,11 +8628,11 @@
   "fr": "Décès de Mrs Bowen Thompson, fondatrice des British Syrian Schools"
  },
  "Muhammad Ali gets Abdullah pardoned and Acre siege lifted": {
-  "ar": "محمد علي يحصل على العفو عن عبدالله ورفع الحصار عن عكا",
+  "ar": "محمد علي باشا يحصل على العفو عن عبدالله ورفع الحصار عن عكا",
   "fr": "Muhammad Ali obtient la grâce d'Abdullah et la levée du siège de Saint-Jean-d'Acre"
  },
  "Muhammad Ali's backing for Bashir and Abdullah was his path to hegemony in Ottoman Syria. Bashir's exile in Egypt began 1821.": {
-  "ar": "كان دعم محمد علي لبشير وعبدالله طريقه إلى الهيمنة على سوريا العثمانية. بدأ منفى بشير في مصر عام 1821.",
+  "ar": "كان دعم محمد علي باشا لبشير وعبدالله طريقه إلى الهيمنة على سوريا العثمانية. بدأ منفى بشير في مصر عام 1821.",
   "fr": "Le soutien de Muhammad Ali à Bachir et à Abdullah fut sa voie vers l'hégémonie sur la Syrie ottomane. L'exil de Bachir en Égypte commença en 1821."
  },
  "Mukhtara, the Jumblatt seat, chosen as a central point in the Druze districts [Churchill p.238].": {
@@ -9052,7 +9056,7 @@
   "fr": "Nord de la confrontation"
  },
  "Not a clean series: each point is a dated statement. Ranges are stored as midpoints. 2021-07: 3-4 h, since mid-2021 (Ministry of Energy and Water plan, https://energyandwater.gov.lb/mediafiles/articles/doc-100777-2022_03_31_10_18_39.pdf). 2022-03: about 4 h for 500 MW supply (same plan). 2023-06: 3-4 h (IMF Article IV, https://www.elibrary.imf.org/view/journals/002/2023/237/article-A001-en.xml). 2024-08: 5-6 h when 600 MW is available, 1-2 h on 200 MW (L'Orient Today, https://today.lorientlejour.com/article/1423036/lebanon-flirts-with-blackout-again.html). 2024-12: 4-6 h, rising to 6-8 h over": {
-  "ar": "ليست سلسلة منتظمة: كل نقطة هي إفادة مؤرخة. تُخزَّن النطاقات كمنتصفات. 2021-07: 3-4 ساعات، منذ منتصف 2021 (خطة وزارة الطاقة والمياه، https://energyandwater.gov.lb/mediafiles/articles/doc-100777-2022_03_31_10_18_39.pdf). 2022-03: نحو 4 ساعات مقابل تغذية بقدرة 500 MW (الخطة نفسها). 2023-06: 3-4 ساعات (مشاورات المادة الرابعة لصندوق النقد الدولي، https://www.elibrary.imf.org/view/journals/002/2023/237/article-A001-en.xml). 2024-08: 5-6 ساعات عند توفر 600 MW، و1-2 ساعة عند 200 MW (L'Orient Today، https://today.lorientlejour.com/article/1423036/lebanon-flirts-with-blackout-again.html). 2024-12: 4-6 ساعات، ترتفع إلى 6-8 ساعات خلال",
+  "ar": "ليست سلسلة منتظمة: كل نقطة هي إفادة مؤرخة. تُخزَّن النطاقات كمنتصفات. 2021-07: 3-4 ساعات، منذ منتصف 2021 (خطة وزارة الطاقة والمياه، https://energyandwater.gov.lb/mediafiles/articles/doc-100777-2022_03_31_10_18_39.pdf). 2022-03: نحو 4 ساعات مقابل تغذية بقدرة 500 MW (الخطة نفسها). 2023-06: 3-4 ساعات (مشاورات المادة الرابعة لصندوق النقد الدولي، https://www.elibrary.imf.org/view/journals/002/2023/237/article-A001-en.xml). 2024-08: 5-6 ساعات عند توفر 600 MW، و1-2 ساعة عند 200 MW (لوريان توداي، https://today.lorientlejour.com/article/1423036/lebanon-flirts-with-blackout-again.html). 2024-12: 4-6 ساعات، ترتفع إلى 6-8 ساعات خلال",
   "fr": "Pas une série propre : chaque point est une déclaration datée. Les fourchettes sont enregistrées sous forme de points médians. 2021-07 : 3-4 h, depuis la mi-2021 (plan du ministère de l'Énergie et de l'Eau, https://energyandwater.gov.lb/mediafiles/articles/doc-100777-2022_03_31_10_18_39.pdf). 2022-03 : environ 4 h pour une alimentation de 500 MW (même plan). 2023-06 : 3-4 h (consultation de l'article IV du FMI, https://www.elibrary.imf.org/view/journals/002/2023/237/article-A001-en.xml). 2024-08 : 5-6 h lorsque 600 MW sont disponibles, 1-2 h avec 200 MW (L'Orient Today, https://today.lorientlejour.com/article/1423036/lebanon-flirts-with-blackout-again.html). 2024-12 : 4-6 h, passant à 6-8 h sur"
  },
  "Notables ordered to appear at Beirut; the summons begins the Druze prosecutions [Churchill p.232].": {
@@ -9597,7 +9601,7 @@
  },
  "Pixel-weighted mean over the 8 governorates. VIIRS Day/Night Band monthly composites for Suomi NPP, World Bank Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*), read as windows from the public Cloud Optimized GeoTIFFs and aggregated to the 8 governorates in build/geo/lbn-adm1.json with rasterio (pixel centres inside the polygon). Stray-light-corrected composites (vcm-slcorr / ecm-slcorr) are used; months where only the stray-light-excluded version existed: none. Processing: 2012-01 to 2017-03 is the rp2 reprocessing (vcm cloud mask); 2017-04 onwards is the operational (ops) pr": {
   "ar": "متوسط مرجّح بعدد البكسلات على مستوى المحافظات الثماني. مركّبات شهرية لنطاق VIIRS النهاري/الليلي (Day/Night Band) لقمر Suomi NPP، مشروع البنك الدولي Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*)، تُقرأ كنوافذ من ملفات Cloud Optimized GeoTIFF العامة وتُجمَّع على مستوى المحافظات الثماني في build/geo/lbn-adm1.json باستخدام rasterio (مراكز البكسلات داخل المضلّع). تُستخدم المركّبات المصحّحة لتأثير الضوء الشارد (vcm-slcorr / ecm-slcorr)؛ الأشهر التي لم يتوفر فيها سوى الإصدار المستبعَد منه الضوء الشارد: لا شيء. المعالجة: من 2012-01 إلى 2017-03 هي إعادة المعالجة rp2 (قناع السحب vcm)؛ ومن 2017-04 فصاعداً هي المعالجة التشغيلية (ops) pr",
-  "fr": "Moyenne pondérée par les pixels sur les 8 gouvernorats. Composites mensuels de la bande jour/nuit VIIRS (Day/Night Band) pour Suomi NPP, World Bank Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*), lus par fenêtres à partir des Cloud Optimized GeoTIFF publics et agrégés aux 8 gouvernorats dans build/geo/lbn-adm1.json avec rasterio (centres des pixels à l'intérieur du polygone). Les composites corrigés de la lumière parasite (vcm-slcorr / ecm-slcorr) sont utilisés ; mois où seule la version excluant la lumière parasite existait : aucun. Traitement : 2012-01 à 2017-03 correspond au retraitement rp2 (masque nuageux vcm) ; 2017-04 et après correspond au traitement opérationnel (ops) pr"
+  "fr": "Moyenne pondérée par les pixels sur les 8 gouvernorats. Composites mensuels de la bande jour/nuit VIIRS (Day/Night Band) pour Suomi NPP, Light Every Night de la Banque mondiale (s3://globalnightlight/composites/npp_YYYYMM_*), lus par fenêtres à partir des Cloud Optimized GeoTIFF publics et agrégés aux 8 gouvernorats dans build/geo/lbn-adm1.json avec rasterio (centres des pixels à l'intérieur du polygone). Les composites corrigés de la lumière parasite (vcm-slcorr / ecm-slcorr) sont utilisés ; mois où seule la version excluant la lumière parasite existait : aucun. Traitement : 2012-01 à 2017-03 correspond au retraitement rp2 (masque nuageux vcm) ; 2017-04 et après correspond au traitement opérationnel (ops) pr"
  },
  "Places: details for the {n1} places of district LB{n2}": {
   "ar": "الأماكن: تفاصيل الأماكن الـ{n1} في القضاء LB{n2}",
@@ -9776,7 +9780,7 @@
   "fr": "Une imprimerie à Qozhaya, près d'Ehden, imprime des livres de prières syriaques"
  },
  "Press-quoted ministry tariffs: Jul 2022 13,545 (The961 summary), Aug 2022 13,796 (The961, 1 Sep 2022), Jul 2023 31,870 (Waradana), Aug 2025 48,241 or USD 0.54 (L'Orient Today summary). Sparse: the ministry's own monthly list for 2019-2024 is blank in the fixed-fee columns. Sources are secondary; verify against the ministry gazette before quoting.": {
-  "ar": "تعرفات الوزارة كما نقلتها الصحافة: تموز/يوليو 2022 13,545 (ملخص The961)، آب/أغسطس 2022 13,796 (The961، 1 أيلول/سبتمبر 2022)، تموز/يوليو 2023 31,870 (Waradana)، آب/أغسطس 2025 48,241 أو 0.54 دولار أميركي (ملخص L'Orient Today). بيانات متفرقة: القائمة الشهرية الخاصة بالوزارة للفترة 2019-2024 فارغة في أعمدة الرسوم الثابتة. المصادر ثانوية؛ يُرجى التحقق من الجريدة الرسمية الصادرة عن الوزارة قبل الاستشهاد.",
+  "ar": "تعرفات الوزارة كما نقلتها الصحافة: تموز/يوليو 2022 13,545 (ملخص The961)، آب/أغسطس 2022 13,796 (The961، 1 أيلول/سبتمبر 2022)، تموز/يوليو 2023 31,870 (Waradana)، آب/أغسطس 2025 48,241 أو 0.54 دولار أميركي (ملخص لوريان توداي). بيانات متفرقة: القائمة الشهرية الخاصة بالوزارة للفترة 2019-2024 فارغة في أعمدة الرسوم الثابتة. المصادر ثانوية؛ يُرجى التحقق من الجريدة الرسمية الصادرة عن الوزارة قبل الاستشهاد.",
   "fr": "Tarifs du ministère cités dans la presse : juil. 2022 13,545 (résumé de The961), août 2022 13,796 (The961, 1 sept. 2022), juil. 2023 31,870 (Waradana), août 2025 48,241 ou USD 0.54 (résumé de L'Orient Today). Données éparses : la liste mensuelle propre au ministère pour 2019-2024 est vide dans les colonnes de frais fixes. Les sources sont secondaires ; à vérifier auprès du journal officiel du ministère avant toute citation."
  },
  "Prices of daily life: {n1} series (fuel, generators, bread, minimum wage, CPI)": {
@@ -9917,7 +9921,7 @@
  },
  "Quality indicator: low values mean the month is less reliable. VIIRS Day/Night Band monthly composites for Suomi NPP, World Bank Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*), read as windows from the public Cloud Optimized GeoTIFFs and aggregated to the 8 governorates in build/geo/lbn-adm1.json with rasterio (pixel centres inside the polygon).": {
   "ar": "مؤشر الجودة: تعني القيم المنخفضة أن الشهر أقل موثوقية. مركّبات شهرية لنطاق VIIRS النهاري/الليلي (Day/Night Band) لقمر Suomi NPP، مشروع البنك الدولي Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*)، تُقرأ كنوافذ من ملفات Cloud Optimized GeoTIFF العامة وتُجمَّع على مستوى المحافظات الثماني في build/geo/lbn-adm1.json باستخدام rasterio (مراكز البكسلات داخل المضلّع).",
-  "fr": "Indicateur de qualité : les valeurs faibles signifient que le mois est moins fiable. Composites mensuels de la bande jour/nuit VIIRS (Day/Night Band) pour Suomi NPP, World Bank Light Every Night (s3://globalnightlight/composites/npp_YYYYMM_*), lus par fenêtres à partir des Cloud Optimized GeoTIFF publics et agrégés aux 8 gouvernorats dans build/geo/lbn-adm1.json avec rasterio (centres des pixels à l'intérieur du polygone)."
+  "fr": "Indicateur de qualité : les valeurs faibles signifient que le mois est moins fiable. Composites mensuels de la bande jour/nuit VIIRS (Day/Night Band) pour Suomi NPP, Light Every Night de la Banque mondiale (s3://globalnightlight/composites/npp_YYYYMM_*), lus par fenêtres à partir des Cloud Optimized GeoTIFF publics et agrégés aux 8 gouvernorats dans build/geo/lbn-adm1.json avec rasterio (centres des pixels à l'intérieur du polygone)."
  },
  "Quarter of a million Syrians estimated to have emigrated since c.1875": {
   "ar": "يُقدَّر أن ربع مليون سوري هاجروا منذ نحو عام 1875",
@@ -10273,7 +10277,7 @@
  },
  "Saint Joseph University medical diplomas begin to qualify holders in France": {
   "ar": "شهادات الطب من جامعة القديس يوسف تبدأ بتأهيل حامليها للعمل في فرنسا",
-  "fr": "Les diplômes de médecine de l'Université Saint-Joseph commencent à habiliter leurs titulaires en France"
+  "fr": "Les diplômes de médecine de l'Université Saint-Joseph de Beyrouth commencent à habiliter leurs titulaires en France"
  },
  "Saint-Louis college opens at Ghazir under Maronite chorbishop Louis Zouain": {
   "ar": "افتتاح مدرسة القديس لويس في غزير بإشراف المطران الماروني لويس زوين",
@@ -10344,7 +10348,7 @@
   "fr": "Les sièges par liste et par gouvernorat proviennent des résumés par tour de Wikipédia ; les sièges de Saïda sont listés à part car ils sont décrits comme extérieurs au bloc Amal-Hezbollah."
  },
  "Second Tyre bombing kills dozens and accelerates the Israeli exit from Lebanon. (WaPo, 5 Nov 1983, gives at least 39 dead for the bombing; Wikipedia gives 28 Israelis and 32 Lebanese)": {
-  "ar": "تفجير صور الثاني يقتل العشرات ويعجّل الانسحاب الإسرائيلي من لبنان. (تذكر WaPo، 5 تشرين الثاني 1983، سقوط 39 قتيلاً على الأقل في التفجير؛ وتذكر Wikipedia 28 إسرائيلياً و32 لبنانياً)",
+  "ar": "تفجير صور الثاني يقتل العشرات ويعجّل الانسحاب الإسرائيلي من لبنان. (تذكر WaPo، 5 تشرين الثاني 1983، سقوط 39 قتيلاً على الأقل في التفجير؛ وتذكر ويكيبيديا 28 إسرائيلياً و32 لبنانياً)",
   "fr": "Le second attentat de Tyr fait des dizaines de morts et accélère le retrait israélien du Liban. (WaPo, 5 nov. 1983, fait état d'au moins 39 morts pour l'attentat ; Wikipédia en donne 28 Israéliens et 32 Libanais)"
  },
  "Second peak year in the Argentine series; the Handbook adds that the 1908 constitution raised rather than cut emigration.": {
@@ -10556,11 +10560,11 @@
   "fr": "Un tramway à vapeur transporte la communauté américaine de Beyrouth jusqu'au Dog River"
  },
  "Step series (value holds until next point). 3,900: Basic Circular 151 / Decision 13221 of 21 Apr 2020 (Byblos Bank FAQ, Executive Magazine); 8,000: Intermediate Circular 601 of 9 Dec 2021 for USD 3,000/month, valid to 30 Jun 2022 (Blominvest 10 Dec 2021; The National 9 Dec 2021; Libnanews), extended later; 15,000 from 1 Feb 2023 (LBCI 31 Jan 2023; current text of Decision 13221 sets 15,000, limit USD 1,600/month, until 31 Dec 2023). Circular 166 (Feb 2024) replaced the scheme with USD 150 monthly cash withdrawals (AUB Outlook, 21 Feb 2024).": {
-  "ar": "سلسلة درجية (تبقى القيمة سارية حتى النقطة التالية). 3,900: التعميم الأساسي 151 / القرار 13221 تاريخ 21 نيسان 2020 (Byblos Bank FAQ، Executive Magazine)؛ 8,000: التعميم الوسيط 601 تاريخ 9 كانون الأول 2021 لمبلغ 3,000 دولار أميركي شهريًا، ساري حتى 30 حزيران 2022 (Blominvest 10 كانون الأول 2021؛ The National 9 كانون الأول 2021؛ Libnanews)، ومُدِّد لاحقًا؛ 15,000 اعتبارًا من 1 شباط 2023 (LBCI 31 كانون الثاني 2023؛ النص الحالي للقرار 13221 يحدد 15,000، بسقف 1,600 دولار أميركي شهريًا، حتى 31 كانون الأول 2023). التعميم 166 (شباط 2024) استبدل الآلية بسحوبات نقدية شهرية قدرها 150 دولارًا أميركيًا (AUB Outlook، 21 شباط 2024).",
+  "ar": "سلسلة درجية (تبقى القيمة سارية حتى النقطة التالية). 3,900: التعميم الأساسي 151 / القرار 13221 تاريخ 21 نيسان 2020 (Byblos Bank FAQ، Executive Magazine)؛ 8,000: التعميم الوسيط 601 تاريخ 9 كانون الأول 2021 لمبلغ 3,000 دولار أميركي شهريًا، ساري حتى 30 حزيران 2022 (Blominvest 10 كانون الأول 2021؛ The National 9 كانون الأول 2021؛ Libnanews)، ومُدِّد لاحقًا؛ 15,000 اعتبارًا من 1 شباط 2023 (المؤسسة اللبنانية للإرسال 31 كانون الثاني 2023؛ النص الحالي للقرار 13221 يحدد 15,000، بسقف 1,600 دولار أميركي شهريًا، حتى 31 كانون الأول 2023). التعميم 166 (شباط 2024) استبدل الآلية بسحوبات نقدية شهرية قدرها 150 دولارًا أميركيًا (AUB Outlook، 21 شباط 2024).",
   "fr": "Série en escalier (la valeur reste valable jusqu'au point suivant). 3,900 : circulaire de base 151 / décision 13221 du 21 avril 2020 (Byblos Bank FAQ, Executive Magazine) ; 8,000 : circulaire intermédiaire 601 du 9 décembre 2021 pour USD 3,000/mois, valable jusqu'au 30 juin 2022 (Blominvest 10 décembre 2021 ; The National 9 décembre 2021 ; Libnanews), prorogée ensuite ; 15,000 à partir du 1er février 2023 (LBCI 31 janvier 2023 ; le texte actuel de la décision 13221 fixe 15,000, plafond de USD 1,600/mois, jusqu'au 31 décembre 2023). La circulaire 166 (février 2024) a remplacé le dispositif par des retraits mensuels en espèces de USD 150 (AUB Outlook, 21 février 2024)."
  },
  "Step series. 1,507.5 fixed from December 1997 (Wikipedia; IMF IFS end-of-period shows 1,507.5 by 1998; some sources date the peg to 1999). 15,000 effective 1 Feb 2023 (statement by governor Salameh to Reuters on 31 Jan 2023, BDL website change; L'Orient Today 7 Feb 2024). 89,500: BDL Central Council decision 48/4/24 dated 15 Feb 2024 adopted 89,500 in the BDL balance sheet from 31 Jan 2024 (Credit Libanais https://economics.creditlibanais.com/Article/212041); L'Orient Today 7 Feb 2024 says circular 167 treats 89,500 as the single reference rate; FAOSTAT shows 89,500 for Jan 2024. CORRECTION 20": {
-  "ar": "سلسلة درجية. 1,507.5 ثابت منذ كانون الأول 1997 (Wikipedia؛ يُظهر IFS الصادر عن صندوق النقد الدولي في نهاية الفترة 1,507.5 بحلول 1998؛ وتؤرّخ بعض المصادر التثبيت بعام 1999). 15,000 ساري اعتبارًا من 1 شباط 2023 (تصريح الحاكم سلامة لوكالة Reuters في 31 كانون الثاني 2023، تغيير على موقع مصرف لبنان؛ L'Orient Today 7 شباط 2024). 89,500: قرار المجلس المركزي لمصرف لبنان 48/4/24 تاريخ 15 شباط 2024 اعتمد 89,500 في ميزانية مصرف لبنان اعتبارًا من 31 كانون الثاني 2024 (Credit Libanais https://economics.creditlibanais.com/Article/212041)؛ تذكر L'Orient Today 7 شباط 2024 أن التعميم 167 يعتمد 89,500 سعرًا مرجعيًا وحيدًا؛ تُظهر FAOSTAT القيمة 89,500 لشهر كانون الثاني 2024. تصحيح 20",
+  "ar": "سلسلة درجية. 1,507.5 ثابت منذ كانون الأول 1997 (ويكيبيديا؛ يُظهر IFS الصادر عن صندوق النقد الدولي في نهاية الفترة 1,507.5 بحلول 1998؛ وتؤرّخ بعض المصادر التثبيت بعام 1999). 15,000 ساري اعتبارًا من 1 شباط 2023 (تصريح الحاكم سلامة لوكالة رويترز في 31 كانون الثاني 2023، تغيير على موقع مصرف لبنان؛ لوريان توداي 7 شباط 2024). 89,500: قرار المجلس المركزي لمصرف لبنان 48/4/24 تاريخ 15 شباط 2024 اعتمد 89,500 في ميزانية مصرف لبنان اعتبارًا من 31 كانون الثاني 2024 (Credit Libanais https://economics.creditlibanais.com/Article/212041)؛ تذكر لوريان توداي 7 شباط 2024 أن التعميم 167 يعتمد 89,500 سعرًا مرجعيًا وحيدًا؛ تُظهر FAOSTAT القيمة 89,500 لشهر كانون الثاني 2024. تصحيح 20",
   "fr": "Série en escalier. 1,507.5 fixé depuis décembre 1997 (Wikipedia ; l'IFS du FMI en fin de période affiche 1,507.5 dès 1998 ; certaines sources datent l'ancrage de 1999). 15,000 en vigueur le 1er février 2023 (déclaration du gouverneur Salameh à Reuters le 31 janvier 2023, modification du site de la BDL ; L'Orient Today 7 février 2024). 89,500 : la décision 48/4/24 du Conseil central de la BDL datée du 15 février 2024 a adopté 89,500 dans le bilan de la BDL à compter du 31 janvier 2024 (Credit Libanais https://economics.creditlibanais.com/Article/212041) ; L'Orient Today du 7 février 2024 indique que la circulaire 167 traite 89,500 comme taux de référence unique ; FAOSTAT affiche 89,500 pour janvier 2024. CORRECTION 20"
  },
  "Step series: each point is the month a decree level took effect (or was adopted, see below) and the value holds until the next point. Decree basis per point: 1996-07: Decree 8733 of 8 Jul 1996 (cited in the text of Decree 7426/2012; amount per UNHCR labour-sector paper and Executive Magazine Nov 2008). Value before 1996 not sourced. || 2008-09: Cabinet decision Sept 2008 (Executive Magazine, Nov 2008: law finalised 10 Sep 2008, private-sector application from Nov 2008, retroactive to May for the +200,000 general raise). Decree number not retrieved; the month shown is the decision month. || 201": {
@@ -10736,27 +10740,27 @@
   "fr": "Les effectifs du Syrian Protestant College atteignent 629 en 1903"
  },
  "Syrian Protestant College enrolment reaches 769 in 1906": {
-  "ar": "يبلغ عدد المسجلين في الكلية البروتستانتية السورية 769 في عام 1906",
+  "ar": "يبلغ عدد المسجلين في الكلية السورية الإنجيلية 769 في عام 1906",
   "fr": "Les inscriptions au Syrian Protestant College atteignent 769 en 1906"
  },
  "Syrian Protestant College enrolment reaches 876 in 1909": {
-  "ar": "يبلغ عدد المسجلين في الكلية البروتستانتية السورية 876 في عام 1909",
+  "ar": "يبلغ عدد المسجلين في الكلية السورية الإنجيلية 876 في عام 1909",
   "fr": "Les inscriptions au Syrian Protestant College atteignent 876 en 1909"
  },
  "Syrian Protestant College enrols 512 students": {
-  "ar": "تسجّل الكلية البروتستانتية السورية 512 طالبًا",
+  "ar": "تسجّل الكلية السورية الإنجيلية 512 طالبًا",
   "fr": "Le Syrian Protestant College inscrit 512 étudiants"
  },
  "Syrian Protestant College graduates its first class": {
-  "ar": "تخرّج الكلية البروتستانتية السورية دفعتها الأولى",
+  "ar": "تخرّج الكلية السورية الإنجيلية دفعتها الأولى",
   "fr": "Le Syrian Protestant College diplôme sa première promotion"
  },
  "Syrian Protestant College had 626 students and 40 teachers at Bliss's resignation": {
-  "ar": "كان في الكلية البروتستانتية السورية 626 طالبًا و40 معلمًا عند استقالة بليس",
+  "ar": "كان في الكلية السورية الإنجيلية 626 طالبًا و40 معلمًا عند استقالة بليس",
   "fr": "Le Syrian Protestant College comptait 626 étudiants et 40 enseignants lors de la démission de Bliss"
  },
  "Syrian Protestant College moves to its Ras Beirut campus": {
-  "ar": "تنتقل الكلية البروتستانتية السورية إلى حرمها في رأس بيروت",
+  "ar": "تنتقل الكلية السورية الإنجيلية إلى حرمها في رأس بيروت",
   "fr": "Le Syrian Protestant College déménage sur son campus de Ras Beyrouth"
  },
  "Syrian Social Nationalist Party": {
@@ -10816,7 +10820,7 @@
   "fr": "Tahir Pacha arrive à Deir el-Qamar avec 400 soldats après la reddition"
  },
  "Taken from Damascus Eyalet because its governor could not collect the hajj tax; Ottomans feared a Muhammad Ali invasion.": {
-  "ar": "انتُزعت من إيالة دمشق لأن واليها لم يتمكن من جباية ضريبة الحج؛ وخشي العثمانيون من غزو محمد علي.",
+  "ar": "انتُزعت من إيالة دمشق لأن واليها لم يتمكن من جباية ضريبة الحج؛ وخشي العثمانيون من غزو محمد علي باشا.",
   "fr": "Retirée de l'eyalet de Damas parce que son gouverneur n'avait pas pu percevoir la taxe du hajj ; les Ottomans craignaient une invasion de Muhammad Ali."
  },
  "Taken over by Simeon Calhoun in 1849; Jessup says it was Syria's highest school until 1866 [Jessup p.94].": {
@@ -10901,7 +10905,7 @@
  },
  "The Armenian Relief Committee absorbed the Persian and Palestine-Syrian committees; headquarters were at 70 Fifth Avenue, New York.": {
   "ar": "استوعبت لجنة الإغاثة الأرمنية اللجنتين الفارسية والفلسطينية-السورية؛ وكان مقرها في 70 Fifth Avenue، نيويورك.",
-  "fr": "Le Comité de secours arménien a absorbé les comités persan et palestino-syrien ; le siège se trouvait au 70 Fifth Avenue, New York."
+  "fr": "Le Comité de secours arménien a absorbé les comités persan et Palestine-Syrie ; le siège se trouvait au 70 Fifth Avenue, New York."
  },
  "The Beirut Waterworks objected that it would lose water-power; the Porte ordered a commission to test the claim.": {
   "ar": "اعترضت شركة مياه بيروت بأنها ستخسر الطاقة المائية؛ فأمر الباب العالي بتشكيل لجنة لاختبار هذا الادعاء.",
@@ -11440,7 +11444,7 @@
   "fr": "Trois jésuites arrivent à Beyrouth depuis la France pour ouvrir une école de garçons"
  },
  "Three Malta vessels' British goods worth 50,000 dollars sold for cash in five days; returns went out in cotton, corn and silk.": {
-  "ar": "بيعت بضائع بريطانية بقيمة 50,000 دولار، وصلت على متن ثلاث سفن مالطية، نقداً في خمسة أيام؛ وخرجت العائدات على شكل قطن وذرة وحرير.",
+  "ar": "بيعت بضائع بريطانية بقيمة 50,000 دولار، وصلت على متن ثلاث سفن من مالطا، نقداً في خمسة أيام؛ وخرجت العائدات على شكل قطن وذرة وحرير.",
   "fr": "Des marchandises britanniques d'une valeur de 50,000 dollars, arrivées sur trois navires maltais, ont été vendues au comptant en cinq jours ; les retours sont partis sous forme de coton, de maïs et de soie."
  },
  "Thunder and rain from the west; households rolled fresh earth on flat roofs that morning to keep out rain.": {
@@ -11877,7 +11881,7 @@
  },
  "US forms Palestine-Syrian Relief Committee for civilian famine": {
   "ar": "الولايات المتحدة تشكّل لجنة الإغاثة الفلسطينية السورية لمواجهة المجاعة بين المدنيين",
-  "fr": "Les États-Unis créent le Comité de secours palestino-syrien pour la famine touchant les civils"
+  "fr": "Les États-Unis créent le Comité de secours Palestine-Syrie pour la famine touchant les civils"
  },
  "US minister Oscar Straus visits Beirut": {
   "ar": "الوزير الأميركي Oscar Straus يزور بيروت",
@@ -11952,8 +11956,8 @@
   "fr": "Unité de Beyrouth"
  },
  "Update of 2035 targets; search-reported, UNDP page not opened. (corrected from 2026: search report dates the NDC 3.0 inception workshop 26 June 2025; UNDP page not opened)": {
-  "ar": "تحديث أهداف 2035؛ وفق ما أوردته نتائج البحث، ولم تُفتح صفحة UNDP. (تصحيح من 2026: يؤرّخ تقرير البحث ورشة الإطلاق الخاصة بالمساهمة المحددة وطنياً NDC 3.0 في 26 حزيران 2025؛ ولم تُفتح صفحة UNDP)",
-  "fr": "Mise à jour des objectifs 2035 ; d'après les résultats de recherche, page du UNDP non consultée. (corrigé à partir de 2026 : le rapport de recherche date l'atelier de lancement de la NDC 3.0 du 26 juin 2025 ; page du UNDP non consultée)"
+  "ar": "تحديث أهداف 2035؛ وفق ما أوردته نتائج البحث، ولم تُفتح صفحة برنامج الأمم المتحدة الإنمائي. (تصحيح من 2026: يؤرّخ تقرير البحث ورشة الإطلاق الخاصة بالمساهمة المحددة وطنياً NDC 3.0 في 26 حزيران 2025؛ ولم تُفتح صفحة برنامج الأمم المتحدة الإنمائي)",
+  "fr": "Mise à jour des objectifs 2035 ; d'après les résultats de recherche, page du PNUD non consultée. (corrigé à partir de 2026 : le rapport de recherche date l'atelier de lancement de la NDC 3.0 du 26 juin 2025 ; page du PNUD non consultée)"
  },
  "Uppsala Conflict Data Program (2026), geoBoundaries, via Our World in Data": {
   "ar": "برنامج أوبسالا لبيانات النزاعات (2026)، geoBoundaries، عبر Our World in Data",
@@ -12088,7 +12092,7 @@
   "fr": "Mort de Wassa Pacha ; le président du conseil exerce les pouvoirs du gouverneur"
  },
  "Wassa Pasha lands at Beirut to a French frigate's 21-gun salute": {
-  "ar": "واسا باشا يصل إلى بيروت وسط تحية بإحدى وعشرين طلقة من فرقاطة فرنسية",
+  "ar": "واسا باشا يصل إلى بيروت وسط تحية بـ21 طلقة من فرقاطة فرنسية",
   "fr": "Wassa Pacha arrive à Beyrouth sous une salve de 21 coups de canon d'une frégate française"
  },
  "Wassa Pasha makes Jounieh second capital of Kesrouan": {
@@ -12169,7 +12173,7 @@
  },
  "Western Beqaa": {
   "ar": "البقاع الغربي",
-  "fr": "Beqaa-Ouest"
+  "fr": "Békaa-Ouest"
  },
  "When managers named John Wortabet to the medical chair, New York objected that he was not American; Thomson threatened to quit if natives were barred.": {
   "ar": "عندما رشّح المديرون John Wortabet لكرسي الطب، اعترضت نيويورك بأنه ليس أميركياً؛ وهدّد Thomson بالاستقالة إذا مُنع أبناء البلد.",
@@ -12880,12 +12884,12 @@
   "fr": "qada_turnout correspond à la colonne 2025 du tableau de Wikipédia dont la source est elections.gov.lb ; pour Beyrouth, Baalbek, Zahlé, la Békaa-Ouest, Hermel et Rachaya, les chiffres définitifs du ministère de l'Intérieur annoncés les 18-19 mai 2025 diffèrent et figurent dans turnout_ministry_final."
  },
  "registered and voters per district come from the Wikipedia member list (voters = valid votes). turnout is the official published district figure from L'Orient (via Wikipedia). The two differ by more than 1 point in Mount Lebanon II (51.38 vs 54.40 computed), North II, Bekaa II and South III, and registered sums to 3,736,539 against the national 3,746,483, so treat per-district registered and voters as approximate.": {
-  "ar": "أعداد المسجلين والناخبين في كل دائرة مأخوذة من قائمة النواب في ويكيبيديا (الناخبون = الأصوات الصحيحة). أما نسبة الاقتراع فهي الرقم الرسمي المنشور للدائرة من صحيفة L'Orient (عبر ويكيبيديا). ويختلف الرقمان بأكثر من نقطة واحدة في جبل لبنان الثانية (51.38 مقابل 54.40 محتسبة)، والشمال الثانية، والبقاع الثانية، والجنوب الثالثة، كما أن مجموع المسجلين يبلغ 3,736,539 مقابل 3,746,483 على المستوى الوطني، لذا ينبغي التعامل مع أعداد المسجلين والناخبين في كل دائرة على أنها تقريبية.",
+  "ar": "أعداد المسجلين والناخبين في كل دائرة مأخوذة من قائمة النواب في ويكيبيديا (الناخبون = الأصوات الصحيحة). أما نسبة الاقتراع فهي الرقم الرسمي المنشور للدائرة من صحيفة لوريان لو جور (عبر ويكيبيديا). ويختلف الرقمان بأكثر من نقطة واحدة في جبل لبنان الثانية (51.38 مقابل 54.40 محتسبة)، والشمال الثانية، والبقاع الثانية، والجنوب الثالثة، كما أن مجموع المسجلين يبلغ 3,736,539 مقابل 3,746,483 على المستوى الوطني، لذا ينبغي التعامل مع أعداد المسجلين والناخبين في كل دائرة على أنها تقريبية.",
   "fr": "Les nombres d'inscrits et de votants par circonscription proviennent de la liste des députés de Wikipédia (votants = suffrages valides). La participation est le chiffre officiel publié pour la circonscription par L'Orient (via Wikipédia). Les deux diffèrent de plus de 1 point dans le Mont-Liban II (51.38 contre 54.40 calculé), le Nord II, la Békaa II et le Sud III, et la somme des inscrits atteint 3,736,539 contre 3,746,483 au niveau national ; les nombres d'inscrits et de votants par circonscription doivent donc être considérés comme approximatifs."
  },
  "registered and voters per district: UNDP key results brochure (Interior Ministry data); they sum to the national 3,967,507 and 1,951,683. turnout is the published district figure.": {
-  "ar": "registered وvoters لكل دائرة: كتيّب النتائج الرئيسية لبرنامج UNDP (بيانات وزارة الداخلية)؛ ومجموعهما يطابق الإجمالي الوطني 3,967,507 و1,951,683 على التوالي. turnout هو الرقم المنشور للدائرة.",
-  "fr": "registered et voters par circonscription : brochure des résultats clés du UNDP (données du ministère de l'Intérieur) ; leurs sommes correspondent respectivement aux totaux nationaux de 3,967,507 et 1,951,683. turnout est le chiffre publié par circonscription."
+  "ar": "registered وvoters لكل دائرة: كتيّب النتائج الرئيسية لبرنامج الأمم المتحدة الإنمائي (بيانات وزارة الداخلية)؛ ومجموعهما يطابق الإجمالي الوطني 3,967,507 و1,951,683 على التوالي. turnout هو الرقم المنشور للدائرة.",
+  "fr": "registered et voters par circonscription : brochure des résultats clés du PNUD (données du ministère de l'Intérieur) ; leurs sommes correspondent respectivement aux totaux nationaux de 3,967,507 et 1,951,683. turnout est le chiffre publié par circonscription."
  },
  "registered/voters/turnout per district: IFES, registered = 2009 register; winners and votes: IFES (Sept 2011); affiliation is the winner affiliation as of 2011 per IFES, not a ballot list (no lists in 2009).": {
   "ar": "registered/voters/turnout لكل دائرة: IFES، حيث registered = سجل الناخبين لعام 2009؛ الفائزون والأصوات: IFES (أيلول 2011)؛ الانتماء هو انتماء الفائز كما في عام 2011 وفقاً لـ IFES، وليس لائحة اقتراع (لا لوائح في عام 2009).",

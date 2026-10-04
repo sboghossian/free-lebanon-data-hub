@@ -95,10 +95,6 @@
   "ar": "بيانات المركز مرخّصة بموجب CC BY-SA 4.0 ما لم يذكر مصدر خلاف ذلك. يمكنك نسخها وإعادة استخدامها مع نسبتها إلى المركز وإلى المصدر الأصلي، وعليك مشاركة تعديلاتك بالترخيص نفسه.",
   "fr": "Les données du Hub sont sous licence CC BY-SA 4.0, sauf indication contraire d'une source. Vous pouvez les copier et les réutiliser en citant le Hub et la source d'origine, et vous devez partager vos modifications sous la même licence."
  },
- "The interface and the content are in English, Arabic and French. Translations were made by language models, then checked by scripts and by sample audits. No native editor has read all of it yet. A text with no translation shows in English with a small EN mark. Names of candidates are not translated.": {
-  "ar": "الواجهة والمحتوى بالإنكليزية والعربية والفرنسية. أُنجزت الترجمات بنماذج لغوية، ثم فُحصت بنصوص برمجية وبتدقيق عيّنات. لم يقرأها محرّر ناطق بالعربية أو الفرنسية كاملةً بعد. ويظهر النص الذي لا ترجمة له بالإنكليزية مع علامة EN صغيرة. ولا تُترجم أسماء المرشحين.",
-  "fr": "L'interface et le contenu sont en anglais, en arabe et en français. Les traductions ont été faites par des modèles de langue, puis vérifiées par des scripts et des audits d'échantillons. Aucun relecteur natif ne l'a encore lu en entier. Un texte sans traduction s'affiche en anglais avec une petite marque EN. Les noms des candidats ne sont pas traduits."
- },
  "The laws index holds titles, numbers and dates only. Numbers before about 1960 are mostly missing, and 2025 is probably incomplete.": {
   "ar": "يضم فهرس القوانين العناوين والأرقام والتواريخ فقط. معظم الأرقام قبل نحو عام 1960 مفقودة، وعام 2025 غالباً غير مكتمل.",
   "fr": "L'index des lois ne contient que les titres, les numéros et les dates. Les numéros d'avant 1960 environ manquent le plus souvent, et 2025 est probablement incomplet."
@@ -162,5 +158,9 @@
  "Skip to the content": {
   "ar": "تخطَّ إلى المحتوى",
   "fr": "Aller au contenu"
+ },
+ "The interface and the content are in English, Arabic and French. Translations were made by language models, then checked against an Arabic and a French glossary of names and terms, and by sample audits. In the last audit of 300 random texts per language, about 10% of the Arabic and 11% of the French had an error, mostly minor wording. Those were fixed, but the rest probably has errors at a similar rate. No native editor has read all of it yet. A text with no translation shows in English with a small EN mark. Names of candidates are not translated.": {
+  "ar": "الواجهة والمحتوى بالإنكليزية والعربية والفرنسية. أُنجزت الترجمات بنماذج لغوية، ثم دُقّقت مقابل مسرد عربي وآخر فرنسي للأسماء والمصطلحات، وبمراجعات لعيّنات. في آخر مراجعة لـ٣٠٠ نص عشوائي في كل لغة، كان في نحو ١٠٪ من النصوص العربية و١١٪ من الفرنسية خطأ، معظمه في الصياغة. صُحّحت هذه الأخطاء، لكن الباقي يحتمل أخطاء بنسبة مشابهة. لم يقرأ محرّر من أهل اللغة النصوص كلها بعد. النص غير المترجم يظهر بالإنكليزية مع علامة EN صغيرة. أسماء المرشحين لا تُترجم.",
+  "fr": "L'interface et le contenu sont en anglais, en arabe et en français. Les traductions ont été faites par des modèles de langue, puis vérifiées à l'aide d'un glossaire arabe et d'un glossaire français des noms et des termes, et par des relectures d'échantillons. Lors de la dernière relecture de 300 textes tirés au hasard par langue, environ 10 % des textes arabes et 11 % des textes français comportaient une erreur, surtout de formulation. Elles ont été corrigées, mais le reste en contient probablement dans une proportion semblable. Aucun relecteur de langue maternelle n'a encore tout lu. Un texte sans traduction s'affiche en anglais avec une petite marque EN. Les noms des candidats ne sont pas traduits."
  }
 }

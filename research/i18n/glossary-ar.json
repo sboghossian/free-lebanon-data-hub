@@ -1,0 +1,2583 @@
+{
+ "Lebanon": {
+  "canonical": "لبنان",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Beirut": {
+  "canonical": "بيروت",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hezbollah": {
+  "canonical": "حزب الله",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Israel": {
+  "canonical": "إسرائيل",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Syria": {
+  "canonical": "سوريا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sidon": {
+  "canonical": "صيدا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Saida": {
+  "canonical": "صيدا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tyre": {
+  "canonical": "صور",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sour": {
+  "canonical": "صور",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tripoli": {
+  "canonical": "طرابلس",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Nabatieh": {
+  "canonical": "النبطية",
+  "variants_ok": [
+   "نبطية التحتا"
+  ],
+  "source": "langlinks"
+ },
+ "Nabatiyeh": {
+  "canonical": "النبطية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nabatiye": {
+  "canonical": "النبطية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Mount Lebanon": {
+  "canonical": "جبل لبنان",
+  "variants_ok": [
+   "محافظة جبل لبنان"
+  ],
+  "source": "gazetteer"
+ },
+ "Bekaa": {
+  "canonical": "البقاع",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Beqaa": {
+  "canonical": "البقاع",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bekaa Valley": {
+  "canonical": "سهل البقاع",
+  "variants_ok": [
+   "وادي البقاع",
+   "البقاع"
+  ],
+  "source": "press-usage"
+ },
+ "Beqaa Valley": {
+  "canonical": "سهل البقاع",
+  "variants_ok": [
+   "وادي البقاع",
+   "البقاع"
+  ],
+  "source": "press-usage"
+ },
+ "Baalbek": {
+  "canonical": "بعلبك",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Baalbeck": {
+  "canonical": "بعلبك",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bint Jbeil": {
+  "canonical": "بنت جبيل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Naqoura": {
+  "canonical": "الناقورة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Khiam": {
+  "canonical": "الخيام",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hadath": {
+  "canonical": "الحدث",
+  "variants_ok": [
+   "حدث"
+  ],
+  "source": "gazetteer"
+ },
+ "Baabda": {
+  "canonical": "بعبدا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Arsal": {
+  "canonical": "عرسال",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Marjayoun": {
+  "canonical": "مرجعيون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Dahieh": {
+  "canonical": "الضاحية الجنوبية",
+  "variants_ok": [
+   "الضاحية"
+  ],
+  "source": "gazetteer"
+ },
+ "Jounieh": {
+  "canonical": "جونية",
+  "variants_ok": [
+   "جونيه"
+  ],
+  "source": "gazetteer"
+ },
+ "Chouf": {
+  "canonical": "الشوف",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Shuf": {
+  "canonical": "الشوف",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Shebaa": {
+  "canonical": "شبعا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Aley": {
+  "canonical": "عاليه",
+  "variants_ok": [
+   "عالية"
+  ],
+  "source": "gazetteer"
+ },
+ "Shatila": {
+  "canonical": "شاتيلا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chatila": {
+  "canonical": "شاتيلا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sabra": {
+  "canonical": "صبرا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Houla": {
+  "canonical": "حولا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hula": {
+  "canonical": "حولا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Haret Hreik": {
+  "canonical": "حارة حريك",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yaroun": {
+  "canonical": "يارون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Shebaa Farms": {
+  "canonical": "مزارع شبعا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Akkar": {
+  "canonical": "عكار",
+  "variants_ok": [
+   "قضاء عكار"
+  ],
+  "source": "press-usage"
+ },
+ "Kafr Kila": {
+  "canonical": "كفركلا",
+  "variants_ok": [
+   "كفركيلا"
+  ],
+  "source": "press-usage"
+ },
+ "Kfar Kila": {
+  "canonical": "كفركلا",
+  "variants_ok": [
+   "كفركيلا"
+  ],
+  "source": "press-usage"
+ },
+ "Zahle": {
+  "canonical": "زحلة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Zahleh": {
+  "canonical": "زحلة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Qana": {
+  "canonical": "قانا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Qana": {
+  "canonical": "عين قانا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tayr Harfa": {
+  "canonical": "طير حرفا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jezzine": {
+  "canonical": "جزين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ashrafieh": {
+  "canonical": "الأشرفية",
+  "variants_ok": [
+   "الاشرفية"
+  ],
+  "source": "gazetteer"
+ },
+ "Achrafieh": {
+  "canonical": "الأشرفية",
+  "variants_ok": [
+   "الاشرفية"
+  ],
+  "source": "gazetteer"
+ },
+ "Jbeil": {
+  "canonical": "جبيل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Byblos": {
+  "canonical": "جبيل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hazmieh": {
+  "canonical": "الحازمية",
+  "variants_ok": [
+   "حازمية"
+  ],
+  "source": "press-usage"
+ },
+ "Blida": {
+  "canonical": "بليدا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Markaba": {
+  "canonical": "مركبا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hasbaya": {
+  "canonical": "حاصبيا",
+  "variants_ok": [
+   "حاصبيّا"
+  ],
+  "source": "gazetteer"
+ },
+ "Jiyeh": {
+  "canonical": "الجية",
+  "variants_ok": [
+   "جية"
+  ],
+  "source": "press-usage"
+ },
+ "Khalde": {
+  "canonical": "خلدة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Choueifat": {
+  "canonical": "الشويفات",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Kfarchouba": {
+  "canonical": "كفرشوبا",
+  "variants_ok": [
+   "كفر شوبا"
+  ],
+  "source": "gazetteer"
+ },
+ "Kfarshima": {
+  "canonical": "كفرشيما",
+  "variants_ok": [
+   "كفر شيما"
+  ],
+  "source": "gazetteer"
+ },
+ "Antelias": {
+  "canonical": "أنطلياس",
+  "variants_ok": [
+   "انطلياس"
+  ],
+  "source": "gazetteer"
+ },
+ "Damour": {
+  "canonical": "الدامور",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Srifa": {
+  "canonical": "صريفا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Fayadieh": {
+  "canonical": "الفياضية",
+  "variants_ok": [
+   "فياضية"
+  ],
+  "source": "press-usage"
+ },
+ "Ghobeiry": {
+  "canonical": "الغبيري",
+  "variants_ok": [
+   "غبيري"
+  ],
+  "source": "press-usage"
+ },
+ "Hermel": {
+  "canonical": "الهرمل",
+  "variants_ok": [
+   "هرمل"
+  ],
+  "source": "press-usage"
+ },
+ "Meiss Ej Jabal": {
+  "canonical": "ميس الجبل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Mays al-Jabal": {
+  "canonical": "ميس الجبل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yater": {
+  "canonical": "ياطر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yatar": {
+  "canonical": "ياطر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tel al-Zaatar": {
+  "canonical": "تل الزعتر",
+  "variants_ok": [
+   "مجزرة تل الزعتر"
+  ],
+  "source": "press-usage"
+ },
+ "Bourj Hammoud": {
+  "canonical": "برج حمود",
+  "variants_ok": [
+   "برج حمّود"
+  ],
+  "source": "gazetteer"
+ },
+ "Harouf": {
+  "canonical": "حاروف",
+  "variants_ok": [
+   "حروف"
+  ],
+  "source": "gazetteer (OCHA alt) + press usage"
+ },
+ "Beit Lif": {
+  "canonical": "بيت ليف",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bayt Lif": {
+  "canonical": "بيت ليف",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Arnoun": {
+  "canonical": "أرنون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yarine": {
+  "canonical": "يارين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tibnin": {
+  "canonical": "تبنين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tebnine": {
+  "canonical": "تبنين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Burj al-Barajneh": {
+  "canonical": "برج البراجنة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Burj el-Barajneh": {
+  "canonical": "برج البراجنة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bourj el-Barajneh": {
+  "canonical": "برج البراجنة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chamaa": {
+  "canonical": "شمع",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Marwahin": {
+  "canonical": "مروحين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ehden": {
+  "canonical": "إهدن",
+  "variants_ok": [
+   "اهدن"
+  ],
+  "source": "gazetteer"
+ },
+ "Batroun": {
+  "canonical": "البترون",
+  "variants_ok": [
+   "بترون"
+  ],
+  "source": "press-usage"
+ },
+ "Odaisseh": {
+  "canonical": "عديسة",
+  "variants_ok": [
+   "عديسة مرجعيون"
+  ],
+  "source": "press-usage"
+ },
+ "Adaisseh": {
+  "canonical": "عديسة",
+  "variants_ok": [
+   "عديسة مرجعيون"
+  ],
+  "source": "press-usage"
+ },
+ "Shaqra": {
+  "canonical": "شقرا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ainata": {
+  "canonical": "عيناتا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Aita al-Shaab": {
+  "canonical": "عيتا الشعب",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Aitaroun": {
+  "canonical": "عيترون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ras Baalbek": {
+  "canonical": "رأس بعلبك",
+  "variants_ok": [
+   "راس بعلبك"
+  ],
+  "source": "gazetteer"
+ },
+ "Anjar": {
+  "canonical": "عنجر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Zgharta": {
+  "canonical": "زغرتا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Adloun": {
+  "canonical": "عدلون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sarafand": {
+  "canonical": "صرفند",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chiyah": {
+  "canonical": "الشياح",
+  "variants_ok": [
+   "شياح"
+  ],
+  "source": "press-usage"
+ },
+ "Yohmor": {
+  "canonical": "يحمر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Kfar Tebnit": {
+  "canonical": "كفرتبنيت",
+  "variants_ok": [
+   "كفر تبنيت"
+  ],
+  "source": "gazetteer"
+ },
+ "Duris": {
+  "canonical": "دوريس",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chtaura": {
+  "canonical": "شتورا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Deir el-Qamar": {
+  "canonical": "دير القمر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Deir al-Qamar": {
+  "canonical": "دير القمر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Rachaf": {
+  "canonical": "رشاف",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Toul": {
+  "canonical": "تول",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jdeideh": {
+  "canonical": "الجديدة",
+  "variants_ok": [
+   "جديدة المتن"
+  ],
+  "source": "press-usage"
+ },
+ "Jdideh": {
+  "canonical": "الجديدة",
+  "variants_ok": [
+   "جديدة المتن"
+  ],
+  "source": "press-usage"
+ },
+ "Deir Qanoun": {
+  "canonical": "دير قانون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ras al-Harf": {
+  "canonical": "رأس الحرف",
+  "variants_ok": [
+   "راس الحرف"
+  ],
+  "source": "gazetteer"
+ },
+ "Rayak": {
+  "canonical": "رياق",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Boudai": {
+  "canonical": "بوداي",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Zouk Mikael": {
+  "canonical": "ذوق مكايل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Alaq": {
+  "canonical": "عين علق",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Maaroub": {
+  "canonical": "معروب",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Mayfadoun": {
+  "canonical": "ميفدون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ghazir": {
+  "canonical": "غزير",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Rashidieh": {
+  "canonical": "الرشيدية",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Qantara": {
+  "canonical": "قنطرة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Deir Mimas": {
+  "canonical": "دير ميماس",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Aalma": {
+  "canonical": "علما",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Rachaya": {
+  "canonical": "راشيا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Rashaya": {
+  "canonical": "راشيا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Bachoura": {
+  "canonical": "الباشورة",
+  "variants_ok": [
+   "باشورة"
+  ],
+  "source": "press-usage"
+ },
+ "Bashoura": {
+  "canonical": "الباشورة",
+  "variants_ok": [
+   "باشورة"
+  ],
+  "source": "press-usage"
+ },
+ "Touline": {
+  "canonical": "تولين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Toura": {
+  "canonical": "طورا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Masnaa": {
+  "canonical": "المصنع",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Harissa": {
+  "canonical": "حريصا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Naameh": {
+  "canonical": "الناعمة",
+  "variants_ok": [
+   "ناعمه"
+  ],
+  "source": "press-usage"
+ },
+ "Taalabaya": {
+  "canonical": "تعلبايا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Dibbine": {
+  "canonical": "دبين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Halta": {
+  "canonical": "حلتا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Nahr al-Bared": {
+  "canonical": "نهر البارد",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Nahr el-Bared": {
+  "canonical": "نهر البارد",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Beit Yahoun": {
+  "canonical": "بيت ياحون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chaab": {
+  "canonical": "شعب",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Ebel": {
+  "canonical": "عين إبل",
+  "variants_ok": [
+   "عين ابل"
+  ],
+  "source": "gazetteer"
+ },
+ "Bir Hassan": {
+  "canonical": "بئر حسن",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Qaraoun": {
+  "canonical": "القرعون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Lake Qaraoun": {
+  "canonical": "بحيرة القرعون",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Aitou": {
+  "canonical": "أيطو",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Haddatha": {
+  "canonical": "حداثا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Sohmor": {
+  "canonical": "سحمر",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Yarzeh": {
+  "canonical": "اليرزة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Majdal Zun": {
+  "canonical": "مجدل زون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Majdal Zoun": {
+  "canonical": "مجدل زون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hanine": {
+  "canonical": "حنين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Hanin": {
+  "canonical": "حنين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ajaltun": {
+  "canonical": "عجلتون",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Taybeh": {
+  "canonical": "الطيبة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Tayibe": {
+  "canonical": "الطيبة",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Mansouri": {
+  "canonical": "المنصوري",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ramyah": {
+  "canonical": "رامية",
+  "variants_ok": [
+   "رامية بنت جبيل"
+  ],
+  "source": "press-usage"
+ },
+ "Ramyeh": {
+  "canonical": "رامية",
+  "variants_ok": [
+   "رامية بنت جبيل"
+  ],
+  "source": "press-usage"
+ },
+ "Zibqin": {
+  "canonical": "زبقين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Chihine": {
+  "canonical": "شيحين",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Al-Nabi Shayth": {
+  "canonical": "النبي شيت",
+  "variants_ok": [
+   "نبي شيت"
+  ],
+  "source": "press-usage"
+ },
+ "Deir Ammar": {
+  "canonical": "دير عمار",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ain Baal": {
+  "canonical": "عين بعل",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jwaya": {
+  "canonical": "جويا",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Jnah": {
+  "canonical": "الجناح",
+  "variants_ok": [
+   "جناح"
+  ],
+  "source": "press-usage"
+ },
+ "Karantina": {
+  "canonical": "الكرنتينا",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Ain al-Remmaneh": {
+  "canonical": "عين الرمانة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Remmaneh": {
+  "canonical": "الرمانة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Furn al-Chebbak": {
+  "canonical": "فرن الشباك",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Jal al-Dib": {
+  "canonical": "جل الديب",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Naccache": {
+  "canonical": "النقاش",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Bhamdoun": {
+  "canonical": "بحمدون",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Awkar": {
+  "canonical": "عوكر",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Ras al-Metn": {
+  "canonical": "رأس المتن",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Zahrani": {
+  "canonical": "الزهراني",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Litani": {
+  "canonical": "الليطاني",
+  "variants_ok": [
+   "نهر الليطاني"
+  ],
+  "source": "press-usage"
+ },
+ "Litani River": {
+  "canonical": "نهر الليطاني",
+  "variants_ok": [
+   "الليطاني"
+  ],
+  "source": "press-usage"
+ },
+ "Hasbani": {
+  "canonical": "الحاصباني",
+  "variants_ok": [
+   "نهر الحاصباني"
+  ],
+  "source": "press-usage"
+ },
+ "Ain al-Hilweh": {
+  "canonical": "عين الحلوة",
+  "variants_ok": [
+   "مخيم عين الحلوة"
+  ],
+  "source": "press-usage"
+ },
+ "Rmeish": {
+  "canonical": "رميش",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Kfar Reman": {
+  "canonical": "كفررمان",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Kfour": {
+  "canonical": "الكفور",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Brital": {
+  "canonical": "بريتال",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Habboush": {
+  "canonical": "حبوش",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Ouzai": {
+  "canonical": "الأوزاعي",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Deir Siryan": {
+  "canonical": "دير سريان",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Barashit": {
+  "canonical": "برعشيت",
+  "variants_ok": [],
+  "source": "gazetteer"
+ },
+ "Qaaqaait al-Jisr": {
+  "canonical": "قعقعية الجسر",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Iqlim al-Kharoub": {
+  "canonical": "إقليم الخروب",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Koura": {
+  "canonical": "الكورة",
+  "variants_ok": [
+   "قضاء الكورة"
+  ],
+  "source": "press-usage"
+ },
+ "Hawsh al-Umara": {
+  "canonical": "حوش الأمراء",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Beit Mery": {
+  "canonical": "بيت مري",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Roumieh": {
+  "canonical": "رومية",
+  "variants_ok": [
+   "سجن رومية"
+  ],
+  "source": "press-usage"
+ },
+ "Beddawi": {
+  "canonical": "البداوي",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Jabal Mohsen": {
+  "canonical": "جبل محسن",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Ramlet al-Baida": {
+  "canonical": "رملة البيضاء",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Majdal Shams": {
+  "canonical": "مجدل شمس",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cedars": {
+  "canonical": "الأرز",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Cedar": {
+  "canonical": "الأرز",
+  "variants_ok": [
+   "أرز لبناني"
+  ],
+  "source": "press-usage"
+ },
+ "Beaufort Castle": {
+  "canonical": "قلعة الشقيف",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Martyrs' Square": {
+  "canonical": "ساحة الشهداء",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sassine Square": {
+  "canonical": "ساحة ساسين",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Balamand": {
+  "canonical": "البلمند",
+  "variants_ok": [
+   "جامعة البلمند"
+  ],
+  "source": "press-usage"
+ },
+ "Iran": {
+  "canonical": "إيران",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "France": {
+  "canonical": "فرنسا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Egypt": {
+  "canonical": "مصر",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Jordan": {
+  "canonical": "الأردن",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Saudi Arabia": {
+  "canonical": "السعودية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Saudi": {
+  "canonical": "السعودية",
+  "variants_ok": [
+   "السعودي"
+  ],
+  "source": "langlinks"
+ },
+ "Qatar": {
+  "canonical": "قطر",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kuwait": {
+  "canonical": "الكويت",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Turkey": {
+  "canonical": "تركيا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Russia": {
+  "canonical": "روسيا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Iraq": {
+  "canonical": "العراق",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Germany": {
+  "canonical": "ألمانيا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Britain": {
+  "canonical": "بريطانيا",
+  "variants_ok": [
+   "المملكة المتحدة"
+  ],
+  "source": "press-usage"
+ },
+ "Italy": {
+  "canonical": "إيطاليا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Canada": {
+  "canonical": "كندا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Algeria": {
+  "canonical": "الجزائر",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Libya": {
+  "canonical": "ليبيا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Morocco": {
+  "canonical": "المغرب",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Bahrain": {
+  "canonical": "البحرين",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cyprus": {
+  "canonical": "قبرص",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Argentina": {
+  "canonical": "الأرجنتين",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Australia": {
+  "canonical": "أستراليا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Indonesia": {
+  "canonical": "إندونيسيا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Japan": {
+  "canonical": "اليابان",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "China": {
+  "canonical": "الصين",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Malta": {
+  "canonical": "مالطا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Austria": {
+  "canonical": "النمسا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Palestine": {
+  "canonical": "فلسطين",
+  "variants_ok": [
+   "دولة فلسطين"
+  ],
+  "source": "press-usage"
+ },
+ "Gaza": {
+  "canonical": "غزة",
+  "variants_ok": [
+   "قطاع غزة"
+  ],
+  "source": "press-usage"
+ },
+ "Damascus": {
+  "canonical": "دمشق",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Paris": {
+  "canonical": "باريس",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "London": {
+  "canonical": "لندن",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Washington": {
+  "canonical": "واشنطن",
+  "variants_ok": [
+   "واشنطن العاصمة"
+  ],
+  "source": "press-usage"
+ },
+ "Istanbul": {
+  "canonical": "إسطنبول",
+  "variants_ok": [
+   "إسطمبول",
+   "اسطنبول"
+  ],
+  "source": "langlinks"
+ },
+ "Constantinople": {
+  "canonical": "القسطنطينية",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Cairo": {
+  "canonical": "القاهرة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tehran": {
+  "canonical": "طهران",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Rome": {
+  "canonical": "روما",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Geneva": {
+  "canonical": "جنيف",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Riyadh": {
+  "canonical": "الرياض",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Doha": {
+  "canonical": "الدوحة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Aleppo": {
+  "canonical": "حلب",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Homs": {
+  "canonical": "حمص",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Latakia": {
+  "canonical": "اللاذقية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "The Hague": {
+  "canonical": "لاهاي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "New York": {
+  "canonical": "نيويورك",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Cannes": {
+  "canonical": "كان",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Suez": {
+  "canonical": "السويس",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hauran": {
+  "canonical": "حوران",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Galilee": {
+  "canonical": "الجليل",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Upper Galilee": {
+  "canonical": "الجليل الأعلى",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Levant": {
+  "canonical": "بلاد الشام",
+  "variants_ok": [
+   "المشرق"
+  ],
+  "source": "press-usage"
+ },
+ "Mediterranean": {
+  "canonical": "البحر المتوسط",
+  "variants_ok": [
+   "البحر الأبيض المتوسط"
+  ],
+  "source": "press-usage"
+ },
+ "Middle East": {
+  "canonical": "الشرق الأوسط",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Europe": {
+  "canonical": "أوروبا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Haifa": {
+  "canonical": "حيفا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tel Aviv": {
+  "canonical": "تل أبيب",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Acre": {
+  "canonical": "عكا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Safed": {
+  "canonical": "صفد",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nahariya": {
+  "canonical": "نهاريا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kiryat Shmona": {
+  "canonical": "كريات شمونة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Metula": {
+  "canonical": "المطلة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Golan Heights": {
+  "canonical": "هضبة الجولان",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Hormuz": {
+  "canonical": "مضيق هرمز",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Amal": {
+  "canonical": "حركة أمل",
+  "variants_ok": [
+   "أمل"
+  ],
+  "source": "langlinks"
+ },
+ "Amal Movement": {
+  "canonical": "حركة أمل",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Forces": {
+  "canonical": "القوات اللبنانية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Kataeb": {
+  "canonical": "الكتائب",
+  "variants_ok": [
+   "حزب الكتائب اللبنانية",
+   "حزب الكتائب"
+  ],
+  "source": "press-usage"
+ },
+ "Free Patriotic Movement": {
+  "canonical": "التيار الوطني الحر",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Progressive Socialist Party": {
+  "canonical": "الحزب التقدمي الاشتراكي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "The PSP": {
+  "canonical": "الحزب التقدمي الاشتراكي",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Future Movement": {
+  "canonical": "تيار المستقبل",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "SSNP": {
+  "canonical": "الحزب السوري القومي الاجتماعي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Communist Party": {
+  "canonical": "الحزب الشيوعي اللبناني",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Fatah": {
+  "canonical": "حركة فتح",
+  "variants_ok": [
+   "فتح"
+  ],
+  "source": "langlinks"
+ },
+ "Hamas": {
+  "canonical": "حماس",
+  "variants_ok": [
+   "حركة حماس"
+  ],
+  "source": "press-usage"
+ },
+ "Fatah al-Islam": {
+  "canonical": "فتح الإسلام",
+  "variants_ok": [
+   "مجموعة فتح الإسلام"
+  ],
+  "source": "press-usage"
+ },
+ "Islamic Jihad": {
+  "canonical": "حركة الجهاد الإسلامي",
+  "variants_ok": [
+   "الجهاد الإسلامي",
+   "حركة الجهاد الإسلامي في فلسطين"
+  ],
+  "source": "press-usage"
+ },
+ "Al-Nusra": {
+  "canonical": "جبهة النصرة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nusra": {
+  "canonical": "جبهة النصرة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Tahrir al-Sham": {
+  "canonical": "هيئة تحرير الشام",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Islamic State": {
+  "canonical": "تنظيم الدولة الإسلامية",
+  "variants_ok": [
+   "داعش"
+  ],
+  "source": "langlinks"
+ },
+ "ISIS": {
+  "canonical": "داعش",
+  "variants_ok": [
+   "تنظيم الدولة الإسلامية"
+  ],
+  "source": "press-usage"
+ },
+ "ISIL": {
+  "canonical": "داعش",
+  "variants_ok": [
+   "تنظيم الدولة الإسلامية"
+  ],
+  "source": "press-usage"
+ },
+ "Brotherhood": {
+  "canonical": "الإخوان المسلمون",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Radwan Force": {
+  "canonical": "قوة الرضوان",
+  "variants_ok": [
+   "وحدة الرضوان"
+  ],
+  "source": "press-usage"
+ },
+ "Redwan Force": {
+  "canonical": "قوة الرضوان",
+  "variants_ok": [
+   "وحدة الرضوان"
+  ],
+  "source": "press-usage"
+ },
+ "South Lebanon Army": {
+  "canonical": "جيش لبنان الجنوبي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Army": {
+  "canonical": "الجيش اللبناني",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "The Lebanese Army": {
+  "canonical": "الجيش اللبناني",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Armed Forces": {
+  "canonical": "الجيش اللبناني",
+  "variants_ok": [
+   "القوات المسلحة اللبنانية"
+  ],
+  "source": "langlinks"
+ },
+ "Internal Security Forces": {
+  "canonical": "قوى الأمن الداخلي",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "General Security": {
+  "canonical": "الأمن العام",
+  "variants_ok": [
+   "المديرية العامة للأمن العام"
+  ],
+  "source": "press-usage"
+ },
+ "UNIFIL": {
+  "canonical": "اليونيفيل",
+  "variants_ok": [
+   "قوة الأمم المتحدة المؤقتة في لبنان"
+  ],
+  "source": "press-usage"
+ },
+ "UNRWA": {
+  "canonical": "الأونروا",
+  "variants_ok": [
+   "وكالة الأمم المتحدة لإغاثة وتشغيل اللاجئين الفلسطينيين"
+  ],
+  "source": "press-usage"
+ },
+ "UNHCR": {
+  "canonical": "المفوضية السامية للأمم المتحدة لشؤون اللاجئين",
+  "variants_ok": [
+   "مفوضية اللاجئين"
+  ],
+  "source": "langlinks"
+ },
+ "UNESCO": {
+  "canonical": "اليونسكو",
+  "variants_ok": [
+   "يونسكو"
+  ],
+  "source": "press-usage"
+ },
+ "UNDP": {
+  "canonical": "برنامج الأمم المتحدة الإنمائي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "World Bank": {
+  "canonical": "البنك الدولي",
+  "variants_ok": [
+   "مجموعة البنك الدولي"
+  ],
+  "source": "press-usage"
+ },
+ "Red Cross": {
+  "canonical": "الصليب الأحمر",
+  "variants_ok": [
+   "الحركة الدولية للصليب الأحمر والهلال الأحمر"
+  ],
+  "source": "press-usage"
+ },
+ "Rights Watch": {
+  "canonical": "هيومن رايتس ووتش",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Amnesty": {
+  "canonical": "منظمة العفو الدولية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Arab League": {
+  "canonical": "جامعة الدول العربية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "United Nations": {
+  "canonical": "الأمم المتحدة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Security Council": {
+  "canonical": "مجلس الأمن",
+  "variants_ok": [
+   "مجلس الأمن الدولي",
+   "مجلس الأمن التابع للأمم المتحدة"
+  ],
+  "source": "press-usage"
+ },
+ "UN Security Council": {
+  "canonical": "مجلس الأمن",
+  "variants_ok": [
+   "مجلس الأمن الدولي",
+   "مجلس الأمن التابع للأمم المتحدة"
+  ],
+  "source": "press-usage"
+ },
+ "General Assembly": {
+  "canonical": "الجمعية العامة",
+  "variants_ok": [
+   "الجمعية العامة للأمم المتحدة"
+  ],
+  "source": "press-usage"
+ },
+ "Constitutional Council": {
+  "canonical": "المجلس الدستوري",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Special Tribunal": {
+  "canonical": "المحكمة الخاصة بلبنان",
+  "variants_ok": [
+   "المحكمة الدولية الخاصة بلبنان"
+  ],
+  "source": "press-usage"
+ },
+ "Lebanese University": {
+  "canonical": "الجامعة اللبنانية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "American University of Beirut": {
+  "canonical": "الجامعة الأميركية في بيروت",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Saint Joseph University": {
+  "canonical": "جامعة القديس يوسف",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Syrian Protestant College": {
+  "canonical": "الكلية السورية الإنجيلية",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Solidere": {
+  "canonical": "سوليدير",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Ogero": {
+  "canonical": "أوجيرو",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Alfa": {
+  "canonical": "ألفا",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Touch": {
+  "canonical": "تاتش",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "LBCI": {
+  "canonical": "المؤسسة اللبنانية للإرسال",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Al Jadeed": {
+  "canonical": "الجديد",
+  "variants_ok": [
+   "قناة الجديد"
+  ],
+  "source": "press-usage"
+ },
+ "Al-Manar": {
+  "canonical": "المنار",
+  "variants_ok": [
+   "قناة المنار"
+  ],
+  "source": "press-usage"
+ },
+ "Manar": {
+  "canonical": "المنار",
+  "variants_ok": [
+   "قناة المنار"
+  ],
+  "source": "press-usage"
+ },
+ "Al Mayadeen": {
+  "canonical": "الميادين",
+  "variants_ok": [
+   "قناة الميادين"
+  ],
+  "source": "press-usage"
+ },
+ "An-Nahar": {
+  "canonical": "النهار",
+  "variants_ok": [
+   "جريدة النهار"
+  ],
+  "source": "langlinks"
+ },
+ "Nahar": {
+  "canonical": "النهار",
+  "variants_ok": [
+   "جريدة النهار"
+  ],
+  "source": "langlinks"
+ },
+ "Akhbar": {
+  "canonical": "الأخبار",
+  "variants_ok": [
+   "جريدة الأخبار"
+  ],
+  "source": "press-usage"
+ },
+ "Safir": {
+  "canonical": "السفير",
+  "variants_ok": [
+   "جريدة السفير"
+  ],
+  "source": "press-usage"
+ },
+ "L'Orient Today": {
+  "canonical": "لوريان توداي",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "L'Orient": {
+  "canonical": "لوريان",
+  "variants_ok": [
+   "لوريان لو جور"
+  ],
+  "source": "press-usage"
+ },
+ "Reuters": {
+  "canonical": "رويترز",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Al Jazeera": {
+  "canonical": "الجزيرة",
+  "variants_ok": [
+   "قناة الجزيرة",
+   "شبكة الجزيرة",
+   "شبكة الجزيرة الإعلامية"
+  ],
+  "source": "press-usage"
+ },
+ "Jazeera": {
+  "canonical": "الجزيرة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Middle East Airlines": {
+  "canonical": "طيران الشرق الأوسط",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "East Airlines": {
+  "canonical": "طيران الشرق الأوسط",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "TotalEnergies": {
+  "canonical": "توتال إنرجيز",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "QatarEnergy": {
+  "canonical": "قطر للطاقة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Novatek": {
+  "canonical": "نوفاتك",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Intra Bank": {
+  "canonical": "بنك إنترا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Mossad": {
+  "canonical": "الموساد",
+  "variants_ok": [
+   "موساد"
+  ],
+  "source": "press-usage"
+ },
+ "Tele Liban": {
+  "canonical": "تلفزيون لبنان",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Multinational Force": {
+  "canonical": "القوة المتعددة الجنسيات في لبنان",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Arab Deterrent Force": {
+  "canonical": "قوات الردع العربية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Front": {
+  "canonical": "الجبهة اللبنانية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Tripartite Alliance": {
+  "canonical": "الحلف الثلاثي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Crane Commission": {
+  "canonical": "لجنة كينغ كراين",
+  "variants_ok": [
+   "لجنة كراين",
+   "لجنة كينغ - كراين"
+  ],
+  "source": "press-usage"
+ },
+ "Taif": {
+  "canonical": "الطائف",
+  "variants_ok": [
+   "اتفاق الطائف"
+  ],
+  "source": "press-usage"
+ },
+ "Cairo Agreement": {
+  "canonical": "اتفاق القاهرة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sykes-Picot": {
+  "canonical": "سايكس بيكو",
+  "variants_ok": [
+   "اتفاقية سايكس-بيكو",
+   "اتفاقية سايكس بيكو"
+  ],
+  "source": "press-usage"
+ },
+ "National Pact": {
+  "canonical": "الميثاق الوطني",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "French Mandate": {
+  "canonical": "الانتداب الفرنسي",
+  "variants_ok": [
+   "الانتداب الفرنسي على سوريا ولبنان"
+  ],
+  "source": "press-usage"
+ },
+ "Free French": {
+  "canonical": "فرنسا الحرة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Greater Lebanon": {
+  "canonical": "لبنان الكبير",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "State of Greater Lebanon": {
+  "canonical": "دولة لبنان الكبير",
+  "variants_ok": [
+   "لبنان الكبير"
+  ],
+  "source": "press-usage"
+ },
+ "Mutasarrifate": {
+  "canonical": "المتصرفية",
+  "variants_ok": [
+   "متصرفية جبل لبنان"
+  ],
+  "source": "press-usage"
+ },
+ "Mountain War": {
+  "canonical": "حرب الجبل",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Blue Line": {
+  "canonical": "الخط الأزرق",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Republic": {
+  "canonical": "الجمهورية اللبنانية",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Ministry of Tourism": {
+  "canonical": "وزارة السياحة",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Lebanese Health Ministry": {
+  "canonical": "وزارة الصحة العامة",
+  "variants_ok": [
+   "وزارة الصحة اللبنانية",
+   "وزارة الصحة"
+  ],
+  "source": "langlinks"
+ },
+ "Health Ministry": {
+  "canonical": "وزارة الصحة",
+  "variants_ok": [
+   "وزارة الصحة العامة"
+  ],
+  "source": "press-usage"
+ },
+ "Arab Gas Pipeline": {
+  "canonical": "خط الغاز العربي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Druze": {
+  "canonical": "الدروز",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Maronites": {
+  "canonical": "الموارنة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Maronite": {
+  "canonical": "الماروني",
+  "variants_ok": [
+   "الموارنة"
+  ],
+  "source": "press-usage"
+ },
+ "Shia": {
+  "canonical": "الشيعة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Sunni": {
+  "canonical": "السنة",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Alawite": {
+  "canonical": "العلويون",
+  "variants_ok": [
+   "العلوي"
+  ],
+  "source": "press-usage"
+ },
+ "Greek Orthodox": {
+  "canonical": "الروم الأرثوذكس",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Greek Catholic": {
+  "canonical": "الروم الكاثوليك",
+  "variants_ok": [
+   "الروم الملكيون الكاثوليك"
+  ],
+  "source": "press-usage"
+ },
+ "Armenian": {
+  "canonical": "الأرمن",
+  "variants_ok": [
+   "الأرمني"
+  ],
+  "source": "press-usage"
+ },
+ "Palestinians": {
+  "canonical": "الفلسطينيون",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Palestinian": {
+  "canonical": "الفلسطيني",
+  "variants_ok": [
+   "الفلسطينيون"
+  ],
+  "source": "press-usage"
+ },
+ "Syrians": {
+  "canonical": "السوريون",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "Ottomans": {
+  "canonical": "العثمانيون",
+  "variants_ok": [
+   "الدولة العثمانية"
+  ],
+  "source": "press-usage"
+ },
+ "Katyusha": {
+  "canonical": "كاتيوشا",
+  "variants_ok": [
+   "صواريخ كاتيوشا"
+  ],
+  "source": "press-usage"
+ },
+ "Katyushas": {
+  "canonical": "كاتيوشا",
+  "variants_ok": [
+   "صواريخ كاتيوشا"
+  ],
+  "source": "press-usage"
+ },
+ "Cedars of God": {
+  "canonical": "أرز الرب",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "The LF": {
+  "canonical": "القوات اللبنانية",
+  "variants_ok": [],
+  "source": "press-usage"
+ },
+ "The ADF": {
+  "canonical": "قوات الردع العربية",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "International Festival": {
+  "canonical": "مهرجان بعلبك الدولي",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "National Museum": {
+  "canonical": "المتحف الوطني",
+  "variants_ok": [
+   "متحف بيروت الوطني"
+  ],
+  "source": "press-usage"
+ },
+ "Eurobond": {
+  "canonical": "سندات اليوروبوند",
+  "variants_ok": [
+   "اليوروبوند"
+  ],
+  "source": "press-usage"
+ },
+ "Eurobonds": {
+  "canonical": "سندات اليوروبوند",
+  "variants_ok": [
+   "اليوروبوند"
+  ],
+  "source": "press-usage"
+ },
+ "Hariri": {
+  "canonical": "الحريري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hariri's": {
+  "canonical": "الحريري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Rafik Hariri": {
+  "canonical": "رفيق الحريري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Rafic Hariri": {
+  "canonical": "رفيق الحريري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Aoun": {
+  "canonical": "عون",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Aoun's": {
+  "canonical": "عون",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Jumblatt": {
+  "canonical": "جنبلاط",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Jumblatt's": {
+  "canonical": "جنبلاط",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Karami": {
+  "canonical": "كرامي",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Chamoun": {
+  "canonical": "شمعون",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Geagea": {
+  "canonical": "جعجع",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Solh": {
+  "canonical": "الصلح",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Gemayel": {
+  "canonical": "الجميّل",
+  "variants_ok": [
+   "الجميل"
+  ],
+  "source": "manual"
+ },
+ "Amine Gemayel": {
+  "canonical": "أمين الجميّل",
+  "variants_ok": [
+   "أمين الجميل"
+  ],
+  "source": "manual"
+ },
+ "Bachir Gemayel": {
+  "canonical": "بشير الجميّل",
+  "variants_ok": [
+   "بشير الجميل"
+  ],
+  "source": "manual"
+ },
+ "Bashir Gemayel's": {
+  "canonical": "بشير الجميّل",
+  "variants_ok": [
+   "بشير الجميل"
+  ],
+  "source": "manual"
+ },
+ "Khoury": {
+  "canonical": "الخوري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Bechara el-Khoury": {
+  "canonical": "بشارة الخوري",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Nasrallah": {
+  "canonical": "نصرالله",
+  "variants_ok": [
+   "نصر الله"
+  ],
+  "source": "manual"
+ },
+ "Nasrallah's": {
+  "canonical": "نصرالله",
+  "variants_ok": [
+   "نصر الله"
+  ],
+  "source": "manual"
+ },
+ "Assad": {
+  "canonical": "الأسد",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Assad's": {
+  "canonical": "الأسد",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Shihab": {
+  "canonical": "شهاب",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Chehab": {
+  "canonical": "شهاب",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Chehab's": {
+  "canonical": "شهاب",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Salameh": {
+  "canonical": "سلامة",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Berri": {
+  "canonical": "بري",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hobeika": {
+  "canonical": "حبيقة",
+  "variants_ok": [
+   "إيلي حبيقة"
+  ],
+  "source": "press-usage"
+ },
+ "Mikati": {
+  "canonical": "ميقاتي",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Bassil": {
+  "canonical": "باسيل",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Lahoud": {
+  "canonical": "لحود",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Lahoud's": {
+  "canonical": "لحود",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Frangieh": {
+  "canonical": "فرنجية",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Siniora": {
+  "canonical": "السنيورة",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Tueni": {
+  "canonical": "تويني",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hrawi": {
+  "canonical": "الهراوي",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hrawi's": {
+  "canonical": "الهراوي",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hoss": {
+  "canonical": "الحص",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Netanyahu": {
+  "canonical": "نتنياهو",
+  "variants_ok": [
+   "بنيامين نتنياهو"
+  ],
+  "source": "manual"
+ },
+ "Trump": {
+  "canonical": "ترامب",
+  "variants_ok": [
+   "ترمب"
+  ],
+  "source": "manual"
+ },
+ "Sharon": {
+  "canonical": "شارون",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Gouraud": {
+  "canonical": "غورو",
+  "variants_ok": [
+   "هنري غورو"
+  ],
+  "source": "press-usage"
+ },
+ "Catroux": {
+  "canonical": "كاترو",
+  "variants_ok": [
+   "جورج كاترو"
+  ],
+  "source": "press-usage"
+ },
+ "Rahbani": {
+  "canonical": "الرحباني",
+  "variants_ok": [
+   "الأخوان رحباني"
+  ],
+  "source": "press-usage"
+ },
+ "Fairuz": {
+  "canonical": "فيروز",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Sadr": {
+  "canonical": "الصدر",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Haniyeh": {
+  "canonical": "هنية",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Shukr": {
+  "canonical": "شكر",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Shukr's": {
+  "canonical": "شكر",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hoayek": {
+  "canonical": "الحويك",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Saadeh": {
+  "canonical": "سعادة",
+  "variants_ok": [
+   "سعاده"
+  ],
+  "source": "manual"
+ },
+ "Arida": {
+  "canonical": "عريضة",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Khazen": {
+  "canonical": "الخازن",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Khazens": {
+  "canonical": "آل الخازن",
+  "variants_ok": [
+   "الخوازنة"
+  ],
+  "source": "manual"
+ },
+ "Arslan": {
+  "canonical": "أرسلان",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Moawad": {
+  "canonical": "معوض",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Helou": {
+  "canonical": "حلو",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Sarkis": {
+  "canonical": "سركيس",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Ahdab": {
+  "canonical": "الأحدب",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Annan": {
+  "canonical": "عنان",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Diab": {
+  "canonical": "دياب",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Sharaa": {
+  "canonical": "الشرع",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Bashir II": {
+  "canonical": "بشير الثاني",
+  "variants_ok": [
+   "بشير الثاني الشهابي"
+  ],
+  "source": "manual"
+ },
+ "Bashir III": {
+  "canonical": "بشير الثالث",
+  "variants_ok": [
+   "بشير الثالث الشهابي"
+  ],
+  "source": "manual"
+ },
+ "Yafi": {
+  "canonical": "اليافي",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Bustani": {
+  "canonical": "البستاني",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Naim Qassem": {
+  "canonical": "نعيم قاسم",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Issam Abdallah": {
+  "canonical": "عصام عبدالله",
+  "variants_ok": [
+   "عصام عبد الله"
+  ],
+  "source": "manual"
+ },
+ "Salim Ayyash": {
+  "canonical": "سليم عياش",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Petro Trad": {
+  "canonical": "بترو طراد",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Ibrahim Pasha": {
+  "canonical": "إبراهيم باشا",
+  "variants_ok": [
+   "إبراهيم محمد علي باشا"
+  ],
+  "source": "press-usage"
+ },
+ "Muhammad Ali": {
+  "canonical": "محمد علي باشا",
+  "variants_ok": [],
+  "source": "langlinks"
+ },
+ "Marines": {
+  "canonical": "المارينز",
+  "variants_ok": [
+   "مشاة البحرية الأميركية"
+  ],
+  "source": "manual"
+ },
+ "US Marines": {
+  "canonical": "المارينز",
+  "variants_ok": [
+   "مشاة البحرية الأميركية"
+  ],
+  "source": "manual"
+ },
+ "Wikipedia": {
+  "canonical": "ويكيبيديا",
+  "variants_ok": [],
+  "source": "manual"
+ },
+ "Hezbollah's": {
+  "canonical": "حزب الله",
+  "variants_ok": [],
+  "source": "manual"
+ }
+}
