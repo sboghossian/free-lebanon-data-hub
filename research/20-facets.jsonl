@@ -3878,112 +3878,113 @@
 {"key": "69-months-2025-2026.timeline.jsonl:33", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "69-months-2025-2026.timeline.jsonl:34", "actors": ["Ali Shoeib", "Fatima Ftouni", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
 {"key": "69-months-2025-2026.timeline.jsonl:35", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:36", "actors": ["Iran", "Israel", "Netanyahu", "United States"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:37", "actors": ["Iran", "Israel", "United States"], "type": "attack", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:38", "actors": ["Israel", "State Security"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:39", "actors": ["Hezbollah", "Israel"], "type": "battle", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:40", "actors": ["Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:41", "actors": ["Israel", "UNIFIL"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:42", "actors": ["Ali El Khalil", "Ali Hassan Khalil", "Amal", "Amal Khalil", "Israel", "Youssef Khalil"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:43", "actors": ["Constitutional Council", "Tannous Mechleb"], "type": "court", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:44", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:45", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:46", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:47", "actors": ["Parliament", "Rima Karameh"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:48", "actors": ["Israel", "UNIFIL"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:49", "actors": ["Lebanese lawyers"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:50", "actors": ["Judicial authorities", "Palestinians"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:51", "actors": ["IDF", "Israel"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:52", "actors": ["Lebanon", "Syria"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:53", "actors": ["Parliament"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:54", "actors": ["Israel", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "other", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:55", "actors": ["Joseph Aoun", "Parliament"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:56", "actors": ["Hezbollah", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:57", "actors": ["Hezbollah", "IDF", "Israel"], "type": "disaster", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:58", "actors": ["Lebanese army", "Syria"], "type": "migration", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:59", "actors": ["Hezbollah", "Hezbollah supporters", "Lebanese army", "UNIFIL"], "type": "protest", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:60", "actors": ["Hezbollah", "Morgan Ortagus", "Nabih Berri", "Nawaf Salam", "Saeb Salam", "Tammam Salam", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:61", "actors": ["Alawite refugees", "Syria"], "type": "refugees", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:62", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:63", "actors": ["Hezbollah", "Joseph Aoun", "Nabih Berri", "Tom Barrack", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:64", "actors": ["Israel", "Joseph Aoun"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:65", "actors": ["Lebanese government", "Syria", "UNHCR"], "type": "migration", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:66", "actors": ["Hezbollah", "Naim Qassem", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "other", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:67", "actors": ["Asaad al-Shaibani", "Joseph Aoun", "Syria", "Youssef Rajji"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:68", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:69", "actors": ["Pope Leo XIV"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:70", "actors": ["BDL", "Finance Ministry"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:71", "actors": ["Riad Salameh"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:72", "actors": ["Hezbollah", "Iran", "Israel", "United States"], "type": "attack", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:73", "actors": ["Cabinet", "Iran", "Israel", "Nawaf Salam", "Netanyahu", "Saeb Salam", "Tammam Salam", "United States"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:74", "actors": ["Lebanese army", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:75", "actors": ["FATF"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:76", "actors": ["Hezbollah", "Israel", "Lebanon", "United States"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:77", "actors": ["Alvarez & Marsal", "BDL"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:78", "actors": ["Hezbollah", "Parliament", "Switzerland"], "type": "law", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:79", "actors": ["Lebanese army", "PLO", "Palestinian factions", "Palestinians"], "type": "agreement", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:80", "actors": ["Lebanon", "UN", "UN Security Council"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:81", "actors": ["Abdul Rahman Yusuf", "Syria", "UAE"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:82", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:83", "actors": ["Hezbollah", "Israel", "Lebanese army", "Palestinians"], "type": "court", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:84", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:85", "actors": ["Israel", "Mossad", "Syria"], "type": "other", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:86", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:87", "actors": ["Israel", "Lebanese army"], "type": "disaster", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:88", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:89", "actors": ["Israel", "Joseph Aoun"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:90", "actors": ["Israel", "Quds Force"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:91", "actors": ["Israel", "Palestinian Islamic Jihad", "Syria"], "type": "assassination", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:92", "actors": ["Hezbollah", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:93", "actors": ["Israel"], "type": "war", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:94", "actors": ["Emmanuel Macron", "France", "Lebanese army"], "type": "aid", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:95", "actors": ["Lebanese government"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:96", "actors": ["Cabinet", "Hezbollah", "Iran", "Salam cabinet"], "type": "diplomacy", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:97", "actors": ["Israel", "US embassy", "United States"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:98", "actors": ["Eyal Zamir", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:99", "actors": ["Lebanese government"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:100", "actors": ["Iran", "Israel", "United States"], "type": "war", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:101", "actors": ["EBRD", "Egypt", "Iran", "Iraq", "Jordan"], "type": "aid", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:102", "actors": ["Lebanese government"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:103", "actors": ["Georges Karam", "Joseph Aoun", "Simon Karam", "United States"], "type": "government", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:104", "actors": ["France", "French judiciary"], "type": "court", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:105", "actors": ["IDF", "Israel"], "type": "court", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:106", "actors": ["CRS", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:107", "actors": ["Hezbollah", "Netanyahu"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:108", "actors": ["Hezbollah", "Iran", "Israel", "Joseph Aoun", "Nabih Berri", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:109", "actors": ["France", "Italy", "UNIFIL"], "type": "agreement", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:110", "actors": ["NNA"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:111", "actors": ["Netanyahu"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:112", "actors": ["CENTCOM", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:113", "actors": ["IDF 401st Brigade", "Israel"], "type": "withdrawal", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:114", "actors": ["ICRC", "Israel"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:115", "actors": ["Lebanese army", "Michel Suleiman", "Syria"], "type": "court", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:116", "actors": ["Joseph Aoun", "Mohammed bin Salman", "Saudi Arabia"], "type": "visit", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:117", "actors": ["Cabinet", "Nawaf Salam", "Parliament", "Saeb Salam", "Salam cabinet", "Tammam Salam"], "type": "budget", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:118", "actors": ["Cabinet", "Education Ministry", "Salam cabinet"], "type": "education", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:119", "actors": ["Cyprus", "Emmanuel Macron", "France", "Israel", "Joseph Aoun"], "type": "visit", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:120", "actors": ["Adel Nassar", "Cabinet", "Parliament", "Salam cabinet"], "type": "law", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:121", "actors": ["Cabinet", "Ramzi Nohra", "Salam cabinet"], "type": "government", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:122", "actors": ["Iran", "Israel", "Lebanese government", "PLO", "Palestinians"], "type": "agreement", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:123", "actors": ["Lebanese army", "Syria"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:124", "actors": ["Lebanese army", "PLO"], "type": "agreement", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:125", "actors": ["Lebanese government", "UN", "UNHCR"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:126", "actors": ["Lebanese army", "PLO"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:127", "actors": ["Ahmed al-Sharaa", "Joseph Aoun"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:128", "actors": ["Lebanese army", "PLO", "Palestinians", "UNRWA"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:129", "actors": ["UNHCR"], "type": "disaster", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:130", "actors": ["BDL", "IMF", "Karim Souaid", "Nabih Berri", "Yassine Jaber"], "type": "banking", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:131", "actors": ["Hezbollah", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:132", "actors": ["World Bank"], "type": "aid", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:133", "actors": ["Abbas Araghchi", "Cabinet", "Iran", "UN", "Youssef Rajji"], "type": "diplomacy", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:134", "actors": ["Lebanese security forces", "Syria"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:135", "actors": ["EDL", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:136", "actors": ["World Bank"], "type": "crisis", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:137", "actors": ["Israel", "UNESCO"], "type": "culture", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:138", "actors": ["World Bank"], "type": "crisis", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:139", "actors": ["IMF", "Nawaf Salam", "Parliament", "Saeb Salam", "Tammam Salam"], "type": "government", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:140", "actors": ["Hezbollah", "Tom Barrack", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "69-months-2025-2026.timeline.jsonl:141", "actors": ["Cabinet", "Nabih Berri", "Parliament", "Salam cabinet"], "type": "banking", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:36", "actors": ["Hezbollah", "Israel", "Lebanese Forces", "Pierre Mouawad"], "type": "attack", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:37", "actors": ["Iran", "Israel", "Netanyahu", "United States"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:38", "actors": ["Iran", "Israel", "United States"], "type": "attack", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:39", "actors": ["Israel", "State Security"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:40", "actors": ["Hezbollah", "Israel"], "type": "battle", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:41", "actors": ["Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:42", "actors": ["Israel", "UNIFIL"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:43", "actors": ["Ali El Khalil", "Ali Hassan Khalil", "Amal", "Amal Khalil", "Israel", "Youssef Khalil"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:44", "actors": ["Constitutional Council", "Tannous Mechleb"], "type": "court", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:45", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:46", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:47", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:48", "actors": ["Parliament", "Rima Karameh"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:49", "actors": ["Israel", "UNIFIL"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:50", "actors": ["Lebanese lawyers"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:51", "actors": ["Judicial authorities", "Palestinians"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:52", "actors": ["IDF", "Israel"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:53", "actors": ["Lebanon", "Syria"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:54", "actors": ["Parliament"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:55", "actors": ["Israel", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "other", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:56", "actors": ["Joseph Aoun", "Parliament"], "type": "law", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:57", "actors": ["Hezbollah", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:58", "actors": ["Hezbollah", "IDF", "Israel"], "type": "disaster", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:59", "actors": ["Lebanese army", "Syria"], "type": "migration", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:60", "actors": ["Hezbollah", "Hezbollah supporters", "Lebanese army", "UNIFIL"], "type": "protest", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:61", "actors": ["Hezbollah", "Morgan Ortagus", "Nabih Berri", "Nawaf Salam", "Saeb Salam", "Tammam Salam", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:62", "actors": ["Alawite refugees", "Syria"], "type": "refugees", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:63", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:64", "actors": ["Hezbollah", "Joseph Aoun", "Nabih Berri", "Tom Barrack", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:65", "actors": ["Israel", "Joseph Aoun"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:66", "actors": ["Lebanese government", "Syria", "UNHCR"], "type": "migration", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:67", "actors": ["Hezbollah", "Naim Qassem", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "other", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:68", "actors": ["Asaad al-Shaibani", "Joseph Aoun", "Syria", "Youssef Rajji"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:69", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:70", "actors": ["Pope Leo XIV"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:71", "actors": ["BDL", "Finance Ministry"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:72", "actors": ["Riad Salameh"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:73", "actors": ["Hezbollah", "Iran", "Israel", "United States"], "type": "attack", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:74", "actors": ["Cabinet", "Iran", "Israel", "Nawaf Salam", "Netanyahu", "Saeb Salam", "Tammam Salam", "United States"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:75", "actors": ["Lebanese army", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:76", "actors": ["FATF"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:77", "actors": ["Hezbollah", "Israel", "Lebanon", "United States"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:78", "actors": ["Alvarez & Marsal", "BDL"], "type": "banking", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:79", "actors": ["Hezbollah", "Parliament", "Switzerland"], "type": "law", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:80", "actors": ["Lebanese army", "PLO", "Palestinian factions", "Palestinians"], "type": "agreement", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:81", "actors": ["Lebanon", "UN", "UN Security Council"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:82", "actors": ["Abdul Rahman Yusuf", "Syria", "UAE"], "type": "court", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:83", "actors": ["Hezbollah", "Israel"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:84", "actors": ["Hezbollah", "Israel", "Lebanese army", "Palestinians"], "type": "court", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:85", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:86", "actors": ["Israel", "Mossad", "Syria"], "type": "other", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:87", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:88", "actors": ["Israel", "Lebanese army"], "type": "disaster", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:89", "actors": ["Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:90", "actors": ["Israel", "Joseph Aoun"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:91", "actors": ["Israel", "Quds Force"], "type": "assassination", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:92", "actors": ["Israel", "Palestinian Islamic Jihad", "Syria"], "type": "assassination", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:93", "actors": ["Hezbollah", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:94", "actors": ["Israel"], "type": "war", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:95", "actors": ["Emmanuel Macron", "France", "Lebanese army"], "type": "aid", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:96", "actors": ["Lebanese government"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:97", "actors": ["Cabinet", "Hezbollah", "Iran", "Salam cabinet"], "type": "diplomacy", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:98", "actors": ["Israel", "US embassy", "United States"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:99", "actors": ["Eyal Zamir", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:100", "actors": ["Lebanese government"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:101", "actors": ["Iran", "Israel", "United States"], "type": "war", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:102", "actors": ["EBRD", "Egypt", "Iran", "Iraq", "Jordan"], "type": "aid", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:103", "actors": ["Lebanese government"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:104", "actors": ["Georges Karam", "Joseph Aoun", "Simon Karam", "United States"], "type": "government", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:105", "actors": ["France", "French judiciary"], "type": "court", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:106", "actors": ["IDF", "Israel"], "type": "court", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:107", "actors": ["CRS", "Israel"], "type": "occupation", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:108", "actors": ["Hezbollah", "Netanyahu"], "type": "war", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:109", "actors": ["Hezbollah", "Iran", "Israel", "Joseph Aoun", "Nabih Berri", "Nawaf Salam", "Saeb Salam", "Tammam Salam"], "type": "diplomacy", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:110", "actors": ["France", "Italy", "UNIFIL"], "type": "agreement", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:111", "actors": ["NNA"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:112", "actors": ["Netanyahu"], "type": "other", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:113", "actors": ["CENTCOM", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:114", "actors": ["IDF 401st Brigade", "Israel"], "type": "withdrawal", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:115", "actors": ["ICRC", "Israel"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:116", "actors": ["Lebanese army", "Michel Suleiman", "Syria"], "type": "court", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:117", "actors": ["Joseph Aoun", "Mohammed bin Salman", "Saudi Arabia"], "type": "visit", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:118", "actors": ["Cabinet", "Nawaf Salam", "Parliament", "Saeb Salam", "Salam cabinet", "Tammam Salam"], "type": "budget", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:119", "actors": ["Cabinet", "Education Ministry", "Salam cabinet"], "type": "education", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:120", "actors": ["Cyprus", "Emmanuel Macron", "France", "Israel", "Joseph Aoun"], "type": "visit", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:121", "actors": ["Adel Nassar", "Cabinet", "Parliament", "Salam cabinet"], "type": "law", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:122", "actors": ["Cabinet", "Ramzi Nohra", "Salam cabinet"], "type": "government", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:123", "actors": ["Iran", "Israel", "Lebanese government", "PLO", "Palestinians"], "type": "agreement", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:124", "actors": ["Lebanese army", "Syria"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:125", "actors": ["Lebanese army", "PLO"], "type": "agreement", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:126", "actors": ["Lebanese government", "UN", "UNHCR"], "type": "refugees", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:127", "actors": ["Lebanese army", "PLO"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:128", "actors": ["Ahmed al-Sharaa", "Joseph Aoun"], "type": "diplomacy", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:129", "actors": ["Lebanese army", "PLO", "Palestinians", "UNRWA"], "type": "agreement", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:130", "actors": ["UNHCR"], "type": "disaster", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:131", "actors": ["BDL", "IMF", "Karim Souaid", "Nabih Berri", "Yassine Jaber"], "type": "banking", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:132", "actors": ["Hezbollah", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:133", "actors": ["World Bank"], "type": "aid", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:134", "actors": ["Abbas Araghchi", "Cabinet", "Iran", "UN", "Youssef Rajji"], "type": "diplomacy", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:135", "actors": ["Lebanese security forces", "Syria"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:136", "actors": ["EDL", "Israel"], "type": "attack", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:137", "actors": ["World Bank"], "type": "crisis", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:138", "actors": ["Israel", "UNESCO"], "type": "culture", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:139", "actors": ["World Bank"], "type": "crisis", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:140", "actors": ["IMF", "Nawaf Salam", "Parliament", "Saeb Salam", "Tammam Salam"], "type": "government", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:141", "actors": ["Hezbollah", "Tom Barrack", "United States"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "69-months-2025-2026.timeline.jsonl:142", "actors": ["Cabinet", "Nabih Berri", "Parliament", "Salam cabinet"], "type": "banking", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "70-security-completion.timeline.jsonl:0", "actors": [], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "70-security-completion.timeline.jsonl:1", "actors": [], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "70-security-completion.timeline.jsonl:2", "actors": [], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
@@ -6111,142 +6112,143 @@
 {"key": "80-deep-1800-1830.timeline.jsonl:61", "actors": ["Maronite Patriarch", "Pliny Fisk"], "type": "demography", "type_src": "row", "place": "North", "place_src": "row"}
 {"key": "80-deep-1800-1830.timeline.jsonl:62", "actors": ["Jonas King", "Pliny Fisk"], "type": "environment", "type_src": "row", "place": "North", "place_src": "row"}
 {"key": "80-deep-1800-1830.timeline.jsonl:63", "actors": ["Pliny Fisk"], "type": "environment", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:64", "actors": ["Pliny Fisk", "Syria"], "type": "demography", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:65", "actors": ["Peter Jarwy", "Pliny Fisk"], "type": "diplomacy", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:66", "actors": ["Pliny Fisk", "Syria"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:67", "actors": ["Pliny Fisk", "Turkey", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:68", "actors": ["Bashir Shihab II", "Jonas King", "Pliny Fisk"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:69", "actors": ["Pliny Fisk"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:70", "actors": ["Bashir Shihab II", "Pliny Fisk"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:71", "actors": ["Pliny Fisk"], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:72", "actors": ["Pliny Fisk"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:73", "actors": ["Abdullah Pasha", "Pliny Fisk"], "type": "war", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:74", "actors": ["Cyprus", "Isaac Bird", "William Goodell"], "type": "migration", "type_src": "row", "place": "Abroad", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:75", "actors": ["Isaac Bird", "Syria", "United States", "William Goodell"], "type": "war", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:76", "actors": ["Isaac Bird", "Mr Abbott", "William Goodell"], "type": "migration", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:77", "actors": ["Maronite Patriarch", "William Goodell"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:78", "actors": ["Bashir Shihab II", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:79", "actors": ["Abdullah Pasha", "Bedouin irregulars", "France", "William Goodell"], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:80", "actors": ["Isaac Bird", "Kehya Bey", "Syria"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:81", "actors": ["Kehya Bey", "William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:82", "actors": ["Abdullah Pasha", "Turkey", "William Goodell"], "type": "court", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:83", "actors": ["American mission", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:84", "actors": ["Maronite bishop", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:85", "actors": ["Ahmed Asaad", "Dionysius Carabet", "Gregory Wortabet", "Isaac Bird", "Kamel Asaad", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:86", "actors": ["Greek Orthodox clergy", "Maronite clergy"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:87", "actors": ["Eli Smith", "Samuel Gobat", "Syria", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:88", "actors": ["William Goodell"], "type": "health", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:89", "actors": ["British consul", "Turkey", "William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:90", "actors": ["William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:91", "actors": ["Isaac Bird", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:92", "actors": ["Eli Smith", "Isaac Bird", "United States", "William Goodell"], "type": "migration", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:93", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Isaac Bird", "Kamel Asaad", "Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:94", "actors": ["William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:95", "actors": ["Isaac Bird"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:96", "actors": ["Beirut garrison", "Greek fleet", "William Goodell"], "type": "battle", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:97", "actors": ["British consul", "France", "French consul"], "type": "withdrawal", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:98", "actors": ["Mustafa Agha Barbar", "Yusuf Pasha"], "type": "war", "type_src": "row", "place": "Tripoli", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:99", "actors": ["Mustafa Agha Barbar", "Sulayman Pasha", "Yusuf Pasha"], "type": "withdrawal", "type_src": "row", "place": "Tripoli", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:100", "actors": ["Mustafa Agha Barbar", "Sulayman Pasha", "Syria"], "type": "government", "type_src": "row", "place": "Tripoli", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:101", "actors": ["Bashir Shihab II", "Sulayman Pasha", "Syria", "Yusuf Pasha"], "type": "war", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:102", "actors": ["Bashir Shihab II", "Sulayman Pasha", "Syria"], "type": "agreement", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:103", "actors": ["Bashir Shihab II", "Djahdjah Harfush", "Sultan Harfush"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:104", "actors": [], "type": "trade", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:105", "actors": ["Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:106", "actors": [], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:107", "actors": [], "type": "environment", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:108", "actors": ["Syria"], "type": "trade", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:109", "actors": ["Emir Melhem", "Emir Qadan"], "type": "demography", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:110", "actors": ["Abd al-Ahad Baz", "Bashir Shihab II", "Jirji Baz"], "type": "assassination", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:111", "actors": ["Haim Farhi", "Jazzar Pasha", "Syria"], "type": "banking", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:112", "actors": ["Bashir Shihab II", "Qasim Shihab"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:113", "actors": ["Abbe Gandolfi", "United States"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:114", "actors": ["Bashir Shihab II", "France", "French consuls", "John Barker"], "type": "diplomacy", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:115", "actors": ["Armenian Catholic Patriarch Youssef"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:116", "actors": ["Bashir Shihab II"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:117", "actors": ["Bashir Shihab II", "Turkey"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:118", "actors": ["Bashir Shihab II", "Burckhardt"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:119", "actors": ["Bashir Jumblatt", "Bashir Shihab II"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:120", "actors": ["Bashir Shihab II"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:121", "actors": ["Bashir Shihab II", "Gharib Effendi", "Jazzar Pasha", "Sulayman Pasha"], "type": "budget", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:122", "actors": [], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:123", "actors": ["Yusuf Pasha"], "type": "disaster", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:124", "actors": ["Bashir Shihab II", "Hadj Farakh", "Syria"], "type": "demography", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:125", "actors": [], "type": "trade", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:126", "actors": ["Jumblatt clan", "Topal Ali"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:127", "actors": ["Bashir Shihab II"], "type": "budget", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:128", "actors": ["Bashir Shihab II"], "type": "budget", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:129", "actors": ["Maronite bishop Youssef"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:130", "actors": ["Bashir Shihab II", "Beshara Khazen"], "type": "trade", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:131", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Hasan Shihab", "Kamel Asaad"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:132", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Bashir Shihab II", "Kamel Asaad", "Syria", "Yohanna al-Hilu"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:133", "actors": ["Ahmed Asaad", "Bashir Shihab II", "Darwish Pasha", "Hasan Shihab", "Kamel Asaad", "Syria"], "type": "battle", "type_src": "row", "place": "Damascus", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:134", "actors": ["Abdullah Pasha", "Ahmed Asaad", "Ali Imad", "Kamel Asaad", "Mustafa Pasha", "Syria"], "type": "war", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:135", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:136", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "decree", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:137", "actors": ["Ahmed Asaad", "Isaac Bird", "Kamel Asaad", "Maronite Patriarch", "United States", "William Goodell"], "type": "decree", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:138", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Isaac Bird", "Kamel Asaad", "United States"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:139", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Priest Nicolas", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:140", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:141", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Tannus Shidyaq"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:142", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:143", "actors": [], "type": "culture", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:144", "actors": ["Peter Abbott", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:145", "actors": ["Mr Way", "Rev. Lewis", "Syria"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:146", "actors": ["Hanna Maroni", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:147", "actors": ["Jonas King", "Joseph Wolff", "Pliny Fisk", "United States", "William Jowett"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:148", "actors": ["Bashir Shihab II", "Egypt"], "type": "crisis", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:149", "actors": ["Bashir Shihab II", "William Jowett"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:150", "actors": ["Bashir Shihab II"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:151", "actors": ["William Jowett"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:152", "actors": [], "type": "environment", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:153", "actors": ["J. S. Buckingham"], "type": "demography", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:154", "actors": [], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:155", "actors": ["Bashir Shihab II"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:156", "actors": ["J. S. Buckingham"], "type": "demography", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:157", "actors": ["Mr Colter", "Mr Davidson"], "type": "health", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:158", "actors": ["J. S. Buckingham", "Mustafa Agha Barbar"], "type": "demography", "type_src": "row", "place": "Tripoli", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:159", "actors": ["Lady Hester Stanhope", "Mustafa Agha Barbar"], "type": "visit", "type_src": "row", "place": "Tripoli", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:160", "actors": ["Bashir Shihab II", "Maronite monks"], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:161", "actors": ["J. S. Buckingham"], "type": "environment", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:162", "actors": ["Jazzar Pasha", "Raghib Effendi"], "type": "other", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:163", "actors": ["Haim Farhi", "Sulayman Pasha"], "type": "trade", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:164", "actors": ["Syria", "Yusuf Pasha Kenj"], "type": "decree", "type_src": "row", "place": "Damascus", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:165", "actors": ["Bashir Shihab II", "Egypt", "Sulayman Pasha", "Syria", "Yusuf Pasha Kenj"], "type": "battle", "type_src": "row", "place": "Damascus", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:166", "actors": ["Bashir Shihab II", "Haydar Ahmad Shihab", "Jirjis Mishaqa"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:167", "actors": ["Abdullah Pasha", "Hasan Shihab", "Salman Shihab"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:168", "actors": ["Bashir Jumblatt", "Maronite priest Nadra"], "type": "battle", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:169", "actors": ["Bashir Shihab II", "Emir Effendi", "Mansur Shihab", "Syria"], "type": "battle", "type_src": "row", "place": "Bekaa", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:170", "actors": ["Henry H. Jessup"], "type": "demography", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:171", "actors": ["Pliny Fisk", "Sultan Mahmud II", "Syria"], "type": "decree", "type_src": "row", "place": "National", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:172", "actors": ["Isaac Bird", "Pliny Fisk"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:173", "actors": ["Isaac Bird", "Lattuf el Ashshi", "Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:174", "actors": ["Isaac Bird", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:175", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:176", "actors": ["Hanna Maroni", "Syria", "William Jowett"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:177", "actors": ["Bashir Shihab II", "Hanna Maroni"], "type": "crisis", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:178", "actors": ["Bashir Shihab II", "Egypt", "Hanna Maroni"], "type": "attack", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:179", "actors": ["Bashir Shihab II", "Egypt", "Moose el Habeshi"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:180", "actors": ["J. S. Buckingham", "Syria"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:181", "actors": ["J. S. Buckingham"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:182", "actors": ["Egypt", "Sulayman Pasha"], "type": "government", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:183", "actors": ["Abd al-Ahad Baz", "Bashir Shihab II", "Jirji Baz", "Qasim ibn al-Arab"], "type": "assassination", "type_src": "row", "place": "North", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:184", "actors": ["Bashir Jumblatt"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:185", "actors": ["Bashir Shihab II"], "type": "battle", "type_src": "row", "place": "South", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:186", "actors": ["Isaac Bird"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:187", "actors": ["William Jowett"], "type": "disaster", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:188", "actors": ["Abdullah Pasha", "William Jowett"], "type": "health", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:189", "actors": ["Isaac Bird", "Jonas King", "William Goodell", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:190", "actors": ["Abdullah Pasha", "France", "French consul"], "type": "other", "type_src": "row", "place": "Acre", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:191", "actors": ["Bashir Shihab II", "Joseph Wolff", "Peter Abbott"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:192", "actors": ["Joseph Wolff", "Luigi Gandolfi"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:193", "actors": ["Abdullah Shihab", "Bishop Gibrail"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:194", "actors": ["Hanna Stambuli", "Joseph Wolff"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:195", "actors": ["Ignatius Ujuri", "Joseph Wolff", "Prioress Euphemia"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:196", "actors": ["Ahron Arabi", "Joseph Wolff", "Saul Kohen"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:197", "actors": ["Hanna Maroni", "Henry Drummond", "Joseph Wolff"], "type": "agreement", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:198", "actors": ["Joseph Wolff"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
-{"key": "80-deep-1800-1830.timeline.jsonl:199", "actors": ["Henry H. Jessup", "Syria"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:64", "actors": ["Emir of Baalbek", "Pliny Fisk"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:65", "actors": ["Pliny Fisk", "Syria"], "type": "demography", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:66", "actors": ["Peter Jarwy", "Pliny Fisk"], "type": "diplomacy", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:67", "actors": ["Pliny Fisk", "Syria"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:68", "actors": ["Pliny Fisk", "Turkey", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:69", "actors": ["Bashir Shihab II", "Jonas King", "Pliny Fisk"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:70", "actors": ["Pliny Fisk"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:71", "actors": ["Bashir Shihab II", "Pliny Fisk"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:72", "actors": ["Pliny Fisk"], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:73", "actors": ["Pliny Fisk"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:74", "actors": ["Abdullah Pasha", "Pliny Fisk"], "type": "war", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:75", "actors": ["Cyprus", "Isaac Bird", "William Goodell"], "type": "migration", "type_src": "row", "place": "Abroad", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:76", "actors": ["Isaac Bird", "Syria", "United States", "William Goodell"], "type": "war", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:77", "actors": ["Isaac Bird", "Mr Abbott", "William Goodell"], "type": "migration", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:78", "actors": ["Maronite Patriarch", "William Goodell"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:79", "actors": ["Bashir Shihab II", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:80", "actors": ["Abdullah Pasha", "Bedouin irregulars", "France", "William Goodell"], "type": "attack", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:81", "actors": ["Isaac Bird", "Kehya Bey", "Syria"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:82", "actors": ["Kehya Bey", "William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:83", "actors": ["Abdullah Pasha", "Turkey", "William Goodell"], "type": "court", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:84", "actors": ["American mission", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:85", "actors": ["Maronite bishop", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:86", "actors": ["Ahmed Asaad", "Dionysius Carabet", "Gregory Wortabet", "Isaac Bird", "Kamel Asaad", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:87", "actors": ["Greek Orthodox clergy", "Maronite clergy"], "type": "decree", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:88", "actors": ["Eli Smith", "Samuel Gobat", "Syria", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:89", "actors": ["William Goodell"], "type": "health", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:90", "actors": ["British consul", "Turkey", "William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:91", "actors": ["William Goodell"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:92", "actors": ["Isaac Bird", "William Goodell"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:93", "actors": ["Eli Smith", "Isaac Bird", "United States", "William Goodell"], "type": "migration", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:94", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Isaac Bird", "Kamel Asaad", "Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:95", "actors": ["William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:96", "actors": ["Isaac Bird"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:97", "actors": ["Beirut garrison", "Greek fleet", "William Goodell"], "type": "battle", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:98", "actors": ["British consul", "France", "French consul"], "type": "withdrawal", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:99", "actors": ["Mustafa Agha Barbar", "Yusuf Pasha"], "type": "war", "type_src": "row", "place": "Tripoli", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:100", "actors": ["Mustafa Agha Barbar", "Sulayman Pasha", "Yusuf Pasha"], "type": "withdrawal", "type_src": "row", "place": "Tripoli", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:101", "actors": ["Mustafa Agha Barbar", "Sulayman Pasha", "Syria"], "type": "government", "type_src": "row", "place": "Tripoli", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:102", "actors": ["Bashir Shihab II", "Sulayman Pasha", "Syria", "Yusuf Pasha"], "type": "war", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:103", "actors": ["Bashir Shihab II", "Sulayman Pasha", "Syria"], "type": "agreement", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:104", "actors": ["Bashir Shihab II", "Djahdjah Harfush", "Sultan Harfush"], "type": "other", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:105", "actors": [], "type": "trade", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:106", "actors": ["Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:107", "actors": [], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:108", "actors": [], "type": "environment", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:109", "actors": ["Syria"], "type": "trade", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:110", "actors": ["Emir Melhem", "Emir Qadan"], "type": "demography", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:111", "actors": ["Abd al-Ahad Baz", "Bashir Shihab II", "Jirji Baz"], "type": "assassination", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:112", "actors": ["Haim Farhi", "Jazzar Pasha", "Syria"], "type": "banking", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:113", "actors": ["Bashir Shihab II", "Qasim Shihab"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:114", "actors": ["Abbe Gandolfi", "United States"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:115", "actors": ["Bashir Shihab II", "France", "French consuls", "John Barker"], "type": "diplomacy", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:116", "actors": ["Armenian Catholic Patriarch Youssef"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:117", "actors": ["Bashir Shihab II"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:118", "actors": ["Bashir Shihab II", "Turkey"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:119", "actors": ["Bashir Shihab II", "Burckhardt"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:120", "actors": ["Bashir Jumblatt", "Bashir Shihab II"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:121", "actors": ["Bashir Shihab II"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:122", "actors": ["Bashir Shihab II", "Gharib Effendi", "Jazzar Pasha", "Sulayman Pasha"], "type": "budget", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:123", "actors": [], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:124", "actors": ["Yusuf Pasha"], "type": "disaster", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:125", "actors": ["Bashir Shihab II", "Hadj Farakh", "Syria"], "type": "demography", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:126", "actors": [], "type": "trade", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:127", "actors": ["Jumblatt clan", "Topal Ali"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:128", "actors": ["Bashir Shihab II"], "type": "budget", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:129", "actors": ["Bashir Shihab II"], "type": "budget", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:130", "actors": ["Maronite bishop Youssef"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:131", "actors": ["Bashir Shihab II", "Beshara Khazen"], "type": "trade", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:132", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Hasan Shihab", "Kamel Asaad"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:133", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Bashir Shihab II", "Kamel Asaad", "Syria", "Yohanna al-Hilu"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:134", "actors": ["Ahmed Asaad", "Bashir Shihab II", "Darwish Pasha", "Hasan Shihab", "Kamel Asaad", "Syria"], "type": "battle", "type_src": "row", "place": "Damascus", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:135", "actors": ["Abdullah Pasha", "Ahmed Asaad", "Ali Imad", "Kamel Asaad", "Mustafa Pasha", "Syria"], "type": "war", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:136", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:137", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "decree", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:138", "actors": ["Ahmed Asaad", "Isaac Bird", "Kamel Asaad", "Maronite Patriarch", "United States", "William Goodell"], "type": "decree", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:139", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Isaac Bird", "Kamel Asaad", "United States"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:140", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Priest Nicolas", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:141", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:142", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Tannus Shidyaq"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:143", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:144", "actors": [], "type": "culture", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:145", "actors": ["Peter Abbott", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:146", "actors": ["Mr Way", "Rev. Lewis", "Syria"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:147", "actors": ["Hanna Maroni", "Yusuf Hubaysh"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:148", "actors": ["Jonas King", "Joseph Wolff", "Pliny Fisk", "United States", "William Jowett"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:149", "actors": ["Bashir Shihab II", "Egypt"], "type": "crisis", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:150", "actors": ["Bashir Shihab II", "William Jowett"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:151", "actors": ["Bashir Shihab II"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:152", "actors": ["William Jowett"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:153", "actors": [], "type": "environment", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:154", "actors": ["J. S. Buckingham"], "type": "demography", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:155", "actors": [], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:156", "actors": ["Bashir Shihab II"], "type": "infrastructure", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:157", "actors": ["J. S. Buckingham"], "type": "demography", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:158", "actors": ["Mr Colter", "Mr Davidson"], "type": "health", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:159", "actors": ["J. S. Buckingham", "Mustafa Agha Barbar"], "type": "demography", "type_src": "row", "place": "Tripoli", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:160", "actors": ["Lady Hester Stanhope", "Mustafa Agha Barbar"], "type": "visit", "type_src": "row", "place": "Tripoli", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:161", "actors": ["Bashir Shihab II", "Maronite monks"], "type": "media", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:162", "actors": ["J. S. Buckingham"], "type": "environment", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:163", "actors": ["Jazzar Pasha", "Raghib Effendi"], "type": "other", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:164", "actors": ["Haim Farhi", "Sulayman Pasha"], "type": "trade", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:165", "actors": ["Syria", "Yusuf Pasha Kenj"], "type": "decree", "type_src": "row", "place": "Damascus", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:166", "actors": ["Bashir Shihab II", "Egypt", "Sulayman Pasha", "Syria", "Yusuf Pasha Kenj"], "type": "battle", "type_src": "row", "place": "Damascus", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:167", "actors": ["Bashir Shihab II", "Haydar Ahmad Shihab", "Jirjis Mishaqa"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:168", "actors": ["Abdullah Pasha", "Hasan Shihab", "Salman Shihab"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:169", "actors": ["Bashir Jumblatt", "Maronite priest Nadra"], "type": "battle", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:170", "actors": ["Bashir Shihab II", "Emir Effendi", "Mansur Shihab", "Syria"], "type": "battle", "type_src": "row", "place": "Bekaa", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:171", "actors": ["Henry H. Jessup"], "type": "demography", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:172", "actors": ["Pliny Fisk", "Sultan Mahmud II", "Syria"], "type": "decree", "type_src": "row", "place": "National", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:173", "actors": ["Isaac Bird", "Pliny Fisk"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:174", "actors": ["Isaac Bird", "Lattuf el Ashshi", "Maronite Patriarch"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:175", "actors": ["Isaac Bird", "William Goodell"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:176", "actors": ["Ahmed Asaad", "Asaad Shidyaq", "Kamel Asaad"], "type": "other", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:177", "actors": ["Hanna Maroni", "Syria", "William Jowett"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:178", "actors": ["Bashir Shihab II", "Hanna Maroni"], "type": "crisis", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:179", "actors": ["Bashir Shihab II", "Egypt", "Hanna Maroni"], "type": "attack", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:180", "actors": ["Bashir Shihab II", "Egypt", "Moose el Habeshi"], "type": "migration", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:181", "actors": ["J. S. Buckingham", "Syria"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:182", "actors": ["J. S. Buckingham"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:183", "actors": ["Egypt", "Sulayman Pasha"], "type": "government", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:184", "actors": ["Abd al-Ahad Baz", "Bashir Shihab II", "Jirji Baz", "Qasim ibn al-Arab"], "type": "assassination", "type_src": "row", "place": "North", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:185", "actors": ["Bashir Jumblatt"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:186", "actors": ["Bashir Shihab II"], "type": "battle", "type_src": "row", "place": "South", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:187", "actors": ["Isaac Bird"], "type": "education", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:188", "actors": ["William Jowett"], "type": "disaster", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:189", "actors": ["Abdullah Pasha", "William Jowett"], "type": "health", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:190", "actors": ["Isaac Bird", "Jonas King", "William Goodell", "William Jowett"], "type": "visit", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:191", "actors": ["Abdullah Pasha", "France", "French consul"], "type": "other", "type_src": "row", "place": "Acre", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:192", "actors": ["Bashir Shihab II", "Joseph Wolff", "Peter Abbott"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:193", "actors": ["Joseph Wolff", "Luigi Gandolfi"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:194", "actors": ["Abdullah Shihab", "Bishop Gibrail"], "type": "other", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:195", "actors": ["Hanna Stambuli", "Joseph Wolff"], "type": "education", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:196", "actors": ["Ignatius Ujuri", "Joseph Wolff", "Prioress Euphemia"], "type": "visit", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:197", "actors": ["Ahron Arabi", "Joseph Wolff", "Saul Kohen"], "type": "demography", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:198", "actors": ["Hanna Maroni", "Henry Drummond", "Joseph Wolff"], "type": "agreement", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:199", "actors": ["Joseph Wolff"], "type": "trade", "type_src": "row", "place": "Beirut", "place_src": "row"}
+{"key": "80-deep-1800-1830.timeline.jsonl:200", "actors": ["Henry H. Jessup", "Syria"], "type": "other", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "81-deep-1831-1860.timeline.jsonl:0", "actors": ["Beirut merchants", "Ottoman pasha"], "type": "crisis", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "81-deep-1831-1860.timeline.jsonl:1", "actors": ["Ibrahim Pasha", "Osman Pasha"], "type": "war", "type_src": "row", "place": "Beirut", "place_src": "row"}
 {"key": "81-deep-1831-1860.timeline.jsonl:2", "actors": ["Emir Bashir II", "Ibrahim Pasha", "Maronite patriarchate", "Mr Tod"], "type": "diplomacy", "type_src": "row", "place": "Mount Lebanon", "place_src": "row"}
