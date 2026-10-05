@@ -1,0 +1,47 @@
+/* Trade & investment tab. Theme tokens only; logical properties so Arabic mirrors. Charts and maps stay left-to-right on purpose. */
+.tr{margin-top:6px}
+.tr-nav{margin:0 0 12px}
+.tr .chip[aria-pressed]{opacity:1;background:var(--paper);color:var(--ink-2)}
+.tr .chip[aria-pressed="true"]{background:var(--cedar);color:var(--on-strong);border-color:var(--cedar)}
+.tr-def{margin:0 0 10px;max-width:78ch}
+.tr-data{margin:18px 0 4px}
+.tr-bar{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:10px 0}
+.tr-bar label.sel{display:flex;align-items:center;gap:8px;font:500 13px/1.2 var(--display);color:var(--ink-2);text-transform:none;letter-spacing:0;min-width:0;max-width:100%}
+.tr-bar label.sel span{white-space:nowrap}
+.tr-bar select{font:14px/1.2 var(--display);padding:8px 10px;border:1px solid var(--rule-2);background:var(--paper);color:var(--ink);border-radius:6px;max-width:100%;min-width:0;text-overflow:ellipsis}
+@media (max-width:640px){.tr-bar label.sel{flex-wrap:wrap;width:100%}.tr-bar label.sel select{flex:1 1 100%}}
+.tr-flow{margin:0}
+.tr-card{background:var(--paper);border:1px solid var(--rule);padding:12px 14px 8px;margin:0 0 14px;border-radius:4px;min-width:0}
+.tr-card h3.d-h{margin:0 0 6px;font-size:16px}
+.tr-card h4.d-h{margin:12px 0 4px;font-size:14px}
+.tr-two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:start}
+.tr-two-map{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}
+@media (max-width:860px){.tr-two,.tr-two-map{grid-template-columns:minmax(0,1fr)}}
+.tr-big{font:700 18px/1.3 var(--display);margin:2px 0 8px;overflow-wrap:anywhere}
+.tr-src{margin:10px 0 4px}
+.tr-s{overflow-wrap:anywhere}
+.tr-fig{margin:8px 0;padding-inline-start:18px;font:14px/1.5 var(--display)}
+.tr-bars{list-style:none;margin:0;padding:0}
+.tr-bars li{display:grid;grid-template-columns:minmax(90px,2fr) minmax(0,1.4fr) auto;gap:10px;align-items:center;padding:4px;font:14px/1.3 var(--display);border-radius:3px}
+.tr-bars li[role=button]{cursor:pointer}
+.tr-bars li[role=button]:hover{background:var(--stone)}
+.tr-bars li[role=button]:focus-visible{outline:2px solid var(--cedar);outline-offset:1px}
+.tr-bars .tb-b{display:block;height:10px;background:var(--stone);border-radius:2px;overflow:hidden;direction:ltr}
+.tr-bars .tb-b i{display:block;height:100%;background:var(--ink-3);opacity:.55}
+.tr-bars li.on .tb-b i{background:var(--cedar);opacity:1}
+.tr-bars li.weak .tb-b i{background:var(--diesel);opacity:1}
+.tr-bars li.gap .tb-l{color:var(--ink-3)}
+.tr-bars li.gap .tb-v{font-style:italic;color:var(--ink-3)}
+.tr-bars li.on .tb-l{font-weight:700}
+.tr-bars .tb-v{white-space:nowrap;text-align:end;font-size:13px}
+.tr-bars .tb-l{overflow-wrap:anywhere}
+@media (max-width:640px){.tr-bars li{grid-template-columns:minmax(80px,1.6fr) minmax(0,1fr) auto;gap:8px}}
+.tr-mapbox{direction:ltr;background:var(--stone);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.tr-map{display:block;width:100%;height:auto}
+.tr-map path{fill:var(--paper);stroke:var(--rule-2);stroke-width:.25}
+.tr-map path.has{fill:var(--cedar);cursor:pointer}
+.tr-map path.sel{stroke:var(--ink);stroke-width:.9}
+.tr-map .tr-leb{fill:var(--diesel);stroke:var(--ink);stroke-width:.3}
+.tr-vsrc{list-style:none;margin:8px 0;padding:0;font:13px/1.5 var(--display)}
+.tr-vsrc li{overflow-wrap:anywhere}
+.tr-vsrc .mono{display:inline-block;min-width:3.2em}

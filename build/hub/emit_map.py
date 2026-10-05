@@ -54,6 +54,62 @@ def tolls(ctx):
     return out
 
 
+ATT_SRC = "https://data.humdata.org/dataset/aid-security-risk-in-lebanon"
+ATT_ADM1 = {"Beirut Governorate": "LB1", "Beqaa Governorate": "LB2", "Mount Lebanon Governorate": "LB3", "Nabatieh Governorate": "LB4", "North Governorate": "LB5", "South Governorate": "LB6", "Akkar Governorate": "LB7", "Baalbek-Hermel Governorate": "LB8"}   # to the pcodes of strikes/geo.json adm1
+ATT_CATS = ["health_care", "education", "aid_worker", "water"]
+
+
+def attacks(ctx):
+    """The separate layer 'Attacks on health care, schools and aid' (Insecurity Insight via HDX, CC BY-SA 4.0): data/strikes/attacks.json (dictionary-encoded rows, loaded only when the layer is switched on) and csv/attacks.csv.
+    These rows never enter strikes.json, so no strike count, total or CSV can include them. Returns the row count, or 0 when the research file is missing."""
+    p = ctx.hub_research + "attacks/insecurity-insight.jsonl"
+    if not os.path.exists(p):
+        return 0
+    src = [json.loads(l) for l in open(p, encoding="utf-8") if l.strip()]
+    seen = {}
+    def norm(v):
+        return re.sub(r"\s+", " ", v.replace("IDP Refugee Camp", "IDP/Refugee Camp")).strip()
+    for r in src:
+        for f in ("perpetrator", "weapon", "location"):
+            for x in ((r.get(f) or "").split(", ") if f == "perpetrator" else [r.get(f) or ""]):
+                if x.strip():
+                    seen.setdefault(norm(x).lower(), {}).setdefault(norm(x), 0)
+                    seen[norm(x).lower()][norm(x)] += 1
+    canon = {k: max(v, key=v.get) for k, v in seen.items()}      # one spelling per value that differs only by case or the slash ("No information", "IDP/Refugee Camp"): the most common one
+    def cn(v):
+        return canon[norm(v).lower()]
+    D = {k: [] for k in ("gov", "perp", "weapon", "loc", "vg")}
+    def ix(k, v):
+        if v not in D[k]:
+            D[k].append(v)
+        return D[k].index(v)
+    unknown = [r["category"] for r in src if r["category"] not in ATT_CATS]
+    if unknown:
+        ctx.warn(f"attacks: unknown categories {sorted(set(unknown))}")
+    withc = sum(1 for r in src if r.get("lat") is not None and r.get("lon") is not None)
+    if withc:
+        ctx.warn(f"attacks: {withc} rows now have coordinates; the layer only shades governorates, add point drawing in tl_map.js")
+    rows = []
+    for r in sorted(src, key=lambda r: (r["date"], r["event_id"]), reverse=True):
+        pp = [ix("perp", cn(x)) for x in (r.get("perpetrator") or "").split(", ") if x.strip()]
+        rows.append([r["date"], ATT_CATS.index(r["category"]) if r["category"] in ATT_CATS else -1, ix("gov", r["admin1"]) if r.get("admin1") else -1, pp,
+                     ix("weapon", cn(r["weapon"])) if r.get("weapon") else -1, ix("loc", cn(r["location"])) if r.get("location") else -1, ix("vg", r["victim_group"]) if r.get("victim_group") else -1,
+                     r.get("killed"), r.get("injured"), r.get("kidnapped"), r.get("arrested"), r["event_id"]])
+    ids = {}
+    for r in src:
+        ids[r["event_id"]] = ids.get(r["event_id"], 0) + 1
+    gov = [{"n": g, "p": ATT_ADM1.get(g)} for g in D["gov"]]
+    obj = {"cols": ["d", "c", "g", "pp", "w", "l", "vg", "k", "i", "kd", "ar", "id"], "cats": ATT_CATS, "gov": gov, "perp": D["perp"], "weapon": D["weapon"], "loc": D["loc"], "vg": D["vg"], "rows": rows,
+           "dup_events": sum(1 for n in ids.values() if n > 1), "with_coords": withc, "source": ATT_SRC, "license": "CC BY-SA 4.0",
+           "credit": "Insecurity Insight, Aid Security Risk in Lebanon (Humanitarian Data Exchange), published 2026-09-28"}
+    ctx.write_json("strikes/attacks.json", obj, f"Attacks on health care, schools and aid in Lebanon: {len(rows):,} rows (Insecurity Insight), separate from the strike map counts", ATT_SRC, "CC BY-SA 4.0", rows=len(rows))
+    ctx.write_csv("csv/attacks.csv", ["date", "category", "governorate", "district", "latitude", "longitude", "geo_precision", "perpetrator_type", "perpetrator", "weapon", "location", "facility", "victim_group", "killed", "injured", "kidnapped", "arrested", "event_id", "source_url", "license"],
+                  [[r["date"], r["category"], r.get("admin1") or "", r.get("admin2") or "", "" if r.get("lat") is None else r["lat"], "" if r.get("lon") is None else r["lon"], r.get("geo_precision") or "", r.get("perpetrator_type") or "",
+                    r.get("perpetrator") or "", r.get("weapon") or "", r.get("location") or "", r.get("facility") or "", r.get("victim_group") or "", r.get("killed"), r.get("injured"), r.get("kidnapped"), r.get("arrested"), r["event_id"], ATT_SRC, "CC BY-SA 4.0"] for r in src],
+                  f"Attacks on health care, schools and aid in Lebanon: {len(src):,} rows, no coordinates (Insecurity Insight; not a complete or representative list, not independently verified, per the publisher)", ATT_SRC, "CC BY-SA 4.0")
+    return len(rows)
+
+
 def emit(ctx):
     S = ctx.S
     sk, geo = S["strikes"], S["geo"]
@@ -83,6 +139,9 @@ def emit(ctx):
         place = p[0] if p else (DT["area"][r[C["ar"]]] if r[C["ar"]] >= 0 else "")
         rows.append([r[C["t"]], r[C["te"]], DT["war"][r[C["w"]]], DT["kind"][r[C["k"]]], place, p[3] if p else "", lat, lon, r[C["kl"]], r[C["inj"]], DT["actor"][r[C["a"]]] if r[C["a"]] >= 0 else "",
                      r[C["tg"]], r[C["ti"]], DT["src"][r[C["u"]]], ["verified", "reported", "inference"][r[C["c"]]] if 0 <= r[C["c"]] < 3 else "reported"])
+    na = attacks(ctx)
+    if na:
+        out["inline"]["attacks"] = na
     ctx.write_csv("csv/strikes.csv", ["date", "date_end", "war", "kind", "place", "district", "latitude", "longitude", "killed", "injured", "actor", "target", "title", "source_url", "confidence"],
                   rows, f"Strikes: {len(rows):,} documented incidents with place-level coordinates", SRC)
     return out

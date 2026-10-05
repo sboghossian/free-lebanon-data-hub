@@ -1,0 +1,55 @@
+{
+ "checked_not_lebanese_origin": [
+  {
+   "group": "Chalhoub Group",
+   "forbes_ranks": {
+    "2021": 83,
+    "2022": 65,
+    "2023": 81,
+    "2024": 84,
+    "2025": 70,
+    "2026": 66
+   },
+   "finding": "Not Lebanese-origin on two sources: Forbes says founded in Damascus in 1955 by Michel and Widad Chalhoub; Wikipedia calls Michel Chalhoub a Syrian-French billionaire born in Damascus; the family lived in Lebanon from 1965 to 1975 per a Khaleej Times profile found by search. Headquartered in Dubai.",
+   "sources": [
+    "https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2026/chalhoub-group/",
+    "https://en.wikipedia.org/wiki/Michel_Chalhoub",
+    "https://www.khaleejtimes.com/uae/dubai-how-chalhoub-group-went-from-a-syrian-family-business-to-luxury-empire"
+   ]
+  },
+  {
+   "group": "Sayegh Group",
+   "forbes_ranks": {
+    "2022": 73,
+    "2023": 66,
+    "2024": 71
+   },
+   "finding": "Founded in Jaffa in 1932, based in Jordan (search result summarising Forbes and company pages). Not Lebanese.",
+   "sources": [
+    "https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2024/sayegh-group/"
+   ]
+  },
+  {
+   "group": "MAG Group Holding",
+   "finding": "Founded 1978 by Moafaq Al Gaddah, from Syria, based in the UAE (search result). Not Lebanese.",
+   "sources": [
+    "https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2024/mag-group-holding/"
+   ]
+  },
+  {
+   "group": "ASTRA Group",
+   "finding": "Founded 1976 by Sabih Masri (search result: based in Saudi Arabia). Not Lebanese.",
+   "sources": [
+    "https://www.forbesmiddleeast.com/lists/top-100-arab-family-businesses-2024/astra-group/"
+   ]
+  },
+  {
+   "group": "Nuqul Group",
+   "finding": "Founded by Elia Nuqul, a Palestinian Jordanian businessperson based in Amman (Wikipedia, MediaWiki API). Not Lebanese.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elia_Nuqul"
+   ]
+  }
+ ],
+ "note": "Forbes entries were matched by name only; other groups on the 2021 to 2026 lists were not individually origin-checked. Lists for 2018 to 2020 could not be fetched (404). Countries in the Forbes list pages are not given on the list view."
+}

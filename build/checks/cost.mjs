@@ -1,13 +1,14 @@
-// Checks for the Cost of living tab (FE-B): the six views, the minimum-wage panel, CPI bars, public money, the series explorer, every chart's source and licence, CSV links, empty and error states, 390 px, Arabic and French.
+// Checks for the Cost of living tab (FE-B): the six views (exchange rate, wages, prices, food security, public money, explorer; every series and download is in the Data tab, #data/cost), the minimum-wage panel, CPI bars, public money, the series explorer, every chart's source and licence, CSV links, empty and error states, 390 px, Arabic and French.
 // A few long-lived pages walk through the views by hash (like a visitor does), so the suite stays short.
 export default async function (T) {
   const { ok, sleep, open, fixture, SITE, get } = T;
-  const VIEWS = [['#cost', '#costView .fb-card', 3], ['#cost/wages', '#costView .fb-card', 8], ['#cost/prices', '#costView .fb-card', 5], ['#money', '#costView .fb-card', 10], ['#cost/explore', '#xplRes .fb-br', 8], ['#cost/all', '#costAll .fb-br', 20]];
+  const VIEWS = [['#cost', '#costView .fb-card', 3], ['#cost/wages', '#costView .fb-card', 8], ['#cost/prices', '#costView .fb-card', 5], ['#cost/food', '#foodChart .fb-card', 1], ['#money', '#costView .fb-card', 10], ['#cost/explore', '#xplRes .fb-br', 8]];
   const go = async (p, h, sel, min) => { await p.ev(`location.hash = ${JSON.stringify(h)}`); await sleep(250); return p.wait(`document.querySelectorAll(${JSON.stringify(sel)}).length >= ${min} && !document.querySelector("#costView .hub-load")`, 25000); };
 
   // ---- 1400 px, English: one page, every view
   const p = await open(1400, SITE, { hash: '#cost' });
-  ok('cost: opens by deep link #cost with six view chips', await p.wait('!document.getElementById("cost").hidden && document.querySelectorAll("#costNav [data-id]").length === 6', 15000));
+  ok('cost: opens by deep link #cost with six view chips (no "All series" view)', await p.wait('!document.getElementById("cost").hidden && document.querySelectorAll("#costNav [data-id]").length === 6 && !document.querySelector("#costNav [data-id=all]")', 15000));
+  ok('cost: one "Data behind this tab" link to #data/cost, and no series table', await p.ev('document.querySelectorAll("#cost a[href=\\"#data/cost\\"]").length === 1 && !document.getElementById("costAll")'));
   ok('cost: exchange-rate view shows four stat tiles and the official and market lines', await p.ev('document.querySelectorAll("#costView .fb-stat").length === 4 && document.querySelectorAll("#costView .fb-card .hc-line").length >= 2'));
   ok('cost: every chart card shows its source and licence', await p.ev('[...document.querySelectorAll("#costView .fb-card")].every(c => /Source/.test(c.querySelector(".fb-src")?.textContent || "") && /Licence/.test(c.querySelector(".fb-src")?.textContent || ""))'));
   ok('cost: the market rate tile shows the 89,500 official rate (data sanity)', await p.ev('/89,500/.test(document.querySelector("#costView .fb-stat dd").textContent)'));

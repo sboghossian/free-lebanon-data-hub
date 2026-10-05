@@ -10,7 +10,7 @@ export default async function (T) {
     ['#war', 'document.querySelectorAll("#plView .fb-card").length >= 12'], ['#people', 'document.querySelectorAll("#plView .fb-card").length >= 14']];
 
   const p = await open(1400, SITE, { hash: '#places' });
-  ok('places: opens by deep link with four section chips', await p.wait('!document.getElementById("places").hidden && document.querySelectorAll("#plNav [data-id]").length === 4', 20000));
+  ok('places: opens by deep link with five section chips', await p.wait('!document.getElementById("places").hidden && document.querySelectorAll("#plNav [data-id]").length === 5', 20000));
   ok('places: the search lists the most documented places first, with a district map', await p.wait('document.querySelectorAll("#plList li").length >= 20 && document.querySelectorAll("#plMap .fb-a").length === 26', 20000));
   await q(p, 'Khiam'); await sleep(500);
   ok('places: searching "Khiam" finds Khiam first', (await names(p))[0] === 'Khiam');
@@ -111,7 +111,7 @@ export default async function (T) {
   const fi = fixture('places-noindex', null, { 'places/index.json': null });
   const ni = await open(1400, fi, { hash: '#places', allow: /index\.json|404|Failed to load/ });
   await ni.wait('!!document.querySelector("#plView .hub-err")', 20000);
-  ok('places: a missing index shows the error state with Retry and the section chips stay', await ni.ev('!!document.querySelector("#plView [data-retry]") && document.querySelectorAll("#plNav [data-id]").length === 4'));
+  ok('places: a missing index shows the error state with Retry and the section chips stay', await ni.ev('!!document.querySelector("#plView [data-retry]") && document.querySelectorAll("#plNav [data-id]").length === 5'));
   await ni.close();
   const fs = fixture('places-noshard', null, { 'places/p/LB43.json': null, 'war/series.json': null });
   const ns = await open(1400, fs, { hash: '#place/LBN43020', allow: /LB43|series\.json|404|Failed to load/ });

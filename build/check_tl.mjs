@@ -115,7 +115,7 @@ async function main() {
   ws = new WebSocket(ver.webSocketDebuggerUrl);
   await new Promise(r => ws.addEventListener('open', r));
   ws.addEventListener('message', m => { const d = JSON.parse(m.data); if (d.id && waiters[d.id]) { waiters[d.id](d.result || d); delete waiters[d.id]; } else events.push(d); });
-  if (ONLY.length) {
+  if (ONLY.length && !ONLY.includes('core')) {   // --only=core runs the core checks below and only the plugins also named
     await plugins();
     for (const c of checks) console.log((c.pass ? 'PASS ' : 'FAIL ') + c.name + (c.detail != null && c.detail !== true ? '  [' + JSON.stringify(c.detail) + ']' : ''));
     console.log(checks.filter(c => !c.pass).length ? 'SOME CHECKS FAILED' : 'ALL CHECKS PASSED');
@@ -212,7 +212,7 @@ async function main() {
   const nEv = await h.ev('JSON.parse(document.getElementById("hubData").textContent).events.length');
   const cnt = await h.ev('Object.fromEntries([...document.querySelectorAll("#hubCounts [data-count]")].map(e => [e.dataset.count, +e.textContent.replace(/,/g, "")]))');
   ok('live counts: events equal the data, sources > events/10, datasets and incidents are numbers', cnt.events === nEv && cnt.sources > 200 && Number.isInteger(cnt.datasets) && Number.isInteger(cnt.incidents), cnt);
-  ok('tablist: 8 tabs, role=tablist, Timeline selected, one tab in the tab order', await h.ev('(() => { const t = [...document.querySelectorAll(".hub-tabs [role=tab]")]; return document.querySelector(".hub-tabs").getAttribute("role") === "tablist" && t.map(x => x.textContent).join() === "Timeline,Strike map,Places,Cost of living,Electricity,World,Data,About" && t[0].getAttribute("aria-selected") === "true" && t.filter(x => x.tabIndex === 0).length === 1 && t.every(x => document.getElementById(x.getAttribute("aria-controls"))?.getAttribute("aria-labelledby") === x.id); })()'));
+  ok('tablist: 12 tabs, role=tablist, Timeline selected, one tab in the tab order', await h.ev('(() => { const t = [...document.querySelectorAll(".hub-tabs [role=tab]")]; return document.querySelector(".hub-tabs").getAttribute("role") === "tablist" && t.map(x => x.textContent).join() === "Timeline,Strike map,Places,Cost of living,Electricity,Trade & investment,World,Middle East,Companies,Aid & NGOs,Data,About" && t[0].getAttribute("aria-selected") === "true" && t.filter(x => x.tabIndex === 0).length === 1 && t.every(x => document.getElementById(x.getAttribute("aria-controls"))?.getAttribute("aria-labelledby") === x.id); })()'));
   ok('#timeline visible by default; #map #data #about hidden', await h.ev('!document.getElementById("timeline").hidden && ["map", "data", "about"].every(i => document.getElementById(i).hidden)'));
   await h.shot('shot-v6-hub-desktop.png');
   const tabState = async id => h.ev(`(() => { const t = document.getElementById("t-${id}"), p = document.getElementById("${id}"); return t.getAttribute("aria-selected") === "true" && !p.hidden && ["timeline", "map", "places", "cost", "electricity", "world", "data", "about"].filter(x => x !== "${id}").every(x => document.getElementById(x).hidden && document.getElementById("t-" + x).getAttribute("aria-selected") === "false"); })()`);
@@ -223,7 +223,7 @@ async function main() {
   ok('back on Timeline the chart re-renders', (await h.ev(marks)) > 50, await h.ev(marks));
   await h.ev('location.hash = "#about"'); await sleep(350);
   ok('setting the hash to #about opens About', await tabState('about'));
-  ok('About: method, incomplete, cite, licences, "Built by Stephane Boghossian with Claude"', await h.ev('(() => { const t = document.getElementById("about").textContent; return /Built by Stephane Boghossian with Claude/.test(t) && /Jev/.test(t) && /What is incomplete/.test(t) && /How to cite/.test(t) && /CC BY-SA/.test(t) && /CC BY-IGO/.test(t) && /GeoNames/.test(t) && /ACLED/.test(t) && !/\u2014/.test(t) && /Accessed \\d+ \\w+ \\d{4}/.test(document.getElementById("citeText").textContent); })()'));
+  ok('About: method, incomplete, cite, licences, "Built by Stephane Boghossian with Claude"', await h.ev('(() => { const t = document.getElementById("about").textContent; return /Built by Stephane Boghossian with Claude/.test(t) && /Jev/.test(t) && /What is incomplete/.test(t) && /How to cite/.test(t) && /CC BY-SA/.test(t) && /CC BY-IGO/.test(t) && /GeoNames/.test(t) && /OpenStreetMap/.test(t) && !/ACLED/.test(t) && !/\u2014/.test(t) && /Accessed \\d+ \\w+ \\d{4}/.test(document.getElementById("citeText").textContent); })()'));
   await h.ev('location.hash = "#nonsense"'); await sleep(350);
   ok('an unknown hash falls back to Timeline', await tabState('timeline'));
   await h.ev('document.getElementById("t-timeline").focus()');
@@ -348,10 +348,10 @@ async function main() {
   }
   ok('390px: the tab bar fits (all four tabs reachable, no page overflow)', await hm.ev('(() => { const n = document.querySelector(".hub-tabs"); const r = n.getBoundingClientRect(); return r.left >= 0 && r.right <= 390; })()'));
   await hm.ev('document.getElementById("t-data").click()'); await sleep(300);
-  ok('390px: sparkline cards fit, the chart is wide enough to read (>= 200px), values and links stay inside', await hm.ev('(() => { const c = [...document.querySelectorAll("#dSeries li.sp-card")]; return c.length === 5 && c.every(l => [...l.querySelectorAll("svg.sp, dd, dt, a, .d-meta, .d-t")].every(e => e.getBoundingClientRect().right <= 390.5 && e.getBoundingClientRect().left >= 0)) && [...document.querySelectorAll("#dSeries svg.sp")].every(s => s.getBoundingClientRect().width >= 200); })()'), await hm.ev('[...document.querySelectorAll("#dSeries svg.sp")].map(s => Math.round(s.getBoundingClientRect().width)).join()'));
-  await hm.ev('document.getElementById("dSeries").scrollIntoView()'); await sleep(200);
+  ok('390px: the Data tab series rows fit (v10: one list of every series; label, sparkline and links stay inside 390px)', await hm.wait('document.querySelectorAll("#dxSerL li.dx-sr").length >= 5', 15000) && await hm.ev('[...document.querySelectorAll("#dxSerL li.dx-sr")].slice(0, 30).every(l => [...l.querySelectorAll("svg, b, a, span")].every(e => e.getBoundingClientRect().width === 0 || (e.getBoundingClientRect().right <= 390.5 && e.getBoundingClientRect().left >= 0)))'), await hm.ev('document.querySelectorAll("#dxSerL li.dx-sr").length'));
+  await hm.ev('document.getElementById("dxSer").scrollIntoView()'); await sleep(200);
   await hm.shot('shot-v6-data-series-mobile.png');
-  ok('390px: Data tab rows fit', await hm.ev('(async () => { document.getElementById("t-data").click(); return [...document.querySelectorAll("#dList li, #dSeries li")].every(l => l.getBoundingClientRect().right <= 390); })()'));
+  ok('390px: Data tab rows fit', await hm.ev('(async () => { document.getElementById("t-data").click(); return [...document.querySelectorAll("#dList li, #dxSerL li")].every(l => l.getBoundingClientRect().right <= 390); })()'));
   await hm.ev('document.getElementById("t-timeline").click()'); await sleep(500);
   await hm.ev('document.querySelector("#zoomCtl [data-zoom=\\"1800\\"]").click()'); await sleep(900);
   ok('390px: Since 1800 renders marks, no overflow', (await hm.ev(marks)) > 20 && (await hm.ev('document.documentElement.scrollWidth')) <= 390);

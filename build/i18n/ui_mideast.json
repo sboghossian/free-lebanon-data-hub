@@ -1,0 +1,890 @@
+{
+ "Middle East": {
+  "ar": "الشرق الأوسط",
+  "fr": "Moyen-Orient"
+ },
+ "Ties": {
+  "ar": "الروابط",
+  "fr": "Liens"
+ },
+ "Conflict events": {
+  "ar": "أحداث النزاع",
+  "fr": "Événements de conflit"
+ },
+ "Regional shocks": {
+  "ar": "الصدمات الإقليمية",
+  "fr": "Chocs régionaux"
+ },
+ "Number of people": {
+  "ar": "عدد الأشخاص",
+  "fr": "Nombre de personnes"
+ },
+ "Per 1,000 residents": {
+  "ar": "لكل ١٬٠٠٠ مقيم",
+  "fr": "Pour 1 000 habitants"
+ },
+ "Levant": {
+  "ar": "بلاد الشام",
+  "fr": "Levant"
+ },
+ "Gulf": {
+  "ar": "الخليج",
+  "fr": "Golfe"
+ },
+ "All 17": {
+  "ar": "الاقتصادات الـ١٧ كلها",
+  "fr": "Les 17"
+ },
+ "Land and sea neighbours": {
+  "ar": "الجيران براً وبحراً",
+  "fr": "Voisins terrestres et maritimes"
+ },
+ "Largest economies": {
+  "ar": "أكبر الاقتصادات",
+  "fr": "Plus grandes économies"
+ },
+ "Quick picks": {
+  "ar": "اختيارات سريعة",
+  "fr": "Choix rapides"
+ },
+ "Pick economies": {
+  "ar": "اختيار الاقتصادات",
+  "fr": "Choisir les économies"
+ },
+ "Economies on the chart": {
+  "ar": "الاقتصادات على الرسم",
+  "fr": "Économies sur le graphique"
+ },
+ "Middle East views": {
+  "ar": "عروض الشرق الأوسط",
+  "fr": "Vues du Moyen-Orient"
+ },
+ "Tie": {
+  "ar": "الرابط",
+  "fr": "Lien"
+ },
+ "Direction": {
+  "ar": "الاتجاه",
+  "fr": "Sens"
+ },
+ "Into Lebanon": {
+  "ar": "إلى لبنان",
+  "fr": "Vers le Liban"
+ },
+ "From Lebanon": {
+  "ar": "من لبنان",
+  "fr": "Depuis le Liban"
+ },
+ "Reported by": {
+  "ar": "أُبلغ عنه من",
+  "fr": "Déclaré par"
+ },
+ "The partner economy": {
+  "ar": "الاقتصاد الشريك",
+  "fr": "L'économie partenaire"
+ },
+ "Instruments": {
+  "ar": "الأدوات",
+  "fr": "Instruments"
+ },
+ "All instruments": {
+  "ar": "كل الأدوات",
+  "fr": "Tous instruments"
+ },
+ "Equity": {
+  "ar": "حقوق الملكية",
+  "fr": "Capitaux propres"
+ },
+ "Debt": {
+  "ar": "الدين",
+  "fr": "Dette"
+ },
+ "About this indicator": {
+  "ar": "عن هذا المؤشر",
+  "fr": "À propos de cet indicateur"
+ },
+ "Map extent": {
+  "ar": "نطاق الخريطة",
+  "fr": "Étendue de la carte"
+ },
+ "No value": {
+  "ar": "لا قيمة",
+  "fr": "Pas de valeur"
+ },
+ "Kinds of event": {
+  "ar": "أنواع الأحداث",
+  "fr": "Types d'événements"
+ },
+ "Kinds of violence": {
+  "ar": "أنواع العنف",
+  "fr": "Types de violence"
+ },
+ "State-based armed conflict": {
+  "ar": "نزاع مسلح تكون الدولة طرفاً فيه",
+  "fr": "Conflit armé impliquant un État"
+ },
+ "Non-state conflict": {
+  "ar": "نزاع بين جهات غير حكومية",
+  "fr": "Conflit non étatique"
+ },
+ "One-sided violence": {
+  "ar": "عنف من طرف واحد",
+  "fr": "Violence unilatérale"
+ },
+ "Largest events": {
+  "ar": "أكبر الأحداث",
+  "fr": "Plus grands événements"
+ },
+ "Largest partners": {
+  "ar": "أكبر الشركاء",
+  "fr": "Principaux partenaires"
+ },
+ "Selected event": {
+  "ar": "الحدث المحدد",
+  "fr": "Événement sélectionné"
+ },
+ "Sides with the most deaths": {
+  "ar": "الأطراف الأكثر تسبباً بالوفيات",
+  "fr": "Parties avec le plus de morts"
+ },
+ "Show on the Timeline": {
+  "ar": "اعرضه على الخط الزمني",
+  "fr": "Voir sur la chronologie"
+ },
+ "Open the World tab": {
+  "ar": "افتح تبويب العالم",
+  "fr": "Ouvrir l'onglet Monde"
+ },
+ "Registration paused in Lebanon": {
+  "ar": "توقف التسجيل في لبنان",
+  "fr": "Enregistrement suspendu au Liban"
+ },
+ "Lebanon's share of the five-host total": {
+  "ar": "حصة لبنان من إجمالي الدول المضيفة الخمس",
+  "fr": "Part du Liban dans le total des cinq pays d'accueil"
+ },
+ "Syrian refugees by host country": {
+  "ar": "اللاجئون السوريون بحسب بلد الاستضافة",
+  "fr": "Réfugiés syriens par pays d'accueil"
+ },
+ "Syrian refugees per 1,000 residents": {
+  "ar": "اللاجئون السوريون لكل ١٬٠٠٠ مقيم",
+  "fr": "Réfugiés syriens pour 1 000 habitants"
+ },
+ "Deaths per year, UCDP best estimate": {
+  "ar": "الوفيات سنوياً، أفضل تقدير لبرنامج أوبسالا (UCDP)",
+  "fr": "Décès par an, meilleure estimation de l'UCDP"
+ },
+ "est.": {
+  "ar": "تقدير",
+  "fr": "est."
+ },
+ "million US$": {
+  "ar": "مليون دولار أمريكي",
+  "fr": "millions de dollars US"
+ },
+ "Values in {year}": {
+  "ar": "القيم في {year}",
+  "fr": "Valeurs en {year}"
+ },
+ "In {year}": {
+  "ar": "في {year}",
+  "fr": "En {year}"
+ },
+ "Events in {year}": {
+  "ar": "أحداث {year}",
+  "fr": "Événements en {year}"
+ },
+ "UCDP count for {year}": {
+  "ar": "إحصاء UCDP لسنة {year}",
+  "fr": "Décompte de l'UCDP pour {year}"
+ },
+ "{a} and {b}": {
+  "ar": "{a} و{b}",
+  "fr": "{a} et {b}"
+ },
+ "{n} events, {d} deaths": {
+  "ar": "{n} حدثاً، {d} وفاة",
+  "fr": "{n} événements, {d} décès"
+ },
+ "{n} events, {d} deaths (best estimate)": {
+  "ar": "{n} حدثاً، {d} وفاة (أفضل تقدير)",
+  "fr": "{n} événements, {d} décès (meilleure estimation)"
+ },
+ "no events coded by UCDP": {
+  "ar": "لا أحداث مسجلة لدى UCDP",
+  "fr": "aucun événement codé par l'UCDP"
+ },
+ "Deaths reported: {n}": {
+  "ar": "الوفيات المُبلَّغ عنها: {n}",
+  "fr": "Décès signalés : {n}"
+ },
+ "Deaths: {b} best, {l} to {h}": {
+  "ar": "الوفيات: {b} أفضل تقدير، من {l} إلى {h}",
+  "fr": "Décès : {b} (meilleure estimation), de {l} à {h}"
+ },
+ "Location: {p}.": {
+  "ar": "الموقع: {p}.",
+  "fr": "Localisation : {p}."
+ },
+ "exact location": {
+  "ar": "موقع دقيق",
+  "fr": "lieu exact"
+ },
+ "within about 25 km": {
+  "ar": "ضمن نحو ٢٥ كم",
+  "fr": "à environ 25 km près"
+ },
+ "centre of a district": {
+  "ar": "مركز قضاء",
+  "fr": "centre d'un district"
+ },
+ "centre of a province": {
+  "ar": "مركز محافظة",
+  "fr": "centre d'une province"
+ },
+ "on a line or in a fuzzy area": {
+  "ar": "على خط أو في منطقة غير محددة",
+  "fr": "sur une ligne ou dans une zone floue"
+ },
+ "country only": {
+  "ar": "على مستوى البلد فقط",
+  "fr": "pays seulement"
+ },
+ "Beirut province": {
+  "ar": "محافظة بيروت",
+  "fr": "Province de Beyrouth"
+ },
+ "South Lebanon province": {
+  "ar": "محافظة الجنوب",
+  "fr": "Province du Liban-Sud"
+ },
+ "Nabatiye province": {
+  "ar": "محافظة النبطية",
+  "fr": "Province de Nabatiyé"
+ },
+ "Beqaa province": {
+  "ar": "محافظة البقاع",
+  "fr": "Province de la Békaa"
+ },
+ "Mount Lebanon province": {
+  "ar": "محافظة جبل لبنان",
+  "fr": "Province du Mont-Liban"
+ },
+ "North Lebanon province": {
+  "ar": "محافظة الشمال",
+  "fr": "Province du Liban-Nord"
+ },
+ "Baalbek-Hermel province": {
+  "ar": "محافظة بعلبك الهرمل",
+  "fr": "Province de Baalbek-Hermel"
+ },
+ "Aakkar province": {
+  "ar": "محافظة عكار",
+  "fr": "Province de l'Akkar"
+ },
+ "Keserwan-Jbeil province": {
+  "ar": "محافظة كسروان جبيل",
+  "fr": "Province de Kesrouan-Jbeil"
+ },
+ "{n} deaths": {
+  "ar": "{n} وفاة",
+  "fr": "{n} décès"
+ },
+ "Bold: economies of this tab.": {
+  "ar": "بالخط الغامق: اقتصادات هذا التبويب.",
+  "fr": "En gras : économies de cet onglet."
+ },
+ "Lebanon next to its neighbours and regional partners: indicators, migration, money, Syrian refugees, conflict events and dated regional shocks. Each chart names its source.": {
+  "ar": "لبنان إلى جانب جيرانه وشركائه الإقليميين: مؤشرات وهجرة وأموال ولاجئون سوريون وأحداث نزاع وصدمات إقليمية مؤرخة. يذكر كل رسم مصدره.",
+  "fr": "Le Liban à côté de ses voisins et partenaires régionaux : indicateurs, migrations, flux d'argent, réfugiés syriens, événements de conflit et chocs régionaux datés. Chaque graphique cite sa source."
+ },
+ "No Middle East data is in this build yet. When it is, you can compare Lebanon with the region on indicators, ties, refugees and conflict events.": {
+  "ar": "لا بيانات عن الشرق الأوسط في هذا الإصدار بعد. عندما تتوفر يمكنك مقارنة لبنان بالمنطقة في المؤشرات والروابط واللاجئين وأحداث النزاع.",
+  "fr": "Aucune donnée sur le Moyen-Orient dans cette version pour l'instant. Quand elles seront là, vous pourrez comparer le Liban à la région sur les indicateurs, les liens, les réfugiés et les événements de conflit."
+ },
+ "The Middle East here means 17 economies: Lebanon, Syria, Jordan, Iraq, Israel, Palestine, Egypt, Saudi Arabia, the UAE, Kuwait, Qatar, Bahrain, Oman, Yemen, Iran, Turkey and Cyprus. This is the Hub's working definition, not a UN or World Bank region. Borders are drawn as Natural Earth draws them; the Hub takes no position on them.": {
+  "ar": "المقصود بالشرق الأوسط هنا ١٧ اقتصاداً: لبنان وسوريا والأردن والعراق وإسرائيل وفلسطين ومصر والسعودية والإمارات والكويت وقطر والبحرين وعُمان واليمن وإيران وتركيا وقبرص. هذا تعريف عمل خاص بالمنصة وليس إقليماً للأمم المتحدة أو البنك الدولي. تُرسم الحدود كما ترسمها Natural Earth، ولا تتخذ المنصة موقفاً منها.",
+  "fr": "Le Moyen-Orient désigne ici 17 économies : Liban, Syrie, Jordanie, Irak, Israël, Palestine, Égypte, Arabie saoudite, Émirats arabes unis, Koweït, Qatar, Bahreïn, Oman, Yémen, Iran, Turquie et Chypre. C'est la définition de travail du Hub, pas une région de l'ONU ou de la Banque mondiale. Les frontières sont tracées comme le fait Natural Earth ; le Hub ne prend pas position à leur sujet."
+ },
+ "That address is not in this build. Showing the default view.": {
+  "ar": "هذا العنوان غير موجود في هذا الإصدار. يُعرض العرض الافتراضي.",
+  "fr": "Cette adresse n'est pas dans cette version. La vue par défaut est affichée."
+ },
+ "Click an economy to add it to or remove it from the chart. Lebanon is always shown.": {
+  "ar": "انقر على اقتصاد لإضافته إلى الرسم أو إزالته منه. يظهر لبنان دائماً.",
+  "fr": "Cliquez sur une économie pour l'ajouter au graphique ou la retirer. Le Liban est toujours affiché."
+ },
+ "Rank {r} of {n} economies with a value in {year}, where 1 is the highest value.": {
+  "ar": "المرتبة {r} من {n} اقتصاداً لها قيمة في {year}، حيث ١ هي أعلى قيمة.",
+  "fr": "Rang {r} sur {n} économies ayant une valeur en {year}, 1 étant la valeur la plus élevée."
+ },
+ "Median of these economies: {v}.": {
+  "ar": "وسيط هذه الاقتصادات: {v}.",
+  "fr": "Médiane de ces économies : {v}."
+ },
+ "Lebanon has no value for {year}. Its latest is {v} in {y}.": {
+  "ar": "لا قيمة للبنان في {year}. آخر قيمة له {v} في {y}.",
+  "fr": "Le Liban n'a pas de valeur pour {year}. La dernière est {v} en {y}."
+ },
+ "Lebanon has no value for this indicator.": {
+  "ar": "لا قيمة للبنان في هذا المؤشر.",
+  "fr": "Le Liban n'a pas de valeur pour cet indicateur."
+ },
+ "Lebanon: {n} yearly values, {a} to {b}.": {
+  "ar": "لبنان: {n} قيمة سنوية، من {a} إلى {b}.",
+  "fr": "Liban : {n} valeurs annuelles, de {a} à {b}."
+ },
+ "Values after the IMF's last actual year for each economy are estimates or projections and are drawn dashed; they are marked \"est.\" in the list.": {
+  "ar": "القيم بعد آخر سنة فعلية لكل اقتصاد لدى صندوق النقد الدولي هي تقديرات أو توقعات وتُرسم بخط متقطع، وتُعلَّم بـ«تقدير» في القائمة.",
+  "fr": "Les valeurs postérieures à la dernière année réelle de chaque économie selon le FMI sont des estimations ou des projections ; elles sont tracées en pointillés et marquées « est. » dans la liste."
+ },
+ "UN projections after {y} are drawn dashed.": {
+  "ar": "توقعات الأمم المتحدة بعد {y} تُرسم بخط متقطع.",
+  "fr": "Les projections de l'ONU après {y} sont tracées en pointillés."
+ },
+ "Lebanese-born people abroad, by destination": {
+  "ar": "المولودون في لبنان المقيمون في الخارج بحسب بلد الإقامة",
+  "fr": "Personnes nées au Liban vivant à l'étranger, par pays de résidence"
+ },
+ "People in Lebanon born in other economies of the region": {
+  "ar": "المقيمون في لبنان المولودون في اقتصادات أخرى من المنطقة",
+  "fr": "Personnes vivant au Liban nées dans d'autres économies de la région"
+ },
+ "Largest migrant corridors among the 17 economies": {
+  "ar": "أكبر مسارات الهجرة بين الاقتصادات الـ١٧",
+  "fr": "Plus grands couloirs migratoires entre les 17 économies"
+ },
+ "Remittances sent to Lebanon, 2021 (modelled)": {
+  "ar": "التحويلات المرسلة إلى لبنان، ٢٠٢١ (مقدَّرة بنموذج)",
+  "fr": "Transferts envoyés vers le Liban, 2021 (modélisés)"
+ },
+ "Remittances sent from Lebanon, 2021 (modelled)": {
+  "ar": "التحويلات المرسلة من لبنان، ٢٠٢١ (مقدَّرة بنموذج)",
+  "fr": "Transferts envoyés depuis le Liban, 2021 (modélisés)"
+ },
+ "Direct investment positions between Lebanon and partners": {
+  "ar": "أرصدة الاستثمار المباشر بين لبنان وشركائه",
+  "fr": "Positions d'investissement direct entre le Liban et ses partenaires"
+ },
+ "Born in Lebanon, living in the {n} destinations UN DESA reports": {
+  "ar": "مولودون في لبنان ومقيمون في الوجهات الـ{n} التي تُبلغ عنها إدارة الشؤون الاقتصادية والاجتماعية في الأمم المتحدة",
+  "fr": "Nés au Liban et vivant dans les {n} destinations que signale l'UN DESA"
+ },
+ "Living in Lebanon, born in or citizens of the origins listed": {
+  "ar": "مقيمون في لبنان، مولودون في بلدان الأصل المدرجة أو من مواطنيها",
+  "fr": "Vivant au Liban, nés dans les pays d'origine listés ou en ayant la nationalité"
+ },
+ "People living in the other economies of this tab, by country of residence (shading)": {
+  "ar": "المقيمون في الاقتصادات الأخرى في هذا التبويب بحسب بلد الإقامة (التظليل)",
+  "fr": "Personnes vivant dans les autres économies de cet onglet, par pays de résidence (ombrage)"
+ },
+ "Estimated remittances received by Lebanon from {n} countries": {
+  "ar": "التحويلات التي يُقدَّر أن لبنان تلقاها من {n} بلداً",
+  "fr": "Transferts estimés reçus par le Liban de {n} pays"
+ },
+ "Estimated remittances sent from Lebanon to {n} countries": {
+  "ar": "التحويلات التي يُقدَّر أن لبنان أرسلها إلى {n} بلداً",
+  "fr": "Transferts estimés envoyés par le Liban vers {n} pays"
+ },
+ "Sum of the {n} partner positions listed (net, year end)": {
+  "ar": "مجموع أرصدة الشركاء الـ{n} المدرجة (صافي، نهاية السنة)",
+  "fr": "Somme des {n} positions de partenaires listées (nettes, fin d'année)"
+ },
+ "Of this, {v} ({p}%) is with the other economies of this tab.": {
+  "ar": "منها {v} ({p}٪) مع الاقتصادات الأخرى في هذا التبويب.",
+  "fr": "Dont {v} ({p} %) avec les autres économies de cet onglet."
+ },
+ "Stocks at 1 July, not flows. UN DESA counts people by place of birth, citizenship or refugee status, depending on what each country reports. Lebanese-born people in destinations that publish no figure are not counted here.": {
+  "ar": "أعداد في ١ تموز لا تدفقات. تحصي إدارة الشؤون الاقتصادية والاجتماعية الأشخاص بحسب مكان الولادة أو الجنسية أو صفة اللجوء، تبعاً لما يبلغه كل بلد. المولودون في لبنان في وجهات لا تنشر رقماً غير محتسبين هنا.",
+  "fr": "Stocks au 1er juillet, pas des flux. L'UN DESA compte les personnes selon le lieu de naissance, la nationalité ou le statut de réfugié, selon ce que déclare chaque pays. Les personnes nées au Liban dans des destinations qui ne publient aucun chiffre ne sont pas comptées ici."
+ },
+ "Only the origins that UN DESA reports for Lebanon appear. A missing origin is unreported, not zero (Jordanians in Lebanon, for example). Syrian and Palestinian figures include refugees, so they are not a census of residents.": {
+  "ar": "تظهر فقط بلدان الأصل التي تُبلغ عنها إدارة الشؤون الاقتصادية والاجتماعية للبنان. بلد الأصل الغائب غير مُبلَّغ عنه وليس صفراً (الأردنيون في لبنان مثلاً). أرقام السوريين والفلسطينيين تشمل اللاجئين، فهي ليست تعداداً للمقيمين.",
+  "fr": "Seules apparaissent les origines que l'UN DESA déclare pour le Liban. Une origine absente n'est pas déclarée, ce n'est pas zéro (les Jordaniens au Liban, par exemple). Les chiffres des Syriens et des Palestiniens incluent des réfugiés : ce n'est pas un recensement des résidents."
+ },
+ "Only pairs that UN DESA publishes are shown. A missing pair is unreported, not zero. The shading adds up the published pairs, so it is a lower bound.": {
+  "ar": "تظهر فقط الأزواج التي تنشرها إدارة الشؤون الاقتصادية والاجتماعية. الزوج الغائب غير مُبلَّغ عنه وليس صفراً. يجمع التظليل الأزواج المنشورة، فهو حد أدنى.",
+  "fr": "Seules les paires publiées par l'UN DESA sont montrées. Une paire absente n'est pas déclarée, ce n'est pas zéro. L'ombrage additionne les paires publiées : c'est donc un minimum."
+ },
+ "Modelled estimates, not measured bilateral flows: the World Bank allocates each country's total by migrant numbers and incomes. 2021 is the latest edition. Lebanon and Israel are assumed to exchange nothing.": {
+  "ar": "تقديرات نموذجية لا تدفقات ثنائية مقيسة: يوزّع البنك الدولي إجمالي كل بلد بحسب أعداد المهاجرين والدخول. ٢٠٢١ هو أحدث إصدار. يُفترض أن لبنان وإسرائيل لا يتبادلان شيئاً.",
+  "fr": "Estimations issues d'un modèle, pas des flux bilatéraux mesurés : la Banque mondiale répartit le total de chaque pays selon le nombre de migrants et les revenus. 2021 est la dernière édition. Le Liban et Israël sont supposés ne rien échanger."
+ },
+ "Positions (stocks) at year end, not annual flows. \"Net\" means liabilities less assets for inward and assets less liabilities for outward positions. IMF aggregates such as \"World\" or \"Europe\" overlap with countries and are left out. Lebanon's own reports have many gaps, so partner reports are the default; 2023 and 2024 cover fewer economies than 2011 to 2022.": {
+  "ar": "أرصدة في نهاية السنة لا تدفقات سنوية. «الصافي» يعني الخصوم ناقص الأصول للأرصدة الواردة، والأصول ناقص الخصوم للأرصدة الصادرة. مجاميع صندوق النقد الدولي مثل «العالم» أو «أوروبا» تتداخل مع البلدان وهي مستبعدة. تقارير لبنان نفسه فيها ثغرات كثيرة، لذا تُعتمد تقارير الشركاء افتراضياً؛ وتغطي ٢٠٢٣ و٢٠٢٤ اقتصادات أقل من ٢٠١١ إلى ٢٠٢٢.",
+  "fr": "Positions (stocks) en fin d'année, pas des flux annuels. « Net » signifie passifs moins actifs pour les positions entrantes, et actifs moins passifs pour les positions sortantes. Les agrégats du FMI comme « Monde » ou « Europe » chevauchent les pays et sont écartés. Les déclarations du Liban comportent beaucoup de lacunes : les déclarations des partenaires sont donc retenues par défaut ; 2023 et 2024 couvrent moins d'économies que 2011 à 2022."
+ },
+ "{n} partners lie outside this map; they are in the list when they are among the largest.": {
+  "ar": "{n} شريكاً خارج هذه الخريطة؛ يظهرون في القائمة إذا كانوا من الأكبر.",
+  "fr": "{n} partenaires sont hors de cette carte ; ils figurent dans la liste quand ils sont parmi les plus importants."
+ },
+ "No data for this choice. Try another year.": {
+  "ar": "لا بيانات لهذا الاختيار. جرّب سنة أخرى.",
+  "fr": "Aucune donnée pour ce choix. Essayez une autre année."
+ },
+ "Trade by partner is on the World tab, in Flows.": {
+  "ar": "التجارة بحسب الشريك موجودة في تبويب العالم، ضمن التدفقات.",
+  "fr": "Le commerce par partenaire est dans l'onglet Monde, sous Flux."
+ },
+ "Arcs join Lebanon and its partners; width follows the value.": {
+  "ar": "تصل الأقواس لبنان بشركائه؛ ويتبع عرضها القيمة.",
+  "fr": "Les arcs relient le Liban à ses partenaires ; leur largeur suit la valeur."
+ },
+ "Amber means a negative value.": {
+  "ar": "اللون الكهرماني يعني قيمة سالبة.",
+  "fr": "L'ambre signale une valeur négative."
+ },
+ "Colour follows the square root of the value.": {
+  "ar": "يتبع اللون الجذر التربيعي للقيمة.",
+  "fr": "La couleur suit la racine carrée de la valeur."
+ },
+ "{p} per 1,000 residents. Rank {r} of 5 hosts per resident. {s}% of the people counted in the five hosts.": {
+  "ar": "{p} لكل ١٬٠٠٠ مقيم. المرتبة {r} من ٥ دول مضيفة بحسب عدد المقيمين. {s}٪ من الأشخاص المحتسبين في الدول المضيفة الخمس.",
+  "fr": "{p} pour 1 000 habitants. Rang {r} sur 5 pays d'accueil, rapporté à la population. {s} % des personnes comptées dans les cinq pays d'accueil."
+ },
+ "UNHCR counts refugees registered with it or, in Turkey, under temporary protection. Lebanon asked UNHCR in 2015 to suspend new registration of Syrians, so its series is a registered stock, not a count of everyone present. The government has quoted higher totals; they are not in this data.": {
+  "ar": "تحصي المفوضية اللاجئين المسجلين لديها، أو في تركيا الخاضعين للحماية المؤقتة. طلب لبنان من المفوضية عام ٢٠١٥ وقف تسجيل السوريين الجدد، فسلسلته رصيد مسجَّل وليست عدّاً لكل الموجودين. ذكرت الحكومة أعداداً أعلى وهي غير واردة في هذه البيانات.",
+  "fr": "Le HCR compte les réfugiés enregistrés auprès de lui ou, en Turquie, sous protection temporaire. En 2015, le Liban a demandé au HCR de suspendre l'enregistrement des Syriens : sa série est un stock enregistré, pas un décompte de toutes les personnes présentes. Le gouvernement a cité des totaux plus élevés ; ils ne figurent pas dans ces données."
+ },
+ "Per 1,000 residents divides the refugee count by the host's total population, which already includes refugees. The latest population values are model estimates. Palestinians registered with UNRWA are not counted. The fall in 2025 follows returns after December 2024 and registration updates reported by UNHCR; the cause in each host was not isolated.": {
+  "ar": "«لكل ١٬٠٠٠ مقيم» يقسم عدد اللاجئين على إجمالي سكان البلد المضيف الذي يشمل اللاجئين أصلاً. آخر قيم السكان تقديرات نموذجية. لا يُحتسب الفلسطينيون المسجلون لدى الأونروا. يلي تراجع ٢٠٢٥ حالات عودة بعد كانون الأول ٢٠٢٤ وتحديثات تسجيل أبلغت عنها المفوضية؛ ولم يُعزل سبب التراجع في كل بلد مضيف.",
+  "fr": "« Pour 1 000 habitants » divise le nombre de réfugiés par la population totale du pays d'accueil, qui inclut déjà les réfugiés. Les dernières valeurs de population sont des estimations de modèle. Les Palestiniens enregistrés auprès de l'UNRWA ne sont pas comptés. La baisse de 2025 fait suite à des retours après décembre 2024 et à des mises à jour d'enregistrement signalées par le HCR ; la cause dans chaque pays d'accueil n'a pas été isolée."
+ },
+ "The share covers these five hosts only, not all Syrian refugees: Syrians in Germany, Sweden and elsewhere are outside this data.": {
+  "ar": "تقتصر الحصة على هذه الدول المضيفة الخمس لا على كل اللاجئين السوريين: السوريون في ألمانيا والسويد وغيرهما خارج هذه البيانات.",
+  "fr": "La part ne porte que sur ces cinq pays d'accueil, pas sur tous les réfugiés syriens : les Syriens en Allemagne, en Suède et ailleurs sont hors de ces données."
+ },
+ "Map of UCDP conflict events in Lebanon": {
+  "ar": "خريطة أحداث النزاع المسجلة لدى UCDP في لبنان",
+  "fr": "Carte des événements de conflit de l'UCDP au Liban"
+ },
+ "UCDP best estimate of deaths per year, 1989 to 2024, events located in Lebanon": {
+  "ar": "أفضل تقدير لـUCDP للوفيات سنوياً، ١٩٨٩ إلى ٢٠٢٤، أحداث وقعت في لبنان",
+  "fr": "Meilleure estimation de l'UCDP des décès par an, 1989 à 2024, événements situés au Liban"
+ },
+ "Circle area follows the best estimate of deaths. Faint circles are placed at the centre of a district or province, or on a line.": {
+  "ar": "تتبع مساحة الدائرة أفضل تقدير للوفيات. الدوائر الباهتة موضوعة في مركز قضاء أو محافظة أو على خط.",
+  "fr": "La surface du cercle suit la meilleure estimation des décès. Les cercles pâles sont placés au centre d'un district ou d'une province, ou sur une ligne."
+ },
+ "Best estimate. {c} of the deaths were civilians. {m} events are not drawn because UCDP could place them only by country or at sea.": {
+  "ar": "أفضل تقدير. {c} من الوفيات كانوا مدنيين. {m} حدثاً غير مرسوم لأن UCDP لم تحدد موقعه إلا على مستوى البلد أو في البحر.",
+  "fr": "Meilleure estimation. {c} des décès étaient des civils. {m} événements ne sont pas dessinés car l'UCDP n'a pu les situer que par pays ou en mer."
+ },
+ "UCDP codes no qualifying event in Lebanon for {year}. This follows its coding threshold and does not mean that nothing happened.": {
+  "ar": "لا يسجل UCDP أي حدث مؤهل في لبنان لسنة {year}. هذا يتبع عتبة التسجيل لديه ولا يعني أن شيئاً لم يحدث.",
+  "fr": "L'UCDP ne code aucun événement admissible au Liban pour {year}. Cela tient à son seuil de codage et ne signifie pas qu'il ne s'est rien passé."
+ },
+ "Only events located in Lebanon are counted. Attacks launched from Lebanon that hit places in Israel are located in Israel, so they are not here. A year with no event means UCDP codes none above its threshold, not that nothing happened (2004, 2007, 2009 to 2010, 2019 and 2021 to 2022). GED 25.1 ends in 2024.": {
+  "ar": "تُحتسب فقط الأحداث التي وقعت في لبنان. الهجمات المنطلقة من لبنان على أماكن في إسرائيل مُوقَّعة في إسرائيل فلا ترد هنا. السنة بلا حدث تعني أن UCDP لا يسجل شيئاً فوق عتبته، لا أن شيئاً لم يحدث (٢٠٠٤ و٢٠٠٧ و٢٠٠٩ إلى ٢٠١٠ و٢٠١٩ و٢٠٢١ إلى ٢٠٢٢). تنتهي قاعدة GED 25.1 عام ٢٠٢٤.",
+  "fr": "Seuls les événements situés au Liban sont comptés. Les attaques lancées depuis le Liban sur des lieux en Israël sont situées en Israël : elles ne sont donc pas ici. Une année sans événement signifie que l'UCDP n'en code aucun au-dessus de son seuil, pas qu'il ne s'est rien passé (2004, 2007, 2009 à 2010, 2019 et 2021 à 2022). GED 25.1 s'arrête en 2024."
+ },
+ "Event counts are not comparable across years as a measure of intensity; use the death estimates. They are research estimates (best, low and high), not official tolls. The Strike map shows official tolls by war.": {
+  "ar": "أعداد الأحداث لا تصلح للمقارنة بين السنوات كمقياس للحدة؛ استخدم تقديرات الوفيات. وهي تقديرات بحثية (الأفضل والأدنى والأعلى) لا حصائل رسمية. تعرض خريطة الغارات الحصائل الرسمية بحسب الحرب.",
+  "fr": "Le nombre d'événements n'est pas comparable d'une année à l'autre comme mesure d'intensité ; utilisez les estimations de décès. Ce sont des estimations de recherche (meilleure, basse et haute), pas des bilans officiels. La carte des frappes montre les bilans officiels par guerre."
+ },
+ "{n} dated event that touched Lebanon, 2012 to 2026. Each is also on the Timeline.": {
+  "ar": "{n} حدث مؤرخ مسّ لبنان، من ٢٠١٢ إلى ٢٠٢٦. كل حدث موجود أيضاً على الخط الزمني.",
+  "fr": "{n} événement daté ayant touché le Liban, de 2012 à 2026. Chacun figure aussi sur la chronologie."
+ },
+ "{n} dated events that touched Lebanon, 2012 to 2026. Each is also on the Timeline.": {
+  "ar": "{n} حدثاً مؤرخاً مسّ لبنان، من ٢٠١٢ إلى ٢٠٢٦. كل حدث موجود أيضاً على الخط الزمني.",
+  "fr": "{n} événements datés ayant touché le Liban, de 2012 à 2026. Chacun figure aussi sur la chronologie."
+ },
+ "Some rows rest on one family of sources and are marked reported; the sources are linked on each row.": {
+  "ar": "بعض الصفوف تستند إلى عائلة واحدة من المصادر وهي موسومة «مُبلَّغ عنه»؛ والمصادر مرتبطة في كل صف.",
+  "fr": "Certaines lignes reposent sur une seule famille de sources et sont marquées « rapporté » ; les sources sont liées sur chaque ligne."
+ },
+ "Press and agency reports linked on each row; compiled by the Hub": {
+  "ar": "تقارير صحفية ووكالات مرتبطة في كل صف؛ تجميع المنصة",
+  "fr": "Articles de presse et d'agences liés sur chaque ligne ; compilation du Hub"
+ },
+ "Government of Lebanon": {
+  "ar": "حكومة لبنان",
+  "fr": "Gouvernement du Liban"
+ },
+ "Forces of Michel Aoun": {
+  "ar": "قوات ميشال عون",
+  "fr": "Forces de Michel Aoun"
+ },
+ "Government of Israel": {
+  "ar": "حكومة إسرائيل",
+  "fr": "Gouvernement d'Israël"
+ },
+ "PFLP": {
+  "ar": "الجبهة الشعبية لتحرير فلسطين",
+  "fr": "FPLP"
+ },
+ "PFLP-GC": {
+  "ar": "الجبهة الشعبية، القيادة العامة",
+  "fr": "FPLP-CG"
+ },
+ "Fatah": {
+  "ar": "حركة فتح",
+  "fr": "Fatah"
+ },
+ "Fatah Revolutionary Council": {
+  "ar": "فتح، المجلس الثوري",
+  "fr": "Fatah, Conseil révolutionnaire"
+ },
+ "SLA": {
+  "ar": "جيش لبنان الجنوبي",
+  "fr": "Armée du Liban-Sud (ALS)"
+ },
+ "PIJ": {
+  "ar": "حركة الجهاد الإسلامي في فلسطين",
+  "fr": "Djihad islamique palestinien"
+ },
+ "Civilians": {
+  "ar": "مدنيون",
+  "fr": "Civils"
+ },
+ "Government of Iraq": {
+  "ar": "حكومة العراق",
+  "fr": "Gouvernement de l'Irak"
+ },
+ "Government of Syria": {
+  "ar": "حكومة سوريا",
+  "fr": "Gouvernement de la Syrie"
+ },
+ "Alawite (Lebanon)": {
+  "ar": "علويون (لبنان)",
+  "fr": "Alaouites (Liban)"
+ },
+ "Sunni (Lebanon)": {
+  "ar": "سنّة (لبنان)",
+  "fr": "Sunnites (Liban)"
+ },
+ "Syrian insurgents": {
+  "ar": "مسلحون سوريون",
+  "fr": "Insurgés syriens"
+ },
+ "Jabhat Fateh al-Sham": {
+  "ar": "جبهة فتح الشام",
+  "fr": "Jabhat Fatah al-Cham"
+ },
+ "Brigades of Aisha": {
+  "ar": "كتائب عائشة",
+  "fr": "Brigades d'Aïcha"
+ },
+ "ADP": {
+  "ar": "ADP",
+  "fr": "ADP"
+ },
+ "IS": {
+  "ar": "تنظيم الدولة الإسلامية",
+  "fr": "État islamique"
+ },
+ "HTS, Saraya Ahl al-Sham": {
+  "ar": "هيئة تحرير الشام وسرايا أهل الشام",
+  "fr": "HTS, Saraya Ahl al-Cham"
+ },
+ "HTS": {
+  "ar": "هيئة تحرير الشام",
+  "fr": "HTS"
+ },
+ "Hamas": {
+  "ar": "حماس",
+  "fr": "Hamas"
+ },
+ "Ali Allawi": {
+  "ar": "علي علاوي",
+  "fr": "Ali Allawi"
+ },
+ "Arab League": {
+  "ar": "جامعة الدول العربية",
+  "fr": "Ligue arabe"
+ },
+ "Bahrain": {
+  "ar": "البحرين",
+  "fr": "Bahreïn"
+ },
+ "Bashar al-Assad": {
+  "ar": "بشار الأسد",
+  "fr": "Bachar el-Assad"
+ },
+ "Egypt": {
+  "ar": "مصر",
+  "fr": "Égypte"
+ },
+ "Electricite du Liban": {
+  "ar": "كهرباء لبنان",
+  "fr": "Électricité du Liban"
+ },
+ "George Kordahi": {
+  "ar": "جورج قرداحي",
+  "fr": "George Kordahi"
+ },
+ "Government": {
+  "ar": "الحكومة",
+  "fr": "Gouvernement"
+ },
+ "Hay'at Tahrir al-Sham": {
+  "ar": "هيئة تحرير الشام",
+  "fr": "Hayat Tahrir al-Cham"
+ },
+ "Iran": {
+  "ar": "إيران",
+  "fr": "Iran"
+ },
+ "Iraq": {
+  "ar": "العراق",
+  "fr": "Irak"
+ },
+ "Israel": {
+  "ar": "إسرائيل",
+  "fr": "Israël"
+ },
+ "Jordan": {
+  "ar": "الأردن",
+  "fr": "Jordanie"
+ },
+ "Kuwait": {
+  "ar": "الكويت",
+  "fr": "Koweït"
+ },
+ "Lebanese Army": {
+  "ar": "الجيش اللبناني",
+  "fr": "Armée libanaise"
+ },
+ "Lebanese cabinet": {
+  "ar": "مجلس الوزراء اللبناني",
+  "fr": "Conseil des ministres libanais"
+ },
+ "Lebanese farmers": {
+  "ar": "المزارعون اللبنانيون",
+  "fr": "Agriculteurs libanais"
+ },
+ "Lebanese government": {
+  "ar": "الحكومة اللبنانية",
+  "fr": "Gouvernement libanais"
+ },
+ "Meqdad clan": {
+  "ar": "عشيرة المقداد",
+  "fr": "Clan Meqdad"
+ },
+ "Michel Aoun": {
+  "ar": "ميشال عون",
+  "fr": "Michel Aoun"
+ },
+ "Michel Menassa": {
+  "ar": "ميشال منسى",
+  "fr": "Michel Menassa"
+ },
+ "Murhaf Abu Qasra": {
+  "ar": "مرهف أبو قصرة",
+  "fr": "Murhaf Abou Qasra"
+ },
+ "Najib Mikati": {
+  "ar": "نجيب ميقاتي",
+  "fr": "Najib Mikati"
+ },
+ "Qatar": {
+  "ar": "قطر",
+  "fr": "Qatar"
+ },
+ "Rashid Derbas": {
+  "ar": "رشيد درباس",
+  "fr": "Rachid Derbas"
+ },
+ "Raymond Ghajar": {
+  "ar": "ريمون غجر",
+  "fr": "Raymond Ghajar"
+ },
+ "Saad Hariri": {
+  "ar": "سعد الحريري",
+  "fr": "Saad Hariri"
+ },
+ "Saudi Arabia": {
+  "ar": "السعودية",
+  "fr": "Arabie saoudite"
+ },
+ "Syria": {
+  "ar": "سوريا",
+  "fr": "Syrie"
+ },
+ "Syrian army": {
+  "ar": "الجيش السوري",
+  "fr": "Armée syrienne"
+ },
+ "Syrian nationals": {
+  "ar": "المواطنون السوريون",
+  "fr": "Ressortissants syriens"
+ },
+ "Syrian opposition forces": {
+  "ar": "قوى المعارضة السورية",
+  "fr": "Forces de l'opposition syrienne"
+ },
+ "UAE": {
+  "ar": "الإمارات",
+  "fr": "Émirats arabes unis"
+ },
+ "UNHCR": {
+  "ar": "المفوضية السامية للأمم المتحدة لشؤون اللاجئين",
+  "fr": "HCR"
+ },
+ "World Bank": {
+  "ar": "البنك الدولي",
+  "fr": "Banque mondiale"
+ },
+ "Gulf states tell citizens to leave Lebanon after Meqdad clan kidnappings": {
+  "ar": "دول خليجية تطلب من مواطنيها مغادرة لبنان بعد عمليات خطف نفذتها عشيرة المقداد",
+  "fr": "Des pays du Golfe demandent à leurs ressortissants de quitter le Liban après des enlèvements par le clan Meqdad"
+ },
+ "Saudi Arabia, the UAE and Qatar issued the warning on 15 August 2012, and reports add Kuwait. It followed the Meqdad clan's announcement that it had seized more than 20 Syrians, a Turkish national and a Saudi in reprisal for the abduction in Syria of a clan member.": {
+  "ar": "أصدرت السعودية والإمارات وقطر التحذير في ١٥ آب ٢٠١٢، وتضيف تقارير الكويت. جاء ذلك بعد إعلان عشيرة المقداد أنها احتجزت أكثر من ٢٠ سورياً ومواطناً تركياً وسعودياً رداً على خطف أحد أفراد العشيرة في سوريا.",
+  "fr": "L'Arabie saoudite, les Émirats arabes unis et le Qatar ont lancé l'avertissement le 15 août 2012, et des sources y ajoutent le Koweït. Il faisait suite à l'annonce du clan Meqdad qu'il avait capturé plus de 20 Syriens, un ressortissant turc et un Saoudien en représailles à l'enlèvement en Syrie d'un membre du clan."
+ },
+ "Lebanon ends visa-free entry for Syrians": {
+  "ar": "لبنان ينهي الدخول بلا تأشيرة للسوريين",
+  "fr": "Le Liban met fin à l'entrée sans visa pour les Syriens"
+ },
+ "From 5 January 2015 Syrians needed to show a reason for entry under set categories, ending decades of free movement at the border. About 1.1 million Syrians were UNHCR-registered in Lebanon at the time.": {
+  "ar": "اعتباراً من ٥ كانون الثاني ٢٠١٥ بات على السوريين إبراز سبب للدخول ضمن فئات محددة، ما أنهى عقوداً من حرية التنقل عند الحدود. كان نحو ١٫١ مليون سوري مسجلين لدى المفوضية في لبنان آنذاك.",
+  "fr": "À partir du 5 janvier 2015, les Syriens devaient justifier leur entrée selon des catégories définies, ce qui mettait fin à des décennies de libre circulation à la frontière. Environ 1,1 million de Syriens étaient alors enregistrés auprès du HCR au Liban."
+ },
+ "Rebels take the Nasib crossing, cutting the Syria-Jordan road used by Lebanese exports": {
+  "ar": "معارضون مسلحون يسيطرون على معبر نصيب ويقطعون الطريق بين سوريا والأردن الذي تستخدمه الصادرات اللبنانية",
+  "fr": "Des rebelles prennent le poste de Nassib et coupent la route Syrie-Jordanie qu'empruntaient les exportations libanaises"
+ },
+ "An offensive that began on 1 April 2015 pushed government forces out of Nasib, the last official crossing between Syria and Jordan. It had carried goods from Lebanon and Turkey to Gulf markets, and it stayed closed until October 2018.": {
+  "ar": "هجوم بدأ في ١ نيسان ٢٠١٥ أخرج القوات الحكومية من نصيب، آخر معبر رسمي بين سوريا والأردن. كان ينقل بضائع من لبنان وتركيا إلى أسواق الخليج، وبقي مغلقاً حتى تشرين الأول ٢٠١٨.",
+  "fr": "Une offensive lancée le 1er avril 2015 a chassé les forces gouvernementales de Nassib, dernier poste frontalier officiel entre la Syrie et la Jordanie. Il acheminait des marchandises du Liban et de Turquie vers les marchés du Golfe et est resté fermé jusqu'en octobre 2018."
+ },
+ "UNHCR suspends registration of Syrians in Lebanon at the government's request": {
+  "ar": "المفوضية توقف تسجيل السوريين في لبنان بناءً على طلب الحكومة",
+  "fr": "Le HCR suspend l'enregistrement des Syriens au Liban à la demande du gouvernement"
+ },
+ "Registration was halted from 5 May 2015 until further notice. Social Affairs Minister Rashid Derbas said Lebanon had reached capacity, with about 1.2 million Syrians, and told Al Jazeera that the glass cannot fit one more drop. UNHCR counts in the Hub fall after this date.": {
+  "ar": "توقف التسجيل اعتباراً من ٥ أيار ٢٠١٥ حتى إشعار آخر. قال وزير الشؤون الاجتماعية رشيد درباس إن لبنان بلغ طاقته مع نحو ١٫٢ مليون سوري، وقال لقناة الجزيرة إن الكأس لا تتسع لقطرة أخرى. تتراجع أعداد المفوضية في المنصة بعد هذا التاريخ.",
+  "fr": "L'enregistrement a été suspendu à partir du 5 mai 2015 jusqu'à nouvel ordre. Le ministre des Affaires sociales Rachid Derbas a dit que le Liban avait atteint sa capacité, avec environ 1,2 million de Syriens, et a déclaré à Al Jazeera que le verre ne peut contenir une goutte de plus. Les chiffres du HCR dans le Hub baissent après cette date."
+ },
+ "Saudi Arabia cancels military aid to Lebanon over Hezbollah and Iran": {
+  "ar": "السعودية تلغي مساعدات عسكرية للبنان بسبب حزب الله وإيران",
+  "fr": "L'Arabie saoudite annule son aide militaire au Liban en raison du Hezbollah et de l'Iran"
+ },
+ "Announced on 19 February 2016: the $3 billion programme for French arms for the Lebanese army, and a further $1 billion for security services in some reports. Riyadh cited Lebanon's stance toward Iran after the January attack on its embassy in Tehran. The UAE and Bahrain backed the decision.": {
+  "ar": "أُعلن في ١٩ شباط ٢٠١٦: برنامج بقيمة ٣ مليارات دولار لأسلحة فرنسية للجيش اللبناني، ومليار دولار إضافي للأجهزة الأمنية بحسب بعض التقارير. استندت الرياض إلى موقف لبنان من إيران بعد الهجوم على سفارتها في طهران في كانون الثاني. وأيدت الإمارات والبحرين القرار.",
+  "fr": "Annoncé le 19 février 2016 : le programme de 3 milliards de dollars pour des armes françaises destinées à l'armée libanaise, et selon certaines sources un milliard de plus pour les services de sécurité. Riyad a invoqué la position du Liban envers l'Iran après l'attaque de janvier contre son ambassade à Téhéran. Les Émirats arabes unis et Bahreïn ont soutenu la décision."
+ },
+ "Hariri resigns on Saudi television and returns to Beirut weeks later": {
+  "ar": "الحريري يستقيل عبر التلفزيون السعودي ويعود إلى بيروت بعد أسابيع",
+  "fr": "Hariri démissionne à la télévision saoudienne et rentre à Beyrouth quelques semaines plus tard"
+ },
+ "Saad Hariri announced his resignation from Riyadh on 4 November 2017, citing fear of assassination and Iranian interference. He returned to Beirut on 21 November and on 22 November suspended the resignation at President Aoun's request.": {
+  "ar": "أعلن سعد الحريري استقالته من الرياض في ٤ تشرين الثاني ٢٠١٧ متذرعاً بالخوف من الاغتيال وبالتدخل الإيراني. عاد إلى بيروت في ٢١ تشرين الثاني وعلّق استقالته في ٢٢ تشرين الثاني بطلب من الرئيس عون.",
+  "fr": "Saad Hariri a annoncé sa démission depuis Riyad le 4 novembre 2017, invoquant la crainte d'un assassinat et l'ingérence iranienne. Il est rentré à Beyrouth le 21 novembre et a suspendu sa démission le 22 novembre à la demande du président Aoun."
+ },
+ "Jordan and Syria reopen the Nasib-Jaber crossing after three years": {
+  "ar": "الأردن وسوريا يعيدان فتح معبر نصيب جابر بعد ثلاث سنوات",
+  "fr": "La Jordanie et la Syrie rouvrent le passage Nassib-Jaber après trois ans"
+ },
+ "The crossing opened to civilians and trade on 15 October 2018 after Syrian forces retook the area in July. President Aoun said it would revive Lebanese productive sectors and lower export costs to Arab markets.": {
+  "ar": "فُتح المعبر أمام المدنيين والتجارة في ١٥ تشرين الأول ٢٠١٨ بعد أن استعادت القوات السورية المنطقة في تموز. قال الرئيس عون إنه سينعش القطاعات الإنتاجية اللبنانية ويخفض كلفة التصدير إلى الأسواق العربية.",
+  "fr": "Le passage a rouvert aux civils et au commerce le 15 octobre 2018, après que les forces syriennes ont repris la zone en juillet. Le président Aoun a dit qu'il relancerait les secteurs productifs libanais et réduirait le coût des exportations vers les marchés arabes."
+ },
+ "US Caesar Act sanctions on Syria take effect": {
+  "ar": "دخول عقوبات قانون قيصر الأمريكي على سوريا حيز التنفيذ",
+  "fr": "Les sanctions de la loi américaine César contre la Syrie entrent en vigueur"
+ },
+ "Signed in December 2019, the act came into force on 17 June 2020. It targets those who knowingly support the Syrian government in oil and gas, military, aviation and construction. Lebanese banks and traders braced for exposure because Syria's foreign payments often ran through neighbouring banks. It shaped the 2021-22 gas plan, because US officials had to confirm that Egyptian gas through Syria was not sanctionable (see the 21 June 2022 row). It was repealed on 18 December 2025.": {
+  "ar": "وُقّع القانون في كانون الأول ٢٠١٩ ودخل حيز التنفيذ في ١٧ حزيران ٢٠٢٠. يستهدف من يدعم عن علم الحكومة السورية في النفط والغاز والقطاع العسكري والطيران والبناء. استعدت المصارف والتجار في لبنان لتعرضهم لأن مدفوعات سوريا الخارجية كانت غالباً تمر عبر مصارف الجوار. وقد أثّر في خطة الغاز ٢٠٢١ و٢٠٢٢ لأن على المسؤولين الأمريكيين تأكيد أن الغاز المصري عبر سوريا غير خاضع للعقوبات (انظر صف ٢١ حزيران ٢٠٢٢). أُلغي في ١٨ كانون الأول ٢٠٢٥.",
+  "fr": "Signée en décembre 2019, la loi est entrée en vigueur le 17 juin 2020. Elle vise ceux qui soutiennent sciemment le gouvernement syrien dans le pétrole et le gaz, le secteur militaire, l'aviation et la construction. Les banques et commerçants libanais se sont préparés à une exposition, car les paiements extérieurs de la Syrie passaient souvent par les banques voisines. Elle a pesé sur le plan gazier de 2021-2022, car les responsables américains devaient confirmer que le gaz égyptien transitant par la Syrie n'était pas sanctionnable (voir la ligne du 21 juin 2022). Elle a été abrogée le 18 décembre 2025."
+ },
+ "Saudi Arabia bans Lebanese produce after a captagon seizure in pomegranates": {
+  "ar": "السعودية تحظر المنتجات اللبنانية بعد ضبط حبوب كبتاغون في شحنة رمان",
+  "fr": "L'Arabie saoudite interdit les produits libanais après une saisie de captagon dans des grenades"
+ },
+ "Jeddah customs reported more than 5.3 million captagon pills hidden in a pomegranate shipment from Lebanon, and Riyadh announced the ban on 23 April 2021, in force from 25 April. It covered produce from or transiting Lebanon until Beirut gave guarantees on smuggling. Reported fruit and vegetable exports to Saudi Arabia were up to $24 million a year.": {
+  "ar": "أفادت جمارك جدة بأكثر من ٥٫٣ ملايين حبة كبتاغون مخبأة في شحنة رمان من لبنان، وأعلنت الرياض الحظر في ٢٣ نيسان ٢٠٢١ ويسري من ٢٥ نيسان. شمل المنتجات الزراعية القادمة من لبنان أو العابرة منه إلى أن تقدم بيروت ضمانات بشأن التهريب. بلغت صادرات الفواكه والخضار المُبلَّغ عنها إلى السعودية حتى ٢٤ مليون دولار سنوياً.",
+  "fr": "La douane de Djeddah a signalé plus de 5,3 millions de pilules de captagon cachées dans une cargaison de grenades venue du Liban, et Riyad a annoncé l'interdiction le 23 avril 2021, en vigueur le 25 avril. Elle couvrait les produits agricoles en provenance du Liban ou en transit, jusqu'à ce que Beyrouth donne des garanties sur la contrebande. Les exportations de fruits et légumes vers l'Arabie saoudite étaient signalées à jusqu'à 24 millions de dollars par an."
+ },
+ "Iraq and Lebanon sign a fuel oil deal paid in goods and services": {
+  "ar": "العراق ولبنان يوقعان صفقة زيت وقود تُسدَّد بسلع وخدمات",
+  "fr": "L'Irak et le Liban signent un accord de fioul réglé en biens et services"
+ },
+ "Caretaker Energy Minister Raymond Ghajar and Iraq's Finance Minister Ali Allawi signed in Baghdad on 24 July 2021: one million tonnes of heavy fuel oil over a year for Electricite du Liban, in exchange for goods and services, mainly medical care. A Legal Agenda study describes the oil as being swapped for compatible products through monthly tenders.": {
+  "ar": "وقّع وزير الطاقة في حكومة تصريف الأعمال ريمون غجر ووزير المالية العراقي علي علاوي في بغداد في ٢٤ تموز ٢٠٢١: مليون طن من زيت الوقود الثقيل على مدى سنة لكهرباء لبنان، مقابل سلع وخدمات، معظمها رعاية طبية. وتصف دراسة للمفكرة القانونية النفط بأنه يُبدَّل بمنتجات مناسبة عبر مناقصات شهرية.",
+  "fr": "Le ministre de l'Énergie sortant Raymond Ghajar et le ministre irakien des Finances Ali Allawi ont signé à Bagdad le 24 juillet 2021 : un million de tonnes de fioul lourd sur un an pour Électricité du Liban, en échange de biens et services, surtout des soins médicaux. Une étude de Legal Agenda décrit le pétrole comme échangé contre des produits compatibles par appels d'offres mensuels."
+ },
+ "Egypt, Jordan, Syria and Lebanon agree a road map for gas and power to Lebanon": {
+  "ar": "مصر والأردن وسوريا ولبنان تتفق على خريطة طريق للغاز والكهرباء إلى لبنان",
+  "fr": "L'Égypte, la Jordanie, la Syrie et le Liban s'accordent sur une feuille de route pour le gaz et l'électricité vers le Liban"
+ },
+ "Energy ministers met in Amman and agreed to send Egyptian gas through Jordan and Syria on the Arab Gas Pipeline to northern Lebanon, and Jordanian electricity through Syria at a later stage. No timeline was given. The US had backed the idea in August through its ambassador in Beirut.": {
+  "ar": "اجتمع وزراء الطاقة في عمّان واتفقوا على إرسال الغاز المصري عبر الأردن وسوريا على خط الغاز العربي إلى شمال لبنان، والكهرباء الأردنية عبر سوريا في مرحلة لاحقة. لم يُحدَّد جدول زمني. وكانت الولايات المتحدة قد أيدت الفكرة في آب عبر سفيرها في بيروت.",
+  "fr": "Les ministres de l'Énergie se sont réunis à Amman et ont convenu d'acheminer du gaz égyptien par la Jordanie et la Syrie sur le Gazoduc arabe jusqu'au nord du Liban, et de l'électricité jordanienne par la Syrie à un stade ultérieur. Aucun calendrier n'a été donné. Les États-Unis avaient appuyé l'idée en août par la voix de leur ambassadeur à Beyrouth."
+ },
+ "Saudi Arabia expels the Lebanese ambassador and halts all imports from Lebanon": {
+  "ar": "السعودية تطرد السفير اللبناني وتوقف كل الواردات من لبنان",
+  "fr": "L'Arabie saoudite expulse l'ambassadeur libanais et suspend toutes les importations en provenance du Liban"
+ },
+ "Lebanon, Syria and Egypt sign the Egyptian gas import deal": {
+  "ar": "لبنان وسوريا ومصر يوقعون اتفاق استيراد الغاز المصري",
+  "fr": "Le Liban, la Syrie et l'Égypte signent l'accord d'importation de gaz égyptien"
+ },
+ "Officials signed a contract for 22.95 billion cubic feet a year of Egyptian gas via Jordan and Syria, enough for about 450 MW or four more hours of power a day. World Bank financing depended on power-sector reforms, and US officials said they could confirm the project was not sanctionable only after the terms were disclosed. See the 29 December 2025 row for the later Lebanon-Egypt memorandum.": {
+  "ar": "وقّع المسؤولون عقداً لاستيراد ٢٢٫٩٥ مليار قدم مكعب سنوياً من الغاز المصري عبر الأردن وسوريا، يكفي لنحو ٤٥٠ ميغاواط أو أربع ساعات إضافية من الكهرباء يومياً. تمويل البنك الدولي مرهون بإصلاحات قطاع الكهرباء، وقال مسؤولون أمريكيون إنهم لا يستطيعون تأكيد أن المشروع غير خاضع للعقوبات إلا بعد الكشف عن الشروط. انظر صف ٢٩ كانون الأول ٢٠٢٥ لمذكرة التفاهم اللاحقة بين لبنان ومصر.",
+  "fr": "Les responsables ont signé un contrat pour 22,95 milliards de pieds cubes par an de gaz égyptien via la Jordanie et la Syrie, soit environ 450 MW ou quatre heures d'électricité de plus par jour. Le financement de la Banque mondiale dépendait de réformes du secteur de l'électricité, et des responsables américains ont dit ne pouvoir confirmer que le projet n'était pas sanctionnable qu'après divulgation des conditions. Voir la ligne du 29 décembre 2025 pour le mémorandum ultérieur entre le Liban et l'Égypte."
+ },
+ "Arab League lets Syria resume participation, with a liaison committee including Lebanon": {
+  "ar": "جامعة الدول العربية تسمح لسوريا باستئناف مشاركتها، مع لجنة اتصال تضم لبنان",
+  "fr": "La Ligue arabe autorise la Syrie à reprendre sa participation, avec un comité de liaison incluant le Liban"
+ },
+ "Foreign ministers meeting in Cairo on 7 May 2023 ended Syria's suspension, which began in November 2011. The decision named refugees and drug smuggling as issues to resolve and set up a follow-up committee that includes Saudi Arabia, Jordan, Iraq and Lebanon.": {
+  "ar": "أنهى وزراء الخارجية المجتمعون في القاهرة في ٧ أيار ٢٠٢٣ تعليق عضوية سوريا الذي بدأ في تشرين الثاني ٢٠١١. ذكر القرار اللاجئين وتهريب المخدرات كقضيتين تُعالجان، وشكّل لجنة متابعة تضم السعودية والأردن والعراق ولبنان.",
+  "fr": "Les ministres des Affaires étrangères réunis au Caire le 7 mai 2023 ont mis fin à la suspension de la Syrie, qui durait depuis novembre 2011. La décision a cité les réfugiés et le trafic de drogue comme questions à résoudre et créé un comité de suivi comprenant l'Arabie saoudite, la Jordanie, l'Irak et le Liban."
+ },
+ "Hezbollah opens a second front a day after the Hamas attack": {
+  "ar": "حزب الله يفتح جبهة ثانية بعد يوم من هجوم حماس",
+  "fr": "Le Hezbollah ouvre un second front un jour après l'attaque du Hamas"
+ },
+ "Assad government falls in Syria": {
+  "ar": "سقوط حكومة الأسد في سوريا",
+  "fr": "Chute du gouvernement Assad en Syrie"
+ },
+ "Opposition forces led by Hay'at Tahrir al-Sham took Damascus on 8 December 2024 and Assad fled to Russia. Crowds celebrated in Bar Elias. Clashes between Syria's new authorities and Hezbollah followed along the border, and UNHCR later reported about 378,000 Syrians returning from Lebanon (see the December 2025 row).": {
+  "ar": "أخذت قوات المعارضة بقيادة هيئة تحرير الشام دمشق في ٨ كانون الأول ٢٠٢٤ وفرّ الأسد إلى روسيا. احتفلت حشود في بر إلياس. تلتها اشتباكات بين السلطات الجديدة في سوريا وحزب الله على طول الحدود، وأبلغت المفوضية لاحقاً عن عودة نحو ٣٧٨ ألف سوري من لبنان (انظر صف كانون الأول ٢٠٢٥).",
+  "fr": "Les forces d'opposition dirigées par Hayat Tahrir al-Cham ont pris Damas le 8 décembre 2024 et Assad s'est enfui en Russie. Des foules ont fêté l'événement à Bar Elias. Des affrontements entre les nouvelles autorités syriennes et le Hezbollah ont suivi le long de la frontière, et le HCR a ensuite signalé le retour d'environ 378 000 Syriens depuis le Liban (voir la ligne de décembre 2025)."
+ },
+ "Lebanon and Syria sign a border demarcation and security deal in Jeddah": {
+  "ar": "لبنان وسوريا يوقعان في جدة اتفاقاً لترسيم الحدود والأمن",
+  "fr": "Le Liban et la Syrie signent à Djeddah un accord de démarcation de la frontière et de sécurité"
+ },
+ "Defence Ministers Michel Menassa and Murhaf Abu Qasra signed it under Saudi hosting on 28 March 2025, creating legal and specialised committees for demarcation. It followed two days of border clashes on 16 and 17 March that killed 10, ended by a ceasefire between the same ministers.": {
+  "ar": "وقّع وزيرا الدفاع ميشال منسى ومرهف أبو قصرة الاتفاق برعاية سعودية في ٢٨ آذار ٢٠٢٥، منشئاً لجاناً قانونية ومتخصصة للترسيم. جاء بعد يومين من اشتباكات حدودية في ١٦ و١٧ آذار أودت بحياة ١٠ أشخاص وانتهت بوقف لإطلاق النار بين الوزيرين نفسيهما.",
+  "fr": "Les ministres de la Défense Michel Menassa et Murhaf Abou Qasra l'ont signé sous hospitalité saoudienne le 28 mars 2025, créant des comités juridiques et spécialisés pour la démarcation. Il faisait suite à deux jours d'affrontements frontaliers les 16 et 17 mars, qui ont fait 10 morts, et qu'un cessez-le-feu entre les deux mêmes ministres a clos."
+ },
+ "The strikes on 28 February 2026 killed Supreme Leader Ali Khamenei and targeted missile, air defence and nuclear sites. Hezbollah, Iran's closest ally in Lebanon, joined two days later.": {
+  "ar": "أودت الضربات في ٢٨ شباط ٢٠٢٦ بحياة المرشد الأعلى علي خامنئي واستهدفت مواقع صواريخ ودفاع جوي ومواقع نووية. انضم حزب الله، أقرب حلفاء إيران في لبنان، بعد يومين.",
+  "fr": "Les frappes du 28 février 2026 ont tué le Guide suprême Ali Khamenei et visé des sites de missiles, de défense aérienne et nucléaires. Le Hezbollah, allié le plus proche de l'Iran au Liban, s'est joint deux jours plus tard."
+ },
+ "The step followed Information Minister George Kordahi's remarks, taped before his appointment, calling the Houthis defenders and the Yemen war pointless. Riyadh recalled its own ambassador, gave Lebanon's ambassador 48 hours to leave and stopped all imports on 29 October 2021. Prime Minister Mikati said he regretted the decision.": {
+  "ar": "جاءت الخطوة بعد تصريحات وزير الإعلام جورج قرداحي، المسجلة قبل تعيينه، التي وصف فيها الحوثيين بالمدافعين وحرب اليمن بالعبثية. استدعت الرياض سفيرها ومنحت سفير لبنان ٤٨ ساعة للمغادرة ووقفت كل الواردات في ٢٩ تشرين الأول ٢٠٢١. وقال رئيس الوزراء ميقاتي إنه يأسف للقرار.",
+  "fr": "La mesure a suivi les propos du ministre de l'Information George Kordahi, enregistrés avant sa nomination, qualifiant les Houthis de défenseurs et la guerre au Yémen d'absurde. Riyad a rappelé son ambassadeur, donné 48 heures à celui du Liban pour partir et suspendu toutes les importations le 29 octobre 2021. Le Premier ministre Mikati a dit regretter la décision."
+ },
+ "Kuwait, the UAE and Bahrain follow Saudi Arabia in recalling ambassadors": {
+  "ar": "الكويت والإمارات والبحرين تحذو حذو السعودية في استدعاء السفراء",
+  "fr": "Le Koweït, les Émirats arabes unis et Bahreïn suivent l'Arabie saoudite en rappelant leurs ambassadeurs"
+ },
+ "Kuwait recalled its ambassador and gave Lebanon's ambassador 48 hours to leave. The UAE withdrew its diplomats and barred its citizens from travelling to Lebanon. Bahrain gave Lebanon's ambassador 48 hours that night. Kordahi resigned in December (see the existing row).": {
+  "ar": "استدعت الكويت سفيرها ومنحت سفير لبنان ٤٨ ساعة للمغادرة. سحبت الإمارات دبلوماسييها ومنعت مواطنيها من السفر إلى لبنان. وأمهلت البحرين سفير لبنان ٤٨ ساعة في تلك الليلة. استقال قرداحي في كانون الأول (انظر الصف القائم).",
+  "fr": "Le Koweït a rappelé son ambassadeur et donné 48 heures à celui du Liban pour partir. Les Émirats arabes unis ont retiré leurs diplomates et interdit à leurs ressortissants de se rendre au Liban. Bahreïn a donné 48 heures à l'ambassadeur du Liban cette nuit-là. Kordahi a démissionné en décembre (voir la ligne existante)."
+ },
+ "From 8 October 2023 Hezbollah fired guided rockets and shells at Israeli positions in the Shebaa Farms, which it said was in solidarity with Gaza, and Israel answered with drones and artillery. It was the largest escalation on the border since 2006.": {
+  "ar": "منذ ٨ تشرين الأول ٢٠٢٣ أطلق حزب الله صواريخ موجهة وقذائف على مواقع إسرائيلية في مزارع شبعا، وقال إن ذلك تضامن مع غزة، وردّت إسرائيل بمسيّرات ومدفعية. كان أكبر تصعيد على الحدود منذ ٢٠٠٦.",
+  "fr": "À partir du 8 octobre 2023, le Hezbollah a tiré des roquettes guidées et des obus sur des positions israéliennes dans les fermes de Chebaa, ce qu'il a présenté comme un acte de solidarité avec Gaza, et Israël a répondu par des drones et de l'artillerie. C'était la plus forte escalade à la frontière depuis 2006."
+ },
+ "US and Israel strike Iran and kill Khamenei": {
+  "ar": "الولايات المتحدة وإسرائيل تضربان إيران وتقتلان خامنئي",
+  "fr": "Les États-Unis et Israël frappent l'Iran et tuent Khamenei"
+ },
+ "Hezbollah fires on Israel after the strikes on Iran; the 2026 Lebanon war begins": {
+  "ar": "حزب الله يطلق النار على إسرائيل بعد الضربات على إيران؛ وتبدأ حرب لبنان ٢٠٢٦",
+  "fr": "Le Hezbollah tire sur Israël après les frappes contre l'Iran ; la guerre du Liban de 2026 commence"
+ },
+ "On 2 March 2026 Hezbollah launched strikes on Israel, which it called a response to the attack on Iran, and Israel hit Hezbollah targets across Lebanon. The cabinet banned Hezbollah's military activity the same day (see the existing row).": {
+  "ar": "في ٢ آذار ٢٠٢٦ شن حزب الله ضربات على إسرائيل قال إنها رد على الهجوم على إيران، وضربت إسرائيل أهدافاً لحزب الله في أنحاء لبنان. حظر مجلس الوزراء النشاط العسكري لحزب الله في اليوم نفسه (انظر الصف القائم).",
+  "fr": "Le 2 mars 2026, le Hezbollah a lancé des frappes sur Israël, qu'il a présentées comme une réponse à l'attaque contre l'Iran, et Israël a frappé des cibles du Hezbollah dans tout le Liban. Le gouvernement a interdit l'activité militaire du Hezbollah le même jour (voir la ligne existante)."
+ }
+}

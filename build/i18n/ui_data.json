@@ -350,5 +350,121 @@
  "Downloads are not available in this view.": {
   "ar": "التنزيلات غير متاحة في هذا العرض.",
   "fr": "Les téléchargements ne sont pas disponibles dans cet affichage."
+ },
+ "Catalogue of public datasets": {
+  "ar": "فهرس مجموعات البيانات العامة",
+  "fr": "Catalogue des jeux de données publics"
+ },
+ "Companies and aid organisations": {
+  "ar": "الشركات ومنظمات المساعدة",
+  "fr": "Entreprises et organisations d'aide"
+ },
+ "Data behind the {tab} tab": {
+  "ar": "البيانات وراء تبويب {tab}",
+  "fr": "Données derrière l'onglet {tab}"
+ },
+ "Each line is scaled to its own range, so compare shapes, not heights. A series in a topic CSV is one series_id in that file; its label, unit, source and licence are in series-dictionary.csv.": {
+  "ar": "كل خط مرسوم على مداه الخاص، فقارن الأشكال لا الارتفاعات. السلسلة في ملف CSV الموضوعي هي قيمة series_id واحدة في ذلك الملف؛ وتسميتها ووحدتها ومصدرها وترخيصها في series-dictionary.csv.",
+  "fr": "Chaque ligne suit sa propre échelle : comparez les formes, pas les hauteurs. Dans un CSV thématique, une série correspond à un series_id ; son libellé, son unité, sa source et sa licence sont dans series-dictionary.csv."
+ },
+ "Every dataset, series and file behind the Hub, in one place. Search them all, or pick a topic to see the data behind one tab. Each item names its source and licence, and can be downloaded.": {
+  "ar": "كل مجموعات البيانات والسلاسل والملفات التي يقوم عليها المركز، في مكان واحد. ابحث فيها كلها، أو اختر موضوعاً لترى البيانات وراء تبويب واحد. يذكر كل عنصر مصدره وترخيصه، ويمكن تنزيله.",
+  "fr": "Tous les jeux de données, séries et fichiers du Hub, au même endroit. Cherchez dans l'ensemble, ou choisissez un thème pour voir les données derrière un onglet. Chaque élément indique sa source et sa licence, et peut être téléchargé."
+ },
+ "Files": {
+  "ar": "الملفات",
+  "fr": "Fichiers"
+ },
+ "Files to download": {
+  "ar": "ملفات للتنزيل",
+  "fr": "Fichiers à télécharger"
+ },
+ "Filter series: bread, GDP, generator, refugees": {
+  "ar": "صفِّ السلاسل: خبز، الناتج المحلي، مولّد، لاجئون",
+  "fr": "Filtrer les séries : pain, PIB, générateur, réfugiés"
+ },
+ "Lebanon's line; the file holds every country": {
+  "ar": "خط لبنان؛ والملف يضم كل البلدان",
+  "fr": "Courbe du Liban ; le fichier contient tous les pays"
+ },
+ "No download: the licence does not allow it": {
+  "ar": "لا تنزيل: الترخيص لا يسمح بذلك",
+  "fr": "Pas de téléchargement : la licence ne le permet pas"
+ },
+ "No file is published for this topic in this build.": {
+  "ar": "لا يُنشر أي ملف لهذا الموضوع في هذه النسخة.",
+  "fr": "Aucun fichier n'est publié pour ce thème dans cette version."
+ },
+ "Nothing matches. Try another spelling, or fewer words.": {
+  "ar": "لا نتائج. جرّب تهجئة أخرى أو كلمات أقل.",
+  "fr": "Aucun résultat. Essayez une autre orthographe, ou moins de mots."
+ },
+ "Open the tab": {
+  "ar": "افتح التبويب",
+  "fr": "Ouvrir l'onglet"
+ },
+ "Open the {tab} tab": {
+  "ar": "افتح تبويب {tab}",
+  "fr": "Ouvrir l'onglet {tab}"
+ },
+ "Q{q} {y}": {
+  "ar": "الربع {q} {y}",
+  "fr": "T{q} {y}"
+ },
+ "Search all the data": {
+  "ar": "ابحث في كل البيانات",
+  "fr": "Chercher dans toutes les données"
+ },
+ "Search: bread, Baalbek, 81/2018, UNHCR, Anghami": {
+  "ar": "ابحث: خبز، بعلبك، 81/2018، UNHCR، أنغامي",
+  "fr": "Chercher : pain, Baalbek, 81/2018, HCR, Anghami"
+ },
+ "Series, files, the catalogue, places (English, Arabic or French names), laws, timeline events, companies and aid organisations.": {
+  "ar": "السلاسل والملفات والفهرس والأماكن (بأسمائها الإنكليزية أو العربية أو الفرنسية) والقوانين وأحداث الخط الزمني والشركات ومنظمات المساعدة.",
+  "fr": "Séries, fichiers, catalogue, lieux (noms anglais, arabes ou français), lois, événements de la chronologie, entreprises et organisations d'aide."
+ },
+ "Show every series": {
+  "ar": "اعرض كل السلاسل",
+  "fr": "Afficher toutes les séries"
+ },
+ "The Hub as a whole": {
+  "ar": "المركز ككل",
+  "fr": "Le Hub dans son ensemble"
+ },
+ "Timeline events": {
+  "ar": "أحداث الخط الزمني",
+  "fr": "Événements de la chronologie"
+ },
+ "Topics": {
+  "ar": "المواضيع",
+  "fr": "Thèmes"
+ },
+ "founded {y}": {
+  "ar": "تأسست عام {y}",
+  "fr": "fondée en {y}"
+ },
+ "{a} series and {b} files behind this tab.": {
+  "ar": "{a} سلسلة و{b} ملفاً وراء هذا التبويب.",
+  "fr": "{a} séries et {b} fichiers derrière cet onglet."
+ },
+ "{a} series and {b} files in all.": {
+  "ar": "{a} سلسلة و{b} ملفاً إجمالاً.",
+  "fr": "{a} séries et {b} fichiers au total."
+ },
+ "{n} files, {s} in all. Each row names its licence.": {
+  "ar": "{n} ملفاً، {s} إجمالاً. يذكر كل سطر ترخيصه.",
+  "fr": "{n} fichiers, {s} au total. Chaque ligne indique sa licence."
+ },
+ "{n} result": {
+  "ar": "{n} نتيجة",
+  "fr": "{n} résultat"
+ },
+ "{n} results": {
+  "ar": "{n} نتيجة",
+  "fr": "{n} résultats"
+ },
+ "No dated values to draw": {
+  "ar": "لا قيم مؤرخة لرسمها",
+  "fr": "Aucune valeur datée à tracer"
  }
 }

@@ -64,7 +64,5 @@ function plPeople(el) {
     }
     const f = (ex.extras.facts || [])[0];
     if (f) { const d = document.createElement('div'); d.className = 'fb-card wide'; d.innerHTML = `<h4 class="fb-t">${esc(t('The last census was in 1932'))}</h4><p>${esc(t(f.fact))}</p><p class="note">${(f.sources || []).slice(0, 3).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(fbHost(x.url))}</a>`).join(', ')}</p>`; g.appendChild(d); }
-    el.insertAdjacentHTML('beforeend', `<h4 class="fb-t pl-s">${esc(t('All series in this section'))}</h4><div id="peoAll"></div>`);
-    fbBrowse($('#peoAll'), ps.series || [], { per: 12 });
   });
 }

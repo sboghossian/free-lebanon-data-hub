@@ -6,7 +6,7 @@ from hub.lib import stub_panel
 from hub import fb_places, fb_regional
 from hub.fb_common import jd
 
-TAB = {"id": "places", "label": "Places", "order": 40, "routes": ["place", "elections", "war", "people"]}   # #place/<id>, #elections/<id>, #war, #people
+TAB = {"id": "places", "label": "Places", "order": 40, "routes": ["place", "elections", "war", "people", "history"]}   # #place/<id>, #elections/<id>, #war, #people, #history (communities and seats over time)
 
 GAZ_SRC = "OCHA/CAS villages list 2017, OCHA COD-AB v02, GeoNames, HOT/OSM (via research/geo/gazetteer.jsonl); municipalities from CIB IMPACT and the CAS 2017 list"
 POP_SRC = "registered voters from the Interior Ministry lists of 2014 as transcribed by lub-anan.com; district resident estimates from CAS/ILO 2018-19, the OCHA Lebanon Response Plan 2026 package, Kontur 2023, INFORM 2015 and LandScan 2013; Arabic names from GeoNames, lub-anan.com and Wikidata"
@@ -25,6 +25,7 @@ def emit(ctx):
     ctx.write_json("geo/lebanon.json", geo, "Lebanon governorate and district outlines, pre-projected (shared by the maps)", "OCHA / HDX COD-AB administrative boundaries", "CC BY-IGO")
     R = fb_places.build(ctx, hub)
     idx = R["index"]
+    v10 = fb_places.v10(ctx, hub, R)
     ctx.write_json("places/index.json", idx, f"Places: index of {len(idx['rows']):,} villages, towns and neighbourhoods", GAZ_SRC, GAZ_LIC, rows=len(idx["rows"]))
     for cz, sh in R["shards"].items():
         n = sum(1 for _ in sh)
@@ -54,4 +55,4 @@ def emit(ctx):
                    "UN WPP 2024, UN DESA, UNHCR, CAS, UNRWA, OCHA; each series names its source", "CC BY-SA 4.0 unless a series says otherwise", rows=len(pser))
     ctx.write_json("people/extras.json", {"extras": pex, "camps": camps}, "People: 1932 census, age pyramids and the 12 Palestinian camps (2017 census)", "UN WPP 2024 (CC BY 3.0 IGO); PCBS and CAS 2017 census", "CC BY 3.0 IGO; the camp census states no licence", rows=len(camps))
     dn = json.load(open(hub + "villages/display-names.json", encoding="utf-8"))["names"]    # gazetteer name -> {en, ar, fr}: the common name shown instead of the GeoNames spelling
-    return {"panel": panel, "inline": {"dn": dn, "n": len(idx["rows"]), "elections": len(eidx), "stats": R["stats"], "years": [e["id"] for e in eidx]}, "counts": {"places": len(idx["rows"])}}
+    return {"panel": panel, "inline": {"dn": dn, "n": len(idx["rows"]), "elections": len(eidx), "stats": dict(R["stats"], **v10), "years": [e["id"] for e in eidx]}, "counts": {"places": len(idx["rows"])}}

@@ -1,214 +1,638 @@
 {
-"Official toll": {
-"ar": "الحصيلة الرسمية",
-"fr": "Bilan officiel"
-},
-"Official toll, killed": {
-"ar": "الحصيلة الرسمية للقتلى",
-"fr": "Bilan officiel, morts"
-},
-"Displaced": {
-"ar": "النازحون",
-"fr": "Déplacés"
-},
-"Documented in mapped incidents": {
-"ar": "الموثّق في الحوادث المرسومة على الخريطة",
-"fr": "Documenté dans les incidents cartographiés"
-},
-"{k} killed in {n} incidents": {
-"ar": "{k} قتيلًا في {n} حادثة",
-"fr": "{k} morts dans {n} incidents"
-},
-"Counted by": {
-"ar": "جهة العدّ",
-"fr": "Compté par"
-},
-"As of": {
-"ar": "حتى تاريخ",
-"fr": "À la date du"
-},
-"at least {n}": {
-"ar": "{n} على الأقل",
-"fr": "au moins {n}"
-},
-"not given": {
-"ar": "غير محدد",
-"fr": "non communiqué"
-},
-"{n} count": {
-"ar": "{n} حصيلة",
-"fr": "{n} bilan"
-},
-"{n} counts": {
-"ar": "{n} حصائل",
-"fr": "{n} bilans"
-},
-"Counts as published by the counters named. They differ by war and are not comparable. Mapped incidents are only those a source documents with a place, so the two figures are not expected to match.": {
-"ar": "الأرقام كما نشرتها الجهات المذكورة، وهي تختلف من حرب إلى أخرى ولا تصحّ المقارنة بينها. أما الحوادث المرسومة فهي فقط ما توثّقه مصادر مع تحديد المكان، ولذلك لا يُنتظر أن يتطابق الرقمان.",
-"fr": "Chiffres tels que publiés par les décompteurs cités. Ils diffèrent d'une guerre à l'autre et ne sont pas comparables. Les incidents cartographiés sont seulement ceux qu'une source documente avec un lieu : les deux chiffres ne sont donc pas censés coïncider."
-},
-"Civil war 1975-1990": {
-"ar": "الحرب الأهلية ١٩٧٥-١٩٩٠",
-"fr": "Guerre civile 1975-1990"
-},
-"1978 Litani (Operation Litani)": {
-"ar": "اجتياح الليطاني ١٩٧٨ (عملية الليطاني)",
-"fr": "Litani 1978 (opération Litani)"
-},
-"1982 invasion (Operation Peace for Galilee), 6 Jun-Sep 1982": {
-"ar": "اجتياح ١٩٨٢ (عملية سلامة الجليل)، من ٦ حزيران إلى أيلول ١٩٨٢",
-"fr": "Invasion de 1982 (opération Paix en Galilée), 6 juin-septembre 1982"
-},
-"1982 siege of Beirut, 14 Jun-Aug 1982": {
-"ar": "حصار بيروت ١٩٨٢، من ١٤ حزيران إلى آب ١٩٨٢",
-"fr": "Siège de Beyrouth 1982, 14 juin-août 1982"
-},
-"1993 Accountability (Operation Accountability), 25-31 Jul 1993": {
-"ar": "عملية تصفية الحساب ١٩٩٣، ٢٥-٣١ تموز ١٩٩٣",
-"fr": "Opération Règlement de comptes 1993, 25-31 juillet 1993"
-},
-"1996 Grapes of Wrath (11-27 Apr 1996)": {
-"ar": "عناقيد الغضب ١٩٩٦ (١١-٢٧ نيسان ١٩٩٦)",
-"fr": "Raisins de la colère 1996 (11-27 avril 1996)"
-},
-"2006 war (12 Jul-14 Aug 2006)": {
-"ar": "حرب ٢٠٠٦ (١٢ تموز - ١٤ آب ٢٠٠٦)",
-"fr": "Guerre de 2006 (12 juillet-14 août 2006)"
-},
-"2023-24 war, to the 27 Nov 2024 ceasefire": {
-"ar": "حرب ٢٠٢٣-٢٠٢٤، حتى وقف إطلاق النار في ٢٧ تشرين الثاني ٢٠٢٤",
-"fr": "Guerre de 2023-2024, jusqu'au cessez-le-feu du 27 novembre 2024"
-},
-"2023-24 war, final MoPH count": {
-"ar": "حرب ٢٠٢٣-٢٠٢٤، الحصيلة النهائية لوزارة الصحة العامة",
-"fr": "Guerre de 2023-2024, bilan final du ministère de la Santé publique"
-},
-"2026 war, at the 17 Apr 2026 ceasefire announcement": {
-"ar": "حرب ٢٠٢٦، عند إعلان وقف إطلاق النار في ١٧ نيسان ٢٠٢٦",
-"fr": "Guerre de 2026, à l'annonce du cessez-le-feu du 17 avril 2026"
-},
-"2026 war, latest MoPH count": {
-"ar": "حرب ٢٠٢٦، آخر حصيلة لوزارة الصحة العامة",
-"fr": "Guerre de 2026, dernier bilan du ministère de la Santé publique"
-},
-"Press agencies and later scholarship; no official census of deaths": {
-"ar": "وكالات الأنباء والدراسات اللاحقة؛ لا يوجد إحصاء رسمي للوفيات",
-"fr": "Agences de presse et travaux universitaires ultérieurs ; pas de recensement officiel des décès"
-},
-"Norton (Boston University), cited; other sources for the upper bound": {
-"ar": "نورتون (جامعة بوسطن)، كما ورد في المصادر؛ ومصادر أخرى للحد الأعلى",
-"fr": "Norton (Université de Boston), cité ; d'autres sources pour la borne haute"
-},
-"Lebanese authorities (19,085 killed, 30,000 wounded); Gabriel estimate; Israeli government figures": {
-"ar": "السلطات اللبنانية (١٩٬٠٨٥ قتيلًا و٣٠٬٠٠٠ جريح)؛ تقدير غابرييل؛ أرقام الحكومة الإسرائيلية",
-"fr": "Autorités libanaises (19 085 morts, 30 000 blessés) ; estimation de Gabriel ; chiffres du gouvernement israélien"
-},
-"Lebanese sources (6,776 in Beirut to late Aug); Gabriel (4,000-5,000 civilians)": {
-"ar": "مصادر لبنانية (٦٬٧٧٦ في بيروت حتى أواخر آب)؛ غابرييل (٤٬٠٠٠-٥٬٠٠٠ مدني)",
-"fr": "Sources libanaises (6 776 à Beyrouth jusqu'à fin août) ; Gabriel (4 000-5 000 civils)"
-},
-"Civilian deaths as reported in the Wikipedia article; displacement estimate 300,000-400,000": {
-"ar": "وفيات المدنيين كما وردت في مقالة ويكيبيديا؛ وتقدير النزوح بين ٣٠٠٬٠٠٠ و٤٠٠٬٠٠٠",
-"fr": "Décès de civils selon l'article de Wikipédia ; déplacés estimés entre 300 000 et 400 000"
-},
-"Human Rights Watch (154 civilians killed, 351 wounded); Bregman (250 Lebanese)": {
-"ar": "هيومن رايتس ووتش (١٥٤ مدنيًا قتيلًا و٣٥١ جريحًا)؛ بريغمان (٢٥٠ لبنانيًا)",
-"fr": "Human Rights Watch (154 civils tués, 351 blessés) ; Bregman (250 Libanais)"
-},
-"Lebanese Higher Relief Council (1,191 killed, 4,409 injured); Ministry of Health and police (1,123); HRW (1,109 identified); UN/OCHA (about 900,000 displaced)": {
-"ar": "الهيئة العليا للإغاثة (١٬١٩١ قتيلًا و٤٬٤٠٩ جرحى)؛ وزارة الصحة والشرطة (١٬١٢٣)؛ هيومن رايتس ووتش (١٬١٠٩ تم تحديد هويتهم)؛ الأمم المتحدة/أوتشا (نحو ٩٠٠٬٠٠٠ نازح)",
-"fr": "Haut Conseil de secours libanais (1 191 morts, 4 409 blessés) ; ministère de la Santé et police (1 123) ; HRW (1 109 identifiés) ; ONU/OCHA (environ 900 000 déplacés)"
-},
-"Lebanon Ministry of Public Health, via OCHA Lebanon Flash Updates; displaced IOM DTM via OCHA": {
-"ar": "وزارة الصحة العامة اللبنانية، عبر نشرات أوتشا السريعة للبنان؛ والنازحون من مصفوفة تتبع النزوح (IOM DTM) عبر أوتشا",
-"fr": "Ministère libanais de la Santé publique, via les Flash Updates d'OCHA Liban ; déplacés : IOM DTM via OCHA"
-},
-"Lebanon Ministry of Public Health, via OCHA Lebanon Flash Update": {
-"ar": "وزارة الصحة العامة اللبنانية، عبر النشرة السريعة لأوتشا في لبنان",
-"fr": "Ministère libanais de la Santé publique, via le Flash Update d'OCHA Liban"
-},
-"Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA); displaced by the government's total at the peak (17 Mar 2026)": {
-"ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)؛ والنازحون بحسب إجمالي الحكومة في الذروة (١٧ آذار ٢٠٢٦)",
-"fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA) ; déplacés : total du gouvernement au pic (17 mars 2026)"
-},
-"Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA)": {
-"ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)",
-"fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA)"
-},
-"{d1}": {
-"ar": "{d1}",
-"fr": "{d1}"
-},
-"1990 (final estimates)": {
-"ar": "١٩٩٠ (التقديرات النهائية)",
-"fr": "1990 (estimations finales)"
-},
-"autumn 1982": {
-"ar": "خريف ١٩٨٢",
-"fr": "automne 1982"
-},
-"late Aug 1982": {
-"ar": "أواخر آب ١٩٨٢",
-"fr": "fin août 1982"
-},
-"31 Jul 1993": {
-"ar": "٣١ تموز ١٩٩٣",
-"fr": "31 juillet 1993"
-},
-"27 Apr 1996": {
-"ar": "٢٧ نيسان ١٩٩٦",
-"fr": "27 avril 1996"
-},
-"Aug 2006 ceasefire (14 Aug)": {
-"ar": "وقف إطلاق النار في آب ٢٠٠٦ (١٤ آب)",
-"fr": "cessez-le-feu d'août 2006 (14 août)"
-},
-"killed {d1}; injured {d2}": {
-"ar": "القتلى حتى {d1}؛ الجرحى حتى {d2}",
-"fr": "morts au {d1} ; blessés au {d2}"
-},
-"Estimates only: no official census of deaths exists. Official Lebanese figures of 35,000 to 40,000 are cited as far lower.": {
-"ar": "تقديرات فقط: لا يوجد إحصاء رسمي للوفيات. وتُذكر أرقام لبنانية رسمية بين ٣٥٬٠٠٠ و٤٠٬٠٠٠ أي أقل بكثير.",
-"fr": "Estimations seulement : il n'existe pas de recensement officiel des décès. Des chiffres officiels libanais de 35 000 à 40 000 sont cités, bien plus bas."
-},
-"Lebanese and Palestinians killed; Israeli deaths are not counted here. Displaced: 100,000 to 250,000.": {
-"ar": "القتلى من اللبنانيين والفلسطينيين؛ ولا تُحتسب هنا وفيات الإسرائيليين. النازحون: من ١٠٠٬٠٠٠ إلى ٢٥٠٬٠٠٠.",
-"fr": "Libanais et Palestiniens tués ; les décès israéliens ne sont pas comptés ici. Déplacés : de 100 000 à 250 000."
-},
-"The high figure is from Lebanese authorities, the low one a scholar's estimate. Excludes Sabra and Shatila. Counts mix civilians and fighters.": {
-"ar": "الرقم الأعلى من السلطات اللبنانية والأدنى تقدير باحث. لا يشمل صبرا وشاتيلا. وتجمع الأعداد بين المدنيين والمقاتلين.",
-"fr": "Le chiffre haut vient des autorités libanaises, le bas d'un universitaire. Sabra et Chatila exclus. Les décomptes mêlent civils et combattants."
-},
-"Overlaps with the 1982 invasion count: do not add the two.": {
-"ar": "يتداخل مع حصيلة اجتياح ١٩٨٢: لا تجمعوا الرقمين.",
-"fr": "Recoupe le bilan de l'invasion de 1982 : ne pas additionner les deux."
-},
-"Civilian deaths only. Fighters' deaths are disputed, so there is no upper estimate.": {
-"ar": "وفيات المدنيين فقط. وفيات المقاتلين موضع خلاف، فلا يوجد تقدير أعلى.",
-"fr": "Décès de civils seulement. Ceux des combattants sont contestés, donc pas d'estimation haute."
-},
-"Human Rights Watch counted 154 civilians killed; another count gives 250 Lebanese.": {
-"ar": "أحصت هيومن رايتس ووتش ١٥٤ مدنيًا قتيلًا؛ وفي إحصاء آخر ٢٥٠ لبنانيًا.",
-"fr": "Human Rights Watch a compté 154 civils tués ; un autre décompte donne 250 Libanais."
-},
-"Government counts do not separate civilians from fighters.": {
-"ar": "لا تفصل الإحصاءات الحكومية بين المدنيين والمقاتلين.",
-"fr": "Les décomptes du gouvernement ne séparent pas civils et combattants."
-},
-"Fighters and civilians are counted together. Displaced is the IOM figure at its peak, 25 Nov 2024.": {
-"ar": "يُحتسب المقاتلون والمدنيون معًا. النازحون هو رقم المنظمة الدولية للهجرة في ذروته، ٢٥ تشرين الثاني ٢٠٢٤.",
-"fr": "Combattants et civils sont comptés ensemble. Les déplacés sont le chiffre de l'OIM à son pic, le 25 novembre 2024."
-},
-"The last cumulative figure in our series, including late reports after the ceasefire.": {
-"ar": "آخر رقم تراكمي في سلسلتنا، ويشمل تقارير متأخرة بعد وقف إطلاق النار.",
-"fr": "Dernier chiffre cumulé de notre série, y compris des signalements tardifs après le cessez-le-feu."
-},
-"Cumulative since 2 Mar 2026. Displaced is the government's registered total at its peak, 17 Mar 2026.": {
-"ar": "تراكمي منذ ٢ آذار ٢٠٢٦. النازحون هو إجمالي المسجلين لدى الحكومة في ذروته، ١٧ آذار ٢٠٢٦.",
-"fr": "Cumulé depuis le 2 mars 2026. Les déplacés sont le total enregistré par le gouvernement à son pic, le 17 mars 2026."
-},
-"Killed and injured are from different dates. Fighters and civilians are not separated.": {
-"ar": "أرقام القتلى والجرحى من تواريخ مختلفة. ولا يُفصل بين المقاتلين والمدنيين.",
-"fr": "Les morts et les blessés datent de jours différents. Combattants et civils ne sont pas séparés."
-}
+ "Official toll": {
+  "ar": "الحصيلة الرسمية",
+  "fr": "Bilan officiel"
+ },
+ "Official toll, killed": {
+  "ar": "الحصيلة الرسمية للقتلى",
+  "fr": "Bilan officiel, morts"
+ },
+ "Displaced": {
+  "ar": "النازحون",
+  "fr": "Déplacés"
+ },
+ "Documented in mapped incidents": {
+  "ar": "الموثّق في الحوادث المرسومة على الخريطة",
+  "fr": "Documenté dans les incidents cartographiés"
+ },
+ "{k} killed in {n} incidents": {
+  "ar": "{k} قتيلًا في {n} حادثة",
+  "fr": "{k} morts dans {n} incidents"
+ },
+ "Counted by": {
+  "ar": "جهة العدّ",
+  "fr": "Compté par"
+ },
+ "As of": {
+  "ar": "حتى تاريخ",
+  "fr": "À la date du"
+ },
+ "at least {n}": {
+  "ar": "{n} على الأقل",
+  "fr": "au moins {n}"
+ },
+ "not given": {
+  "ar": "غير محدد",
+  "fr": "non communiqué"
+ },
+ "{n} count": {
+  "ar": "{n} حصيلة",
+  "fr": "{n} bilan"
+ },
+ "{n} counts": {
+  "ar": "{n} حصائل",
+  "fr": "{n} bilans"
+ },
+ "Counts as published by the counters named. They differ by war and are not comparable. Mapped incidents are only those a source documents with a place, so the two figures are not expected to match.": {
+  "ar": "الأرقام كما نشرتها الجهات المذكورة، وهي تختلف من حرب إلى أخرى ولا تصحّ المقارنة بينها. أما الحوادث المرسومة فهي فقط ما توثّقه مصادر مع تحديد المكان، ولذلك لا يُنتظر أن يتطابق الرقمان.",
+  "fr": "Chiffres tels que publiés par les décompteurs cités. Ils diffèrent d'une guerre à l'autre et ne sont pas comparables. Les incidents cartographiés sont seulement ceux qu'une source documente avec un lieu : les deux chiffres ne sont donc pas censés coïncider."
+ },
+ "Civil war 1975-1990": {
+  "ar": "الحرب الأهلية ١٩٧٥-١٩٩٠",
+  "fr": "Guerre civile 1975-1990"
+ },
+ "1978 Litani (Operation Litani)": {
+  "ar": "اجتياح الليطاني ١٩٧٨ (عملية الليطاني)",
+  "fr": "Litani 1978 (opération Litani)"
+ },
+ "1982 invasion (Operation Peace for Galilee), 6 Jun-Sep 1982": {
+  "ar": "اجتياح ١٩٨٢ (عملية سلامة الجليل)، من ٦ حزيران إلى أيلول ١٩٨٢",
+  "fr": "Invasion de 1982 (opération Paix en Galilée), 6 juin-septembre 1982"
+ },
+ "1982 siege of Beirut, 14 Jun-Aug 1982": {
+  "ar": "حصار بيروت ١٩٨٢، من ١٤ حزيران إلى آب ١٩٨٢",
+  "fr": "Siège de Beyrouth 1982, 14 juin-août 1982"
+ },
+ "1993 Accountability (Operation Accountability), 25-31 Jul 1993": {
+  "ar": "عملية تصفية الحساب ١٩٩٣، ٢٥-٣١ تموز ١٩٩٣",
+  "fr": "Opération Règlement de comptes 1993, 25-31 juillet 1993"
+ },
+ "1996 Grapes of Wrath (11-27 Apr 1996)": {
+  "ar": "عناقيد الغضب ١٩٩٦ (١١-٢٧ نيسان ١٩٩٦)",
+  "fr": "Raisins de la colère 1996 (11-27 avril 1996)"
+ },
+ "2006 war (12 Jul-14 Aug 2006)": {
+  "ar": "حرب ٢٠٠٦ (١٢ تموز - ١٤ آب ٢٠٠٦)",
+  "fr": "Guerre de 2006 (12 juillet-14 août 2006)"
+ },
+ "2023-24 war, to the 27 Nov 2024 ceasefire": {
+  "ar": "حرب ٢٠٢٣-٢٠٢٤، حتى وقف إطلاق النار في ٢٧ تشرين الثاني ٢٠٢٤",
+  "fr": "Guerre de 2023-2024, jusqu'au cessez-le-feu du 27 novembre 2024"
+ },
+ "2023-24 war, final MoPH count": {
+  "ar": "حرب ٢٠٢٣-٢٠٢٤، الحصيلة النهائية لوزارة الصحة العامة",
+  "fr": "Guerre de 2023-2024, bilan final du ministère de la Santé publique"
+ },
+ "2026 war, at the 17 Apr 2026 ceasefire announcement": {
+  "ar": "حرب ٢٠٢٦، عند إعلان وقف إطلاق النار في ١٧ نيسان ٢٠٢٦",
+  "fr": "Guerre de 2026, à l'annonce du cessez-le-feu du 17 avril 2026"
+ },
+ "2026 war, latest MoPH count": {
+  "ar": "حرب ٢٠٢٦، آخر حصيلة لوزارة الصحة العامة",
+  "fr": "Guerre de 2026, dernier bilan du ministère de la Santé publique"
+ },
+ "Press agencies and later scholarship; no official census of deaths": {
+  "ar": "وكالات الأنباء والدراسات اللاحقة؛ لا يوجد إحصاء رسمي للوفيات",
+  "fr": "Agences de presse et travaux universitaires ultérieurs ; pas de recensement officiel des décès"
+ },
+ "Norton (Boston University), cited; other sources for the upper bound": {
+  "ar": "نورتون (جامعة بوسطن)، كما ورد في المصادر؛ ومصادر أخرى للحد الأعلى",
+  "fr": "Norton (Université de Boston), cité ; d'autres sources pour la borne haute"
+ },
+ "Lebanese authorities (19,085 killed, 30,000 wounded); Gabriel estimate; Israeli government figures": {
+  "ar": "السلطات اللبنانية (١٩٬٠٨٥ قتيلًا و٣٠٬٠٠٠ جريح)؛ تقدير غابرييل؛ أرقام الحكومة الإسرائيلية",
+  "fr": "Autorités libanaises (19 085 morts, 30 000 blessés) ; estimation de Gabriel ; chiffres du gouvernement israélien"
+ },
+ "Lebanese sources (6,776 in Beirut to late Aug); Gabriel (4,000-5,000 civilians)": {
+  "ar": "مصادر لبنانية (٦٬٧٧٦ في بيروت حتى أواخر آب)؛ غابرييل (٤٬٠٠٠-٥٬٠٠٠ مدني)",
+  "fr": "Sources libanaises (6 776 à Beyrouth jusqu'à fin août) ; Gabriel (4 000-5 000 civils)"
+ },
+ "Civilian deaths as reported in the Wikipedia article; displacement estimate 300,000-400,000": {
+  "ar": "وفيات المدنيين كما وردت في مقالة ويكيبيديا؛ وتقدير النزوح بين ٣٠٠٬٠٠٠ و٤٠٠٬٠٠٠",
+  "fr": "Décès de civils selon l'article de Wikipédia ; déplacés estimés entre 300 000 et 400 000"
+ },
+ "Human Rights Watch (154 civilians killed, 351 wounded); Bregman (250 Lebanese)": {
+  "ar": "هيومن رايتس ووتش (١٥٤ مدنيًا قتيلًا و٣٥١ جريحًا)؛ بريغمان (٢٥٠ لبنانيًا)",
+  "fr": "Human Rights Watch (154 civils tués, 351 blessés) ; Bregman (250 Libanais)"
+ },
+ "Lebanese Higher Relief Council (1,191 killed, 4,409 injured); Ministry of Health and police (1,123); HRW (1,109 identified); UN/OCHA (about 900,000 displaced)": {
+  "ar": "الهيئة العليا للإغاثة (١٬١٩١ قتيلًا و٤٬٤٠٩ جرحى)؛ وزارة الصحة والشرطة (١٬١٢٣)؛ هيومن رايتس ووتش (١٬١٠٩ تم تحديد هويتهم)؛ الأمم المتحدة/أوتشا (نحو ٩٠٠٬٠٠٠ نازح)",
+  "fr": "Haut Conseil de secours libanais (1 191 morts, 4 409 blessés) ; ministère de la Santé et police (1 123) ; HRW (1 109 identifiés) ; ONU/OCHA (environ 900 000 déplacés)"
+ },
+ "Lebanon Ministry of Public Health, via OCHA Lebanon Flash Updates; displaced IOM DTM via OCHA": {
+  "ar": "وزارة الصحة العامة اللبنانية، عبر نشرات أوتشا السريعة للبنان؛ والنازحون من مصفوفة تتبع النزوح (IOM DTM) عبر أوتشا",
+  "fr": "Ministère libanais de la Santé publique, via les Flash Updates d'OCHA Liban ; déplacés : IOM DTM via OCHA"
+ },
+ "Lebanon Ministry of Public Health, via OCHA Lebanon Flash Update": {
+  "ar": "وزارة الصحة العامة اللبنانية، عبر النشرة السريعة لأوتشا في لبنان",
+  "fr": "Ministère libanais de la Santé publique, via le Flash Update d'OCHA Liban"
+ },
+ "Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA); displaced by the government's total at the peak (17 Mar 2026)": {
+  "ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)؛ والنازحون بحسب إجمالي الحكومة في الذروة (١٧ آذار ٢٠٢٦)",
+  "fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA) ; déplacés : total du gouvernement au pic (17 mars 2026)"
+ },
+ "Lebanon Ministry of Public Health (WHO EMRO sitreps and OCHA)": {
+  "ar": "وزارة الصحة العامة اللبنانية (تقارير منظمة الصحة العالمية لشرق المتوسط وأوتشا)",
+  "fr": "Ministère libanais de la Santé publique (rapports de situation de l'OMS EMRO et OCHA)"
+ },
+ "{d1}": {
+  "ar": "{d1}",
+  "fr": "{d1}"
+ },
+ "1990 (final estimates)": {
+  "ar": "١٩٩٠ (التقديرات النهائية)",
+  "fr": "1990 (estimations finales)"
+ },
+ "autumn 1982": {
+  "ar": "خريف ١٩٨٢",
+  "fr": "automne 1982"
+ },
+ "late Aug 1982": {
+  "ar": "أواخر آب ١٩٨٢",
+  "fr": "fin août 1982"
+ },
+ "31 Jul 1993": {
+  "ar": "٣١ تموز ١٩٩٣",
+  "fr": "31 juillet 1993"
+ },
+ "27 Apr 1996": {
+  "ar": "٢٧ نيسان ١٩٩٦",
+  "fr": "27 avril 1996"
+ },
+ "Aug 2006 ceasefire (14 Aug)": {
+  "ar": "وقف إطلاق النار في آب ٢٠٠٦ (١٤ آب)",
+  "fr": "cessez-le-feu d'août 2006 (14 août)"
+ },
+ "killed {d1}; injured {d2}": {
+  "ar": "القتلى حتى {d1}؛ الجرحى حتى {d2}",
+  "fr": "morts au {d1} ; blessés au {d2}"
+ },
+ "Estimates only: no official census of deaths exists. Official Lebanese figures of 35,000 to 40,000 are cited as far lower.": {
+  "ar": "تقديرات فقط: لا يوجد إحصاء رسمي للوفيات. وتُذكر أرقام لبنانية رسمية بين ٣٥٬٠٠٠ و٤٠٬٠٠٠ أي أقل بكثير.",
+  "fr": "Estimations seulement : il n'existe pas de recensement officiel des décès. Des chiffres officiels libanais de 35 000 à 40 000 sont cités, bien plus bas."
+ },
+ "Lebanese and Palestinians killed; Israeli deaths are not counted here. Displaced: 100,000 to 250,000.": {
+  "ar": "القتلى من اللبنانيين والفلسطينيين؛ ولا تُحتسب هنا وفيات الإسرائيليين. النازحون: من ١٠٠٬٠٠٠ إلى ٢٥٠٬٠٠٠.",
+  "fr": "Libanais et Palestiniens tués ; les décès israéliens ne sont pas comptés ici. Déplacés : de 100 000 à 250 000."
+ },
+ "The high figure is from Lebanese authorities, the low one a scholar's estimate. Excludes Sabra and Shatila. Counts mix civilians and fighters.": {
+  "ar": "الرقم الأعلى من السلطات اللبنانية والأدنى تقدير باحث. لا يشمل صبرا وشاتيلا. وتجمع الأعداد بين المدنيين والمقاتلين.",
+  "fr": "Le chiffre haut vient des autorités libanaises, le bas d'un universitaire. Sabra et Chatila exclus. Les décomptes mêlent civils et combattants."
+ },
+ "Overlaps with the 1982 invasion count: do not add the two.": {
+  "ar": "يتداخل مع حصيلة اجتياح ١٩٨٢: لا تجمعوا الرقمين.",
+  "fr": "Recoupe le bilan de l'invasion de 1982 : ne pas additionner les deux."
+ },
+ "Civilian deaths only. Fighters' deaths are disputed, so there is no upper estimate.": {
+  "ar": "وفيات المدنيين فقط. وفيات المقاتلين موضع خلاف، فلا يوجد تقدير أعلى.",
+  "fr": "Décès de civils seulement. Ceux des combattants sont contestés, donc pas d'estimation haute."
+ },
+ "Human Rights Watch counted 154 civilians killed; another count gives 250 Lebanese.": {
+  "ar": "أحصت هيومن رايتس ووتش ١٥٤ مدنيًا قتيلًا؛ وفي إحصاء آخر ٢٥٠ لبنانيًا.",
+  "fr": "Human Rights Watch a compté 154 civils tués ; un autre décompte donne 250 Libanais."
+ },
+ "Government counts do not separate civilians from fighters.": {
+  "ar": "لا تفصل الإحصاءات الحكومية بين المدنيين والمقاتلين.",
+  "fr": "Les décomptes du gouvernement ne séparent pas civils et combattants."
+ },
+ "Fighters and civilians are counted together. Displaced is the IOM figure at its peak, 25 Nov 2024.": {
+  "ar": "يُحتسب المقاتلون والمدنيون معًا. النازحون هو رقم المنظمة الدولية للهجرة في ذروته، ٢٥ تشرين الثاني ٢٠٢٤.",
+  "fr": "Combattants et civils sont comptés ensemble. Les déplacés sont le chiffre de l'OIM à son pic, le 25 novembre 2024."
+ },
+ "The last cumulative figure in our series, including late reports after the ceasefire.": {
+  "ar": "آخر رقم تراكمي في سلسلتنا، ويشمل تقارير متأخرة بعد وقف إطلاق النار.",
+  "fr": "Dernier chiffre cumulé de notre série, y compris des signalements tardifs après le cessez-le-feu."
+ },
+ "Cumulative since 2 Mar 2026. Displaced is the government's registered total at its peak, 17 Mar 2026.": {
+  "ar": "تراكمي منذ ٢ آذار ٢٠٢٦. النازحون هو إجمالي المسجلين لدى الحكومة في ذروته، ١٧ آذار ٢٠٢٦.",
+  "fr": "Cumulé depuis le 2 mars 2026. Les déplacés sont le total enregistré par le gouvernement à son pic, le 17 mars 2026."
+ },
+ "Killed and injured are from different dates. Fighters and civilians are not separated.": {
+  "ar": "أرقام القتلى والجرحى من تواريخ مختلفة. ولا يُفصل بين المقاتلين والمدنيين.",
+  "fr": "Les morts et les blessés datent de jours différents. Combattants et civils ne sont pas séparés."
+ },
+ "A separate layer, off by default. It is not added to the incidents, places or killed counts, and the war, kind and search filters do not apply to it; the From and To dates do. No row has coordinates, so none is drawn as a dot.": {
+  "ar": "طبقة منفصلة وغير مفعّلة افتراضياً. لا تُضاف إلى أعداد الحوادث أو الأماكن أو القتلى، ولا تنطبق عليها مرشّحات الحرب والنوع والبحث، أما تاريخا «من» و«إلى» فينطبقان. لا توجد إحداثيات لأي سجل، فلا يُرسم أيٌّ منها نقطةً.",
+  "fr": "Une couche distincte, désactivée par défaut. Elle n'est pas ajoutée aux nombres d'incidents, de lieux ou de morts, et les filtres de guerre, de type et de recherche ne s'y appliquent pas ; les dates Du et Au, si. Aucune ligne n'a de coordonnées : aucune n'est donc dessinée comme un point."
+ },
+ "Administration": {
+  "ar": "إدارة",
+  "fr": "Administration"
+ },
+ "Aerial Bomb: Drone": {
+  "ar": "قنبلة جوية: طائرة مسيّرة",
+  "fr": "Bombe aérienne : drone"
+ },
+ "Aerial Bomb: No Information on Platform Type": {
+  "ar": "قنبلة جوية: نوع المنصّة غير معروف",
+  "fr": "Bombe aérienne : type de plateforme inconnu"
+ },
+ "Aerial Bomb: Plane": {
+  "ar": "قنبلة جوية: طائرة",
+  "fr": "Bombe aérienne : avion"
+ },
+ "Aid workers": {
+  "ar": "العاملون في المجال الإنساني",
+  "fr": "Travailleurs humanitaires"
+ },
+ "Airstrip": {
+  "ar": "مدرج",
+  "fr": "Piste d'atterrissage"
+ },
+ "Al-Shabaab": {
+  "ar": "حركة الشباب",
+  "fr": "Al-Chabab"
+ },
+ "Arson": {
+  "ar": "إحراق متعمّد",
+  "fr": "Incendie criminel"
+ },
+ "Attacks on health care, schools and aid (Insecurity Insight)": {
+  "ar": "الهجمات على الرعاية الصحية والمدارس والمساعدات (Insecurity Insight)",
+  "fr": "Attaques contre les soins de santé, les écoles et l'aide (Insecurity Insight)"
+ },
+ "Blue shading is the attacks layer, up to {n} rows in a governorate. It is separate from the strikes: it is not part of any count on this page.": {
+  "ar": "التظليل الأزرق هو طبقة الهجمات، وفي المحافظة الواحدة حتى {n} من السجلات. وهي منفصلة عن الغارات: ليست جزءاً من أي عدّ في هذه الصفحة.",
+  "fr": "L'ombrage bleu est la couche des attaques, jusqu'à {n} lignes dans un gouvernorat. Elle est distincte des frappes : elle ne fait partie d'aucun décompte de cette page."
+ },
+ "Children": {
+  "ar": "أطفال",
+  "fr": "Enfants"
+ },
+ "Civilian individual": {
+  "ar": "فرد مدني",
+  "fr": "Civil, à titre individuel"
+ },
+ "Compound/Office Building": {
+  "ar": "مجمّع أو مبنى مكاتب",
+  "fr": "Complexe ou immeuble de bureaux"
+ },
+ "Criminal": {
+  "ar": "جهة إجرامية",
+  "fr": "Acteur criminel"
+ },
+ "Demonstrators": {
+  "ar": "متظاهرون",
+  "fr": "Manifestants"
+ },
+ "Education Building": {
+  "ar": "مبنى تعليمي",
+  "fr": "Bâtiment éducatif"
+ },
+ "Employee": {
+  "ar": "موظف",
+  "fr": "Employé"
+ },
+ "Every row": {
+  "ar": "كل السجلات",
+  "fr": "Toutes les lignes"
+ },
+ "Fatah": {
+  "ar": "فتح",
+  "fr": "Fatah"
+ },
+ "Fatah al Islam": {
+  "ar": "فتح الإسلام",
+  "fr": "Fatah al-Islam"
+ },
+ "Firearms": {
+  "ar": "أسلحة نارية",
+  "fr": "Armes à feu"
+ },
+ "Firearms, Rocket": {
+  "ar": "أسلحة نارية، قذيفة صاروخية",
+  "fr": "Armes à feu, roquette"
+ },
+ "Fist and Foot": {
+  "ar": "ضرب باليد والقدم",
+  "fr": "Coups de poing et de pied"
+ },
+ "Forces de Sécurité Intérieure (Lebanon)": {
+  "ar": "قوى الأمن الداخلي (لبنان)",
+  "fr": "Forces de sécurité intérieure (Liban)"
+ },
+ "Go to the list": {
+  "ar": "انتقل إلى القائمة",
+  "fr": "Aller à la liste"
+ },
+ "Government of Lebanon": {
+  "ar": "الحكومة اللبنانية",
+  "fr": "Gouvernement libanais"
+ },
+ "Hand Grenade": {
+  "ar": "قنبلة يدوية",
+  "fr": "Grenade à main"
+ },
+ "Health Building": {
+  "ar": "مبنى صحي",
+  "fr": "Bâtiment de santé"
+ },
+ "Health care": {
+  "ar": "الرعاية الصحية",
+  "fr": "Soins de santé"
+ },
+ "Health worker": {
+  "ar": "عامل صحي",
+  "fr": "Agent de santé"
+ },
+ "Home": {
+  "ar": "منزل",
+  "fr": "Domicile"
+ },
+ "IDP/Refugee Camp": {
+  "ar": "مخيم نازحين أو لاجئين",
+  "fr": "Camp de déplacés ou de réfugiés"
+ },
+ "Insecurity Insight, Aid Security Risk in Lebanon, through the Humanitarian Data Exchange.": {
+  "ar": "Insecurity Insight، «مخاطر أمن المساعدات في لبنان»، عبر منصة تبادل البيانات الإنسانية.",
+  "fr": "Insecurity Insight, « Aid Security Risk in Lebanon », via le Humanitarian Data Exchange."
+ },
+ "Islamic Revolutionary Guard Corps": {
+  "ar": "الحرس الثوري الإسلامي",
+  "fr": "Corps des gardiens de la révolution islamique"
+ },
+ "Israeli Defence Forces": {
+  "ar": "الجيش الإسرائيلي",
+  "fr": "Forces de défense israéliennes"
+ },
+ "Jund al-Sham": {
+  "ar": "جند الشام",
+  "fr": "Jund al-Cham"
+ },
+ "Keserwan-Jbeil Governorate": {
+  "ar": "محافظة كسروان - جبيل",
+  "fr": "Gouvernorat du Kesrouan-Jbeil"
+ },
+ "Killed and injured count only the group each sheet tracks, so they are not added across kinds. The perpetrator is as reported by the publisher, not a finding of this Hub.": {
+  "ar": "يقتصر عدّ القتلى والجرحى على الفئة التي يتتبّعها كل جدول، فلا تُجمع عبر الأنواع. أما مرتكب الهجوم فكما أوردته الجهة الناشرة، وليس استنتاجاً من هذا المركز.",
+  "fr": "Les morts et les blessés ne comptent que le groupe suivi par chaque feuille : ils ne sont pas additionnés d'un type à l'autre. L'auteur est celui indiqué par l'éditeur, et non une conclusion du Hub."
+ },
+ "Kind of attack": {
+  "ar": "نوع الهجوم",
+  "fr": "Type d'attaque"
+ },
+ "Knife": {
+  "ar": "سكين",
+  "fr": "Couteau"
+ },
+ "Lebanese Armed Forces": {
+  "ar": "الجيش اللبناني",
+  "fr": "Forces armées libanaises"
+ },
+ "Mine": {
+  "ar": "لغم",
+  "fr": "Mine"
+ },
+ "Missile": {
+  "ar": "صاروخ موجّه",
+  "fr": "Missile"
+ },
+ "No governorate stated": {
+  "ar": "دون ذكر المحافظة",
+  "fr": "Gouvernorat non indiqué"
+ },
+ "No rows in these dates and kinds.": {
+  "ar": "لا سجلات في هذه التواريخ والأنواع.",
+  "fr": "Aucune ligne pour ces dates et ces types."
+ },
+ "Not Applicable: No Direct Violence": {
+  "ar": "لا ينطبق: لا عنف مباشر",
+  "fr": "Sans objet : pas de violence directe"
+ },
+ "Open Space": {
+  "ar": "مساحة مفتوحة",
+  "fr": "Espace ouvert"
+ },
+ "Other Weapon": {
+  "ar": "سلاح آخر",
+  "fr": "Autre arme"
+ },
+ "Palestinian Popular Committees": {
+  "ar": "اللجان الشعبية الفلسطينية",
+  "fr": "Comités populaires palestiniens"
+ },
+ "Partner organisation": {
+  "ar": "منظمة شريكة",
+  "fr": "Organisation partenaire"
+ },
+ "Private Travel": {
+  "ar": "تنقّل خاص",
+  "fr": "Déplacement privé"
+ },
+ "Project Site": {
+  "ar": "موقع مشروع",
+  "fr": "Site de projet"
+ },
+ "Public Building": {
+  "ar": "مبنى عام",
+  "fr": "Bâtiment public"
+ },
+ "Refugees/IDPs": {
+  "ar": "لاجئون ونازحون",
+  "fr": "Réfugiés et déplacés internes"
+ },
+ "Remote Threat": {
+  "ar": "تهديد عن بُعد",
+  "fr": "Menace à distance"
+ },
+ "Remote-controlled IED": {
+  "ar": "عبوة ناسفة مرتجلة تُفجَّر عن بُعد",
+  "fr": "Engin explosif improvisé télécommandé"
+ },
+ "Reported perpetrator": {
+  "ar": "مرتكب الهجوم كما ورد",
+  "fr": "Auteur signalé"
+ },
+ "Road": {
+  "ar": "طريق",
+  "fr": "Route"
+ },
+ "Rocket": {
+  "ar": "قذيفة صاروخية",
+  "fr": "Roquette"
+ },
+ "Rows": {
+  "ar": "السجلات",
+  "fr": "Lignes"
+ },
+ "Rows by governorate": {
+  "ar": "السجلات بحسب المحافظة",
+  "fr": "Lignes par gouvernorat"
+ },
+ "Rows of the publisher's incident data. They are listed here and counted by governorate; they are never added to the strike counts above. Dates follow the From and To dates of the map.": {
+  "ar": "سجلات من بيانات الحوادث لدى الجهة الناشرة. تُعرض هنا وتُعدّ بحسب المحافظة، ولا تُضاف أبداً إلى أعداد الغارات أعلاه. وتتبع التواريخ تاريخَي «من» و«إلى» في الخريطة.",
+  "fr": "Lignes des données d'incidents de l'éditeur. Elles sont listées ici et comptées par gouvernorat ; elles ne sont jamais ajoutées aux décomptes de frappes ci-dessus. Les dates suivent les dates Du et Au de la carte."
+ },
+ "School": {
+  "ar": "مدرسة",
+  "fr": "École"
+ },
+ "Schools and education": {
+  "ar": "المدارس والتعليم",
+  "fr": "Écoles et éducation"
+ },
+ "Security Forces (Libya)": {
+  "ar": "قوات الأمن (ليبيا)",
+  "fr": "Forces de sécurité (Libye)"
+ },
+ "Shading on the map: rows per governorate": {
+  "ar": "التظليل على الخريطة: السجلات في كل محافظة",
+  "fr": "Ombrage sur la carte : lignes par gouvernorat"
+ },
+ "Sniper": {
+  "ar": "قنص",
+  "fr": "Tireur d'élite"
+ },
+ "Stones, Sticks and Gravel": {
+  "ar": "حجارة وعصي وحصى",
+  "fr": "Pierres, bâtons et gravier"
+ },
+ "Syrian Armed Forces": {
+  "ar": "القوات المسلحة السورية",
+  "fr": "Forces armées syriennes"
+ },
+ "Tahrir al-Sham": {
+  "ar": "هيئة تحرير الشام",
+  "fr": "Tahrir al-Cham"
+ },
+ "Tasers, Live and Rubber Bullets": {
+  "ar": "صواعق كهربائية ورصاص حي ومطاطي",
+  "fr": "Tasers, balles réelles et balles en caoutchouc"
+ },
+ "Unarmed Perpetrator": {
+  "ar": "مرتكب غير مسلّح",
+  "fr": "Auteur non armé"
+ },
+ "Unidentified Armed Actor": {
+  "ar": "جهة مسلحة مجهولة",
+  "fr": "Acteur armé non identifié"
+ },
+ "Unspecified Explosive": {
+  "ar": "متفجرات غير محددة",
+  "fr": "Explosif non précisé"
+ },
+ "Unspecified IED": {
+  "ar": "عبوة ناسفة مرتجلة غير محددة",
+  "fr": "Engin explosif improvisé non précisé"
+ },
+ "Warehouse": {
+  "ar": "مستودع",
+  "fr": "Entrepôt"
+ },
+ "Water systems": {
+  "ar": "شبكات المياه",
+  "fr": "Systèmes d'eau"
+ },
+ "Who is counted": {
+  "ar": "الفئة المعدودة",
+  "fr": "Qui est compté"
+ },
+ "aid workers": {
+  "ar": "العاملون في المجال الإنساني",
+  "fr": "travailleurs humanitaires"
+ },
+ "educators and students": {
+  "ar": "المعلّمون والطلاب",
+  "fr": "enseignants et élèves"
+ },
+ "health workers": {
+  "ar": "العاملون الصحيون",
+  "fr": "personnels de santé"
+ },
+ "no outline on this map": {
+  "ar": "لا حدود لها على هذه الخريطة",
+  "fr": "sans contour sur cette carte"
+ },
+ "not counted": {
+  "ar": "غير معدودة",
+  "fr": "non compté"
+ },
+ "{n} arrested": {
+  "ar": "الموقوفون: {n}",
+  "fr": "arrêtés : {n}"
+ },
+ "{n} event appears in two sheets, so rows are not always separate incidents.": {
+  "ar": "حدث واحد يرد في جدولين، فليست السجلات دائماً حوادث منفصلة.",
+  "fr": "{n} événement figure dans deux feuilles : les lignes ne sont donc pas toujours des incidents distincts."
+ },
+ "{n} events appear in two sheets, so rows are not always separate incidents.": {
+  "ar": "{n} أحداث ترد في جدولين، فليست السجلات دائماً حوادث منفصلة.",
+  "fr": "{n} événements figurent dans deux feuilles : les lignes ne sont donc pas toujours des incidents distincts."
+ },
+ "{n} kidnapped": {
+  "ar": "المخطوفون: {n}",
+  "fr": "enlevés : {n}"
+ },
+ "Control of Corruption (WGI estimate)": {
+  "ar": "السيطرة على الفساد (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "Contrôle de la corruption (estimation WGI)"
+ },
+ "Government Effectiveness (WGI estimate)": {
+  "ar": "فعالية الحكومة (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "Efficacité du gouvernement (estimation WGI)"
+ },
+ "Political Stability and Absence of Violence/Terrorism (WGI estimate)": {
+  "ar": "الاستقرار السياسي وغياب العنف والإرهاب (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "Stabilité politique et absence de violence ou de terrorisme (estimation WGI)"
+ },
+ "Rule of Law (WGI estimate)": {
+  "ar": "سيادة القانون (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "État de droit (estimation WGI)"
+ },
+ "Regulatory Quality (WGI estimate)": {
+  "ar": "جودة الأطر التنظيمية (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "Qualité de la réglementation (estimation WGI)"
+ },
+ "Voice and Accountability (WGI estimate)": {
+  "ar": "المشاركة والمساءلة (تقدير مؤشرات الحوكمة العالمية)",
+  "fr": "Voix et responsabilité (estimation WGI)"
+ },
+ "Corruption Perceptions Index (Transparency International)": {
+  "ar": "مؤشر مدركات الفساد (منظمة الشفافية الدولية)",
+  "fr": "Indice de perception de la corruption (Transparency International)"
+ },
+ "Youth unemployment rate, ages 15 to 24 (ILO modelled estimate)": {
+  "ar": "معدل بطالة الشباب من ١٥ إلى ٢٤ عاماً (تقدير نمذجته منظمة العمل الدولية)",
+  "fr": "Taux de chômage des jeunes de 15 à 24 ans (estimation modélisée de l'OIT)"
+ },
+ "Unemployment rate, women aged 15 and over (ILO modelled estimate)": {
+  "ar": "معدل بطالة النساء من ١٥ عاماً فأكثر (تقدير نمذجته منظمة العمل الدولية)",
+  "fr": "Taux de chômage des femmes de 15 ans et plus (estimation modélisée de l'OIT)"
+ },
+ "Unemployment rate, men aged 15 and over (ILO modelled estimate)": {
+  "ar": "معدل بطالة الرجال من ١٥ عاماً فأكثر (تقدير نمذجته منظمة العمل الدولية)",
+  "fr": "Taux de chômage des hommes de 15 ans et plus (estimation modélisée de l'OIT)"
+ },
+ "Primary school enrolment, gross enrolment ratio (UIS)": {
+  "ar": "الالتحاق بالمرحلة الابتدائية، نسبة الالتحاق الإجمالية (معهد اليونسكو للإحصاء)",
+  "fr": "Scolarisation primaire, taux brut de scolarisation (ISU)"
+ },
+ "Secondary school enrolment, gross enrolment ratio (UIS)": {
+  "ar": "الالتحاق بالمرحلة الثانوية، نسبة الالتحاق الإجمالية (معهد اليونسكو للإحصاء)",
+  "fr": "Scolarisation secondaire, taux brut de scolarisation (ISU)"
+ },
+ "index, about -2.5 to +2.5": {
+  "ar": "مؤشر من نحو -٢٫٥ إلى +٢٫٥",
+  "fr": "indice, d'environ -2,5 à +2,5"
+ },
+ "score 0-100": {
+  "ar": "درجة من ٠ إلى ١٠٠",
+  "fr": "score de 0 à 100"
+ },
+ "% of youth labour force": {
+  "ar": "٪ من قوة عمل الشباب",
+  "fr": "% de la population active des jeunes"
+ },
+ "% of female labour force": {
+  "ar": "٪ من القوى العاملة من النساء",
+  "fr": "% de la population active féminine"
+ },
+ "% of male labour force": {
+  "ar": "٪ من القوى العاملة من الرجال",
+  "fr": "% de la population active masculine"
+ },
+ "Insecurity Insight states: \"The incidents reported are not a complete nor a representative list of all incidents and have not been independently verified.\"": {
+  "ar": "تقول Insecurity Insight: «الحوادث المبلّغ عنها ليست قائمة كاملة ولا ممثِّلة لكل الحوادث، ولم يُتحقَّق منها بشكل مستقل».",
+  "fr": "Insecurity Insight précise : « Les incidents signalés ne constituent ni une liste complète ni une liste représentative de tous les incidents et n'ont pas été vérifiés de manière indépendante. »"
+ }
 }

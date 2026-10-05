@@ -1,302 +1,690 @@
 {
-"2026 is January to July only.": {
-"ar": "٢٠٢٦ يشمل من كانون الثاني إلى تموز فقط.",
-"fr": "2026 ne couvre que janvier à juillet."
-},
-"Bakery price set by decision": {
-"ar": "سعر المخبز بحسب القرار",
-"fr": "Prix en boulangerie fixé par décision"
-},
-"Bread bundles, standard size": {
-"ar": "ربطات الخبز، الحجم المعتاد",
-"fr": "Paquets de pain, taille standard"
-},
-"Bread: the set price and the shop price": {
-"ar": "الخبز: السعر المحدَّد وسعر المتجر",
-"fr": "Pain : le prix fixé et le prix en magasin"
-},
-"Cities and dense areas": {
-"ar": "المدن والمناطق المكتظة",
-"fr": "Villes et zones denses"
-},
-"Demand (modelled)": {
-"ar": "الطلب (نمذجة)",
-"fr": "Demande (modélisée)"
-},
-"Energy and demand behind the proxy": {
-"ar": "الطاقة والطلب وراء المؤشّر البديل",
-"fr": "Énergie et demande derrière le proxy"
-},
-"Energy to the grid": {
-"ar": "الطاقة المضخّة في الشبكة",
-"fr": "Énergie injectée dans le réseau"
-},
-"GWh per month": {
-"ar": "غيغاواط ساعة شهريًا",
-"fr": "GWh par mois"
-},
-"Generator price per kWh": {
-"ar": "سعر الكيلواط ساعة من المولّدات",
-"fr": "Prix du kWh des générateurs"
-},
-"Hollow dots mark values filled from other sources or estimated. The tooltip says which, and gives the source.": {
-"ar": "النقاط المفرغة تدل على قيم مُلئت من مصادر أخرى أو مقدَّرة. وتبيّن النافذة المنبثقة أيّها وتذكر المصدر.",
-"fr": "Les points creux marquent des valeurs complétées depuis d'autres sources ou estimées. L'info-bulle dit lesquelles et donne la source."
-},
-"Hollow dots: months not computed from observed energy (constrained to annual totals, interpolated, extrapolated or taken from a statement). The tooltip names the basis.": {
-"ar": "النقاط المفرغة: أشهر لم تُحسب من طاقة مرصودة (مقيَّدة بالمجاميع السنوية أو مستكملة بالاستيفاء أو بالاستقراء أو مأخوذة من تصريح). وتذكر النافذة المنبثقة الأساس.",
-"fr": "Points creux : mois non calculés à partir d'énergie observée (contraints par les totaux annuels, interpolés, extrapolés ou tirés d'une déclaration). L'info-bulle indique la base."
-},
-"Hollow dots: months taken from press copies of the ministry statement, or inferred from the months either side.": {
-"ar": "النقاط المفرغة: أشهر مأخوذة من نسخ صحافية لبيان الوزارة أو مستنتجة من الشهرين المجاورين.",
-"fr": "Points creux : mois repris de copies de presse du communiqué du ministère, ou déduits des mois voisins."
-},
-"Hollow dots: months that carry a value forward over a decision we could not retrieve, or after the last decision found.": {
-"ar": "النقاط المفرغة: أشهر نُقلت فيها القيمة السابقة فوق قرار تعذّر الحصول عليه، أو بعد آخر قرار وُجد.",
-"fr": "Points creux : mois qui reportent une valeur par-dessus une décision introuvable, ou après la dernière décision trouvée."
-},
-"Hollow dots: months where the energy was back-solved, not observed.": {
-"ar": "النقاط المفرغة: أشهر حُسبت فيها الطاقة بالاستنتاج العكسي ولم تُرصد.",
-"fr": "Points creux : mois où l'énergie a été déduite par calcul inverse, non observée."
-},
-"Hours of public electricity per day: the proxy against official figures": {
-"ar": "ساعات الكهرباء العامة يوميًا: المؤشّر البديل مقابل الأرقام الرسمية",
-"fr": "Heures d'électricité publique par jour : le proxy face aux chiffres officiels"
-},
-"LBP per bundle at the bakery, price in force at each month end, log scale": {
-"ar": "ليرة للربطة في المخبز، السعر السائد في نهاية كل شهر، مقياس لوغاريتمي",
-"fr": "LBP par paquet en boulangerie, prix en vigueur à la fin de chaque mois, échelle logarithmique"
-},
-"LBP per kWh, ministry guideline for metered subscribers": {
-"ar": "ليرة للكيلواط ساعة، السعر الإرشادي للوزارة للمشتركين بالعدّاد",
-"fr": "LBP par kWh, prix indicatif du ministère pour les abonnés avec compteur"
-},
-"LBP per month, ministry guideline fixed fee, metered subscribers, 5 A and 10 A": {
-"ar": "ليرة شهريًا، الرسم الثابت الإرشادي للوزارة للمشتركين بالعدّاد، ٥ و١٠ أمبير",
-"fr": "LBP par mois, redevance fixe indicative du ministère, abonnés avec compteur, 5 A et 10 A"
-},
-"LBP, standard bundle at the bakery and 800 g pita in shops (median of the markets WFP surveys)": {
-"ar": "ليرة، الربطة المعتادة في المخبز وخبز البيتا ٨٠٠ غ في المتاجر (وسيط الأسواق التي يستطلعها برنامج الأغذية العالمي)",
-"fr": "LBP, paquet standard en boulangerie et pita de 800 g en magasin (médiane des marchés enquêtés par le PAM)"
-},
-"Large bundle (to 2024)": {
-"ar": "الربطة الكبيرة (حتى ٢٠٢٤)",
-"fr": "Grand paquet (jusqu'en 2024)"
-},
-"Method": {
-"ar": "المنهج",
-"fr": "Méthode"
-},
-"Ministry figure outside Beirut, hours with any current (to 2019)": {
-"ar": "رقم الوزارة خارج بيروت، ساعات وجود أي تيار (حتى ٢٠١٩)",
-"fr": "Chiffre du ministère hors Beyrouth, heures avec un courant quelconque (jusqu'en 2019)"
-},
-"Months the ministry web table leaves blank are read from its monthly statement PDFs. Per-kWh prices are in the next chart.": {
-"ar": "الأشهر التي يتركها جدول الوزارة الإلكتروني فارغة تُقرأ من ملفات PDF لبياناتها الشهرية. أسعار الكيلواط ساعة في الرسم التالي.",
-"fr": "Les mois que le tableau web du ministère laisse vides sont lus dans ses communiqués mensuels en PDF. Les prix au kWh sont dans le graphique suivant."
-},
-"Official and press statements": {
-"ar": "تصريحات رسمية وصحافية",
-"fr": "Déclarations officielles et de presse"
-},
-"Our estimate, not an official series.": {
-"ar": "تقديرنا، وليس سلسلة رسمية.",
-"fr": "Notre estimation, pas une série officielle."
-},
-"PROXY": {
-"ar": "مؤشّر بديل",
-"fr": "PROXY"
-},
-"Proxy, yearly mean": {
-"ar": "المؤشّر البديل، المتوسط السنوي",
-"fr": "Proxy, moyenne annuelle"
-},
-"Proxy: energy-equivalent hours": {
-"ar": "المؤشّر البديل: ساعات مكافئة للطاقة",
-"fr": "Proxy : heures équivalentes en énergie"
-},
-"Shop price, 800 g pita (WFP)": {
-"ar": "سعر المتجر، خبز بيتا ٨٠٠ غ (برنامج الأغذية العالمي)",
-"fr": "Prix en magasin, pita 800 g (PAM)"
-},
-"Small bundle": {
-"ar": "الربطة الصغيرة",
-"fr": "Petit paquet"
-},
-"Standard bundle (about 800 to 960 g)": {
-"ar": "الربطة المعتادة (نحو ٨٠٠ إلى ٩٦٠ غ)",
-"fr": "Paquet standard (environ 800 à 960 g)"
-},
-"Supply hours: the proxy": {
-"ar": "ساعات التغذية: المؤشّر البديل",
-"fr": "Heures d'alimentation : le proxy"
-},
-"The guideline is the ministry price. What operators charge can differ.": {
-"ar": "السعر الإرشادي هو سعر الوزارة. وقد يختلف ما يتقاضاه أصحاب المولّدات.",
-"fr": "Le prix indicatif est celui du ministère. Ce que facturent les exploitants peut différer."
-},
-"The ministry listing has holes. Dates filled from press copies of the same table are hollow dots; the gaps that remain are joined by a straight line.": {
-"ar": "في قائمة الوزارة ثغرات. التواريخ المكمَّلة من نسخ صحافية للجدول نفسه نقاط مفرغة؛ وما بقي من ثغرات يُوصَل بخط مستقيم.",
-"fr": "La liste du ministère a des trous. Les dates complétées depuis des copies de presse du même tableau sont des points creux ; les trous restants sont reliés par une droite."
-},
-"The shop price runs above the bakery price set by decision, and it covers the months between decisions.": {
-"ar": "سعر المتجر أعلى من سعر المخبز المحدَّد بقرار، ويشمل الأشهر الواقعة بين القرارات.",
-"fr": "Le prix en magasin dépasse le prix fixé par décision en boulangerie, et il couvre les mois entre deux décisions."
-},
-"TheFuelPrice.com copy of the ministry table": {
-"ar": "نسخة من جدول الوزارة على موقع TheFuelPrice.com",
-"fr": "copie du tableau du ministère sur TheFuelPrice.com"
-},
-"There is no official time series of supply hours. Our estimate is a proxy and is labelled as one. The dated points are statements from the ministry, EDL, surveys and the press; a range is shown at its midpoint. Refugee-household figures (VASyR) are self-reported by Syrian households.": {
-"ar": "لا توجد سلسلة رسمية لساعات التغذية. وتقديرنا مؤشّر بديل ويُوسَم بذلك. أما النقاط المؤرَّخة فهي تصريحات من الوزارة وكهرباء لبنان ومن مسوح وصحافة؛ ويُعرض النطاق عند منتصفه. وأرقام أسر اللاجئين (VASyR) يصرّح بها أصحابها السوريون أنفسهم.",
-"fr": "Il n'existe pas de série officielle des heures d'alimentation. Notre estimation est un proxy et est présentée comme telle. Les points datés sont des déclarations du ministère, d'EDL, d'enquêtes et de la presse ; une fourchette est montrée en son milieu. Les chiffres des ménages réfugiés (VASyR) sont déclarés par les ménages syriens eux-mêmes."
-},
-"Villages, remote areas or above 700 m": {
-"ar": "القرى والمناطق النائية أو ما فوق ٧٠٠ م",
-"fr": "Villages, zones isolées ou au-dessus de 700 m"
-},
-"Yearly mean of the proxy": {
-"ar": "المتوسط السنوي للمؤشّر البديل",
-"fr": "Moyenne annuelle du proxy"
-},
-"carried forward over a decision we could not retrieve": {
-"ar": "قيمة منقولة فوق قرار تعذّر الحصول عليه",
-"fr": "valeur reportée par-dessus une décision introuvable"
-},
-"constrained to annual totals, not observed (low confidence)": {
-"ar": "مقيَّدة بالمجاميع السنوية وغير مرصودة (ثقة منخفضة)",
-"fr": "contraint par les totaux annuels, non observé (confiance faible)"
-},
-"extrapolated from the same months of the year before (low confidence)": {
-"ar": "مستقرأة من الأشهر نفسها في السنة السابقة (ثقة منخفضة)",
-"fr": "extrapolé à partir des mêmes mois de l'année précédente (confiance faible)"
-},
-"held: no later decision found": {
-"ar": "مثبَّتة: لم يُعثر على قرار أحدث",
-"fr": "maintenu : aucune décision plus récente trouvée"
-},
-"inferred: the fee is the same in the months either side (low confidence)": {
-"ar": "مستنتجة: الرسم نفسه في الشهرين المجاورين (ثقة منخفضة)",
-"fr": "déduit : la redevance est la même les mois voisins (confiance faible)"
-},
-"interpolated between months (low confidence)": {
-"ar": "مستكملة بالاستيفاء بين الأشهر (ثقة منخفضة)",
-"fr": "interpolé entre deux mois (confiance faible)"
-},
-"press copy of the ministry table": {
-"ar": "نسخة صحافية من جدول الوزارة",
-"fr": "copie de presse du tableau du ministère"
-},
-"proxy, not official": {
-"ar": "مؤشّر بديل وليس رسميًا",
-"fr": "proxy, non officiel"
-},
-"taken from an official statement (low confidence)": {
-"ar": "مأخوذة من تصريح رسمي (ثقة منخفضة)",
-"fr": "tiré d'une déclaration officielle (confiance faible)"
-},
-"Arabic bread, large bundle (about 1,000-1,200 g), maximum bakery price per decision": {
-"ar": "الخبز العربي، الربطة الكبيرة (نحو ١٬٠٠٠-١٬٢٠٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
-"fr": "Pain arabe, grand paquet (environ 1 000-1 200 g), prix maximum en boulangerie par décision"
-},
-"Arabic bread, small bundle (340-390 g), maximum bakery price per decision": {
-"ar": "الخبز العربي، الربطة الصغيرة (٣٤٠-٣٩٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
-"fr": "Pain arabe, petit paquet (340-390 g), prix maximum en boulangerie par décision"
-},
-"Arabic bread, standard bundle (about 800-960 g), maximum bakery price per decision": {
-"ar": "الخبز العربي، الربطة المعتادة (نحو ٨٠٠-٩٦٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
-"fr": "Pain arabe, paquet standard (environ 800-960 g), prix maximum en boulangerie par décision"
-},
-"Arabic bread, standard bundle, price in force at month end (derived)": {
-"ar": "الخبز العربي، الربطة المعتادة، السعر السائد في نهاية الشهر (مشتق)",
-"fr": "Pain arabe, paquet standard, prix en vigueur en fin de mois (dérivé)"
-},
-"Average hours of EDL power cut per month outside Beirut (ministry statement)": {
-"ar": "متوسط ساعات انقطاع كهرباء لبنان شهريًا خارج بيروت (بيان الوزارة)",
-"fr": "Heures moyennes de coupure d'EDL par mois hors Beyrouth (communiqué du ministère)"
-},
-"EDL supply hours per day outside Beirut, from the ministry cut hours": {
-"ar": "ساعات تغذية كهرباء لبنان يوميًا خارج بيروت، من ساعات القطع لدى الوزارة",
-"fr": "Heures d'alimentation d'EDL par jour hors Beyrouth, d'après les heures de coupure du ministère"
-},
-"Electricity demand behind the supply-hours proxy (modelled)": {
-"ar": "الطلب على الكهرباء وراء مؤشّر ساعات التغذية البديل (نمذجة)",
-"fr": "Demande d'électricité derrière le proxy des heures d'alimentation (modélisée)"
-},
-"Energy to the grid behind the supply-hours proxy": {
-"ar": "الطاقة المضخّة في الشبكة وراء مؤشّر ساعات التغذية البديل",
-"fr": "Énergie injectée dans le réseau derrière le proxy des heures d'alimentation"
-},
-"Generator guideline price per kWh, urban/dense areas (metered)": {
-"ar": "السعر الإرشادي للكيلواط ساعة من المولّدات، المناطق المدينية والمكتظة (بالعدّاد)",
-"fr": "Prix indicatif du kWh des générateurs, zones urbaines ou denses (avec compteur)"
-},
-"Generator guideline price per kWh, villages/remote or above 700 m (metered)": {
-"ar": "السعر الإرشادي للكيلواط ساعة من المولّدات، القرى والمناطق النائية أو ما فوق ٧٠٠ م (بالعدّاد)",
-"fr": "Prix indicatif du kWh des générateurs, villages ou zones isolées ou au-dessus de 700 m (avec compteur)"
-},
-"Pita bread 800 g, retail price, median of markets (WFP)": {
-"ar": "خبز البيتا ٨٠٠ غ، سعر التجزئة، وسيط الأسواق (برنامج الأغذية العالمي)",
-"fr": "Pain pita 800 g, prix de détail, médiane des marchés (PAM)"
-},
-"Supply hours per day, PROXY (energy-equivalent, not an official series)": {
-"ar": "ساعات التغذية يوميًا، مؤشّر بديل (مكافئ للطاقة، وليس سلسلة رسمية)",
-"fr": "Heures d'alimentation par jour, PROXY (équivalent en énergie, pas une série officielle)"
-},
-"Supply hours per day, PROXY: only months with observed energy": {
-"ar": "ساعات التغذية يوميًا، مؤشّر بديل: الأشهر ذات الطاقة المرصودة فقط",
-"fr": "Heures d'alimentation par jour, PROXY : seulement les mois d'énergie observée"
-},
-"Supply hours per day, PROXY: yearly mean": {
-"ar": "ساعات التغذية يوميًا، مؤشّر بديل: المتوسط السنوي",
-"fr": "Heures d'alimentation par jour, PROXY : moyenne annuelle"
-},
-"hours per month": {
-"ar": "ساعة شهريًا",
-"fr": "heures par mois"
-},
-"Ministry of Energy and Water price tables. Where the ministry listing has holes, dates are filled from press and aggregator copies of the same table: hollow dots, with the source in the tooltip.": {
-"ar": "جداول أسعار وزارة الطاقة والمياه. وحيث تكون في قائمة الوزارة ثغرات، تُملأ التواريخ من نسخ صحافية ونسخ مواقع تجميعية للجدول نفسه: نقاط مفرغة، ويظهر المصدر في النافذة المنبثقة.",
-"fr": "Tableaux de prix du ministère de l'Énergie et de l'Eau. Là où la liste du ministère a des trous, les dates sont complétées depuis des copies de presse et d'agrégateurs du même tableau : points creux, avec la source dans l'info-bulle."
-},
-"The fixed monthly part of the ministry's guideline tariff for metered generator subscribers. Months the ministry web table leaves blank are read from its monthly statement PDFs; hollow dots are press copies or inferred from the months either side.": {
-"ar": "الجزء الشهري الثابت من التعرفة الإرشادية للوزارة للمشتركين بالعدّاد في المولّدات. الأشهر التي يتركها جدول الوزارة الإلكتروني فارغة تُقرأ من ملفات PDF لبياناتها الشهرية؛ والنقاط المفرغة نسخ صحافية أو مستنتجة من الشهرين المجاورين.",
-"fr": "Partie fixe mensuelle du tarif indicatif du ministère pour les abonnés avec compteur des générateurs. Les mois que le tableau web laisse vides sont lus dans ses communiqués mensuels en PDF ; les points creux sont des copies de presse ou des valeurs déduites des mois voisins."
-},
-"The ministry's guideline price per kWh for metered generator subscribers, from its monthly statements, its web table and press copies of the statements.": {
-"ar": "السعر الإرشادي للوزارة للكيلواط ساعة للمشتركين بالعدّاد في المولّدات، من بياناتها الشهرية وجدولها الإلكتروني ونسخ صحافية من هذه البيانات.",
-"fr": "Prix indicatif du ministère par kWh pour les abonnés avec compteur des générateurs, tiré de ses communiqués mensuels, de son tableau web et de copies de presse de ces communiqués."
-},
-"Maximum bakery price set by Ministry of Economy and Trade decisions; each value holds until the next decision. Bundle weights change between decisions, so compare a series with itself.": {
-"ar": "السعر الأقصى في المخبز كما تحدّده قرارات وزارة الاقتصاد والتجارة؛ وتبقى كل قيمة سارية حتى القرار التالي. تتغيّر أوزان الربطات بين قرار وآخر، فقارنوا السلسلة بنفسها.",
-"fr": "Prix maximum en boulangerie fixé par les décisions du ministère de l'Économie et du Commerce ; chaque valeur tient jusqu'à la décision suivante. Le poids des paquets change d'une décision à l'autre : comparez une série avec elle-même."
-},
-"The standard-bundle price in force at the end of each month, derived from the decisions. Hollow dots: months that carry a value forward over a decision we could not retrieve.": {
-"ar": "سعر الربطة المعتادة السائد في نهاية كل شهر، مشتق من القرارات. النقاط المفرغة: أشهر نُقلت فيها القيمة السابقة فوق قرار تعذّر الحصول عليه.",
-"fr": "Prix du paquet standard en vigueur à la fin de chaque mois, dérivé des décisions. Points creux : mois qui reportent une valeur par-dessus une décision introuvable."
-},
-"Retail price, median of the shops surveyed by WFP. A market price, not a regulated one: it runs above the bakery price set by decision.": {
-"ar": "سعر التجزئة، وسيط المتاجر التي يستطلعها برنامج الأغذية العالمي. سعر سوق وليس سعرًا مقرَّرًا: وهو أعلى من سعر المخبز المحدَّد بقرار.",
-"fr": "Prix de détail, médiane des magasins enquêtés par le PAM. Un prix de marché, pas un prix réglementé : il dépasse le prix fixé par décision en boulangerie."
-},
-"Average hours of power cut per month outside Beirut, as printed in the ministry's monthly tariff statements until March 2019.": {
-"ar": "متوسط ساعات انقطاع التيار شهريًا خارج بيروت كما ورد في البيانات الشهرية للتعرفة لدى الوزارة حتى آذار ٢٠١٩.",
-"fr": "Heures moyennes de coupure par mois hors Beyrouth, telles qu'imprimées dans les communiqués tarifaires mensuels du ministère jusqu'en mars 2019."
-},
-"Hours a day with any supply outside Beirut: 24 minus the ministry's cut hours. Hours with any current, not energy, so it runs above the proxy.": {
-"ar": "ساعات وجود أي تغذية يوميًا خارج بيروت: ٢٤ ناقص ساعات القطع لدى الوزارة. ساعات وجود تيار وليست طاقة، فهي أعلى من المؤشّر البديل.",
-"fr": "Heures par jour avec une alimentation quelconque hors Beyrouth : 24 moins les heures de coupure du ministère. Des heures de courant, pas de l'énergie : le chiffre dépasse donc le proxy."
-},
-"PROXY, NOT AN OFFICIAL SERIES. Hours of supply estimated as the energy EDL put on the grid in a month, divided by the demand full supply would meet: 24 x 0.82 x energy / demand. Months with observed energy are computed (medium confidence). The others are constrained to annual totals, extrapolated or interpolated, or taken from an official statement (low confidence). Demand after 2022 is an assumption. It measures energy, so it runs below counts of hours with any current. It tracks night lights (r = 0.92 over 86 months) and survey hours.": {
-"ar": "مؤشّر بديل وليس سلسلة رسمية. تُقدَّر ساعات التغذية بالطاقة التي ضخّتها كهرباء لبنان في الشبكة خلال الشهر مقسومةً على الطلب الذي تلبّيه تغذية كاملة: ٢٤ × ٠٫٨٢ × الطاقة ÷ الطلب. الأشهر ذات الطاقة المرصودة محسوبة (ثقة متوسطة). والأشهر الأخرى مقيَّدة بالمجاميع السنوية أو مستقرأة أو مستكملة بالاستيفاء أو مأخوذة من تصريح رسمي (ثقة منخفضة). الطلب بعد ٢٠٢٢ افتراض. وهو يقيس الطاقة، فيأتي أدنى من أعداد ساعات وجود أي تيار. ويتبع الإضاءة الليلية (r = ٠٫٩٢ على ٨٦ شهرًا) وساعات المسوح.",
-"fr": "PROXY, PAS UNE SÉRIE OFFICIELLE. Les heures d'alimentation sont estimées comme l'énergie qu'EDL a injectée dans le réseau en un mois, divisée par la demande qu'une alimentation complète satisferait : 24 x 0,82 x énergie / demande. Les mois d'énergie observée sont calculés (confiance moyenne). Les autres sont contraints par les totaux annuels, extrapolés ou interpolés, ou tirés d'une déclaration officielle (confiance faible). La demande après 2022 est une hypothèse. Le proxy mesure de l'énergie, donc il reste sous les comptages d'heures avec un courant quelconque. Il suit les lumières nocturnes (r = 0,92 sur 86 mois) et les heures des enquêtes."
-},
-"The energy behind the proxy: observed in computed months, back-solved from the hours otherwise.": {
-"ar": "الطاقة وراء المؤشّر البديل: مرصودة في الأشهر المحسوبة، ومستنتجة من الساعات في ما عداها.",
-"fr": "L'énergie derrière le proxy : observée les mois calculés, déduite des heures sinon."
-},
-"Demand used by the proxy: annual figures spread over the months with the 2010 to 2018 seasonal shape. Modelled, not metered; after 2022 it is held at the 2022 level.": {
-"ar": "الطلب المستخدم في المؤشّر البديل: أرقام سنوية موزّعة على الأشهر بالنمط الموسمي بين ٢٠١٠ و٢٠١٨. نمذجة وليس قياسًا؛ وبعد ٢٠٢٢ يُبقى عند مستوى ٢٠٢٢.",
-"fr": "Demande utilisée par le proxy : des chiffres annuels répartis sur les mois selon le profil saisonnier de 2010 à 2018. Modélisée, pas mesurée ; après 2022 elle est maintenue au niveau de 2022."
-}
+ "2026 is January to July only.": {
+  "ar": "٢٠٢٦ يشمل من كانون الثاني إلى تموز فقط.",
+  "fr": "2026 ne couvre que janvier à juillet."
+ },
+ "Bakery price set by decision": {
+  "ar": "سعر المخبز بحسب القرار",
+  "fr": "Prix en boulangerie fixé par décision"
+ },
+ "Bread bundles, standard size": {
+  "ar": "ربطات الخبز، الحجم المعتاد",
+  "fr": "Paquets de pain, taille standard"
+ },
+ "Bread: the set price and the shop price": {
+  "ar": "الخبز: السعر المحدَّد وسعر المتجر",
+  "fr": "Pain : le prix fixé et le prix en magasin"
+ },
+ "Cities and dense areas": {
+  "ar": "المدن والمناطق المكتظة",
+  "fr": "Villes et zones denses"
+ },
+ "Demand (modelled)": {
+  "ar": "الطلب (نمذجة)",
+  "fr": "Demande (modélisée)"
+ },
+ "Energy and demand behind the proxy": {
+  "ar": "الطاقة والطلب وراء المؤشّر البديل",
+  "fr": "Énergie et demande derrière le proxy"
+ },
+ "Energy to the grid": {
+  "ar": "الطاقة المضخّة في الشبكة",
+  "fr": "Énergie injectée dans le réseau"
+ },
+ "GWh per month": {
+  "ar": "غيغاواط ساعة شهريًا",
+  "fr": "GWh par mois"
+ },
+ "Generator price per kWh": {
+  "ar": "سعر الكيلواط ساعة من المولّدات",
+  "fr": "Prix du kWh des générateurs"
+ },
+ "Hollow dots mark values filled from other sources or estimated. The tooltip says which, and gives the source.": {
+  "ar": "النقاط المفرغة تدل على قيم مُلئت من مصادر أخرى أو مقدَّرة. وتبيّن النافذة المنبثقة أيّها وتذكر المصدر.",
+  "fr": "Les points creux marquent des valeurs complétées depuis d'autres sources ou estimées. L'info-bulle dit lesquelles et donne la source."
+ },
+ "Hollow dots: months not computed from observed energy (constrained to annual totals, interpolated, extrapolated or taken from a statement). The tooltip names the basis.": {
+  "ar": "النقاط المفرغة: أشهر لم تُحسب من طاقة مرصودة (مقيَّدة بالمجاميع السنوية أو مستكملة بالاستيفاء أو بالاستقراء أو مأخوذة من تصريح). وتذكر النافذة المنبثقة الأساس.",
+  "fr": "Points creux : mois non calculés à partir d'énergie observée (contraints par les totaux annuels, interpolés, extrapolés ou tirés d'une déclaration). L'info-bulle indique la base."
+ },
+ "Hollow dots: months taken from press copies of the ministry statement, or inferred from the months either side.": {
+  "ar": "النقاط المفرغة: أشهر مأخوذة من نسخ صحافية لبيان الوزارة أو مستنتجة من الشهرين المجاورين.",
+  "fr": "Points creux : mois repris de copies de presse du communiqué du ministère, ou déduits des mois voisins."
+ },
+ "Hollow dots: months that carry a value forward over a decision we could not retrieve, or after the last decision found.": {
+  "ar": "النقاط المفرغة: أشهر نُقلت فيها القيمة السابقة فوق قرار تعذّر الحصول عليه، أو بعد آخر قرار وُجد.",
+  "fr": "Points creux : mois qui reportent une valeur par-dessus une décision introuvable, ou après la dernière décision trouvée."
+ },
+ "Hollow dots: months where the energy was back-solved, not observed.": {
+  "ar": "النقاط المفرغة: أشهر حُسبت فيها الطاقة بالاستنتاج العكسي ولم تُرصد.",
+  "fr": "Points creux : mois où l'énergie a été déduite par calcul inverse, non observée."
+ },
+ "Hours of public electricity per day: the proxy against official figures": {
+  "ar": "ساعات الكهرباء العامة يوميًا: المؤشّر البديل مقابل الأرقام الرسمية",
+  "fr": "Heures d'électricité publique par jour : le proxy face aux chiffres officiels"
+ },
+ "LBP per bundle at the bakery, price in force at each month end, log scale": {
+  "ar": "ليرة للربطة في المخبز، السعر السائد في نهاية كل شهر، مقياس لوغاريتمي",
+  "fr": "LBP par paquet en boulangerie, prix en vigueur à la fin de chaque mois, échelle logarithmique"
+ },
+ "LBP per kWh, ministry guideline for metered subscribers": {
+  "ar": "ليرة للكيلواط ساعة، السعر الإرشادي للوزارة للمشتركين بالعدّاد",
+  "fr": "LBP par kWh, prix indicatif du ministère pour les abonnés avec compteur"
+ },
+ "LBP per month, ministry guideline fixed fee, metered subscribers, 5 A and 10 A": {
+  "ar": "ليرة شهريًا، الرسم الثابت الإرشادي للوزارة للمشتركين بالعدّاد، ٥ و١٠ أمبير",
+  "fr": "LBP par mois, redevance fixe indicative du ministère, abonnés avec compteur, 5 A et 10 A"
+ },
+ "LBP, standard bundle at the bakery and 800 g pita in shops (median of the markets WFP surveys)": {
+  "ar": "ليرة، الربطة المعتادة في المخبز وخبز البيتا ٨٠٠ غ في المتاجر (وسيط الأسواق التي يستطلعها برنامج الأغذية العالمي)",
+  "fr": "LBP, paquet standard en boulangerie et pita de 800 g en magasin (médiane des marchés enquêtés par le PAM)"
+ },
+ "Large bundle (to 2024)": {
+  "ar": "الربطة الكبيرة (حتى ٢٠٢٤)",
+  "fr": "Grand paquet (jusqu'en 2024)"
+ },
+ "Method": {
+  "ar": "المنهج",
+  "fr": "Méthode"
+ },
+ "Ministry figure outside Beirut, hours with any current (to 2019)": {
+  "ar": "رقم الوزارة خارج بيروت، ساعات وجود أي تيار (حتى ٢٠١٩)",
+  "fr": "Chiffre du ministère hors Beyrouth, heures avec un courant quelconque (jusqu'en 2019)"
+ },
+ "Months the ministry web table leaves blank are read from its monthly statement PDFs. Per-kWh prices are in the next chart.": {
+  "ar": "الأشهر التي يتركها جدول الوزارة الإلكتروني فارغة تُقرأ من ملفات PDF لبياناتها الشهرية. أسعار الكيلواط ساعة في الرسم التالي.",
+  "fr": "Les mois que le tableau web du ministère laisse vides sont lus dans ses communiqués mensuels en PDF. Les prix au kWh sont dans le graphique suivant."
+ },
+ "Official and press statements": {
+  "ar": "تصريحات رسمية وصحافية",
+  "fr": "Déclarations officielles et de presse"
+ },
+ "Our estimate, not an official series.": {
+  "ar": "تقديرنا، وليس سلسلة رسمية.",
+  "fr": "Notre estimation, pas une série officielle."
+ },
+ "PROXY": {
+  "ar": "مؤشّر بديل",
+  "fr": "PROXY"
+ },
+ "Proxy, yearly mean": {
+  "ar": "المؤشّر البديل، المتوسط السنوي",
+  "fr": "Proxy, moyenne annuelle"
+ },
+ "Proxy: energy-equivalent hours": {
+  "ar": "المؤشّر البديل: ساعات مكافئة للطاقة",
+  "fr": "Proxy : heures équivalentes en énergie"
+ },
+ "Shop price, 800 g pita (WFP)": {
+  "ar": "سعر المتجر، خبز بيتا ٨٠٠ غ (برنامج الأغذية العالمي)",
+  "fr": "Prix en magasin, pita 800 g (PAM)"
+ },
+ "Small bundle": {
+  "ar": "الربطة الصغيرة",
+  "fr": "Petit paquet"
+ },
+ "Standard bundle (about 800 to 960 g)": {
+  "ar": "الربطة المعتادة (نحو ٨٠٠ إلى ٩٦٠ غ)",
+  "fr": "Paquet standard (environ 800 à 960 g)"
+ },
+ "Supply hours: the proxy": {
+  "ar": "ساعات التغذية: المؤشّر البديل",
+  "fr": "Heures d'alimentation : le proxy"
+ },
+ "The guideline is the ministry price. What operators charge can differ.": {
+  "ar": "السعر الإرشادي هو سعر الوزارة. وقد يختلف ما يتقاضاه أصحاب المولّدات.",
+  "fr": "Le prix indicatif est celui du ministère. Ce que facturent les exploitants peut différer."
+ },
+ "The ministry listing has holes. Dates filled from press copies of the same table are hollow dots; the gaps that remain are joined by a straight line.": {
+  "ar": "في قائمة الوزارة ثغرات. التواريخ المكمَّلة من نسخ صحافية للجدول نفسه نقاط مفرغة؛ وما بقي من ثغرات يُوصَل بخط مستقيم.",
+  "fr": "La liste du ministère a des trous. Les dates complétées depuis des copies de presse du même tableau sont des points creux ; les trous restants sont reliés par une droite."
+ },
+ "The shop price runs above the bakery price set by decision, and it covers the months between decisions.": {
+  "ar": "سعر المتجر أعلى من سعر المخبز المحدَّد بقرار، ويشمل الأشهر الواقعة بين القرارات.",
+  "fr": "Le prix en magasin dépasse le prix fixé par décision en boulangerie, et il couvre les mois entre deux décisions."
+ },
+ "TheFuelPrice.com copy of the ministry table": {
+  "ar": "نسخة من جدول الوزارة على موقع TheFuelPrice.com",
+  "fr": "copie du tableau du ministère sur TheFuelPrice.com"
+ },
+ "There is no official time series of supply hours. Our estimate is a proxy and is labelled as one. The dated points are statements from the ministry, EDL, surveys and the press; a range is shown at its midpoint. Refugee-household figures (VASyR) are self-reported by Syrian households.": {
+  "ar": "لا توجد سلسلة رسمية لساعات التغذية. وتقديرنا مؤشّر بديل ويُوسَم بذلك. أما النقاط المؤرَّخة فهي تصريحات من الوزارة وكهرباء لبنان ومن مسوح وصحافة؛ ويُعرض النطاق عند منتصفه. وأرقام أسر اللاجئين (VASyR) يصرّح بها أصحابها السوريون أنفسهم.",
+  "fr": "Il n'existe pas de série officielle des heures d'alimentation. Notre estimation est un proxy et est présentée comme telle. Les points datés sont des déclarations du ministère, d'EDL, d'enquêtes et de la presse ; une fourchette est montrée en son milieu. Les chiffres des ménages réfugiés (VASyR) sont déclarés par les ménages syriens eux-mêmes."
+ },
+ "Villages, remote areas or above 700 m": {
+  "ar": "القرى والمناطق النائية أو ما فوق ٧٠٠ م",
+  "fr": "Villages, zones isolées ou au-dessus de 700 m"
+ },
+ "Yearly mean of the proxy": {
+  "ar": "المتوسط السنوي للمؤشّر البديل",
+  "fr": "Moyenne annuelle du proxy"
+ },
+ "carried forward over a decision we could not retrieve": {
+  "ar": "قيمة منقولة فوق قرار تعذّر الحصول عليه",
+  "fr": "valeur reportée par-dessus une décision introuvable"
+ },
+ "constrained to annual totals, not observed (low confidence)": {
+  "ar": "مقيَّدة بالمجاميع السنوية وغير مرصودة (ثقة منخفضة)",
+  "fr": "contraint par les totaux annuels, non observé (confiance faible)"
+ },
+ "extrapolated from the same months of the year before (low confidence)": {
+  "ar": "مستقرأة من الأشهر نفسها في السنة السابقة (ثقة منخفضة)",
+  "fr": "extrapolé à partir des mêmes mois de l'année précédente (confiance faible)"
+ },
+ "held: no later decision found": {
+  "ar": "مثبَّتة: لم يُعثر على قرار أحدث",
+  "fr": "maintenu : aucune décision plus récente trouvée"
+ },
+ "inferred: the fee is the same in the months either side (low confidence)": {
+  "ar": "مستنتجة: الرسم نفسه في الشهرين المجاورين (ثقة منخفضة)",
+  "fr": "déduit : la redevance est la même les mois voisins (confiance faible)"
+ },
+ "interpolated between months (low confidence)": {
+  "ar": "مستكملة بالاستيفاء بين الأشهر (ثقة منخفضة)",
+  "fr": "interpolé entre deux mois (confiance faible)"
+ },
+ "press copy of the ministry table": {
+  "ar": "نسخة صحافية من جدول الوزارة",
+  "fr": "copie de presse du tableau du ministère"
+ },
+ "proxy, not official": {
+  "ar": "مؤشّر بديل وليس رسميًا",
+  "fr": "proxy, non officiel"
+ },
+ "taken from an official statement (low confidence)": {
+  "ar": "مأخوذة من تصريح رسمي (ثقة منخفضة)",
+  "fr": "tiré d'une déclaration officielle (confiance faible)"
+ },
+ "Arabic bread, large bundle (about 1,000-1,200 g), maximum bakery price per decision": {
+  "ar": "الخبز العربي، الربطة الكبيرة (نحو ١٬٠٠٠-١٬٢٠٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
+  "fr": "Pain arabe, grand paquet (environ 1 000-1 200 g), prix maximum en boulangerie par décision"
+ },
+ "Arabic bread, small bundle (340-390 g), maximum bakery price per decision": {
+  "ar": "الخبز العربي، الربطة الصغيرة (٣٤٠-٣٩٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
+  "fr": "Pain arabe, petit paquet (340-390 g), prix maximum en boulangerie par décision"
+ },
+ "Arabic bread, standard bundle (about 800-960 g), maximum bakery price per decision": {
+  "ar": "الخبز العربي، الربطة المعتادة (نحو ٨٠٠-٩٦٠ غ)، السعر الأقصى في المخبز بحسب كل قرار",
+  "fr": "Pain arabe, paquet standard (environ 800-960 g), prix maximum en boulangerie par décision"
+ },
+ "Arabic bread, standard bundle, price in force at month end (derived)": {
+  "ar": "الخبز العربي، الربطة المعتادة، السعر السائد في نهاية الشهر (مشتق)",
+  "fr": "Pain arabe, paquet standard, prix en vigueur en fin de mois (dérivé)"
+ },
+ "Average hours of EDL power cut per month outside Beirut (ministry statement)": {
+  "ar": "متوسط ساعات انقطاع كهرباء لبنان شهريًا خارج بيروت (بيان الوزارة)",
+  "fr": "Heures moyennes de coupure d'EDL par mois hors Beyrouth (communiqué du ministère)"
+ },
+ "EDL supply hours per day outside Beirut, from the ministry cut hours": {
+  "ar": "ساعات تغذية كهرباء لبنان يوميًا خارج بيروت، من ساعات القطع لدى الوزارة",
+  "fr": "Heures d'alimentation d'EDL par jour hors Beyrouth, d'après les heures de coupure du ministère"
+ },
+ "Electricity demand behind the supply-hours proxy (modelled)": {
+  "ar": "الطلب على الكهرباء وراء مؤشّر ساعات التغذية البديل (نمذجة)",
+  "fr": "Demande d'électricité derrière le proxy des heures d'alimentation (modélisée)"
+ },
+ "Energy to the grid behind the supply-hours proxy": {
+  "ar": "الطاقة المضخّة في الشبكة وراء مؤشّر ساعات التغذية البديل",
+  "fr": "Énergie injectée dans le réseau derrière le proxy des heures d'alimentation"
+ },
+ "Generator guideline price per kWh, urban/dense areas (metered)": {
+  "ar": "السعر الإرشادي للكيلواط ساعة من المولّدات، المناطق المدينية والمكتظة (بالعدّاد)",
+  "fr": "Prix indicatif du kWh des générateurs, zones urbaines ou denses (avec compteur)"
+ },
+ "Generator guideline price per kWh, villages/remote or above 700 m (metered)": {
+  "ar": "السعر الإرشادي للكيلواط ساعة من المولّدات، القرى والمناطق النائية أو ما فوق ٧٠٠ م (بالعدّاد)",
+  "fr": "Prix indicatif du kWh des générateurs, villages ou zones isolées ou au-dessus de 700 m (avec compteur)"
+ },
+ "Pita bread 800 g, retail price, median of markets (WFP)": {
+  "ar": "خبز البيتا ٨٠٠ غ، سعر التجزئة، وسيط الأسواق (برنامج الأغذية العالمي)",
+  "fr": "Pain pita 800 g, prix de détail, médiane des marchés (PAM)"
+ },
+ "Supply hours per day, PROXY (energy-equivalent, not an official series)": {
+  "ar": "ساعات التغذية يوميًا، مؤشّر بديل (مكافئ للطاقة، وليس سلسلة رسمية)",
+  "fr": "Heures d'alimentation par jour, PROXY (équivalent en énergie, pas une série officielle)"
+ },
+ "Supply hours per day, PROXY: only months with observed energy": {
+  "ar": "ساعات التغذية يوميًا، مؤشّر بديل: الأشهر ذات الطاقة المرصودة فقط",
+  "fr": "Heures d'alimentation par jour, PROXY : seulement les mois d'énergie observée"
+ },
+ "Supply hours per day, PROXY: yearly mean": {
+  "ar": "ساعات التغذية يوميًا، مؤشّر بديل: المتوسط السنوي",
+  "fr": "Heures d'alimentation par jour, PROXY : moyenne annuelle"
+ },
+ "hours per month": {
+  "ar": "ساعة شهريًا",
+  "fr": "heures par mois"
+ },
+ "Ministry of Energy and Water price tables. Where the ministry listing has holes, dates are filled from press and aggregator copies of the same table: hollow dots, with the source in the tooltip.": {
+  "ar": "جداول أسعار وزارة الطاقة والمياه. وحيث تكون في قائمة الوزارة ثغرات، تُملأ التواريخ من نسخ صحافية ونسخ مواقع تجميعية للجدول نفسه: نقاط مفرغة، ويظهر المصدر في النافذة المنبثقة.",
+  "fr": "Tableaux de prix du ministère de l'Énergie et de l'Eau. Là où la liste du ministère a des trous, les dates sont complétées depuis des copies de presse et d'agrégateurs du même tableau : points creux, avec la source dans l'info-bulle."
+ },
+ "The fixed monthly part of the ministry's guideline tariff for metered generator subscribers. Months the ministry web table leaves blank are read from its monthly statement PDFs; hollow dots are press copies or inferred from the months either side.": {
+  "ar": "الجزء الشهري الثابت من التعرفة الإرشادية للوزارة للمشتركين بالعدّاد في المولّدات. الأشهر التي يتركها جدول الوزارة الإلكتروني فارغة تُقرأ من ملفات PDF لبياناتها الشهرية؛ والنقاط المفرغة نسخ صحافية أو مستنتجة من الشهرين المجاورين.",
+  "fr": "Partie fixe mensuelle du tarif indicatif du ministère pour les abonnés avec compteur des générateurs. Les mois que le tableau web laisse vides sont lus dans ses communiqués mensuels en PDF ; les points creux sont des copies de presse ou des valeurs déduites des mois voisins."
+ },
+ "The ministry's guideline price per kWh for metered generator subscribers, from its monthly statements, its web table and press copies of the statements.": {
+  "ar": "السعر الإرشادي للوزارة للكيلواط ساعة للمشتركين بالعدّاد في المولّدات، من بياناتها الشهرية وجدولها الإلكتروني ونسخ صحافية من هذه البيانات.",
+  "fr": "Prix indicatif du ministère par kWh pour les abonnés avec compteur des générateurs, tiré de ses communiqués mensuels, de son tableau web et de copies de presse de ces communiqués."
+ },
+ "Maximum bakery price set by Ministry of Economy and Trade decisions; each value holds until the next decision. Bundle weights change between decisions, so compare a series with itself.": {
+  "ar": "السعر الأقصى في المخبز كما تحدّده قرارات وزارة الاقتصاد والتجارة؛ وتبقى كل قيمة سارية حتى القرار التالي. تتغيّر أوزان الربطات بين قرار وآخر، فقارنوا السلسلة بنفسها.",
+  "fr": "Prix maximum en boulangerie fixé par les décisions du ministère de l'Économie et du Commerce ; chaque valeur tient jusqu'à la décision suivante. Le poids des paquets change d'une décision à l'autre : comparez une série avec elle-même."
+ },
+ "The standard-bundle price in force at the end of each month, derived from the decisions. Hollow dots: months that carry a value forward over a decision we could not retrieve.": {
+  "ar": "سعر الربطة المعتادة السائد في نهاية كل شهر، مشتق من القرارات. النقاط المفرغة: أشهر نُقلت فيها القيمة السابقة فوق قرار تعذّر الحصول عليه.",
+  "fr": "Prix du paquet standard en vigueur à la fin de chaque mois, dérivé des décisions. Points creux : mois qui reportent une valeur par-dessus une décision introuvable."
+ },
+ "Retail price, median of the shops surveyed by WFP. A market price, not a regulated one: it runs above the bakery price set by decision.": {
+  "ar": "سعر التجزئة، وسيط المتاجر التي يستطلعها برنامج الأغذية العالمي. سعر سوق وليس سعرًا مقرَّرًا: وهو أعلى من سعر المخبز المحدَّد بقرار.",
+  "fr": "Prix de détail, médiane des magasins enquêtés par le PAM. Un prix de marché, pas un prix réglementé : il dépasse le prix fixé par décision en boulangerie."
+ },
+ "Average hours of power cut per month outside Beirut, as printed in the ministry's monthly tariff statements until March 2019.": {
+  "ar": "متوسط ساعات انقطاع التيار شهريًا خارج بيروت كما ورد في البيانات الشهرية للتعرفة لدى الوزارة حتى آذار ٢٠١٩.",
+  "fr": "Heures moyennes de coupure par mois hors Beyrouth, telles qu'imprimées dans les communiqués tarifaires mensuels du ministère jusqu'en mars 2019."
+ },
+ "Hours a day with any supply outside Beirut: 24 minus the ministry's cut hours. Hours with any current, not energy, so it runs above the proxy.": {
+  "ar": "ساعات وجود أي تغذية يوميًا خارج بيروت: ٢٤ ناقص ساعات القطع لدى الوزارة. ساعات وجود تيار وليست طاقة، فهي أعلى من المؤشّر البديل.",
+  "fr": "Heures par jour avec une alimentation quelconque hors Beyrouth : 24 moins les heures de coupure du ministère. Des heures de courant, pas de l'énergie : le chiffre dépasse donc le proxy."
+ },
+ "PROXY, NOT AN OFFICIAL SERIES. Hours of supply estimated as the energy EDL put on the grid in a month, divided by the demand full supply would meet: 24 x 0.82 x energy / demand. Months with observed energy are computed (medium confidence). The others are constrained to annual totals, extrapolated or interpolated, or taken from an official statement (low confidence). Demand after 2022 is an assumption. It measures energy, so it runs below counts of hours with any current. It tracks night lights (r = 0.92 over 86 months) and survey hours.": {
+  "ar": "مؤشّر بديل وليس سلسلة رسمية. تُقدَّر ساعات التغذية بالطاقة التي ضخّتها كهرباء لبنان في الشبكة خلال الشهر مقسومةً على الطلب الذي تلبّيه تغذية كاملة: ٢٤ × ٠٫٨٢ × الطاقة ÷ الطلب. الأشهر ذات الطاقة المرصودة محسوبة (ثقة متوسطة). والأشهر الأخرى مقيَّدة بالمجاميع السنوية أو مستقرأة أو مستكملة بالاستيفاء أو مأخوذة من تصريح رسمي (ثقة منخفضة). الطلب بعد ٢٠٢٢ افتراض. وهو يقيس الطاقة، فيأتي أدنى من أعداد ساعات وجود أي تيار. ويتبع الإضاءة الليلية (r = ٠٫٩٢ على ٨٦ شهرًا) وساعات المسوح.",
+  "fr": "PROXY, PAS UNE SÉRIE OFFICIELLE. Les heures d'alimentation sont estimées comme l'énergie qu'EDL a injectée dans le réseau en un mois, divisée par la demande qu'une alimentation complète satisferait : 24 x 0,82 x énergie / demande. Les mois d'énergie observée sont calculés (confiance moyenne). Les autres sont contraints par les totaux annuels, extrapolés ou interpolés, ou tirés d'une déclaration officielle (confiance faible). La demande après 2022 est une hypothèse. Le proxy mesure de l'énergie, donc il reste sous les comptages d'heures avec un courant quelconque. Il suit les lumières nocturnes (r = 0,92 sur 86 mois) et les heures des enquêtes."
+ },
+ "The energy behind the proxy: observed in computed months, back-solved from the hours otherwise.": {
+  "ar": "الطاقة وراء المؤشّر البديل: مرصودة في الأشهر المحسوبة، ومستنتجة من الساعات في ما عداها.",
+  "fr": "L'énergie derrière le proxy : observée les mois calculés, déduite des heures sinon."
+ },
+ "Demand used by the proxy: annual figures spread over the months with the 2010 to 2018 seasonal shape. Modelled, not metered; after 2022 it is held at the 2022 level.": {
+  "ar": "الطلب المستخدم في المؤشّر البديل: أرقام سنوية موزّعة على الأشهر بالنمط الموسمي بين ٢٠١٠ و٢٠١٨. نمذجة وليس قياسًا؛ وبعد ٢٠٢٢ يُبقى عند مستوى ٢٠٢٢.",
+  "fr": "Demande utilisée par le proxy : des chiffres annuels répartis sur les mois selon le profil saisonnier de 2010 à 2018. Modélisée, pas mesurée ; après 2022 elle est maintenue au niveau de 2022."
+ },
+ "A year earlier": {
+  "ar": "قبل سنة",
+  "fr": "Un an plus tôt"
+ },
+ "Acute food insecurity (IPC)": {
+  "ar": "انعدام الأمن الغذائي الحاد (التصنيف المرحلي المتكامل)",
+  "fr": "Insécurité alimentaire aiguë (IPC)"
+ },
+ "All governorates side by side": {
+  "ar": "كل المحافظات جنباً إلى جنب",
+  "fr": "Tous les gouvernorats côte à côte"
+ },
+ "All groups": {
+  "ar": "كل الفئات",
+  "fr": "Tous les groupes"
+ },
+ "Analysis and period": {
+  "ar": "التحليل والفترة",
+  "fr": "Analyse et période"
+ },
+ "Apples, per kg": {
+  "ar": "تفاح، للكيلوغرام",
+  "fr": "Pommes, le kg"
+ },
+ "Area": {
+  "ar": "المنطقة",
+  "fr": "Zone"
+ },
+ "Areas are the analysis units each IPC round used, and they differ between rounds: from March 2025 some districts are grouped, and from October 2025 each district is split by population group. Compare areas within one round; across rounds compare the country total. Area names are the source's, with obvious typos corrected.": {
+  "ar": "المناطق هي وحدات التحليل التي استخدمتها كل جولة من التصنيف المرحلي المتكامل، وهي تختلف من جولة إلى أخرى: منذ آذار ٢٠٢٥ دُمجت بعض الأقضية، ومنذ تشرين الأول ٢٠٢٥ يُقسَّم كل قضاء بحسب فئة السكان. قارنوا المناطق ضمن الجولة الواحدة، وقارنوا بين الجولات بالمجموع الوطني. أسماء المناطق كما وردت في المصدر مع تصحيح الأخطاء الإملائية الواضحة.",
+  "fr": "Les zones sont les unités d'analyse de chaque cycle de l'IPC, et elles diffèrent d'un cycle à l'autre : depuis mars 2025 certains districts sont regroupés, et depuis octobre 2025 chaque district est divisé par groupe de population. Comparez les zones au sein d'un même cycle ; d'un cycle à l'autre, comparez le total national. Les noms de zones sont ceux de la source, avec les fautes de frappe évidentes corrigées."
+ },
+ "Brown bulgur, 900 g": {
+  "ar": "برغل أسمر، ٩٠٠ غ",
+  "fr": "Boulgour brun, 900 g"
+ },
+ "By area": {
+  "ar": "بحسب المنطقة",
+  "fr": "Par zone"
+ },
+ "Cabbage, per kg": {
+  "ar": "ملفوف، للكيلوغرام",
+  "fr": "Chou, le kg"
+ },
+ "Canned beef, 200 g": {
+  "ar": "لحم بقري معلّب، ٢٠٠ غ",
+  "fr": "Bœuf en conserve, 200 g"
+ },
+ "Canned sardines, 125 g": {
+  "ar": "سردين معلّب، ١٢٥ غ",
+  "fr": "Sardines en conserve, 125 g"
+ },
+ "Canned tuna, 185 g": {
+  "ar": "تونة معلّبة، ١٨٥ غ",
+  "fr": "Thon en conserve, 185 g"
+ },
+ "Carrots, per kg": {
+  "ar": "جزر، للكيلوغرام",
+  "fr": "Carottes, le kg"
+ },
+ "Catastrophe": {
+  "ar": "كارثة",
+  "fr": "Catastrophe"
+ },
+ "Change since the first month on record": {
+  "ar": "التغيّر منذ أول شهر مسجّل",
+  "fr": "Évolution depuis le premier mois enregistré"
+ },
+ "Chickpeas, 900 g": {
+  "ar": "حمص، ٩٠٠ غ",
+  "fr": "Pois chiches, 900 g"
+ },
+ "Commodity": {
+  "ar": "السلعة",
+  "fr": "Produit"
+ },
+ "Cooking gas, 10 kg (WFP survey)": {
+  "ar": "غاز للطهي، ١٠ كغ (مسح برنامج الأغذية العالمي)",
+  "fr": "Gaz de cuisine, 10 kg (enquête du PAM)"
+ },
+ "Country total over time": {
+  "ar": "المجموع الوطني عبر الزمن",
+  "fr": "Total national au fil du temps"
+ },
+ "Crisis": {
+  "ar": "أزمة",
+  "fr": "Crise"
+ },
+ "Diesel, 20 L (WFP survey)": {
+  "ar": "مازوت، ٢٠ لتراً (مسح برنامج الأغذية العالمي)",
+  "fr": "Diesel, 20 L (enquête du PAM)"
+ },
+ "Each point is the median of the retail prices the surveyed markets reported that month. The set of markets changes over time, so a step can reflect coverage as much as price.": {
+  "ar": "كل نقطة هي وسيط أسعار التجزئة التي أبلغت عنها الأسواق المشمولة بالمسح في ذلك الشهر. تتغيّر مجموعة الأسواق عبر الزمن، فقد تعكس القفزة التغطية بقدر ما تعكس السعر.",
+  "fr": "Chaque point est la médiane des prix de détail relevés ce mois-là par les marchés enquêtés. L'ensemble des marchés change au fil du temps : un saut peut refléter la couverture autant que le prix."
+ },
+ "Eggs, 30 pieces": {
+  "ar": "بيض، ٣٠ حبة",
+  "fr": "Œufs, 30 pièces"
+ },
+ "Egyptian rice, 900 g": {
+  "ar": "أرز مصري مستورد، ٩٠٠ غ",
+  "fr": "Riz égyptien importé, 900 g"
+ },
+ "Emergency": {
+  "ar": "طوارئ",
+  "fr": "Urgence"
+ },
+ "Food prices": {
+  "ar": "أسعار الغذاء",
+  "fr": "Prix des denrées"
+ },
+ "Food security": {
+  "ar": "الأمن الغذائي",
+  "fr": "Sécurité alimentaire"
+ },
+ "Food security in Lebanon: what a basket of staple foods costs, from the WFP market surveys, and how many people the IPC classifies as acutely food insecure, by area and period.": {
+  "ar": "الأمن الغذائي في لبنان: كلفة سلة من المواد الغذائية الأساسية بحسب مسوح الأسواق لبرنامج الأغذية العالمي، وعدد الأشخاص الذين يصنّفهم التصنيف المرحلي المتكامل في انعدام حاد للأمن الغذائي، بحسب المنطقة والفترة.",
+  "fr": "Sécurité alimentaire au Liban : ce que coûte un panier de denrées de base, d'après les enquêtes de marché du PAM, et combien de personnes l'IPC classe en insécurité alimentaire aiguë, par zone et par période."
+ },
+ "Green lentils, per kg": {
+  "ar": "عدس أخضر، للكيلوغرام",
+  "fr": "Lentilles vertes, le kg"
+ },
+ "Greenhouse cucumbers, per kg": {
+  "ar": "خيار البيوت المحمية، للكيلوغرام",
+  "fr": "Concombres de serre, le kg"
+ },
+ "IPC estimate, not a count": {
+  "ar": "تقدير للتصنيف المرحلي المتكامل وليس عدّاً",
+  "fr": "estimation de l'IPC, pas un décompte"
+ },
+ "In crisis or worse (IPC phase 3 or above)": {
+  "ar": "في أزمة أو أسوأ (المرحلة ٣ فأعلى)",
+  "fr": "En crise ou pire (phase 3 de l'IPC ou plus)"
+ },
+ "In emergency (phase 4)": {
+  "ar": "في حالة طوارئ (المرحلة ٤)",
+  "fr": "En urgence (phase 4)"
+ },
+ "Latest price": {
+  "ar": "آخر سعر",
+  "fr": "Dernier prix"
+ },
+ "Lebanese pounds": {
+  "ar": "الليرة اللبنانية",
+  "fr": "Livres libanaises"
+ },
+ "Lebanese pounds, monthly median across the markets surveyed": {
+  "ar": "بالليرة اللبنانية، الوسيط الشهري للأسواق المشمولة بالمسح",
+  "fr": "En livres libanaises, médiane mensuelle des marchés enquêtés"
+ },
+ "Lebanese residents": {
+  "ar": "المقيمون اللبنانيون",
+  "fr": "Résidents libanais"
+ },
+ "Lebanon, national median": {
+  "ar": "لبنان، الوسيط الوطني",
+  "fr": "Liban, médiane nationale"
+ },
+ "Lentils, 900 g": {
+  "ar": "عدس، ٩٠٠ غ",
+  "fr": "Lentilles, 900 g"
+ },
+ "Lettuce, per head": {
+  "ar": "خس، للرأس",
+  "fr": "Laitue, la pièce"
+ },
+ "Minimal or none": {
+  "ar": "ضئيل أو معدوم",
+  "fr": "Minimale ou nulle"
+ },
+ "Newly displaced Syrians": {
+  "ar": "السوريون النازحون حديثاً",
+  "fr": "Syriens nouvellement déplacés"
+ },
+ "No IPC data is in this build.": {
+  "ar": "لا توجد بيانات من التصنيف المرحلي المتكامل في هذا الإصدار.",
+  "fr": "Aucune donnée de l'IPC dans cette version."
+ },
+ "No food price data is in this build.": {
+  "ar": "لا توجد بيانات عن أسعار الغذاء في هذا الإصدار.",
+  "fr": "Aucune donnée sur les prix des denrées dans cette version."
+ },
+ "No price on record for this choice.": {
+  "ar": "لا يوجد سعر مسجّل لهذا الخيار.",
+  "fr": "Aucun prix enregistré pour ce choix."
+ },
+ "Only the latest run of each governorate is drawn; choose one governorate to see the earlier months.": {
+  "ar": "يُرسم آخر مقطع متصل فقط لكل محافظة؛ اختاروا محافظة واحدة لرؤية الأشهر الأقدم.",
+  "fr": "Seule la dernière période continue de chaque gouvernorat est tracée ; choisissez un seul gouvernorat pour voir les mois plus anciens."
+ },
+ "Other groups": {
+  "ar": "فئات أخرى",
+  "fr": "Autres groupes"
+ },
+ "Palestinian refugees": {
+  "ar": "اللاجئون الفلسطينيون",
+  "fr": "Réfugiés palestiniens"
+ },
+ "People analysed": {
+  "ar": "الأشخاص المشمولون بالتحليل",
+  "fr": "Personnes analysées"
+ },
+ "People in crisis or worse": {
+  "ar": "أشخاص في أزمة أو أسوأ",
+  "fr": "Personnes en crise ou pire"
+ },
+ "People in phase 3 or above": {
+  "ar": "أشخاص في المرحلة ٣ فأعلى",
+  "fr": "Personnes en phase 3 ou plus"
+ },
+ "People in phase 4": {
+  "ar": "أشخاص في المرحلة ٤",
+  "fr": "Personnes en phase 4"
+ },
+ "Petrol 95, 20 L (WFP survey)": {
+  "ar": "بنزين ٩٥، ٢٠ لتراً (مسح برنامج الأغذية العالمي)",
+  "fr": "Essence 95, 20 L (enquête du PAM)"
+ },
+ "Phase {n}": {
+  "ar": "المرحلة {n}",
+  "fr": "Phase {n}"
+ },
+ "Picon cheese, 160 g": {
+  "ar": "جبنة بيكون، ١٦٠ غ",
+  "fr": "Fromage Picon, 160 g"
+ },
+ "Pita bread, 800 g": {
+  "ar": "خبز بيتا، ٨٠٠ غ",
+  "fr": "Pain pita, 800 g"
+ },
+ "Population group": {
+  "ar": "فئة السكان",
+  "fr": "Groupe de population"
+ },
+ "Potatoes, per kg": {
+  "ar": "بطاطا، للكيلوغرام",
+  "fr": "Pommes de terre, le kg"
+ },
+ "Powdered milk, 750 g": {
+  "ar": "حليب بودرة، ٧٥٠ غ",
+  "fr": "Lait en poudre, 750 g"
+ },
+ "Previous analysis": {
+  "ar": "التحليل السابق",
+  "fr": "Analyse précédente"
+ },
+ "Price in": {
+  "ar": "السعر بـ",
+  "fr": "Prix en"
+ },
+ "Red lentils, per kg": {
+  "ar": "عدس أحمر، للكيلوغرام",
+  "fr": "Lentilles corail, le kg"
+ },
+ "Salt, 700 g": {
+  "ar": "ملح، ٧٠٠ غ",
+  "fr": "Sel, 700 g"
+ },
+ "Share in phase 3 or above": {
+  "ar": "الحصة في المرحلة ٣ فأعلى",
+  "fr": "Part en phase 3 ou plus"
+ },
+ "Share of people in each IPC phase": {
+  "ar": "حصة الأشخاص في كل مرحلة من مراحل التصنيف",
+  "fr": "Part des personnes dans chaque phase de l'IPC"
+ },
+ "Show all {n} areas": {
+  "ar": "عرض كل المناطق ({n})",
+  "fr": "Afficher les {n} zones"
+ },
+ "Show fewer": {
+  "ar": "عرض أقل",
+  "fr": "Afficher moins"
+ },
+ "Spaghetti, 500 g": {
+  "ar": "سباغيتي، ٥٠٠ غ",
+  "fr": "Spaghettis, 500 g"
+ },
+ "Spinach, per kg": {
+  "ar": "سبانخ، للكيلوغرام",
+  "fr": "Épinards, le kg"
+ },
+ "Stressed": {
+  "ar": "إجهاد",
+  "fr": "Sous tension"
+ },
+ "Sunflower oil, 5 L": {
+  "ar": "زيت دوّار الشمس، ٥ لترات",
+  "fr": "Huile de tournesol, 5 L"
+ },
+ "Tea, 160 g": {
+  "ar": "شاي، ١٦٠ غ",
+  "fr": "Thé, 160 g"
+ },
+ "The IPC classifies people into five phases of acute food insecurity. Phase 3 (crisis) and above is the usual headline figure. These are IPC estimates (IPC, FAO, WFP and partners), not counts of people.": {
+  "ar": "يصنّف التصنيف المرحلي المتكامل الأشخاص في خمس مراحل من انعدام الأمن الغذائي الحاد، والمرحلة ٣ (أزمة) فأعلى هي الرقم الذي يُعلَن عادةً. هذه تقديرات (التصنيف المرحلي المتكامل ومنظمة الأغذية والزراعة وبرنامج الأغذية العالمي وشركاؤهم) وليست عدّاً للأشخاص.",
+  "fr": "L'IPC classe les personnes en cinq phases d'insécurité alimentaire aiguë. La phase 3 (crise) et au-delà est le chiffre habituellement cité. Ce sont des estimations de l'IPC (IPC, FAO, PAM et partenaires), pas un décompte de personnes."
+ },
+ "The whole country": {
+  "ar": "البلد كله",
+  "fr": "Le pays entier"
+ },
+ "Tomato paste, 660 g": {
+  "ar": "معجون بندورة، ٦٦٠ غ",
+  "fr": "Concentré de tomate, 660 g"
+ },
+ "US dollars": {
+  "ar": "الدولار الأميركي",
+  "fr": "Dollars américains"
+ },
+ "US dollars at the official rate, monthly median across the markets surveyed": {
+  "ar": "بالدولار الأميركي بالسعر الرسمي، الوسيط الشهري للأسواق المشمولة بالمسح",
+  "fr": "En dollars américains au taux officiel, médiane mensuelle des marchés enquêtés"
+ },
+ "WFP converts pounds to dollars at the official rate. From September 2019 to February 2024 that rate was far from what people paid, so those months are left out and the line is broken, not joined.": {
+  "ar": "يحوّل برنامج الأغذية العالمي الليرة إلى دولار بالسعر الرسمي. من أيلول ٢٠١٩ إلى شباط ٢٠٢٤ كان هذا السعر بعيداً عمّا يدفعه الناس فعلاً، لذلك حُذفت هذه الأشهر وانقطع الخط بدل أن يُوصل.",
+  "fr": "Le PAM convertit les livres en dollars au taux officiel. De septembre 2019 à février 2024, ce taux était très éloigné de ce que les gens payaient : ces mois sont donc exclus et la ligne est interrompue, non reliée."
+ },
+ "Wheat flour, 900 g": {
+  "ar": "طحين قمح، ٩٠٠ غ",
+  "fr": "Farine de blé, 900 g"
+ },
+ "Where": {
+  "ar": "أين",
+  "fr": "Où"
+ },
+ "White beans, 900 g": {
+  "ar": "فاصولياء بيضاء، ٩٠٠ غ",
+  "fr": "Haricots blancs, 900 g"
+ },
+ "White sugar, 5 kg": {
+  "ar": "سكر أبيض، ٥ كغ",
+  "fr": "Sucre blanc, 5 kg"
+ },
+ "Whole frozen chicken, per kg": {
+  "ar": "دجاج كامل مجمّد، للكيلوغرام",
+  "fr": "Poulet entier surgelé, le kg"
+ },
+ "by governorate": {
+  "ar": "بحسب المحافظة",
+  "fr": "par gouvernorat"
+ },
+ "current period": {
+  "ar": "الفترة الحالية",
+  "fr": "période en cours"
+ },
+ "how many times more pounds it costs": {
+  "ar": "كم مرة زادت كلفته بالليرة",
+  "fr": "combien de fois plus de livres il faut"
+ },
+ "projection": {
+  "ar": "توقّع",
+  "fr": "projection"
+ },
+ "share of people in crisis or worse (phase 3 or above), highest first": {
+  "ar": "حصة الأشخاص في أزمة أو أسوأ (المرحلة ٣ فأعلى)، الأعلى أولاً",
+  "fr": "part des personnes en crise ou pire (phase 3 ou plus), de la plus élevée à la plus basse"
+ },
+ "share of people in crisis or worse, by analysis and period": {
+  "ar": "حصة الأشخاص في أزمة أو أسوأ، بحسب التحليل والفترة",
+  "fr": "part des personnes en crise ou pire, par analyse et par période"
+ },
+ "{a} analysis, {v}": {
+  "ar": "تحليل {a}، {v}",
+  "fr": "analyse de {a}, {v}"
+ },
+ "{n} area has no phase split in the source and is left out.": {
+  "ar": "منطقة واحدة بلا توزيع على المراحل في المصدر وقد استُبعدت.",
+  "fr": "{n} zone n'a pas de répartition par phase dans la source et est exclue."
+ },
+ "{n} areas have no phase split in the source and are left out.": {
+  "ar": "{n} مناطق بلا توزيع على المراحل في المصدر وقد استُبعدت.",
+  "fr": "{n} zones n'ont pas de répartition par phase dans la source et sont exclues."
+ },
+ "What things cost in Lebanon: the exchange rate (official and market), bread, fuel, generator subscriptions, the minimum wage in US dollars, prices by category, food security, and the public finances behind them.": {
+  "ar": "كم تكلّف الأشياء في لبنان: سعر الصرف (الرسمي والسوق) والخبز والوقود واشتراكات المولّدات والحد الأدنى للأجور بالدولار والأسعار بحسب الفئة والأمن الغذائي، والمالية العامة وراءها.",
+  "fr": "Ce que les choses coûtent au Liban : taux de change (officiel et marché), pain, carburant, abonnements aux générateurs, salaire minimum en dollars, prix par catégorie, sécurité alimentaire, et les finances publiques qui les sous-tendent."
+ },
+ "Rachaya": {
+  "ar": "راشيا",
+  "fr": "Rachaya"
+ },
+ "Palestinian refugees in Lebanon": {
+  "ar": "اللاجئون الفلسطينيون في لبنان",
+  "fr": "Réfugiés palestiniens au Liban"
+ }
 }

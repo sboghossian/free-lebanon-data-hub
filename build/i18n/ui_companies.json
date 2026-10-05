@@ -1,0 +1,874 @@
+{
+ "Companies": {
+  "ar": "الشركات",
+  "fr": "Entreprises"
+ },
+ "Lebanese companies and what the public record says about them: the Beirut Stock Exchange, companies listed abroad, startups and exits, family businesses and banks. Every list is ranked by one stated metric.": {
+  "ar": "الشركات اللبنانية وما يقوله السجل العام عنها: بورصة بيروت، والشركات المدرجة في الخارج، والشركات الناشئة وعمليات التخارج، والشركات العائلية، والمصارف. كل قائمة مرتّبة بمقياس واحد معلَن.",
+  "fr": "Les entreprises libanaises et ce que dit le dossier public à leur sujet : la Bourse de Beyrouth, les sociétés cotées à l'étranger, les startups et leurs sorties, les entreprises familiales et les banques. Chaque liste est classée selon un seul critère annoncé."
+ },
+ "No company data is in this build yet. When it is, the lists and charts appear here.": {
+  "ar": "لا توجد بيانات عن الشركات في هذا الإصدار بعد. عند توفرها تظهر القوائم والرسوم البيانية هنا.",
+  "fr": "Aucune donnée sur les entreprises dans cette version pour l'instant. Quand elle y sera, les listes et les graphiques apparaîtront ici."
+ },
+ "(grant, not equity)": {
+  "ar": "(منحة وليست حصة ملكية)",
+  "fr": "(subvention, pas du capital)"
+ },
+ "* The year includes a figure reported by an investor, not independently.": {
+  "ar": "* تتضمن السنة رقماً أفاد به مستثمر ولم يتحقق منه مصدر مستقل.",
+  "fr": "* L'année comprend un chiffre communiqué par un investisseur, sans vérification indépendante."
+ },
+ "Acquirer": {
+  "ar": "الجهة المستحوِذة",
+  "fr": "Acquéreur"
+ },
+ "All years": {
+  "ar": "كل السنوات",
+  "fr": "Toutes les années"
+ },
+ "Also matches in": {
+  "ar": "نتائج أخرى في",
+  "fr": "Autres résultats dans"
+ },
+ "Amount (US dollars)": {
+  "ar": "المبلغ (دولار أميركي)",
+  "fr": "Montant (dollars US)"
+ },
+ "Bank": {
+  "ar": "المصرف",
+  "fr": "Banque"
+ },
+ "Banks": {
+  "ar": "المصارف",
+  "fr": "Banques"
+ },
+ "Banks by the chosen figure": {
+  "ar": "المصارف بحسب الرقم المختار",
+  "fr": "Les banques selon le chiffre choisi"
+ },
+ "Banks listed in Beirut, from their own statements": {
+  "ar": "المصارف المدرجة في بيروت، من بياناتها المالية",
+  "fr": "Banques cotées à Beyrouth, d'après leurs propres états financiers"
+ },
+ "Before the crisis, 2011 to 2019": {
+  "ar": "قبل الأزمة، ٢٠١١ إلى ٢٠١٩",
+  "fr": "Avant la crise, 2011 à 2019"
+ },
+ "Beirut Stock Exchange": {
+  "ar": "بورصة بيروت",
+  "fr": "Bourse de Beyrouth"
+ },
+ "Capital accounts": {
+  "ar": "حسابات رأس المال",
+  "fr": "Comptes de capital"
+ },
+ "Common share": {
+  "ar": "سهم عادي",
+  "fr": "Action ordinaire"
+ },
+ "Common shares, market cap added up": {
+  "ar": "الأسهم العادية، مجموع القيمة السوقية",
+  "fr": "Actions ordinaires, capitalisation boursière cumulée"
+ },
+ "Company": {
+  "ar": "الشركة",
+  "fr": "Entreprise"
+ },
+ "Context: no revenue series": {
+  "ar": "للسياق: بلا سلسلة إيرادات",
+  "fr": "Contexte : pas de série de chiffre d'affaires"
+ },
+ "Customer deposits": {
+  "ar": "ودائع العملاء",
+  "fr": "Dépôts de la clientèle"
+ },
+ "Data behind this tab": {
+  "ar": "البيانات وراء هذا التبويب",
+  "fr": "Données derrière cet onglet"
+ },
+ "Dates are announcement dates, and founding years differ between sources in some cases. \"Investor-reported\" marks figures taken from an investor's own portfolio page.": {
+  "ar": "التواريخ هي تواريخ الإعلان، وتختلف سنوات التأسيس بين المصادر في بعض الحالات. تشير عبارة «أفاد به المستثمر» إلى أرقام مأخوذة من صفحة محفظة المستثمر نفسه.",
+  "fr": "Les dates sont des dates d'annonce, et les années de création diffèrent d'une source à l'autre dans certains cas. « Déclaré par l'investisseur » signale des chiffres tirés de la page de portefeuille d'un investisseur."
+ },
+ "December 2023 is a separate dot: it is valued at 15,000 pounds to the dollar, July 2024 onward at 89,500, so the two are not comparable. January to June 2024 is missing, and there is no sector series for 2020 to 2023.": {
+  "ar": "كانون الأول ٢٠٢٣ نقطة منفصلة: فهو مقوَّم بسعر ١٥٬٠٠٠ ليرة للدولار، أما من تموز ٢٠٢٤ فبسعر ٨٩٬٥٠٠، ولذلك لا يمكن المقارنة بينهما. كانون الثاني إلى حزيران ٢٠٢٤ غير متوفر، ولا توجد سلسلة للقطاع للسنوات ٢٠٢٠ إلى ٢٠٢٣.",
+  "fr": "Décembre 2023 est un point à part : il est évalué à 15 000 livres pour un dollar, et juillet 2024 et après à 89 500, donc les deux ne sont pas comparables. Janvier à juin 2024 manquent, et il n'existe pas de série du secteur pour 2020 à 2023."
+ },
+ "Deposits by holder": {
+  "ar": "الودائع بحسب الجهة المودِعة",
+  "fr": "Dépôts par détenteur"
+ },
+ "Disclosed funding": {
+  "ar": "التمويل المعلَن",
+  "fr": "Financement divulgué"
+ },
+ "Disclosed funding (US dollars)": {
+  "ar": "التمويل المعلَن (دولار أميركي)",
+  "fr": "Financement divulgué (dollars US)"
+ },
+ "Disclosed funding by year": {
+  "ar": "التمويل المعلَن بحسب السنة",
+  "fr": "Financement divulgué par année"
+ },
+ "Exchange": {
+  "ar": "البورصة",
+  "fr": "Place de cotation"
+ },
+ "Exit": {
+  "ar": "التخارج",
+  "fr": "Sortie"
+ },
+ "Exits": {
+  "ar": "عمليات التخارج",
+  "fr": "Sorties"
+ },
+ "Family businesses": {
+  "ar": "الشركات العائلية",
+  "fr": "Entreprises familiales"
+ },
+ "Filing": {
+  "ar": "الإيداع",
+  "fr": "Dépôt"
+ },
+ "Fiscal year": {
+  "ar": "السنة المالية",
+  "fr": "Exercice"
+ },
+ "Founded": {
+  "ar": "سنة التأسيس",
+  "fr": "Fondée"
+ },
+ "Founding place contested between sources": {
+  "ar": "مكان التأسيس موضع خلاف بين المصادر",
+  "fr": "Lieu de fondation contesté entre les sources"
+ },
+ "Founding year": {
+  "ar": "سنة التأسيس",
+  "fr": "Année de fondation"
+ },
+ "Funding rounds ({n})": {
+  "ar": "جولات التمويل ({n})",
+  "fr": "Tours de financement ({n})"
+ },
+ "Global depositary receipt": {
+  "ar": "إيصال إيداع عالمي",
+  "fr": "Certificat de dépôt mondial (GDR)"
+ },
+ "Gross loans": {
+  "ar": "إجمالي القروض",
+  "fr": "Prêts bruts"
+ },
+ "Group name": {
+  "ar": "اسم المجموعة",
+  "fr": "Nom du groupe"
+ },
+ "Groups checked and left out": {
+  "ar": "مجموعات جرى التحقق منها واستُبعدت",
+  "fr": "Groupes vérifiés puis écartés"
+ },
+ "Include preferred shares and receipts (no market cap)": {
+  "ar": "إدراج الأسهم الممتازة والإيصالات (بلا قيمة سوقية)",
+  "fr": "Inclure les actions de préférence et les certificats (sans capitalisation)"
+ },
+ "Investors": {
+  "ar": "المستثمرون",
+  "fr": "Investisseurs"
+ },
+ "Latest session": {
+  "ar": "آخر جلسة",
+  "fr": "Dernière séance"
+ },
+ "Listed abroad": {
+  "ar": "المدرجة في الخارج",
+  "fr": "Cotées à l'étranger"
+ },
+ "Listed in Beirut": {
+  "ar": "المدرجة في بيروت",
+  "fr": "Cotées à Beyrouth"
+ },
+ "Loans and capital": {
+  "ar": "القروض ورأس المال",
+  "fr": "Prêts et capital"
+ },
+ "Loans to the resident private sector": {
+  "ar": "القروض للقطاع الخاص المقيم",
+  "fr": "Prêts au secteur privé résident"
+ },
+ "Many prices are the previous close: only some securities traded in the latest session, and the exchange does not give the date of the last trade. Shares outstanding come from each bank's own 2025 statements where it published them, and from the exchange listing otherwise.": {
+  "ar": "كثير من الأسعار هي إغلاق الجلسة السابقة: لم يجرِ تداول إلا على بعض الأوراق في آخر جلسة، ولا تذكر البورصة تاريخ آخر صفقة. وعدد الأسهم القائمة مأخوذ من البيانات المالية لكل مصرف لعام ٢٠٢٥ حيث نشرها، ومن قائمة الإدراج في البورصة في غير ذلك.",
+  "fr": "Beaucoup de cours sont la clôture précédente : seuls certains titres ont été échangés à la dernière séance, et la Bourse ne donne pas la date de la dernière transaction. Le nombre d'actions en circulation vient des états financiers 2025 de chaque banque quand elle les a publiés, et de la fiche de cotation de la Bourse sinon."
+ },
+ "Market cap (US dollars)": {
+  "ar": "القيمة السوقية (دولار أميركي)",
+  "fr": "Capitalisation boursière (dollars US)"
+ },
+ "Market capitalisation": {
+  "ar": "القيمة السوقية",
+  "fr": "Capitalisation boursière"
+ },
+ "Market capitalisation by security": {
+  "ar": "القيمة السوقية بحسب الورقة المالية",
+  "fr": "Capitalisation boursière par titre"
+ },
+ "Net income (US dollars)": {
+  "ar": "صافي الدخل (دولار أميركي)",
+  "fr": "Résultat net (dollars US)"
+ },
+ "Net income is the profit or loss for the year. Rows marked \"reported\" are read from the filing text, not from the SEC data feed (marked \"verified\"). A filing amended after the 20-F was not read.": {
+  "ar": "صافي الدخل هو ربح السنة أو خسارتها. الصفوف الموسومة «مُبلَّغ عنه» مقروءة من نص الإيداع لا من بيانات هيئة الأوراق المالية الأميركية (الموسومة «موثّق»). ولم يُقرأ إيداع معدَّل بعد النموذج 20-F.",
+  "fr": "Le résultat net est le bénéfice ou la perte de l'exercice. Les lignes marquées « rapporté » sont lues dans le texte du dépôt, non dans le flux de données de la SEC (marquées « vérifié »). Un dépôt modifié après le 20-F n'a pas été lu."
+ },
+ "Net result": {
+  "ar": "صافي النتيجة",
+  "fr": "Résultat net"
+ },
+ "No listed-abroad company matches the search.": {
+  "ar": "لا توجد شركة مدرجة في الخارج تطابق البحث.",
+  "fr": "Aucune société cotée à l'étranger ne correspond à la recherche."
+ },
+ "No other view matches the search.": {
+  "ar": "لا نتائج في أقسام أخرى.",
+  "fr": "Aucune autre vue ne correspond à la recherche."
+ },
+ "Non-resident deposits": {
+  "ar": "ودائع غير المقيمين",
+  "fr": "Dépôts des non-résidents"
+ },
+ "Nothing in this view matches the search.": {
+  "ar": "لا شيء في هذا القسم يطابق البحث.",
+  "fr": "Rien dans cette vue ne correspond à la recherche."
+ },
+ "Only groups of Lebanese origin or based in Lebanon are listed. Lists for 2021 to 2026 were read; the 2018 to 2020 lists could not be fetched. Other groups on the lists were not checked one by one.": {
+  "ar": "لا تُدرج إلا المجموعات ذات الأصل اللبناني أو التي مقرها في لبنان. قُرئت قوائم ٢٠٢١ إلى ٢٠٢٦، وتعذّر جلب قوائم ٢٠١٨ إلى ٢٠٢٠. ولم يُدقَّق في بقية المجموعات الواردة في القوائم واحدة واحدة.",
+  "fr": "Seuls les groupes d'origine libanaise ou basés au Liban sont listés. Les classements 2021 à 2026 ont été lus ; ceux de 2018 à 2020 n'ont pas pu être récupérés. Les autres groupes des classements n'ont pas été vérifiés un par un."
+ },
+ "Origin": {
+  "ar": "الأصل",
+  "fr": "Origine"
+ },
+ "Origin reported by one source": {
+  "ar": "الأصل بحسب مصدر واحد",
+  "fr": "Origine rapportée par une source"
+ },
+ "Origin verified on two sources": {
+  "ar": "الأصل موثّق على مصدرين",
+  "fr": "Origine vérifiée sur deux sources"
+ },
+ "Preferred share": {
+  "ar": "سهم ممتاز",
+  "fr": "Action de préférence"
+ },
+ "Previous close, no trade that day": {
+  "ar": "إغلاق سابق، دون تداول في ذلك اليوم",
+  "fr": "Clôture précédente, aucun échange ce jour-là"
+ },
+ "Price (US dollars)": {
+  "ar": "السعر (دولار أميركي)",
+  "fr": "Cours (dollars US)"
+ },
+ "Price basis": {
+  "ar": "أساس السعر",
+  "fr": "Base du cours"
+ },
+ "Price change": {
+  "ar": "تغيّر السعر",
+  "fr": "Variation du cours"
+ },
+ "Price history is not shown: the exchange history page returned an error when the research was done, and its charts are images.": {
+  "ar": "لا يُعرض تاريخ الأسعار: فقد أعادت صفحة التاريخ في البورصة خطأً عند إجراء البحث، ورسومها صور.",
+  "fr": "L'historique des cours n'est pas affiché : la page d'historique de la Bourse renvoyait une erreur au moment de la recherche, et ses graphiques sont des images."
+ },
+ "Price history of": {
+  "ar": "تاريخ سعر",
+  "fr": "Historique du cours de"
+ },
+ "Public-sector deposits": {
+  "ar": "ودائع القطاع العام",
+  "fr": "Dépôts du secteur public"
+ },
+ "Published figures are in pounds and are divided by 89,500, the legal rate since 31 January 2024. A 2023 statement is at the old rate of 15,000 and is not comparable.": {
+  "ar": "الأرقام المنشورة بالليرة وتُقسَّم على ٨٩٬٥٠٠، وهو السعر القانوني منذ ٣١ كانون الثاني ٢٠٢٤. وبيانات ٢٠٢٣ مقوَّمة بالسعر القديم ١٥٬٠٠٠ ولا تصح مقارنتها.",
+  "fr": "Les chiffres publiés sont en livres et divisés par 89 500, le taux légal depuis le 31 janvier 2024. Un état de 2023 est au taux ancien de 15 000 et n'est pas comparable."
+ },
+ "Published rank": {
+  "ar": "الترتيب المنشور",
+  "fr": "Rang publié"
+ },
+ "Ranked by": {
+  "ar": "الترتيب بحسب",
+  "fr": "Classement selon"
+ },
+ "Resident private-sector deposits": {
+  "ar": "ودائع القطاع الخاص المقيم",
+  "fr": "Dépôts du secteur privé résident"
+ },
+ "Revenue (US dollars)": {
+  "ar": "الإيرادات (دولار أميركي)",
+  "fr": "Chiffre d'affaires (dollars US)"
+ },
+ "Round": {
+  "ar": "الجولة",
+  "fr": "Tour"
+ },
+ "Search companies": {
+  "ar": "ابحث في الشركات",
+  "fr": "Rechercher des entreprises"
+ },
+ "Securities listed": {
+  "ar": "الأوراق المالية المدرجة",
+  "fr": "Titres cotés"
+ },
+ "Security": {
+  "ar": "الورقة المالية",
+  "fr": "Titre"
+ },
+ "Sort by": {
+  "ar": "رتّب بحسب",
+  "fr": "Trier par"
+ },
+ "Startups and exits": {
+  "ar": "الشركات الناشئة وعمليات التخارج",
+  "fr": "Startups et sorties"
+ },
+ "Statements": {
+  "ar": "البيانات المالية",
+  "fr": "États financiers"
+ },
+ "Statements for": {
+  "ar": "بيانات سنة",
+  "fr": "États de l'exercice"
+ },
+ "The figures come from the investor's own portfolio page, not an independent report.": {
+  "ar": "الأرقام مأخوذة من صفحة محفظة المستثمر نفسه لا من تقرير مستقل.",
+  "fr": "Les chiffres viennent de la page de portefeuille de l'investisseur, non d'un rapport indépendant."
+ },
+ "The other banks, about fifty, are not covered: no statement was in hand and the Association of Banks in Lebanon almanac is not used.": {
+  "ar": "لا تشملها التغطية بقية المصارف، وعددها نحو خمسين: لم تتوفر بياناتها ولم يُعتمد حولية جمعية مصارف لبنان.",
+  "fr": "Les autres banques, une cinquantaine, ne sont pas couvertes : aucun état n'était disponible et l'annuaire de l'Association des banques du Liban n'est pas utilisé."
+ },
+ "The sources read give these groups an origin or a base outside Lebanon.": {
+  "ar": "تعطي المصادر المقروءة لهذه المجموعات أصلاً أو مقراً خارج لبنان.",
+  "fr": "Les sources lues donnent à ces groupes une origine ou un siège hors du Liban."
+ },
+ "The sources state no licence, so only facts (numbers, names and dates) are published, with attribution.": {
+  "ar": "لا تذكر المصادر أي ترخيص، لذلك لا تُنشر إلا الوقائع (الأرقام والأسماء والتواريخ) مع نسبتها إلى مصدرها.",
+  "fr": "Les sources n'indiquent aucune licence : seuls les faits (chiffres, noms et dates) sont publiés, avec attribution."
+ },
+ "Total assets": {
+  "ar": "إجمالي الأصول",
+  "fr": "Total de l'actif"
+ },
+ "Total assets (US dollar millions)": {
+  "ar": "إجمالي الأصول (ملايين الدولارات)",
+  "fr": "Total de l'actif (millions de dollars US)"
+ },
+ "Total assets and deposits": {
+  "ar": "إجمالي الأصول والودائع",
+  "fr": "Total de l'actif et dépôts"
+ },
+ "Total deposits": {
+  "ar": "إجمالي الودائع",
+  "fr": "Total des dépôts"
+ },
+ "Total equity": {
+  "ar": "إجمالي حقوق الملكية",
+  "fr": "Total des capitaux propres"
+ },
+ "Traded in the session": {
+  "ar": "جرى تداوله في الجلسة",
+  "fr": "Échangé pendant la séance"
+ },
+ "US dollars": {
+  "ar": "دولار أميركي",
+  "fr": "dollars US"
+ },
+ "US dollars, announced equity rounds that state an amount, by year of announcement": {
+  "ar": "دولار أميركي، جولات الأسهم المعلَنة التي يُذكر مبلغها، بحسب سنة الإعلان",
+  "fr": "dollars US, tours en capital annoncés avec un montant, par année d'annonce"
+ },
+ "US dollars, common shares only, last price times shares outstanding": {
+  "ar": "دولار أميركي، الأسهم العادية فقط، آخر سعر مضروباً في عدد الأسهم القائمة",
+  "fr": "dollars US, actions ordinaires seulement, dernier cours multiplié par le nombre d'actions en circulation"
+ },
+ "US dollars, latest statements": {
+  "ar": "دولار أميركي، أحدث البيانات المالية",
+  "fr": "dollars US, derniers états financiers"
+ },
+ "US dollars, month end": {
+  "ar": "دولار أميركي، نهاية الشهر",
+  "fr": "dollars US, fin de mois"
+ },
+ "US dollars, month end, at the legal rate": {
+  "ar": "دولار أميركي، نهاية الشهر، بالسعر القانوني",
+  "fr": "dollars US, fin de mois, au taux légal"
+ },
+ "US dollars, yearly, deposit takers (IMF Financial Soundness Indicators)": {
+  "ar": "دولار أميركي، سنوياً، المؤسسات المتلقية للودائع (مؤشرات السلامة المالية لصندوق النقد الدولي)",
+  "fr": "dollars US, annuel, institutions de dépôt (indicateurs de solidité financière du FMI)"
+ },
+ "Value (US dollars)": {
+  "ar": "القيمة (دولار أميركي)",
+  "fr": "Valeur (dollars US)"
+ },
+ "Year, newest first": {
+  "ar": "السنة، الأحدث أولاً",
+  "fr": "Année, la plus récente d'abord"
+ },
+ "total assets": {
+  "ar": "إجمالي الأصول",
+  "fr": "le total de l'actif"
+ },
+ "customer deposits": {
+  "ar": "ودائع العملاء",
+  "fr": "les dépôts de la clientèle"
+ },
+ "total equity": {
+  "ar": "إجمالي حقوق الملكية",
+  "fr": "le total des capitaux propres"
+ },
+ "{m} of each bank in US dollar millions, from the bank's own consolidated statements for its latest year. Pounds divided by 89,500, an accounting value, not a market value. Only the six banks listed in Beirut are covered. The sector charts above are totals and are not ranked.": {
+  "ar": "{m} لكل مصرف بملايين الدولارات، من بياناته المالية الموحَّدة لآخر سنة. الليرة مقسومة على ٨٩٬٥٠٠، وهي قيمة محاسبية لا قيمة سوقية. لا تشمل التغطية إلا المصارف الستة المدرجة في بيروت. الرسوم البيانية للقطاع أعلاه مجاميع وليست مرتَّبة.",
+  "fr": "{m} de chaque banque en millions de dollars US, d'après ses propres états consolidés de la dernière année. Livres divisées par 89 500, une valeur comptable et non de marché. Seules les six banques cotées à Beyrouth sont couvertes. Les graphiques du secteur ci-dessus sont des totaux, non classés."
+ },
+ "established {y} on the list": {
+  "ar": "تأسست عام {y} بحسب القائمة",
+  "fr": "fondée en {y} selon le classement"
+ },
+ "founding year, newest first. Companies whose sources give no founding year come last.": {
+  "ar": "سنة التأسيس، الأحدث أولاً. الشركات التي لا تذكر مصادرها سنة تأسيس تأتي في الآخر.",
+  "fr": "année de fondation, la plus récente d'abord. Les entreprises sans année de fondation dans leurs sources viennent en dernier."
+ },
+ "investor-reported": {
+  "ar": "أفاد به المستثمر",
+  "fr": "déclaré par l'investisseur"
+ },
+ "largest disclosed exit value in US dollars, then the number of exits. Most exits state no value.": {
+  "ar": "أكبر قيمة تخارج معلَنة بالدولار الأميركي، ثم عدد عمليات التخارج. معظم عمليات التخارج لا تذكر قيمة.",
+  "fr": "plus grande valeur de sortie divulguée en dollars US, puis nombre de sorties. La plupart des sorties n'indiquent aucune valeur."
+ },
+ "last prices times shares outstanding": {
+  "ar": "آخر الأسعار مضروبة في عدد الأسهم القائمة",
+  "fr": "derniers cours multipliés par le nombre d'actions en circulation"
+ },
+ "market capitalisation in US dollars, the last price times the shares outstanding, common shares only. Beirut Stock Exchange, session of {d}.": {
+  "ar": "القيمة السوقية بالدولار الأميركي، أي آخر سعر مضروباً في عدد الأسهم القائمة، للأسهم العادية فقط. بورصة بيروت، جلسة {d}.",
+  "fr": "capitalisation boursière en dollars US : dernier cours multiplié par le nombre d'actions en circulation, actions ordinaires seulement. Bourse de Beyrouth, séance du {d}."
+ },
+ "no ranking: the companies are sorted by name.": {
+  "ar": "بلا ترتيب: الشركات مرتَّبة بحسب الاسم.",
+  "fr": "pas de classement : les entreprises sont triées par nom."
+ },
+ "no ranking: the securities are sorted by name.": {
+  "ar": "بلا ترتيب: الأوراق المالية مرتَّبة بحسب الاسم.",
+  "fr": "pas de classement : les titres sont triés par nom."
+ },
+ "not disclosed": {
+  "ar": "غير معلَن",
+  "fr": "non divulgué"
+ },
+ "not given": {
+  "ar": "غير مذكور",
+  "fr": "non indiqué"
+ },
+ "price change in percent, as published by the exchange.": {
+  "ar": "تغيّر السعر بالنسبة المئوية كما تنشره البورصة.",
+  "fr": "variation du cours en pourcentage, telle que publiée par la Bourse."
+ },
+ "revenue by fiscal year in US dollars (IFRS), as filed with the US Securities and Exchange Commission. Newest year first; no score is built from it.": {
+  "ar": "الإيرادات بحسب السنة المالية بالدولار الأميركي (المعايير الدولية للتقارير المالية)، كما أُودعت لدى هيئة الأوراق المالية والبورصات الأميركية. الأحدث أولاً، ولا تُبنى منها أي علامة مركّبة.",
+  "fr": "chiffre d'affaires par exercice en dollars US (IFRS), tel que déposé auprès de la SEC américaine. L'exercice le plus récent d'abord ; aucun score n'en est tiré."
+ },
+ "the rank on the Forbes Middle East Top 100 Arab Family Businesses list of the year shown. It is Forbes's own editorial rank; the Hub adds no score and does not rank across years.": {
+  "ar": "الترتيب في قائمة فوربس الشرق الأوسط لأفضل ١٠٠ شركة عائلية عربية للسنة المعروضة. هو ترتيب فوربس التحريري نفسه؛ ولا يضيف المركز أي علامة ولا يرتّب عبر السنوات.",
+  "fr": "le rang dans le classement Forbes Middle East des 100 premières entreprises familiales arabes de l'année affichée. C'est le rang éditorial de Forbes ; le Hub n'ajoute aucun score et ne classe pas d'une année à l'autre."
+ },
+ "total disclosed equity funding in US dollars: the sum of announced rounds that state an amount. Grants and awards are not counted and undisclosed rounds add nothing, so every total is a floor.": {
+  "ar": "مجموع تمويل الأسهم المعلَن بالدولار الأميركي: مجموع الجولات المعلَنة التي يُذكر مبلغها. لا تُحتسب المنح والجوائز، ولا تضيف الجولات غير المعلَنة شيئاً، فكل مجموع هو حد أدنى.",
+  "fr": "total du financement en capital divulgué en dollars US : somme des tours annoncés qui indiquent un montant. Les subventions et prix ne sont pas comptés et les tours non divulgués n'ajoutent rien, donc chaque total est un plancher."
+ },
+ "{a} bought it on {d}": {
+  "ar": "اشتراها {a} في {d}",
+  "fr": "rachetée par {a} le {d}"
+ },
+ "{b}: the latest statements found are for {y}.": {
+  "ar": "{b}: أحدث بيانات وُجدت هي لعام {y}.",
+  "fr": "{b} : les derniers états trouvés sont ceux de {y}."
+ },
+ "{c}: revenue by fiscal year": {
+  "ar": "{c}: الإيرادات بحسب السنة المالية",
+  "fr": "{c} : chiffre d'affaires par exercice"
+ },
+ "{d}, month end": {
+  "ar": "{d}، نهاية الشهر",
+  "fr": "{d}, fin de mois"
+ },
+ "{n} companies with a Lebanese team or investors, but a headquarters outside Lebanon and no clear Lebanese founding, are left out under the inclusion rule.": {
+  "ar": "استُبعدت {n} شركات لها فريق أو مستثمرون لبنانيون لكن مقرها خارج لبنان ولا تأسيس لبنانياً واضحاً لها، بموجب قاعدة الإدراج.",
+  "fr": "{n} sociétés avec une équipe ou des investisseurs libanais, mais un siège hors du Liban et sans fondation libanaise claire, sont écartées selon la règle d'inclusion."
+ },
+ "{n} company with a Lebanese team or investors, but a headquarters outside Lebanon and no clear Lebanese founding, is left out under the inclusion rule.": {
+  "ar": "استُبعدت شركة واحدة لها فريق أو مستثمرون لبنانيون لكن مقرها خارج لبنان ولا تأسيس لبنانياً واضحاً لها، بموجب قاعدة الإدراج.",
+  "fr": "{n} société avec une équipe ou des investisseurs libanais, mais un siège hors du Liban et sans fondation libanaise claire, est écartée selon la règle d'inclusion."
+ },
+ "{n} issuers": {
+  "ar": "{n} جهات مُصدِرة",
+  "fr": "{n} émetteurs"
+ },
+ "{n} lead is left out: its sources do not say it was founded or is based in Lebanon.": {
+  "ar": "استُبعدت جهة واحدة: لا تقول مصادرها إنها تأسست في لبنان أو إن مقرها فيه.",
+  "fr": "{n} piste est écartée : ses sources ne disent pas qu'elle a été fondée ou qu'elle est basée au Liban."
+ },
+ "{n} leads are left out: their sources do not say they were founded or are based in Lebanon.": {
+  "ar": "استُبعدت {n} جهات: لا تقول مصادرها إنها تأسست في لبنان أو إن مقرها فيه.",
+  "fr": "{n} pistes sont écartées : leurs sources ne disent pas qu'elles ont été fondées ou qu'elles sont basées au Liban."
+ },
+ "{s}, December 2023 at the old rate": {
+  "ar": "{s}، كانون الأول ٢٠٢٣ بالسعر القديم",
+  "fr": "{s}, décembre 2023 au taux ancien"
+ },
+ "{x} since {d}. Founded in {p}.": {
+  "ar": "{x} منذ {d}. تأسست في {p}.",
+  "fr": "{x} depuis le {d}. Fondée à {p}."
+ },
+ "Banking": {
+  "ar": "المصارف",
+  "fr": "Banque"
+ },
+ "Cement": {
+  "ar": "الإسمنت",
+  "fr": "Ciment"
+ },
+ "Real estate (Beirut Central District reconstruction)": {
+  "ar": "العقارات (إعمار وسط بيروت)",
+  "fr": "Immobilier (reconstruction du centre-ville de Beyrouth)"
+ },
+ "delisted (acquired 2006)": {
+  "ar": "شُطب من الإدراج (استُحوذ عليه عام ٢٠٠٦)",
+  "fr": "retirée de la cote (rachetée en 2006)"
+ },
+ "Mobile telecoms": {
+  "ar": "الاتصالات الخلوية",
+  "fr": "Téléphonie mobile"
+ },
+ "Music streaming": {
+  "ar": "بث الموسيقى",
+  "fr": "Streaming musical"
+ },
+ "Agritech": {
+  "ar": "التكنولوجيا الزراعية",
+  "fr": "Agritech"
+ },
+ "Arabic recipe platform": {
+  "ar": "منصة وصفات عربية",
+  "fr": "Plateforme de recettes arabes"
+ },
+ "Automotive software (AI chat for dealers)": {
+  "ar": "برمجيات السيارات (محادثة بالذكاء الاصطناعي للوكلاء)",
+  "fr": "Logiciel automobile (chat IA pour concessionnaires)"
+ },
+ "Banking software": {
+  "ar": "برمجيات مصرفية",
+  "fr": "Logiciel bancaire"
+ },
+ "Beauty e-commerce": {
+  "ar": "تجارة إلكترونية للتجميل",
+  "fr": "E-commerce beauté"
+ },
+ "Crowdfunding platform for the Arab region": {
+  "ar": "منصة تمويل جماعي للمنطقة العربية",
+  "fr": "Plateforme de financement participatif pour la région arabe"
+ },
+ "Cybersecurity (offline password manager)": {
+  "ar": "الأمن السيبراني (مدير كلمات مرور دون اتصال)",
+  "fr": "Cybersécurité (gestionnaire de mots de passe hors ligne)"
+ },
+ "Delivery super app": {
+  "ar": "تطبيق شامل للتوصيل",
+  "fr": "Super-appli de livraison"
+ },
+ "Digital dental care": {
+  "ar": "رعاية الأسنان الرقمية",
+  "fr": "Soins dentaires numériques"
+ },
+ "Digital lending software for banks": {
+  "ar": "برمجيات إقراض رقمي للمصارف",
+  "fr": "Logiciel de prêt numérique pour banques"
+ },
+ "Drone inspection software": {
+  "ar": "برمجيات فحص بالطائرات المسيّرة",
+  "fr": "Logiciel d'inspection par drone"
+ },
+ "E-commerce software": {
+  "ar": "برمجيات التجارة الإلكترونية",
+  "fr": "Logiciel d'e-commerce"
+ },
+ "Education technology": {
+  "ar": "تكنولوجيا التعليم",
+  "fr": "Technologie éducative"
+ },
+ "Education technology (STEAM)": {
+  "ar": "تكنولوجيا التعليم (ستيم)",
+  "fr": "Technologie éducative (STEAM)"
+ },
+ "Fintech (card issuing processor)": {
+  "ar": "التكنولوجيا المالية (معالجة إصدار البطاقات)",
+  "fr": "Fintech (traitement d'émission de cartes)"
+ },
+ "Fintech (mobile payments, bill aggregation)": {
+  "ar": "التكنولوجيا المالية (الدفع عبر الهاتف وتجميع الفواتير)",
+  "fr": "Fintech (paiements mobiles, agrégation de factures)"
+ },
+ "Insurance software": {
+  "ar": "برمجيات التأمين",
+  "fr": "Logiciel d'assurance"
+ },
+ "Local search and discovery": {
+  "ar": "البحث المحلي والاكتشاف",
+  "fr": "Recherche et découverte locales"
+ },
+ "Music hardware": {
+  "ar": "أجهزة موسيقية",
+  "fr": "Matériel musical"
+ },
+ "On-demand waterless car wash": {
+  "ar": "غسيل سيارات بلا ماء عند الطلب",
+  "fr": "Lavage auto sans eau à la demande"
+ },
+ "Online interior design": {
+  "ar": "تصميم داخلي عبر الإنترنت",
+  "fr": "Décoration d'intérieur en ligne"
+ },
+ "Online tutoring": {
+  "ar": "دروس خصوصية عبر الإنترنت",
+  "fr": "Tutorat en ligne"
+ },
+ "Panorama and 3D imaging software": {
+  "ar": "برمجيات التصوير البانورامي والثلاثي الأبعاد",
+  "fr": "Logiciel d'imagerie panoramique et 3D"
+ },
+ "Podcast aggregator": {
+  "ar": "مجمِّع بودكاست",
+  "fr": "Agrégateur de podcasts"
+ },
+ "Podcast platform": {
+  "ar": "منصة بودكاست",
+  "fr": "Plateforme de podcasts"
+ },
+ "Social enterprise (second-hand clothing)": {
+  "ar": "مشروع اجتماعي (ملابس مستعملة)",
+  "fr": "Entreprise sociale (vêtements d'occasion)"
+ },
+ "Video on demand": {
+  "ar": "فيديو عند الطلب",
+  "fr": "Vidéo à la demande"
+ },
+ "Distribution (consumer goods, pharmaceuticals and healthcare, office equipment, perfumes and cosmetics)": {
+  "ar": "التوزيع (سلع استهلاكية وأدوية ورعاية صحية ومعدات مكتبية وعطور ومستحضرات تجميل)",
+  "fr": "Distribution (biens de consommation, pharmaceutique et santé, équipement de bureau, parfums et cosmétiques)"
+ },
+ "Jewellery and luxury": {
+  "ar": "المجوهرات والسلع الفاخرة",
+  "fr": "Joaillerie et luxe"
+ },
+ "Waste management (Forbes labels it diversified)": {
+  "ar": "إدارة النفايات (تصنفها فوربس متنوعة)",
+  "fr": "Gestion des déchets (Forbes la classe comme diversifiée)"
+ },
+ "Angel": {
+  "ar": "مستثمر ملاك",
+  "fr": "Business angel"
+ },
+ "Equity investment": {
+  "ar": "استثمار في الأسهم",
+  "fr": "Investissement en capital"
+ },
+ "Grant and angel": {
+  "ar": "منحة ومستثمر ملاك",
+  "fr": "Subvention et business angel"
+ },
+ "Investment": {
+  "ar": "استثمار",
+  "fr": "Investissement"
+ },
+ "Investment (Berytech Fund I)": {
+  "ar": "استثمار (صندوق بيريتك الأول)",
+  "fr": "Investissement (Berytech Fund I)"
+ },
+ "Investment (Berytech Fund II)": {
+  "ar": "استثمار (صندوق بيريتك الثاني)",
+  "fr": "Investissement (Berytech Fund II)"
+ },
+ "Investment (Shark Tank Dubai)": {
+  "ar": "استثمار (شارك تانك دبي)",
+  "fr": "Investissement (Shark Tank Dubai)"
+ },
+ "Investment (fourth raise)": {
+  "ar": "استثمار (الجولة الرابعة)",
+  "fr": "Investissement (quatrième levée)"
+ },
+ "Investment under BDL Circular 331": {
+  "ar": "استثمار بموجب تعميم مصرف لبنان ٣٣١",
+  "fr": "Investissement au titre de la circulaire 331 de la BDL"
+ },
+ "Minority stake (35 percent)": {
+  "ar": "حصة أقلية (٣٥ بالمئة)",
+  "fr": "Participation minoritaire (35 pour cent)"
+ },
+ "Not specified": {
+  "ar": "غير محدَّدة",
+  "fr": "Non précisé"
+ },
+ "Pre-Series A": {
+  "ar": "ما قبل السلسلة أ",
+  "fr": "Pré-série A"
+ },
+ "Pre-seed": {
+  "ar": "ما قبل التأسيس",
+  "fr": "Pré-amorçage"
+ },
+ "Seed": {
+  "ar": "تأسيسية",
+  "fr": "Amorçage"
+ },
+ "Series A": {
+  "ar": "السلسلة أ",
+  "fr": "Série A"
+ },
+ "Series A bridge": {
+  "ar": "جسر السلسلة أ",
+  "fr": "Prêt-relais série A"
+ },
+ "Series B": {
+  "ar": "السلسلة ب",
+  "fr": "Série B"
+ },
+ "Strategic investment": {
+  "ar": "استثمار استراتيجي",
+  "fr": "Investissement stratégique"
+ },
+ "acquisition": {
+  "ar": "استحواذ",
+  "fr": "Acquisition"
+ },
+ "exit marked by investor": {
+  "ar": "تخارج أشار إليه المستثمر (أفاد به المستثمر)",
+  "fr": "Sortie signalée par l'investisseur (déclarée par lui)"
+ },
+ "listing": {
+  "ar": "إدراج في البورصة",
+  "fr": "Introduction en Bourse"
+ },
+ "majority stake": {
+  "ar": "حصة الأغلبية",
+  "fr": "Participation majoritaire"
+ },
+ "management buyout": {
+  "ar": "استحواذ الإدارة",
+  "fr": "Rachat par la direction"
+ },
+ "merger and acquisition": {
+  "ar": "اندماج واستحواذ",
+  "fr": "Fusion-acquisition"
+ },
+ "Facts only, with attribution: the sources state no licence. Hub compilation: CC BY-SA 4.0": {
+  "ar": "وقائع فقط مع نسبتها إلى مصادرها: لا تذكر المصادر أي ترخيص. تجميع المركز: CC BY-SA 4.0",
+  "fr": "Faits seulement, avec attribution : les sources n'indiquent aucune licence. Compilation du Hub : CC BY-SA 4.0"
+ },
+ "Companies: revenue by fiscal year of Lebanese companies listed abroad": {
+  "ar": "الشركات: الإيرادات بحسب السنة المالية للشركات اللبنانية المدرجة في الخارج",
+  "fr": "Entreprises : chiffre d'affaires par exercice des sociétés libanaises cotées à l'étranger"
+ },
+ "Companies: per-bank figures from each bank's own statements (USD derived at LBP {n1})": {
+  "ar": "الشركات: أرقام كل مصرف من بياناته المالية (الدولار محسوب بسعر {n1} ليرة)",
+  "fr": "Entreprises : chiffres par banque d'après ses propres états financiers (dollars calculés à {n1} LBP)"
+ },
+ "Companies: startup exits, one row each": {
+  "ar": "الشركات: عمليات تخارج الشركات الناشئة، صف لكل عملية",
+  "fr": "Entreprises : sorties de startups, une ligne par sortie"
+ },
+ "Companies: family business ranks by year (Forbes Middle East list rank)": {
+  "ar": "الشركات: ترتيب الشركات العائلية بحسب السنة (ترتيب قائمة فوربس الشرق الأوسط)",
+  "fr": "Entreprises : rang des entreprises familiales par année (classement Forbes Middle East)"
+ },
+ "Companies: startup funding rounds, one row each": {
+  "ar": "الشركات: جولات تمويل الشركات الناشئة، صف لكل جولة",
+  "fr": "Entreprises : tours de financement de startups, une ligne par tour"
+ },
+ "Companies: Beirut Stock Exchange securities, one row each": {
+  "ar": "الشركات: أوراق بورصة بيروت المالية، صف لكل ورقة",
+  "fr": "Entreprises : titres de la Bourse de Beyrouth, une ligne par titre"
+ },
+ "Companies: startups, one row each (floors: undisclosed rounds add nothing)": {
+  "ar": "الشركات: الشركات الناشئة، صف لكل شركة (حدود دنيا: الجولات غير المعلَنة لا تضيف شيئاً)",
+  "fr": "Entreprises : startups, une ligne par startup (planchers : les tours non divulgués n'ajoutent rien)"
+ },
+ "Companies: {n1} Lebanese companies listed abroad": {
+  "ar": "الشركات: {n1} من الشركات اللبنانية المدرجة في الخارج",
+  "fr": "Entreprises : {n1} sociétés libanaises cotées à l'étranger"
+ },
+ "Companies: banking sector totals ({n1} series) and {n2} banks": {
+  "ar": "الشركات: مجاميع القطاع المصرفي ({n1} سلاسل) و{n2} مصارف",
+  "fr": "Entreprises : totaux du secteur bancaire ({n1} séries) et {n2} banques"
+ },
+ "Companies: {n1} family business rankings": {
+  "ar": "الشركات: {n1} ترتيبات للشركات العائلية",
+  "fr": "Entreprises : {n1} classements d'entreprises familiales"
+ },
+ "Companies: {n1} securities on the Beirut Stock Exchange": {
+  "ar": "الشركات: {n1} ورقة مالية في بورصة بيروت",
+  "fr": "Entreprises : {n1} titres à la Bourse de Beyrouth"
+ },
+ "Companies: {n1} startups with funding rounds and exits": {
+  "ar": "الشركات: {n1} شركة ناشئة مع جولات التمويل وعمليات التخارج",
+  "fr": "Entreprises : {n1} startups avec tours de financement et sorties"
+ },
+ "Companies banks": {
+  "ar": "الشركات: المصارف",
+  "fr": "Entreprises : banques"
+ },
+ "SEC EDGAR": {
+  "ar": "SEC EDGAR",
+  "fr": "SEC EDGAR"
+ },
+ "SEC EDGAR, press (see each row)": {
+  "ar": "SEC EDGAR والصحافة (انظر كل صف)",
+  "fr": "SEC EDGAR, presse (voir chaque ligne)"
+ },
+ "Wamda, investor portfolio pages (see source)": {
+  "ar": "وامدا وصفحات محافظ المستثمرين (انظر المصدر)",
+  "fr": "Wamda, pages de portefeuille des investisseurs (voir la source)"
+ },
+ "Wamda, Berytech, investor portfolio pages (see source)": {
+  "ar": "وامدا وبيريتك وصفحات محافظ المستثمرين (انظر المصدر)",
+  "fr": "Wamda, Berytech, pages de portefeuille des investisseurs (voir la source)"
+ },
+ "Wamda, investor portfolio pages, company pages (see each row)": {
+  "ar": "وامدا وصفحات محافظ المستثمرين وصفحات الشركات (انظر كل صف)",
+  "fr": "Wamda, pages de portefeuille des investisseurs, pages des entreprises (voir chaque ligne)"
+ },
+ "Forbes Middle East": {
+  "ar": "فوربس الشرق الأوسط",
+  "fr": "Forbes Middle East"
+ },
+ "Forbes Middle East Top 100 Arab Family Businesses": {
+  "ar": "قائمة فوربس الشرق الأوسط لأفضل ١٠٠ شركة عائلية عربية",
+  "fr": "Classement Forbes Middle East des 100 premières entreprises familiales arabes"
+ },
+ "Banks' own statements on the Beirut Stock Exchange site": {
+  "ar": "البيانات المالية للمصارف على موقع بورصة بيروت",
+  "fr": "États financiers des banques sur le site de la Bourse de Beyrouth"
+ },
+ "Association of Banks in Lebanon, IMF, banks' own statements": {
+  "ar": "جمعية مصارف لبنان وصندوق النقد الدولي والبيانات المالية للمصارف",
+  "fr": "Association des banques du Liban, FMI, états financiers des banques"
+ },
+ "Disclosure": {
+  "ar": "إفصاح",
+  "fr": "Déclaration d'intérêts"
+ },
+ "The Hub's builder works at HAQQ Legal AI. It is listed under the same inclusion rule as every other row.": {
+  "ar": "يعمل منشئ مركز البيانات في HAQQ Legal AI. وهي مدرجة وفق قاعدة الإدراج نفسها المطبّقة على كل الصفوف الأخرى.",
+  "fr": "Le créateur du Hub travaille chez HAQQ Legal AI. L'entreprise figure selon la même règle d'inclusion que toutes les autres lignes."
+ }
+}

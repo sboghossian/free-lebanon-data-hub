@@ -27,7 +27,7 @@ const KIND_NAME = { airstrike: N('Airstrike'), drone_strike: N('Drone strike'), 
 const CONF_WORD = ['verified', 'reported', 'inference'];
 let SK = null, GEO = null, ACL = null, TOLLS = [];  // the lazy files data/strikes/strikes.json and data/strikes/geo.json, set when the tab first loads
 const gname = a => (LANG === 'ar' && a.ar) ? a.ar : a.n;
-const MAP = { war: 'all', kinds: new Set(), q: '', t0: null, t1: null, mode: 'auto', inferred: true, acled: false, shown: 25, k: 1, tx: 0, ty: 0, k0: 1, W: 0, H: 0, sel: null, back: null, built: false };
+const MAP = { war: 'all', kinds: new Set(), q: '', t0: null, t1: null, mode: 'auto', inferred: true, acled: false, att: false, attOff: new Set(), attShown: 25, shown: 25, k: 1, tx: 0, ty: 0, k0: 1, W: 0, H: 0, sel: null, back: null, built: false };
 let MROWS = [], MPLACES = [], MVIS = [], MPTS = [], MGRID = new Map(), MCOL = {}, MAC = null;
 
 const rp = r => r.pl >= 0 && MPLACES[r.pl] ? dnName(MPLACES[r.pl].n, MPLACES[r.pl].ar) : r.place;   // place name in the page language (Arabic where the gazetteer has it)
@@ -111,7 +111,7 @@ function mapRedraw() {
   if (!g || !MAP.W) return;
   g.setAttribute('transform', `translate(${MAP.tx.toFixed(2)} ${MAP.ty.toFixed(2)}) scale(${MAP.k.toFixed(5)})`);
   const zoomed = MAP.k > MAP.k0 * 2.2;
-  $('#mpLb').innerHTML = GEO.adm1.map(a => `<text class="mp-l1" x="${(a.l[0] * MAP.k + MAP.tx).toFixed(1)}" y="${(a.l[1] * MAP.k + MAP.ty).toFixed(1)}" text-anchor="middle">${esc(gname(a))}</text>`).join('') +
+  $('#mpLb').innerHTML = GEO.adm1.map(a => `<text class="mp-l1" x="${(a.l[0] * MAP.k + MAP.tx).toFixed(1)}" y="${(a.l[1] * MAP.k + MAP.ty).toFixed(1)}" text-anchor="middle">${esc(gname(a))}</text>${MAP.att && ATTBY && ATTBY.p[a.p] ? `<text class="mp-att-n" x="${(a.l[0] * MAP.k + MAP.tx).toFixed(1)}" y="${(a.l[1] * MAP.k + MAP.ty + 14).toFixed(1)}" text-anchor="middle">${esc(nf(ATTBY.p[a.p]))}</text>` : ''}`).join('') +
     (zoomed ? GEO.adm2.map(a => `<text class="mp-l2" x="${(a.l[0] * MAP.k + MAP.tx).toFixed(1)}" y="${(a.l[1] * MAP.k + MAP.ty).toFixed(1)}" text-anchor="middle">${esc(gname(a))}</text>`).join('') : '');
   mapDrawPoints();
 }
@@ -293,12 +293,90 @@ function mapAcledAgg() {
   });
   MAC = ACL.places.map((p, i) => ({ name: p[0] + (p[1] ? ' (' + p[1] + ')' : ''), x: p[2], y: p[3], n: by[i] ? by[i].n : 0, f: by[i] ? by[i].f : 0 }));
 }
+/* ---------- the separate layer "Attacks on health care, schools and aid" (Insecurity Insight, CC BY-SA 4.0): off by default, never mixed with the strike counts ----------
+   Data: data/strikes/attacks.json, fetched only when the layer is switched on. The publisher withholds coordinates, so no row is drawn as a dot: governorates are shaded by the rows that name them and every row is listed.
+   Nothing here touches MROWS, MVIS, the stats, the histogram, the top places or the incident list. */
+const ATT_CAT = { health_care: [N('Health care'), N('health workers')], education: [N('Schools and education'), N('educators and students')], aid_worker: [N('Aid workers'), N('aid workers')], water: [N('Water systems'), '']  };
+const ATT_VOC = [N('Israeli Defence Forces'), N('Hezbollah'), N('Unidentified Armed Actor'), N('Lebanese Armed Forces'), N('Fatah'), N('Fatah al Islam'), N('Jund al-Sham'), N('Forces de Sécurité Intérieure (Lebanon)'), N('Demonstrators'), N('Employee'), N('Refugees/IDPs'), N('Government of Lebanon'),
+  N('Islamic Revolutionary Guard Corps'), N('Children'), N('Palestinian Popular Committees'), N('Syrian Armed Forces'), N('Tahrir al-Sham'), N('Criminal'), N('Health worker'), N('Security Forces (Libya)'), N('Al-Shabaab'), N('Partner organisation'), N('Civilian individual'),
+  N('Aerial Bomb: Plane'), N('Unspecified Explosive'), N('Aerial Bomb: Drone'), N('Firearms'), N('Artillery'), N('Not Applicable: No Direct Violence'), N('Shelling'), N('Aerial Bomb: No Information on Platform Type'), N('Remote-controlled IED'), N('Missile'), N('Fist and Foot'), N('Arson'),
+  N('Tasers, Live and Rubber Bullets'), N('Other Weapon'), N('Mine'), N('Unarmed Perpetrator'), N('Rocket'), N('Unspecified IED'), N('Stones, Sticks and Gravel'), N('Knife'), N('Sniper'), N('Hand Grenade'), N('Firearms, Rocket'),
+  N('Health Building'), N('Road'), N('Project Site'), N('Education Building'), N('Open Space'), N('Home'), N('Administration'), N('Communication'), N('Compound/Office Building'), N('Other'), N('Public Building'), N('IDP/Refugee Camp'), N('Warehouse'), N('Remote Threat'), N('Airstrip'), N('Private Travel'), N('School'),
+  N('Keserwan-Jbeil Governorate')];
+let ATT = null, ATTR = [], ATTBY = null;
+const attNone = v => !v || /^(no information|unspecified location|not applicable)/i.test(v);
+function attDecode() {
+  ATTR = ATT.rows.map(r => ({ d: r[0], t: dayNumM(r[0]), c: ATT.cats[r[1]] || '', g: r[2], pp: r[3], w: r[4], l: r[5], vg: r[6], k: r[7], i: r[8], kd: r[9], ar: r[10], id: r[11] }));
+}
+const attGov = gi => {
+  if (gi < 0) return t('No governorate stated');
+  const g = ATT.gov[gi], a = g.p && GEO.adm1.find(x => x.p === g.p);
+  return a ? gname(a) : t(g.n);
+};
+function attRows(opts = {}) {   // the layer's rows in the chosen dates (and, unless opts.allKinds, the kinds switched on)
+  const t0 = MAP.t0 == null ? -Infinity : MAP.t0, t1 = MAP.t1 == null ? Infinity : MAP.t1;
+  return ATTR.filter(r => r.t >= t0 && r.t <= t1 && (opts.allKinds || !MAP.attOff.has(r.c)));
+}
+function attShell() {
+  $('#mpAttIn').innerHTML = `<div class="chips sm" id="mpAttCats" role="group" aria-label="${esc(t('Kind of attack'))}">${ATT.cats.map(c => `<button type="button" class="chip sm-c" data-ac="${c}" aria-pressed="true">${esc(t(ATT_CAT[c][0]))} <span class="ct">0</span></button>`).join('')}</div>
+    <div id="mpAttSum"></div>
+    <h4 class="fb-t">${esc(t('Rows by governorate'))}</h4><div id="mpAttLeg"></div><div id="mpAttGov" class="fb-card"></div>
+    <h4 class="fb-t">${esc(t('Every row'))} <span class="mono dim" id="mpAttN"></span></h4><ul class="mp-att-list" id="mpAttList"></ul><button type="button" class="chip" id="mpAttMore" hidden>${esc(t('Show more'))}</button>
+    <p class="note">${esc(t('Insecurity Insight states: "The incidents reported are not a complete nor a representative list of all incidents and have not been independently verified."'))}</p>
+    <p class="note" id="mpAttCredit">${esc(t('Insecurity Insight, Aid Security Risk in Lebanon, through the Humanitarian Data Exchange.'))} <a href="${esc(ATT.source)}" target="_blank" rel="noopener noreferrer">data.humdata.org</a> · ${esc(t('Licence'))}: <span data-notr>CC BY-SA 4.0</span> · <a href="${esc(HUB_BASE + 'data/csv/attacks.csv')}" download>CSV</a></p>`;
+  $('#mpAttCats').addEventListener('click', ev => { const b = ev.target.closest('[data-ac]'); if (!b) return; MAP.attOff.has(b.dataset.ac) ? MAP.attOff.delete(b.dataset.ac) : MAP.attOff.add(b.dataset.ac); MAP.attShown = 25; attUpdate(); mapRedraw(); });
+  $('#mpAttMore').addEventListener('click', () => { MAP.attShown += 25; attUpdate(); });
+}
+function attUpdate() {
+  if (!MAP.att || !ATT || !$('#mpAttCats')) { ATTBY = null; attPaint(); return; }
+  const inDates = attRows({ allKinds: true }), rows = attRows(), by = { p: {}, other: {}, none: 0 };
+  const kc = {}; inDates.forEach(r => { kc[r.c] = (kc[r.c] || 0) + 1; });
+  $$('#mpAttCats [data-ac]').forEach(b => { b.setAttribute('aria-pressed', String(!MAP.attOff.has(b.dataset.ac))); b.querySelector('.ct').textContent = nf(kc[b.dataset.ac] || 0); });
+  rows.forEach(r => { const g = r.g >= 0 ? ATT.gov[r.g] : null; if (!g) by.none++; else if (g.p) by.p[g.p] = (by.p[g.p] || 0) + 1; else by.other[g.n] = (by.other[g.n] || 0) + 1; });
+  ATTBY = by;
+  // per kind: rows, and the killed and injured of the one group that sheet counts (never added across kinds: a health worker and an aid worker are different counts)
+  const sum = ATT.cats.map(c => { const rs = inDates.filter(r => r.c === c), vg = ATT_CAT[c][1]; return [t(ATT_CAT[c][0]), rs.length, vg ? rs.reduce((s, r) => s + (r.k || 0), 0) : null, vg ? rs.reduce((s, r) => s + (r.i || 0), 0) : null, vg ? t(vg) : t('not counted')]; });
+  $('#mpAttSum').innerHTML = fbTable([{ h: t('Kind') }, { h: t('Rows'), cls: 'num', fmt: v => nf(v) }, { h: t('Killed'), cls: 'num', fmt: v => v == null ? '' : nf(v) }, { h: t('Injured'), cls: 'num', fmt: v => v == null ? '' : nf(v) }, { h: t('Who is counted') }], sum) +
+    `<p class="note">${esc(t('Killed and injured count only the group each sheet tracks, so they are not added across kinds. The perpetrator is as reported by the publisher, not a finding of this Hub.'))} ${esc(tp('{n} event appears in two sheets, so rows are not always separate incidents.', '{n} events appear in two sheets, so rows are not always separate incidents.', ATT.dup_events))}</p>`;
+  const items = Object.entries(by.p).map(([p, n]) => ({ label: gname(GEO.adm1.find(a => a.p === p)), value: n }))
+    .concat(Object.entries(by.other).map(([n, v]) => ({ label: t(n) + ' (' + t('no outline on this map') + ')', value: v })), by.none ? [{ label: t('No governorate stated'), value: by.none }] : []).sort((a, b) => b.value - a.value);
+  $('#mpAttGov').innerHTML = '<div id="mpAttGovB"></div>';
+  hubBars($('#mpAttGovB'), { items, fmt: v => nf(v) });
+  const mx = Math.max(0, ...Object.values(by.p));
+  $('#mpAttLeg').innerHTML = mx ? `<p class="fb-u mono dim">${esc(t('Shading on the map: rows per governorate'))}</p>${fbLegend(0, mx, v => nf(v), '--sea')}` : '';
+  const sorted = rows.slice().sort((a, b) => b.t - a.t || (a.id < b.id ? 1 : -1));
+  $('#mpAttN').textContent = t('{a} of {b}', { a: nf(Math.min(MAP.attShown, sorted.length)), b: nf(sorted.length) });
+  const li = r => {
+    const cnt = [[r.k, N('{n} killed')], [r.i, N('{n} injured')], [r.kd, N('{n} kidnapped')], [r.ar, N('{n} arrested')]].filter(x => x[0] > 0).map(x => t(x[1], { n: nf(x[0]) }));
+    const sep = LANG === 'ar' ? '، ' : ', ', perp = r.pp.map(i => ATT.perp[i]).filter(v => !attNone(v)).map(v => t(v)).join(sep);
+    const wp = r.w >= 0 && !attNone(ATT.weapon[r.w]) ? t(ATT.weapon[r.w]) : '', lc = r.l >= 0 && !attNone(ATT.loc[r.l]) ? t(ATT.loc[r.l]) : '';
+    return `<li><span class="mono">${esc(fmtDate(r.d))}</span><b>${esc(attGov(r.g))}</b><span>${esc([t(ATT_CAT[r.c] ? ATT_CAT[r.c][0] : r.c)].concat(cnt).join(sep))}${perp ? `<br><span class="dim">${esc(t('Reported perpetrator'))}: ${esc(perp)}</span>` : ''}${wp || lc ? `<br><span class="dim">${esc([wp, lc].filter(Boolean).join(' · '))}</span>` : ''}</span></li>`;
+  };
+  $('#mpAttList').innerHTML = sorted.slice(0, MAP.attShown).map(li).join('') || `<li class="hub-empty">${esc(t('No rows in these dates and kinds.'))}</li>`;
+  $('#mpAttMore').hidden = sorted.length <= MAP.attShown;
+  const h = $('#mpAttHint'); if (h) h.textContent = t('Blue shading is the attacks layer, up to {n} rows in a governorate. It is separate from the strikes: it is not part of any count on this page.', { n: nf(mx) });
+  attPaint();
+}
+function attPaint() {   // shade the governorates under the strike points
+  const g = $('#mpAtt'); if (!g) return;
+  const by = MAP.att && ATTBY ? ATTBY.p : {}, mx = Math.max(1, ...Object.values(by));
+  g.innerHTML = GEO.adm1.filter(a => by[a.p]).map(a => `<path d="${a.d}" style="fill:color-mix(in srgb, var(--sea) ${Math.round(12 + 58 * by[a.p] / mx)}%, transparent)"/>`).join('');
+}
+function attSet(on) {
+  MAP.att = on;
+  const box = $('#mpAttBox'), nt = $('#mpAttNote'), hh = $('#mpAttHint');
+  if (box) box.hidden = !on; if (nt) nt.hidden = !on; if (hh) hh.hidden = !on;
+  if (!on) { ATTBY = null; attPaint(); mapRedraw(); return; }
+  const go = () => { attShell(); attUpdate(); mapRedraw(); };
+  if (ATT) go(); else hubLoadInto($('#mpAttIn'), ['data/strikes/attacks.json'], a => { ATT = a; attDecode(); go(); });
+}
 function mapUpdate(opts = {}) {
   const base = mapFilter();
   mapAcledAgg();
   mapStats(base);
   mapHist(base);
   mapList();
+  attUpdate();
   if (opts.draw !== false) mapRedraw();
   $$('#mpWar [data-war]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.war === MAP.war)));
   $$('#mpKinds [data-kind]').forEach(b => b.setAttribute('aria-pressed', String(MAP.kinds.has(b.dataset.kind))));
@@ -357,24 +435,28 @@ function mapBuild() {
         </div>
         <div class="chips sm mp-kinds" id="mpKinds" role="group" aria-label="${esc(t('Kind of incident'))}">${kinds}</div>
         <div class="mp-stage" id="mpStage" data-mode="" tabindex="-1">
-          <svg class="mp-svg" id="mpSvg" role="img" aria-label="${esc(t('Map of Lebanon with documented incidents. The list below the map gives the same incidents as buttons.'))}"><g id="mpG"><g class="mp-d2">${GEO.adm2.map(a => `<path d="${a.d}"/>`).join('')}</g><g class="mp-d1">${GEO.adm1.map(a => `<path d="${a.d}"/>`).join('')}</g></g><g id="mpAc"></g><g id="mpPts"></g><g id="mpLb"></g></svg>
+          <svg class="mp-svg" id="mpSvg" role="img" aria-label="${esc(t('Map of Lebanon with documented incidents. The list below the map gives the same incidents as buttons.'))}"><g id="mpG"><g class="mp-d2">${GEO.adm2.map(a => `<path d="${a.d}"/>`).join('')}</g><g class="mp-att" id="mpAtt"></g><g class="mp-d1">${GEO.adm1.map(a => `<path d="${a.d}"/>`).join('')}</g></g><g id="mpAc"></g><g id="mpPts"></g><g id="mpLb"></g></svg>
           <canvas class="mp-cv" id="mpCv" hidden></canvas>
           <div class="mp-zoom"><button type="button" class="chip" data-z="1.6" aria-label="${esc(t('Zoom in'))}">+</button><button type="button" class="chip" data-z="0.625" aria-label="${esc(t('Zoom out'))}">−</button><button type="button" class="chip" data-z="0" aria-label="${esc(t('Reset the view'))}">${esc(t('Reset'))}</button></div>
           <div class="mp-tip" id="mpTip" role="tooltip" hidden></div>
         </div>
         <p class="mp-hint">${esc(t('Circle size shows documented killed. Dots at one place are fanned out around it, so their position is the place, not the exact spot. Drag to move, scroll or use + and − to zoom.'))}</p>
+        <p class="mp-hint mp-att-hint" id="mpAttHint" hidden></p>
       </div>
       <aside class="mp-side" aria-label="${esc(t('Counts for the current view'))}">
         <dl class="mp-stats" id="mpStats"></dl>
         <div id="mpMore" class="mp-more"></div>
         <h3 class="d-h">${esc(t('Top places'))}</h3><ul class="mp-top" id="mpTop"></ul>
         ${ACL ? `<label class="mp-chk"><input type="checkbox" id="mpAcOn"${MAP.acled ? ' checked' : ''}> ${esc(t('ACLED layer (events per place, rings)'))}</label><p class="mp-ac-note" id="mpAcNote" hidden>${esc(ACL.attribution)}</p>` : ''}
+        <label class="mp-chk"><input type="checkbox" id="mpAttOn"${MAP.att ? ' checked' : ''}> ${esc(t('Attacks on health care, schools and aid (Insecurity Insight)'))}</label><div class="mp-ac-note" id="mpAttNote" hidden><p>${esc(t('A separate layer, off by default. It is not added to the incidents, places or killed counts, and the war, kind and search filters do not apply to it; the From and To dates do. No row has coordinates, so none is drawn as a dot.'))} <button type="button" class="mp-place" id="mpAttGo">${esc(t('Go to the list'))}</button></p></div>
         <label class="mp-chk"><input type="checkbox" id="mpInf"${MAP.inferred ? ' checked' : ''}> ${esc(t('Show placements inferred from the front line'))}</label>
       </aside>
     </div>
     <div class="mp-time"><div class="mp-dates"><label class="sel" for="mpT0">${esc(t('From'))} <input type="date" id="mpT0"></label><label class="sel" for="mpT1">${esc(t('To'))} <input type="date" id="mpT1"></label><button type="button" class="chip" id="mpTR">${esc(t('Whole period'))}</button></div><div id="mpHist" class="mp-hist"></div></div>
     <h3 class="d-h">${esc(t('Incidents matching these filters'))} <span class="mono dim" id="mpListN"></span></h3>
     <ul class="mp-list" id="mpList"></ul><button type="button" class="chip" id="mpListMore" hidden>${esc(t('Show more'))}</button>
+    <section class="mp-att-box" id="mpAttBox" aria-labelledby="mpAttH" hidden><h3 class="d-h" id="mpAttH">${esc(t('Attacks on health care, schools and aid (Insecurity Insight)'))}</h3>
+      <p class="note">${esc(t('Rows of the publisher\'s incident data. They are listed here and counted by governorate; they are never added to the strike counts above. Dates follow the From and To dates of the map.'))}</p><div id="mpAttIn"></div></section>
     <div id="mapCard" class="ycard evcard" role="dialog" aria-label="${esc(t('Incident detail'))}" hidden></div></div>`;
   mapColors();
   const st = $('#mpStage');
@@ -413,6 +495,9 @@ function mapBuild() {
   $('#mpQ').addEventListener('input', ev => { clearTimeout(qt); qt = setTimeout(() => { MAP.q = ev.target.value; MAP.shown = 25; mapUpdate(); }, 140); });
   $('#mpInf').addEventListener('change', ev => { MAP.inferred = ev.target.checked; mapUpdate(); });
   const ac = $('#mpAcOn'); if (ac) ac.addEventListener('change', ev => { MAP.acled = ev.target.checked; mapUpdate(); });
+  $('#mpAttOn').addEventListener('change', ev => attSet(ev.target.checked));
+  $('#mpAttGo').addEventListener('click', () => { const b = $('#mpAttBox'); if (b) { b.scrollIntoView({ block: 'start' }); const h = $('#mpAttH'); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true }); } } });
+  if (MAP.att) attSet(true);
   $('#mpTop').addEventListener('click', ev => { const b = ev.target.closest('[data-place]'); if (!b) return; $('#mpQ').value = b.dataset.place; MAP.q = b.dataset.place; mapUpdate(); });
   const dates = () => { const a = $('#mpT0').value, b = $('#mpT1').value; MAP.t0 = a ? dayNumM(a) : (b ? MSPAN[0] : null); MAP.t1 = b ? dayNumM(b) : (a ? MSPAN[1] : null); if (MAP.t0 != null && MAP.t1 < MAP.t0) MAP.t1 = MAP.t0; mapUpdate(); };
   $('#mpT0').addEventListener('change', dates); $('#mpT1').addEventListener('change', dates);

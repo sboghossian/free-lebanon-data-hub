@@ -1,0 +1,1201 @@
+{
+ "title": "Lebanese banking sector: totals over time, and per-bank figures from the banks' own statements",
+ "as_of": "2026-10-05",
+ "metric_note": "Sector series are ABL monthly totals (December 2023 and July 2024 to June 2026) plus IMF annual figures for 2011 to 2019. No single series spans 2020 to 2023. Per-bank rows come only from each bank's published consolidated statements on the Beirut Stock Exchange site; no ranking by ABL or any other body is used.",
+ "sector_series": [
+  {
+   "id": "abl-total-assets-usd",
+   "label": "Commercial banks: total assets",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     115249.0
+    ],
+    [
+     "2024-07",
+     104581.0
+    ],
+    [
+     "2024-08",
+     104563.0
+    ],
+    [
+     "2024-09",
+     103881.0
+    ],
+    [
+     "2024-10",
+     103396.0
+    ],
+    [
+     "2024-11",
+     103020.0
+    ],
+    [
+     "2024-12",
+     103146.0
+    ],
+    [
+     "2025-01",
+     103029.0
+    ],
+    [
+     "2025-02",
+     102875.0
+    ],
+    [
+     "2025-03",
+     102663.0
+    ],
+    [
+     "2025-04",
+     102667.0
+    ],
+    [
+     "2025-05",
+     102170.0
+    ],
+    [
+     "2025-06",
+     103511.0
+    ],
+    [
+     "2025-07",
+     102663.0
+    ],
+    [
+     "2025-08",
+     102362.0
+    ],
+    [
+     "2025-09",
+     102695.0
+    ],
+    [
+     "2025-10",
+     102061.0
+    ],
+    [
+     "2025-11",
+     101825.0
+    ],
+    [
+     "2025-12",
+     102303.0
+    ],
+    [
+     "2026-01",
+     102012.0
+    ],
+    [
+     "2026-02",
+     101903.0
+    ],
+    [
+     "2026-03",
+     100678.0
+    ],
+    [
+     "2026-04",
+     100723.0
+    ],
+    [
+     "2026-05",
+     100591.0
+    ],
+    [
+     "2026-06",
+     100503.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "abl-total-deposits-usd",
+   "label": "Commercial banks: total deposits (resident private + non-resident private + public sector)",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     95969.0
+    ],
+    [
+     "2024-07",
+     91403.0
+    ],
+    [
+     "2024-08",
+     91155.0
+    ],
+    [
+     "2024-09",
+     90238.0
+    ],
+    [
+     "2024-10",
+     89875.0
+    ],
+    [
+     "2024-11",
+     89563.0
+    ],
+    [
+     "2024-12",
+     89223.0
+    ],
+    [
+     "2025-01",
+     89220.0
+    ],
+    [
+     "2025-02",
+     89402.0
+    ],
+    [
+     "2025-03",
+     89345.0
+    ],
+    [
+     "2025-04",
+     89630.0
+    ],
+    [
+     "2025-05",
+     89341.0
+    ],
+    [
+     "2025-06",
+     89478.0
+    ],
+    [
+     "2025-07",
+     89229.0
+    ],
+    [
+     "2025-08",
+     89067.0
+    ],
+    [
+     "2025-09",
+     89026.0
+    ],
+    [
+     "2025-10",
+     88519.0
+    ],
+    [
+     "2025-11",
+     88446.0
+    ],
+    [
+     "2025-12",
+     87951.0
+    ],
+    [
+     "2026-01",
+     87709.0
+    ],
+    [
+     "2026-02",
+     87478.0
+    ],
+    [
+     "2026-03",
+     86909.0
+    ],
+    [
+     "2026-04",
+     86776.0
+    ],
+    [
+     "2026-05",
+     86593.0
+    ],
+    [
+     "2026-06",
+     86418.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "Sum of the three ABL deposit lines below; for September 2024 it gives 90,238, against ABL's own headline of USD 90.2 billion on its Main Indicators page. ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported",
+   "derived": true
+  },
+  {
+   "id": "abl-resident-private-deposits-usd",
+   "label": "Commercial banks: resident private-sector deposits",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     73614.0
+    ],
+    [
+     "2024-07",
+     69548.0
+    ],
+    [
+     "2024-08",
+     69257.0
+    ],
+    [
+     "2024-09",
+     68469.0
+    ],
+    [
+     "2024-10",
+     68233.0
+    ],
+    [
+     "2024-11",
+     68008.0
+    ],
+    [
+     "2024-12",
+     67734.0
+    ],
+    [
+     "2025-01",
+     67700.0
+    ],
+    [
+     "2025-02",
+     67837.0
+    ],
+    [
+     "2025-03",
+     67724.0
+    ],
+    [
+     "2025-04",
+     67800.0
+    ],
+    [
+     "2025-05",
+     67406.0
+    ],
+    [
+     "2025-06",
+     67433.0
+    ],
+    [
+     "2025-07",
+     67165.0
+    ],
+    [
+     "2025-08",
+     66969.0
+    ],
+    [
+     "2025-09",
+     66766.0
+    ],
+    [
+     "2025-10",
+     66302.0
+    ],
+    [
+     "2025-11",
+     66216.0
+    ],
+    [
+     "2025-12",
+     65779.0
+    ],
+    [
+     "2026-01",
+     65554.0
+    ],
+    [
+     "2026-02",
+     65325.0
+    ],
+    [
+     "2026-03",
+     64949.0
+    ],
+    [
+     "2026-04",
+     64815.0
+    ],
+    [
+     "2026-05",
+     64673.0
+    ],
+    [
+     "2026-06",
+     64494.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "abl-nonresident-deposits-usd",
+   "label": "Commercial banks: non-resident private-sector deposits",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     21137.0
+    ],
+    [
+     "2024-07",
+     21031.0
+    ],
+    [
+     "2024-08",
+     21157.0
+    ],
+    [
+     "2024-09",
+     21074.0
+    ],
+    [
+     "2024-10",
+     20979.0
+    ],
+    [
+     "2024-11",
+     20920.0
+    ],
+    [
+     "2024-12",
+     20913.0
+    ],
+    [
+     "2025-01",
+     20887.0
+    ],
+    [
+     "2025-02",
+     20938.0
+    ],
+    [
+     "2025-03",
+     21001.0
+    ],
+    [
+     "2025-04",
+     21190.0
+    ],
+    [
+     "2025-05",
+     21211.0
+    ],
+    [
+     "2025-06",
+     21354.0
+    ],
+    [
+     "2025-07",
+     21302.0
+    ],
+    [
+     "2025-08",
+     21380.0
+    ],
+    [
+     "2025-09",
+     21495.0
+    ],
+    [
+     "2025-10",
+     21456.0
+    ],
+    [
+     "2025-11",
+     21452.0
+    ],
+    [
+     "2025-12",
+     21410.0
+    ],
+    [
+     "2026-01",
+     21385.0
+    ],
+    [
+     "2026-02",
+     21350.0
+    ],
+    [
+     "2026-03",
+     21284.0
+    ],
+    [
+     "2026-04",
+     21303.0
+    ],
+    [
+     "2026-05",
+     21277.0
+    ],
+    [
+     "2026-06",
+     21239.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "abl-public-deposits-usd",
+   "label": "Commercial banks: public-sector deposits",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     1218.0
+    ],
+    [
+     "2024-07",
+     824.0
+    ],
+    [
+     "2024-08",
+     741.0
+    ],
+    [
+     "2024-09",
+     695.0
+    ],
+    [
+     "2024-10",
+     663.0
+    ],
+    [
+     "2024-11",
+     635.0
+    ],
+    [
+     "2024-12",
+     576.0
+    ],
+    [
+     "2025-01",
+     633.0
+    ],
+    [
+     "2025-02",
+     627.0
+    ],
+    [
+     "2025-03",
+     620.0
+    ],
+    [
+     "2025-04",
+     640.0
+    ],
+    [
+     "2025-05",
+     724.0
+    ],
+    [
+     "2025-06",
+     691.0
+    ],
+    [
+     "2025-07",
+     762.0
+    ],
+    [
+     "2025-08",
+     718.0
+    ],
+    [
+     "2025-09",
+     765.0
+    ],
+    [
+     "2025-10",
+     761.0
+    ],
+    [
+     "2025-11",
+     778.0
+    ],
+    [
+     "2025-12",
+     762.0
+    ],
+    [
+     "2026-01",
+     770.0
+    ],
+    [
+     "2026-02",
+     803.0
+    ],
+    [
+     "2026-03",
+     676.0
+    ],
+    [
+     "2026-04",
+     658.0
+    ],
+    [
+     "2026-05",
+     643.0
+    ],
+    [
+     "2026-06",
+     685.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "abl-loans-resident-private-usd",
+   "label": "Commercial banks: claims on the resident private sector (loans)",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     7340.0
+    ],
+    [
+     "2024-07",
+     5814.0
+    ],
+    [
+     "2024-08",
+     5654.0
+    ],
+    [
+     "2024-09",
+     5132.0
+    ],
+    [
+     "2024-10",
+     5170.0
+    ],
+    [
+     "2024-11",
+     5094.0
+    ],
+    [
+     "2024-12",
+     5074.0
+    ],
+    [
+     "2025-01",
+     5017.0
+    ],
+    [
+     "2025-02",
+     4849.0
+    ],
+    [
+     "2025-03",
+     4770.0
+    ],
+    [
+     "2025-04",
+     4653.0
+    ],
+    [
+     "2025-05",
+     4612.0
+    ],
+    [
+     "2025-06",
+     4577.0
+    ],
+    [
+     "2025-07",
+     4544.0
+    ],
+    [
+     "2025-08",
+     4518.0
+    ],
+    [
+     "2025-09",
+     4485.0
+    ],
+    [
+     "2025-10",
+     4499.0
+    ],
+    [
+     "2025-11",
+     4494.0
+    ],
+    [
+     "2025-12",
+     4274.0
+    ],
+    [
+     "2026-01",
+     4288.0
+    ],
+    [
+     "2026-02",
+     4308.0
+    ],
+    [
+     "2026-03",
+     4294.0
+    ],
+    [
+     "2026-04",
+     4252.0
+    ],
+    [
+     "2026-05",
+     4332.0
+    ],
+    [
+     "2026-06",
+     4200.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "abl-capital-accounts-usd",
+   "label": "Commercial banks: capital accounts",
+   "unit": "USD million at the legal rate",
+   "freq": "monthly",
+   "points": [
+    [
+     "2023-12",
+     5092.0
+    ],
+    [
+     "2024-07",
+     3448.0
+    ],
+    [
+     "2024-08",
+     3742.0
+    ],
+    [
+     "2024-09",
+     4575.0
+    ],
+    [
+     "2024-10",
+     4613.0
+    ],
+    [
+     "2024-11",
+     4570.0
+    ],
+    [
+     "2024-12",
+     4788.0
+    ],
+    [
+     "2025-01",
+     4672.0
+    ],
+    [
+     "2025-02",
+     4633.0
+    ],
+    [
+     "2025-03",
+     4540.0
+    ],
+    [
+     "2025-04",
+     4282.0
+    ],
+    [
+     "2025-05",
+     4056.0
+    ],
+    [
+     "2025-06",
+     5235.0
+    ],
+    [
+     "2025-07",
+     4780.0
+    ],
+    [
+     "2025-08",
+     4517.0
+    ],
+    [
+     "2025-09",
+     4912.0
+    ],
+    [
+     "2025-10",
+     4773.0
+    ],
+    [
+     "2025-11",
+     4727.0
+    ],
+    [
+     "2025-12",
+     4922.0
+    ],
+    [
+     "2026-01",
+     4751.0
+    ],
+    [
+     "2026-02",
+     5011.0
+    ],
+    [
+     "2026-03",
+     4679.0
+    ],
+    [
+     "2026-04",
+     4774.0
+    ],
+    [
+     "2026-05",
+     4991.0
+    ],
+    [
+     "2026-06",
+     5051.0
+    ]
+   ],
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "basis": "ABL 'Key Indicators' executive summaries (monthly bulletins built from Banque du Liban data). Consolidated balance sheet of commercial banks at month end, foreign-currency items at the legal rate in force (LBP 15,000 per USD for December 2023, LBP 89,500 from 31 January 2024), so USD figures are accounting values, not market values. Bulletins found cover December 2023 and July 2024 to June 2026; January to June 2024 and 2019 to 2022 are missing (the central bank site returns 403 to scripts).",
+   "license": null,
+   "confidence": "reported"
+  },
+  {
+   "id": "imf-fsi-total-assets-usd",
+   "label": "Deposit takers: total assets (IMF Financial Soundness Indicators)",
+   "unit": "USD million",
+   "freq": "yearly",
+   "points": [
+    [
+     "2011",
+     149607.392
+    ],
+    [
+     "2012",
+     160139.799
+    ],
+    [
+     "2014",
+     186643.941
+    ],
+    [
+     "2015",
+     196884.784
+    ],
+    [
+     "2016",
+     214288.426
+    ],
+    [
+     "2017",
+     230371.274
+    ],
+    [
+     "2018",
+     260165.66
+    ],
+    [
+     "2019",
+     223016.94
+    ]
+   ],
+   "source": "https://api.imf.org/external/sdmx/2.1/data/FSIC/LBN",
+   "basis": "IMF FSI, deposit takers, Lebanon. Last reported year 2019; not ABL data, shown because ABL publishes no longer history. Missing years are missing at the source.",
+   "license": "© International Monetary Fund; access level PUBLIC_OPEN on the IMF data portal; terms at https://www.imf.org/external/terms.htm",
+   "confidence": "reported"
+  },
+  {
+   "id": "imf-fsi-customer-deposits-usd",
+   "label": "Deposit takers: customer deposits (IMF Financial Soundness Indicators)",
+   "unit": "USD million",
+   "freq": "yearly",
+   "points": [
+    [
+     "2011",
+     118669.885
+    ],
+    [
+     "2012",
+     128277.89
+    ],
+    [
+     "2013",
+     139674.221
+    ],
+    [
+     "2014",
+     148152.612
+    ],
+    [
+     "2015",
+     155526.945
+    ],
+    [
+     "2016",
+     166392.683
+    ],
+    [
+     "2017",
+     173706.778
+    ],
+    [
+     "2018",
+     178064.0
+    ],
+    [
+     "2019",
+     162291.0
+    ]
+   ],
+   "source": "https://api.imf.org/external/sdmx/2.1/data/FSIC/LBN",
+   "basis": "IMF FSI, deposit takers, Lebanon. Last reported year 2019; not ABL data, shown because ABL publishes no longer history. Missing years are missing at the source.",
+   "license": "© International Monetary Fund; access level PUBLIC_OPEN on the IMF data portal; terms at https://www.imf.org/external/terms.htm",
+   "confidence": "reported"
+  },
+  {
+   "id": "imf-fsi-gross-loans-usd",
+   "label": "Deposit takers: total gross loans (IMF Financial Soundness Indicators)",
+   "unit": "USD million",
+   "freq": "yearly",
+   "points": [
+    [
+     "2011",
+     41375.991
+    ],
+    [
+     "2012",
+     45519.045
+    ],
+    [
+     "2014",
+     55217.478
+    ],
+    [
+     "2015",
+     58296.59
+    ],
+    [
+     "2016",
+     60399.66
+    ],
+    [
+     "2017",
+     64030.142
+    ],
+    [
+     "2018",
+     66096.0
+    ],
+    [
+     "2019",
+     54180.0
+    ]
+   ],
+   "source": "https://api.imf.org/external/sdmx/2.1/data/FSIC/LBN",
+   "basis": "IMF FSI, deposit takers, Lebanon. Last reported year 2019; not ABL data, shown because ABL publishes no longer history. Missing years are missing at the source.",
+   "license": "© International Monetary Fund; access level PUBLIC_OPEN on the IMF data portal; terms at https://www.imf.org/external/terms.htm",
+   "confidence": "reported"
+  }
+ ],
+ "sector_facts": [
+  {
+   "as_of": "2024-09",
+   "item": "Total assets",
+   "value_lbp_billion": 9297336,
+   "value_usd_billion": 103.9,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2024-09",
+   "item": "Total deposits",
+   "value_lbp_billion": 8076237,
+   "value_usd_billion": 90.2,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2024-09",
+   "item": "Total claims on resident and non-resident customers",
+   "value_lbp_billion": 532063,
+   "value_usd_billion": 5.9,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2023-12",
+   "item": "Operating banks",
+   "value": 60,
+   "note": "of which 14 investment banks",
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2023-12",
+   "item": "Bank branches",
+   "value": 715,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2023-12",
+   "item": "Banking sector employees",
+   "value": 14860,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  },
+  {
+   "as_of": "2023-12",
+   "item": "Housing loans",
+   "value_lbp_billion": 8695,
+   "value_usd_million": 580,
+   "source": "https://www.abl.org.lb/english/lebanese-banking-sector/main-indicators",
+   "confidence": "reported"
+  }
+ ],
+ "per_bank": [
+  {
+   "bank": "Bank Audi",
+   "bse_ticker": "AUDI",
+   "unit_note": "LL million as published",
+   "source": "http://www.bse.com.lb/Portals/0/Bank%20Audi%202025%20Annual%20report.pdf",
+   "read_as": "text layer of the annual report, statement of financial position",
+   "years": [
+    {
+     "fiscal_year": 2025,
+     "total_assets_lbp_million": 1353435432,
+     "customer_deposits_lbp_million": 1152575994,
+     "total_equity_lbp_million": 103700434,
+     "net_result_lbp_million": 7430212,
+     "total_assets_usd_million_derived": 15122,
+     "customer_deposits_usd_million_derived": 12878,
+     "total_equity_usd_million_derived": 1159,
+     "net_result_usd_million_derived": 83,
+     "net_result_basis": "result of the year, group share"
+    },
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 1499041044,
+     "customer_deposits_lbp_million": 1107716259,
+     "total_equity_lbp_million": 92968111,
+     "net_result_lbp_million": 212471,
+     "total_assets_usd_million_derived": 16749,
+     "customer_deposits_usd_million_derived": 12377,
+     "total_equity_usd_million_derived": 1039,
+     "net_result_usd_million_derived": 2,
+     "net_result_basis": "result of the year, group share; 2024 restated in the 2025 report"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  },
+  {
+   "bank": "BLOM Bank",
+   "bse_ticker": "BLOM",
+   "unit_note": "LL million as published",
+   "source": "http://www.bse.com.lb/Portals/0/BLOM%20FS%20%20Consolidated-Dec%202025.pdf",
+   "read_as": "text layer of the audited consolidated statements",
+   "years": [
+    {
+     "fiscal_year": 2025,
+     "total_assets_lbp_million": 1616557656,
+     "customer_deposits_lbp_million": 1439590184,
+     "total_equity_lbp_million": 126063544,
+     "net_result_lbp_million": -19369362,
+     "total_assets_usd_million_derived": 18062,
+     "customer_deposits_usd_million_derived": 16085,
+     "total_equity_usd_million_derived": 1409,
+     "net_result_usd_million_derived": -216,
+     "net_result_basis": "result of the year attributable to equity holders; total loss for the year including minorities LL 18,414,753 million"
+    },
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 1639739779,
+     "customer_deposits_lbp_million": 1432491560,
+     "total_equity_lbp_million": 140314946,
+     "net_result_lbp_million": 43203302,
+     "total_assets_usd_million_derived": 18321,
+     "customer_deposits_usd_million_derived": 16005,
+     "total_equity_usd_million_derived": 1568,
+     "net_result_usd_million_derived": 483,
+     "net_result_basis": "result of the year attributable to equity holders (restated); total profit for the year including minorities LL 43,834,076 million"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  },
+  {
+   "bank": "BLC Bank",
+   "bse_ticker": "BLC",
+   "unit_note": "published in LBP thousand; converted here to LBP million (divide by 1,000)",
+   "source": "http://www.bse.com.lb/Portals/0/BLC%20BANK%20CONSOLIDATED%20FINANCIAL%20STATEMENT%20DECMEBER%2020251231.pdf",
+   "read_as": "scanned statement, page 6 read by eye; deposits are the line 'Customers' accounts'",
+   "years": [
+    {
+     "fiscal_year": 2025,
+     "total_assets_lbp_million": 173887357,
+     "customer_deposits_lbp_million": 154883573,
+     "total_equity_lbp_million": 14716889,
+     "net_result_lbp_million": 888545,
+     "total_assets_usd_million_derived": 1943,
+     "customer_deposits_usd_million_derived": 1731,
+     "total_equity_usd_million_derived": 164,
+     "net_result_usd_million_derived": 10,
+     "net_result_basis": "profit for the year in the equity table (LBP thousand 888,544,969)"
+    },
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 173397934,
+     "customer_deposits_lbp_million": 156568881,
+     "total_equity_lbp_million": 12323387,
+     "net_result_lbp_million": -113681,
+     "total_assets_usd_million_derived": 1937,
+     "customer_deposits_usd_million_derived": 1749,
+     "total_equity_usd_million_derived": 138,
+     "net_result_usd_million_derived": -1,
+     "net_result_basis": "loss for the year in the equity table (LBP thousand 113,680,698)"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  },
+  {
+   "bank": "Bank of Beirut",
+   "bse_ticker": "BOB",
+   "unit_note": "LBP million as published",
+   "source": "http://www.bse.com.lb/Portals/0/BOB%20FS%20CONSOLIDATED%202025.pdf",
+   "read_as": "scanned statements, pages 6 and 7 read by eye",
+   "years": [
+    {
+     "fiscal_year": 2025,
+     "total_assets_lbp_million": 778747121,
+     "customer_deposits_lbp_million": 647675674,
+     "total_equity_lbp_million": 63133637,
+     "net_result_lbp_million": 141935,
+     "total_assets_usd_million_derived": 8701,
+     "customer_deposits_usd_million_derived": 7237,
+     "total_equity_usd_million_derived": 705,
+     "net_result_usd_million_derived": 2,
+     "net_result_basis": "profit for the year; deposits include related parties"
+    },
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 751512090,
+     "customer_deposits_lbp_million": 629670825,
+     "total_equity_lbp_million": 60856245,
+     "net_result_lbp_million": 81911,
+     "total_assets_usd_million_derived": 8397,
+     "customer_deposits_usd_million_derived": 7035,
+     "total_equity_usd_million_derived": 680,
+     "net_result_usd_million_derived": 1,
+     "net_result_basis": "profit for the year (restated)"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  },
+  {
+   "bank": "Banque BEMO",
+   "bse_ticker": "BEMO",
+   "unit_note": "published in LBP thousand; converted here to LBP million (divide by 1,000)",
+   "source": "http://www.bse.com.lb/Portals/0/BEMO%20FS%20Consoladated%2020253112.pdf",
+   "read_as": "scanned statement, page 6 read by eye",
+   "years": [
+    {
+     "fiscal_year": 2025,
+     "total_assets_lbp_million": 150548223,
+     "customer_deposits_lbp_million": 113948267,
+     "total_equity_lbp_million": 3662263,
+     "net_result_lbp_million": 4043,
+     "total_assets_usd_million_derived": 1682,
+     "customer_deposits_usd_million_derived": 1273,
+     "total_equity_usd_million_derived": 41,
+     "net_result_usd_million_derived": 0,
+     "net_result_basis": "profit for the year attributable to the parent (LBP thousand 4,042,755); deposits are customers and related parties accounts"
+    },
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 156636516,
+     "customer_deposits_lbp_million": 115080509,
+     "total_equity_lbp_million": 3580655,
+     "net_result_lbp_million": -232065,
+     "total_assets_usd_million_derived": 1750,
+     "customer_deposits_usd_million_derived": 1286,
+     "total_equity_usd_million_derived": 40,
+     "net_result_usd_million_derived": -3,
+     "net_result_basis": "loss for the year attributable to the parent (restated)"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  },
+  {
+   "bank": "Byblos Bank",
+   "bse_ticker": "BYB",
+   "unit_note": "LL million as published; FY2025 statements were not on the BSE site on 2026-10-05",
+   "source": "http://www.bse.com.lb/Portals/0/Byblos%20Consolidated%20F%20S%202024.pdf",
+   "read_as": "scanned statement, page 9 read by eye",
+   "years": [
+    {
+     "fiscal_year": 2024,
+     "total_assets_lbp_million": 1011303157,
+     "customer_deposits_lbp_million": 843877326,
+     "total_equity_lbp_million": 68359709,
+     "net_result_lbp_million": 397138,
+     "total_assets_usd_million_derived": 11299,
+     "customer_deposits_usd_million_derived": 9429,
+     "total_equity_usd_million_derived": 764,
+     "net_result_usd_million_derived": 4,
+     "net_result_basis": "profit for the year attributable to equity holders; deposits exclude LL 7,203,266 million of related-party deposits"
+    },
+    {
+     "fiscal_year": 2023,
+     "total_assets_lbp_million": 186179706,
+     "customer_deposits_lbp_million": 150506358,
+     "total_equity_lbp_million": 14259911,
+     "net_result_lbp_million": 72769,
+     "net_result_basis": "profit for the year; 2023 values are at the old LBP 15,000 rate, so they are not comparable with 2024"
+    }
+   ],
+   "license": null,
+   "confidence": "verified",
+   "usd_basis": "USD derived = LBP million / 89,500 (the legal rate in force since 31 January 2024). Accounting values, not market values."
+  }
+ ],
+ "per_bank_not_included": "Banks not listed on the Beirut Stock Exchange (about 50 others): no statement in hand; ABL's almanac lists per-bank totals compiled by ABL, which are not used here.",
+ "license": null,
+ "confidence": "reported"
+}

@@ -124,7 +124,7 @@ export default async function (T) {
   ok('scorecard: sorting by rank reorders the rows (highest rank first)', await sc.ev('(() => { const w = [...document.querySelectorAll("#wdScore .wd-pb i")].map(i => parseFloat(i.style.width)); return w.length > 50 && w[0] >= w[w.length - 1] && w[0] > 90; })()') && first0 !== await sc.ev('document.querySelector("#wdScore tbody tr:nth-child(1) a").textContent'));
   await sc.ev('document.querySelector("#wdScore tbody tr:nth-child(1) a").click()'); await sc.wait('!!document.querySelector("#wdInd") && /^#world\\//.test(location.hash)', 20000); await sleep(500);
   ok('scorecard: clicking an indicator opens it on the map at that year (deep link #world/<indicator>/<year>)', await sc.ev('!!document.getElementById("wdYear") && /^#world\\/[^/]+\\/\\d{4}$/.test(location.hash) && document.getElementById("wdInd").value === decodeURIComponent(location.hash.split("/")[1])'));
-  ok('scorecard: the map has CSV and JSON downloads for the indicator', await sc.ev('document.querySelectorAll(".wd-src a[download]").length === 2 && /csv\\/world\\//.test(document.querySelector(".wd-src a[download]").getAttribute("href"))'));
+  ok('scorecard: the map names its source and licence, has no download link (v10: downloads are in the Data tab), and the tab links #data/world once', await sc.ev('!!document.querySelector(".wd-src") && /Licence/.test(document.querySelector(".wd-src").textContent) && document.querySelectorAll("#world a[download]").length === 0 && document.querySelectorAll("#world a[href=\\"#data/world\\"]").length === 1'));
   ok('scorecard: 0 console errors', sc.errors().length === 0, sc.errors());
   await sc.close();
 

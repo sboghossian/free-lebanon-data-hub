@@ -5,7 +5,7 @@ export default async function (T) {
     const tag = `v8 about ${lang} ${w}`;
     const p = await open(w, SITE, { query: q, hash: '#about' });
     ok(`${tag}: the About tab opens`, await p.wait('!document.getElementById("about").hidden && document.querySelectorAll("#aboutGaps li").length > 0', 20000));
-    ok(`${tag}: nine gaps are listed, each with a bold label`, await p.ev('document.querySelectorAll("#aboutGaps li").length === 9 && [...document.querySelectorAll("#aboutGaps li")].every(l => !!l.querySelector("b"))'));
+    ok(`${tag}: thirteen gaps are listed (v10 added religion and politics, companies, aid, trade), each with a bold label`, await p.ev('document.querySelectorAll("#aboutGaps li").length === 13 && [...document.querySelectorAll("#aboutGaps li")].every(l => !!l.querySelector("b"))'));
     if (lang === 'en') {
       ok(`${tag}: every gap says what was done and what is not possible`, await p.ev('[...document.querySelectorAll("#aboutGaps li")].every(l => /Done:/.test(l.textContent) && /Not possible:/.test(l.textContent))'));
       ok(`${tag}: the two hard limits are stated: no census since 1932, no complete civil-war strike record`, await p.ev('/no census since 1932/.test(document.getElementById("aboutGaps").textContent) && /no complete public record of the civil war exists/.test(document.getElementById("aboutGaps").textContent)'));

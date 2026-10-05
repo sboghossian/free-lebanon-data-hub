@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------ Electricity tab (FE-B). Data: data/electricity/power.json (D3), data/electricity/nightlights.json, data/climate/climate.json and data/fires/firms-lbn.json (D9),
    data/geo/lebanon.json (maps), data/cost/prices.json (generator tariffs). Views: public power, night lights, climate and fires, all series. Hash: #electricity, #electricity/<view>, #climate.
    The fire-hotspot layer toggle on the Strike map is added at the bottom of this file: it wraps the map tab's renderer and redraw without editing tl_map.js. */
-const EL_VIEWS = [{ id: 'power', label: N('Public power') }, { id: 'lights', label: N('Night lights') }, { id: 'climate', label: N('Climate and fires') }, { id: 'all', label: N('All series') }];
+const EL_VIEWS = [{ id: 'power', label: N('Public power') }, { id: 'lights', label: N('Night lights') }, { id: 'climate', label: N('Climate and fires') }];
 const EL = { view: 'power', P: null, year: 2019, place: 'beirut', fireFrom: 2000, fireTo: 2024, sensor: 'modis' };
 const NL_GOV = [['LBN', N('Lebanon')], ['LB1', N('Beirut')], ['LB2', N('Bekaa')], ['LB3', N('Mount Lebanon')], ['LB4', N('Nabatieh')], ['LB5', N('North')], ['LB6', N('South')], ['LB7', N('Akkar')], ['LB8', N('Baalbek-Hermel')]];
 const CL_PLACES = [['beirut', N('Beirut')], ['tripoli', N('Tripoli')], ['zahle', N('Zahle')], ['tyre', N('Tyre')], ['the_cedars', N('The Cedars')]];
@@ -176,12 +176,7 @@ function elClimate(el) {
   });
 }
 const fbShadeSea = () => 'color-mix(in srgb, var(--sea) 95%, var(--paper))', fbShadeWar = () => 'color-mix(in srgb, var(--war) 95%, var(--paper))';
-function elAllView(el) {
-  el.innerHTML = `<p class="lead">${esc(t('Every series behind this tab, with its unit, span, licence and a CSV download.'))}</p><div id="elAll"></div>`;
-  const keep = Object.values(EL.P).filter(s => s.csv && !/^cpi_|^fuel_|^bread_|^min_wage|^fx_|^gen_|^public_salary/.test(s.id));
-  fbLoad($('#elAll'), ['data/electricity/nightlights.json', 'data/climate/climate.json'], (nl, cl) => { fbBrowse($('#elAll'), keep.concat(nl.series || [], cl.series || []), { per: 30 }); });
-}
-const EL_RENDER = { power: elPower, lights: elLights, climate: elClimate, all: elAllView };
+const EL_RENDER = { power: elPower, lights: elLights, climate: elClimate };
 HUB.tab('electricity', { render(args, info) {
   const root = $('#electricityRoot');
   if (!root || !(D.tabs.electricity && (D.tabs.electricity.power || D.tabs.electricity.nl || D.tabs.electricity.climate))) return;
@@ -192,7 +187,7 @@ HUB.tab('electricity', { render(args, info) {
     const prices = hubLoad('data/cost/prices.json').catch(() => ({ series: [] }));
     return prices.then(pr => {
       EL.P = fbIndex([pw, pr]); EL.events = pw.events || [];
-      root.innerHTML = `<div class="chips fb-nav" id="elNav"></div><div id="elView"></div>`;
+      root.innerHTML = `<div class="chips fb-nav" id="elNav"></div><div id="elView"></div><p class="note dx-link"><a href="#data/electricity" data-hub="data" data-hash="data/electricity">${esc(t('Data behind this tab'))}</a></p>`;
       const show = id => {
         EL.view = id;
         HUB.setHash(id === 'climate' ? 'climate' : 'electricity', ...(id === 'power' || id === 'climate' ? [] : [id]));

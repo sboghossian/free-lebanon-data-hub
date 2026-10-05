@@ -2,7 +2,7 @@
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const TABS = ['timeline', 'map', 'places', 'cost', 'electricity', 'world', 'data', 'about'];
+const TABS = ['timeline', 'map', 'places', 'cost', 'electricity', 'trade', 'world', 'mideast', 'companies', 'aid', 'data', 'about'];
 // contrast: WCAG ratio of every visible text element against the colour that is really behind it (walks up to the first opaque background, blends alpha)
 const CONTRAST = `(() => {
   const cv = document.createElement('canvas').getContext('2d', { willReadFrequently: true });
@@ -36,7 +36,7 @@ export default async function (T) {
       one: tabs.filter(t => t.getAttribute('aria-selected') === 'true').length === 1, roving: tabs.filter(t => t.tabIndex === 0).length === 1,
       hiddenOthers: tabs.every(t => (document.getElementById(t.getAttribute('aria-controls')).hidden) === (t.getAttribute('aria-selected') !== 'true')) }; })()`);
   rep.semantics = sem;
-  ok('a11y: tablist has a label, 8 tabs, each tab controls a tabpanel that points back to it', sem.tablist && sem.n === 8 && sem.controls, sem);
+  ok(`a11y: tablist has a label, ${TABS.length} tabs, each tab controls a tabpanel that points back to it`, sem.tablist && sem.n === TABS.length && sem.controls, sem);
   ok('a11y: exactly one tab is selected and in the tab order (roving tabindex), the other panels are hidden', sem.one && sem.roving && sem.hiddenOthers, sem);
   await p.ev('document.getElementById("t-timeline").focus()');
   await p.key('ArrowRight'); await sleep(250);

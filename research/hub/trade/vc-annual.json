@@ -1,0 +1,76 @@
+{
+ "leg": "R-trade",
+ "id": "vc-annual",
+ "title": "Annual venture funding into Lebanese startups, headline figures as published",
+ "unit": "US$",
+ "status": "reported",
+ "license": null,
+ "redistribute_note": "Headline numbers only, as published, with attribution. No licence stated by Wamda, KAS/Arabnet or MAGNiTT. MAGNiTT full reports are paid and were not used. Methodologies differ between sources, so years are not strictly comparable.",
+ "rows": [
+  {
+   "year": 2015,
+   "usd": 60000000,
+   "deals": null,
+   "status": "reported",
+   "source": "Bazaar Times 2023-03-05, citing unnamed data: 'almost $60 million in 2015'",
+   "source_url": "https://bazaartimes.com/start-up-funding-in-smaller-mena-countries-surges-to-468bn-in-2022/",
+   "note": "Newspaper summary; underlying dataset not named."
+  },
+  {
+   "year": 2017,
+   "usd": 54000000,
+   "deals": 56,
+   "status": "reported",
+   "source": "Konrad Adenauer Stiftung and Arabnet, 'Braving the Storm' (March 2022), as quoted by BLOMINVEST and the US State Dept 2022 Investment Climate Statement",
+   "source_url": "https://blog.blominvestbank.com/the-lebanese-innovation-economy-another-casualty-of-the-financial-crisis/",
+   "note": "Second-hand quote of the report."
+  },
+  {
+   "year": 2021,
+   "usd": 16000000,
+   "deals": 12,
+   "status": "reported",
+   "source": "Same KAS/Arabnet report, 2021 end of its series",
+   "source_url": "https://blog.blominvestbank.com/the-lebanese-innovation-economy-another-casualty-of-the-financial-crisis/",
+   "note": "Second-hand quote of the report."
+  },
+  {
+   "year": 2022,
+   "usd": 25000000,
+   "deals": null,
+   "status": "reported",
+   "source": "Bazaar Times 2023-03-05: 'Lebanon ($25 million)' in 2022, source dataset not named",
+   "source_url": "https://bazaartimes.com/start-up-funding-in-smaller-mena-countries-surges-to-468bn-in-2022/",
+   "note": "Weak: source not named; Wamda says Lebanon fell vs 2021 in 2022."
+  },
+  {
+   "year": 2023,
+   "usd": 1000000,
+   "deals": 12,
+   "status": "reported",
+   "source": "Wamda, 2023 Year in Review Investments in MENA (country table: Lebanon $1M, 12 deals)",
+   "source_url": "https://www.wamda.com/research/pdf/2023-year-review-investments-mena",
+   "note": "Seedstars (2025-08-04) cites $1.1 million, 12 startups."
+  },
+  {
+   "year": 2024,
+   "usd": 510000,
+   "deals": 4,
+   "status": "reported",
+   "source": "Wamda, 2024 Year in Review Investments in MENA (country table: Lebanon $510K, 4 deals)",
+   "source_url": "https://www.wamda.com/research/pdf/2024-year-review-investments-mena",
+   "note": null
+  },
+  {
+   "year": 2025,
+   "usd": 2800000,
+   "deals": 10,
+   "status": "reported",
+   "source": "Wamda, 2025 Year in Review Investments in MENA (Lebanon $2.8M, 10 deals)",
+   "source_url": "https://www.wamda.com/research/pdf/2025-year-review-investments-mena",
+   "note": null
+  }
+ ],
+ "gaps": "2016, 2018, 2019 (MAGNiTT says 45 deals, no amount visible), 2020: no free published Lebanon-only total found.",
+ "fetched": "2026-10-05"
+}

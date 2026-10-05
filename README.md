@@ -2,8 +2,8 @@
 
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Data: CC BY-SA 4.0](https://img.shields.io/badge/data-CC%20BY--SA%204.0-lightgrey)](DATA-LICENSE.md)
-![Events: 5,893](https://img.shields.io/badge/events-5%2C893-informational)
-![Sources: 5,354](https://img.shields.io/badge/sources-5%2C354-informational)
+![Events: 5,901](https://img.shields.io/badge/events-5%2C901-informational)
+![Sources: 5,374](https://img.shields.io/badge/sources-5%2C374-informational)
 ![Datasets: 511](https://img.shields.io/badge/datasets-511-informational)
 ![Languages: EN, AR, FR](https://img.shields.io/badge/languages-EN%20%7C%20AR%20%7C%20FR-success)
 
@@ -20,7 +20,9 @@ Live page: <https://claude.ai/artifact/RWViDXvpKXH6KuCeS2qta5>
 |---|---|
 | **Strike map.** Documented incidents in the civil war, 2006 and 2023 to 2026. ![Strike map](docs/img/tab-strike-map.png) | **Places.** A page for every village and town. ![Places](docs/img/tab-places.png) |
 | **Cost of living.** Exchange rates, bread, fuel, generators, wages. ![Cost of living](docs/img/tab-cost-of-living.png) | **Electricity.** Supply hours, generators, production, night lights. ![Electricity](docs/img/tab-electricity.png) |
-| **World.** Lebanon against the world on a 3D globe and a flat map. ![World globe](docs/img/tab-world-globe.png) | **Data.** Every public Lebanese dataset we found, with a link check. ![Data](docs/img/tab-data.png) |
+| **World.** Lebanon against the world on a 3D globe and a flat map. ![World globe](docs/img/tab-world-globe.png) | **Data.** Every dataset, series and file in one place, with one search box across all of them. ![Data](docs/img/tab-data.png) |
+| **Trade & investment.** Exports and imports by product and partner since 1995, Customs monthly figures, foreign investment, startup funding. ![Trade & investment](docs/img/tab-trade.png) | **Middle East.** Lebanon against its neighbours, ties of people and money, refugees across the region, conflict events. ![Middle East](docs/img/tab-mideast.png) |
+| **Companies.** Listed shares, companies listed abroad, startups and exits, family groups, banks: each list ranked by one public measure. ![Companies](docs/img/tab-companies.png) | **Aid & NGOs.** Aid by year, donor and appeal, who works where, World Bank projects, people reached as agencies report it. ![Aid & NGOs](docs/img/tab-aid.png) |
 
 Arabic is a full right-to-left interface, not a label swap:
 
@@ -34,14 +36,20 @@ Counts from `python3 build/build_timeline.py` on this repository.
 
 | | |
 |---|---|
-| Events on the timeline | 5,893 (1800 to 30 Sep 2026) |
-| Distinct cited sources | 5,354 |
+| Events on the timeline | 5,901 (1800 to 30 Sep 2026) |
+| Distinct cited sources | 5,374 |
 | Strike incidents | 4,038 rows, 3,470 placed on the map |
 | Places (villages, towns, neighbourhoods) | 4,257, of which 3,637 have an Arabic name from a published source |
 | Catalogued public datasets | 511 |
-| Time series | 651 |
-| World indicators | 51 |
+| Time series (one list in the Data tab) | 1,272 |
+| World indicators | 76 |
 | Laws indexed (titles, numbers, dates, summaries) | 5,381 |
+| Registered voters by sect, 2014 (not residents) | 1,465 voter lists, 1,385 places |
+| Health and education facilities | 3,574 points |
+| Trade | goods by product and partner 1995 to 2024 (CEPII BACI), Customs monthly 2016 to 2026 |
+| Companies | 10 listed shares, 3 listed abroad, 29 startups, family groups and banks |
+| Aid | OCHA FTS 2006 to 2026, OECD donors, 140 World Bank projects, who works where |
+| Middle East | 17 economies, 2,385 UCDP conflict events in Lebanon (1989 to 2024) |
 | Translated strings | 16,741 Arabic, 16,741 French |
 
 Every event carries a date, a link to its source and a confidence tag: verified, reported or inference. Each cited page
@@ -111,6 +119,14 @@ Each gap is also written up on the About tab, with what was done and what cannot
 - **World.** Some years are missing for Lebanon. IMF and trade data are shown but not offered as downloads.
 - **Laws.** Titles, numbers, dates and summaries only, never article text. Numbers before about 1960 are partial.
 - **Elections.** The 2026 vote was postponed, so there are no results.
+- **Religion and politics.** The 2014 voter lists are the newest public breakdown by sect for each town. There is no count of
+  residents by sect, and results are not published by town, so no town gets a political label.
+- **Companies.** Private companies publish no revenue or profit, and startup valuations are private, so most firms cannot be
+  ranked by performance. Each list states the one public measure it uses.
+- **Aid.** People-reached figures are reported by the agencies themselves. FTS, OECD and World Bank figures overlap and are
+  never added together.
+- **Trade.** BACI, Lebanese Customs and the World Bank measure trade differently, so their totals differ (2023 exports: about
+  4.9 billion US dollars in BACI, 3.0 billion in Customs figures).
 - **Translations** were made by language models, then checked against an Arabic and a French glossary (`build/i18n_glossary_check.py`) and by
   sample reviews. In the last review of 300 random strings per language, 9.7% of the Arabic and 11.3% of the French had an error,
   mostly minor wording. Those were fixed, but the rest of the strings probably have errors at a similar rate. No native editor has
@@ -120,8 +136,10 @@ Each gap is also written up on the About tab, with what was done and what cannot
 
 ## Credits
 
-Built by Stephane Boghossian with Claude. Sources are credited on every row. Place names come from OCHA, GeoNames and
-OpenStreetMap contributors; the world indicators from the World Bank, Our World in Data and others listed in
+Built by Stephane Boghossian with Claude. Sources are credited on every row. Disclosure: the builder works at HAQQ Legal AI,
+which appears in the Companies tab under the same rule as every other startup. Place names come from OCHA, GeoNames and
+OpenStreetMap contributors; trade from CEPII BACI and Lebanese Customs; aid from OCHA FTS, the OECD and the World Bank;
+conflict events from UCDP; the world indicators from the World Bank, Our World in Data and others listed in
 [DATA-LICENSE.md](DATA-LICENSE.md).
 
 ## Licences

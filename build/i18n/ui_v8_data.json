@@ -1,182 +1,182 @@
 {
-"2026 election: postponed, not held": {
-"ar": "انتخابات ٢٠٢٦: مؤجَّلة ولم تُجرَ",
-"fr": "Élection de 2026 : reportée, non tenue"
-},
-"Status": {
-"ar": "الوضع",
-"fr": "Statut"
-},
-"Postponed: the election was not held": {
-"ar": "مؤجَّلة: لم تُجرَ الانتخابات",
-"fr": "Reportée : l'élection n'a pas eu lieu"
-},
-"Scheduled for": {
-"ar": "كانت مقررة في",
-"fr": "Prévue le"
-},
-"Extension law": {
-"ar": "قانون التمديد",
-"fr": "Loi de prorogation"
-},
-"passed on {d}": {
-"ar": "أُقرّ في {d}",
-"fr": "adoptée le {d}"
-},
-"Parliament term extended to": {
-"ar": "تمديد ولاية المجلس النيابي حتى",
-"fr": "Mandat du Parlement prorogé jusqu'au"
-},
-"Vote": {
-"ar": "التصويت",
-"fr": "Vote"
-},
-"{a} for, {b} against, {c} abstained": {
-"ar": "{a} مع و{b} ضد وامتناع {c}",
-"fr": "{a} pour, {b} contre, {c} abstentions"
-},
-"Constitutional Council": {
-"ar": "المجلس الدستوري",
-"fr": "Conseil constitutionnel"
-},
-"of {d}": {
-"ar": "بتاريخ {d}",
-"fr": "du {d}"
-},
-"New election date": {
-"ar": "موعد الانتخابات الجديد",
-"fr": "Nouvelle date de l'élection"
-},
-"No date set": {
-"ar": "لم يُحدَّد موعد",
-"fr": "Aucune date fixée"
-},
-"Results": {
-"ar": "النتائج",
-"fr": "Résultats"
-},
-"None: no vote has taken place": {
-"ar": "لا توجد: لم يجرِ أي اقتراع",
-"fr": "Aucun : aucun vote n'a eu lieu"
-},
-"Law No. 41/2026": {
-"ar": "القانون رقم ٤١/٢٠٢٦",
-"fr": "Loi n° 41/2026"
-},
-"Official Gazette, supplement to issue 11, {d1}": {
-"ar": "الجريدة الرسمية، ملحق العدد ١١، {d1}",
-"fr": "Journal officiel, supplément au numéro 11, {d1}"
-},
-"Decision No. 7/2026": {
-"ar": "القرار رقم ٧/٢٠٢٦",
-"fr": "Décision n° 7/2026"
-},
-"appeals 6/w/2026, 7/w/2026, 8/w/2026 rejected unanimously of the members present; extended term to be shortened and elections held once the exceptional circumstances end": {
-"ar": "ردّ الطعون ٦/و/٢٠٢٦ و٧/و/٢٠٢٦ و٨/و/٢٠٢٦ بإجماع الأعضاء الحاضرين؛ على أن تُقصَّر الولاية الممدَّدة وتُجرى الانتخابات متى انتهت الظروف الاستثنائية",
-"fr": "recours 6/w/2026, 7/w/2026 et 8/w/2026 rejetés à l'unanimité des membres présents ; le mandat prorogé doit être raccourci et les élections tenues dès la fin des circonstances exceptionnelles"
-},
-"No date set. Term runs to {d1}; election expected around May 2028 (Wikipedia: 'May 2028'). Constitutional Council says the term must be cut short if the emergency ends.": {
-"ar": "لم يُحدَّد موعد. تنتهي الولاية في {d1}؛ ويُتوقَّع إجراء الانتخابات نحو أيار ٢٠٢٨ (ويكيبيديا: «أيار ٢٠٢٨»). ويقول المجلس الدستوري إنه يجب تقصير الولاية إذا انتهت حالة الطوارئ.",
-"fr": "Aucune date fixée. Le mandat court jusqu'au {d1} ; l'élection est attendue vers mai 2028 (Wikipédia : « mai 2028 »). Le Conseil constitutionnel dit que le mandat doit être écourté si l'urgence prend fin."
-},
-"On 9 March 2026 parliament passed Law No. 41/2026 (Official Gazette, supplement to issue 11, 9 March 2026), an exceptional extension of its own term to 31 May 2028 because of the 2026 Lebanon war. The vote was 76 for, 41 against, 4 abstentions. Lebanese Forces, Free Patriotic Movement and some independent MPs challenged it; on 7 April 2026 the Constitutional Council (decision 7/2026) unanimously rejected the three appeals, but said parliament must shorten the extended term and hold elections once the exceptional circumstances end. No new election date is set; the vote is expected around May 2028. The election originally scheduled for 10 May 2026 was not held. IFES lists it as Cancelled with 3,967,507 registered voters (the 2022 register).": {
-"ar": "في ٩ آذار ٢٠٢٦ أقرّ مجلس النواب القانون رقم ٤١/٢٠٢٦ (الجريدة الرسمية، ملحق العدد ١١، ٩ آذار ٢٠٢٦)، وهو تمديد استثنائي لولايته حتى ٣١ أيار ٢٠٢٨ بسبب حرب لبنان عام ٢٠٢٦. وكان التصويت ٧٦ مع و٤١ ضد وامتناع ٤. وطعن فيه حزب القوات اللبنانية والتيار الوطني الحر ونواب مستقلون؛ وفي ٧ نيسان ٢٠٢٦ ردّ المجلس الدستوري (القرار ٧/٢٠٢٦) الطعون الثلاثة بالإجماع، لكنه قال إن على المجلس النيابي تقصير الولاية الممدَّدة وإجراء الانتخابات متى انتهت الظروف الاستثنائية. ولم يُحدَّد موعد جديد للانتخابات؛ ويُتوقَّع إجراؤها نحو أيار ٢٠٢٨. أما الانتخابات المقررة أصلًا في ١٠ أيار ٢٠٢٦ فلم تُجرَ. وتصنّفها IFES «ملغاة» مع ٣٬٩٦٧٬٥٠٧ ناخبين مسجّلين (سجل ٢٠٢٢).",
-"fr": "Le 9 mars 2026, le Parlement a adopté la loi n° 41/2026 (Journal officiel, supplément au numéro 11, 9 mars 2026), une prorogation exceptionnelle de son propre mandat jusqu'au 31 mai 2028 en raison de la guerre de 2026 au Liban. Le vote a donné 76 voix pour, 41 contre, 4 abstentions. Les Forces libanaises, le Courant patriotique libre et quelques députés indépendants l'ont contestée ; le 7 avril 2026, le Conseil constitutionnel (décision 7/2026) a rejeté à l'unanimité les trois recours, mais a dit que le Parlement doit raccourcir le mandat prorogé et tenir des élections dès la fin des circonstances exceptionnelles. Aucune nouvelle date n'est fixée ; le scrutin est attendu vers mai 2028. L'élection prévue à l'origine le 10 mai 2026 n'a pas eu lieu. IFES la classe comme annulée, avec 3 967 507 électeurs inscrits (le registre de 2022)."
-},
-"No results exist. Verified 2026-10-03: law number, date, gazette and 31 May 2028 end date read in the Constitutional Council decision PDF (primary); vote count from Carnegie and Anadolu (not in the primary text); L'Orient Today and Legal Agenda returned 403 and were not read.": {
-"ar": "لا توجد نتائج. جرى التحقق في ٢٠٢٦-١٠-٠٣: رقم القانون وتاريخه والجريدة الرسمية وتاريخ انتهاء الولاية في ٣١ أيار ٢٠٢٨ قُرئت في ملف PDF لقرار المجلس الدستوري (مصدر أولي)؛ وعدد الأصوات من كارنيغي وأنادولو (وهو غير وارد في النص الأولي)؛ أما «لوريان توداي» و«المفكرة القانونية» فأعادتا الرمز ٤٠٣ ولم تُقرآ.",
-"fr": "Aucun résultat n'existe. Vérifié le 2026-10-03 : numéro de la loi, date, Journal officiel et fin de mandat au 31 mai 2028 lus dans le PDF de la décision du Conseil constitutionnel (source primaire) ; décompte des voix chez Carnegie et Anadolu (absent du texte primaire) ; L'Orient Today et Legal Agenda ont renvoyé un 403 et n'ont pas été lus."
-},
-"An index of laws and legislative decrees, 1900 to 2026: number, date, title, subject and a link to the text. Only titles, numbers, dates and short English summaries are republished.": {
-"ar": "فهرس للقوانين والمراسيم الاشتراعية من ١٩٠٠ إلى ٢٠٢٦: الرقم والتاريخ والعنوان والموضوع ورابط إلى النص. لا يُعاد نشر سوى العناوين والأرقام والتواريخ وملخّصات إنكليزية قصيرة.",
-"fr": "Un index des lois et décrets législatifs, de 1900 à 2026 : numéro, date, titre, sujet et lien vers le texte. Seuls les titres, numéros, dates et brefs résumés en anglais sont republiés."
-},
-"English titles, summaries and subjects were written by hand from the Arabic title, which is the authoritative text. A summary describes the purpose of a law, not its legal effect. Laws of 2025 and 2026 come from the Parliament's site as well as the Centre, and a few may be missing.": {
-"ar": "كُتبت العناوين والملخّصات والمواضيع بالإنكليزية يدويًا انطلاقًا من العنوان العربي، وهو النص المعتمد. يصف الملخّص غاية القانون لا أثره القانوني. وقوانين ٢٠٢٥ و٢٠٢٦ مأخوذة من موقع مجلس النواب إضافةً إلى المركز، وقد يغيب بعضها.",
-"fr": "Les titres, résumés et sujets en anglais ont été écrits à la main d'après le titre arabe, qui fait foi. Un résumé décrit l'objet d'une loi, pas son effet juridique. Les lois de 2025 et 2026 viennent du site du Parlement en plus du Centre, et quelques-unes peuvent manquer."
-},
-"Full text": {
-"ar": "النص الكامل",
-"fr": "Texte intégral"
-},
-"annulled by Constitutional Council decision {n} of {d}": {
-"ar": "أبطله المجلس الدستوري بالقرار {n} تاريخ {d}",
-"fr": "annulée par la décision {n} du Conseil constitutionnel du {d}"
-},
-"number from press reports, not yet on the source": {
-"ar": "الرقم من تقارير صحافية، وليس بعد في المصدر",
-"fr": "numéro tiré de la presse, pas encore sur la source"
-},
-"Checked {d}: {s}": {
-"ar": "فُحص في {d}: {s}",
-"fr": "Vérifié le {d} : {s}"
-},
-"file dated {d}": {
-"ar": "الملف مؤرَّخ {d}",
-"fr": "fichier daté du {d}"
-},
-"reachable": {
-"ar": "يمكن الوصول إليه",
-"fr": "joignable"
-},
-"moved": {
-"ar": "نُقل",
-"fr": "déplacé"
-},
-"unreachable": {
-"ar": "تعذّر الوصول إليه",
-"fr": "injoignable"
-},
-"Link": {
-"ar": "الرابط",
-"fr": "Lien"
-},
-"any status": {
-"ar": "أي حالة",
-"fr": "tous statuts"
-},
-"Links checked {d}: {a} reachable, {b} moved, {c} unreachable. A reachable link does not mean the file is current.": {
-"ar": "فُحصت الروابط في {d}: {a} يمكن الوصول إليها و{b} نُقلت و{c} تعذّر الوصول إليها. والرابط الذي يمكن الوصول إليه لا يعني أن الملف حديث.",
-"fr": "Liens vérifiés le {d} : {a} joignables, {b} déplacés, {c} injoignables. Un lien joignable ne veut pas dire que le fichier est à jour."
-},
-"Lebanon national sources": {
-"ar": "المصادر الوطنية اللبنانية",
-"fr": "Sources nationales libanaises"
-},
-"Lebanon national source": {
-"ar": "المصدر الوطني اللبناني",
-"fr": "Source nationale libanaise"
-},
-"Lebanon, national source": {
-"ar": "لبنان، المصدر الوطني",
-"fr": "Liban, source nationale"
-},
-"National source": {
-"ar": "مصدر وطني",
-"fr": "Source nationale"
-},
-"UN projection": {
-"ar": "توقعات الأمم المتحدة",
-"fr": "Projection de l'ONU"
-},
-"UN projection, medium variant": {
-"ar": "توقعات الأمم المتحدة، السيناريو المتوسط",
-"fr": "projection de l'ONU, variante moyenne"
-},
-"IMF estimate or projection": {
-"ar": "تقدير أو توقع لصندوق النقد الدولي",
-"fr": "estimation ou projection du FMI"
-},
-"IMF estimates for Lebanon": {
-"ar": "تقديرات صندوق النقد الدولي للبنان",
-"fr": "Estimations du FMI pour le Liban"
-},
-"From 2024 the UN values are projections (medium variant): dashed lines and the shaded band.": {
-"ar": "اعتبارًا من ٢٠٢٤ تكون قيم الأمم المتحدة توقعات (السيناريو المتوسط): الخطوط المتقطعة والمنطقة المظلَّلة.",
-"fr": "À partir de 2024, les valeurs de l'ONU sont des projections (variante moyenne) : lignes en pointillés et bande ombrée."
-},
-"Recent years are IMF estimates or projections. Dashed lines and the shaded band mark the values after each country's last actual year.": {
-"ar": "السنوات الأخيرة تقديرات أو توقعات لصندوق النقد الدولي. وتدل الخطوط المتقطعة والمنطقة المظلَّلة على القيم بعد آخر سنة فعلية لكل بلد.",
-"fr": "Les années récentes sont des estimations ou projections du FMI. Les lignes en pointillés et la bande ombrée marquent les valeurs postérieures à la dernière année réelle de chaque pays."
-}
+ "2026 election: postponed, not held": {
+  "ar": "انتخابات ٢٠٢٦: مؤجَّلة ولم تُجرَ",
+  "fr": "Élection de 2026 : reportée, non tenue"
+ },
+ "Status": {
+  "ar": "الوضع",
+  "fr": "Statut"
+ },
+ "Postponed: the election was not held": {
+  "ar": "مؤجَّلة: لم تُجرَ الانتخابات",
+  "fr": "Reportée : l'élection n'a pas eu lieu"
+ },
+ "Scheduled for": {
+  "ar": "كانت مقررة في",
+  "fr": "Prévue le"
+ },
+ "Extension law": {
+  "ar": "قانون التمديد",
+  "fr": "Loi de prorogation"
+ },
+ "passed on {d}": {
+  "ar": "أُقرّ في {d}",
+  "fr": "adoptée le {d}"
+ },
+ "Parliament term extended to": {
+  "ar": "تمديد ولاية المجلس النيابي حتى",
+  "fr": "Mandat du Parlement prorogé jusqu'au"
+ },
+ "Vote": {
+  "ar": "التصويت",
+  "fr": "Vote"
+ },
+ "{a} for, {b} against, {c} abstained": {
+  "ar": "{a} مع و{b} ضد وامتناع {c}",
+  "fr": "{a} pour, {b} contre, {c} abstentions"
+ },
+ "Constitutional Council": {
+  "ar": "المجلس الدستوري",
+  "fr": "Conseil constitutionnel"
+ },
+ "of {d}": {
+  "ar": "بتاريخ {d}",
+  "fr": "du {d}"
+ },
+ "New election date": {
+  "ar": "موعد الانتخابات الجديد",
+  "fr": "Nouvelle date de l'élection"
+ },
+ "No date set": {
+  "ar": "لم يُحدَّد موعد",
+  "fr": "Aucune date fixée"
+ },
+ "Results": {
+  "ar": "النتائج",
+  "fr": "Résultats"
+ },
+ "None: no vote has taken place": {
+  "ar": "لا توجد: لم يجرِ أي اقتراع",
+  "fr": "Aucun : aucun vote n'a eu lieu"
+ },
+ "Law No. 41/2026": {
+  "ar": "القانون رقم ٤١/٢٠٢٦",
+  "fr": "Loi n° 41/2026"
+ },
+ "Official Gazette, supplement to issue 11, {d1}": {
+  "ar": "الجريدة الرسمية، ملحق العدد ١١، {d1}",
+  "fr": "Journal officiel, supplément au numéro 11, {d1}"
+ },
+ "Decision No. 7/2026": {
+  "ar": "القرار رقم ٧/٢٠٢٦",
+  "fr": "Décision n° 7/2026"
+ },
+ "appeals 6/w/2026, 7/w/2026, 8/w/2026 rejected unanimously of the members present; extended term to be shortened and elections held once the exceptional circumstances end": {
+  "ar": "ردّ الطعون ٦/و/٢٠٢٦ و٧/و/٢٠٢٦ و٨/و/٢٠٢٦ بإجماع الأعضاء الحاضرين؛ على أن تُقصَّر الولاية الممدَّدة وتُجرى الانتخابات متى انتهت الظروف الاستثنائية",
+  "fr": "recours 6/w/2026, 7/w/2026 et 8/w/2026 rejetés à l'unanimité des membres présents ; le mandat prorogé doit être raccourci et les élections tenues dès la fin des circonstances exceptionnelles"
+ },
+ "No date set. Term runs to {d1}; election expected around May 2028 (Wikipedia: 'May 2028'). Constitutional Council says the term must be cut short if the emergency ends.": {
+  "ar": "لم يُحدَّد موعد. تنتهي الولاية في {d1}؛ ويُتوقَّع إجراء الانتخابات نحو أيار ٢٠٢٨ (ويكيبيديا: «أيار ٢٠٢٨»). ويقول المجلس الدستوري إنه يجب تقصير الولاية إذا انتهت حالة الطوارئ.",
+  "fr": "Aucune date fixée. Le mandat court jusqu'au {d1} ; l'élection est attendue vers mai 2028 (Wikipédia : « mai 2028 »). Le Conseil constitutionnel dit que le mandat doit être écourté si l'urgence prend fin."
+ },
+ "On 9 March 2026 parliament passed Law No. 41/2026 (Official Gazette, supplement to issue 11, 9 March 2026), an exceptional extension of its own term to 31 May 2028 because of the 2026 Lebanon war. The vote was 76 for, 41 against, 4 abstentions. Lebanese Forces, Free Patriotic Movement and some independent MPs challenged it; on 7 April 2026 the Constitutional Council (decision 7/2026) unanimously rejected the three appeals, but said parliament must shorten the extended term and hold elections once the exceptional circumstances end. No new election date is set; the vote is expected around May 2028. The election originally scheduled for 10 May 2026 was not held. IFES lists it as Cancelled with 3,967,507 registered voters (the 2022 register).": {
+  "ar": "في ٩ آذار ٢٠٢٦ أقرّ مجلس النواب القانون رقم ٤١/٢٠٢٦ (الجريدة الرسمية، ملحق العدد ١١، ٩ آذار ٢٠٢٦)، وهو تمديد استثنائي لولايته حتى ٣١ أيار ٢٠٢٨ بسبب حرب لبنان عام ٢٠٢٦. وكان التصويت ٧٦ مع و٤١ ضد وامتناع ٤. وطعن فيه حزب القوات اللبنانية والتيار الوطني الحر ونواب مستقلون؛ وفي ٧ نيسان ٢٠٢٦ ردّ المجلس الدستوري (القرار ٧/٢٠٢٦) الطعون الثلاثة بالإجماع، لكنه قال إن على المجلس النيابي تقصير الولاية الممدَّدة وإجراء الانتخابات متى انتهت الظروف الاستثنائية. ولم يُحدَّد موعد جديد للانتخابات؛ ويُتوقَّع إجراؤها نحو أيار ٢٠٢٨. أما الانتخابات المقررة أصلًا في ١٠ أيار ٢٠٢٦ فلم تُجرَ. وتصنّفها IFES «ملغاة» مع ٣٬٩٦٧٬٥٠٧ ناخبين مسجّلين (سجل ٢٠٢٢).",
+  "fr": "Le 9 mars 2026, le Parlement a adopté la loi n° 41/2026 (Journal officiel, supplément au numéro 11, 9 mars 2026), une prorogation exceptionnelle de son propre mandat jusqu'au 31 mai 2028 en raison de la guerre de 2026 au Liban. Le vote a donné 76 voix pour, 41 contre, 4 abstentions. Les Forces libanaises, le Courant patriotique libre et quelques députés indépendants l'ont contestée ; le 7 avril 2026, le Conseil constitutionnel (décision 7/2026) a rejeté à l'unanimité les trois recours, mais a dit que le Parlement doit raccourcir le mandat prorogé et tenir des élections dès la fin des circonstances exceptionnelles. Aucune nouvelle date n'est fixée ; le scrutin est attendu vers mai 2028. L'élection prévue à l'origine le 10 mai 2026 n'a pas eu lieu. IFES la classe comme annulée, avec 3 967 507 électeurs inscrits (le registre de 2022)."
+ },
+ "No results exist. Verified 2026-10-03: law number, date, gazette and 31 May 2028 end date read in the Constitutional Council decision PDF (primary); vote count from Carnegie and Anadolu (not in the primary text); L'Orient Today and Legal Agenda returned 403 and were not read.": {
+  "ar": "لا توجد نتائج. جرى التحقق في ٢٠٢٦-١٠-٠٣: رقم القانون وتاريخه والجريدة الرسمية وتاريخ انتهاء الولاية في ٣١ أيار ٢٠٢٨ قُرئت في ملف PDF لقرار المجلس الدستوري (مصدر أولي)؛ وعدد الأصوات من كارنيغي وأنادولو (وهو غير وارد في النص الأولي)؛ أما «لوريان توداي» و«المفكرة القانونية» فأعادتا الرمز ٤٠٣ ولم تُقرآ.",
+  "fr": "Aucun résultat n'existe. Vérifié le 2026-10-03 : numéro de la loi, date, Journal officiel et fin de mandat au 31 mai 2028 lus dans le PDF de la décision du Conseil constitutionnel (source primaire) ; décompte des voix chez Carnegie et Anadolu (absent du texte primaire) ; L'Orient Today et Legal Agenda ont renvoyé un 403 et n'ont pas été lus."
+ },
+ "An index of laws and legislative decrees, 1900 to 2026: number, date, title, subject and a link to the text. Only titles, numbers, dates and short English summaries are republished.": {
+  "ar": "فهرس للقوانين والمراسيم الاشتراعية من ١٩٠٠ إلى ٢٠٢٦: الرقم والتاريخ والعنوان والموضوع ورابط إلى النص. لا يُعاد نشر سوى العناوين والأرقام والتواريخ وملخّصات إنكليزية قصيرة.",
+  "fr": "Un index des lois et décrets législatifs, de 1900 à 2026 : numéro, date, titre, sujet et lien vers le texte. Seuls les titres, numéros, dates et brefs résumés en anglais sont republiés."
+ },
+ "English titles, summaries and subjects were written by hand from the Arabic title, which is the authoritative text. A summary describes the purpose of a law, not its legal effect. Laws of 2025 and 2026 come from the Parliament's site as well as the Centre, and a few may be missing.": {
+  "ar": "كُتبت العناوين والملخّصات والمواضيع بالإنكليزية يدويًا انطلاقًا من العنوان العربي، وهو النص المعتمد. يصف الملخّص غاية القانون لا أثره القانوني. وقوانين ٢٠٢٥ و٢٠٢٦ مأخوذة من موقع مجلس النواب إضافةً إلى المركز، وقد يغيب بعضها.",
+  "fr": "Les titres, résumés et sujets en anglais ont été écrits à la main d'après le titre arabe, qui fait foi. Un résumé décrit l'objet d'une loi, pas son effet juridique. Les lois de 2025 et 2026 viennent du site du Parlement en plus du Centre, et quelques-unes peuvent manquer."
+ },
+ "Full text": {
+  "ar": "النص الكامل",
+  "fr": "Texte intégral"
+ },
+ "annulled by Constitutional Council decision {n} of {d}": {
+  "ar": "أبطله المجلس الدستوري بالقرار {n} تاريخ {d}",
+  "fr": "annulée par la décision {n} du Conseil constitutionnel du {d}"
+ },
+ "number from press reports, not yet on the source": {
+  "ar": "الرقم من تقارير صحافية، وليس بعد في المصدر",
+  "fr": "numéro tiré de la presse, pas encore sur la source"
+ },
+ "Checked {d}: {s}": {
+  "ar": "فُحص في {d}: {s}",
+  "fr": "Vérifié le {d} : {s}"
+ },
+ "file dated {d}": {
+  "ar": "الملف مؤرَّخ {d}",
+  "fr": "fichier daté du {d}"
+ },
+ "reachable": {
+  "ar": "يمكن الوصول إليه",
+  "fr": "joignable"
+ },
+ "moved": {
+  "ar": "نُقل",
+  "fr": "déplacé"
+ },
+ "unreachable": {
+  "ar": "تعذّر الوصول إليه",
+  "fr": "injoignable"
+ },
+ "Link": {
+  "ar": "الرابط",
+  "fr": "Lien"
+ },
+ "any status": {
+  "ar": "أي حالة",
+  "fr": "tous statuts"
+ },
+ "Links checked {d}: {a} reachable, {b} moved, {c} unreachable. A reachable link does not mean the file is current.": {
+  "ar": "فُحصت الروابط في {d}: {a} يمكن الوصول إليها و{b} نُقلت و{c} تعذّر الوصول إليها. والرابط الذي يمكن الوصول إليه لا يعني أن الملف حديث.",
+  "fr": "Liens vérifiés le {d} : {a} joignables, {b} déplacés, {c} injoignables. Un lien joignable ne veut pas dire que le fichier est à jour."
+ },
+ "Lebanon national sources": {
+  "ar": "المصادر الوطنية اللبنانية",
+  "fr": "Sources nationales libanaises"
+ },
+ "Lebanon national source": {
+  "ar": "المصدر الوطني اللبناني",
+  "fr": "Source nationale libanaise"
+ },
+ "Lebanon, national source": {
+  "ar": "لبنان، المصدر الوطني",
+  "fr": "Liban, source nationale"
+ },
+ "National source": {
+  "ar": "مصدر وطني",
+  "fr": "Source nationale"
+ },
+ "UN projection": {
+  "ar": "توقعات الأمم المتحدة",
+  "fr": "Projection de l'ONU"
+ },
+ "UN projection, medium variant": {
+  "ar": "توقعات الأمم المتحدة، السيناريو المتوسط",
+  "fr": "projection de l'ONU, variante moyenne"
+ },
+ "IMF estimate or projection": {
+  "ar": "تقدير أو توقع لصندوق النقد الدولي",
+  "fr": "estimation ou projection du FMI"
+ },
+ "IMF estimates for Lebanon": {
+  "ar": "تقديرات صندوق النقد الدولي للبنان",
+  "fr": "Estimations du FMI pour le Liban"
+ },
+ "From 2024 the UN values are projections (medium variant): dashed lines and the shaded band.": {
+  "ar": "اعتبارًا من ٢٠٢٤ تكون قيم الأمم المتحدة توقعات (السيناريو المتوسط): الخطوط المتقطعة والمنطقة المظلَّلة.",
+  "fr": "À partir de 2024, les valeurs de l'ONU sont des projections (variante moyenne) : lignes en pointillés et bande ombrée."
+ },
+ "Recent years are IMF estimates or projections. Dashed lines and the shaded band mark the values after each country's last actual year.": {
+  "ar": "السنوات الأخيرة تقديرات أو توقعات لصندوق النقد الدولي. وتدل الخطوط المتقطعة والمنطقة المظلَّلة على القيم بعد آخر سنة فعلية لكل بلد.",
+  "fr": "Les années récentes sont des estimations ou projections du FMI. Les lignes en pointillés et la bande ombrée marquent les valeurs postérieures à la dernière année réelle de chaque pays."
+ }
 }

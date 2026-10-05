@@ -1,0 +1,57 @@
+/* Aid & NGOs tab (leg B-aid). Uses the shared fb-* card, stat, nav, table and map styles from tab_fb_shared.css. Theme tokens and logical properties only. */
+.aid-data{margin:18px 0 0;font:600 14px/1.4 var(--display)}
+.aid-data a{color:var(--cedar)}
+.aid-src{margin:8px 0 0;font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.aid-src a{color:var(--cedar)}
+.aid-ctl{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:6px 0 10px}
+.aid-ctl[hidden]{display:none}
+.aid-ctl .sel{min-width:0;max-width:100%}
+.aid-h{font:700 14px/1.3 var(--display);margin:12px 0 4px;color:var(--ink)}
+.aid-tag{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--diesel);color:var(--on-strong);font:600 11.5px/1.6 var(--display);letter-spacing:.02em;margin-inline-end:6px;vertical-align:middle}
+.aid-band{margin:10px 0;padding:10px 14px;border-inline-start:3px solid var(--diesel);background:var(--diesel-soft);font-size:14px;line-height:1.5;max-width:80ch;border-radius:0 6px 6px 0}
+html[dir=rtl] .aid-band{border-radius:6px 0 0 6px}
+.aid-band .aid-tag{margin-inline-end:8px}
+.aid-rk{list-style:none;margin:6px 0;padding:0}
+.aid-rk li{display:grid;grid-template-columns:minmax(90px,220px) minmax(0,1fr) 7.2rem;gap:4px 10px;align-items:center;padding:3px 0;font:14px/1.3 var(--display)}
+.aid-rl{min-width:0;overflow-wrap:anywhere;appearance:none;border:0;background:none;padding:2px 0;margin:0;color:var(--ink);font:inherit;text-align:start}
+button.aid-rl{cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
+button.aid-rl:hover{color:var(--cedar)}
+.aid-rk li.on .aid-rl{font-weight:800;color:var(--cedar)}
+.aid-rl .dim{display:block;font-size:11.5px;font-weight:400}
+.aid-rb{display:block;height:10px;background:var(--stone);border-radius:2px;overflow:hidden;direction:ltr}
+.aid-rb i{display:block;height:100%;background:var(--cedar)}
+.aid-rv{font-size:13px;white-space:nowrap;text-align:end}
+.aid-fl{list-style:none;margin:6px 0;padding:0}
+.aid-fr{padding:8px 0;border-bottom:1px solid var(--rule)}
+.aid-fh{font:700 14px/1.3 var(--display);overflow-wrap:anywhere}
+.aid-fh .dim{font-weight:400;font-size:12px}
+.aid-fb{position:relative;height:12px;margin:6px 0 4px;direction:ltr}
+.aid-fb i{position:absolute;inset-block-start:0;inset-inline-start:0;display:block;height:12px;border-radius:2px}
+.aid-fb .rq{background:var(--stone);border:1px solid var(--rule-2);box-sizing:border-box}
+.aid-fb .fu{background:var(--cedar);height:6px;inset-block-start:3px}
+.aid-fv{margin:0;font-size:13px;line-height:1.45;color:var(--ink-2)}
+.aid-fv.sub{color:var(--ink-3);font-size:12.5px}
+.aid-key{display:flex;flex-wrap:wrap;gap:4px 16px;margin:6px 0;font-size:12.5px;color:var(--ink-2)}
+.aid-key i{display:inline-block;width:14px;height:8px;margin-inline-end:6px;border-radius:2px;vertical-align:middle}
+.aid-key .rq{background:var(--stone);border:1px solid var(--rule-2)}
+.aid-key .fu{background:var(--cedar)}
+.aid-cols{display:block;width:100%;max-width:780px;height:auto;direction:ltr}
+.aid-cols rect{fill:var(--sea)}
+.aid-cols rect:hover,.aid-cols rect:focus{fill:var(--cedar);outline:none}
+.aid-cols text{font:11px var(--mono);fill:var(--ink-3)}
+.aid-cols line{stroke:var(--rule-2);stroke-width:1}
+.aid-pl{list-style:none;margin:6px 0 10px;padding:0;border-top:1px solid var(--rule)}
+.aid-pl li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 14px;padding:9px 0;border-bottom:1px solid var(--rule);font:14px/1.4 var(--display)}
+.aid-pl .aid-pn{overflow-wrap:anywhere;min-width:0}
+.aid-pl .aid-pn a{color:var(--cedar)}
+.aid-pl .aid-pm{grid-column:1/-1;font-size:12.5px;color:var(--ink-3)}
+.aid-pl .aid-pv{font-family:var(--mono);white-space:nowrap}
+.aid-st{display:inline-block;font:600 11px/1.5 var(--display);padding:1px 8px;border-radius:99px;border:1px solid var(--rule-2);color:var(--ink-2);margin-inline-start:6px}
+.aid-st.act{border-color:var(--cedar);color:var(--cedar)}
+.aid-st.drop{color:var(--ink-3);border-style:dashed}
+.aid-ty{display:inline-block;font:600 11px/1.5 var(--display);padding:0 7px;border-radius:99px;background:var(--sea-soft);color:var(--ink);margin-inline-end:6px}
+.aid-mapwrap{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:16px 22px;align-items:start}
+.aid-rd{margin:4px 0 0;font-size:12.5px;color:var(--ink-3);line-height:1.45}
+.aid-rd summary{cursor:pointer;color:var(--ink-2);font:600 12px/1.4 var(--display)}
+@media (max-width:760px){.aid-mapwrap{grid-template-columns:minmax(0,1fr)}.aid-rk li{grid-template-columns:minmax(70px,120px) minmax(0,1fr) 6.2rem}}
+@media (max-width:420px){.aid-pl li{grid-template-columns:minmax(0,1fr)}.aid-pl .aid-pv{white-space:normal}}

@@ -1,1262 +1,1262 @@
 {
-"% of population, UN estimate": {
-"ar": "٪ من السكان، تقدير الأمم المتحدة",
-"fr": "% de la population, estimation de l'ONU"
-},
-"% of registered voters, national": {
-"ar": "٪ من الناخبين المسجلين، على المستوى الوطني",
-"fr": "% des électeurs inscrits, national"
-},
-"(overlapping and sometimes cumulative: do not add them up)": {
-"ar": "(تقارير متداخلة وأحياناً تراكمية: لا تجمعها)",
-"fr": "(chevauchants et parfois cumulatifs : ne pas les additionner)"
-},
-"* see the note in the election file: {n}": {
-"ar": "* انظر الملاحظة في ملف الانتخابات: {n}",
-"fr": "* voir la note dans le fichier de l'élection : {n}"
-},
-"2025 may be provisional. Deaths in 2025 include war deaths and late registrations; they are not split.": {
-"ar": "قد تكون أرقام ٢٠٢٥ أولية. وتشمل وفيات ٢٠٢٥ وفيات الحرب والتسجيل المتأخر، ولا يُفصل بينها.",
-"fr": "Les chiffres de 2025 peuvent être provisoires. Les décès de 2025 incluent les morts de guerre et les enregistrements tardifs, sans distinction."
-},
-"A page for every village and town in Lebanon: where it is, its municipality and district, population, strikes and events on record. Also the elections since 1992, the 2023 to 2026 war in numbers and the people of Lebanon.": {
-"ar": "صفحة لكل قرية وبلدة في لبنان: موقعها وبلديتها وقضاؤها وعدد سكانها والغارات والأحداث المسجّلة عنها. وفيها أيضاً الانتخابات منذ ١٩٩٢ والحرب بين ٢٠٢٣ و٢٠٢٦ بالأرقام وسكان لبنان.",
-"fr": "Une page pour chaque village et ville du Liban : où il se trouve, sa municipalité et son district, sa population, les frappes et les événements recensés. Aussi les élections depuis 1992, la guerre de 2023 à 2026 en chiffres et les habitants du Liban."
-},
-"Affecting health care": {
-"ar": "التي تمسّ الرعاية الصحية",
-"fr": "Touchant les soins de santé"
-},
-"Age pyramid": {
-"ar": "هرم الأعمار",
-"fr": "Pyramide des âges"
-},
-"Age structure": {
-"ar": "التركيبة العمرية",
-"fr": "Structure par âge"
-},
-"Aged 0 to 14": {
-"ar": "من ٠ إلى ١٤ سنة",
-"fr": "0 à 14 ans"
-},
-"Aged 15 to 64": {
-"ar": "من ١٥ إلى ٦٤ سنة",
-"fr": "15 à 64 ans"
-},
-"Aged 65 and over": {
-"ar": "٦٥ سنة فما فوق",
-"fr": "65 ans et plus"
-},
-"Air violations of Lebanese airspace": {
-"ar": "الانتهاكات الجوية للأجواء اللبنانية",
-"fr": "Violations de l'espace aérien libanais"
-},
-"Alawite": {
-"ar": "علوي",
-"fr": "Alaouite"
-},
-"All districts": {
-"ar": "كل الأقضية",
-"fr": "Tous les districts"
-},
-"All kinds": {
-"ar": "كل الأنواع",
-"fr": "Tous types"
-},
-"All places": {
-"ar": "كل الأماكن",
-"fr": "Tous les lieux"
-},
-"All residents": {
-"ar": "كل المقيمين",
-"fr": "Tous les résidents"
-},
-"All series in this section": {
-"ar": "كل السلاسل في هذا القسم",
-"fr": "Toutes les séries de cette section"
-},
-"Armenian Catholic": {
-"ar": "أرمن كاثوليك",
-"fr": "Arménien catholique"
-},
-"Armenian Orthodox": {
-"ar": "أرمن أرثوذكس",
-"fr": "Arménien orthodoxe"
-},
-"Arrivals": {
-"ar": "الوصول",
-"fr": "Arrivées"
-},
-"Asylum-seekers": {
-"ar": "طالبو اللجوء",
-"fr": "Demandeurs d'asile"
-},
-"Beirut airport passengers": {
-"ar": "ركّاب مطار بيروت",
-"fr": "Passagers de l'aéroport de Beyrouth"
-},
-"Birth rate": {
-"ar": "معدل المواليد",
-"fr": "Taux de natalité"
-},
-"Births": {
-"ar": "المواليد",
-"fr": "Naissances"
-},
-"Births and deaths": {
-"ar": "المواليد والوفيات",
-"fr": "Naissances et décès"
-},
-"Border crossings": {
-"ar": "عبور الحدود",
-"fr": "Passages aux frontières"
-},
-"Both sexes": {
-"ar": "الجنسان",
-"fr": "Les deux sexes"
-},
-"Building damage": {
-"ar": "أضرار المباني",
-"fr": "Dégâts aux bâtiments"
-},
-"Cadaster": {
-"ar": "العقار",
-"fr": "Cadastre"
-},
-"Cadaster population, 2004": {
-"ar": "سكان العقار، ٢٠٠٤",
-"fr": "Population du cadastre, 2004"
-},
-"Cadaster population, 2013": {
-"ar": "سكان العقار، ٢٠١٣",
-"fr": "Population du cadastre, 2013"
-},
-"Camp": {
-"ar": "المخيم",
-"fr": "Camp"
-},
-"Children per woman": {
-"ar": "الأطفال لكل امرأة",
-"fr": "Enfants par femme"
-},
-"Choose an election": {
-"ar": "اختر انتخاباً",
-"fr": "Choisir une élection"
-},
-"City races": {
-"ar": "سباقات المدن",
-"fr": "Courses municipales des villes"
-},
-"Click a district, in the table or on the map, for its lists and the elected members.": {
-"ar": "انقر على دائرة، في الجدول أو على الخريطة، لترى لوائحها والنواب المنتخبين.",
-"fr": "Cliquez sur un district, dans le tableau ou sur la carte, pour voir ses listes et les élus."
-},
-"Click a governorate for its figures.": {
-"ar": "انقر على محافظة لترى أرقامها.",
-"fr": "Cliquez sur un gouvernorat pour voir ses chiffres."
-},
-"Collective shelters open": {
-"ar": "مراكز الإيواء الجماعي المفتوحة",
-"fr": "Centres d'hébergement collectif ouverts"
-},
-"Colour the map by": {
-"ar": "لوّن الخريطة بحسب",
-"fr": "Colorier la carte selon"
-},
-"Copy link": {
-"ar": "انسخ الرابط",
-"fr": "Copier le lien"
-},
-"Damage": {
-"ar": "الأضرار",
-"fr": "Dommages"
-},
-"Date": {
-"ar": "التاريخ",
-"fr": "Date"
-},
-"Death rate": {
-"ar": "معدل الوفيات",
-"fr": "Taux de mortalité"
-},
-"Deaths": {
-"ar": "الوفيات",
-"fr": "Décès"
-},
-"Departures": {
-"ar": "المغادرة",
-"fr": "Départs"
-},
-"Derived from OCHA flash updates. The injured count from April to September 2024 is casualties minus deaths.": {
-"ar": "مشتق من نشرات الاستجابة السريعة لمكتب الأمم المتحدة لتنسيق الشؤون الإنسانية. عدد الجرحى من نيسان إلى أيلول ٢٠٢٤ هو الإصابات مطروحاً منها الوفيات.",
-"fr": "Dérivé des mises à jour flash d'OCHA. Le nombre de blessés d'avril à septembre 2024 est le total des victimes moins les morts."
-},
-"Displaced and sheltered, 2026": {
-"ar": "النازحون والمأوون، ٢٠٢٦",
-"fr": "Déplacés et hébergés, 2026"
-},
-"Displaced at year end": {
-"ar": "النازحون في نهاية السنة",
-"fr": "Déplacés en fin d'année"
-},
-"Displaced from the district": {
-"ar": "النازحون من القضاء",
-"fr": "Déplacés du district"
-},
-"Displaced from the district, still away, 31 May 2025": {
-"ar": "النازحون من القضاء ولا يزالون بعيدين عنه، ٣١ أيار ٢٠٢٥",
-"fr": "Déplacés du district, toujours loin, 31 mai 2025"
-},
-"Displaced people hosted": {
-"ar": "النازحون المستضافون",
-"fr": "Déplacés accueillis"
-},
-"Displaced people hosted in the district, 31 May 2025": {
-"ar": "النازحون المستضافون في القضاء، ٣١ أيار ٢٠٢٥",
-"fr": "Déplacés accueillis dans le district, 31 mai 2025"
-},
-"Displaced, IDMC, first weeks": {
-"ar": "النازحون، المركز الدولي لرصد النزوح، الأسابيع الأولى",
-"fr": "Déplacés, IDMC, premières semaines"
-},
-"Displaced, government count": {
-"ar": "النازحون، إحصاء الحكومة",
-"fr": "Déplacés, décompte du gouvernement"
-},
-"Displaced, government count, peak": {
-"ar": "النازحون، إحصاء الحكومة، الذروة",
-"fr": "Déplacés, décompte du gouvernement, pic"
-},
-"Displacement and returns by district": {
-"ar": "النزوح والعودة بحسب القضاء",
-"fr": "Déplacements et retours par district"
-},
-"Displacement and returns, 2023 to 2026": {
-"ar": "النزوح والعودة، من ٢٠٢٣ إلى ٢٠٢٦",
-"fr": "Déplacements et retours, 2023 à 2026"
-},
-"Displacement from conflict, by year": {
-"ar": "النزوح بسبب النزاع، بحسب السنة",
-"fr": "Déplacements dus au conflit, par année"
-},
-"District": {
-"ar": "القضاء",
-"fr": "District"
-},
-"Divorces": {
-"ar": "حالات الطلاق",
-"fr": "Divorces"
-},
-"Documented strikes": {
-"ar": "الغارات الموثّقة",
-"fr": "Frappes documentées"
-},
-"Documented strikes by district. Click a district to list its places.": {
-"ar": "الغارات الموثّقة بحسب القضاء. انقر على قضاء لعرض أماكنه.",
-"fr": "Frappes documentées par district. Cliquez sur un district pour lister ses lieux."
-},
-"Download as JSON": {
-"ar": "نزّل بصيغة JSON",
-"fr": "Télécharger en JSON"
-},
-"Druze": {
-"ar": "درزي",
-"fr": "Druze"
-},
-"Education facilities hit": {
-"ar": "منشآت تعليمية متضررة",
-"fr": "Établissements scolaires touchés"
-},
-"Elected members": {
-"ar": "النواب المنتخبون",
-"fr": "Élus"
-},
-"Election": {
-"ar": "الانتخابات",
-"fr": "Élection"
-},
-"Election district": {
-"ar": "الدائرة الانتخابية",
-"fr": "Circonscription électorale"
-},
-"Elections": {
-"ar": "الانتخابات",
-"fr": "Élections"
-},
-"Elevation": {
-"ar": "الارتفاع",
-"fr": "Altitude"
-},
-"Evangelical": {
-"ar": "إنجيلي",
-"fr": "Évangélique"
-},
-"Explosive weapons": {
-"ar": "الأسلحة المتفجرة",
-"fr": "Armes explosives"
-},
-"Figures below are for the whole district of {c}, not for this village: no open source gives displacement below district level.": {
-"ar": "الأرقام أدناه لقضاء {c} كله وليست لهذه القرية: لا يوجد مصدر مفتوح للنزوح دون مستوى القضاء.",
-"fr": "Les chiffres ci-dessous concernent tout le district de {c}, pas ce village : aucune source ouverte ne donne le déplacement en dessous du district."
-},
-"Foreign-born in Lebanon": {
-"ar": "مولودون في الخارج ويقيمون في لبنان",
-"fr": "Nés à l'étranger vivant au Liban"
-},
-"Foreign-born living in Lebanon": {
-"ar": "المولودون في الخارج المقيمون في لبنان",
-"fr": "Nés à l'étranger résidant au Liban"
-},
-"Greek Catholic": {
-"ar": "روم كاثوليك",
-"fr": "Grec catholique"
-},
-"Greek Orthodox": {
-"ar": "روم أرثوذكس",
-"fr": "Grec orthodoxe"
-},
-"Group": {
-"ar": "الفئة",
-"fr": "Groupe"
-},
-"Health ministry counts include combatants and are revised. Counts of the displaced are not one line: the government count froze for three months in 2026, and other estimates were re-based in a single week. Totals from the IOM Displacement Tracking Matrix are not published here because IOM's terms do not allow redistribution; the government count and the IDMC reports are shown instead.": {
-"ar": "تشمل أرقام وزارة الصحة مقاتلين وهي عرضة للتعديل. وأرقام النازحين ليست خطاً واحداً: فقد جمدت أرقام الحكومة ثلاثة أشهر في ٢٠٢٦، وأُعيدت معايرة تقديرات أخرى في أسبوع واحد. أما مجاميع مصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة فلا تُنشر هنا لأن شروط المنظمة لا تسمح بإعادة التوزيع؛ ونعرض بدلاً منها إحصاء الحكومة وتقارير المركز الدولي لرصد النزوح.",
-"fr": "Les chiffres du ministère de la Santé incluent des combattants et sont révisés. Les chiffres des déplacés ne forment pas une seule ligne : le décompte du gouvernement s'est figé trois mois en 2026 et d'autres estimations ont été recalées en une semaine. Les totaux de la Matrice de suivi des déplacements de l'OIM ne sont pas publiés ici car les conditions de l'OIM n'autorisent pas la redistribution ; le décompte du gouvernement et les rapports de l'IDMC sont montrés à la place."
-},
-"Health workers and education, monthly": {
-"ar": "العاملون الصحيون والتعليم، شهرياً",
-"fr": "Personnel de santé et éducation, mensuel"
-},
-"Health workers and health care": {
-"ar": "العاملون الصحيون والرعاية الصحية",
-"fr": "Personnel de santé et soins"
-},
-"Health workers injured": {
-"ar": "عاملون صحيون جرحى",
-"fr": "Personnel de santé blessé"
-},
-"Health workers killed": {
-"ar": "عاملون صحيون قتلى",
-"fr": "Personnel de santé tué"
-},
-"High": {
-"ar": "الأعلى",
-"fr": "Haut"
-},
-"Hospitals and health centres": {
-"ar": "المستشفيات والمراكز الصحية",
-"fr": "Hôpitaux et centres de santé"
-},
-"Hospitals closed": {
-"ar": "مستشفيات مغلقة",
-"fr": "Hôpitaux fermés"
-},
-"Hospitals damaged": {
-"ar": "مستشفيات متضررة",
-"fr": "Hôpitaux endommagés"
-},
-"IDMC annual figures, 2009 to 2025.": {
-"ar": "أرقام سنوية للمركز الدولي لرصد النزوح، من ٢٠٠٩ إلى ٢٠٢٥.",
-"fr": "Chiffres annuels de l'IDMC, 2009 à 2025."
-},
-"IDMC displacement reports for this district": {
-"ar": "تقارير المركز الدولي لرصد النزوح عن هذا القضاء",
-"fr": "Rapports de l'IDMC pour ce district"
-},
-"IOM Displacement Tracking Matrix round 87, 31 May 2025, as shown in the OCHA Lebanon Response Plan 2026 package (CC BY)": {
-"ar": "مصفوفة تتبع النزوح للمنظمة الدولية للهجرة، الجولة ٨٧، ٣١ أيار ٢٠٢٥، كما وردت في حزمة خطة الاستجابة للبنان ٢٠٢٦ (أوتشا) (CC BY)",
-"fr": "Matrice de suivi des déplacements de l'OIM, tour 87, 31 mai 2025, telle que reprise dans le paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY)"
-},
-"IOM Displacement Tracking Matrix round 87, as shown in the OCHA Lebanon Response Plan 2026 package (CC BY).": {
-"ar": "مصفوفة تتبع النزوح للمنظمة الدولية للهجرة، الجولة ٨٧، كما وردت في حزمة خطة الاستجابة للبنان ٢٠٢٦ (أوتشا) (CC BY).",
-"fr": "Matrice de suivi des déplacements de l'OIM, tour 87, telle que reprise dans le paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY)."
-},
-"In collective shelters": {
-"ar": "في مراكز الإيواء الجماعي",
-"fr": "Dans les centres collectifs"
-},
-"Incidents": {
-"ar": "الحوادث",
-"fr": "Incidents"
-},
-"Incidents recorded by Insecurity Insight": {
-"ar": "الحوادث التي سجّلتها منظمة «إنسيكيوريتي إنسايت»",
-"fr": "Incidents recensés par Insecurity Insight"
-},
-"Injured": {
-"ar": "الجرحى",
-"fr": "Blessés"
-},
-"Injured counts stop on 17 August 2026 in the sources found.": {
-"ar": "تتوقف أعداد الجرحى في ١٧ آب ٢٠٢٦ في المصادر التي وُجدت.",
-"fr": "Les chiffres de blessés s'arrêtent au 17 août 2026 dans les sources trouvées."
-},
-"Injured since 2 March 2026": {
-"ar": "الجرحى منذ ٢ آذار ٢٠٢٦",
-"fr": "Blessés depuis le 2 mars 2026"
-},
-"Killed": {
-"ar": "القتلى",
-"fr": "Tués"
-},
-"Killed and injured since 2 March 2026": {
-"ar": "القتلى والجرحى منذ ٢ آذار ٢٠٢٦",
-"fr": "Tués et blessés depuis le 2 mars 2026"
-},
-"Killed and injured, 2023 to 2024": {
-"ar": "القتلى والجرحى، ٢٠٢٣ إلى ٢٠٢٤",
-"fr": "Tués et blessés, 2023 à 2024"
-},
-"Killed since 2 March 2026": {
-"ar": "القتلى منذ ٢ آذار ٢٠٢٦",
-"fr": "Tués depuis le 2 mars 2026"
-},
-"Killed, 8 Oct 2023 to Dec 2024": {
-"ar": "القتلى من ٨ تشرين الأول ٢٠٢٣ إلى كانون الأول ٢٠٢٤",
-"fr": "Tués du 8 oct. 2023 à déc. 2024"
-},
-"Kind": {
-"ar": "النوع",
-"fr": "Type"
-},
-"Last value in each year.": {
-"ar": "آخر قيمة في كل سنة.",
-"fr": "Dernière valeur de chaque année."
-},
-"Leaving each year (reported)": {
-"ar": "المغادرون كل سنة (مُبلَّغ عنهم)",
-"fr": "Départs chaque année (déclarés)"
-},
-"Lebanese": {
-"ar": "اللبنانيون",
-"fr": "Libanais"
-},
-"Lebanon Response Plan, {y}": {
-"ar": "خطة الاستجابة للبنان، {y}",
-"fr": "Plan de réponse pour le Liban, {y}"
-},
-"Lebanon's parliamentary elections since 1992 and its municipal elections of 2016 and 2025: who could vote, how many did, and where. Seats are the confessional allocation set by the law. The May 2026 election was not held.": {
-"ar": "الانتخابات النيابية في لبنان منذ ١٩٩٢ والانتخابات البلدية في ٢٠١٦ و٢٠٢٥: من كان يحق له التصويت، وكم صوّت، وأين. المقاعد هي التوزيع الطائفي الذي يحدده القانون. ولم تُجرَ انتخابات أيار ٢٠٢٦.",
-"fr": "Les élections législatives libanaises depuis 1992 et les municipales de 2016 et 2025 : qui pouvait voter, combien l'ont fait, et où. Les sièges sont la répartition confessionnelle fixée par la loi. L'élection de mai 2026 n'a pas eu lieu."
-},
-"Lebanon-born abroad": {
-"ar": "مولودون في لبنان ويقيمون في الخارج",
-"fr": "Nés au Liban, à l'étranger"
-},
-"Lebanon-born living abroad": {
-"ar": "المولودون في لبنان المقيمون في الخارج",
-"fr": "Nés au Liban vivant à l'étranger"
-},
-"Left out on purpose: IOM village-level data and totals (redistribution not allowed), ACLED (restrictive terms), and an incident sheet whose underlying source is not named.": {
-"ar": "تُركت عمداً: بيانات المنظمة الدولية للهجرة على مستوى القرى ومجاميعها (إعادة التوزيع غير مسموحة)، وبيانات «أكليد» (شروط مقيِّدة)، وجدول حوادث لا يُسمّى مصدره الأصلي.",
-"fr": "Écartés volontairement : données et totaux de l'OIM au niveau des villages (redistribution non autorisée), ACLED (conditions restrictives) et un tableau d'incidents dont la source d'origine n'est pas nommée."
-},
-"Life expectancy": {
-"ar": "متوسط العمر المتوقع",
-"fr": "Espérance de vie"
-},
-"Link copied.": {
-"ar": "تم نسخ الرابط.",
-"fr": "Lien copié."
-},
-"List": {
-"ar": "اللائحة",
-"fr": "Liste"
-},
-"List or affiliation": {
-"ar": "اللائحة أو الانتماء",
-"fr": "Liste ou affiliation"
-},
-"Lists": {
-"ar": "اللوائح",
-"fr": "Listes"
-},
-"Losses": {
-"ar": "الخسائر",
-"fr": "Pertes"
-},
-"Low": {
-"ar": "الأدنى",
-"fr": "Bas"
-},
-"M": {
-"ar": "مليون",
-"fr": "M"
-},
-"Map colour": {
-"ar": "لون الخريطة",
-"fr": "Couleur de la carte"
-},
-"Map of Lebanon by district": {
-"ar": "خريطة لبنان بحسب القضاء",
-"fr": "Carte du Liban par district"
-},
-"Map of Lebanon by district: documented strikes": {
-"ar": "خريطة لبنان بحسب القضاء: الغارات الموثّقة",
-"fr": "Carte du Liban par district : frappes documentées"
-},
-"Map of Lebanon by district: population": {
-"ar": "خريطة لبنان بحسب القضاء: السكان",
-"fr": "Carte du Liban par district : population"
-},
-"Map of Lebanon by electoral district": {
-"ar": "خريطة لبنان بحسب الدائرة الانتخابية",
-"fr": "Carte du Liban par circonscription électorale"
-},
-"Map of Lebanon with {n} marked": {
-"ar": "خريطة لبنان مع تحديد موقع {n}",
-"fr": "Carte du Liban avec {n} repéré"
-},
-"Maronite": {
-"ar": "ماروني",
-"fr": "Maronite"
-},
-"Marriages": {
-"ar": "حالات الزواج",
-"fr": "Mariages"
-},
-"Matched by name in event titles and \"why\" lines: {n} in all, {k} shown, the most important first. A name can belong to more than one place or person, so check the event.": {
-"ar": "مطابقة بالاسم في عناوين الأحداث وسطور «لماذا»: {n} في المجموع، يُعرض {k}، الأهم أولاً. قد يعود الاسم إلى أكثر من مكان أو شخص، فتحقق من الحدث.",
-"fr": "Rapprochés par le nom dans les titres et les lignes « pourquoi » : {n} au total, {k} affichés, les plus importants d'abord. Un nom peut désigner plusieurs lieux ou personnes : vérifiez l'événement."
-},
-"Measure": {
-"ar": "المقياس",
-"fr": "Mesure"
-},
-"Median age": {
-"ar": "العمر الوسيط",
-"fr": "Âge médian"
-},
-"Men": {
-"ar": "الرجال",
-"fr": "Hommes"
-},
-"Migrants": {
-"ar": "المهاجرون",
-"fr": "Migrants"
-},
-"Migrants (preliminary)": {
-"ar": "المهاجرون (أولي)",
-"fr": "Migrants (préliminaire)"
-},
-"Ministry of Public Health, {d}": {
-"ar": "وزارة الصحة العامة، {d}",
-"fr": "Ministère de la Santé publique, {d}"
-},
-"Minorities": {
-"ar": "أقليات",
-"fr": "Minorités"
-},
-"Modelled population of its cadaster, 2023": {
-"ar": "السكان المقدَّرون في عقاره، ٢٠٢٣",
-"fr": "Population modélisée de son cadastre, 2023"
-},
-"Most documented places": {
-"ar": "الأماكن الأكثر توثيقاً",
-"fr": "Lieux les plus documentés"
-},
-"Municipal": {
-"ar": "البلدية",
-"fr": "Municipales"
-},
-"Municipal population estimate": {
-"ar": "تقدير عدد سكان البلدية",
-"fr": "Estimation de la population municipale"
-},
-"Municipalities: CIB IMPACT and the CAS 2017 list (CIB states no licence). Population: Kontur (CC BY). Refugees: UNHCR via INFORM (CC BY). Districts: OCHA Lebanon Response Plan 2026 package (CC BY), IDMC (CC BY-IGO). Strikes and events: each row links to its own source.": {
-"ar": "البلديات: مشروع «إمباكت» لدى مجلس الإنماء والإعمار والقائمة المركزية للإحصاء ٢٠١٧ (لا يذكر المشروع ترخيصاً). السكان: كونتور (CC BY). اللاجئون: مفوضية اللاجئين عبر «إنفورم» (CC BY). الأقضية: حزمة خطة الاستجابة للبنان ٢٠٢٦ من أوتشا (CC BY)، والمركز الدولي لرصد النزوح (CC BY-IGO). الغارات والأحداث: يرتبط كل سطر بمصدره.",
-"fr": "Municipalités : CIB IMPACT et la liste 2017 de l'ACS (le CIB n'indique pas de licence). Population : Kontur (CC BY). Réfugiés : HCR via INFORM (CC BY). Districts : paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY), IDMC (CC BY-IGO). Frappes et événements : chaque ligne renvoie à sa propre source."
-},
-"Municipality": {
-"ar": "البلدية",
-"fr": "Municipalité"
-},
-"Name": {
-"ar": "الاسم",
-"fr": "Nom"
-},
-"National figures differ by source for 1992 to 2005 (Nohlen, IDEA and IPU); the first is used and the others are kept in the election files.": {
-"ar": "تختلف الأرقام الوطنية بحسب المصدر بين ١٩٩٢ و٢٠٠٥ (نولن، والمؤسسة الدولية للديمقراطية والانتخابات، والاتحاد البرلماني الدولي)؛ يُستعمل الأول وتُحفظ الأخرى في ملفات الانتخابات.",
-"fr": "Les chiffres nationaux varient selon la source de 1992 à 2005 (Nohlen, IDEA et UIP) ; le premier est retenu et les autres sont conservés dans les fichiers des élections."
-},
-"Nearby places": {
-"ar": "أماكن قريبة",
-"fr": "Lieux proches"
-},
-"Needs": {
-"ar": "الاحتياجات",
-"fr": "Besoins"
-},
-"New displacements in the year": {
-"ar": "نزوح جديد خلال السنة",
-"fr": "Nouveaux déplacements dans l'année"
-},
-"No district displacement figure is on record for this place.": {
-"ar": "لا يوجد رقم للنزوح على مستوى القضاء لهذا المكان.",
-"fr": "Aucun chiffre de déplacement au niveau du district n'est enregistré pour ce lieu."
-},
-"No district figure exists for this measure in this election.": {
-"ar": "لا يوجد رقم على مستوى الدائرة لهذا المقياس في هذه الانتخابات.",
-"fr": "Aucun chiffre par circonscription n'existe pour cette mesure dans cette élection."
-},
-"No lists or winners are on record for this district and election.": {
-"ar": "لا توجد لوائح أو فائزون مسجّلون لهذه الدائرة وهذه الانتخابات.",
-"fr": "Aucune liste ni aucun élu n'est enregistré pour cette circonscription et cette élection."
-},
-"No place matches. Try fewer letters or the Arabic name.": {
-"ar": "لا يطابق أي مكان. جرّب أحرفاً أقل أو الاسم العربي.",
-"fr": "Aucun lieu ne correspond. Essayez moins de lettres ou le nom arabe."
-},
-"No population figure is published for this place. Lebanon has had no census since 1932.": {
-"ar": "لا يُنشر رقم سكاني لهذا المكان. لم يُجرَ في لبنان تعداد منذ ١٩٣٢.",
-"fr": "Aucun chiffre de population n'est publié pour ce lieu. Le Liban n'a pas eu de recensement depuis 1932."
-},
-"No series match.": {
-"ar": "لا توجد سلاسل مطابقة.",
-"fr": "Aucune série ne correspond."
-},
-"No strike is documented at this place. That does not mean none happened: the Strike map says per war what is complete and what is not.": {
-"ar": "لا توجد غارة موثّقة في هذا المكان. وهذا لا يعني أنه لم يحدث شيء: تبيّن خريطة الغارات لكل حرب ما هو مكتمل وما ليس كذلك.",
-"fr": "Aucune frappe n'est documentée à cet endroit. Cela ne veut pas dire qu'il ne s'est rien passé : la carte des frappes indique pour chaque guerre ce qui est complet ou non."
-},
-"No timeline event names this place.": {
-"ar": "لا يذكر أي حدث في الخط الزمني هذا المكان.",
-"fr": "Aucun événement de la chronologie ne nomme ce lieu."
-},
-"Notes on the data": {
-"ar": "ملاحظات على البيانات",
-"fr": "Notes sur les données"
-},
-"Only four regions are public; district counts are in dashboards with no open interface.": {
-"ar": "أربع مناطق فقط معلنة؛ أما أعداد الأقضية فهي في لوحات بلا واجهة مفتوحة.",
-"fr": "Seules quatre régions sont publiques ; les chiffres par district sont dans des tableaux de bord sans interface ouverte."
-},
-"Only open-source reports are counted, and a month with zero means none was recorded.": {
-"ar": "تُحتسب التقارير المفتوحة المصدر فقط، والشهر الذي يسجّل صفراً يعني أنه لم يُسجَّل شيء.",
-"fr": "Seuls les rapports de sources ouvertes sont comptés ; un mois à zéro signifie que rien n'a été enregistré."
-},
-"Open on the strike map": {
-"ar": "افتح على خريطة الغارات",
-"fr": "Ouvrir sur la carte des frappes"
-},
-"Other registered refugees": {
-"ar": "لاجئون مسجّلون آخرون",
-"fr": "Autres réfugiés enregistrés"
-},
-"Palestine refugees from Lebanon": {
-"ar": "لاجئون فلسطينيون من لبنان",
-"fr": "Réfugiés palestiniens du Liban"
-},
-"Palestine refugees from Syria": {
-"ar": "لاجئون فلسطينيون من سوريا",
-"fr": "Réfugiés palestiniens de Syrie"
-},
-"Palestine refugees in Lebanon": {
-"ar": "لاجئون فلسطينيون في لبنان",
-"fr": "Réfugiés palestiniens au Liban"
-},
-"Palestinian camps, 2017 census": {
-"ar": "المخيمات الفلسطينية، تعداد ٢٠١٧",
-"fr": "Camps palestiniens, recensement de 2017"
-},
-"Palestinians": {
-"ar": "الفلسطينيون",
-"fr": "Palestiniens"
-},
-"Parliamentary": {
-"ar": "النيابية",
-"fr": "Législatives"
-},
-"Party counts are from the sources named below and count each winner once by affiliation at the time.": {
-"ar": "أعداد الأحزاب من المصادر المذكورة أدناه، ويُحتسب كل فائز مرة واحدة بحسب انتمائه في حينه.",
-"fr": "Les décomptes par parti viennent des sources citées ci-dessous et comptent chaque élu une fois selon son affiliation d'alors."
-},
-"People in the district, 2026": {
-"ar": "السكان في القضاء، ٢٠٢٦",
-"fr": "Habitants du district, 2026"
-},
-"Phases": {
-"ar": "المراحل",
-"fr": "Phases"
-},
-"Place code": {
-"ar": "رمز المكان",
-"fr": "Code du lieu"
-},
-"Planning figure": {
-"ar": "رقم التخطيط",
-"fr": "Chiffre de planification"
-},
-"Planning figures for the whole district of {c} from the OCHA Lebanon Response Plan 2026 package (CC BY): Syrians from UNHCR registration, Palestinians from UNRWA, Lebanese from the CAS and ILO survey.": {
-"ar": "أرقام تخطيط لقضاء {c} كله من حزمة خطة الاستجابة للبنان ٢٠٢٦ لدى أوتشا (CC BY): السوريون من تسجيل المفوضية، والفلسطينيون من الأونروا، واللبنانيون من مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية.",
-"fr": "Chiffres de planification pour tout le district de {c} tirés du paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY) : Syriens d'après l'enregistrement du HCR, Palestiniens de l'UNRWA, Libanais de l'enquête de l'ACS et de l'OIT."
-},
-"Population given in the gazetteer": {
-"ar": "السكان بحسب معجم الأسماء",
-"fr": "Population indiquée dans le répertoire des lieux"
-},
-"Population pyramid for {y}: men to the left, women to the right": {
-"ar": "هرم السكان لعام {y}: الرجال إلى اليسار والنساء إلى اليمين",
-"fr": "Pyramide de la population en {y} : hommes à gauche, femmes à droite"
-},
-"Population, 1950 to 2026": {
-"ar": "السكان، من ١٩٥٠ إلى ٢٠٢٦",
-"fr": "Population, 1950 à 2026"
-},
-"Population, UN estimate": {
-"ar": "السكان، تقدير الأمم المتحدة",
-"fr": "Population, estimation de l'ONU"
-},
-"Primary health centres closed": {
-"ar": "مراكز رعاية صحية أولية مغلقة",
-"fr": "Centres de soins primaires fermés"
-},
-"Public schools used": {
-"ar": "المدارس الرسمية المستخدمة",
-"fr": "Écoles publiques utilisées"
-},
-"Red dot: this place. Grey dots: its nearest neighbours.": {
-"ar": "النقطة الحمراء: هذا المكان. النقاط الرمادية: أقرب جيرانه.",
-"fr": "Point rouge : ce lieu. Points gris : ses voisins les plus proches."
-},
-"Refugees of all origins": {
-"ar": "اللاجئون من كل الجنسيات",
-"fr": "Réfugiés de toutes origines"
-},
-"Refugees registered here, end of 2014": {
-"ar": "اللاجئون المسجّلون هنا، نهاية ٢٠١٤",
-"fr": "Réfugiés enregistrés ici, fin 2014"
-},
-"Registered": {
-"ar": "المسجّلون",
-"fr": "Inscrits"
-},
-"Registered births, deaths and marriages": {
-"ar": "المواليد والوفيات والزيجات المسجّلة",
-"fr": "Naissances, décès et mariages enregistrés"
-},
-"Registered voters": {
-"ar": "الناخبون المسجّلون",
-"fr": "Électeurs inscrits"
-},
-"Registered with UNRWA (reported)": {
-"ar": "المسجّلون لدى الأونروا (مُبلَّغ عنهم)",
-"fr": "Inscrits auprès de l'UNRWA (déclarés)"
-},
-"Residents, humanitarian planning figure": {
-"ar": "المقيمون، رقم التخطيط الإنساني",
-"fr": "Résidents, chiffre de planification humanitaire"
-},
-"Returned from the district": {
-"ar": "العائدون من القضاء",
-"fr": "Revenus du district"
-},
-"Returned from the district, Oct 2024 to May 2025": {
-"ar": "العائدون من القضاء، تشرين الأول ٢٠٢٤ إلى أيار ٢٠٢٥",
-"fr": "Retours depuis le district, oct. 2024 à mai 2025"
-},
-"Returned to the district": {
-"ar": "العائدون إلى القضاء",
-"fr": "Retours vers le district"
-},
-"Returned to the district, Oct 2024 to May 2025": {
-"ar": "العائدون إلى القضاء، تشرين الأول ٢٠٢٤ إلى أيار ٢٠٢٥",
-"fr": "Retours vers le district, oct. 2024 à mai 2025"
-},
-"Rounds": {
-"ar": "الجولات",
-"fr": "Tours"
-},
-"Schools of all types": {
-"ar": "مدارس من كل الأنواع",
-"fr": "Écoles de tous types"
-},
-"Search a place: Khiam, Qana, بعلبك": {
-"ar": "ابحث عن مكان: الخيام، قانا، بعلبك",
-"fr": "Chercher un lieu : Khiam, Qana, بعلبك"
-},
-"Search any of {n} villages, towns and neighbourhoods by its name in English or Arabic. Spellings differ a lot in Lebanon, so \"Bint Jbeil\" also finds \"Bent Jbeil\".": {
-"ar": "ابحث في {n} قرية وبلدة وحيّ بالاسم بالإنكليزية أو العربية. تتفاوت الكتابات كثيراً في لبنان، فعبارة «Bint Jbeil» تجد أيضاً «Bent Jbeil».",
-"fr": "Cherchez parmi {n} villages, villes et quartiers par leur nom en anglais ou en arabe. Les graphies varient beaucoup au Liban : « Bint Jbeil » trouve aussi « Bent Jbeil »."
-},
-"Search series": {
-"ar": "ابحث في السلاسل",
-"fr": "Chercher dans les séries"
-},
-"Seat": {
-"ar": "المقعد",
-"fr": "Siège"
-},
-"Seats": {
-"ar": "المقاعد",
-"fr": "Sièges"
-},
-"Seats by confession": {
-"ar": "المقاعد بحسب الطائفة",
-"fr": "Sièges par confession"
-},
-"Seats by party or bloc": {
-"ar": "المقاعد بحسب الحزب أو الكتلة",
-"fr": "Sièges par parti ou bloc"
-},
-"Sector": {
-"ar": "القطاع",
-"fr": "Secteur"
-},
-"Share is of the valid list votes in the district, summed over the lists shown.": {
-"ar": "الحصة من أصوات اللوائح الصحيحة في الدائرة، مجموعة على اللوائح المعروضة.",
-"fr": "La part est calculée sur les voix valides des listes de la circonscription, additionnées sur les listes affichées."
-},
-"Shelters open": {
-"ar": "مراكز إيواء مفتوحة",
-"fr": "Centres ouverts"
-},
-"Shia": {
-"ar": "شيعي",
-"fr": "Chiite"
-},
-"Show the data table": {
-"ar": "اعرض جدول البيانات",
-"fr": "Afficher le tableau des données"
-},
-"Since the 17 April 2026 ceasefire announcement": {
-"ar": "منذ إعلان وقف إطلاق النار في ١٧ نيسان ٢٠٢٦",
-"fr": "Depuis l'annonce du cessez-le-feu du 17 avril 2026"
-},
-"Sources and licences": {
-"ar": "المصادر والتراخيص",
-"fr": "Sources et licences"
-},
-"South and Nabatieh": {
-"ar": "الجنوب والنبطية",
-"fr": "Sud et Nabatié"
-},
-"Statement": {
-"ar": "التصريح",
-"fr": "Déclaration"
-},
-"Strikes at this place": {
-"ar": "الغارات في هذا المكان",
-"fr": "Frappes à cet endroit"
-},
-"Sunni": {
-"ar": "سنّي",
-"fr": "Sunnite"
-},
-"Syrian": {
-"ar": "سوري",
-"fr": "Syrien"
-},
-"Syrian refugees": {
-"ar": "اللاجئون السوريون",
-"fr": "Réfugiés syriens"
-},
-"Syrian refugees by region, monthly": {
-"ar": "اللاجئون السوريون بحسب المنطقة، شهرياً",
-"fr": "Réfugiés syriens par région, mensuel"
-},
-"Syrian refugees registered": {
-"ar": "اللاجئون السوريون المسجّلون",
-"fr": "Réfugiés syriens enregistrés"
-},
-"Syrian refugees registered, year end": {
-"ar": "اللاجئون السوريون المسجّلون، نهاية السنة",
-"fr": "Réfugiés syriens enregistrés, fin d'année"
-},
-"Syrians": {
-"ar": "السوريون",
-"fr": "Syriens"
-},
-"Syrians registered with UNHCR": {
-"ar": "سوريون مسجّلون لدى المفوضية",
-"fr": "Syriens enregistrés auprès du HCR"
-},
-"The 14 districts with the largest figure. The unit is people; returns count people who came back after the November 2024 ceasefire.": {
-"ar": "الأقضية الأربعة عشر الأعلى رقماً. الوحدة أشخاص؛ والعودة تحسب من رجعوا بعد وقف إطلاق النار في تشرين الثاني ٢٠٢٤.",
-"fr": "Les 14 districts au chiffre le plus élevé. L'unité est la personne ; les retours comptent ceux revenus après le cessez-le-feu de novembre 2024."
-},
-"The 14 largest districts for the measure chosen. All 26 are in the district download.": {
-"ar": "الأقضية الأربعة عشر الأكبر بحسب المقياس المختار. والأقضية الستة والعشرون كلها في تنزيل الأقضية.",
-"fr": "Les 14 plus grands districts pour la mesure choisie. Les 26 figurent dans le téléchargement des districts."
-},
-"The 2023 to 2026 war": {
-"ar": "الحرب بين ٢٠٢٣ و٢٠٢٦",
-"fr": "La guerre de 2023 à 2026"
-},
-"The 2025 UNRWA mandate figure (228,274) is far below older registered counts and its definition is unverified, so it is not charted.": {
-"ar": "رقم الأونروا للمشمولين بولايتها في ٢٠٢٥ (٢٢٨٬٢٧٤) أدنى بكثير من أعداد التسجيل الأقدم وتعريفه غير مؤكد، لذا لم يُرسم.",
-"fr": "Le chiffre 2025 de l'UNRWA pour les personnes relevant de son mandat (228 274) est très inférieur aux anciens chiffres d'inscrits et sa définition n'est pas vérifiée ; il n'est donc pas tracé."
-},
-"The 26 districts": {
-"ar": "الأقضية الستة والعشرون",
-"fr": "Les 26 districts"
-},
-"The UN estimate (5.9 million in 2026) and the planning figure (5.4 million) differ by design: the first models the whole resident population, the second counts the groups humanitarian agencies plan for. The UNHCR portal series jumps from 490,424 to 889,625 in June 2026; the cause is unverified and may be a definition change.": {
-"ar": "يختلف تقدير الأمم المتحدة (٥٫٩ مليون في ٢٠٢٦) ورقم التخطيط (٥٫٤ مليون) عمداً: الأول يقدّر كل السكان المقيمين، والثاني يعدّ الفئات التي تخطط لها الوكالات الإنسانية. وتقفز سلسلة بوابة المفوضية من ٤٩٠٬٤٢٤ إلى ٨٨٩٬٦٢٥ في حزيران ٢٠٢٦؛ والسبب غير مؤكد وقد يكون تغيير تعريف.",
-"fr": "L'estimation de l'ONU (5,9 millions en 2026) et le chiffre de planification (5,4 millions) diffèrent par construction : le premier modélise toute la population résidente, le second compte les groupes pour lesquels les agences humanitaires planifient. La série du portail du HCR passe de 490 424 à 889 625 en juin 2026 ; la cause n'est pas vérifiée et pourrait être un changement de définition."
-},
-"The UN stock undercounts the diaspora, and no official emigration series exists.": {
-"ar": "يقلّل رصيد الأمم المتحدة من عدد المغتربين، ولا توجد سلسلة رسمية للهجرة.",
-"fr": "Le stock de l'ONU sous-estime la diaspora, et il n'existe pas de série officielle d'émigration."
-},
-"The cadaster is the cadastral unit that contains the place; it can hold several villages, so the modelled figure is for the unit, not the village. It is not a census.": {
-"ar": "العقار هو الوحدة العقارية التي تضم المكان؛ وقد يضم عدة قرى، فالرقم المقدَّر للوحدة لا للقرية. وهو ليس تعداداً.",
-"fr": "Le cadastre est l'unité cadastrale qui contient le lieu ; il peut regrouper plusieurs villages, le chiffre modélisé vaut donc pour l'unité, pas pour le village. Ce n'est pas un recensement."
-},
-"The government count froze at 1,049,328 from 17 March to 18 June 2026. The lines are different sources and are not additive.": {
-"ar": "تجمّد إحصاء الحكومة عند ١٬٠٤٩٬٣٢٨ من ١٧ آذار إلى ١٨ حزيران ٢٠٢٦. الخطوط مصادر مختلفة ولا تُجمع.",
-"fr": "Le décompte du gouvernement s'est figé à 1 049 328 du 17 mars au 18 juin 2026. Les courbes viennent de sources différentes et ne s'additionnent pas."
-},
-"The last census was in 1932": {
-"ar": "آخر تعداد كان في ١٩٣٢",
-"fr": "Le dernier recensement date de 1932"
-},
-"The war in numbers": {
-"ar": "الحرب بالأرقام",
-"fr": "La guerre en chiffres"
-},
-"These count every traveller, including Lebanese: it is not a tourism series.": {
-"ar": "تُحصى فيها كل المسافرين ومنهم اللبنانيون: وليست سلسلة سياحة.",
-"fr": "Tous les voyageurs sont comptés, Libanais compris : ce n'est pas une série touristique."
-},
-"This election was not held.": {
-"ar": "لم تُجرَ هذه الانتخابات.",
-"fr": "Cette élection n'a pas eu lieu."
-},
-"This place is not in the index.": {
-"ar": "هذا المكان ليس في الفهرس.",
-"fr": "Ce lieu n'est pas dans l'index."
-},
-"Timeline events that name this place": {
-"ar": "أحداث الخط الزمني التي تذكر هذا المكان",
-"fr": "Événements de la chronologie qui nomment ce lieu"
-},
-"Total": {
-"ar": "المجموع",
-"fr": "Total"
-},
-"Turnout": {
-"ar": "نسبة الاقتراع",
-"fr": "Participation"
-},
-"Turnout by district": {
-"ar": "نسبة الاقتراع بحسب القضاء",
-"fr": "Participation par district"
-},
-"Turnout over time": {
-"ar": "نسبة الاقتراع عبر الزمن",
-"fr": "Participation au fil du temps"
-},
-"Two linked wars: the war that began on 8 October 2023 and was suspended by the November 2024 ceasefire, and the war that began on 2 March 2026. Figures come from the health ministry, the UN and humanitarian agencies, and are revised as they are verified.": {
-"ar": "حربان مترابطتان: الحرب التي بدأت في ٨ تشرين الأول ٢٠٢٣ وعُلّقت بوقف إطلاق النار في تشرين الثاني ٢٠٢٤، والحرب التي بدأت في ٢ آذار ٢٠٢٦. تأتي الأرقام من وزارة الصحة والأمم المتحدة والوكالات الإنسانية، وتُراجَع كلما جرى التحقق منها.",
-"fr": "Deux guerres liées : celle qui a commencé le 8 octobre 2023 et a été suspendue par le cessez-le-feu de novembre 2024, et celle qui a commencé le 2 mars 2026. Les chiffres viennent du ministère de la Santé, de l'ONU et des agences humanitaires, et sont révisés à mesure qu'ils sont vérifiés."
-},
-"UN DESA, {y}": {
-"ar": "إدارة الشؤون الاقتصادية والاجتماعية بالأمم المتحدة، {y}",
-"fr": "ONU DAES, {y}"
-},
-"UN DESA, {y} (an undercount)": {
-"ar": "إدارة الشؤون الاقتصادية والاجتماعية بالأمم المتحدة، {y} (أقل من الواقع)",
-"fr": "ONU DAES, {y} (sous-estimation)"
-},
-"UN Secretary-General reports under resolution 1701; periods are about four months.": {
-"ar": "تقارير الأمين العام للأمم المتحدة بموجب القرار ١٧٠١؛ والفترات نحو أربعة أشهر.",
-"fr": "Rapports du Secrétaire général de l'ONU au titre de la résolution 1701 ; les périodes durent environ quatre mois."
-},
-"UN World Population Prospects 2024, {y}": {
-"ar": "آفاق سكان العالم ٢٠٢٤ للأمم المتحدة، {y}",
-"fr": "Perspectives de la population mondiale 2024 de l'ONU, {y}"
-},
-"UNHCR registration for the cadaster, from the INFORM Lebanon 2015 indicators. No open count by cadaster is published for later years; see People for the district figures of 2026.": {
-"ar": "تسجيل المفوضية للعقار، من مؤشرات «إنفورم» لبنان ٢٠١٥. لا يُنشر أي عدد مفتوح بحسب العقار للسنوات اللاحقة؛ انظر «السكان» لأرقام الأقضية في ٢٠٢٦.",
-"fr": "Enregistrement du HCR pour le cadastre, tiré des indicateurs INFORM Liban 2015. Aucun chiffre ouvert par cadastre n'est publié pour les années suivantes ; voir Population pour les chiffres des districts en 2026."
-},
-"UNHCR, end {y}": {
-"ar": "المفوضية، نهاية {y}",
-"fr": "HCR, fin {y}"
-},
-"UNIFIL: air violations": {
-"ar": "اليونيفيل: الانتهاكات الجوية",
-"fr": "FINUL : violations aériennes"
-},
-"UNIFIL: denied freedom of movement": {
-"ar": "اليونيفيل: منع حرية الحركة",
-"fr": "FINUL : entraves à la liberté de mouvement"
-},
-"Union of municipalities": {
-"ar": "اتحاد البلديات",
-"fr": "Union de municipalités"
-},
-"Unit": {
-"ar": "الوحدة",
-"fr": "Unité"
-},
-"Voters": {
-"ar": "المقترعون",
-"fr": "Votants"
-},
-"Votes": {
-"ar": "الأصوات",
-"fr": "Voix"
-},
-"Votes are preferential votes for each candidate (list votes in the table above).": {
-"ar": "الأصوات هي الأصوات التفضيلية لكل مرشح (أصوات اللوائح في الجدول أعلاه).",
-"fr": "Les voix sont les voix préférentielles de chaque candidat (voix de liste dans le tableau ci-dessus)."
-},
-"WHO counts are revised after verification: 53 killed on 24 March became 42 on 27 March.": {
-"ar": "تُراجَع أرقام منظمة الصحة العالمية بعد التحقق: ٥٣ قتيلاً في ٢٤ آذار أصبحوا ٤٢ في ٢٧ آذار.",
-"fr": "Les chiffres de l'OMS sont révisés après vérification : 53 morts le 24 mars sont devenus 42 le 27 mars."
-},
-"Where one map district belongs to more than one electoral district (Beirut, and Saida under Law 44/2017), the map shows their combined figure.": {
-"ar": "حين ينتمي قضاء على الخريطة إلى أكثر من دائرة انتخابية (بيروت، وصيدا بموجب القانون ٤٤/٢٠١٧) تعرض الخريطة رقمهما المجمّع.",
-"fr": "Lorsqu'un district de la carte appartient à plus d'une circonscription (Beyrouth, et Saïda selon la loi 44/2017), la carte montre leur chiffre combiné."
-},
-"Who lives in Lebanon, who was born, who left and who arrived. Lebanon has had no census since 1932, so every population figure is a model or an estimate, and the sources disagree on purpose.": {
-"ar": "من يعيش في لبنان ومن وُلد ومن غادر ومن وصل. لم يُجرَ في لبنان تعداد منذ ١٩٣٢، فكل رقم سكاني نموذج أو تقدير، والمصادر تختلف عمداً.",
-"fr": "Qui vit au Liban, qui est né, qui est parti et qui est arrivé. Le Liban n'a pas eu de recensement depuis 1932 : tout chiffre de population est un modèle ou une estimation, et les sources divergent."
-},
-"Women": {
-"ar": "النساء",
-"fr": "Femmes"
-},
-"Year-end 2025 reflects de-registration and returns; the planning figure counts 1.12 million Syrians present.": {
-"ar": "تعكس نهاية ٢٠٢٥ شطب التسجيل والعودة؛ ويحسب رقم التخطيط ١٫١٢ مليون سوري حاضرين.",
-"fr": "La fin 2025 reflète des radiations et des retours ; le chiffre de planification compte 1,12 million de Syriens présents."
-},
-"and OpenStreetMap contributors (ODbL 1.0), which makes this record share-alike": {
-"ar": "ومساهمو OpenStreetMap (ODbL 1.0)، مما يجعل هذا السجل بالمثل",
-"fr": "et les contributeurs d'OpenStreetMap (ODbL 1.0), ce qui rend cette fiche en partage à l'identique"
-},
-"another source: {n}": {
-"ar": "مصدر آخر: {n}",
-"fr": "autre source : {n}"
-},
-"camp": {
-"ar": "مخيم",
-"fr": "camp"
-},
-"city": {
-"ar": "مدينة",
-"fr": "ville"
-},
-"crossings a year, all travellers, Central Administration of Statistics": {
-"ar": "عبور في السنة، كل المسافرين، الإدارة المركزية للإحصاء",
-"fr": "passages par an, tous voyageurs, Administration centrale de la statistique"
-},
-"derived": {
-"ar": "مشتقة",
-"fr": "dérivée"
-},
-"districts": {
-"ar": "الدوائر",
-"fr": "districts"
-},
-"elected members": {
-"ar": "النواب المنتخبون",
-"fr": "élus"
-},
-"events a year, Central Administration of Statistics": {
-"ar": "حالات في السنة، الإدارة المركزية للإحصاء",
-"fr": "événements par an, Administration centrale de la statistique"
-},
-"facilities, WHO": {
-"ar": "منشآت، منظمة الصحة العالمية",
-"fr": "établissements, OMS"
-},
-"has the national figures: killed, displaced, returned, shelters and damage.": {
-"ar": "فيها الأرقام الوطنية: القتلى والنازحون والعائدون ومراكز الإيواء والأضرار.",
-"fr": "contient les chiffres nationaux : tués, déplacés, retours, centres d'hébergement et dommages."
-},
-"incidents a month": {
-"ar": "حوادث في الشهر",
-"fr": "incidents par mois"
-},
-"incidents a month, open sources": {
-"ar": "حوادث في الشهر، مصادر مفتوحة",
-"fr": "incidents par mois, sources ouvertes"
-},
-"lists": {
-"ar": "اللوائح",
-"fr": "listes"
-},
-"locality": {
-"ar": "موقع",
-"fr": "localité"
-},
-"municipalities": {
-"ar": "بلدية",
-"fr": "municipalités"
-},
-"names, codes and coordinates: OCHA and the Central Administration of Statistics (CC BY), OCHA COD-AB boundaries (CC BY-IGO), GeoNames (CC BY 4.0)": {
-"ar": "الأسماء والرموز والإحداثيات: أوتشا والإدارة المركزية للإحصاء (CC BY)، حدود COD-AB من أوتشا (CC BY-IGO)، GeoNames (CC BY 4.0)",
-"fr": "noms, codes et coordonnées : OCHA et l'Administration centrale de la statistique (CC BY), limites COD-AB d'OCHA (CC BY-IGO), GeoNames (CC BY 4.0)"
-},
-"neighbourhood": {
-"ar": "حيّ",
-"fr": "quartier"
-},
-"no figure": {
-"ar": "لا رقم",
-"fr": "pas de chiffre"
-},
-"not held": {
-"ar": "لم تُجرَ",
-"fr": "non tenue"
-},
-"not stated by the publisher": {
-"ar": "غير مذكور من الناشر",
-"fr": "non indiquée par l'éditeur"
-},
-"passengers a year": {
-"ar": "ركّاب في السنة",
-"fr": "passagers par an"
-},
-"people and facilities": {
-"ar": "أشخاص ومنشآت",
-"fr": "personnes et établissements"
-},
-"people counted, by nationality": {
-"ar": "أشخاص مُحصَون بحسب الجنسية",
-"fr": "personnes recensées, par nationalité"
-},
-"people, 2026 planning figures, OCHA Lebanon Response Plan package (CC BY)": {
-"ar": "أشخاص، أرقام التخطيط لعام ٢٠٢٦، حزمة خطة الاستجابة للبنان من أوتشا (CC BY)",
-"fr": "personnes, chiffres de planification 2026, paquet du Plan de réponse pour le Liban d'OCHA (CC BY)"
-},
-"people, Central Administration of Statistics": {
-"ar": "أشخاص، الإدارة المركزية للإحصاء",
-"fr": "personnes, Administration centrale de la statistique"
-},
-"people, UNHCR": {
-"ar": "أشخاص، المفوضية",
-"fr": "personnes, HCR"
-},
-"people, UNHCR portal, 2013 to June 2026": {
-"ar": "أشخاص، بوابة المفوضية، من ٢٠١٣ إلى حزيران ٢٠٢٦",
-"fr": "personnes, portail du HCR, de 2013 à juin 2026"
-},
-"people, cumulative from 8 October 2023, health ministry": {
-"ar": "أشخاص، تراكمي منذ ٨ تشرين الأول ٢٠٢٣، وزارة الصحة",
-"fr": "personnes, cumul depuis le 8 octobre 2023, ministère de la Santé"
-},
-"people, cumulative since 2 March 2026, WHO": {
-"ar": "أشخاص، تراكمي منذ ٢ آذار ٢٠٢٦، منظمة الصحة العالمية",
-"fr": "personnes, cumul depuis le 2 mars 2026, OMS"
-},
-"people, cumulative, health ministry": {
-"ar": "أشخاص، تراكمي، وزارة الصحة",
-"fr": "personnes, cumul, ministère de la Santé"
-},
-"people, year end, UNHCR": {
-"ar": "أشخاص، نهاية السنة، المفوضية",
-"fr": "personnes, fin d'année, HCR"
-},
-"per 1,000 people, UN estimate": {
-"ar": "لكل ١٬٠٠٠ شخص، تقدير الأمم المتحدة",
-"fr": "pour 1 000 personnes, estimation de l'ONU"
-},
-"points": {
-"ar": "نقطة",
-"fr": "points"
-},
-"registered with the authorities, 2026": {
-"ar": "مسجّلون لدى السلطات، ٢٠٢٦",
-"fr": "enregistrés auprès des autorités, 2026"
-},
-"shelters, and schools used as shelters": {
-"ar": "مراكز إيواء ومدارس مستخدمة كمراكز إيواء",
-"fr": "centres d'hébergement et écoles utilisées comme centres"
-},
-"source not linked": {
-"ar": "المصدر غير مرتبط",
-"fr": "source non liée"
-},
-"sources overlap; not a casualty count": {
-"ar": "المصادر تتداخل؛ وليس إحصاء للضحايا",
-"fr": "les sources se recoupent ; ce n'est pas un bilan des victimes"
-},
-"the {n} earliest are listed": {
-"ar": "تُعرض الغارات الـ {n} الأقدم",
-"fr": "les {n} plus anciennes sont listées"
-},
-"thousand people in five-year age groups, UN estimate": {
-"ar": "ألف شخص في فئات عمرية من خمس سنوات، تقدير الأمم المتحدة",
-"fr": "milliers de personnes par tranche de cinq ans, estimation de l'ONU"
-},
-"thousand people, UN estimate (projection after 2023)": {
-"ar": "ألف شخص، تقدير الأمم المتحدة (إسقاط بعد ٢٠٢٣)",
-"fr": "milliers de personnes, estimation de l'ONU (projection après 2023)"
-},
-"total fertility rate, UN estimate": {
-"ar": "معدل الخصوبة الكلي، تقدير الأمم المتحدة",
-"fr": "indice de fécondité, estimation de l'ONU"
-},
-"town": {
-"ar": "بلدة",
-"fr": "ville moyenne"
-},
-"turnout {n}": {
-"ar": "نسبة الاقتراع {n}",
-"fr": "participation {n}"
-},
-"village": {
-"ar": "قرية",
-"fr": "village"
-},
-"violations per Secretary-General reporting period": {
-"ar": "انتهاكات لكل فترة تقرير للأمين العام",
-"fr": "violations par période de rapport du Secrétaire général"
-},
-"weak unit or source": {
-"ar": "وحدة أو مصدر ضعيف",
-"fr": "unité ou source fragile"
-},
-"years, UN estimate": {
-"ar": "سنوات، تقدير الأمم المتحدة",
-"fr": "années, estimation de l'ONU"
-},
-"{a} of {b} places": {
-"ar": "{a} من {b} مكاناً",
-"fr": "{a} sur {b} lieux"
-},
-"{n} buildings completely destroyed, estimated from satellite imagery of {d}.": {
-"ar": "{n} مبنى مدمّراً بالكامل، بتقدير من صور الأقمار الصناعية بتاريخ {d}.",
-"fr": "{n} bâtiments entièrement détruits, estimés d'après l'imagerie satellite du {d}."
-},
-"{n} council members": {
-"ar": "{n} عضواً في المجالس",
-"fr": "{n} conseillers"
-},
-"{n} documented strikes": {
-"ar": "{n} غارة موثّقة",
-"fr": "{n} frappes documentées"
-},
-"{n} m": {
-"ar": "{n} م",
-"fr": "{n} m"
-},
-"{n} people": {
-"ar": "{n} شخص",
-"fr": "{n} personnes"
-},
-"{n} registered": {
-"ar": "{n} مسجّلاً",
-"fr": "{n} inscrits"
-},
-"{n} seats": {
-"ar": "{n} مقعداً",
-"fr": "{n} sièges"
-},
-"{n} strike": {
-"ar": "غارة {n}",
-"fr": "{n} frappe"
-},
-"{y} municipal": {
-"ar": "بلدية {y}",
-"fr": "municipales {y}"
-},
-"{y} parliamentary": {
-"ar": "نيابية {y}",
-"fr": "législatives {y}"
-}
+ "% of population, UN estimate": {
+  "ar": "٪ من السكان، تقدير الأمم المتحدة",
+  "fr": "% de la population, estimation de l'ONU"
+ },
+ "% of registered voters, national": {
+  "ar": "٪ من الناخبين المسجلين، على المستوى الوطني",
+  "fr": "% des électeurs inscrits, national"
+ },
+ "(overlapping and sometimes cumulative: do not add them up)": {
+  "ar": "(تقارير متداخلة وأحياناً تراكمية: لا تجمعها)",
+  "fr": "(chevauchants et parfois cumulatifs : ne pas les additionner)"
+ },
+ "* see the note in the election file: {n}": {
+  "ar": "* انظر الملاحظة في ملف الانتخابات: {n}",
+  "fr": "* voir la note dans le fichier de l'élection : {n}"
+ },
+ "2025 may be provisional. Deaths in 2025 include war deaths and late registrations; they are not split.": {
+  "ar": "قد تكون أرقام ٢٠٢٥ أولية. وتشمل وفيات ٢٠٢٥ وفيات الحرب والتسجيل المتأخر، ولا يُفصل بينها.",
+  "fr": "Les chiffres de 2025 peuvent être provisoires. Les décès de 2025 incluent les morts de guerre et les enregistrements tardifs, sans distinction."
+ },
+ "A page for every village and town in Lebanon: where it is, its municipality and district, population, strikes and events on record. Also the elections since 1992, the 2023 to 2026 war in numbers and the people of Lebanon.": {
+  "ar": "صفحة لكل قرية وبلدة في لبنان: موقعها وبلديتها وقضاؤها وعدد سكانها والغارات والأحداث المسجّلة عنها. وفيها أيضاً الانتخابات منذ ١٩٩٢ والحرب بين ٢٠٢٣ و٢٠٢٦ بالأرقام وسكان لبنان.",
+  "fr": "Une page pour chaque village et ville du Liban : où il se trouve, sa municipalité et son district, sa population, les frappes et les événements recensés. Aussi les élections depuis 1992, la guerre de 2023 à 2026 en chiffres et les habitants du Liban."
+ },
+ "Affecting health care": {
+  "ar": "التي تمسّ الرعاية الصحية",
+  "fr": "Touchant les soins de santé"
+ },
+ "Age pyramid": {
+  "ar": "هرم الأعمار",
+  "fr": "Pyramide des âges"
+ },
+ "Age structure": {
+  "ar": "التركيبة العمرية",
+  "fr": "Structure par âge"
+ },
+ "Aged 0 to 14": {
+  "ar": "من ٠ إلى ١٤ سنة",
+  "fr": "0 à 14 ans"
+ },
+ "Aged 15 to 64": {
+  "ar": "من ١٥ إلى ٦٤ سنة",
+  "fr": "15 à 64 ans"
+ },
+ "Aged 65 and over": {
+  "ar": "٦٥ سنة فما فوق",
+  "fr": "65 ans et plus"
+ },
+ "Air violations of Lebanese airspace": {
+  "ar": "الانتهاكات الجوية للأجواء اللبنانية",
+  "fr": "Violations de l'espace aérien libanais"
+ },
+ "Alawite": {
+  "ar": "علوي",
+  "fr": "Alaouite"
+ },
+ "All districts": {
+  "ar": "كل الأقضية",
+  "fr": "Tous les districts"
+ },
+ "All kinds": {
+  "ar": "كل الأنواع",
+  "fr": "Tous types"
+ },
+ "All places": {
+  "ar": "كل الأماكن",
+  "fr": "Tous les lieux"
+ },
+ "All residents": {
+  "ar": "كل المقيمين",
+  "fr": "Tous les résidents"
+ },
+ "All series in this section": {
+  "ar": "كل السلاسل في هذا القسم",
+  "fr": "Toutes les séries de cette section"
+ },
+ "Armenian Catholic": {
+  "ar": "أرمن كاثوليك",
+  "fr": "Arménien catholique"
+ },
+ "Armenian Orthodox": {
+  "ar": "أرمن أرثوذكس",
+  "fr": "Arménien orthodoxe"
+ },
+ "Arrivals": {
+  "ar": "الوصول",
+  "fr": "Arrivées"
+ },
+ "Asylum-seekers": {
+  "ar": "طالبو اللجوء",
+  "fr": "Demandeurs d'asile"
+ },
+ "Beirut airport passengers": {
+  "ar": "ركّاب مطار بيروت",
+  "fr": "Passagers de l'aéroport de Beyrouth"
+ },
+ "Birth rate": {
+  "ar": "معدل المواليد",
+  "fr": "Taux de natalité"
+ },
+ "Births": {
+  "ar": "المواليد",
+  "fr": "Naissances"
+ },
+ "Births and deaths": {
+  "ar": "المواليد والوفيات",
+  "fr": "Naissances et décès"
+ },
+ "Border crossings": {
+  "ar": "عبور الحدود",
+  "fr": "Passages aux frontières"
+ },
+ "Both sexes": {
+  "ar": "الجنسان",
+  "fr": "Les deux sexes"
+ },
+ "Building damage": {
+  "ar": "أضرار المباني",
+  "fr": "Dégâts aux bâtiments"
+ },
+ "Cadaster": {
+  "ar": "العقار",
+  "fr": "Cadastre"
+ },
+ "Cadaster population, 2004": {
+  "ar": "سكان العقار، ٢٠٠٤",
+  "fr": "Population du cadastre, 2004"
+ },
+ "Cadaster population, 2013": {
+  "ar": "سكان العقار، ٢٠١٣",
+  "fr": "Population du cadastre, 2013"
+ },
+ "Camp": {
+  "ar": "المخيم",
+  "fr": "Camp"
+ },
+ "Children per woman": {
+  "ar": "الأطفال لكل امرأة",
+  "fr": "Enfants par femme"
+ },
+ "Choose an election": {
+  "ar": "اختر انتخاباً",
+  "fr": "Choisir une élection"
+ },
+ "City races": {
+  "ar": "سباقات المدن",
+  "fr": "Courses municipales des villes"
+ },
+ "Click a district, in the table or on the map, for its lists and the elected members.": {
+  "ar": "انقر على دائرة، في الجدول أو على الخريطة، لترى لوائحها والنواب المنتخبين.",
+  "fr": "Cliquez sur un district, dans le tableau ou sur la carte, pour voir ses listes et les élus."
+ },
+ "Click a governorate for its figures.": {
+  "ar": "انقر على محافظة لترى أرقامها.",
+  "fr": "Cliquez sur un gouvernorat pour voir ses chiffres."
+ },
+ "Collective shelters open": {
+  "ar": "مراكز الإيواء الجماعي المفتوحة",
+  "fr": "Centres d'hébergement collectif ouverts"
+ },
+ "Colour the map by": {
+  "ar": "لوّن الخريطة بحسب",
+  "fr": "Colorier la carte selon"
+ },
+ "Copy link": {
+  "ar": "انسخ الرابط",
+  "fr": "Copier le lien"
+ },
+ "Damage": {
+  "ar": "الأضرار",
+  "fr": "Dommages"
+ },
+ "Date": {
+  "ar": "التاريخ",
+  "fr": "Date"
+ },
+ "Death rate": {
+  "ar": "معدل الوفيات",
+  "fr": "Taux de mortalité"
+ },
+ "Deaths": {
+  "ar": "الوفيات",
+  "fr": "Décès"
+ },
+ "Departures": {
+  "ar": "المغادرة",
+  "fr": "Départs"
+ },
+ "Derived from OCHA flash updates. The injured count from April to September 2024 is casualties minus deaths.": {
+  "ar": "مشتق من نشرات الاستجابة السريعة لمكتب الأمم المتحدة لتنسيق الشؤون الإنسانية. عدد الجرحى من نيسان إلى أيلول ٢٠٢٤ هو الإصابات مطروحاً منها الوفيات.",
+  "fr": "Dérivé des mises à jour flash d'OCHA. Le nombre de blessés d'avril à septembre 2024 est le total des victimes moins les morts."
+ },
+ "Displaced and sheltered, 2026": {
+  "ar": "النازحون والمأوون، ٢٠٢٦",
+  "fr": "Déplacés et hébergés, 2026"
+ },
+ "Displaced at year end": {
+  "ar": "النازحون في نهاية السنة",
+  "fr": "Déplacés en fin d'année"
+ },
+ "Displaced from the district": {
+  "ar": "النازحون من القضاء",
+  "fr": "Déplacés du district"
+ },
+ "Displaced from the district, still away, 31 May 2025": {
+  "ar": "النازحون من القضاء ولا يزالون بعيدين عنه، ٣١ أيار ٢٠٢٥",
+  "fr": "Déplacés du district, toujours loin, 31 mai 2025"
+ },
+ "Displaced people hosted": {
+  "ar": "النازحون المستضافون",
+  "fr": "Déplacés accueillis"
+ },
+ "Displaced people hosted in the district, 31 May 2025": {
+  "ar": "النازحون المستضافون في القضاء، ٣١ أيار ٢٠٢٥",
+  "fr": "Déplacés accueillis dans le district, 31 mai 2025"
+ },
+ "Displaced, IDMC, first weeks": {
+  "ar": "النازحون، المركز الدولي لرصد النزوح، الأسابيع الأولى",
+  "fr": "Déplacés, IDMC, premières semaines"
+ },
+ "Displaced, government count": {
+  "ar": "النازحون، إحصاء الحكومة",
+  "fr": "Déplacés, décompte du gouvernement"
+ },
+ "Displaced, government count, peak": {
+  "ar": "النازحون، إحصاء الحكومة، الذروة",
+  "fr": "Déplacés, décompte du gouvernement, pic"
+ },
+ "Displacement and returns by district": {
+  "ar": "النزوح والعودة بحسب القضاء",
+  "fr": "Déplacements et retours par district"
+ },
+ "Displacement and returns, 2023 to 2026": {
+  "ar": "النزوح والعودة، من ٢٠٢٣ إلى ٢٠٢٦",
+  "fr": "Déplacements et retours, 2023 à 2026"
+ },
+ "Displacement from conflict, by year": {
+  "ar": "النزوح بسبب النزاع، بحسب السنة",
+  "fr": "Déplacements dus au conflit, par année"
+ },
+ "District": {
+  "ar": "القضاء",
+  "fr": "District"
+ },
+ "Divorces": {
+  "ar": "حالات الطلاق",
+  "fr": "Divorces"
+ },
+ "Documented strikes": {
+  "ar": "الغارات الموثّقة",
+  "fr": "Frappes documentées"
+ },
+ "Documented strikes by district. Click a district to list its places.": {
+  "ar": "الغارات الموثّقة بحسب القضاء. انقر على قضاء لعرض أماكنه.",
+  "fr": "Frappes documentées par district. Cliquez sur un district pour lister ses lieux."
+ },
+ "Download as JSON": {
+  "ar": "نزّل بصيغة JSON",
+  "fr": "Télécharger en JSON"
+ },
+ "Druze": {
+  "ar": "درزي",
+  "fr": "Druze"
+ },
+ "Education facilities hit": {
+  "ar": "منشآت تعليمية متضررة",
+  "fr": "Établissements scolaires touchés"
+ },
+ "Elected members": {
+  "ar": "النواب المنتخبون",
+  "fr": "Élus"
+ },
+ "Election": {
+  "ar": "الانتخابات",
+  "fr": "Élection"
+ },
+ "Election district": {
+  "ar": "الدائرة الانتخابية",
+  "fr": "Circonscription électorale"
+ },
+ "Elections": {
+  "ar": "الانتخابات",
+  "fr": "Élections"
+ },
+ "Elevation": {
+  "ar": "الارتفاع",
+  "fr": "Altitude"
+ },
+ "Evangelical": {
+  "ar": "إنجيلي",
+  "fr": "Évangélique"
+ },
+ "Explosive weapons": {
+  "ar": "الأسلحة المتفجرة",
+  "fr": "Armes explosives"
+ },
+ "Figures below are for the whole district of {c}, not for this village: no open source gives displacement below district level.": {
+  "ar": "الأرقام أدناه لقضاء {c} كله وليست لهذه القرية: لا يوجد مصدر مفتوح للنزوح دون مستوى القضاء.",
+  "fr": "Les chiffres ci-dessous concernent tout le district de {c}, pas ce village : aucune source ouverte ne donne le déplacement en dessous du district."
+ },
+ "Foreign-born in Lebanon": {
+  "ar": "مولودون في الخارج ويقيمون في لبنان",
+  "fr": "Nés à l'étranger vivant au Liban"
+ },
+ "Foreign-born living in Lebanon": {
+  "ar": "المولودون في الخارج المقيمون في لبنان",
+  "fr": "Nés à l'étranger résidant au Liban"
+ },
+ "Greek Catholic": {
+  "ar": "روم كاثوليك",
+  "fr": "Grec catholique"
+ },
+ "Greek Orthodox": {
+  "ar": "روم أرثوذكس",
+  "fr": "Grec orthodoxe"
+ },
+ "Group": {
+  "ar": "الفئة",
+  "fr": "Groupe"
+ },
+ "Health ministry counts include combatants and are revised. Counts of the displaced are not one line: the government count froze for three months in 2026, and other estimates were re-based in a single week. Totals from the IOM Displacement Tracking Matrix are not published here because IOM's terms do not allow redistribution; the government count and the IDMC reports are shown instead.": {
+  "ar": "تشمل أرقام وزارة الصحة مقاتلين وهي عرضة للتعديل. وأرقام النازحين ليست خطاً واحداً: فقد جمدت أرقام الحكومة ثلاثة أشهر في ٢٠٢٦، وأُعيدت معايرة تقديرات أخرى في أسبوع واحد. أما مجاميع مصفوفة تتبع النزوح التابعة للمنظمة الدولية للهجرة فلا تُنشر هنا لأن شروط المنظمة لا تسمح بإعادة التوزيع؛ ونعرض بدلاً منها إحصاء الحكومة وتقارير المركز الدولي لرصد النزوح.",
+  "fr": "Les chiffres du ministère de la Santé incluent des combattants et sont révisés. Les chiffres des déplacés ne forment pas une seule ligne : le décompte du gouvernement s'est figé trois mois en 2026 et d'autres estimations ont été recalées en une semaine. Les totaux de la Matrice de suivi des déplacements de l'OIM ne sont pas publiés ici car les conditions de l'OIM n'autorisent pas la redistribution ; le décompte du gouvernement et les rapports de l'IDMC sont montrés à la place."
+ },
+ "Health workers and education, monthly": {
+  "ar": "العاملون الصحيون والتعليم، شهرياً",
+  "fr": "Personnel de santé et éducation, mensuel"
+ },
+ "Health workers and health care": {
+  "ar": "العاملون الصحيون والرعاية الصحية",
+  "fr": "Personnel de santé et soins"
+ },
+ "Health workers injured": {
+  "ar": "عاملون صحيون جرحى",
+  "fr": "Personnel de santé blessé"
+ },
+ "Health workers killed": {
+  "ar": "عاملون صحيون قتلى",
+  "fr": "Personnel de santé tué"
+ },
+ "High": {
+  "ar": "الأعلى",
+  "fr": "Haut"
+ },
+ "Hospitals and health centres": {
+  "ar": "المستشفيات والمراكز الصحية",
+  "fr": "Hôpitaux et centres de santé"
+ },
+ "Hospitals closed": {
+  "ar": "مستشفيات مغلقة",
+  "fr": "Hôpitaux fermés"
+ },
+ "Hospitals damaged": {
+  "ar": "مستشفيات متضررة",
+  "fr": "Hôpitaux endommagés"
+ },
+ "IDMC annual figures, 2009 to 2025.": {
+  "ar": "أرقام سنوية للمركز الدولي لرصد النزوح، من ٢٠٠٩ إلى ٢٠٢٥.",
+  "fr": "Chiffres annuels de l'IDMC, 2009 à 2025."
+ },
+ "IDMC displacement reports for this district": {
+  "ar": "تقارير المركز الدولي لرصد النزوح عن هذا القضاء",
+  "fr": "Rapports de l'IDMC pour ce district"
+ },
+ "IOM Displacement Tracking Matrix round 87, 31 May 2025, as shown in the OCHA Lebanon Response Plan 2026 package (CC BY)": {
+  "ar": "مصفوفة تتبع النزوح للمنظمة الدولية للهجرة، الجولة ٨٧، ٣١ أيار ٢٠٢٥، كما وردت في حزمة خطة الاستجابة للبنان ٢٠٢٦ (أوتشا) (CC BY)",
+  "fr": "Matrice de suivi des déplacements de l'OIM, tour 87, 31 mai 2025, telle que reprise dans le paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY)"
+ },
+ "IOM Displacement Tracking Matrix round 87, as shown in the OCHA Lebanon Response Plan 2026 package (CC BY).": {
+  "ar": "مصفوفة تتبع النزوح للمنظمة الدولية للهجرة، الجولة ٨٧، كما وردت في حزمة خطة الاستجابة للبنان ٢٠٢٦ (أوتشا) (CC BY).",
+  "fr": "Matrice de suivi des déplacements de l'OIM, tour 87, telle que reprise dans le paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY)."
+ },
+ "In collective shelters": {
+  "ar": "في مراكز الإيواء الجماعي",
+  "fr": "Dans les centres collectifs"
+ },
+ "Incidents": {
+  "ar": "الحوادث",
+  "fr": "Incidents"
+ },
+ "Incidents recorded by Insecurity Insight": {
+  "ar": "الحوادث التي سجّلتها منظمة «إنسيكيوريتي إنسايت»",
+  "fr": "Incidents recensés par Insecurity Insight"
+ },
+ "Injured": {
+  "ar": "الجرحى",
+  "fr": "Blessés"
+ },
+ "Injured counts stop on 17 August 2026 in the sources found.": {
+  "ar": "تتوقف أعداد الجرحى في ١٧ آب ٢٠٢٦ في المصادر التي وُجدت.",
+  "fr": "Les chiffres de blessés s'arrêtent au 17 août 2026 dans les sources trouvées."
+ },
+ "Injured since 2 March 2026": {
+  "ar": "الجرحى منذ ٢ آذار ٢٠٢٦",
+  "fr": "Blessés depuis le 2 mars 2026"
+ },
+ "Killed": {
+  "ar": "القتلى",
+  "fr": "Tués"
+ },
+ "Killed and injured since 2 March 2026": {
+  "ar": "القتلى والجرحى منذ ٢ آذار ٢٠٢٦",
+  "fr": "Tués et blessés depuis le 2 mars 2026"
+ },
+ "Killed and injured, 2023 to 2024": {
+  "ar": "القتلى والجرحى، ٢٠٢٣ إلى ٢٠٢٤",
+  "fr": "Tués et blessés, 2023 à 2024"
+ },
+ "Killed since 2 March 2026": {
+  "ar": "القتلى منذ ٢ آذار ٢٠٢٦",
+  "fr": "Tués depuis le 2 mars 2026"
+ },
+ "Killed, 8 Oct 2023 to Dec 2024": {
+  "ar": "القتلى من ٨ تشرين الأول ٢٠٢٣ إلى كانون الأول ٢٠٢٤",
+  "fr": "Tués du 8 oct. 2023 à déc. 2024"
+ },
+ "Kind": {
+  "ar": "النوع",
+  "fr": "Type"
+ },
+ "Last value in each year.": {
+  "ar": "آخر قيمة في كل سنة.",
+  "fr": "Dernière valeur de chaque année."
+ },
+ "Leaving each year (reported)": {
+  "ar": "المغادرون كل سنة (مُبلَّغ عنهم)",
+  "fr": "Départs chaque année (déclarés)"
+ },
+ "Lebanese": {
+  "ar": "اللبنانيون",
+  "fr": "Libanais"
+ },
+ "Lebanon Response Plan, {y}": {
+  "ar": "خطة الاستجابة للبنان، {y}",
+  "fr": "Plan de réponse pour le Liban, {y}"
+ },
+ "Lebanon's parliamentary elections since 1992 and its municipal elections of 2016 and 2025: who could vote, how many did, and where. Seats are the confessional allocation set by the law. The May 2026 election was not held.": {
+  "ar": "الانتخابات النيابية في لبنان منذ ١٩٩٢ والانتخابات البلدية في ٢٠١٦ و٢٠٢٥: من كان يحق له التصويت، وكم صوّت، وأين. المقاعد هي التوزيع الطائفي الذي يحدده القانون. ولم تُجرَ انتخابات أيار ٢٠٢٦.",
+  "fr": "Les élections législatives libanaises depuis 1992 et les municipales de 2016 et 2025 : qui pouvait voter, combien l'ont fait, et où. Les sièges sont la répartition confessionnelle fixée par la loi. L'élection de mai 2026 n'a pas eu lieu."
+ },
+ "Lebanon-born abroad": {
+  "ar": "مولودون في لبنان ويقيمون في الخارج",
+  "fr": "Nés au Liban, à l'étranger"
+ },
+ "Lebanon-born living abroad": {
+  "ar": "المولودون في لبنان المقيمون في الخارج",
+  "fr": "Nés au Liban vivant à l'étranger"
+ },
+ "Left out on purpose: IOM village-level data and totals (redistribution not allowed), ACLED (restrictive terms), and an incident sheet whose underlying source is not named.": {
+  "ar": "تُركت عمداً: بيانات المنظمة الدولية للهجرة على مستوى القرى ومجاميعها (إعادة التوزيع غير مسموحة)، وبيانات «أكليد» (شروط مقيِّدة)، وجدول حوادث لا يُسمّى مصدره الأصلي.",
+  "fr": "Écartés volontairement : données et totaux de l'OIM au niveau des villages (redistribution non autorisée), ACLED (conditions restrictives) et un tableau d'incidents dont la source d'origine n'est pas nommée."
+ },
+ "Life expectancy": {
+  "ar": "متوسط العمر المتوقع",
+  "fr": "Espérance de vie"
+ },
+ "Link copied.": {
+  "ar": "تم نسخ الرابط.",
+  "fr": "Lien copié."
+ },
+ "List": {
+  "ar": "اللائحة",
+  "fr": "Liste"
+ },
+ "List or affiliation": {
+  "ar": "اللائحة أو الانتماء",
+  "fr": "Liste ou affiliation"
+ },
+ "Lists": {
+  "ar": "اللوائح",
+  "fr": "Listes"
+ },
+ "Losses": {
+  "ar": "الخسائر",
+  "fr": "Pertes"
+ },
+ "Low": {
+  "ar": "الأدنى",
+  "fr": "Bas"
+ },
+ "M": {
+  "ar": "مليون",
+  "fr": "M"
+ },
+ "Map colour": {
+  "ar": "لون الخريطة",
+  "fr": "Couleur de la carte"
+ },
+ "Map of Lebanon by district": {
+  "ar": "خريطة لبنان بحسب القضاء",
+  "fr": "Carte du Liban par district"
+ },
+ "Map of Lebanon by district: documented strikes": {
+  "ar": "خريطة لبنان بحسب القضاء: الغارات الموثّقة",
+  "fr": "Carte du Liban par district : frappes documentées"
+ },
+ "Map of Lebanon by district: population": {
+  "ar": "خريطة لبنان بحسب القضاء: السكان",
+  "fr": "Carte du Liban par district : population"
+ },
+ "Map of Lebanon by electoral district": {
+  "ar": "خريطة لبنان بحسب الدائرة الانتخابية",
+  "fr": "Carte du Liban par circonscription électorale"
+ },
+ "Map of Lebanon with {n} marked": {
+  "ar": "خريطة لبنان مع تحديد موقع {n}",
+  "fr": "Carte du Liban avec {n} repéré"
+ },
+ "Maronite": {
+  "ar": "ماروني",
+  "fr": "Maronite"
+ },
+ "Marriages": {
+  "ar": "حالات الزواج",
+  "fr": "Mariages"
+ },
+ "Matched by name in event titles and \"why\" lines: {n} in all, {k} shown, the most important first. A name can belong to more than one place or person, so check the event.": {
+  "ar": "مطابقة بالاسم في عناوين الأحداث وسطور «لماذا»: {n} في المجموع، يُعرض {k}، الأهم أولاً. قد يعود الاسم إلى أكثر من مكان أو شخص، فتحقق من الحدث.",
+  "fr": "Rapprochés par le nom dans les titres et les lignes « pourquoi » : {n} au total, {k} affichés, les plus importants d'abord. Un nom peut désigner plusieurs lieux ou personnes : vérifiez l'événement."
+ },
+ "Measure": {
+  "ar": "المقياس",
+  "fr": "Mesure"
+ },
+ "Median age": {
+  "ar": "العمر الوسيط",
+  "fr": "Âge médian"
+ },
+ "Men": {
+  "ar": "الرجال",
+  "fr": "Hommes"
+ },
+ "Migrants": {
+  "ar": "المهاجرون",
+  "fr": "Migrants"
+ },
+ "Migrants (preliminary)": {
+  "ar": "المهاجرون (أولي)",
+  "fr": "Migrants (préliminaire)"
+ },
+ "Ministry of Public Health, {d}": {
+  "ar": "وزارة الصحة العامة، {d}",
+  "fr": "Ministère de la Santé publique, {d}"
+ },
+ "Minorities": {
+  "ar": "أقليات",
+  "fr": "Minorités"
+ },
+ "Modelled population of its cadaster, 2023": {
+  "ar": "السكان المقدَّرون في عقاره، ٢٠٢٣",
+  "fr": "Population modélisée de son cadastre, 2023"
+ },
+ "Most documented places": {
+  "ar": "الأماكن الأكثر توثيقاً",
+  "fr": "Lieux les plus documentés"
+ },
+ "Municipal": {
+  "ar": "البلدية",
+  "fr": "Municipales"
+ },
+ "Municipal population estimate": {
+  "ar": "تقدير عدد سكان البلدية",
+  "fr": "Estimation de la population municipale"
+ },
+ "Municipalities: CIB IMPACT and the CAS 2017 list (CIB states no licence). Population: Kontur (CC BY). Refugees: UNHCR via INFORM (CC BY). Districts: OCHA Lebanon Response Plan 2026 package (CC BY), IDMC (CC BY-IGO). Strikes and events: each row links to its own source.": {
+  "ar": "البلديات: مشروع «إمباكت» لدى مجلس الإنماء والإعمار والقائمة المركزية للإحصاء ٢٠١٧ (لا يذكر المشروع ترخيصاً). السكان: كونتور (CC BY). اللاجئون: مفوضية اللاجئين عبر «إنفورم» (CC BY). الأقضية: حزمة خطة الاستجابة للبنان ٢٠٢٦ من أوتشا (CC BY)، والمركز الدولي لرصد النزوح (CC BY-IGO). الغارات والأحداث: يرتبط كل سطر بمصدره.",
+  "fr": "Municipalités : CIB IMPACT et la liste 2017 de l'ACS (le CIB n'indique pas de licence). Population : Kontur (CC BY). Réfugiés : HCR via INFORM (CC BY). Districts : paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY), IDMC (CC BY-IGO). Frappes et événements : chaque ligne renvoie à sa propre source."
+ },
+ "Municipality": {
+  "ar": "البلدية",
+  "fr": "Municipalité"
+ },
+ "Name": {
+  "ar": "الاسم",
+  "fr": "Nom"
+ },
+ "National figures differ by source for 1992 to 2005 (Nohlen, IDEA and IPU); the first is used and the others are kept in the election files.": {
+  "ar": "تختلف الأرقام الوطنية بحسب المصدر بين ١٩٩٢ و٢٠٠٥ (نولن، والمؤسسة الدولية للديمقراطية والانتخابات، والاتحاد البرلماني الدولي)؛ يُستعمل الأول وتُحفظ الأخرى في ملفات الانتخابات.",
+  "fr": "Les chiffres nationaux varient selon la source de 1992 à 2005 (Nohlen, IDEA et UIP) ; le premier est retenu et les autres sont conservés dans les fichiers des élections."
+ },
+ "Nearby places": {
+  "ar": "أماكن قريبة",
+  "fr": "Lieux proches"
+ },
+ "Needs": {
+  "ar": "الاحتياجات",
+  "fr": "Besoins"
+ },
+ "New displacements in the year": {
+  "ar": "نزوح جديد خلال السنة",
+  "fr": "Nouveaux déplacements dans l'année"
+ },
+ "No district displacement figure is on record for this place.": {
+  "ar": "لا يوجد رقم للنزوح على مستوى القضاء لهذا المكان.",
+  "fr": "Aucun chiffre de déplacement au niveau du district n'est enregistré pour ce lieu."
+ },
+ "No district figure exists for this measure in this election.": {
+  "ar": "لا يوجد رقم على مستوى الدائرة لهذا المقياس في هذه الانتخابات.",
+  "fr": "Aucun chiffre par circonscription n'existe pour cette mesure dans cette élection."
+ },
+ "No lists or winners are on record for this district and election.": {
+  "ar": "لا توجد لوائح أو فائزون مسجّلون لهذه الدائرة وهذه الانتخابات.",
+  "fr": "Aucune liste ni aucun élu n'est enregistré pour cette circonscription et cette élection."
+ },
+ "No place matches. Try fewer letters or the Arabic name.": {
+  "ar": "لا يطابق أي مكان. جرّب أحرفاً أقل أو الاسم العربي.",
+  "fr": "Aucun lieu ne correspond. Essayez moins de lettres ou le nom arabe."
+ },
+ "No population figure is published for this place. Lebanon has had no census since 1932.": {
+  "ar": "لا يُنشر رقم سكاني لهذا المكان. لم يُجرَ في لبنان تعداد منذ ١٩٣٢.",
+  "fr": "Aucun chiffre de population n'est publié pour ce lieu. Le Liban n'a pas eu de recensement depuis 1932."
+ },
+ "No series match.": {
+  "ar": "لا توجد سلاسل مطابقة.",
+  "fr": "Aucune série ne correspond."
+ },
+ "No strike is documented at this place. That does not mean none happened: the Strike map says per war what is complete and what is not.": {
+  "ar": "لا توجد غارة موثّقة في هذا المكان. وهذا لا يعني أنه لم يحدث شيء: تبيّن خريطة الغارات لكل حرب ما هو مكتمل وما ليس كذلك.",
+  "fr": "Aucune frappe n'est documentée à cet endroit. Cela ne veut pas dire qu'il ne s'est rien passé : la carte des frappes indique pour chaque guerre ce qui est complet ou non."
+ },
+ "No timeline event names this place.": {
+  "ar": "لا يذكر أي حدث في الخط الزمني هذا المكان.",
+  "fr": "Aucun événement de la chronologie ne nomme ce lieu."
+ },
+ "Notes on the data": {
+  "ar": "ملاحظات على البيانات",
+  "fr": "Notes sur les données"
+ },
+ "Only four regions are public; district counts are in dashboards with no open interface.": {
+  "ar": "أربع مناطق فقط معلنة؛ أما أعداد الأقضية فهي في لوحات بلا واجهة مفتوحة.",
+  "fr": "Seules quatre régions sont publiques ; les chiffres par district sont dans des tableaux de bord sans interface ouverte."
+ },
+ "Only open-source reports are counted, and a month with zero means none was recorded.": {
+  "ar": "تُحتسب التقارير المفتوحة المصدر فقط، والشهر الذي يسجّل صفراً يعني أنه لم يُسجَّل شيء.",
+  "fr": "Seuls les rapports de sources ouvertes sont comptés ; un mois à zéro signifie que rien n'a été enregistré."
+ },
+ "Open on the strike map": {
+  "ar": "افتح على خريطة الغارات",
+  "fr": "Ouvrir sur la carte des frappes"
+ },
+ "Other registered refugees": {
+  "ar": "لاجئون مسجّلون آخرون",
+  "fr": "Autres réfugiés enregistrés"
+ },
+ "Palestine refugees from Lebanon": {
+  "ar": "لاجئون فلسطينيون من لبنان",
+  "fr": "Réfugiés palestiniens du Liban"
+ },
+ "Palestine refugees from Syria": {
+  "ar": "لاجئون فلسطينيون من سوريا",
+  "fr": "Réfugiés palestiniens de Syrie"
+ },
+ "Palestine refugees in Lebanon": {
+  "ar": "لاجئون فلسطينيون في لبنان",
+  "fr": "Réfugiés palestiniens au Liban"
+ },
+ "Palestinian camps, 2017 census": {
+  "ar": "المخيمات الفلسطينية، تعداد ٢٠١٧",
+  "fr": "Camps palestiniens, recensement de 2017"
+ },
+ "Palestinians": {
+  "ar": "الفلسطينيون",
+  "fr": "Palestiniens"
+ },
+ "Parliamentary": {
+  "ar": "النيابية",
+  "fr": "Législatives"
+ },
+ "Party counts are from the sources named below and count each winner once by affiliation at the time.": {
+  "ar": "أعداد الأحزاب من المصادر المذكورة أدناه، ويُحتسب كل فائز مرة واحدة بحسب انتمائه في حينه.",
+  "fr": "Les décomptes par parti viennent des sources citées ci-dessous et comptent chaque élu une fois selon son affiliation d'alors."
+ },
+ "People in the district, 2026": {
+  "ar": "السكان في القضاء، ٢٠٢٦",
+  "fr": "Habitants du district, 2026"
+ },
+ "Phases": {
+  "ar": "المراحل",
+  "fr": "Phases"
+ },
+ "Place code": {
+  "ar": "رمز المكان",
+  "fr": "Code du lieu"
+ },
+ "Planning figure": {
+  "ar": "رقم التخطيط",
+  "fr": "Chiffre de planification"
+ },
+ "Planning figures for the whole district of {c} from the OCHA Lebanon Response Plan 2026 package (CC BY): Syrians from UNHCR registration, Palestinians from UNRWA, Lebanese from the CAS and ILO survey.": {
+  "ar": "أرقام تخطيط لقضاء {c} كله من حزمة خطة الاستجابة للبنان ٢٠٢٦ لدى أوتشا (CC BY): السوريون من تسجيل المفوضية، والفلسطينيون من الأونروا، واللبنانيون من مسح الإدارة المركزية للإحصاء ومنظمة العمل الدولية.",
+  "fr": "Chiffres de planification pour tout le district de {c} tirés du paquet du Plan de réponse pour le Liban 2026 d'OCHA (CC BY) : Syriens d'après l'enregistrement du HCR, Palestiniens de l'UNRWA, Libanais de l'enquête de l'ACS et de l'OIT."
+ },
+ "Population given in the gazetteer": {
+  "ar": "السكان بحسب معجم الأسماء",
+  "fr": "Population indiquée dans le répertoire des lieux"
+ },
+ "Population pyramid for {y}: men to the left, women to the right": {
+  "ar": "هرم السكان لعام {y}: الرجال إلى اليسار والنساء إلى اليمين",
+  "fr": "Pyramide de la population en {y} : hommes à gauche, femmes à droite"
+ },
+ "Population, 1950 to 2026": {
+  "ar": "السكان، من ١٩٥٠ إلى ٢٠٢٦",
+  "fr": "Population, 1950 à 2026"
+ },
+ "Population, UN estimate": {
+  "ar": "السكان، تقدير الأمم المتحدة",
+  "fr": "Population, estimation de l'ONU"
+ },
+ "Primary health centres closed": {
+  "ar": "مراكز رعاية صحية أولية مغلقة",
+  "fr": "Centres de soins primaires fermés"
+ },
+ "Public schools used": {
+  "ar": "المدارس الرسمية المستخدمة",
+  "fr": "Écoles publiques utilisées"
+ },
+ "Red dot: this place. Grey dots: its nearest neighbours.": {
+  "ar": "النقطة الحمراء: هذا المكان. النقاط الرمادية: أقرب جيرانه.",
+  "fr": "Point rouge : ce lieu. Points gris : ses voisins les plus proches."
+ },
+ "Refugees of all origins": {
+  "ar": "اللاجئون من كل الجنسيات",
+  "fr": "Réfugiés de toutes origines"
+ },
+ "Refugees registered here, end of 2014": {
+  "ar": "اللاجئون المسجّلون هنا، نهاية ٢٠١٤",
+  "fr": "Réfugiés enregistrés ici, fin 2014"
+ },
+ "Registered": {
+  "ar": "المسجّلون",
+  "fr": "Inscrits"
+ },
+ "Registered births, deaths and marriages": {
+  "ar": "المواليد والوفيات والزيجات المسجّلة",
+  "fr": "Naissances, décès et mariages enregistrés"
+ },
+ "Registered voters": {
+  "ar": "الناخبون المسجّلون",
+  "fr": "Électeurs inscrits"
+ },
+ "Registered with UNRWA (reported)": {
+  "ar": "المسجّلون لدى الأونروا (مُبلَّغ عنهم)",
+  "fr": "Inscrits auprès de l'UNRWA (déclarés)"
+ },
+ "Residents, humanitarian planning figure": {
+  "ar": "المقيمون، رقم التخطيط الإنساني",
+  "fr": "Résidents, chiffre de planification humanitaire"
+ },
+ "Returned from the district": {
+  "ar": "العائدون من القضاء",
+  "fr": "Revenus du district"
+ },
+ "Returned from the district, Oct 2024 to May 2025": {
+  "ar": "العائدون من القضاء، تشرين الأول ٢٠٢٤ إلى أيار ٢٠٢٥",
+  "fr": "Retours depuis le district, oct. 2024 à mai 2025"
+ },
+ "Returned to the district": {
+  "ar": "العائدون إلى القضاء",
+  "fr": "Retours vers le district"
+ },
+ "Returned to the district, Oct 2024 to May 2025": {
+  "ar": "العائدون إلى القضاء، تشرين الأول ٢٠٢٤ إلى أيار ٢٠٢٥",
+  "fr": "Retours vers le district, oct. 2024 à mai 2025"
+ },
+ "Rounds": {
+  "ar": "الجولات",
+  "fr": "Tours"
+ },
+ "Schools of all types": {
+  "ar": "مدارس من كل الأنواع",
+  "fr": "Écoles de tous types"
+ },
+ "Search a place: Khiam, Qana, بعلبك": {
+  "ar": "ابحث عن مكان: الخيام، قانا، بعلبك",
+  "fr": "Chercher un lieu : Khiam, Qana, بعلبك"
+ },
+ "Search any of {n} villages, towns and neighbourhoods by its name in English or Arabic. Spellings differ a lot in Lebanon, so \"Bint Jbeil\" also finds \"Bent Jbeil\".": {
+  "ar": "ابحث في {n} قرية وبلدة وحيّ بالاسم بالإنكليزية أو العربية. تتفاوت الكتابات كثيراً في لبنان، فعبارة «Bint Jbeil» تجد أيضاً «Bent Jbeil».",
+  "fr": "Cherchez parmi {n} villages, villes et quartiers par leur nom en anglais ou en arabe. Les graphies varient beaucoup au Liban : « Bint Jbeil » trouve aussi « Bent Jbeil »."
+ },
+ "Search series": {
+  "ar": "ابحث في السلاسل",
+  "fr": "Chercher dans les séries"
+ },
+ "Seat": {
+  "ar": "المقعد",
+  "fr": "Siège"
+ },
+ "Seats": {
+  "ar": "المقاعد",
+  "fr": "Sièges"
+ },
+ "Seats by confession": {
+  "ar": "المقاعد بحسب الطائفة",
+  "fr": "Sièges par confession"
+ },
+ "Seats by party or bloc": {
+  "ar": "المقاعد بحسب الحزب أو الكتلة",
+  "fr": "Sièges par parti ou bloc"
+ },
+ "Sector": {
+  "ar": "القطاع",
+  "fr": "Secteur"
+ },
+ "Share is of the valid list votes in the district, summed over the lists shown.": {
+  "ar": "الحصة من أصوات اللوائح الصحيحة في الدائرة، مجموعة على اللوائح المعروضة.",
+  "fr": "La part est calculée sur les voix valides des listes de la circonscription, additionnées sur les listes affichées."
+ },
+ "Shelters open": {
+  "ar": "مراكز إيواء مفتوحة",
+  "fr": "Centres ouverts"
+ },
+ "Shia": {
+  "ar": "شيعي",
+  "fr": "Chiite"
+ },
+ "Show the data table": {
+  "ar": "اعرض جدول البيانات",
+  "fr": "Afficher le tableau des données"
+ },
+ "Since the 17 April 2026 ceasefire announcement": {
+  "ar": "منذ إعلان وقف إطلاق النار في ١٧ نيسان ٢٠٢٦",
+  "fr": "Depuis l'annonce du cessez-le-feu du 17 avril 2026"
+ },
+ "Sources and licences": {
+  "ar": "المصادر والتراخيص",
+  "fr": "Sources et licences"
+ },
+ "South and Nabatieh": {
+  "ar": "الجنوب والنبطية",
+  "fr": "Sud et Nabatié"
+ },
+ "Statement": {
+  "ar": "التصريح",
+  "fr": "Déclaration"
+ },
+ "Strikes at this place": {
+  "ar": "الغارات في هذا المكان",
+  "fr": "Frappes à cet endroit"
+ },
+ "Sunni": {
+  "ar": "سنّي",
+  "fr": "Sunnite"
+ },
+ "Syrian": {
+  "ar": "سوري",
+  "fr": "Syrien"
+ },
+ "Syrian refugees": {
+  "ar": "اللاجئون السوريون",
+  "fr": "Réfugiés syriens"
+ },
+ "Syrian refugees by region, monthly": {
+  "ar": "اللاجئون السوريون بحسب المنطقة، شهرياً",
+  "fr": "Réfugiés syriens par région, mensuel"
+ },
+ "Syrian refugees registered": {
+  "ar": "اللاجئون السوريون المسجّلون",
+  "fr": "Réfugiés syriens enregistrés"
+ },
+ "Syrian refugees registered, year end": {
+  "ar": "اللاجئون السوريون المسجّلون، نهاية السنة",
+  "fr": "Réfugiés syriens enregistrés, fin d'année"
+ },
+ "Syrians": {
+  "ar": "السوريون",
+  "fr": "Syriens"
+ },
+ "Syrians registered with UNHCR": {
+  "ar": "سوريون مسجّلون لدى المفوضية",
+  "fr": "Syriens enregistrés auprès du HCR"
+ },
+ "The 14 districts with the largest figure. The unit is people; returns count people who came back after the November 2024 ceasefire.": {
+  "ar": "الأقضية الأربعة عشر الأعلى رقماً. الوحدة أشخاص؛ والعودة تحسب من رجعوا بعد وقف إطلاق النار في تشرين الثاني ٢٠٢٤.",
+  "fr": "Les 14 districts au chiffre le plus élevé. L'unité est la personne ; les retours comptent ceux revenus après le cessez-le-feu de novembre 2024."
+ },
+ "The 14 largest districts for the measure chosen. All 26 are in the district download.": {
+  "ar": "الأقضية الأربعة عشر الأكبر بحسب المقياس المختار. والأقضية الستة والعشرون كلها في تنزيل الأقضية.",
+  "fr": "Les 14 plus grands districts pour la mesure choisie. Les 26 figurent dans le téléchargement des districts."
+ },
+ "The 2023 to 2026 war": {
+  "ar": "الحرب بين ٢٠٢٣ و٢٠٢٦",
+  "fr": "La guerre de 2023 à 2026"
+ },
+ "The 2025 UNRWA mandate figure (228,274) is far below older registered counts and its definition is unverified, so it is not charted.": {
+  "ar": "رقم الأونروا للمشمولين بولايتها في ٢٠٢٥ (٢٢٨٬٢٧٤) أدنى بكثير من أعداد التسجيل الأقدم وتعريفه غير مؤكد، لذا لم يُرسم.",
+  "fr": "Le chiffre 2025 de l'UNRWA pour les personnes relevant de son mandat (228 274) est très inférieur aux anciens chiffres d'inscrits et sa définition n'est pas vérifiée ; il n'est donc pas tracé."
+ },
+ "The 26 districts": {
+  "ar": "الأقضية الستة والعشرون",
+  "fr": "Les 26 districts"
+ },
+ "The UN estimate (5.9 million in 2026) and the planning figure (5.4 million) differ by design: the first models the whole resident population, the second counts the groups humanitarian agencies plan for. The UNHCR portal series jumps from 490,424 to 889,625 in June 2026; the cause is unverified and may be a definition change.": {
+  "ar": "يختلف تقدير الأمم المتحدة (٥٫٩ مليون في ٢٠٢٦) ورقم التخطيط (٥٫٤ مليون) عمداً: الأول يقدّر كل السكان المقيمين، والثاني يعدّ الفئات التي تخطط لها الوكالات الإنسانية. وتقفز سلسلة بوابة المفوضية من ٤٩٠٬٤٢٤ إلى ٨٨٩٬٦٢٥ في حزيران ٢٠٢٦؛ والسبب غير مؤكد وقد يكون تغيير تعريف.",
+  "fr": "L'estimation de l'ONU (5,9 millions en 2026) et le chiffre de planification (5,4 millions) diffèrent par construction : le premier modélise toute la population résidente, le second compte les groupes pour lesquels les agences humanitaires planifient. La série du portail du HCR passe de 490 424 à 889 625 en juin 2026 ; la cause n'est pas vérifiée et pourrait être un changement de définition."
+ },
+ "The UN stock undercounts the diaspora, and no official emigration series exists.": {
+  "ar": "يقلّل رصيد الأمم المتحدة من عدد المغتربين، ولا توجد سلسلة رسمية للهجرة.",
+  "fr": "Le stock de l'ONU sous-estime la diaspora, et il n'existe pas de série officielle d'émigration."
+ },
+ "The cadaster is the cadastral unit that contains the place; it can hold several villages, so the modelled figure is for the unit, not the village. It is not a census.": {
+  "ar": "العقار هو الوحدة العقارية التي تضم المكان؛ وقد يضم عدة قرى، فالرقم المقدَّر للوحدة لا للقرية. وهو ليس تعداداً.",
+  "fr": "Le cadastre est l'unité cadastrale qui contient le lieu ; il peut regrouper plusieurs villages, le chiffre modélisé vaut donc pour l'unité, pas pour le village. Ce n'est pas un recensement."
+ },
+ "The government count froze at 1,049,328 from 17 March to 18 June 2026. The lines are different sources and are not additive.": {
+  "ar": "تجمّد إحصاء الحكومة عند ١٬٠٤٩٬٣٢٨ من ١٧ آذار إلى ١٨ حزيران ٢٠٢٦. الخطوط مصادر مختلفة ولا تُجمع.",
+  "fr": "Le décompte du gouvernement s'est figé à 1 049 328 du 17 mars au 18 juin 2026. Les courbes viennent de sources différentes et ne s'additionnent pas."
+ },
+ "The last census was in 1932": {
+  "ar": "آخر تعداد كان في ١٩٣٢",
+  "fr": "Le dernier recensement date de 1932"
+ },
+ "The war in numbers": {
+  "ar": "الحرب بالأرقام",
+  "fr": "La guerre en chiffres"
+ },
+ "These count every traveller, including Lebanese: it is not a tourism series.": {
+  "ar": "تُحصى فيها كل المسافرين ومنهم اللبنانيون: وليست سلسلة سياحة.",
+  "fr": "Tous les voyageurs sont comptés, Libanais compris : ce n'est pas une série touristique."
+ },
+ "This election was not held.": {
+  "ar": "لم تُجرَ هذه الانتخابات.",
+  "fr": "Cette élection n'a pas eu lieu."
+ },
+ "This place is not in the index.": {
+  "ar": "هذا المكان ليس في الفهرس.",
+  "fr": "Ce lieu n'est pas dans l'index."
+ },
+ "Timeline events that name this place": {
+  "ar": "أحداث الخط الزمني التي تذكر هذا المكان",
+  "fr": "Événements de la chronologie qui nomment ce lieu"
+ },
+ "Total": {
+  "ar": "المجموع",
+  "fr": "Total"
+ },
+ "Turnout": {
+  "ar": "نسبة الاقتراع",
+  "fr": "Participation"
+ },
+ "Turnout by district": {
+  "ar": "نسبة الاقتراع بحسب القضاء",
+  "fr": "Participation par district"
+ },
+ "Turnout over time": {
+  "ar": "نسبة الاقتراع عبر الزمن",
+  "fr": "Participation au fil du temps"
+ },
+ "Two linked wars: the war that began on 8 October 2023 and was suspended by the November 2024 ceasefire, and the war that began on 2 March 2026. Figures come from the health ministry, the UN and humanitarian agencies, and are revised as they are verified.": {
+  "ar": "حربان مترابطتان: الحرب التي بدأت في ٨ تشرين الأول ٢٠٢٣ وعُلّقت بوقف إطلاق النار في تشرين الثاني ٢٠٢٤، والحرب التي بدأت في ٢ آذار ٢٠٢٦. تأتي الأرقام من وزارة الصحة والأمم المتحدة والوكالات الإنسانية، وتُراجَع كلما جرى التحقق منها.",
+  "fr": "Deux guerres liées : celle qui a commencé le 8 octobre 2023 et a été suspendue par le cessez-le-feu de novembre 2024, et celle qui a commencé le 2 mars 2026. Les chiffres viennent du ministère de la Santé, de l'ONU et des agences humanitaires, et sont révisés à mesure qu'ils sont vérifiés."
+ },
+ "UN DESA, {y}": {
+  "ar": "إدارة الشؤون الاقتصادية والاجتماعية بالأمم المتحدة، {y}",
+  "fr": "ONU DAES, {y}"
+ },
+ "UN DESA, {y} (an undercount)": {
+  "ar": "إدارة الشؤون الاقتصادية والاجتماعية بالأمم المتحدة، {y} (أقل من الواقع)",
+  "fr": "ONU DAES, {y} (sous-estimation)"
+ },
+ "UN Secretary-General reports under resolution 1701; periods are about four months.": {
+  "ar": "تقارير الأمين العام للأمم المتحدة بموجب القرار ١٧٠١؛ والفترات نحو أربعة أشهر.",
+  "fr": "Rapports du Secrétaire général de l'ONU au titre de la résolution 1701 ; les périodes durent environ quatre mois."
+ },
+ "UN World Population Prospects 2024, {y}": {
+  "ar": "آفاق سكان العالم ٢٠٢٤ للأمم المتحدة، {y}",
+  "fr": "Perspectives de la population mondiale 2024 de l'ONU, {y}"
+ },
+ "UNHCR registration for the cadaster, from the INFORM Lebanon 2015 indicators. No open count by cadaster is published for later years; see People for the district figures of 2026.": {
+  "ar": "تسجيل المفوضية للعقار، من مؤشرات «إنفورم» لبنان ٢٠١٥. لا يُنشر أي عدد مفتوح بحسب العقار للسنوات اللاحقة؛ انظر «السكان» لأرقام الأقضية في ٢٠٢٦.",
+  "fr": "Enregistrement du HCR pour le cadastre, tiré des indicateurs INFORM Liban 2015. Aucun chiffre ouvert par cadastre n'est publié pour les années suivantes ; voir Population pour les chiffres des districts en 2026."
+ },
+ "UNHCR, end {y}": {
+  "ar": "المفوضية، نهاية {y}",
+  "fr": "HCR, fin {y}"
+ },
+ "UNIFIL: air violations": {
+  "ar": "اليونيفيل: الانتهاكات الجوية",
+  "fr": "FINUL : violations aériennes"
+ },
+ "UNIFIL: denied freedom of movement": {
+  "ar": "اليونيفيل: منع حرية الحركة",
+  "fr": "FINUL : entraves à la liberté de mouvement"
+ },
+ "Union of municipalities": {
+  "ar": "اتحاد البلديات",
+  "fr": "Union de municipalités"
+ },
+ "Unit": {
+  "ar": "الوحدة",
+  "fr": "Unité"
+ },
+ "Voters": {
+  "ar": "المقترعون",
+  "fr": "Votants"
+ },
+ "Votes": {
+  "ar": "الأصوات",
+  "fr": "Voix"
+ },
+ "Votes are preferential votes for each candidate (list votes in the table above).": {
+  "ar": "الأصوات هي الأصوات التفضيلية لكل مرشح (أصوات اللوائح في الجدول أعلاه).",
+  "fr": "Les voix sont les voix préférentielles de chaque candidat (voix de liste dans le tableau ci-dessus)."
+ },
+ "WHO counts are revised after verification: 53 killed on 24 March became 42 on 27 March.": {
+  "ar": "تُراجَع أرقام منظمة الصحة العالمية بعد التحقق: ٥٣ قتيلاً في ٢٤ آذار أصبحوا ٤٢ في ٢٧ آذار.",
+  "fr": "Les chiffres de l'OMS sont révisés après vérification : 53 morts le 24 mars sont devenus 42 le 27 mars."
+ },
+ "Where one map district belongs to more than one electoral district (Beirut, and Saida under Law 44/2017), the map shows their combined figure.": {
+  "ar": "حين ينتمي قضاء على الخريطة إلى أكثر من دائرة انتخابية (بيروت، وصيدا بموجب القانون ٤٤/٢٠١٧) تعرض الخريطة رقمهما المجمّع.",
+  "fr": "Lorsqu'un district de la carte appartient à plus d'une circonscription (Beyrouth, et Saïda selon la loi 44/2017), la carte montre leur chiffre combiné."
+ },
+ "Who lives in Lebanon, who was born, who left and who arrived. Lebanon has had no census since 1932, so every population figure is a model or an estimate, and the sources disagree on purpose.": {
+  "ar": "من يعيش في لبنان ومن وُلد ومن غادر ومن وصل. لم يُجرَ في لبنان تعداد منذ ١٩٣٢، فكل رقم سكاني نموذج أو تقدير، والمصادر تختلف عمداً.",
+  "fr": "Qui vit au Liban, qui est né, qui est parti et qui est arrivé. Le Liban n'a pas eu de recensement depuis 1932 : tout chiffre de population est un modèle ou une estimation, et les sources divergent."
+ },
+ "Women": {
+  "ar": "النساء",
+  "fr": "Femmes"
+ },
+ "Year-end 2025 reflects de-registration and returns; the planning figure counts 1.12 million Syrians present.": {
+  "ar": "تعكس نهاية ٢٠٢٥ شطب التسجيل والعودة؛ ويحسب رقم التخطيط ١٫١٢ مليون سوري حاضرين.",
+  "fr": "La fin 2025 reflète des radiations et des retours ; le chiffre de planification compte 1,12 million de Syriens présents."
+ },
+ "and OpenStreetMap contributors (ODbL 1.0), which makes this record share-alike": {
+  "ar": "ومساهمو OpenStreetMap (ODbL 1.0)، مما يجعل هذا السجل بالمثل",
+  "fr": "et les contributeurs d'OpenStreetMap (ODbL 1.0), ce qui rend cette fiche en partage à l'identique"
+ },
+ "another source: {n}": {
+  "ar": "مصدر آخر: {n}",
+  "fr": "autre source : {n}"
+ },
+ "camp": {
+  "ar": "مخيم",
+  "fr": "camp"
+ },
+ "city": {
+  "ar": "مدينة",
+  "fr": "ville"
+ },
+ "crossings a year, all travellers, Central Administration of Statistics": {
+  "ar": "عبور في السنة، كل المسافرين، الإدارة المركزية للإحصاء",
+  "fr": "passages par an, tous voyageurs, Administration centrale de la statistique"
+ },
+ "derived": {
+  "ar": "مشتقة",
+  "fr": "dérivée"
+ },
+ "districts": {
+  "ar": "الدوائر",
+  "fr": "districts"
+ },
+ "elected members": {
+  "ar": "النواب المنتخبون",
+  "fr": "élus"
+ },
+ "events a year, Central Administration of Statistics": {
+  "ar": "حالات في السنة، الإدارة المركزية للإحصاء",
+  "fr": "événements par an, Administration centrale de la statistique"
+ },
+ "facilities, WHO": {
+  "ar": "منشآت، منظمة الصحة العالمية",
+  "fr": "établissements, OMS"
+ },
+ "has the national figures: killed, displaced, returned, shelters and damage.": {
+  "ar": "فيها الأرقام الوطنية: القتلى والنازحون والعائدون ومراكز الإيواء والأضرار.",
+  "fr": "contient les chiffres nationaux : tués, déplacés, retours, centres d'hébergement et dommages."
+ },
+ "incidents a month": {
+  "ar": "حوادث في الشهر",
+  "fr": "incidents par mois"
+ },
+ "incidents a month, open sources": {
+  "ar": "حوادث في الشهر، مصادر مفتوحة",
+  "fr": "incidents par mois, sources ouvertes"
+ },
+ "lists": {
+  "ar": "اللوائح",
+  "fr": "listes"
+ },
+ "locality": {
+  "ar": "موقع",
+  "fr": "localité"
+ },
+ "municipalities": {
+  "ar": "بلدية",
+  "fr": "municipalités"
+ },
+ "names, codes and coordinates: OCHA and the Central Administration of Statistics (CC BY), OCHA COD-AB boundaries (CC BY-IGO), GeoNames (CC BY 4.0)": {
+  "ar": "الأسماء والرموز والإحداثيات: أوتشا والإدارة المركزية للإحصاء (CC BY)، حدود COD-AB من أوتشا (CC BY-IGO)، GeoNames (CC BY 4.0)",
+  "fr": "noms, codes et coordonnées : OCHA et l'Administration centrale de la statistique (CC BY), limites COD-AB d'OCHA (CC BY-IGO), GeoNames (CC BY 4.0)"
+ },
+ "neighbourhood": {
+  "ar": "حيّ",
+  "fr": "quartier"
+ },
+ "no figure": {
+  "ar": "لا رقم",
+  "fr": "pas de chiffre"
+ },
+ "not held": {
+  "ar": "لم تُجرَ",
+  "fr": "non tenue"
+ },
+ "not stated by the publisher": {
+  "ar": "غير مذكور من الناشر",
+  "fr": "non indiquée par l'éditeur"
+ },
+ "passengers a year": {
+  "ar": "ركّاب في السنة",
+  "fr": "passagers par an"
+ },
+ "people and facilities": {
+  "ar": "أشخاص ومنشآت",
+  "fr": "personnes et établissements"
+ },
+ "people counted, by nationality": {
+  "ar": "أشخاص مُحصَون بحسب الجنسية",
+  "fr": "personnes recensées, par nationalité"
+ },
+ "people, 2026 planning figures, OCHA Lebanon Response Plan package (CC BY)": {
+  "ar": "أشخاص، أرقام التخطيط لعام ٢٠٢٦، حزمة خطة الاستجابة للبنان من أوتشا (CC BY)",
+  "fr": "personnes, chiffres de planification 2026, paquet du Plan de réponse pour le Liban d'OCHA (CC BY)"
+ },
+ "people, Central Administration of Statistics": {
+  "ar": "أشخاص، الإدارة المركزية للإحصاء",
+  "fr": "personnes, Administration centrale de la statistique"
+ },
+ "people, UNHCR": {
+  "ar": "أشخاص، المفوضية",
+  "fr": "personnes, HCR"
+ },
+ "people, UNHCR portal, 2013 to June 2026": {
+  "ar": "أشخاص، بوابة المفوضية، من ٢٠١٣ إلى حزيران ٢٠٢٦",
+  "fr": "personnes, portail du HCR, de 2013 à juin 2026"
+ },
+ "people, cumulative from 8 October 2023, health ministry": {
+  "ar": "أشخاص، تراكمي منذ ٨ تشرين الأول ٢٠٢٣، وزارة الصحة",
+  "fr": "personnes, cumul depuis le 8 octobre 2023, ministère de la Santé"
+ },
+ "people, cumulative since 2 March 2026, WHO": {
+  "ar": "أشخاص، تراكمي منذ ٢ آذار ٢٠٢٦، منظمة الصحة العالمية",
+  "fr": "personnes, cumul depuis le 2 mars 2026, OMS"
+ },
+ "people, cumulative, health ministry": {
+  "ar": "أشخاص، تراكمي، وزارة الصحة",
+  "fr": "personnes, cumul, ministère de la Santé"
+ },
+ "people, year end, UNHCR": {
+  "ar": "أشخاص، نهاية السنة، المفوضية",
+  "fr": "personnes, fin d'année, HCR"
+ },
+ "per 1,000 people, UN estimate": {
+  "ar": "لكل ١٬٠٠٠ شخص، تقدير الأمم المتحدة",
+  "fr": "pour 1 000 personnes, estimation de l'ONU"
+ },
+ "points": {
+  "ar": "نقطة",
+  "fr": "points"
+ },
+ "registered with the authorities, 2026": {
+  "ar": "مسجّلون لدى السلطات، ٢٠٢٦",
+  "fr": "enregistrés auprès des autorités, 2026"
+ },
+ "shelters, and schools used as shelters": {
+  "ar": "مراكز إيواء ومدارس مستخدمة كمراكز إيواء",
+  "fr": "centres d'hébergement et écoles utilisées comme centres"
+ },
+ "source not linked": {
+  "ar": "المصدر غير مرتبط",
+  "fr": "source non liée"
+ },
+ "sources overlap; not a casualty count": {
+  "ar": "المصادر تتداخل؛ وليس إحصاء للضحايا",
+  "fr": "les sources se recoupent ; ce n'est pas un bilan des victimes"
+ },
+ "the {n} earliest are listed": {
+  "ar": "تُعرض الغارات الـ {n} الأقدم",
+  "fr": "les {n} plus anciennes sont listées"
+ },
+ "thousand people in five-year age groups, UN estimate": {
+  "ar": "ألف شخص في فئات عمرية من خمس سنوات، تقدير الأمم المتحدة",
+  "fr": "milliers de personnes par tranche de cinq ans, estimation de l'ONU"
+ },
+ "thousand people, UN estimate (projection after 2023)": {
+  "ar": "ألف شخص، تقدير الأمم المتحدة (إسقاط بعد ٢٠٢٣)",
+  "fr": "milliers de personnes, estimation de l'ONU (projection après 2023)"
+ },
+ "total fertility rate, UN estimate": {
+  "ar": "معدل الخصوبة الكلي، تقدير الأمم المتحدة",
+  "fr": "indice de fécondité, estimation de l'ONU"
+ },
+ "town": {
+  "ar": "بلدة",
+  "fr": "ville moyenne"
+ },
+ "turnout {n}": {
+  "ar": "نسبة الاقتراع {n}",
+  "fr": "participation {n}"
+ },
+ "village": {
+  "ar": "قرية",
+  "fr": "village"
+ },
+ "violations per Secretary-General reporting period": {
+  "ar": "انتهاكات لكل فترة تقرير للأمين العام",
+  "fr": "violations par période de rapport du Secrétaire général"
+ },
+ "weak unit or source": {
+  "ar": "وحدة أو مصدر ضعيف",
+  "fr": "unité ou source fragile"
+ },
+ "years, UN estimate": {
+  "ar": "سنوات، تقدير الأمم المتحدة",
+  "fr": "années, estimation de l'ONU"
+ },
+ "{a} of {b} places": {
+  "ar": "{a} من {b} مكاناً",
+  "fr": "{a} sur {b} lieux"
+ },
+ "{n} buildings completely destroyed, estimated from satellite imagery of {d}.": {
+  "ar": "{n} مبنى مدمّراً بالكامل، بتقدير من صور الأقمار الصناعية بتاريخ {d}.",
+  "fr": "{n} bâtiments entièrement détruits, estimés d'après l'imagerie satellite du {d}."
+ },
+ "{n} council members": {
+  "ar": "{n} عضواً في المجالس",
+  "fr": "{n} conseillers"
+ },
+ "{n} documented strikes": {
+  "ar": "{n} غارة موثّقة",
+  "fr": "{n} frappes documentées"
+ },
+ "{n} m": {
+  "ar": "{n} م",
+  "fr": "{n} m"
+ },
+ "{n} people": {
+  "ar": "{n} شخص",
+  "fr": "{n} personnes"
+ },
+ "{n} registered": {
+  "ar": "{n} مسجّلاً",
+  "fr": "{n} inscrits"
+ },
+ "{n} seats": {
+  "ar": "{n} مقعداً",
+  "fr": "{n} sièges"
+ },
+ "{n} strike": {
+  "ar": "غارة {n}",
+  "fr": "{n} frappe"
+ },
+ "{y} municipal": {
+  "ar": "بلدية {y}",
+  "fr": "municipales {y}"
+ },
+ "{y} parliamentary": {
+  "ar": "نيابية {y}",
+  "fr": "législatives {y}"
+ }
 }

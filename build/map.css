@@ -69,3 +69,19 @@
 
 /* wide screens: Lebanon is tall and narrow, so the map grows with the window height rather than stopping at 700px */
 @media (min-width:1400px){.mp-stage{height:clamp(560px,84vh,1500px)}}
+
+/* separate layer: attacks on health care, schools and aid (Insecurity Insight). Governorate shading sits under the strike points; none of it is part of a strike count. */
+.mp-att path{pointer-events:none}
+.mp-svg text.mp-att-n{font:700 12px var(--mono);fill:var(--sea);letter-spacing:0}
+.mp-ac-note p{margin:0}
+.mp-att-hint{color:var(--sea)}
+.mp-att-box{margin:20px 0 8px;padding:14px 16px;background:var(--paper);border:1px solid var(--rule-2);border-inline-start:4px solid var(--sea);border-radius:6px;min-width:0}
+.mp-att-box[hidden]{display:none}
+.mp-att-box .d-h{margin-top:0}
+.mp-att-box .chips{margin:10px 0}
+.mp-att-box .fb-t{margin:16px 0 4px}
+.mp-att-list{list-style:none;margin:0 0 12px;padding:0}
+.mp-att-list li{display:grid;grid-template-columns:128px minmax(0,1fr) minmax(0,1.7fr);gap:4px 14px;padding:9px 0;border-bottom:1px solid var(--rule);font:14px/1.4 var(--display)}
+.mp-att-list li.hub-empty{display:block}
+@media (max-width:560px){.mp-att-list li{grid-template-columns:minmax(0,1fr)}.mp-att-box{padding:12px}}
+.mp-att-box .fb-tbl tbody th{background:none}

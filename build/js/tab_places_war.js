@@ -51,7 +51,6 @@ function plWar(el) {
         (tb.notes ? `<p class="note">${esc(Array.isArray(tb.notes) ? tb.notes.map(x => t(x)).join(' ') : t(tb.notes))}</p>` : '') + `<p class="fb-src note">${esc(t('Source'))}: <a href="${esc(tb.source)}" target="_blank" rel="noopener noreferrer">${esc(fbHost(tb.source))}</a>. ${esc(t('Licence'))}: ${esc(tb.license && tb.license !== 'None' ? t(tb.license) : t(FB_UNSTATED))}.</p>`;
       g.appendChild(d);
     });
-    el.insertAdjacentHTML('beforeend', `<h4 class="fb-t pl-s">${esc(t('All series in this section'))}</h4><div id="warAll"></div><p class="note">${esc(t('Left out on purpose: IOM village-level data and totals (redistribution not allowed), ACLED (restrictive terms), and an incident sheet whose underlying source is not named.'))}</p>`);
-    fbBrowse($('#warAll'), ws.series || [], { per: 12 });
+    el.insertAdjacentHTML('beforeend', `<p class="note">${esc(t('Left out on purpose: IOM village-level data and totals (redistribution not allowed), ACLED (restrictive terms), and an incident sheet whose underlying source is not named.'))}</p>`);
   });
 }

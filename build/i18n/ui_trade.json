@@ -1,0 +1,714 @@
+{
+ "Trade & investment": {
+  "ar": "التجارة والاستثمار",
+  "fr": "Commerce et investissement"
+ },
+ "What Lebanon sells and buys abroad, with whom, and how much money comes in as investment. Each chart names its source and licence, and says when two sources measure the same thing differently.": {
+  "ar": "ما يبيعه لبنان ويشتريه من الخارج، ومع من، وكم من الأموال يدخل على شكل استثمار. يذكر كل رسم مصدره وترخيصه، وينبّه حين يقيس مصدران الشيء نفسه بطريقتين مختلفتين.",
+  "fr": "Ce que le Liban vend et achète à l'étranger, avec qui, et combien d'argent arrive sous forme d'investissement. Chaque graphique nomme sa source et sa licence, et signale quand deux sources mesurent la même chose différemment."
+ },
+ "No trade or investment data is in this build yet. When it is, you can see exports, imports, products, partners and investment.": {
+  "ar": "لا توجد بيانات عن التجارة أو الاستثمار في هذا الإصدار بعد. عند توفرها يمكنك الاطلاع على الصادرات والواردات والمنتجات والشركاء والاستثمار.",
+  "fr": "Cette version ne contient pas encore de données sur le commerce ou l'investissement. Elles permettront de voir les exportations, les importations, les produits, les partenaires et l'investissement."
+ },
+ "Overview": {
+  "ar": "نظرة عامة",
+  "fr": "Vue d'ensemble"
+ },
+ "By product": {
+  "ar": "حسب المنتج",
+  "fr": "Par produit"
+ },
+ "By partner": {
+  "ar": "حسب الشريك",
+  "fr": "Par partenaire"
+ },
+ "Customs monthly": {
+  "ar": "الجمارك شهرياً",
+  "fr": "Douanes, mensuel"
+ },
+ "Trade views": {
+  "ar": "عروض التجارة",
+  "fr": "Vues du commerce"
+ },
+ "Goods trade is shown from three sources that measure it differently: BACI (reconciled mirror data), Lebanese Customs and the World Bank (balance of payments). Their totals differ, so each chart names the measure it uses and the sources are never added together.": {
+  "ar": "تُعرض تجارة السلع من ثلاثة مصادر تقيسها بطرق مختلفة: BACI (بيانات مرآة مُسوّاة) والجمارك اللبنانية والبنك الدولي (ميزان المدفوعات). تختلف مجاميعها، لذلك يذكر كل رسم المقياس الذي يستخدمه ولا تُجمع المصادر معاً أبداً.",
+  "fr": "Le commerce des biens est présenté à partir de trois sources qui le mesurent différemment : BACI (données miroir rapprochées), les Douanes libanaises et la Banque mondiale (balance des paiements). Leurs totaux diffèrent ; chaque graphique nomme donc la mesure utilisée et les sources ne sont jamais additionnées."
+ },
+ "Exports": {
+  "ar": "الصادرات",
+  "fr": "Exportations"
+ },
+ "Imports": {
+  "ar": "الواردات",
+  "fr": "Importations"
+ },
+ "Goods: exports, imports and balance": {
+  "ar": "السلع: الصادرات والواردات والميزان",
+  "fr": "Biens : exportations, importations et solde"
+ },
+ "Exports (BACI)": {
+  "ar": "الصادرات (BACI)",
+  "fr": "Exportations (BACI)"
+ },
+ "Imports (BACI)": {
+  "ar": "الواردات (BACI)",
+  "fr": "Importations (BACI)"
+ },
+ "Balance, exports minus imports (BACI)": {
+  "ar": "الميزان: الصادرات ناقص الواردات (BACI)",
+  "fr": "Solde : exportations moins importations (BACI)"
+ },
+ "Goods only, from BACI: mirror data reconciled between Lebanon and its partners, in current US dollars. It is not the official trade balance.": {
+  "ar": "سلع فقط، من BACI: بيانات مرآة مُسوّاة بين لبنان وشركائه، بالدولار الأمريكي الجاري. وهي ليست الميزان التجاري الرسمي.",
+  "fr": "Biens uniquement, d'après BACI : données miroir rapprochées entre le Liban et ses partenaires, en dollars US courants. Ce n'est pas la balance commerciale officielle."
+ },
+ "{y}: exports {x}, imports {m}, balance {b}.": {
+  "ar": "{y}: الصادرات {x}، الواردات {m}، الميزان {b}.",
+  "fr": "{y} : exportations {x}, importations {m}, solde {b}."
+ },
+ "The same flow, four measures": {
+  "ar": "التدفق نفسه، أربعة مقاييس",
+  "fr": "Le même flux, quatre mesures"
+ },
+ "BACI, reconciled mirror data": {
+  "ar": "BACI، بيانات مرآة مُسوّاة",
+  "fr": "BACI, données miroir rapprochées"
+ },
+ "Lebanese Customs, special trade": {
+  "ar": "الجمارك اللبنانية، التجارة الخاصة",
+  "fr": "Douanes libanaises, commerce spécial"
+ },
+ "World Bank, balance of payments basis": {
+  "ar": "البنك الدولي، على أساس ميزان المدفوعات",
+  "fr": "Banque mondiale, base balance des paiements"
+ },
+ "World Bank, customs-based": {
+  "ar": "البنك الدولي، على أساس الجمارك",
+  "fr": "Banque mondiale, base douanière"
+ },
+ "{y}: {v}": {
+  "ar": "{y}: {v}",
+  "fr": "{y} : {v}"
+ },
+ "no value for {y}; latest {l}: {v}": {
+  "ar": "لا قيمة لعام {y}؛ آخر قيمة {l}: {v}",
+  "fr": "pas de valeur pour {y} ; dernière valeur {l} : {v}"
+ },
+ "BACI (reconciled mirror data), Lebanese Customs (special trade) and the World Bank (balance of payments, and a customs-based series) do not measure the same thing: scope and coverage differ, for example special versus general trade, re-exports and gold. Their {f} totals therefore differ, and no chart adds or averages them.": {
+  "ar": "لا تقيس BACI (بيانات مرآة مُسوّاة) والجمارك اللبنانية (التجارة الخاصة) والبنك الدولي (ميزان المدفوعات وسلسلة قائمة على الجمارك) الشيء نفسه: فالنطاق والتغطية يختلفان، مثل التجارة الخاصة مقابل العامة وإعادة التصدير والذهب. لذلك تختلف مجاميع {f} بينها، ولا يجمعها أي رسم أو يحسب متوسطها.",
+  "fr": "BACI (données miroir rapprochées), les Douanes libanaises (commerce spécial) et la Banque mondiale (balance des paiements, et une série d'origine douanière) ne mesurent pas la même chose : le champ et la couverture diffèrent, par exemple commerce spécial et commerce général, réexportations et or. Leurs totaux de {f} diffèrent donc, et aucun graphique ne les additionne ni ne les moyenne."
+ },
+ "Services and the current account": {
+  "ar": "الخدمات والحساب الجاري",
+  "fr": "Services et compte courant"
+ },
+ "Services exports": {
+  "ar": "صادرات الخدمات",
+  "fr": "Exportations de services"
+ },
+ "Services imports": {
+  "ar": "واردات الخدمات",
+  "fr": "Importations de services"
+ },
+ "Current account balance": {
+  "ar": "رصيد الحساب الجاري",
+  "fr": "Solde du compte courant"
+ },
+ "Balance of payments basis, current US dollars. Services are mostly travel and transport. A negative current account balance is a deficit.": {
+  "ar": "على أساس ميزان المدفوعات، بالدولار الأمريكي الجاري. الخدمات هي في معظمها سفر ونقل. الرصيد السالب للحساب الجاري يعني عجزاً.",
+  "fr": "Base balance des paiements, en dollars US courants. Les services sont surtout des voyages et des transports. Un solde négatif du compte courant est un déficit."
+ },
+ "Chapter": {
+  "ar": "الفصل",
+  "fr": "Chapitre"
+ },
+ "Chapters, {f}, {y}": {
+  "ar": "الفصول، {f}، {y}",
+  "fr": "Chapitres, {f}, {y}"
+ },
+ "{c} over time, {f}": {
+  "ar": "{c} عبر الزمن، {f}",
+  "fr": "{c} dans le temps, {f}"
+ },
+ "Top 25 products (HS6), {f}, {y}": {
+  "ar": "أعلى ٢٥ منتجاً (HS6)، {f}، {y}",
+  "fr": "25 premiers produits (HS6), {f}, {y}"
+ },
+ "BACI values are reconciled mirror data in current US dollars, so they differ from Lebanese Customs and from balance of payments figures. Re-exports and precious metals can make up large parts of the export lines. Product names are the HS92 names published by BACI, in English.": {
+  "ar": "قيم BACI بيانات مرآة مُسوّاة بالدولار الأمريكي الجاري، لذلك تختلف عن أرقام الجمارك اللبنانية وميزان المدفوعات. وقد تشكل إعادة التصدير والمعادن الثمينة أجزاء كبيرة من بنود الصادرات. أسماء المنتجات هي أسماء HS92 كما تنشرها BACI، بالإنكليزية.",
+  "fr": "Les valeurs BACI sont des données miroir rapprochées en dollars US courants ; elles diffèrent donc des chiffres des Douanes libanaises et de la balance des paiements. Les réexportations et les métaux précieux peuvent représenter une grande part des lignes d'exportation. Les noms de produits sont les libellés HS92 publiés par BACI, en anglais."
+ },
+ "Partners, {f}, {y}": {
+  "ar": "الشركاء، {f}، {y}",
+  "fr": "Partenaires, {f}, {y}"
+ },
+ "{p} over time, {f}": {
+  "ar": "{p} عبر الزمن، {f}",
+  "fr": "{p} dans le temps, {f}"
+ },
+ "Largest partners": {
+  "ar": "أكبر الشركاء",
+  "fr": "Principaux partenaires"
+ },
+ "World map: Lebanese partners shaded by value": {
+  "ar": "خريطة العالم: شركاء لبنان مظلَّلون حسب القيمة",
+  "fr": "Carte du monde : partenaires du Liban nuancés selon la valeur"
+ },
+ "Shading shows each partner's value for the year and flow chosen. Select a partner on the map or in the list to see it over time.": {
+  "ar": "يُظهر التظليل قيمة كل شريك للسنة والتدفق المختارين. اختر شريكاً على الخريطة أو في القائمة لرؤيته عبر الزمن.",
+  "fr": "La teinte indique la valeur de chaque partenaire pour l'année et le flux choisis. Choisissez un partenaire sur la carte ou dans la liste pour le voir dans le temps."
+ },
+ "BACI values are reconciled mirror data in current US dollars: a partner's figure can differ from what Lebanese Customs reports for the same partner. Natural Earth draws de facto boundaries; the Hub takes no position on them.": {
+  "ar": "قيم BACI بيانات مرآة مُسوّاة بالدولار الأمريكي الجاري: قد يختلف رقم الشريك عمّا تذكره الجمارك اللبنانية عن الشريك نفسه. ترسم Natural Earth حدوداً قائمة فعلياً ولا يتخذ المركز موقفاً منها.",
+  "fr": "Les valeurs BACI sont des données miroir rapprochées en dollars US courants : le chiffre d'un partenaire peut différer de celui des Douanes libanaises pour le même partenaire. Natural Earth trace des frontières de fait ; le Hub ne prend aucune position à leur sujet."
+ },
+ "Monthly totals, Lebanese Customs": {
+  "ar": "المجاميع الشهرية، الجمارك اللبنانية",
+  "fr": "Totaux mensuels, Douanes libanaises"
+ },
+ "Special trade, as the Customs Administration publishes it, in US dollars. Imports are published to {m} and exports to {x}. Customs also publishes a weight, but its unit is not stated on the source page and could not be confirmed, so weight is left out here.": {
+  "ar": "التجارة الخاصة كما تنشرها إدارة الجمارك، بالدولار الأمريكي. تُنشر الواردات حتى {m} والصادرات حتى {x}. تنشر الجمارك أيضاً وزناً، لكن وحدته غير مذكورة في صفحة المصدر ولم يمكن التأكد منها، لذلك لم يُدرج الوزن هنا.",
+  "fr": "Commerce spécial, tel que publié par l'administration des Douanes, en dollars US. Les importations sont publiées jusqu'à {m} et les exportations jusqu'à {x}. Les Douanes publient aussi un poids, mais son unité n'est pas indiquée sur la page source et n'a pas pu être confirmée ; le poids est donc laissé de côté."
+ },
+ "{y} is year to date for this flow.": {
+  "ar": "{y} هي السنة حتى تاريخه لهذا التدفق.",
+  "fr": "{y} est une année partielle (à ce jour) pour ce flux."
+ },
+ "Foreign direct investment: net inflows and outflows": {
+  "ar": "الاستثمار الأجنبي المباشر: صافي التدفقات الداخلة والخارجة",
+  "fr": "Investissement direct étranger : entrées et sorties nettes"
+ },
+ "Inflows": {
+  "ar": "التدفقات الداخلة",
+  "fr": "Entrées"
+ },
+ "Outflows": {
+  "ar": "التدفقات الخارجة",
+  "fr": "Sorties"
+ },
+ "UNCTAD": {
+  "ar": "UNCTAD",
+  "fr": "CNUCED"
+ },
+ "World Bank (balance of payments)": {
+  "ar": "البنك الدولي (ميزان المدفوعات)",
+  "fr": "Banque mondiale (balance des paiements)"
+ },
+ "The two sources differ and are never added or averaged. For example in {y}, UNCTAD reports {u} and the World Bank {w}.": {
+  "ar": "يختلف المصدران ولا يُجمعان ولا يُحسب متوسطهما. مثلاً في {y}، تذكر UNCTAD {u} ويذكر البنك الدولي {w}.",
+  "fr": "Les deux sources diffèrent et ne sont jamais additionnées ni moyennées. Par exemple en {y}, la CNUCED indique {u} et la Banque mondiale {w}."
+ },
+ "US$ {n} million": {
+  "ar": "{n} مليون دولار أمريكي",
+  "fr": "{n} millions de dollars US"
+ },
+ "Foreign direct investment: stock": {
+  "ar": "الاستثمار الأجنبي المباشر: الرصيد",
+  "fr": "Investissement direct étranger : stock"
+ },
+ "Inward stock": {
+  "ar": "الرصيد الوارد",
+  "fr": "Stock entrant"
+ },
+ "Outward stock": {
+  "ar": "الرصيد الصادر",
+  "fr": "Stock sortant"
+ },
+ "Gross fixed capital formation": {
+  "ar": "إجمالي تكوين رأس المال الثابت",
+  "fr": "Formation brute de capital fixe"
+ },
+ "Percent of GDP": {
+  "ar": "نسبة من الناتج المحلي",
+  "fr": "Pourcentage du PIB"
+ },
+ "As published by the World Bank; the fall from 2020 (to {p} of GDP in {y}) has not been checked against a second source.": {
+  "ar": "كما نشره البنك الدولي؛ ولم يُتحقق من الانخفاض منذ ٢٠٢٠ (إلى {p} من الناتج المحلي في {y}) بمصدر ثانٍ.",
+  "fr": "Tel que publié par la Banque mondiale ; la baisse depuis 2020 (à {p} du PIB en {y}) n'a pas été vérifiée auprès d'une seconde source."
+ },
+ "Projects granted IDAL incentives, by year": {
+  "ar": "المشاريع التي منحتها إيدال حوافز، حسب السنة",
+  "fr": "Projets bénéficiant d'incitations d'IDAL, par année"
+ },
+ "Investment size and jobs of projects that received incentives under the investment law, as IDAL publishes them. These are approvals, not total investment in Lebanon. IDAL does not publish 2008 and 2013.": {
+  "ar": "حجم الاستثمار وفرص العمل في المشاريع التي نالت حوافز بموجب قانون الاستثمار، كما تنشرها إيدال. هذه موافقات وليست إجمالي الاستثمار في لبنان. ولا تنشر إيدال عامي ٢٠٠٨ و٢٠١٣.",
+  "fr": "Montant d'investissement et emplois des projets ayant reçu des incitations en vertu de la loi sur l'investissement, tels que publiés par IDAL. Ce sont des approbations, pas l'investissement total au Liban. IDAL ne publie pas 2008 ni 2013."
+ },
+ "Sectors, {y}": {
+  "ar": "القطاعات، {y}",
+  "fr": "Secteurs, {y}"
+ },
+ "{n} jobs": {
+  "ar": "{n} وظيفة",
+  "fr": "{n} emplois"
+ },
+ "not published": {
+  "ar": "غير منشور",
+  "fr": "non publié"
+ },
+ "Direct investment positions by partner economy": {
+  "ar": "أرصدة الاستثمار المباشر حسب اقتصاد الشريك",
+  "fr": "Positions d'investissement direct par économie partenaire"
+ },
+ "The partner economy (about its investment in Lebanon)": {
+  "ar": "اقتصاد الشريك (عن استثماره في لبنان)",
+  "fr": "L'économie partenaire (sur son investissement au Liban)"
+ },
+ "Lebanon (about investment received)": {
+  "ar": "لبنان (عن الاستثمار الوارد إليه)",
+  "fr": "Le Liban (sur l'investissement reçu)"
+ },
+ "All partners together, as reported: {v}": {
+  "ar": "جميع الشركاء معاً كما أُبلغ: {v}",
+  "fr": "Tous les partenaires ensemble, tel que déclaré : {v}"
+ },
+ "Positions are stocks at year end in US dollars, not annual flows, and are net of the other direction. The IMF terms do not allow redistribution, so this chart is shown with attribution and there is no download. Lebanon reports many gaps, and 2023 and 2024 cover fewer partners. Regional groups overlap with countries and are not shown.": {
+  "ar": "الأرصدة هي مخزونات في نهاية السنة بالدولار الأمريكي وليست تدفقات سنوية، وهي صافية من الاتجاه المقابل. لا تسمح شروط صندوق النقد الدولي بإعادة النشر، لذلك يُعرض هذا الرسم مع الإسناد ولا يتوفر تنزيل. يُبلغ لبنان عن فجوات كثيرة، وتغطي سنتا ٢٠٢٣ و٢٠٢٤ عدداً أقل من الشركاء. المجموعات الإقليمية تتداخل مع البلدان ولا تُعرض.",
+  "fr": "Les positions sont des stocks en fin d'année en dollars US, pas des flux annuels, et sont nettes de l'autre sens. Les conditions du FMI n'autorisent pas la redistribution : ce graphique est donc montré avec attribution et sans téléchargement. Le Liban déclare de nombreuses lacunes, et 2023 et 2024 couvrent moins de partenaires. Les groupes régionaux recoupent les pays et ne sont pas montrés."
+ },
+ "Venture funding into Lebanese startups, by year": {
+  "ar": "التمويل الاستثماري المخاطر في الشركات الناشئة اللبنانية، حسب السنة",
+  "fr": "Capital-risque investi dans les startups libanaises, par année"
+ },
+ "no figure found": {
+  "ar": "لا رقم متوفر",
+  "fr": "aucun chiffre trouvé"
+ },
+ "weak source": {
+  "ar": "مصدر ضعيف",
+  "fr": "source fragile"
+ },
+ "{n} deals": {
+  "ar": "{n} صفقة",
+  "fr": "{n} transactions"
+ },
+ "Headline figures as published, marked reported: they come from press and report summaries, not from one dataset. Years with no free published total are shown as gaps, not as zero.": {
+  "ar": "أرقام رئيسية كما نُشرت، وموسومة بأنها مُبلَّغ عنها: مصدرها ملخصات صحفية وتقارير وليست مجموعة بيانات واحدة. السنوات التي لا يتوفر لها مجموع منشور مجاناً تظهر كفجوات لا كأصفار.",
+  "fr": "Chiffres principaux tels que publiés, marqués comme déclarés : ils viennent de résumés de presse et de rapports, pas d'un seul jeu de données. Les années sans total publié gratuitement apparaissent comme des lacunes, pas comme des zéros."
+ },
+ "Individual startups are on the Companies tab.": {
+  "ar": "الشركات الناشئة منفردةً في تبويب الشركات.",
+  "fr": "Les startups, une par une, sont dans l'onglet Entreprises."
+ },
+ "Live animals": {
+  "ar": "حيوانات حية",
+  "fr": "Animaux vivants"
+ },
+ "Meat and edible meat offal": {
+  "ar": "اللحوم وأحشاء اللحوم الصالحة للأكل",
+  "fr": "Viandes et abats comestibles"
+ },
+ "Fish and aquatic invertebrates": {
+  "ar": "الأسماك واللافقاريات المائية",
+  "fr": "Poissons et invertébrés aquatiques"
+ },
+ "Dairy, eggs, honey": {
+  "ar": "الألبان والبيض والعسل",
+  "fr": "Produits laitiers, œufs, miel"
+ },
+ "Other animal products": {
+  "ar": "منتجات حيوانية أخرى",
+  "fr": "Autres produits d'origine animale"
+ },
+ "Live plants, cut flowers": {
+  "ar": "نباتات حية وأزهار مقطوفة",
+  "fr": "Plantes vivantes, fleurs coupées"
+ },
+ "Edible vegetables": {
+  "ar": "خضروات صالحة للأكل",
+  "fr": "Légumes comestibles"
+ },
+ "Edible fruit and nuts": {
+  "ar": "فواكه ومكسرات صالحة للأكل",
+  "fr": "Fruits et fruits à coque comestibles"
+ },
+ "Coffee, tea, spices": {
+  "ar": "القهوة والشاي والتوابل",
+  "fr": "Café, thé, épices"
+ },
+ "Cereals": {
+  "ar": "الحبوب",
+  "fr": "Céréales"
+ },
+ "Milling products, malt, starches": {
+  "ar": "منتجات الطحن والشعير المنبت والنشويات",
+  "fr": "Produits de la minoterie, malt, amidons"
+ },
+ "Oil seeds, miscellaneous grains and fruits": {
+  "ar": "بذور زيتية وحبوب وثمار متنوعة",
+  "fr": "Graines oléagineuses, grains et fruits divers"
+ },
+ "Lac, gums, resins": {
+  "ar": "اللك والصموغ والراتنجات",
+  "fr": "Gomme laque, gommes, résines"
+ },
+ "Vegetable plaiting materials": {
+  "ar": "مواد نباتية للضفر",
+  "fr": "Matières à tresser d'origine végétale"
+ },
+ "Animal and vegetable fats and oils": {
+  "ar": "الدهون والزيوت الحيوانية والنباتية",
+  "fr": "Graisses et huiles animales et végétales"
+ },
+ "Preparations of meat and fish": {
+  "ar": "محضرات اللحوم والأسماك",
+  "fr": "Préparations de viandes et de poissons"
+ },
+ "Sugars and sugar confectionery": {
+  "ar": "السكر وحلويات السكر",
+  "fr": "Sucres et sucreries"
+ },
+ "Cocoa and cocoa preparations": {
+  "ar": "الكاكاو ومحضراته",
+  "fr": "Cacao et préparations au cacao"
+ },
+ "Preparations of cereals, flour, starch, milk": {
+  "ar": "محضرات الحبوب والدقيق والنشا والحليب",
+  "fr": "Préparations à base de céréales, farine, amidon, lait"
+ },
+ "Preparations of vegetables, fruit, nuts": {
+  "ar": "محضرات الخضروات والفواكه والمكسرات",
+  "fr": "Préparations de légumes, fruits, fruits à coque"
+ },
+ "Miscellaneous edible preparations": {
+  "ar": "محضرات غذائية متنوعة",
+  "fr": "Préparations alimentaires diverses"
+ },
+ "Beverages, spirits and vinegar": {
+  "ar": "المشروبات والكحوليات والخل",
+  "fr": "Boissons, spiritueux et vinaigres"
+ },
+ "Residues of food industries, animal feed": {
+  "ar": "مخلفات الصناعات الغذائية وأعلاف الحيوان",
+  "fr": "Résidus des industries alimentaires, aliments pour animaux"
+ },
+ "Tobacco and manufactured substitutes": {
+  "ar": "التبغ وبدائله المصنّعة",
+  "fr": "Tabacs et succédanés de tabac fabriqués"
+ },
+ "Salt, sulphur, earths, stone, lime, cement": {
+  "ar": "الملح والكبريت والأتربة والحجر والكلس والإسمنت",
+  "fr": "Sel, soufre, terres, pierres, chaux, ciments"
+ },
+ "Ores, slag and ash": {
+  "ar": "الخامات والخبث والرماد",
+  "fr": "Minerais, scories et cendres"
+ },
+ "Mineral fuels, oils and products": {
+  "ar": "الوقود المعدني والزيوت ومنتجاتها",
+  "fr": "Combustibles minéraux, huiles et produits"
+ },
+ "Inorganic chemicals": {
+  "ar": "مواد كيميائية غير عضوية",
+  "fr": "Produits chimiques inorganiques"
+ },
+ "Organic chemicals": {
+  "ar": "مواد كيميائية عضوية",
+  "fr": "Produits chimiques organiques"
+ },
+ "Pharmaceutical products": {
+  "ar": "المنتجات الصيدلانية",
+  "fr": "Produits pharmaceutiques"
+ },
+ "Fertilisers": {
+  "ar": "الأسمدة",
+  "fr": "Engrais"
+ },
+ "Tanning and dyeing extracts, paints": {
+  "ar": "مستخلصات الدباغة والصباغة والدهانات",
+  "fr": "Extraits tannants et tinctoriaux, peintures"
+ },
+ "Essential oils, perfumery, cosmetics": {
+  "ar": "الزيوت العطرية والعطور ومستحضرات التجميل",
+  "fr": "Huiles essentielles, parfumerie, cosmétiques"
+ },
+ "Soap, waxes, candles": {
+  "ar": "الصابون والشموع والأشمعة",
+  "fr": "Savons, cires, bougies"
+ },
+ "Albuminoidal substances, glues, enzymes": {
+  "ar": "مواد زلالية وصموغ وإنزيمات",
+  "fr": "Matières albuminoïdes, colles, enzymes"
+ },
+ "Explosives, pyrotechnics, matches": {
+  "ar": "المتفجرات والألعاب النارية وأعواد الثقاب",
+  "fr": "Explosifs, pyrotechnie, allumettes"
+ },
+ "Photographic or cinematographic goods": {
+  "ar": "سلع التصوير والسينما",
+  "fr": "Produits photographiques ou cinématographiques"
+ },
+ "Miscellaneous chemical products": {
+  "ar": "منتجات كيميائية متنوعة",
+  "fr": "Produits chimiques divers"
+ },
+ "Plastics and articles thereof": {
+  "ar": "اللدائن ومصنوعاتها",
+  "fr": "Matières plastiques et ouvrages en ces matières"
+ },
+ "Rubber and articles thereof": {
+  "ar": "المطاط ومصنوعاته",
+  "fr": "Caoutchouc et ouvrages en caoutchouc"
+ },
+ "Raw hides and skins, leather": {
+  "ar": "جلود خام ومدبوغة",
+  "fr": "Peaux brutes, cuirs"
+ },
+ "Articles of leather, travel goods": {
+  "ar": "مصنوعات جلدية وأدوات سفر",
+  "fr": "Ouvrages en cuir, articles de voyage"
+ },
+ "Furskins and artificial fur": {
+  "ar": "فراء وفراء اصطناعي",
+  "fr": "Pelleteries et fourrures artificielles"
+ },
+ "Wood and articles of wood": {
+  "ar": "الخشب ومصنوعاته",
+  "fr": "Bois et ouvrages en bois"
+ },
+ "Cork and articles of cork": {
+  "ar": "الفلين ومصنوعاته",
+  "fr": "Liège et ouvrages en liège"
+ },
+ "Straw, basketware": {
+  "ar": "القش والسلال",
+  "fr": "Paille, vannerie"
+ },
+ "Pulp of wood": {
+  "ar": "عجينة الخشب",
+  "fr": "Pâtes de bois"
+ },
+ "Paper and paperboard": {
+  "ar": "الورق والكرتون",
+  "fr": "Papiers et cartons"
+ },
+ "Printed books, newspapers": {
+  "ar": "الكتب والصحف المطبوعة",
+  "fr": "Livres imprimés, journaux"
+ },
+ "Silk": {
+  "ar": "الحرير",
+  "fr": "Soie"
+ },
+ "Wool and fine animal hair": {
+  "ar": "الصوف وشعر الحيوانات الناعم",
+  "fr": "Laine et poils fins"
+ },
+ "Cotton": {
+  "ar": "القطن",
+  "fr": "Coton"
+ },
+ "Other vegetable textile fibres": {
+  "ar": "ألياف نسيجية نباتية أخرى",
+  "fr": "Autres fibres textiles végétales"
+ },
+ "Man-made filaments": {
+  "ar": "خيوط اصطناعية",
+  "fr": "Filaments synthétiques ou artificiels"
+ },
+ "Man-made staple fibres": {
+  "ar": "ألياف اصطناعية قصيرة",
+  "fr": "Fibres synthétiques ou artificielles discontinues"
+ },
+ "Wadding, felt, nonwovens, cordage": {
+  "ar": "حشوات ولباد ومنسوجات غير منسوجة وحبال",
+  "fr": "Ouates, feutres, non-tissés, cordages"
+ },
+ "Carpets and floor coverings": {
+  "ar": "السجاد وأغطية الأرضيات",
+  "fr": "Tapis et revêtements de sol"
+ },
+ "Special woven fabrics, lace, embroidery": {
+  "ar": "أقمشة منسوجة خاصة ودانتيل وتطريز",
+  "fr": "Tissus spéciaux, dentelles, broderies"
+ },
+ "Coated or laminated textile fabrics": {
+  "ar": "أقمشة منسوجة مطلية أو مصفحة",
+  "fr": "Tissus enduits ou stratifiés"
+ },
+ "Knitted or crocheted fabrics": {
+  "ar": "أقمشة محبوكة أو كروشيه",
+  "fr": "Étoffes de bonneterie"
+ },
+ "Apparel, knitted or crocheted": {
+  "ar": "ملابس محبوكة أو كروشيه",
+  "fr": "Vêtements en bonneterie"
+ },
+ "Apparel, not knitted or crocheted": {
+  "ar": "ملابس غير محبوكة",
+  "fr": "Vêtements autres qu'en bonneterie"
+ },
+ "Other made-up textile articles": {
+  "ar": "مصنوعات نسيجية جاهزة أخرى",
+  "fr": "Autres articles textiles confectionnés"
+ },
+ "Footwear": {
+  "ar": "الأحذية",
+  "fr": "Chaussures"
+ },
+ "Headgear": {
+  "ar": "أغطية الرأس",
+  "fr": "Coiffures"
+ },
+ "Umbrellas, walking sticks": {
+  "ar": "مظلات وعصي المشي",
+  "fr": "Parapluies, cannes"
+ },
+ "Prepared feathers, artificial flowers": {
+  "ar": "ريش مُعدّ وأزهار اصطناعية",
+  "fr": "Plumes apprêtées, fleurs artificielles"
+ },
+ "Articles of stone, plaster, cement": {
+  "ar": "مصنوعات من الحجر والجبس والإسمنت",
+  "fr": "Ouvrages en pierre, plâtre, ciment"
+ },
+ "Ceramic products": {
+  "ar": "منتجات خزفية",
+  "fr": "Produits céramiques"
+ },
+ "Glass and glassware": {
+  "ar": "الزجاج ومصنوعاته",
+  "fr": "Verre et ouvrages en verre"
+ },
+ "Pearls, precious stones and metals, jewellery": {
+  "ar": "اللؤلؤ والأحجار والمعادن الثمينة والمجوهرات",
+  "fr": "Perles, pierres et métaux précieux, bijouterie"
+ },
+ "Iron and steel": {
+  "ar": "الحديد والصلب",
+  "fr": "Fonte, fer et acier"
+ },
+ "Articles of iron or steel": {
+  "ar": "مصنوعات من الحديد أو الصلب",
+  "fr": "Ouvrages en fonte, fer ou acier"
+ },
+ "Copper and articles thereof": {
+  "ar": "النحاس ومصنوعاته",
+  "fr": "Cuivre et ouvrages en cuivre"
+ },
+ "Nickel and articles thereof": {
+  "ar": "النيكل ومصنوعاته",
+  "fr": "Nickel et ouvrages en nickel"
+ },
+ "Aluminium and articles thereof": {
+  "ar": "الألمنيوم ومصنوعاته",
+  "fr": "Aluminium et ouvrages en aluminium"
+ },
+ "Lead and articles thereof": {
+  "ar": "الرصاص ومصنوعاته",
+  "fr": "Plomb et ouvrages en plomb"
+ },
+ "Zinc and articles thereof": {
+  "ar": "الزنك ومصنوعاته",
+  "fr": "Zinc et ouvrages en zinc"
+ },
+ "Tin and articles thereof": {
+  "ar": "القصدير ومصنوعاته",
+  "fr": "Étain et ouvrages en étain"
+ },
+ "Other base metals, cermets": {
+  "ar": "معادن عادية أخرى وسيرميت",
+  "fr": "Autres métaux communs, cermets"
+ },
+ "Tools, cutlery of base metal": {
+  "ar": "أدوات وسكاكين من معادن عادية",
+  "fr": "Outils, coutellerie en métaux communs"
+ },
+ "Miscellaneous articles of base metal": {
+  "ar": "مصنوعات متنوعة من معادن عادية",
+  "fr": "Ouvrages divers en métaux communs"
+ },
+ "Machinery and mechanical appliances": {
+  "ar": "آلات وأجهزة ميكانيكية",
+  "fr": "Machines et appareils mécaniques"
+ },
+ "Electrical machinery and equipment": {
+  "ar": "آلات ومعدات كهربائية",
+  "fr": "Machines et appareils électriques"
+ },
+ "Railway locomotives and rolling stock": {
+  "ar": "قاطرات سكك الحديد وعرباتها",
+  "fr": "Locomotives et matériel roulant ferroviaire"
+ },
+ "Vehicles other than railway": {
+  "ar": "مركبات غير سكك الحديد",
+  "fr": "Véhicules autres que ferroviaires"
+ },
+ "Aircraft and spacecraft": {
+  "ar": "الطائرات والمركبات الفضائية",
+  "fr": "Aéronefs et engins spatiaux"
+ },
+ "Ships, boats": {
+  "ar": "السفن والقوارب",
+  "fr": "Navires, bateaux"
+ },
+ "Optical, medical and measuring instruments": {
+  "ar": "أدوات بصرية وطبية وقياس",
+  "fr": "Instruments optiques, médicaux et de mesure"
+ },
+ "Clocks and watches": {
+  "ar": "الساعات",
+  "fr": "Horlogerie"
+ },
+ "Musical instruments": {
+  "ar": "الآلات الموسيقية",
+  "fr": "Instruments de musique"
+ },
+ "Arms and ammunition": {
+  "ar": "الأسلحة والذخائر",
+  "fr": "Armes et munitions"
+ },
+ "Furniture, bedding, lighting": {
+  "ar": "الأثاث والفراش والإضاءة",
+  "fr": "Meubles, literie, éclairage"
+ },
+ "Toys, games, sports equipment": {
+  "ar": "الألعاب ومعدات الرياضة",
+  "fr": "Jouets, jeux, articles de sport"
+ },
+ "Miscellaneous manufactured articles": {
+  "ar": "مصنوعات متنوعة",
+  "fr": "Ouvrages divers"
+ },
+ "Works of art, collectors' pieces, antiques": {
+  "ar": "أعمال فنية وقطع للهواة وتحف",
+  "fr": "Objets d'art, de collection ou d'antiquité"
+ },
+ "Special classification provisions": {
+  "ar": "أحكام تصنيف خاصة",
+  "fr": "Dispositions spéciales de classification"
+ },
+ "Tourism": {
+  "ar": "السياحة",
+  "fr": "Tourisme"
+ },
+ "Industry": {
+  "ar": "الصناعة",
+  "fr": "Industrie"
+ },
+ "Agri-Food": {
+  "ar": "الزراعة والأغذية",
+  "fr": "Agroalimentaire"
+ },
+ "Agriculture": {
+  "ar": "الزراعة",
+  "fr": "Agriculture"
+ },
+ "ICT": {
+  "ar": "تكنولوجيا المعلومات والاتصالات",
+  "fr": "TIC"
+ },
+ "Technology": {
+  "ar": "التكنولوجيا",
+  "fr": "Technologie"
+ },
+ "Telecommunication": {
+  "ar": "الاتصالات",
+  "fr": "Télécommunications"
+ },
+ "Media": {
+  "ar": "الإعلام",
+  "fr": "Médias"
+ }
+}

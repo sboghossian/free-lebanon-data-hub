@@ -1,0 +1,1010 @@
+{
+ "(Historic)Electric Power & Other Energy": {
+  "ar": "(تاريخي) الطاقة الكهربائية وطاقة أخرى",
+  "fr": "(Historique) Électricité et autres énergies"
+ },
+ "(Historic)Multisector": {
+  "ar": "(تاريخي) متعدد القطاعات",
+  "fr": "(Historique) Multisectoriel"
+ },
+ "(part of the year)": {
+  "ar": "(جزء من السنة)",
+  "fr": "(une partie de l'année)"
+ },
+ "Active": {
+  "ar": "نشط",
+  "fr": "Actif"
+ },
+ "Active and closed projects with an approval date and a commitment. Additional-financing projects can repeat the commitment of the project they extend, so read the bars as an upper bound, not a total.": {
+  "ar": "المشاريع النشطة والمغلقة التي لها تاريخ موافقة والتزام مالي. قد تكرّر مشاريع التمويل الإضافي التزام المشروع الذي تمدّده، لذا تُقرأ الأعمدة كحدّ أعلى لا كمجموع.",
+  "fr": "Projets actifs et clos ayant une date d'approbation et un engagement. Les projets de financement additionnel peuvent reprendre l'engagement du projet qu'ils prolongent : lisez les barres comme un plafond, pas comme un total."
+ },
+ "Agriculture, Fishing and Forestry": {
+  "ar": "الزراعة وصيد الأسماك والحراجة",
+  "fr": "Agriculture, pêche et foresterie"
+ },
+ "Aid & NGOs": {
+  "ar": "المساعدات والمنظمات غير الحكومية",
+  "fr": "Aide et ONG"
+ },
+ "Aid over time": {
+  "ar": "المساعدات عبر السنوات",
+  "fr": "L'aide au fil du temps"
+ },
+ "All populations": {
+  "ar": "جميع الفئات السكانية",
+  "fr": "Toutes les populations"
+ },
+ "All sectors": {
+  "ar": "كل القطاعات",
+  "fr": "Tous les secteurs"
+ },
+ "Any month, {a} to {b}": {
+  "ar": "أي شهر، من {a} إلى {b}",
+  "fr": "N'importe quel mois, de {a} à {b}"
+ },
+ "Appeals": {
+  "ar": "النداءات",
+  "fr": "Appels"
+ },
+ "Appeals are what the UN and its partners asked donors for. The share funded is funding reported to FTS divided by what was asked. Regional refugee plans cover several countries: their bars are whole-plan figures, and the Lebanon part is shown where OCHA gives it.": {
+  "ar": "النداءات هي ما طلبته الأمم المتحدة وشركاؤها من المانحين. نسبة التمويل هي التمويل المُبلَّغ عنه إلى FTS مقسومًا على المبلغ المطلوب. خطط اللاجئين الإقليمية تشمل عدة بلدان: أعمدتها تعرض أرقام الخطة كاملة، ويظهر الجزء الخاص بلبنان حيث يوفّره OCHA.",
+  "fr": "Les appels sont ce que l'ONU et ses partenaires ont demandé aux donateurs. La part financée est le financement déclaré au FTS divisé par le montant demandé. Les plans régionaux pour les réfugiés couvrent plusieurs pays : leurs barres montrent les chiffres du plan entier, et la part du Liban est indiquée lorsque l'OCHA la donne."
+ },
+ "Appeals for Lebanon only": {
+  "ar": "نداءات خاصة بلبنان وحده",
+  "fr": "Appels pour le Liban seul"
+ },
+ "Approval planned {d}": {
+  "ar": "الموافقة مقرَّرة في {d}",
+  "fr": "Approbation prévue le {d}"
+ },
+ "Approved {d}": {
+  "ar": "أُقرّ في {d}",
+  "fr": "Approuvé le {d}"
+ },
+ "Asked for": {
+  "ar": "المطلوب",
+  "fr": "Demandé"
+ },
+ "Asked for {a}. Funding reported: {b}.": {
+  "ar": "المطلوب {a}. التمويل المُبلَّغ عنه: {b}.",
+  "fr": "Demandé : {a}. Financement déclaré : {b}."
+ },
+ "Asked for {a}. Funding reported: {b}. {c} funded.": {
+  "ar": "المطلوب {a}. التمويل المُبلَّغ عنه: {b}. نسبة التمويل {c}.",
+  "fr": "Demandé : {a}. Financement déclaré : {b}. Financé à {c}."
+ },
+ "Basic Assistance": {
+  "ar": "المساعدة الأساسية",
+  "fr": "Aide de base"
+ },
+ "Basic assistance": {
+  "ar": "المساعدة الأساسية",
+  "fr": "Aide de base"
+ },
+ "By type of donor": {
+  "ar": "حسب نوع المانح",
+  "fr": "Par type de donateur"
+ },
+ "By type of recipient": {
+  "ar": "حسب نوع المتلقّي",
+  "fr": "Par type de bénéficiaire"
+ },
+ "Camp coordination and management": {
+  "ar": "تنسيق وإدارة المخيمات",
+  "fr": "Coordination et gestion des camps"
+ },
+ "Cash programming": {
+  "ar": "برامج المساعدة النقدية",
+  "fr": "Programmes d'aide en espèces"
+ },
+ "Child protection": {
+  "ar": "حماية الطفل",
+  "fr": "Protection de l'enfance"
+ },
+ "Closed": {
+  "ar": "مغلق",
+  "fr": "Clos"
+ },
+ "Columns of commitments by year, {a} to {b}. The largest is {y}: {v}.": {
+  "ar": "أعمدة الالتزامات حسب السنة، من {a} إلى {b}. الأكبر هو {y}: {v}.",
+  "fr": "Colonnes des engagements par année, de {a} à {b}. Le plus élevé est {y} : {v}."
+ },
+ "Constant 2024 prices": {
+  "ar": "بأسعار ٢٠٢٤ الثابتة",
+  "fr": "Prix constants de 2024"
+ },
+ "Country-based UN Pooled Funds": {
+  "ar": "صناديق الأمم المتحدة المشتركة القُطرية",
+  "fr": "Fonds communs des Nations Unies par pays"
+ },
+ "Current prices": {
+  "ar": "بالأسعار الجارية",
+  "fr": "Prix courants"
+ },
+ "Digital Development": {
+  "ar": "التنمية الرقمية",
+  "fr": "Développement numérique"
+ },
+ "Displaced Syrians": {
+  "ar": "السوريون النازحون",
+  "fr": "Syriens déplacés"
+ },
+ "Districts with at least one": {
+  "ar": "أقضية فيها منظمة واحدة على الأقل",
+  "fr": "Districts avec au moins une"
+ },
+ "Districts, ranked by number of organisations": {
+  "ar": "الأقضية مرتبة حسب عدد المنظمات",
+  "fr": "Districts classés par nombre d'organisations"
+ },
+ "Donors": {
+  "ar": "المانحون",
+  "fr": "Donateurs"
+ },
+ "Dropped": {
+  "ar": "مُسقَط",
+  "fr": "Abandonné"
+ },
+ "Dropped and pipeline projects are listed but left out of the chart.": {
+  "ar": "المشاريع المُسقَطة والمشاريع قيد الإعداد مدرجة في القائمة لكنها خارج الرسم البياني.",
+  "fr": "Les projets abandonnés et ceux en préparation figurent dans la liste mais pas dans le graphique."
+ },
+ "Each figure is in the unit its sector reports, which can be people, households, consultations or services.": {
+  "ar": "كل رقم بالوحدة التي يعتمدها قطاعه، وقد تكون أشخاصًا أو أسرًا أو استشارات أو خدمات.",
+  "fr": "Chaque chiffre est exprimé dans l'unité de son secteur : personnes, ménages, consultations ou services."
+ },
+ "Emergency shelter and NFI": {
+  "ar": "المأوى الطارئ والمواد غير الغذائية",
+  "fr": "Abri d'urgence et articles non alimentaires"
+ },
+ "Energy and Extractives": {
+  "ar": "الطاقة والصناعات الاستخراجية",
+  "fr": "Énergie et industries extractives"
+ },
+ "Energy and Mineral Resources": {
+  "ar": "الطاقة والموارد المعدنية",
+  "fr": "Énergie et ressources minérales"
+ },
+ "Excluding pass-through flows": {
+  "ar": "من دون تدفقات التمرير",
+  "fr": "Hors flux de transit"
+ },
+ "FTS counts money that donors and agencies report to the UN. It is voluntary and incomplete, and it counts money moved, not what it achieved. A year is the usage year FTS records, not the date of the gift.": {
+  "ar": "تحصي FTS الأموال التي يُبلّغ عنها المانحون والوكالات إلى الأمم المتحدة. الإبلاغ طوعي وغير مكتمل، وهي تحصي الأموال المحوَّلة لا ما تحقق بها. السنة هي سنة الاستخدام المسجّلة في FTS، لا تاريخ تقديم المنحة.",
+  "fr": "Le FTS compte l'argent que les donateurs et les agences déclarent à l'ONU. La déclaration est volontaire et incomplète, et elle mesure l'argent versé, pas ce qu'il a permis. L'année est l'année d'utilisation enregistrée par le FTS, pas la date du don."
+ },
+ "FTS reports {b} to Lebanon.": {
+  "ar": "تسجّل FTS {b} للبنان.",
+  "fr": "Le FTS enregistre {b} pour le Liban."
+ },
+ "FTS: donors to Lebanon": {
+  "ar": "المانحون إلى لبنان (FTS)",
+  "fr": "FTS : donateurs au Liban"
+ },
+ "Financial Sector": {
+  "ar": "القطاع المالي",
+  "fr": "Secteur financier"
+ },
+ "Flash appeal": {
+  "ar": "نداء عاجل",
+  "fr": "Appel éclair"
+ },
+ "Food Security and Agriculture": {
+  "ar": "الأمن الغذائي والزراعة",
+  "fr": "Sécurité alimentaire et agriculture"
+ },
+ "Funding reported": {
+  "ar": "التمويل المُبلَّغ عنه",
+  "fr": "Financement déclaré"
+ },
+ "Gender-based violence": {
+  "ar": "العنف القائم على النوع الاجتماعي",
+  "fr": "Violences basées sur le genre"
+ },
+ "Global UN Pooled Funds": {
+  "ar": "صناديق الأمم المتحدة المشتركة العالمية",
+  "fr": "Fonds communs mondiaux des Nations Unies"
+ },
+ "Governments": {
+  "ar": "الحكومات",
+  "fr": "Gouvernements"
+ },
+ "Highest year": {
+  "ar": "أعلى سنة",
+  "fr": "Année la plus élevée"
+ },
+ "Humanitarian aid": {
+  "ar": "المساعدة الإنسانية",
+  "fr": "Aide humanitaire"
+ },
+ "Humanitarian funding reported to FTS, per year": {
+  "ar": "التمويل الإنساني المُبلَّغ عنه إلى FTS، لكل سنة",
+  "fr": "Financement humanitaire déclaré au FTS, par année"
+ },
+ "In {y} FTS recorded {a} to Lebanon, of which {b} ({c}) is pass-through.": {
+  "ar": "في {y} سجّلت FTS {a} للبنان، منها {b} ({c}) تدفقات تمرير.",
+  "fr": "En {y}, le FTS a enregistré {a} pour le Liban, dont {b} ({c}) en flux de transit."
+ },
+ "Individuals reached across all populations": {
+  "ar": "الأفراد الذين وصلت إليهم المساعدة عبر جميع الفئات",
+  "fr": "Personnes touchées, toutes populations confondues"
+ },
+ "Individuals reached against the plan target, by year": {
+  "ar": "الأفراد الذين وصلت إليهم المساعدة مقابل هدف الخطة، لكل سنة",
+  "fr": "Personnes touchées par rapport à l'objectif du plan, par année"
+ },
+ "Industry, Trade and Services": {
+  "ar": "الصناعة والتجارة والخدمات",
+  "fr": "Industrie, commerce et services"
+ },
+ "Information and Communications Technologies": {
+  "ar": "تكنولوجيا المعلومات والاتصالات",
+  "fr": "Technologies de l'information et de la communication"
+ },
+ "International Government Entities": {
+  "ar": "كيانات حكومية دولية",
+  "fr": "Entités gouvernementales internationales"
+ },
+ "International NGO": {
+  "ar": "منظمة غير حكومية دولية",
+  "fr": "ONG internationale"
+ },
+ "International NGOs": {
+  "ar": "منظمات غير حكومية دولية",
+  "fr": "ONG internationales"
+ },
+ "International Private Organizations": {
+  "ar": "منظمات خاصة دولية",
+  "fr": "Organisations privées internationales"
+ },
+ "International Red Cross/Red Crescent Movement": {
+  "ar": "الحركة الدولية للصليب الأحمر والهلال الأحمر",
+  "fr": "Mouvement international de la Croix-Rouge et du Croissant-Rouge"
+ },
+ "Internationally Affiliated Organizations": {
+  "ar": "منظمات منتسبة دوليًا",
+  "fr": "Organisations affiliées au niveau international"
+ },
+ "Largest donors. Pick one to see its years.": {
+  "ar": "أكبر المانحين. اختر مانحًا لترى سنواته.",
+  "fr": "Plus grands donateurs. Choisissez-en un pour voir ses années."
+ },
+ "Largest recipients": {
+  "ar": "أكبر المتلقّين",
+  "fr": "Principaux bénéficiaires"
+ },
+ "Latest full year": {
+  "ar": "آخر سنة كاملة",
+  "fr": "Dernière année complète"
+ },
+ "Leave out pass-through flows": {
+  "ar": "استبعاد تدفقات التمرير",
+  "fr": "Exclure les flux de transit"
+ },
+ "Lebanon part, per OCHA HAPI: asked for {a}{c}. FTS reports {b} to Lebanon.": {
+  "ar": "حصة لبنان بحسب HAPI التابعة لـ OCHA: المطلوب {a}{c}. تسجّل FTS {b} للبنان.",
+  "fr": "Part du Liban selon HAPI (OCHA) : demandé {a}{c}. Le FTS enregistre {b} pour le Liban."
+ },
+ "Livelihood": {
+  "ar": "سبل العيش",
+  "fr": "Moyens de subsistance"
+ },
+ "Livelihoods": {
+  "ar": "سبل العيش",
+  "fr": "Moyens de subsistance"
+ },
+ "Local Governments": {
+  "ar": "حكومات محلية",
+  "fr": "Gouvernements locaux"
+ },
+ "Local NGOs/CSOs": {
+  "ar": "منظمات غير حكومية ومجتمع مدني محلية",
+  "fr": "ONG et OSC locales"
+ },
+ "Local/National Private Organizations": {
+  "ar": "منظمات خاصة محلية ووطنية",
+  "fr": "Organisations privées locales et nationales"
+ },
+ "MSMEs": {
+  "ar": "مؤسسات صغيرة ومتوسطة",
+  "fr": "MPME"
+ },
+ "Map of Lebanon by district: organisations present": {
+  "ar": "خريطة لبنان حسب القضاء: المنظمات الحاضرة",
+  "fr": "Carte du Liban par district : organisations présentes"
+ },
+ "Marked: the 2006 war, the 2019 to 2020 financial crisis, the Beirut port explosion of 4 August 2020 and the war of 2023 to 2026. A year is marked when the event fell in it. The dashed line is a part year.": {
+  "ar": "المُعلَّم: حرب ٢٠٠٦، والأزمة المالية بين ٢٠١٩ و٢٠٢٠، وانفجار مرفأ بيروت في ٤ آب ٢٠٢٠، وحرب ٢٠٢٣ إلى ٢٠٢٦. تُعلَّم السنة إذا وقع الحدث فيها. الخط المتقطع يمثّل جزءًا من السنة.",
+  "fr": "Repères : la guerre de 2006, la crise financière de 2019 à 2020, l'explosion du port de Beyrouth le 4 août 2020 et la guerre de 2023 à 2026. Une année est marquée lorsque l'événement a eu lieu durant celle-ci. La ligne en pointillés est une année partielle."
+ },
+ "Most organisations in one district": {
+  "ar": "أكبر عدد منظمات في قضاء واحد",
+  "fr": "Plus grand nombre d'organisations dans un district"
+ },
+ "Multilateral Organizations": {
+  "ar": "منظمات متعددة الأطراف",
+  "fr": "Organisations multilatérales"
+ },
+ "Multilateral rows show what the organisation itself disbursed, not what governments gave it. The latest year is preliminary.": {
+  "ar": "تعرض صفوف الجهات المتعددة الأطراف ما صرفته المنظمة نفسها لا ما قدّمته الحكومات لها. السنة الأخيرة أولية.",
+  "fr": "Les lignes multilatérales montrent ce que l'organisation a elle-même décaissé, pas ce que les gouvernements lui ont donné. La dernière année est provisoire."
+ },
+ "NGOs": {
+  "ar": "منظمات غير حكومية",
+  "fr": "ONG"
+ },
+ "National Governments": {
+  "ar": "حكومات وطنية",
+  "fr": "Gouvernements nationaux"
+ },
+ "National NGO": {
+  "ar": "منظمة غير حكومية وطنية",
+  "fr": "ONG nationale"
+ },
+ "National NGOs/CSOs": {
+  "ar": "منظمات غير حكومية ومجتمع مدني وطنية",
+  "fr": "ONG et OSC nationales"
+ },
+ "Net ODA": {
+  "ar": "صافي المساعدة الإنمائية الرسمية",
+  "fr": "APD nette"
+ },
+ "No aid data is in this build yet. When it is, the charts appear here.": {
+  "ar": "لا توجد بيانات مساعدات في هذه النسخة بعد. عند توفرها تظهر الرسوم هنا.",
+  "fr": "Aucune donnée d'aide dans cette version pour l'instant. Quand il y en aura, les graphiques apparaîtront ici."
+ },
+ "No approval date": {
+  "ar": "بلا تاريخ موافقة",
+  "fr": "Pas de date d'approbation"
+ },
+ "No data for this selection.": {
+  "ar": "لا بيانات لهذا الاختيار.",
+  "fr": "Aucune donnée pour cette sélection."
+ },
+ "No requirement stated. Funding reported: {b}.": {
+  "ar": "لم يُذكر مبلغ مطلوب. التمويل المُبلَّغ عنه: {b}.",
+  "fr": "Aucun montant demandé n'est indiqué. Financement déclaré : {b}."
+ },
+ "Not stated": {
+  "ar": "غير مذكور",
+  "fr": "Non précisé"
+ },
+ "Not stated by the publisher": {
+  "ar": "لم يذكرها الناشر",
+  "fr": "Non précisée par l'éditeur"
+ },
+ "Nutrition": {
+  "ar": "التغذية",
+  "fr": "Nutrition"
+ },
+ "OECD: all official donors, net ODA to Lebanon, {a} to {b}": {
+  "ar": "كل المانحين الرسميين، صافي المساعدة الإنمائية الرسمية إلى لبنان، من {a} إلى {b} (OECD)",
+  "fr": "OCDE : tous les donateurs officiels, APD nette au Liban, de {a} à {b}"
+ },
+ "OECD: official development assistance to Lebanon": {
+  "ar": "المساعدة الإنمائية الرسمية إلى لبنان (OECD)",
+  "fr": "OCDE : aide publique au développement au Liban"
+ },
+ "Operational presence says which organisations report activity in a district and a sector. It does not say how much they do or how many people they reach. Counts are of distinct organisations, so they cannot be added across districts or sectors.": {
+  "ar": "يبيّن الحضور العملياتي أي المنظمات تُبلّغ عن نشاط في قضاء وقطاع معيّنين. ولا يبيّن حجم ما تنفّذه ولا عدد من تصل إليهم. الأعداد هي لمنظمات متمايزة، فلا يجوز جمعها عبر الأقضية أو القطاعات.",
+  "fr": "La présence opérationnelle indique quelles organisations déclarent une activité dans un district et un secteur. Elle n'indique ni l'ampleur de leur action ni le nombre de personnes touchées. Ce sont des comptes d'organisations distinctes : on ne peut pas les additionner entre districts ou secteurs."
+ },
+ "Organisations": {
+  "ar": "المنظمات",
+  "fr": "Organisations"
+ },
+ "Organisations by type": {
+  "ar": "المنظمات حسب النوع",
+  "fr": "Organisations par type"
+ },
+ "Organisations in {d}, ranked by number of sectors": {
+  "ar": "المنظمات في {d}، مرتبة حسب عدد القطاعات",
+  "fr": "Organisations à {d}, classées par nombre de secteurs"
+ },
+ "Organisations per district. Pick a district.": {
+  "ar": "المنظمات في كل قضاء. اختر قضاءً.",
+  "fr": "Organisations par district. Choisissez un district."
+ },
+ "Organisations present in the most districts": {
+  "ar": "المنظمات الحاضرة في أكبر عدد من الأقضية",
+  "fr": "Organisations présentes dans le plus de districts"
+ },
+ "Other Multilateral Organizations": {
+  "ar": "منظمات أخرى متعددة الأطراف",
+  "fr": "Autres organisations multilatérales"
+ },
+ "Other Pooled Funds": {
+  "ar": "صناديق مشتركة أخرى",
+  "fr": "Autres fonds communs"
+ },
+ "Palestinian refugees from Syria": {
+  "ar": "لاجئون فلسطينيون من سوريا",
+  "fr": "Réfugiés palestiniens de Syrie"
+ },
+ "Pass-through flows are money one agency or fund passes on to another, so one dollar can be counted twice. The dashed line leaves them out. Pledges are not included.": {
+  "ar": "تدفقات التمرير هي أموال تحوّلها وكالة أو صندوق إلى جهة أخرى، لذلك قد يُحتسب الدولار مرتين. الخط المتقطع يستبعدها. التعهدات غير مشمولة.",
+  "fr": "Les flux de transit sont de l'argent qu'une agence ou un fonds transmet à une autre entité : un même dollar peut donc être compté deux fois. La ligne en pointillés les exclut. Les promesses de dons ne sont pas incluses."
+ },
+ "People reached": {
+  "ar": "الأشخاص الذين وصلت إليهم المساعدة",
+  "fr": "Personnes touchées"
+ },
+ "Pipeline": {
+  "ar": "قيد الإعداد",
+  "fr": "En préparation"
+ },
+ "Pooled Funds": {
+  "ar": "صناديق مشتركة",
+  "fr": "Fonds communs"
+ },
+ "Port blast": {
+  "ar": "انفجار المرفأ",
+  "fr": "Explosion du port"
+ },
+ "Private Organizations": {
+  "ar": "منظمات خاصة",
+  "fr": "Organisations privées"
+ },
+ "Projects": {
+  "ar": "المشاريع",
+  "fr": "Projets"
+ },
+ "Protection": {
+  "ar": "الحماية",
+  "fr": "Protection"
+ },
+ "Public Administration": {
+  "ar": "الإدارة العامة",
+  "fr": "Administration publique"
+ },
+ "Quarter {q} {y}": {
+  "ar": "الربع {q} من {y}",
+  "fr": "Trimestre {q} {y}"
+ },
+ "Reached by population group: each group is shown with the sector that reported the highest count for it, so these are not unique people and the groups are not additive to a unique total.": {
+  "ar": "الوصول حسب الفئة السكانية: تُعرض كل فئة مع القطاع الذي أبلغ عن أعلى عدد لها، فهؤلاء ليسوا أشخاصًا متمايزين، ولا تُجمع الفئات للحصول على مجموع فريد.",
+  "fr": "Personnes touchées par groupe de population : chaque groupe est montré avec le secteur qui a déclaré le chiffre le plus élevé, ce ne sont donc pas des personnes uniques et les groupes ne s'additionnent pas en un total unique."
+ },
+ "Reached {a} of a target of {b} ({c} of the target, calculated here).": {
+  "ar": "وصلت المساعدة إلى {a} من هدف قدره {b} ({c} من الهدف، محسوبة هنا).",
+  "fr": "{a} personnes touchées sur un objectif de {b} ({c} de l'objectif, calculé ici)."
+ },
+ "Reached {a} of a target of {b}.": {
+  "ar": "وصلت المساعدة إلى {a} من هدف قدره {b}.",
+  "fr": "{a} touchées sur un objectif de {b}."
+ },
+ "Reached {a}. No target printed.": {
+  "ar": "وصلت المساعدة إلى {a}. لا هدف مطبوعًا.",
+  "fr": "{a} touchées. Aucun objectif imprimé."
+ },
+ "Reached, by population group": {
+  "ar": "الوصول حسب الفئة السكانية",
+  "fr": "Personnes touchées, par groupe de population"
+ },
+ "Reached, by sector": {
+  "ar": "الوصول حسب القطاع",
+  "fr": "Personnes touchées, par secteur"
+ },
+ "Recipients are the first organisation to receive the money, so pooled funds appear as recipients.": {
+  "ar": "المتلقّون هم أول جهة تتسلّم الأموال، لذلك تظهر الصناديق المشتركة كمتلقّين.",
+  "fr": "Les bénéficiaires sont la première organisation à recevoir l'argent : les fonds communs apparaissent donc comme bénéficiaires."
+ },
+ "Red Cross/Red Crescent National Societies": {
+  "ar": "الجمعيات الوطنية للصليب الأحمر والهلال الأحمر",
+  "fr": "Sociétés nationales de la Croix-Rouge et du Croissant-Rouge"
+ },
+ "Red Cross/Red Crescent Organizations": {
+  "ar": "منظمات الصليب الأحمر والهلال الأحمر",
+  "fr": "Organisations de la Croix-Rouge et du Croissant-Rouge"
+ },
+ "Regional refugee response plans, whole-plan figures": {
+  "ar": "خطط الاستجابة الإقليمية للاجئين، أرقام الخطة كاملة",
+  "fr": "Plans régionaux de réponse pour les réfugiés, chiffres du plan entier"
+ },
+ "Regional response plan": {
+  "ar": "خطة استجابة إقليمية",
+  "fr": "Plan de réponse régional"
+ },
+ "Registered Syrian refugees at the end of {y}, UNHCR: {n}": {
+  "ar": "اللاجئون السوريون المسجّلون في نهاية {y}، بحسب المفوضية: {n}",
+  "fr": "Réfugiés syriens enregistrés fin {y}, HCR : {n}"
+ },
+ "Reported total": {
+  "ar": "المجموع المُبلَّغ عنه",
+  "fr": "Total déclaré"
+ },
+ "Retrieved {d}": {
+  "ar": "جُلبت في {d}",
+  "fr": "Consulté le {d}"
+ },
+ "Sector names follow each source. The monthly files (October 2023 to December 2024) and the 2025 quarter file name some sectors differently, for example Shelter and Emergency shelter and NFI, so they appear apart. Only spellings of the same name are merged. An organisation's type is the one the source gives for it in any month; where none does, it shows as not stated.": {
+  "ar": "أسماء القطاعات تتبع كل مصدر. تسمّي الملفات الشهرية (من تشرين الأول ٢٠٢٣ إلى كانون الأول ٢٠٢٤) وملف الربع الأول من ٢٠٢٥ بعض القطاعات بأسماء مختلفة، مثل «المأوى» و«المأوى الطارئ والمواد غير الغذائية»، لذلك تظهر منفصلة. لا تُدمج إلا الصيغ المختلفة لكتابة الاسم نفسه. نوع المنظمة هو الذي يذكره المصدر لها في أي شهر، وحيث لا يذكر المصدر نوعًا يظهر «غير مذكور».",
+  "fr": "Les noms de secteurs suivent chaque source. Les fichiers mensuels (octobre 2023 à décembre 2024) et le fichier du trimestre 2025 nomment certains secteurs différemment, par exemple Abri et Abri d'urgence et articles non alimentaires : ils apparaissent donc séparément. Seules les variantes d'orthographe d'un même nom sont fusionnées. Le type d'une organisation est celui que la source lui donne pour n'importe quel mois ; à défaut, il apparaît comme non précisé."
+ },
+ "Self-reported by partners": {
+  "ar": "مُبلَّغ عنه ذاتيًا من الشركاء",
+  "fr": "Déclaré par les partenaires eux-mêmes"
+ },
+ "Self-reported by the agencies": {
+  "ar": "مُبلَّغ عنه ذاتيًا من الوكالات",
+  "fr": "Déclaré par les agences elles-mêmes"
+ },
+ "Shelter": {
+  "ar": "المأوى",
+  "fr": "Abri"
+ },
+ "Site Management and Coordination": {
+  "ar": "إدارة المواقع والتنسيق",
+  "fr": "Gestion et coordination des sites"
+ },
+ "Site management": {
+  "ar": "إدارة المواقع",
+  "fr": "Gestion des sites"
+ },
+ "Social Protection": {
+  "ar": "الحماية الاجتماعية",
+  "fr": "Protection sociale"
+ },
+ "Social Sustainability and Inclusion": {
+  "ar": "الاستدامة الاجتماعية والإدماج",
+  "fr": "Durabilité sociale et inclusion"
+ },
+ "Social stability": {
+  "ar": "الاستقرار الاجتماعي",
+  "fr": "Stabilité sociale"
+ },
+ "Source organisations include governments, EU bodies, UN agencies and pooled funds. Pass-through money passed on by an agency or fund appears again under its own name.": {
+  "ar": "المؤسسات المصدرة تشمل حكومات وهيئات أوروبية ووكالات أممية وصناديق مشتركة. وتظهر الأموال التي تمرّرها وكالة أو صندوق مرة أخرى باسمها.",
+  "fr": "Les organisations sources comprennent des gouvernements, des institutions de l'UE, des agences de l'ONU et des fonds communs. L'argent transmis par une agence ou un fonds réapparaît sous son propre nom."
+ },
+ "Target {n}": {
+  "ar": "الهدف {n}",
+  "fr": "Objectif {n}"
+ },
+ "The plan is called LCRP in the dashboards up to 2023 and LRP from 2024.": {
+  "ar": "تُسمّى الخطة LCRP في لوحات المتابعة حتى ٢٠٢٣ وLRP ابتداءً من ٢٠٢٤.",
+  "fr": "Le plan s'appelle LCRP dans les tableaux de bord jusqu'en 2023 et LRP à partir de 2024."
+ },
+ "These figures come from the agencies' own end-of-year dashboards. They are not checked here. Groups and sectors overlap, so they do not add up to a number of unique people, and units differ between sectors.": {
+  "ar": "هذه الأرقام من لوحات المتابعة السنوية التي تنشرها الوكالات نفسها، ولم يجرِ التحقق منها هنا. الفئات والقطاعات متداخلة، فلا تُجمع لتعطي عدد أشخاص متمايزين، والوحدات تختلف بين القطاعات.",
+  "fr": "Ces chiffres viennent des tableaux de bord de fin d'année des agences elles-mêmes. Ils ne sont pas vérifiés ici. Les groupes et les secteurs se recoupent : ils ne s'additionnent pas en un nombre de personnes uniques, et les unités diffèrent selon les secteurs."
+ },
+ "These plans cover Lebanon and neighbouring countries. Earlier plans for Iraqi refugees are kept because they list funding to Lebanon.": {
+  "ar": "تشمل هذه الخطط لبنان والبلدان المجاورة. أُبقيت الخطط السابقة للاجئين العراقيين لأنها تذكر تمويلًا موجّهًا إلى لبنان.",
+  "fr": "Ces plans couvrent le Liban et les pays voisins. Les plans antérieurs pour les réfugiés irakiens sont conservés car ils indiquent un financement pour le Liban."
+ },
+ "This total already contains every donor in the list above. Do not add them.": {
+  "ar": "يتضمّن هذا المجموع كل مانح في القائمة أعلاه. لا تجمعهم معه.",
+  "fr": "Ce total contient déjà chaque donateur de la liste ci-dessus. Ne les additionnez pas."
+ },
+ "Transportation": {
+  "ar": "النقل",
+  "fr": "Transports"
+ },
+ "Two sources, kept apart. FTS counts humanitarian funding that donors and agencies report to the UN. The OECD counts official development assistance disbursed by donor governments and agencies. They overlap, so no figure on this page adds one to the other.": {
+  "ar": "مصدران منفصلان. تحصي FTS التمويل الإنساني الذي يُبلّغ عنه المانحون والوكالات إلى الأمم المتحدة. وتحصي OECD المساعدة الإنمائية الرسمية التي تصرفها حكومات المانحين ووكالاتهم. هما متداخلان، لذلك لا يجمع أي رقم في هذه الصفحة أحدهما إلى الآخر.",
+  "fr": "Deux sources, séparées. Le FTS compte le financement humanitaire que les donateurs et les agences déclarent à l'ONU. L'OCDE compte l'aide publique au développement décaissée par les gouvernements et agences donateurs. Elles se recoupent : aucun chiffre de cette page n'additionne l'une à l'autre."
+ },
+ "UN Agencies": {
+  "ar": "وكالات الأمم المتحدة",
+  "fr": "Agences de l'ONU"
+ },
+ "US dollars per year, current prices and constant 2024 prices": {
+  "ar": "دولار أميركي في السنة، بالأسعار الجارية وبأسعار ٢٠٢٤ الثابتة",
+  "fr": "Dollars US par an, prix courants et prix constants de 2024"
+ },
+ "US dollars per year, paid and committed flows to Lebanon": {
+  "ar": "دولار أميركي في السنة، التدفقات المدفوعة والملتزَم بها إلى لبنان",
+  "fr": "Dollars US par an, flux versés et engagés vers le Liban"
+ },
+ "US dollars, as listed for each project": {
+  "ar": "دولار أميركي، كما هو مدرج لكل مشروع",
+  "fr": "Dollars US, tels qu'indiqués pour chaque projet"
+ },
+ "US dollars, by the organisation that gave the money": {
+  "ar": "دولار أميركي، حسب الجهة التي قدّمت المال",
+  "fr": "Dollars US, selon l'organisation qui a donné l'argent"
+ },
+ "US dollars, net disbursements by donor": {
+  "ar": "دولار أميركي، صافي الصرف لكل مانح",
+  "fr": "Dollars US, décaissements nets par donateur"
+ },
+ "US dollars. Bars are scaled to the largest plan in this card.": {
+  "ar": "دولار أميركي. تُقاس الأعمدة على أكبر خطة في هذه البطاقة.",
+  "fr": "Dollars US. Les barres sont à l'échelle du plus grand plan de cette carte."
+ },
+ "US$ {n}": {
+  "ar": "{n} دولار",
+  "fr": "{n} $ US"
+ },
+ "United Nations": {
+  "ar": "الأمم المتحدة",
+  "fr": "Nations Unies"
+ },
+ "Vulnerable Lebanese": {
+  "ar": "اللبنانيون الأكثر هشاشة",
+  "fr": "Libanais vulnérables"
+ },
+ "Water, Sanitation and Hygiene": {
+  "ar": "المياه والصرف الصحي والنظافة",
+  "fr": "Eau, assainissement et hygiène"
+ },
+ "Water, Sanitation and Waste Management": {
+  "ar": "المياه والصرف الصحي وإدارة النفايات",
+  "fr": "Eau, assainissement et gestion des déchets"
+ },
+ "Water, sanitation and hygiene": {
+  "ar": "المياه والصرف الصحي والنظافة",
+  "fr": "Eau, assainissement et hygiène"
+ },
+ "Who funds aid to Lebanon, what the appeals asked for, who works where, and what the agencies say they reached. Every chart names its source. Funding figures from different sources overlap and are never added together.": {
+  "ar": "من يموّل المساعدات إلى لبنان، وماذا طلبت النداءات، ومن يعمل أين، وما تقول الوكالات إنها بلغته. كل رسم يسمّي مصدره. أرقام التمويل من مصادر مختلفة متداخلة ولا تُجمع معًا أبدًا.",
+  "fr": "Qui finance l'aide au Liban, ce que les appels ont demandé, qui travaille où et ce que les agences disent avoir atteint. Chaque graphique nomme sa source. Les chiffres de financement de sources différentes se recoupent et ne sont jamais additionnés."
+ },
+ "Who received it": {
+  "ar": "من تلقّاها",
+  "fr": "Qui l'a reçue"
+ },
+ "Who works where": {
+  "ar": "من يعمل أين",
+  "fr": "Qui travaille où"
+ },
+ "World Bank commitments are loans and grants, mostly to the Lebanese government and its agencies. They can overlap with the ODA the OECD counts and with FTS funding, so they are never added to the other figures here.": {
+  "ar": "التزامات البنك الدولي قروض ومنح، موجّهة في معظمها إلى الحكومة اللبنانية وأجهزتها. قد تتداخل مع المساعدة الإنمائية الرسمية التي تحصيها OECD ومع تمويل FTS، لذلك لا تُجمع أبدًا مع الأرقام الأخرى هنا.",
+  "fr": "Les engagements de la Banque mondiale sont des prêts et des dons, surtout au gouvernement libanais et à ses organismes. Ils peuvent recouper l'APD comptée par l'OCDE et le financement du FTS : ils ne sont donc jamais additionnés aux autres chiffres ici."
+ },
+ "World Bank commitments by year of approval": {
+  "ar": "التزامات البنك الدولي حسب سنة الموافقة",
+  "fr": "Engagements de la Banque mondiale par année d'approbation"
+ },
+ "World Bank projects": {
+  "ar": "مشاريع البنك الدولي",
+  "fr": "Projets de la Banque mondiale"
+ },
+ "Years on record": {
+  "ar": "السنوات المسجّلة",
+  "fr": "Années enregistrées"
+ },
+ "aggregate": {
+  "ar": "إجمالي مجمّع",
+  "fr": "agrégat"
+ },
+ "children": {
+  "ar": "أطفال",
+  "fr": "enfants"
+ },
+ "consultations": {
+  "ar": "استشارات",
+  "fr": "consultations"
+ },
+ "country": {
+  "ar": "بلد",
+  "fr": "pays"
+ },
+ "distinct, in this selection": {
+  "ar": "متمايزة، في هذا الاختيار",
+  "fr": "distinctes, dans cette sélection"
+ },
+ "households": {
+  "ar": "أسر",
+  "fr": "ménages"
+ },
+ "individuals": {
+  "ar": "أفراد",
+  "fr": "personnes"
+ },
+ "multilateral": {
+  "ar": "متعدد الأطراف",
+  "fr": "multilatéral"
+ },
+ "no commitment listed": {
+  "ar": "لا التزام مدرجًا",
+  "fr": "aucun engagement indiqué"
+ },
+ "of the districts in the data": {
+  "ar": "من الأقضية الواردة في البيانات",
+  "fr": "des districts présents dans les données"
+ },
+ "postcode lottery": {
+  "ar": "يانصيب الرموز البريدية",
+  "fr": "loterie par code postal"
+ },
+ "private foundation": {
+  "ar": "مؤسسة خاصة",
+  "fr": "fondation privée"
+ },
+ "services": {
+  "ar": "خدمات",
+  "fr": "services"
+ },
+ "students": {
+  "ar": "طلاب",
+  "fr": "élèves"
+ },
+ "{n} district": {
+  "ar": "{n} قضاء",
+  "fr": "{n} district"
+ },
+ "{n} districts": {
+  "ar": "{n} قضاء",
+  "fr": "{n} districts"
+ },
+ "{n} donors recorded in {y}.": {
+  "ar": "{n} مانحًا مسجّلًا في {y}.",
+  "fr": "{n} donateurs enregistrés en {y}."
+ },
+ "{n} donors with a figure in {y}.": {
+  "ar": "{n} مانحًا لهم رقم في {y}.",
+  "fr": "{n} donateurs avec un chiffre en {y}."
+ },
+ "{n} global COVID-19 plan that lists no funding to Lebanon is left out.": {
+  "ar": "استُبعدت {n} خطة عالمية لمواجهة كوفيد-١٩ لا تذكر أي تمويل للبنان.",
+  "fr": "{n} plan mondial COVID-19 qui n'indique aucun financement pour le Liban est écarté."
+ },
+ "{n} global COVID-19 plans that list no funding to Lebanon are left out.": {
+  "ar": "استُبعدت {n} خطط عالمية لمواجهة كوفيد-١٩ لا تذكر أي تمويل للبنان.",
+  "fr": "{n} plans mondiaux COVID-19 qui n'indiquent aucun financement pour le Liban sont écartés."
+ },
+ "{n} organisation": {
+  "ar": "{n} منظمة",
+  "fr": "{n} organisation"
+ },
+ "{n} organisations": {
+  "ar": "{n} منظمة",
+  "fr": "{n} organisations"
+ },
+ "{n} sector": {
+  "ar": "{n} قطاع",
+  "fr": "{n} secteur"
+ },
+ "{n} sectors": {
+  "ar": "{n} قطاعات",
+  "fr": "{n} secteurs"
+ },
+ "{p} funded": {
+  "ar": "نسبة التمويل {p}",
+  "fr": "financé à {p}"
+ },
+ "{y} is a part year, up to {d}.": {
+  "ar": "{y} سنة جزئية، حتى {d}.",
+  "fr": "{y} est une année partielle, jusqu'au {d}."
+ },
+ "MSMEs or cooperatives supported": {
+  "ar": "مؤسسات صغيرة ومتوسطة أو تعاونيات تلقّت الدعم",
+  "fr": "MPME ou coopératives soutenues"
+ },
+ "MSMEs strengthened (output 1.1)": {
+  "ar": "مؤسسات صغيرة ومتوسطة جرى تعزيزها (المخرج ١٫١)",
+  "fr": "MPME renforcées (résultat 1.1)"
+ },
+ "caregivers of children under five reached with IYCF messages": {
+  "ar": "مقدّمو الرعاية للأطفال دون الخامسة الذين وصلتهم رسائل تغذية الرضّع وصغار الأطفال",
+  "fr": "personnes s'occupant d'enfants de moins de cinq ans touchées par des messages sur l'alimentation du nourrisson et du jeune enfant"
+ },
+ "children and youth enrolled in public schools with subsidised fees in 2020-2021": {
+  "ar": "أطفال وشباب مسجّلون في مدارس رسمية بأقساط مدعومة في ٢٠٢٠-٢٠٢١",
+  "fr": "enfants et jeunes inscrits dans des écoles publiques à frais subventionnés en 2020-2021"
+ },
+ "children enrolled in public schools with subsidised fees in the 2021-2022 school year": {
+  "ar": "أطفال مسجّلون في مدارس رسمية بأقساط مدعومة في العام الدراسي ٢٠٢١-٢٠٢٢",
+  "fr": "enfants inscrits dans des écoles publiques à frais subventionnés pendant l'année scolaire 2021-2022"
+ },
+ "children supported with enrolment into basic education (210,000 non-Lebanese + 273,600 Lebanese)": {
+  "ar": "أطفال دُعم تسجيلهم في التعليم الأساسي (٢١٠٬٠٠٠ غير لبناني + ٢٧٣٬٦٠٠ لبناني)",
+  "fr": "enfants aidés pour s'inscrire dans l'éducation de base (210 000 non-Libanais + 273 600 Libanais)"
+ },
+ "displaced Syrians assisted to maintain shelters": {
+  "ar": "سوريون نازحون جرت مساعدتهم على صيانة مآويهم",
+  "fr": "Syriens déplacés aidés à entretenir leurs abris"
+ },
+ "displaced people assisted in keeping temporary shelters weatherproofed, repaired or maintained": {
+  "ar": "نازحون جرت مساعدتهم على جعل مآويهم المؤقتة مقاوِمة للطقس أو إصلاحها أو صيانتها",
+  "fr": "personnes déplacées aidées à protéger, réparer ou entretenir leurs abris temporaires"
+ },
+ "households receiving regular multi-purpose cash": {
+  "ar": "أسر تتلقّى مساعدة نقدية منتظمة متعددة الأغراض",
+  "fr": "ménages recevant régulièrement une aide en espèces polyvalente"
+ },
+ "individuals at risk of SGBV or survivors accessing psychological support": {
+  "ar": "أفراد معرّضون للعنف الجنسي والقائم على النوع الاجتماعي أو ناجون يحصلون على دعم نفسي",
+  "fr": "personnes exposées aux violences sexuelles et basées sur le genre ou survivantes ayant accès à un soutien psychologique"
+ },
+ "individuals benefiting from protection interventions": {
+  "ar": "أفراد استفادوا من تدخلات الحماية",
+  "fr": "personnes bénéficiant d'interventions de protection"
+ },
+ "individuals in informal settlements supported to maintain dwellings": {
+  "ar": "أفراد في تجمّعات غير رسمية جرى دعمهم لصيانة مساكنهم",
+  "fr": "personnes dans des campements informels aidées à entretenir leurs logements"
+ },
+ "individuals reached": {
+  "ar": "أفراد وصلت إليهم المساعدة",
+  "fr": "personnes touchées"
+ },
+ "individuals reached (cumulative, as printed)": {
+  "ar": "أفراد وصلت إليهم المساعدة (تراكمي، كما هو مطبوع)",
+  "fr": "personnes touchées (cumul, tel qu'imprimé)"
+ },
+ "individuals receiving food assistance, in kind and cash-based": {
+  "ar": "أفراد يتلقّون مساعدة غذائية عينية ونقدية",
+  "fr": "personnes recevant une aide alimentaire, en nature et en espèces"
+ },
+ "individuals receiving obstetric and life-saving hospital care": {
+  "ar": "أفراد يتلقّون رعاية استشفائية للولادة وإنقاذ الحياة",
+  "fr": "personnes recevant des soins hospitaliers obstétricaux et vitaux"
+ },
+ "individuals receiving primary healthcare (over 3 million consultations)": {
+  "ar": "أفراد يتلقّون الرعاية الصحية الأولية (أكثر من ٣ ملايين استشارة)",
+  "fr": "personnes recevant des soins de santé primaires (plus de 3 millions de consultations)"
+ },
+ "individuals supported with shelter interventions": {
+  "ar": "أفراد دُعموا بتدخلات المأوى",
+  "fr": "personnes soutenues par des interventions d'abri"
+ },
+ "individuals with adequate quantity of safe water in permanent dwellings": {
+  "ar": "أفراد يحصلون على كمية كافية من المياه الآمنة في مساكن دائمة",
+  "fr": "personnes disposant d'une quantité suffisante d'eau potable dans des logements permanents"
+ },
+ "individuals with financial support for hospital care": {
+  "ar": "أفراد حصلوا على دعم مالي للرعاية الاستشفائية",
+  "fr": "personnes ayant reçu un soutien financier pour des soins hospitaliers"
+ },
+ "internally displaced people supported across 483 collective sites": {
+  "ar": "نازحون داخليًا جرى دعمهم في ٤٨٣ موقعًا جماعيًا",
+  "fr": "personnes déplacées internes soutenues dans 483 sites collectifs"
+ },
+ "micro and small businesses assisted": {
+  "ar": "مؤسسات صغيرة جدًا وصغيرة جرت مساعدتها",
+  "fr": "micro et petites entreprises aidées"
+ },
+ "people reached against sector target": {
+  "ar": "أشخاص وصلت إليهم المساعدة مقابل هدف القطاع",
+  "fr": "personnes touchées par rapport à l'objectif du secteur"
+ },
+ "people reached with food assistance": {
+  "ar": "أشخاص وصلتهم المساعدة الغذائية",
+  "fr": "personnes touchées par l'aide alimentaire"
+ },
+ "people receiving cash-based food assistance": {
+  "ar": "أشخاص يتلقّون مساعدة غذائية نقدية",
+  "fr": "personnes recevant une aide alimentaire en espèces"
+ },
+ "people receiving food assistance, in kind and cash-based": {
+  "ar": "أشخاص يتلقّون مساعدة غذائية عينية ونقدية",
+  "fr": "personnes recevant une aide alimentaire, en nature et en espèces"
+ },
+ "people with adequate safe water in permanent dwellings": {
+  "ar": "أشخاص يحصلون على مياه آمنة كافية في مساكن دائمة",
+  "fr": "personnes disposant d'eau potable en quantité suffisante dans des logements permanents"
+ },
+ "primary healthcare consultations": {
+  "ar": "استشارات الرعاية الصحية الأولية",
+  "fr": "consultations de soins de santé primaires"
+ },
+ "received food assistance, in kind and cash-based": {
+  "ar": "تلقّوا مساعدة غذائية عينية ونقدية",
+  "fr": "ont reçu une aide alimentaire, en nature et en espèces"
+ },
+ "students in supported public schools (202,004 Lebanese + 184,928 non-Lebanese)": {
+  "ar": "طلاب في مدارس رسمية مدعومة (٢٠٢٬٠٠٤ لبناني + ١٨٤٬٩٢٨ غير لبناني)",
+  "fr": "élèves dans des écoles publiques soutenues (202 004 Libanais + 184 928 non-Libanais)"
+ },
+ "students in supported public schools (213,739 Lebanese + 109,644 non-Lebanese)": {
+  "ar": "طلاب في مدارس رسمية مدعومة (٢١٣٬٧٣٩ لبناني + ١٠٩٬٦٤٤ غير لبناني)",
+  "fr": "élèves dans des écoles publiques soutenues (213 739 Libanais + 109 644 non-Libanais)"
+ },
+ "students in supported public schools (279,687 Lebanese + 248,025 non-Lebanese)": {
+  "ar": "طلاب في مدارس رسمية مدعومة (٢٧٩٬٦٨٧ لبناني + ٢٤٨٬٠٢٥ غير لبناني)",
+  "fr": "élèves dans des écoles publiques soutenues (279 687 Libanais + 248 025 non-Libanais)"
+ },
+ "subsidised primary healthcare consultations": {
+  "ar": "استشارات رعاية صحية أولية مدعومة",
+  "fr": "consultations de soins de santé primaires subventionnées"
+ },
+ "tailored protection services": {
+  "ar": "خدمات حماية مصمَّمة حسب الحالة",
+  "fr": "services de protection adaptés"
+ },
+ "Consultations, not people.": {
+  "ar": "استشارات لا أشخاص.",
+  "fr": "Des consultations, pas des personnes."
+ },
+ "Services, not people.": {
+  "ar": "خدمات لا أشخاص.",
+  "fr": "Des services, pas des personnes."
+ },
+ "Target 3.2 million is rounded.": {
+  "ar": "الهدف ٣٫٢ مليون مقرَّب.",
+  "fr": "L'objectif de 3,2 millions est arrondi."
+ },
+ "Target 3.1 million is rounded.": {
+  "ar": "الهدف ٣٫١ مليون مقرَّب.",
+  "fr": "L'objectif de 3,1 millions est arrondi."
+ },
+ "Target 3 million is rounded.": {
+  "ar": "الهدف ٣ ملايين مقرَّب.",
+  "fr": "L'objectif de 3 millions est arrondi."
+ },
+ "Reached above target.": {
+  "ar": "تجاوز العدد الهدف.",
+  "fr": "Objectif dépassé."
+ },
+ "Humanitarian appeals covering Lebanon: requirements, funding and percent funded (regional plans are whole-plan figures)": {
+  "ar": "النداءات الإنسانية التي تشمل لبنان: المبالغ المطلوبة والتمويل ونسبة التمويل (أرقام الخطط الإقليمية هي أرقام الخطة كاملة)",
+  "fr": "Appels humanitaires couvrant le Liban : montants demandés, financement et part financée (les plans régionaux sont des chiffres du plan entier)"
+ },
+ "Aid to Lebanon: FTS reported funding by year (paid and committed flows, pass-through shown apart)": {
+  "ar": "المساعدات إلى لبنان: التمويل المُبلَّغ عنه إلى FTS لكل سنة (التدفقات المدفوعة والملتزَم بها، وتدفقات التمرير مبيّنة على حدة)",
+  "fr": "Aide au Liban : financement déclaré au FTS par année (flux versés et engagés, flux de transit indiqués à part)"
+ },
+ "Aid donors to Lebanon: FTS source organisation by year": {
+  "ar": "مانحو المساعدات إلى لبنان: المنظمة المصدر في FTS لكل سنة",
+  "fr": "Donateurs d'aide au Liban : organisation source du FTS par année"
+ },
+ "Aid to Lebanon: FTS top {n1} first-level recipients by year": {
+  "ar": "المساعدات إلى لبنان: أكبر {n1} متلقٍّ مباشر في FTS لكل سنة",
+  "fr": "Aide au Liban : les {n1} principaux bénéficiaires de premier niveau du FTS par année"
+ },
+ "Aid donors to Lebanon: OECD DAC{n1}A official development assistance by donor and year, US dollars millions (aggregate rows contain their members)": {
+  "ar": "مانحو المساعدات إلى لبنان: المساعدة الإنمائية الرسمية في جدول OECD DAC{n1}A حسب المانح والسنة، بملايين الدولارات الأميركية (صفوف الإجمالي تحتوي أعضاءها)",
+  "fr": "Donateurs d'aide au Liban : aide publique au développement du tableau DAC{n1}A de l'OCDE par donateur et par année, en millions de dollars US (les lignes agrégées contiennent leurs membres)"
+ },
+ "Who works where: operational presence by organisation, sector, district and month (self-reported by partners; says who is there, not how much)": {
+  "ar": "من يعمل أين: الحضور العملياتي حسب المنظمة والقطاع والقضاء والشهر (مُبلَّغ عنه ذاتيًا من الشركاء؛ يبيّن من هو موجود لا حجم عمله)",
+  "fr": "Qui travaille où : présence opérationnelle par organisation, secteur, district et mois (déclarée par les partenaires ; indique qui est présent, pas l'ampleur)"
+ },
+ "People reached, self-reported by the agencies (LCRP and LRP dashboards, {n1} to {n2})": {
+  "ar": "الأشخاص الذين وصلت إليهم المساعدة، مُبلَّغ عنهم ذاتيًا من الوكالات (لوحات LCRP وLRP، من {n1} إلى {n2})",
+  "fr": "Personnes touchées, déclarées par les agences elles-mêmes (tableaux de bord LCRP et LRP, de {n1} à {n2})"
+ },
+ "World Bank projects in Lebanon: commitments as listed per project (additional-financing projects can repeat a parent, so do not add them)": {
+  "ar": "مشاريع البنك الدولي في لبنان: الالتزامات كما هي مدرجة لكل مشروع (قد تكرّر مشاريع التمويل الإضافي المشروع الأصلي، فلا تُجمع)",
+  "fr": "Projets de la Banque mondiale au Liban : engagements tels qu'indiqués pour chaque projet (les projets de financement additionnel peuvent reprendre un projet parent : ne pas les additionner)"
+ },
+ "Humanitarian appeals covering Lebanon: {n1} plans, requirements and funding": {
+  "ar": "النداءات الإنسانية التي تشمل لبنان: {n1} خطة، المبالغ المطلوبة والتمويل",
+  "fr": "Appels humanitaires couvrant le Liban : {n1} plans, montants demandés et financement"
+ },
+ "Aid donors to Lebanon: FTS source organisations ({n1}) and OECD DAC donors ({n2}), by year": {
+  "ar": "مانحو المساعدات إلى لبنان: منظمات المصدر في FTS ({n1}) ومانحو OECD DAC ({n2})، لكل سنة",
+  "fr": "Donateurs d'aide au Liban : organisations sources du FTS ({n1}) et donateurs du CAD de l'OCDE ({n2}), par année"
+ },
+ "Aid to Lebanon over time: FTS reported funding by year, {n1} to {n2}": {
+  "ar": "المساعدات إلى لبنان عبر السنوات: التمويل المُبلَّغ عنه إلى FTS لكل سنة، من {n1} إلى {n2}",
+  "fr": "L'aide au Liban au fil du temps : financement déclaré au FTS par année, de {n1} à {n2}"
+ },
+ "Who works where: {n1} organisations in {n2} districts, October {n3} to the first quarter of {n4} (self-reported by partners)": {
+  "ar": "من يعمل أين: {n1} منظمة في {n2} قضاء، من تشرين الأول {n3} إلى الربع الأول من {n4} (مُبلَّغ عنه ذاتيًا من الشركاء)",
+  "fr": "Qui travaille où : {n1} organisations dans {n2} districts, d'octobre {n3} au premier trimestre {n4} (déclaré par les partenaires)"
+ },
+ "People reached, self-reported by the agencies: {n1} figures from the LCRP and LRP dashboards, {n2} to {n3}": {
+  "ar": "الأشخاص الذين وصلت إليهم المساعدة، مُبلَّغ عنهم ذاتيًا من الوكالات: {n1} رقمًا من لوحات LCRP وLRP، من {n2} إلى {n3}",
+  "fr": "Personnes touchées, déclarées par les agences elles-mêmes : {n1} chiffres des tableaux de bord LCRP et LRP, de {n2} à {n3}"
+ },
+ "World Bank projects in Lebanon: {n1} projects, {n2} to {n3}": {
+  "ar": "مشاريع البنك الدولي في لبنان: {n1} مشروعًا، من {n2} إلى {n3}",
+  "fr": "Projets de la Banque mondiale au Liban : {n1} projets, de {n2} à {n3}"
+ },
+ "Not stated by the publisher; only figures are used, with attribution to the publisher. Compilation CC BY-SA 4.0.": {
+  "ar": "لم يذكرها الناشر؛ لا تُستخدم إلا الأرقام مع نسبتها إلى الناشر. التجميع CC BY-SA 4.0.",
+  "fr": "Non précisée par l'éditeur ; seuls les chiffres sont utilisés, avec attribution à l'éditeur. Compilation CC BY-SA 4.0."
+ },
+ "FTS: not stated by the publisher (figures only). HAPI: CC BY-IGO. Compilation CC BY-SA 4.0.": {
+  "ar": "لم يذكرها الناشر لدى FTS (الأرقام فقط). لدى HAPI: CC BY-IGO. التجميع CC BY-SA 4.0.",
+  "fr": "FTS : non précisée par l'éditeur (chiffres seulement). HAPI : CC BY-IGO. Compilation CC BY-SA 4.0."
+ },
+ "FTS: not stated by the publisher (figures only). OECD: CC BY 4.0. Compilation CC BY-SA 4.0.": {
+  "ar": "لم يذكرها الناشر لدى FTS (الأرقام فقط). لدى OECD: CC BY 4.0. التجميع CC BY-SA 4.0.",
+  "fr": "FTS : non précisée par l'éditeur (chiffres seulement). OCDE : CC BY 4.0. Compilation CC BY-SA 4.0."
+ },
+ "CC BY 4.0 (OECD terms of use)": {
+  "ar": "CC BY 4.0 (شروط استخدام OECD)",
+  "fr": "CC BY 4.0 (conditions d'utilisation de l'OCDE)"
+ },
+ "Organisations present, by district and sector": {
+  "ar": "المنظمات الحاضرة حسب القضاء والقطاع",
+  "fr": "Organisations présentes, par district et par secteur"
+ }
+}

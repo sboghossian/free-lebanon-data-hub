@@ -7,7 +7,7 @@ HUB.tab('world', { render(args, info) { WD.render(args, info); } });
 HUB.world = WD;   // for the checks and the console
 (function () {
   const st = WD.S = { view: 'map', ind: 'NY.GDP.PCAP.CD', year: null, mode: 'globe', preset: 'world', sel: null, log: null, region: false, peers: ['SYR', 'JOR', 'IRQ', 'ISR', 'CYP', 'EGY', 'TUR', 'SAU', 'ARE', 'QAT', 'KWT', 'BHR', 'OMN', 'FRA', 'GRC', 'USA', 'WLD'] };
-  const PREF = 'wd-prefs', LIBS = { globe: 'https://cdn.jsdelivr.net/npm/globe.gl@2.45.3/dist/globe.gl.min.js', arry: 'https://cdn.jsdelivr.net/npm/d3-array@3.2.4/dist/d3-array.min.js', geo: 'https://cdn.jsdelivr.net/npm/d3-geo@3.1.1/dist/d3-geo.min.js' };
+  const PREF = 'wd-prefs', LIBS = { globe: 'https://cdn.jsdelivr.net/npm/globe.gl@2.45.3/dist/globe.gl.min.js', arr: 'https://cdn.jsdelivr.net/npm/d3-array@3.2.4/dist/d3-array.min.js', geo: 'https://cdn.jsdelivr.net/npm/d3-geo@3.1.1/dist/d3-geo.min.js' };
   // Group and topic names are shown through t(); N() lets the build find them.
   const NAMES = [N('Economy'), N('Prices and inflation'), N('Money flows'), N('Public finance'), N('Trade'), N('Labour'), N('Inequality and poverty'), N('Tourism'), N('Energy'), N('Technology'), N('Environment'),
     N('Population'), N('Health'), N('Education'), N('Development'), N('Migration and displacement'), N('Conflict and safety'), N('Governance'), N('Cost of living'), N('Public money'), N('Electricity'),
@@ -43,12 +43,12 @@ HUB.world = WD;   // for the checks and the console
   const val = (d, k, y) => { const a = d.values[k], i = d.yi.get(y); const v = a && i != null ? a[i] : null; return v == null ? null : v; };
   function yearRank(d, y) {   // countries with a value, highest first; rank 1 = highest value, ties share a rank
     if (d._yr[y]) return d._yr[y];
-    const arry = [];
-    d.isoC.forEach(k => { const v = val(d, k, y); if (v != null) arry.push([k, v]); });
-    arry.sort((a, b) => b[1] - a[1]);
+    const arr = [];
+    d.isoC.forEach(k => { const v = val(d, k, y); if (v != null) arr.push([k, v]); });
+    arr.sort((a, b) => b[1] - a[1]);
     const rank = {};
-    arry.forEach((p, i) => { rank[p[0]] = i && p[1] === arry[i - 1][1] ? rank[arry[i - 1][0]] : i + 1; });
-    return (d._yr[y] = { arry, rank, n: arry.length });
+    arr.forEach((p, i) => { rank[p[0]] = i && p[1] === arr[i - 1][1] ? rank[arr[i - 1][0]] : i + 1; });
+    return (d._yr[y] = { arr, rank, n: arr.length });
   }
   function scopeRank(d, y, iso, set) {   // rank of iso among the members of set that have a value (iso counts as a member)
     const v = val(d, iso, y); if (v == null) return null;
@@ -122,7 +122,7 @@ HUB.world = WD;   // for the checks and the console
   };
   WD.srcLine = items => {   // items: [{src, url, lic}]; every view names its source and licence
     const seen = new Set(), rows = items.filter(i => i && !seen.has(i.src + i.lic) && seen.add(i.src + i.lic)).map(i =>
-      `<span class="wd-s">${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener" data-notr>${esc(i.src)}</a>` : `<span data-notr>${esc(i.src)}</span>`} <span class="dim">(${esc(t('Licence'))}: <span data-notr>${esc(i.lic || t('not stated'))}</span>)</span>${i.csv ? ` <span class="dim">${esc(t('Download'))}:</span> <a href="${esc(HUB_BASE + i.csv)}" download data-notr>CSV</a> <span class="dim">(${tH('topic file: filter indicator_id = {id}', { id: `<span data-notr dir="ltr">${esc(i.id)}</span>` })})</span> <a href="${esc(HUB_BASE + i.json)}" download data-notr>JSON</a>` : ''}</span>`);
+      `<span class="wd-s">${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener" data-notr>${esc(i.src)}</a>` : `<span data-notr>${esc(i.src)}</span>`} <span class="dim">(${esc(t('Licence'))}: <span data-notr>${esc(i.lic || t('not stated'))}</span>)</span></span>`);
     return `<p class="wd-src note"><b>${esc(t('Source'))}:</b> ${rows.join('; ')}</p>`;
   };
   WD.indSrc = m => ({ src: m.src, url: m.url, lic: m.lic, csv: m.csv, json: m.f, id: m.id });
@@ -157,7 +157,7 @@ HUB.world = WD;   // for the checks and the console
     if (keep && keep.parentNode) keep.parentNode.removeChild(keep);   // the WebGL canvas survives a language change
     const views = [['map', N('Map')], ['flows', N('Flows')], ['compare', N('Compare')], ['correlations', N('Correlations')], ['scorecard', N('Scorecard')]];
     root.innerHTML = `<div class="wd"><div class="chips wd-nav" role="group" aria-label="${esc(t('World views'))}">${views.map(([v, l]) => `<button type="button" class="chip" data-wv="${v}" aria-pressed="${st.view === v}">${esc(t(l))}</button>`).join('')}</div>`
-      + `${WD.badLink ? `<p class="note wd-bad">${esc(t('That indicator is not in this build. Showing the default one.'))}</p>` : ''}<div id="wdBody"></div></div>`;
+      + `${WD.badLink ? `<p class="note wd-bad">${esc(t('That indicator is not in this build. Showing the default one.'))}</p>` : ''}<div id="wdBody"></div><p class="note dx-link"><a href="#data/world" data-hub="data" data-hash="data/world">${esc(t('Data behind this tab'))}</a></p></div>`;
     root.querySelectorAll('[data-wv]').forEach(b => b.addEventListener('click', () => { if (st.view !== b.dataset.wv) { WD.go(b.dataset.wv); } }));
     WD.cur = st.view;
     WD.v[st.view].mount($('#wdBody'));

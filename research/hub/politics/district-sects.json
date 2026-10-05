@@ -1,0 +1,1289 @@
+{
+ "title": "Registered voters by sect per election district (2017 law, 15 districts)",
+ "retrieved": "2026-10-05",
+ "labels": "Always show as registered voters by sect with the year; not residents; never beside the Strike map.",
+ "what_is_here": [
+  "lists_2014: Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas (Beirut I and II from their quartier pages) of each of the 15 districts. Complete for all 15.",
+  "lists_2017_wikipedia: counts by qada from a 2017 table on five Wikipedia district pages (Mount Lebanon I, IV, North II, III, Bekaa II); secondary.",
+  "lists_2018_wikipedia_counts (Bekaa I) and shares_wikipedia (eight districts): figures stated in page text, secondary."
+ ],
+ "not_found": [
+  "No source found that gives registered voters by sect for the 2018 or 2022 election lists themselves, for any district, in machine-readable form: elections.gov.lb is a JavaScript app with no discoverable API, moim.gov.lb is behind a Cloudflare challenge (not bypassed), and the 2022 Wikipedia pages carry totals only.",
+  "Wikipedia has no sect composition for Mount Lebanon II, Mount Lebanon III, Bekaa III, South I, South II or Beirut I (only the 1960 and 1972 lists for old Beirut I, in history.json); those are covered by lists_2014 only."
+ ],
+ "districts": [
+  {
+   "district": "Beirut I",
+   "seats": 8,
+   "registered_2018": 134736,
+   "registered_2022": 134825,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 133559,
+    "by_sect": {
+     "Maronite": 19988,
+     "Greek Orthodox": 23438,
+     "Greek Catholic": 13014,
+     "Armenian Orthodox": 38502,
+     "Armenian Catholic": 6828,
+     "Syriac Orthodox": 1583,
+     "Syriac Catholic": 3725,
+     "Latin": 3805,
+     "Evangelical": 1330,
+     "Copt": 17,
+     "Chaldean": 1024,
+     "Assyrian": 398,
+     "Christian minorities/unspecified": 206,
+     "Sunni": 12355,
+     "Shia": 3006,
+     "Druze": 322,
+     "Alawite": 58,
+     "Jewish": 54,
+     "Not stated": 1176
+    },
+    "other": {
+     "ارمن بروتستانت": 2626,
+     "نسطوري": 58,
+     "بهائي": 6,
+     "لا طائفي": 32,
+     "مختلف": 5,
+     "هندوسي": 1,
+     "بوذي": 1,
+     "شهود يهوه": 1
+    },
+    "components": [
+     "Achrafiye",
+     "Remeil",
+     "Saife",
+     "Medouar"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89/%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D8%B1/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89/%D8%A7%D9%84%D8%B1%D9%85%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89/%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "Beirut II",
+   "seats": 11,
+   "registered_2018": 353420,
+   "registered_2022": 370862,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 333220,
+    "by_sect": {
+     "Maronite": 8546,
+     "Greek Orthodox": 16068,
+     "Greek Catholic": 6695,
+     "Armenian Orthodox": 6298,
+     "Armenian Catholic": 1454,
+     "Syriac Orthodox": 4754,
+     "Syriac Catholic": 2000,
+     "Latin": 2052,
+     "Evangelical": 2440,
+     "Copt": 23,
+     "Chaldean": 492,
+     "Assyrian": 206,
+     "Christian minorities/unspecified": 239,
+     "Sunni": 199507,
+     "Shia": 70511,
+     "Druze": 4883,
+     "Alawite": 105,
+     "Jewish": 4669,
+     "Not stated": 1596
+    },
+    "other": {
+     "ارمن بروتستانت": 582,
+     "بوذي": 2,
+     "لا طائفي": 37,
+     "نسطوري": 19,
+     "مختلف": 2,
+     "اسماعيليي": 2,
+     "بهائي": 35,
+     "هندوسي": 2,
+     "شهود يهوه": 1
+    },
+    "components": [
+     "Bachoura",
+     "Marfaa",
+     "Ain Mreisse",
+     "Mazraa",
+     "Minet el Hosn",
+     "Moussaitbe",
+     "Ras Beirut",
+     "Zoqaq el Blat"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B3%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D8%A7%D8%B4%D9%88%D8%B1%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B1%D9%81%D8%A3/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%B5%D9%86/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D8%A7%D9%84%D9%85%D8%B5%D9%8A%D8%B7%D8%A8%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D8%B1%D8%A7%D8%B3-%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/%D8%B2%D9%82%D8%A7%D9%82-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%B7/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Sunni": 62.1,
+     "Shia": 20.6,
+     "Greek Orthodox": 5.0,
+     "Minorities (other)": 3.41,
+     "Maronite": 1.86,
+     "Armenian Orthodox": 1.65,
+     "Greek Catholic": 1.63,
+     "Druze": 1.55,
+     "Jewish": 1.31,
+     "Evangelical": 0.81,
+     "Alawite": 0.03
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_Beirut_II",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "Mount Lebanon I",
+   "seats": 8,
+   "registered_2018": 176716,
+   "registered_2022": 182103,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 170158,
+    "by_sect": {
+     "Maronite": 128802,
+     "Greek Orthodox": 7001,
+     "Greek Catholic": 6102,
+     "Armenian Orthodox": 2625,
+     "Armenian Catholic": 915,
+     "Syriac Orthodox": 886,
+     "Syriac Catholic": 672,
+     "Latin": 788,
+     "Evangelical": 335,
+     "Copt": 26,
+     "Chaldean": 200,
+     "Assyrian": 156,
+     "Christian minorities/unspecified": 122,
+     "Sunni": 3156,
+     "Shia": 17210,
+     "Druze": 37,
+     "Alawite": 15,
+     "Jewish": 3,
+     "Not stated": 942
+    },
+    "other": {
+     "ارمن بروتستانت": 84,
+     "نسطوري": 52,
+     "بوذي": 2,
+     "لا طائفي": 22,
+     "مختلف": 3,
+     "هندوسي": 2
+    },
+    "components": [
+     "جبيل",
+     "كسروان"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D8%AC%D8%A8%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D9%83%D8%B3%D8%B1%D9%88%D8%A7%D9%86/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2017_wikipedia": {
+    "year": 2017,
+    "total": 175328,
+    "by_sect": {
+     "Sunni": 3327,
+     "Shia": 18246,
+     "Druze": 40,
+     "Alawite": 16,
+     "Maronite": 132205,
+     "Greek Orthodox": 7255,
+     "Greek Catholic": 6304,
+     "Armenian Orthodox": 2580,
+     "Armenian Catholic": 903,
+     "Syriac Orthodox": 933,
+     "Syriac Catholic": 688,
+     "Minorities (other)": 1405,
+     "Evangelical": 429,
+     "Others (unspecified)": 994,
+     "Jewish": 3
+    },
+    "minor_districts": [
+     {
+      "qada": "Byblos",
+      "total": 81634,
+      "by_sect": {
+       "Sunni": 2770,
+       "Shia": 16529,
+       "Druze": 11,
+       "Alawite": 8,
+       "Maronite": 54718,
+       "Greek Orthodox": 3708,
+       "Greek Catholic": 1541,
+       "Armenian Orthodox": 999,
+       "Armenian Catholic": 124,
+       "Syriac Orthodox": 207,
+       "Syriac Catholic": 115,
+       "Minorities (other)": 339,
+       "Evangelical": 166,
+       "Others (unspecified)": 399
+      }
+     },
+     {
+      "qada": "Kesrwan",
+      "total": 93694,
+      "by_sect": {
+       "Sunni": 557,
+       "Shia": 1717,
+       "Druze": 29,
+       "Alawite": 8,
+       "Maronite": 77487,
+       "Greek Orthodox": 3547,
+       "Greek Catholic": 4763,
+       "Armenian Orthodox": 1581,
+       "Armenian Catholic": 779,
+       "Syriac Orthodox": 726,
+       "Syriac Catholic": 573,
+       "Minorities (other)": 1066,
+       "Evangelical": 263,
+       "Jewish": 3,
+       "Others (unspecified)": 595
+      }
+     }
+    ],
+    "label": "registered voters by sect, 2017, as tabulated on Wikipedia from Lebanon Files; secondary source, not checked against the Interior Ministry lists; not residents",
+    "source": "https://en.wikipedia.org/wiki/Mount_Lebanon_I (table 'Below data from 2017', source cited there: http://www.lebanonfiles.com/news/1301866)",
+    "license": "Wikipedia text CC BY-SA 4.0; underlying figures from Lebanon Files, no licence stated, facts only"
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Maronite": 75.4,
+     "Shia": 10.4,
+     "Greek Orthodox": 4.1,
+     "Greek Catholic": 3.6,
+     "Sunni": 1.9,
+     "Other Christian": 4.0
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_Mount_Lebanon_I",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "Mount Lebanon II",
+   "seats": 8,
+   "registered_2018": 169922,
+   "registered_2022": 183441,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 174634,
+    "by_sect": {
+     "Maronite": 76276,
+     "Greek Orthodox": 25669,
+     "Greek Catholic": 17339,
+     "Armenian Orthodox": 25442,
+     "Armenian Catholic": 6381,
+     "Syriac Orthodox": 3619,
+     "Syriac Catholic": 1469,
+     "Latin": 2122,
+     "Evangelical": 1048,
+     "Copt": 53,
+     "Chaldean": 572,
+     "Assyrian": 824,
+     "Christian minorities/unspecified": 248,
+     "Sunni": 3534,
+     "Shia": 4965,
+     "Druze": 2287,
+     "Alawite": 186,
+     "Jewish": 23,
+     "Not stated": 796
+    },
+    "other": {
+     "ارمن بروتستانت": 1656,
+     "نسطوري": 86,
+     "بهائي": 1,
+     "بوذي": 6,
+     "لا طائفي": 23,
+     "مختلف": 8,
+     "هندوسي": 1
+    },
+    "components": [
+     "المتن-الشمالي"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D8%A7%D9%84%D9%85%D8%AA%D9%86-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "Mount Lebanon III",
+   "seats": 6,
+   "registered_2018": 166137,
+   "registered_2022": 171746,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 158988,
+    "by_sect": {
+     "Maronite": 55546,
+     "Greek Orthodox": 12441,
+     "Greek Catholic": 8632,
+     "Armenian Orthodox": 1592,
+     "Armenian Catholic": 765,
+     "Syriac Orthodox": 700,
+     "Syriac Catholic": 624,
+     "Latin": 776,
+     "Evangelical": 636,
+     "Copt": 19,
+     "Chaldean": 244,
+     "Assyrian": 459,
+     "Christian minorities/unspecified": 111,
+     "Sunni": 10155,
+     "Shia": 38124,
+     "Druze": 27373,
+     "Alawite": 19,
+     "Jewish": 2,
+     "Not stated": 622
+    },
+    "other": {
+     "ارمن بروتستانت": 49,
+     "نسطوري": 71,
+     "بهائي": 1,
+     "بوذي": 5,
+     "لا طائفي": 21,
+     "هندوسي": 1
+    },
+    "components": [
+     "بعبدا"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D8%A8%D8%B9%D8%A8%D8%AF%D8%A7/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "Mount Lebanon IV",
+   "seats": 13,
+   "registered_2018": 329870,
+   "registered_2022": 346451,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 314168,
+    "by_sect": {
+     "Maronite": 81175,
+     "Greek Orthodox": 17461,
+     "Greek Catholic": 17044,
+     "Armenian Orthodox": 1070,
+     "Armenian Catholic": 340,
+     "Syriac Orthodox": 575,
+     "Syriac Catholic": 439,
+     "Latin": 609,
+     "Evangelical": 1632,
+     "Copt": 5,
+     "Chaldean": 97,
+     "Assyrian": 148,
+     "Christian minorities/unspecified": 179,
+     "Sunni": 57229,
+     "Shia": 9612,
+     "Druze": 124875,
+     "Alawite": 15,
+     "Jewish": 56,
+     "Not stated": 1431
+    },
+    "other": {
+     "ارمن بروتستانت": 99,
+     "نسطوري": 51,
+     "لا طائفي": 19,
+     "مختلف": 3,
+     "اسماعيليي": 4
+    },
+    "components": [
+     "عاليه",
+     "الشوف"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D8%B9%D8%A7%D9%84%D9%8A%D9%87/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%AC%D8%A8%D9%84-%D9%84%D8%A8%D9%86%D8%A7%D9%86/%D8%A7%D9%84%D8%B4%D9%88%D9%81/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2017_wikipedia": {
+    "year": 2017,
+    "total": 325771,
+    "by_sect": {
+     "Sunni": 60825,
+     "Shia": 10238,
+     "Druze": 129542,
+     "Alawite": 16,
+     "Maronite": 83086,
+     "Greek Orthodox": 17794,
+     "Greek Catholic": 17391,
+     "Armenian Orthodox": 1091,
+     "Armenian Catholic": 346,
+     "Syriac Orthodox": 603,
+     "Syriac Catholic": 449,
+     "Minorities (other)": 1141,
+     "Evangelical": 1737,
+     "Jewish": 53,
+     "Others (unspecified)": 1459
+    },
+    "minor_districts": [
+     {
+      "qada": "Aley",
+      "total": 125933,
+      "by_sect": {
+       "Sunni": 2602,
+       "Shia": 4254,
+       "Druze": 67304,
+       "Alawite": 6,
+       "Maronite": 28685,
+       "Greek Orthodox": 14615,
+       "Greek Catholic": 4725,
+       "Armenian Orthodox": 845,
+       "Armenian Catholic": 191,
+       "Syriac Orthodox": 295,
+       "Syriac Catholic": 274,
+       "Minorities (other)": 654,
+       "Evangelical": 976,
+       "Jewish": 41,
+       "Others (unspecified)": 466
+      }
+     },
+     {
+      "qada": "Chouf",
+      "total": 199838,
+      "by_sect": {
+       "Sunni": 58223,
+       "Shia": 5984,
+       "Druze": 62238,
+       "Alawite": 10,
+       "Maronite": 54401,
+       "Greek Orthodox": 3179,
+       "Greek Catholic": 12666,
+       "Armenian Orthodox": 246,
+       "Armenian Catholic": 155,
+       "Syriac Orthodox": 308,
+       "Syriac Catholic": 175,
+       "Minorities (other)": 487,
+       "Evangelical": 761,
+       "Jewish": 12,
+       "Others (unspecified)": 993
+      }
+     }
+    ],
+    "label": "registered voters by sect, 2017, as tabulated on Wikipedia from Lebanon Files; secondary source, not checked against the Interior Ministry lists; not residents",
+    "source": "https://en.wikipedia.org/wiki/Mount_Lebanon_IV (table 'Below data from 2017', source cited there: http://www.lebanonfiles.com/news/1301866)",
+    "license": "Wikipedia text CC BY-SA 4.0; underlying figures from Lebanon Files, no licence stated, facts only"
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Druze": 40.5,
+     "Maronite": 27.0,
+     "Sunni": 18.7,
+     "Greek Catholic": 5.18,
+     "Greek Orthodox": 5.14,
+     "Shia": 2.6,
+     "Other Christian": 0.91
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/Mount_Lebanon_IV (section Electorate)",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "North I",
+   "seats": 7,
+   "registered_2018": 283795,
+   "registered_2022": 309517,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 257521,
+    "by_sect": {
+     "Maronite": 29537,
+     "Greek Orthodox": 36665,
+     "Greek Catholic": 3292,
+     "Armenian Orthodox": 162,
+     "Armenian Catholic": 65,
+     "Syriac Orthodox": 133,
+     "Syriac Catholic": 49,
+     "Latin": 109,
+     "Evangelical": 779,
+     "Chaldean": 17,
+     "Assyrian": 30,
+     "Christian minorities/unspecified": 85,
+     "Sunni": 170566,
+     "Shia": 3012,
+     "Druze": 13,
+     "Alawite": 12520,
+     "Not stated": 453
+    },
+    "other": {
+     "ارمن بروتستانت": 9,
+     "شهود يهوه": 1,
+     "نسطوري": 14,
+     "لا طائفي": 6,
+     "للتدقيق": 2,
+     "مختلف": 1,
+     "هندوسي": 1
+    },
+    "components": [
+     "عكار"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%B9%D9%83%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Sunni": 67.5,
+     "Greek Orthodox": 14.7,
+     "Maronite": 10.9,
+     "Alawite": 4.97,
+     "Shia": 1.05,
+     "Greek Catholic": 0.62,
+     "Other Christian": 0.29
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_North_I",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "North II",
+   "seats": 11,
+   "registered_2018": 350151,
+   "registered_2022": 377111,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 322099,
+    "by_sect": {
+     "Maronite": 12328,
+     "Greek Orthodox": 19775,
+     "Greek Catholic": 1637,
+     "Armenian Orthodox": 1789,
+     "Armenian Catholic": 274,
+     "Syriac Orthodox": 311,
+     "Syriac Catholic": 221,
+     "Latin": 353,
+     "Evangelical": 518,
+     "Copt": 1,
+     "Chaldean": 60,
+     "Assyrian": 13,
+     "Christian minorities/unspecified": 145,
+     "Sunni": 265258,
+     "Shia": 2897,
+     "Druze": 37,
+     "Alawite": 14931,
+     "Jewish": 40,
+     "Not stated": 1382
+    },
+    "other": {
+     "ارمن بروتستانت": 109,
+     "شهود يهوه": 2,
+     "نسطوري": 4,
+     "لا طائفي": 11,
+     "مختلف": 3
+    },
+    "components": [
+     "طرابلس",
+     "المنية-الضنية"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%B7%D8%B1%D8%A7%D8%A8%D9%84%D8%B3/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%B6%D9%86%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2017_wikipedia": {
+    "year": 2017,
+    "total": 343290,
+    "by_sect": {
+     "Sunni": 284523,
+     "Shia": 3030,
+     "Druze": 36,
+     "Alawite": 15880,
+     "Maronite": 12696,
+     "Greek Orthodox": 20246,
+     "Greek Catholic": 1653,
+     "Armenian Orthodox": 1767,
+     "Armenian Catholic": 271,
+     "Syriac Orthodox": 317,
+     "Syriac Catholic": 222,
+     "Minorities (other)": 577,
+     "Evangelical": 625,
+     "Others (unspecified)": 1409,
+     "Jewish": 38
+    },
+    "minor_districts": [
+     {
+      "qada": "Miniyeh-Danniyeh",
+      "total": 118671,
+      "by_sect": {
+       "Sunni": 101971,
+       "Shia": 312,
+       "Druze": 3,
+       "Alawite": 74,
+       "Maronite": 7449,
+       "Greek Orthodox": 8171,
+       "Greek Catholic": 176,
+       "Armenian Orthodox": 16,
+       "Armenian Catholic": 6,
+       "Syriac Orthodox": 17,
+       "Syriac Catholic": 7,
+       "Minorities (other)": 37,
+       "Evangelical": 42,
+       "Others (unspecified)": 390
+      }
+     },
+     {
+      "qada": "Tripoli",
+      "total": 224619,
+      "by_sect": {
+       "Sunni": 182552,
+       "Shia": 2718,
+       "Druze": 33,
+       "Alawite": 15806,
+       "Maronite": 5247,
+       "Greek Orthodox": 12075,
+       "Greek Catholic": 1477,
+       "Armenian Orthodox": 1751,
+       "Armenian Catholic": 265,
+       "Syriac Orthodox": 300,
+       "Syriac Catholic": 215,
+       "Minorities (other)": 540,
+       "Evangelical": 583,
+       "Jewish": 38,
+       "Others (unspecified)": 1019
+      }
+     }
+    ],
+    "label": "registered voters by sect, 2017, as tabulated on Wikipedia from Lebanon Files; secondary source, not checked against the Interior Ministry lists; not residents",
+    "source": "https://en.wikipedia.org/wiki/North_II (table 'Below data from 2017', source cited there: http://www.lebanonfiles.com/news/1301866)",
+    "license": "Wikipedia text CC BY-SA 4.0; underlying figures from Lebanon Files, no licence stated, facts only"
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Sunni": 82.91,
+     "Greek Orthodox": 6.24,
+     "Alawite": 6.04,
+     "Maronite": 3.5,
+     "Armenian Orthodox": 0.51,
+     "Armenian Catholic": 0.32,
+     "Other Christian": 0.59
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_North_II",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "North III",
+   "seats": 10,
+   "registered_2018": 249416,
+   "registered_2022": 257964,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 239842,
+    "by_sect": {
+     "Maronite": 158186,
+     "Greek Orthodox": 50295,
+     "Greek Catholic": 4000,
+     "Armenian Orthodox": 559,
+     "Armenian Catholic": 311,
+     "Syriac Orthodox": 403,
+     "Syriac Catholic": 182,
+     "Latin": 407,
+     "Evangelical": 426,
+     "Copt": 7,
+     "Chaldean": 51,
+     "Assyrian": 67,
+     "Christian minorities/unspecified": 134,
+     "Sunni": 21034,
+     "Shia": 2304,
+     "Druze": 27,
+     "Alawite": 565,
+     "Jewish": 1,
+     "Not stated": 815
+    },
+    "other": {
+     "ارمن بروتستانت": 16,
+     "نسطوري": 25,
+     "لا طائفي": 15,
+     "للتدقيق": 1,
+     "مختلف": 9,
+     "هندوسي": 2
+    },
+    "components": [
+     "بشري",
+     "زغرتا",
+     "البترون",
+     "الكورة"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%A8%D8%B4%D8%B1%D9%8A/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%B2%D8%BA%D8%B1%D8%AA%D8%A7/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%86/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/%D8%A7%D9%84%D9%83%D9%88%D8%B1%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2017_wikipedia": {
+    "year": 2017,
+    "total": 246977,
+    "by_sect": {
+     "Sunni": 22475,
+     "Shia": 2414,
+     "Druze": 33,
+     "Alawite": 602,
+     "Maronite": 162588,
+     "Greek Orthodox": 51163,
+     "Greek Catholic": 4129,
+     "Armenian Orthodox": 575,
+     "Armenian Catholic": 324,
+     "Syriac Orthodox": 418,
+     "Syriac Catholic": 191,
+     "Minorities (other)": 720,
+     "Evangelical": 465,
+     "Jewish": 1,
+     "Others (unspecified)": 879
+    },
+    "minor_districts": [
+     {
+      "qada": "Batroun",
+      "total": 60128,
+      "by_sect": {
+       "Sunni": 3764,
+       "Shia": 1034,
+       "Druze": 11,
+       "Alawite": 42,
+       "Maronite": 41964,
+       "Greek Orthodox": 10070,
+       "Greek Catholic": 1994,
+       "Armenian Orthodox": 260,
+       "Armenian Catholic": 101,
+       "Syriac Orthodox": 182,
+       "Syriac Catholic": 80,
+       "Minorities (other)": 254,
+       "Evangelical": 80,
+       "Jewish": 1,
+       "Others (unspecified)": 291
+      }
+     },
+     {
+      "qada": "Bcharre",
+      "total": 49148,
+      "by_sect": {
+       "Sunni": 109,
+       "Shia": 27,
+       "Alawite": 6,
+       "Maronite": 46512,
+       "Greek Orthodox": 1380,
+       "Greek Catholic": 554,
+       "Armenian Orthodox": 81,
+       "Armenian Catholic": 26,
+       "Syriac Orthodox": 87,
+       "Syriac Catholic": 34,
+       "Minorities (other)": 107,
+       "Evangelical": 55,
+       "Others (unspecified)": 170
+      }
+     },
+     {
+      "qada": "Koura",
+      "total": 60258,
+      "by_sect": {
+       "Sunni": 8626,
+       "Shia": 1202,
+       "Druze": 11,
+       "Alawite": 478,
+       "Maronite": 12991,
+       "Greek Orthodox": 35335,
+       "Greek Catholic": 713,
+       "Armenian Orthodox": 99,
+       "Armenian Catholic": 30,
+       "Syriac Orthodox": 67,
+       "Syriac Catholic": 32,
+       "Minorities (other)": 187,
+       "Evangelical": 233,
+       "Others (unspecified)": 254
+      }
+     },
+     {
+      "qada": "Zgharta",
+      "total": 77443,
+      "by_sect": {
+       "Sunni": 9976,
+       "Shia": 151,
+       "Druze": 11,
+       "Alawite": 76,
+       "Maronite": 61121,
+       "Greek Orthodox": 4378,
+       "Greek Catholic": 868,
+       "Armenian Orthodox": 135,
+       "Armenian Catholic": 167,
+       "Syriac Orthodox": 82,
+       "Syriac Catholic": 45,
+       "Minorities (other)": 172,
+       "Evangelical": 97,
+       "Others (unspecified)": 164
+      }
+     }
+    ],
+    "label": "registered voters by sect, 2017, as tabulated on Wikipedia from Lebanon Files; secondary source, not checked against the Interior Ministry lists; not residents",
+    "source": "https://en.wikipedia.org/wiki/North_III (table 'Below data from 2017', source cited there: http://www.lebanonfiles.com/news/1301866)",
+    "license": "Wikipedia text CC BY-SA 4.0; underlying figures from Lebanon Files, no licence stated, facts only"
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Maronite": 68.1,
+     "Greek Orthodox": 20.7,
+     "Sunni": 8.94,
+     "Shia": 0.93,
+     "Greek Catholic": 0.73,
+     "Other Christian": 0.38,
+     "Alawite": 0.24
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/North_III (section Electorate)",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "Bekaa I",
+   "seats": 7,
+   "registered_2018": 175616,
+   "registered_2022": 183425,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 166859,
+    "by_sect": {
+     "Maronite": 27871,
+     "Greek Orthodox": 16533,
+     "Greek Catholic": 29684,
+     "Armenian Orthodox": 8760,
+     "Armenian Catholic": 1793,
+     "Syriac Orthodox": 5121,
+     "Syriac Catholic": 1076,
+     "Latin": 356,
+     "Evangelical": 773,
+     "Copt": 3,
+     "Chaldean": 375,
+     "Assyrian": 235,
+     "Christian minorities/unspecified": 129,
+     "Sunni": 45869,
+     "Shia": 26065,
+     "Druze": 887,
+     "Alawite": 18,
+     "Jewish": 78,
+     "Not stated": 569
+    },
+    "other": {
+     "ارمن بروتستانت": 620,
+     "شهود يهوه": 3,
+     "نسطوري": 32,
+     "بوذي": 1,
+     "لا طائفي": 6,
+     "مختلف": 2
+    },
+    "components": [
+     "زحلة"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9/%D8%B2%D8%AD%D9%84%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2018_wikipedia_counts": {
+    "year": 2018,
+    "total": 172555,
+    "by_sect": {
+     "Sunni": 48867,
+     "Shia": 27538,
+     "Druze": 906,
+     "Greek Catholic": 32295,
+     "Maronite": 27049,
+     "Greek Orthodox": 16470,
+     "Armenian Orthodox": 8604,
+     "Syriac Orthodox and Syriac Catholic": 6646,
+     "Armenian Catholic": 1846,
+     "Evangelical": 1349,
+     "Other sects": 985
+    },
+    "label": "registered voters by sect ahead of the 2018 elections, as stated on Wikipedia; secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_Bekaa_I",
+    "license": "Wikipedia CC BY-SA 4.0"
+   }
+  },
+  {
+   "district": "Bekaa II",
+   "seats": 6,
+   "registered_2018": 143812,
+   "registered_2022": 153975,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 133929,
+    "by_sect": {
+     "Maronite": 10450,
+     "Greek Orthodox": 9826,
+     "Greek Catholic": 9544,
+     "Armenian Orthodox": 109,
+     "Armenian Catholic": 65,
+     "Syriac Orthodox": 98,
+     "Syriac Catholic": 153,
+     "Latin": 95,
+     "Evangelical": 413,
+     "Copt": 2,
+     "Chaldean": 9,
+     "Assyrian": 22,
+     "Christian minorities/unspecified": 36,
+     "Sunni": 63990,
+     "Shia": 19248,
+     "Druze": 19530,
+     "Jewish": 1,
+     "Not stated": 320
+    },
+    "other": {
+     "ارمن بروتستانت": 2,
+     "نسطوري": 7,
+     "بهائي": 3,
+     "لا طائفي": 5,
+     "مختلف": 1
+    },
+    "components": [
+     "البقاع-الغربي",
+     "راشيا"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9-%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9/%D8%B1%D8%A7%D8%B4%D9%8A%D8%A7/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "lists_2017_wikipedia": {
+    "year": 2017,
+    "total": 140950,
+    "by_sect": {
+     "Sunni": 68047,
+     "Shia": 20689,
+     "Druze": 20534,
+     "Maronite": 10743,
+     "Greek Orthodox": 9879,
+     "Greek Catholic": 9659,
+     "Armenian Orthodox": 112,
+     "Armenian Catholic": 60,
+     "Syriac Orthodox": 110,
+     "Syriac Catholic": 150,
+     "Minorities (other)": 184,
+     "Evangelical": 424,
+     "Others (unspecified)": 358,
+     "Jewish": 1
+    },
+    "minor_districts": [
+     {
+      "qada": "Rachaya",
+      "total": 48038,
+      "by_sect": {
+       "Sunni": 17500,
+       "Shia": 184,
+       "Druze": 20068,
+       "Maronite": 2108,
+       "Greek Orthodox": 7170,
+       "Greek Catholic": 635,
+       "Armenian Orthodox": 39,
+       "Armenian Catholic": 33,
+       "Syriac Orthodox": 31,
+       "Syriac Catholic": 109,
+       "Minorities (other)": 38,
+       "Evangelical": 77,
+       "Others (unspecified)": 46
+      }
+     },
+     {
+      "qada": "West Bekaa",
+      "total": 92912,
+      "by_sect": {
+       "Sunni": 50547,
+       "Shia": 20505,
+       "Druze": 466,
+       "Maronite": 8635,
+       "Greek Orthodox": 2709,
+       "Greek Catholic": 9024,
+       "Armenian Orthodox": 73,
+       "Armenian Catholic": 27,
+       "Syriac Orthodox": 79,
+       "Syriac Catholic": 41,
+       "Minorities (other)": 146,
+       "Evangelical": 347,
+       "Jewish": 1,
+       "Others (unspecified)": 312
+      }
+     }
+    ],
+    "label": "registered voters by sect, 2017, as tabulated on Wikipedia from Lebanon Files; secondary source, not checked against the Interior Ministry lists; not residents",
+    "source": "https://en.wikipedia.org/wiki/Bekaa_II (table 'Below data from 2017', source cited there: http://www.lebanonfiles.com/news/1301866)",
+    "license": "Wikipedia text CC BY-SA 4.0; underlying figures from Lebanon Files, no licence stated, facts only"
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Sunni": 48.8,
+     "Druze": 14.8,
+     "Shia": 14.7,
+     "Greek Catholic": 7.42,
+     "Maronite": 7.22,
+     "Greek Orthodox": 7.16
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_Bekaa_II",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  },
+  {
+   "district": "Bekaa III",
+   "seats": 10,
+   "registered_2018": 315648,
+   "registered_2022": 341263,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 292160,
+    "by_sect": {
+     "Maronite": 21991,
+     "Greek Orthodox": 2669,
+     "Greek Catholic": 15002,
+     "Armenian Orthodox": 212,
+     "Armenian Catholic": 45,
+     "Syriac Orthodox": 127,
+     "Syriac Catholic": 68,
+     "Latin": 55,
+     "Evangelical": 102,
+     "Copt": 4,
+     "Chaldean": 26,
+     "Assyrian": 17,
+     "Christian minorities/unspecified": 45,
+     "Sunni": 41084,
+     "Shia": 209463,
+     "Druze": 34,
+     "Alawite": 108,
+     "Not stated": 1076
+    },
+    "other": {
+     "ارمن بروتستانت": 5,
+     "نسطوري": 9,
+     "لا طائفي": 15,
+     "للتدقيق": 1,
+     "مختلف": 2
+    },
+    "components": [
+     "بعلبك",
+     "الهرمل"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9/%D8%A8%D8%B9%D9%84%D8%A8%D9%83/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%A8%D9%82%D8%A7%D8%B9/%D8%A7%D9%84%D9%87%D8%B1%D9%85%D9%84/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "South I",
+   "seats": 5,
+   "registered_2018": 122528,
+   "registered_2022": 129229,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 115536,
+    "by_sect": {
+     "Maronite": 33842,
+     "Greek Orthodox": 1731,
+     "Greek Catholic": 9958,
+     "Armenian Orthodox": 354,
+     "Armenian Catholic": 116,
+     "Syriac Orthodox": 213,
+     "Syriac Catholic": 142,
+     "Latin": 227,
+     "Evangelical": 305,
+     "Copt": 8,
+     "Chaldean": 55,
+     "Assyrian": 56,
+     "Christian minorities/unspecified": 66,
+     "Sunni": 49429,
+     "Shia": 17935,
+     "Druze": 581,
+     "Alawite": 8,
+     "Jewish": 2,
+     "Not stated": 491
+    },
+    "other": {
+     "ارمن بروتستانت": 7,
+     "نسطوري": 5,
+     "لا طائفي": 4,
+     "مختلف": 1
+    },
+    "components": [
+     "صيدا-مدينة",
+     "جزين"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8/%D8%B5%D9%8A%D8%AF%D8%A7-%D9%85%D8%AF%D9%8A%D9%86%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8/%D8%AC%D8%B2%D9%8A%D9%86/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "South II",
+   "seats": 7,
+   "registered_2018": 304197,
+   "registered_2022": 328064,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 278847,
+    "by_sect": {
+     "Maronite": 14027,
+     "Greek Orthodox": 1513,
+     "Greek Catholic": 17787,
+     "Armenian Orthodox": 1167,
+     "Armenian Catholic": 198,
+     "Syriac Orthodox": 131,
+     "Syriac Catholic": 55,
+     "Latin": 327,
+     "Evangelical": 781,
+     "Copt": 21,
+     "Chaldean": 22,
+     "Assyrian": 30,
+     "Christian minorities/unspecified": 107,
+     "Sunni": 19242,
+     "Shia": 222345,
+     "Druze": 63,
+     "Alawite": 17,
+     "Not stated": 830
+    },
+    "other": {
+     "ارمن بروتستانت": 163,
+     "نسطوري": 15,
+     "لا طائفي": 1,
+     "مختلف": 4,
+     "شهود يهوه": 1
+    },
+    "components": [
+     "صور",
+     "صيدا-قرى"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8/%D8%B5%D9%88%D8%B1/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8/%D8%B5%D9%8A%D8%AF%D8%A7-%D9%82%D8%B1%D9%89/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   }
+  },
+  {
+   "district": "South III",
+   "seats": 11,
+   "registered_2018": 460575,
+   "registered_2022": 497531,
+   "registered_source": "research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json (district registered voters as compiled there; a different compilation from lists_2014, so the figures are not a measure of change)",
+   "lists_2014": {
+    "year": 2014,
+    "total": 423068,
+    "by_sect": {
+     "Maronite": 23355,
+     "Greek Orthodox": 10307,
+     "Greek Catholic": 8006,
+     "Armenian Orthodox": 181,
+     "Armenian Catholic": 113,
+     "Syriac Orthodox": 134,
+     "Syriac Catholic": 62,
+     "Latin": 348,
+     "Evangelical": 1332,
+     "Copt": 3,
+     "Chaldean": 16,
+     "Assyrian": 34,
+     "Christian minorities/unspecified": 142,
+     "Sunni": 30716,
+     "Shia": 331346,
+     "Druze": 15535,
+     "Alawite": 38,
+     "Jewish": 2,
+     "Not stated": 1358
+    },
+    "other": {
+     "نسطوري": 10,
+     "لا طائفي": 25,
+     "مختلف": 2,
+     "ارمن بروتستانت": 3
+    },
+    "components": [
+     "النبطية",
+     "بنت-جبيل",
+     "مرجعيون",
+     "حاصبيا"
+    ],
+    "label": "registered voters by sect, Interior Ministry 2014 lists as transcribed by lub-anan.com, summed over the qadas of the district; not residents; not the 2018 or 2022 lists",
+    "source": [
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D9%86%D8%A8%D8%B7%D9%8A%D8%A9/%D8%A7%D9%84%D9%86%D8%A8%D8%B7%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D9%86%D8%A8%D8%B7%D9%8A%D8%A9/%D8%A8%D9%86%D8%AA-%D8%AC%D8%A8%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D9%86%D8%A8%D8%B7%D9%8A%D8%A9/%D9%85%D8%B1%D8%AC%D8%B9%D9%8A%D9%88%D9%86/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/",
+     "https://www.lub-anan.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA/%D8%A7%D9%84%D9%86%D8%A8%D8%B7%D9%8A%D8%A9/%D8%AD%D8%A7%D8%B5%D8%A8%D9%8A%D8%A7/%D8%A7%D9%84%D9%85%D8%B0%D8%A7%D9%87%D8%A8/"
+    ],
+    "license": null
+   },
+   "shares_wikipedia": {
+    "year": 2018,
+    "shares_pct": {
+     "Shia": 80.1,
+     "Sunni": 6.35,
+     "Maronite": 5.27,
+     "Druze": 3.65,
+     "Greek Orthodox": 2.45,
+     "Greek Catholic": 1.8,
+     "Other Christian": 0.39
+    },
+    "label": "share of registered voters by sect as stated in the page text (rounded as published, may not add to 100); secondary; not residents",
+    "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election_in_South_III",
+    "license": "Wikipedia CC BY-SA 4.0 (facts only)"
+   }
+  }
+ ]
+}

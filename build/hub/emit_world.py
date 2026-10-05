@@ -58,8 +58,11 @@ def sig(x, n=7):
 
 
 def load_ui(build_dir):
-    p = os.path.join(build_dir, "i18n", "ui_world.json")
-    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    """Every build/i18n/ui*.json merged (ui_world.json last, so it wins): indicator labels may be translated in another tab's file."""
+    out = {}
+    for p in sorted(glob.glob(os.path.join(build_dir, "i18n", "ui*.json")), key=lambda p: os.path.basename(p) == "ui_world.json"):
+        out.update(json.load(open(p, encoding="utf-8")))
+    return out
 
 
 def entities(hw):

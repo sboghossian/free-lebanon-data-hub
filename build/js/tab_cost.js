@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------ Cost of living tab (FE-B). Data: data/cost/fx.json, data/cost/prices.json (D1, D2), data/money/series.json (D7).
    Views: exchange rate, wages and prices (with "what a month's minimum wage buys"), prices by category (CPI), public money, all series. Hash: #cost, #cost/<view>, #money. */
-const COST_VIEWS = [{ id: 'fx', label: N('Exchange rate') }, { id: 'wages', label: N('Wages and prices') }, { id: 'prices', label: N('Prices by category') }, { id: 'money', label: N('Public money') }, { id: 'explore', label: N('Compare any series') }, { id: 'all', label: N('All series') }];
+const COST_VIEWS = [{ id: 'fx', label: N('Exchange rate') }, { id: 'wages', label: N('Wages and prices') }, { id: 'prices', label: N('Prices by category') }, { id: 'food', label: N('Food security') }, { id: 'money', label: N('Public money') }, { id: 'explore', label: N('Compare any series') }];
 const COST = { view: 'fx', S: null, year: 2024, base: 2019, cats: new Set(['total', 'food', 'housing', 'transport']), money: null };
 const CPI_CATS = [['total', N('All items')], ['food', N('Food and drink')], ['alcohol_tobacco', N('Alcohol and tobacco')], ['clothing', N('Clothing and shoes')], ['housing', N('Housing, water, electricity, fuels')],
   ['furnishings', N('Furnishings and home upkeep')], ['health', N('Health')], ['transport', N('Transport')], ['communication', N('Communication')], ['recreation', N('Recreation and culture')], ['education', N('Education')],
@@ -177,13 +177,6 @@ function costMoneyView(el) {
     el.insertAdjacentHTML('beforeend', `<p class="note">${esc(t('IMF series carry the IMF terms of use; World Bank series are CC BY 4.0; Ministry of Finance and bank-association figures state no licence. Left out: commercial price histories (Bloomberg, CEIC).'))}</p>`);
   });
 }
-function costAllView(el) {
-  el.innerHTML = `<p class="lead">${esc(t('Every series in the three cost and money files, with its unit, span, licence and a CSV download.'))}</p><div id="costAll"></div>`;
-  fbLoad($('#costAll'), ['data/money/series.json'], ms => {
-    const all = Object.values(COST.S).concat(ms.series || []);
-    fbBrowse($('#costAll'), all, { per: 30 });
-  });
-}
 
 /* ---------- compare any series: search every series the Lebanese tabs publish, plot up to six, index them to 100, see how they move together ---------- */
 const XPL = { ids: [], idx: false, log: false, q: '', all: null };
@@ -238,7 +231,150 @@ function costExploreView(el, preset) {
     list(); draw();
   }));
 }
-const COST_RENDER = { fx: costFx, wages: costWages, prices: costPricesView, money: costMoneyView, explore: costExploreView, all: costAllView };
+/* ---------- food security (v10): WFP food prices (data/cost/food.json) and IPC acute food insecurity (data/cost/ipc.json) ---------- */
+const FOOD = { item: 'bread_pita_800_g', area: 'national', cur: 'lbp', ipc: '', grp: 'all', all: false };
+const FOOD_ITEMS = [['bread_pita_800_g', N('Pita bread, 800 g')], ['wheat_flour_900_g', N('Wheat flour, 900 g')], ['rice_imported_egyptian_900_g', N('Egyptian rice, 900 g')], ['pasta_spaghetti_500_g', N('Spaghetti, 500 g')],
+  ['bulgur_brown_900_g', N('Brown bulgur, 900 g')], ['sugar_white_5_kg', N('White sugar, 5 kg')], ['salt_700_g', N('Salt, 700 g')], ['tea_160_g', N('Tea, 160 g')], ['oil_sunflower_5_l', N('Sunflower oil, 5 L')],
+  ['eggs_30_pcs', N('Eggs, 30 pieces')], ['milk_powder_750_g', N('Powdered milk, 750 g')], ['cheese_picon_160_g', N('Picon cheese, 160 g')], ['meat_chicken_whole_frozen_kg', N('Whole frozen chicken, per kg')],
+  ['meat_beef_canned_200_g', N('Canned beef, 200 g')], ['fish_sardine_canned_125_g', N('Canned sardines, 125 g')], ['fish_tuna_canned_185_g', N('Canned tuna, 185 g')], ['beans_white_900_g', N('White beans, 900 g')],
+  ['chickpeas_900_g', N('Chickpeas, 900 g')], ['lentils_900_g', N('Lentils, 900 g')], ['lentils_green_kg', N('Green lentils, per kg')], ['lentils_red_kg', N('Red lentils, per kg')],
+  ['tomatoes_paste_660_g', N('Tomato paste, 660 g')], ['potatoes_kg', N('Potatoes, per kg')], ['carrots_kg', N('Carrots, per kg')], ['cabbage_kg', N('Cabbage, per kg')], ['cucumbers_greenhouse_kg', N('Greenhouse cucumbers, per kg')],
+  ['lettuce_head', N('Lettuce, per head')], ['spinach_kg', N('Spinach, per kg')], ['apples_kg', N('Apples, per kg')],
+  ['fuel_petrol_gasoline_95_octane_20_l', N('Petrol 95, 20 L (WFP survey)')], ['fuel_diesel_20_l', N('Diesel, 20 L (WFP survey)')], ['fuel_gas_10_kg', N('Cooking gas, 10 kg (WFP survey)')]];
+const FOOD_AREAS = [['beirut', N('Beirut')], ['mount_lebanon', N('Mount Lebanon')], ['north', N('North')], ['akkar', N('Akkar')], ['baalbek_hermel', N('Baalbek-Hermel')], ['bekaa', N('Bekaa')], ['south', N('South')], ['nabatieh', N('Nabatieh')]];
+const FOOD_ID = /^food_(.+)_(lbp|usd)_(national|beirut|mount_lebanon|north|akkar|baalbek_hermel|bekaa|south|nabatieh)$/;
+function foodIndex(list) {
+  const m = new Map();
+  (list.series || list).forEach(s => { const x = FOOD_ID.exec(s.id); if (x) m.set(x[1] + '|' + x[2] + '|' + x[3], s); });
+  return m;
+}
+function foodRuns(s, label, color, split) {  // split: a gap of more than six months breaks the line (WFP dollar prices skip Sep 2019 to Feb 2024, and a straight line across would invent them)
+  const runs = [];
+  s.points.forEach((p, i) => { if (!i || (split && fbT(p[0]) - fbT(s.points[i - 1][0]) > 0.5)) runs.push([]); runs[runs.length - 1].push(p); });
+  return runs.map((pts, i) => ({ s: Object.assign({}, s, { id: s.id + '#' + i, csv_id: s.csv_id || s.id, points: pts, _p: null }), color,
+    label: runs.length > 1 ? label + ', ' + t('{a} to {b}', { a: fbLongDate(pts[0][0]), b: fbLongDate(pts[pts.length - 1][0]) }) : label }));
+}
+function foodPrices(el, F) {
+  const idx = foodIndex(F), has = (it, cur, ar) => idx.get(it + '|' + cur + '|' + ar);
+  const items = FOOD_ITEMS.filter(x => has(x[0], 'lbp', 'national')), nm = id => { const x = FOOD_ITEMS.find(y => y[0] === id); return x ? t(x[1]) : id; };
+  if (!items.some(x => x[0] === FOOD.item)) FOOD.item = items.length ? items[0][0] : '';
+  const areaName = a => a === 'national' ? t('Lebanon, national median') : t(FOOD_AREAS.find(x => x[0] === a)[1]);
+  el.innerHTML = `<div class="d-filters fd-ctl"><label class="sel" for="foodItem">${esc(t('Commodity'))} <select id="foodItem">${items.map(x => `<option value="${x[0]}">${esc(t(x[1]))}</option>`).join('')}</select></label>
+    <label class="sel" for="foodCur">${esc(t('Price in'))} <select id="foodCur"><option value="lbp">${esc(t('Lebanese pounds'))}</option><option value="usd">${esc(t('US dollars'))}</option></select></label>
+    <label class="sel" for="foodArea">${esc(t('Where'))} <select id="foodArea"></select></label></div><div id="foodNow"></div><div id="foodChart" class="fb-grid one"></div>`;
+  const draw = () => {
+    const it = FOOD.item, cur = FOOD.cur;
+    const ars = ['national'].concat(FOOD_AREAS.map(x => x[0]).filter(a => has(it, cur, a)));
+    if (FOOD.area === 'compare' ? ars.length <= 2 : !ars.includes(FOOD.area)) FOOD.area = 'national';
+    $('#foodItem').value = it; $('#foodCur').value = cur;
+    $('#foodArea').innerHTML = ars.map(a => `<option value="${a}">${esc(areaName(a))}</option>`).join('') + (ars.length > 2 ? `<option value="compare">${esc(t('All governorates side by side'))}</option>` : '');
+    $('#foodArea').value = FOOD.area;
+    const ch = $('#foodChart'); ch.innerHTML = '';
+    const cmp = FOOD.area === 'compare', one = has(it, cur, cmp ? 'national' : FOOD.area);
+    const unitTxt = cur === 'lbp' ? t('Lebanese pounds, monthly median across the markets surveyed') : t('US dollars at the official rate, monthly median across the markets surveyed');
+    if (!one) { $('#foodNow').innerHTML = `<p class="hub-empty">${esc(t('No price on record for this choice.'))}</p>`; return; }
+    let ser = [];
+    if (cmp) {
+      ser = ars.filter(a => a !== 'national').flatMap((a, i) => { const r = foodRuns(has(it, cur, a), areaName(a), HUB_COLORS[i % HUB_COLORS.length], cur === 'usd'); return [r[r.length - 1]]; });
+      const nat = foodRuns(has(it, cur, 'national'), areaName('national'), 'var(--ink-3)', cur === 'usd'); const last = nat[nat.length - 1]; last.dash = true; ser.push(last);
+    } else ser = foodRuns(one, areaName(FOOD.area), HUB_COLORS[0], cur === 'usd');
+    const lp = fbLast(one), prev = lp && one.points.find(p => p[0] === (+lp[0].slice(0, 4) - 1) + lp[0].slice(4)), first = one.points[0];
+    const vf = v => cur === 'usd' ? '$' + nf(v, v < 10 ? 2 : 1) : nf(v, 0);
+    $('#foodNow').innerHTML = fbStats([
+      { k: t('Latest price'), v: lp ? vf(lp[1]) : '', n: (cmp ? areaName('national') + ', ' : '') + (lp ? fbLongDate(lp[0]) : '') },
+      { k: t('A year earlier'), v: prev ? vf(prev[1]) : t('no price on record'), n: prev ? fbLongDate(prev[0]) : '' },
+      { k: t('Change since the first month on record'), v: lp && first && first[1] > 0 ? mult(lp[1] / first[1]) : '', n: t('from {d}', { d: fbLongDate(first[0]) }) + (cur === 'lbp' ? ', ' + t('how many times more pounds it costs') : '') }]);
+    const card = fbCard(ch, { title: nm(it) + (cmp ? ', ' + t('by governorate') : ''), unit: unitTxt, series: ser, gran: 'm', height: 300, log: cur === 'lbp', logStart: cur === 'lbp', yFmt: v => cur === 'usd' ? '$' + nf(v, v < 10 ? 1 : 0) : nfCompact(v), valFmt: vf,
+      note: t('Each point is the median of the retail prices the surveyed markets reported that month. The set of markets changes over time, so a step can reflect coverage as much as price.') + (cur === 'usd' ? ' ' + t('WFP converts pounds to dollars at the official rate. From September 2019 to February 2024 that rate was far from what people paid, so those months are left out and the line is broken, not joined.') + (cmp ? ' ' + t('Only the latest run of each governorate is drawn; choose one governorate to see the earlier months.') : '') : '') });
+    card.fig.classList.add('wide');
+  };
+  $('#foodItem').addEventListener('change', ev => { FOOD.item = ev.target.value; draw(); });
+  $('#foodCur').addEventListener('change', ev => { FOOD.cur = ev.target.value; draw(); });
+  $('#foodArea').addEventListener('change', ev => { FOOD.area = ev.target.value; draw(); });
+  draw();
+}
+const IPC_MON = { Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06', Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12' };
+const IPC_GRP = { lebanese: N('Lebanese residents'), syrian: N('Syrian refugees'), newsyr: N('Newly displaced Syrians'), palestinian: N('Palestinian refugees'), other: N('Other groups') };
+const IPC_PH = [['1', N('Minimal or none'), 'color-mix(in srgb, var(--bad) 12%, var(--paper))'], ['2', N('Stressed'), 'color-mix(in srgb, var(--bad) 30%, var(--paper))'], ['3', N('Crisis'), 'color-mix(in srgb, var(--bad) 52%, var(--paper))'],
+  ['4', N('Emergency'), 'color-mix(in srgb, var(--bad) 76%, var(--paper))'], ['5', N('Catastrophe'), 'var(--bad)']];   // one hue, darker with severity: the phase is also written out beside every swatch
+const IPC_FIX = { Baadba: 'Baabda', Baaldek: 'Baalbek', Jbell: 'Jbeil', Zahie: 'Zahle', Rashaya: 'Rachaya' };
+const IPC_PL = { 'bent jbeil': 'Bint Jbeil', 'el batroun': 'Batroun', 'el hermel': 'Hermel', 'el koura': 'Koura', 'el meten': 'Metn', 'el minieh-dennie': 'Minieh-Dennieh', 'el nabatieh': 'Nabatieh', kesrwane: 'Keserwan', marjaayoun: 'Marjayoun', 'west bekaa': 'West Bekaa', 'bcharre-zgharta': ['Bcharre', 'Zgharta'] };
+const IPC_PAL = { 'lebanon - palestinians': 'Palestinian refugees in Lebanon', 'palestinian refugees in lebanon': 'Palestinian refugees in Lebanon', 'palestinian refugees in lebanon (prl)': 'Palestinian refugees in Lebanon', 'palestinian refugees from syria (prs)': 'Palestinian refugees from Syria', 'palestinian refugees': 'Palestinian refugees' };
+const IPC_PN = [N('Rachaya'), N('Palestinian refugees in Lebanon'), N('Palestinian refugees from Syria')];   // place names that no other tab translates
+function ipcPlaces(base) {   // district names as the Hub spells them, in the page language, one by one when the source joins several
+  const k = base.toLowerCase(), one = x => { const c = IPC_PL[x.trim().toLowerCase()] || x.trim(); return DN[c] ? dnName(c) : t(c); };
+  if (IPC_PAL[k]) return t(IPC_PAL[k]);
+  if (Array.isArray(IPC_PL[k])) return IPC_PL[k].map(one).join(' - ');
+  return base.split(/\s+-\s+|\s*&\s*/).map(one).join(base.includes('&') ? ' & ' : ' - ');
+}
+const ipcYm = a => { const m = /^(\w{3}) (\d{4})$/.exec(a); return m ? m[2] + '-' + (IPC_MON[m[1]] || '01') : a; };   // "Mar 2026" -> "2026-03"
+const ipcKey = r => r.analysis + '|' + r.validity;
+function ipcClass(raw) {
+  if (/palestin|_prl|\bprs\b|\bprl\b/i.test(raw)) return 'palestinian';
+  if (/new refugees|newly displaced/i.test(raw)) return 'newsyr';
+  if (/\bsyr\b|syrian|refugees/i.test(raw)) return 'syrian';
+  if (/^others?$/i.test(raw.trim())) return 'other';
+  return 'lebanese';
+}
+function ipcName(r) {   // the area as the source names it, with its population group spelled out and obvious typos corrected
+  let a = (r.area || '').trim();
+  if (/^(lebanese residents|syrian refugees)$/i.test(a) && r.group) a = r.group + ' ' + a;
+  const c = ipcClass(a), base = a.replace(/\s+-\s+(Leb|Syr)( \(new refugees\))?$/i, '').replace(/\s+(Syrian Refugees|Lebanese Residents|Refugees)$/i, '').replace(/_PRL$/, '').replace(/^_/, '').replace(/\s+/g, ' ').trim()
+    .replace(/\b(Baadba|Baaldek|Jbell|Zahie|Rashaya)\b/gi, m => IPC_FIX[m[0].toUpperCase() + m.slice(1).toLowerCase()] || m);
+  const nm = ipcPlaces(base);
+  return { c, name: /palestin|^others?$/i.test(base) || /^(lebanese residents|syrian refugees)$/i.test(base) ? nm : nm + ' (' + t(IPC_GRP[c]) + ')' };
+}
+const ipcWhen = r => t('{a} to {b}', { a: fbLongDate(r.from.slice(0, 7)), b: fbLongDate(r.to.slice(0, 7)) });
+const ipcLabel = r => t('{a} analysis, {v}', { a: fbLongDate(ipcYm(r.analysis)), v: r.validity === 'current' ? t('current period') : t('projection') }) + ': ' + ipcWhen(r);
+function foodIpc(el, I) {
+  const nat = I.national.slice().sort((x, y) => ipcYm(y.analysis).localeCompare(ipcYm(x.analysis)) || x.from.localeCompare(y.from));   // latest analysis first; its current period before its projection
+  if (!nat.some(r => ipcKey(r) === FOOD.ipc)) FOOD.ipc = ipcKey(nat[0]);
+  const lat = nat[0], prv = nat.find(r => r.analysis !== lat.analysis && r.validity === 'current') || nat[1];
+  const ph = r => r.phase['3+'] || [0, 0], pc = v => nf(v * 100, 0) + '%';
+  el.innerHTML = fbStats([
+    { k: t('In crisis or worse (IPC phase 3 or above)'), v: pc(ph(lat)[1]), n: ipcLabel(lat) },
+    { k: t('People in crisis or worse'), v: nf(ph(lat)[0], 0), n: t('IPC estimate, not a count') },
+    { k: t('In emergency (phase 4)'), v: lat.phase['4'] ? nf(lat.phase['4'][0], 0) : '', n: t('people') },
+    { k: t('Previous analysis'), v: prv ? pc(ph(prv)[1]) : '', n: prv ? ipcLabel(prv) : '' }]) +
+    `<p class="note">${esc(t('The IPC classifies people into five phases of acute food insecurity. Phase 3 (crisis) and above is the usual headline figure. These are IPC estimates (IPC, FAO, WFP and partners), not counts of people.'))}</p>
+    <div class="d-filters fd-ctl"><label class="sel" for="foodIpc">${esc(t('Analysis and period'))} <select id="foodIpc">${nat.map(r => `<option value="${esc(ipcKey(r))}">${esc(ipcLabel(r))}</option>`).join('')}</select></label></div>
+    <div class="fb-grid"><div class="fb-card" id="foodStack"></div><div class="fb-card" id="foodTrend"></div></div><h4 class="fb-t">${esc(t('By area'))}</h4><div class="chips sm" id="foodGrp" role="group" aria-label="${esc(t('Population group'))}"></div><div id="foodBars" class="fb-card"></div>
+    ${fbSrcLine([{ source_url: I.source, license: I.license, csv: 'csv/ipc.csv', id: 'ipc' }])}`;
+  const sel = () => nat.find(r => ipcKey(r) === FOOD.ipc);
+  const draw = () => {
+    const cur = sel(), seg = IPC_PH.filter(p => cur.phase[p[0]] && cur.phase[p[0]][1] > 0);
+    $('#foodIpc').value = FOOD.ipc;
+    $('#foodStack').innerHTML = `<h4 class="fb-t">${esc(t('The whole country'))}</h4><p class="fb-u mono dim">${esc(ipcLabel(cur))}</p>
+      <div class="fd-stack" role="img" aria-label="${esc(t('Share of people in each IPC phase'))}">${seg.map(p => `<i style="flex:${cur.phase[p[0]][1]};background:${p[2]}"></i>`).join('')}</div>
+      <ul class="fd-leg">${IPC_PH.map(p => cur.phase[p[0]] ? `<li><span class="fd-sw" style="background:${p[2]}"></span><span>${esc(t('Phase {n}', { n: nf(+p[0], 0) }))}, ${esc(t(p[1]))}</span><span class="mono">${esc(pc(cur.phase[p[0]][1]))} · ${esc(nf(cur.phase[p[0]][0], 0))}</span></li>` : '').join('')}</ul>`;
+    $('#foodTrend').innerHTML = `<h4 class="fb-t">${esc(t('Country total over time'))}</h4><p class="fb-u mono dim">${esc(t('share of people in crisis or worse, by analysis and period'))}</p><div id="foodTrendB"></div>`;
+    const chron = nat.slice().sort((x, y) => x.from.localeCompare(y.from) || ipcYm(x.analysis).localeCompare(ipcYm(y.analysis)));
+    hubBars($('#foodTrendB'), { items: chron.map(r => ({ id: ipcKey(r), label: ipcLabel(r), value: ph(r)[1] * 100, hi: ipcKey(r) === FOOD.ipc })), fmt: v => nf(v, 0) + '%' });
+    const rows = I.areas.filter(r => ipcKey(r) === FOOD.ipc && r.phase['3+']).map(r => Object.assign({ n: ipcName(r) }, { r }));
+    const grps = [...new Set(rows.map(x => x.n.c))];
+    if (FOOD.grp !== 'all' && !grps.includes(FOOD.grp)) FOOD.grp = 'all';
+    $('#foodGrp').innerHTML = [['all', t('All groups')]].concat(Object.keys(IPC_GRP).filter(g => grps.includes(g)).map(g => [g, t(IPC_GRP[g])])).map(([g, lb]) => `<button type="button" class="chip sm-c" data-g="${g}" aria-pressed="${g === FOOD.grp}">${esc(lb)}</button>`).join('');
+    const list = rows.filter(x => FOOD.grp === 'all' || x.n.c === FOOD.grp).sort((a, b) => b.r.phase['3+'][1] - a.r.phase['3+'][1] || b.r.phase['3+'][0] - a.r.phase['3+'][0]);
+    const shown = FOOD.all ? list : list.slice(0, 15), skipped = I.areas.filter(r => ipcKey(r) === FOOD.ipc && !r.phase['3+']).length;
+    $('#foodBars').innerHTML = `<p class="fb-u mono dim">${esc(t('share of people in crisis or worse (phase 3 or above), highest first'))}</p><div id="foodBarsB"></div>${list.length > 15 ? `<button type="button" class="chip" id="foodAll">${esc(FOOD.all ? t('Show fewer') : t('Show all {n} areas', { n: nf(list.length) }))}</button>` : ''}
+      <p class="note">${esc(t('Areas are the analysis units each IPC round used, and they differ between rounds: from March 2025 some districts are grouped, and from October 2025 each district is split by population group. Compare areas within one round; across rounds compare the country total. Area names are the source\'s, with obvious typos corrected.'))}${skipped ? ' ' + esc(tp('{n} area has no phase split in the source and is left out.', '{n} areas have no phase split in the source and are left out.', skipped)) : ''}</p>
+      <details class="fb-det"><summary>${esc(t('Show the data table'))}</summary>${fbTable([{ h: t('Area') }, { h: t('People analysed'), cls: 'num', fmt: v => nf(v, 0) }, { h: t('People in phase 3 or above'), cls: 'num', fmt: v => nf(v, 0) }, { h: t('Share in phase 3 or above'), cls: 'num', fmt: v => pc(v) }, { h: t('People in phase 4'), cls: 'num', fmt: v => nf(v, 0) }],
+        list.map(x => [x.n.name, (x.r.phase.all || [0])[0], x.r.phase['3+'][0], x.r.phase['3+'][1], x.r.phase['4'] ? x.r.phase['4'][0] : 0]), {})}</details>`;
+    hubBars($('#foodBarsB'), { items: shown.map(x => ({ id: x.n.name, label: x.n.name, value: x.r.phase['3+'][1] * 100 })), fmt: v => nf(v, 0) + '%' });
+    const more = $('#foodAll'); if (more) more.addEventListener('click', () => { FOOD.all = !FOOD.all; draw(); });
+  };
+  $('#foodIpc').addEventListener('change', ev => { FOOD.ipc = ev.target.value; FOOD.all = false; draw(); });
+  $('#foodGrp').addEventListener('click', ev => { const b = ev.target.closest('[data-g]'); if (b) { FOOD.grp = b.dataset.g; FOOD.all = false; draw(); } });
+  draw();
+}
+function costFoodView(el) {
+  const inl = (D.tabs.cost || {});
+  el.innerHTML = `<p class="lead">${esc(t('Food security in Lebanon: what a basket of staple foods costs, from the WFP market surveys, and how many people the IPC classifies as acutely food insecure, by area and period.'))}</p>
+    <h3 class="d-h">${esc(t('Food prices'))}</h3><div id="foodP"></div><h3 class="d-h">${esc(t('Acute food insecurity (IPC)'))}</h3><div id="foodI"></div>`;
+  if (inl.food) fbLoad($('#foodP'), ['data/cost/food.json'], F => foodPrices($('#foodP'), F)); else $('#foodP').innerHTML = `<p class="hub-empty">${esc(t('No food price data is in this build.'))}</p>`;
+  if (inl.ipc) fbLoad($('#foodI'), ['data/cost/ipc.json'], I => foodIpc($('#foodI'), I)); else $('#foodI').innerHTML = `<p class="hub-empty">${esc(t('No IPC data is in this build.'))}</p>`;
+}
+const COST_RENDER = { fx: costFx, wages: costWages, prices: costPricesView, food: costFoodView, money: costMoneyView, explore: costExploreView };
 HUB.tab('cost', { render(args, info) {
   const root = $('#costRoot');
   if (!root || !(D.tabs.cost && (D.tabs.cost.fx || D.tabs.cost.prices))) return;
@@ -247,7 +383,7 @@ HUB.tab('cost', { render(args, info) {
   const pre = v === 'explore' && args[1] ? args[1].split(',').filter(Boolean) : null;
   fbLoad(root, ['data/cost/fx.json', 'data/cost/prices.json'], (fx, pr) => {
     COST.S = fbIndex([fx, pr]);
-    root.innerHTML = `<div class="chips fb-nav" id="costNav"></div><div id="costView"></div>`;
+    root.innerHTML = `<div class="chips fb-nav" id="costNav"></div><div id="costView"></div><p class="note dx-link"><a href="#data/cost" data-hub="data" data-hash="data/cost">${esc(t('Data behind this tab'))}</a></p>`;
     const show = id => {
       COST.view = id;
       HUB.setHash(id === 'money' ? 'money' : 'cost', ...(id === 'fx' || id === 'money' ? [] : [id]));

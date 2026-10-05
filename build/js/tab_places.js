@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------ Places tab (FE-B): search every village and town, a page for each, and the regional sections (elections, war, people).
    Data: data/places/index.json (one row per place), data/places/p/<district>.json (details, strikes, events), data/places/cazas.json, data/geo/lebanon.json.
    Hash: #places, #place/<id>, #elections/<id>/<district>, #war, #people. The other sections are in tab_places_elections.js, tab_places_war.js and tab_places_people.js. */
-const PL_SECS = [{ id: 'places', label: N('Places') }, { id: 'elections', label: N('Elections') }, { id: 'war', label: N('The 2023 to 2026 war') }, { id: 'people', label: N('People') }];
-const PL = { sec: 'places', idx: null, q: '', kind: '', caza: '', shown: 24, geo: null, cz: null };
+const PL_SECS = [{ id: 'places', label: N('Places') }, { id: 'elections', label: N('Elections') }, { id: 'war', label: N('The 2023 to 2026 war') }, { id: 'people', label: N('People') }, { id: 'history', label: N('Communities and seats over time') }];
+const PL = { sec: 'places', idx: null, q: '', kind: '', caza: '', shown: 24, geo: null, cz: null, layer: '', svcOff: new Set(), byId: {}, tok: 0 };
 const PL_KIND = { city: N('city'), town: N('town'), village: N('village'), locality: N('locality'), neighbourhood: N('neighbourhood'), camp: N('camp') };
 const PL_WAR = { civil_war: N('Civil war'), 1978: N('1978 invasion'), 1982: N('1982 invasion'), 1993: N('1993 operation'), 1996: N('1996 operation'), 2006: N('2006 war'), '2023_26': N('2023–26 war'), other: N('Other conflict') };
 const PL_KINDS_STRIKE = { airstrike: N('Airstrike'), drone_strike: N('Drone strike'), shelling: N('Shelling'), artillery: N('Artillery'), naval: N('Naval'), car_bomb: N('Car bomb'), bombing: N('Bombing'), ground_assault: N('Ground assault'),
@@ -46,9 +46,34 @@ function plSearchView(el) {
       <label class="sel" for="plK">${esc(t('Kind'))} <select id="plK"><option value="">${esc(t('All kinds'))}</option>${PL.idx.kinds.map(k => `<option value="${k}"${PL.kind === k ? ' selected' : ''}>${esc(t(PL_KIND[k] || k))}</option>`).join('')}</select></label>
       <label class="sel" for="plC">${esc(t('District'))} <select id="plC"><option value="">${esc(t('All districts'))}</option>${caz.slice().sort((a, b) => a.n.localeCompare(b.n)).map(c => `<option value="${c.p}"${PL.caza === c.p ? ' selected' : ''}>${esc(((PL.cazaByCode[c.p] || {}).ar && LANG === 'ar') ? PL.cazaByCode[c.p].ar : c.n)}</option>`).join('')}</select></label></div>
     <div class="fb-mapwrap"><div><p class="mono dim" id="plN"></p><ul class="pl-list" id="plList"></ul><button type="button" class="chip" id="plMore" hidden>${esc(t('Show more'))}</button></div>
-    <div><div id="plMap"></div><p class="note">${esc(t('Documented strikes by district. Click a district to list its places.'))}</p></div></div>`;
+    <div><div class="pl-layers" id="plLy" role="group" aria-label="${esc(t('Map layers'))}"><span class="note">${esc(t('Map layer'))}</span>
+        <button type="button" class="chip sm-c" data-ly="religion" aria-pressed="false">${esc(t('Religion: registered voters by sect, 2014'))}</button>
+        <button type="button" class="chip sm-c" data-ly="services" aria-pressed="false">${esc(t('Health and education facilities'))}</button></div>
+      <div id="plMap"></div><div id="plMapEx"></div><p class="note" id="plMapCap"></p></div></div>`;
   const mx = Math.max(1, ...Object.values(per));
-  const drawMap = () => { $('#plMap').innerHTML = fbMap(PL.geo, { level: 'adm2', click: true, labels: false, fill: a => ({ fill: per[a.p] ? fbShade(Math.sqrt(per[a.p] / mx), '--war') : 'var(--stone)', title: t('{n} documented strikes', { n: nf(per[a.p] || 0) }), on: a.p === PL.caza }), aria: t('Map of Lebanon by district: documented strikes') }) + fbLegend(0, mx, v => nf(v, 0), '--war'); fbMapClicks($('#plMap'), p => { PL.caza = PL.caza === p ? '' : p; $('#plC').value = PL.caza; PL.shown = 24; draw(); drawMap(); }); };
+  /* a layer (religion, services) is drawn on a plain district map: the strike shading is never under it */
+  const drawMap = extra => {
+    const lay = !!PL.layer;
+    $('#plMap').innerHTML = fbMap(PL.geo, { level: 'adm2', click: true, labels: false, extra: extra || '', fill: a => lay ? ({ fill: 'var(--stone)', title: '', on: a.p === PL.caza }) : ({ fill: per[a.p] ? fbShade(Math.sqrt(per[a.p] / mx), '--war') : 'var(--stone)', title: t('{n} documented strikes', { n: nf(per[a.p] || 0) }), on: a.p === PL.caza }),
+      aria: lay ? (PL.layer === 'religion' ? t('Map of Lebanon: registered voters by sect, 2014') : t('Map of Lebanon: health and education facilities')) : t('Map of Lebanon by district: documented strikes') }) + (lay ? '' : fbLegend(0, mx, v => nf(v, 0), '--war'));
+    fbMapClicks($('#plMap'), p => { PL.caza = PL.caza === p ? '' : p; $('#plC').value = PL.caza; PL.shown = 24; draw(); drawMap(extra); });
+  };
+  const wrap = $('.fb-mapwrap', el);
+  const paint = () => {
+    const ex = $('#plMapEx'), cap = $('#plMapCap'), tok = ++PL.tok;
+    $$('#plLy [data-ly]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.ly === PL.layer)));
+    wrap.classList.toggle('pl-nostrikes', PL.layer === 'religion');
+    if (!PL.layer) { ex.innerHTML = ''; cap.textContent = t('Documented strikes by district. Click a district to list its places.'); drawMap(''); return; }
+    cap.textContent = ''; drawMap('');
+    fbLoad(ex, [PL.layer === 'religion' ? 'data/places/sects-2014.json' : 'data/places/facilities.json'], data => {
+      if (tok !== PL.tok || !PL.layer) return;
+      const L = PL.layer === 'religion' ? plSectLayer(data) : plSvcLayer(data);
+      drawMap(L.svg); ex.innerHTML = L.legend; cap.textContent = L.cap;
+    });
+  };
+  $('#plLy').addEventListener('click', ev => { const b = ev.target.closest('[data-ly]'); if (!b) return; PL.layer = PL.layer === b.dataset.ly ? '' : b.dataset.ly; paint(); });
+  $('#plMapEx').addEventListener('click', ev => { const c = ev.target.closest('[data-cat]'); if (!c) return; PL.svcOff[PL.svcOff.has(c.dataset.cat) ? 'delete' : 'add'](c.dataset.cat); paint(); });
+  $('#plMap').addEventListener('click', ev => { const c = ev.target.closest('.pl-dot'); if (c) plGo(c.dataset.id); });
   const draw = () => {
     const res = plSearch(PL.q);
     $('#plN').textContent = PL.q || PL.caza || PL.kind ? t('{a} of {b} places', { a: nf(Math.min(PL.shown, res.length)), b: nf(res.length) }) : t('Most documented places');
@@ -58,9 +83,9 @@ function plSearchView(el) {
   let tm = null;
   $('#plQ').addEventListener('input', ev => { clearTimeout(tm); tm = setTimeout(() => { PL.q = ev.target.value; PL.shown = 24; draw(); }, 120); });
   $('#plK').addEventListener('change', ev => { PL.kind = ev.target.value; PL.shown = 24; draw(); });
-  $('#plC').addEventListener('change', ev => { PL.caza = ev.target.value; PL.shown = 24; draw(); drawMap(); });
+  $('#plC').addEventListener('change', ev => { PL.caza = ev.target.value; PL.shown = 24; draw(); paint(); });
   $('#plMore').addEventListener('click', () => { PL.shown += 24; draw(); });
-  draw(); drawMap();
+  draw(); paint();
 }
 
 /* ---------- one place ---------- */
@@ -118,6 +143,9 @@ function plPlaceView(el, id) {
       ${refRows.length ? `<h4 class="fb-t pl-s">${esc(t('Refugees registered here, end of 2014'))}</h4>${fbTable([{ h: t('Group') }, { h: t('People'), cls: 'num' }], refRows.map(x => [t(x[0]), plNum(x[1])]))}<p class="note">${esc(t('UNHCR registration for the cadaster, from the INFORM Lebanon 2015 indicators. No open count by cadaster is published for later years; see People for the district figures of 2026.'))}</p>` : ''}
       ${estRows.length ? `<h4 class="fb-t pl-s" id="plEstH">${esc(t('Residents of the district, by source'))}</h4><p class="note">${esc(t('There is no resident estimate for single places. For the district of {c}, these are the estimates sources give. They use different methods and years, so they differ, and none is a census count. Registered voters are not residents.', { c: r.caza.n }))}</p>${fbTable([{ h: t('Measure') }, { h: t('People'), cls: 'num' }, { h: t('Source') }, { h: t('Kind') }], estRows.map(x => [t(x[0]), plNum(x[1]), t(x[2]), t(x[3])]))}${es.lrp_bad ? `<p class="note">${esc(t('The OCHA totals for 2025 and 2026 look unreliable for this district, so they are not shown. Use the survey figure.'))}</p>` : ''}` : ''}
       ${caz.pop && caz.pop.total_2026 ? `<h4 class="fb-t pl-s">${esc(t('People in the district, 2026'))}</h4>${fbTable([{ h: t('Group') }, { h: t('People'), cls: 'num' }], [[t('Lebanese'), plNum(caz.pop.lebanese_2026)], [t('Syrians'), plNum(caz.pop.syrians_2026)], [t('Palestinians'), plNum(caz.pop.palestinians_2026)], [t('Migrants (preliminary)'), plNum(caz.pop.migrants_2026_preliminary)], [t('Total'), plNum(caz.pop.total_2026)]].filter(x => x[1] !== ''))}<p class="note">${esc(t('Planning figures for the whole district of {c} from the OCHA Lebanon Response Plan 2026 package (CC BY): Syrians from UNHCR registration, Palestinians from UNRWA, Lebanese from the CAS and ILO survey.', { c: r.caza.n }))} <a href="#people" data-hub="places">${esc(t('People'))}</a></p>` : ''}
+      <h4 class="fb-t pl-s" id="plSectH">${esc(t('Registered voters by sect, 2014'))}</h4><div id="plSect"></div>
+      <h4 class="fb-t pl-s" id="plPolH">${esc(t('Politics: the election district'))}</h4><div id="plPol"></div>
+      <h4 class="fb-t pl-s" id="plSvcH">${esc(t('Services'))}</h4><div id="plSvc"></div>
       <h4 class="fb-t pl-s">${esc(t('Strikes at this place'))}</h4>
       <div id="plStrikes"></div>
       <h4 class="fb-t pl-s">${esc(t('Timeline events that name this place'))}</h4><div id="plEvents"></div>
@@ -125,6 +153,7 @@ function plPlaceView(el, id) {
       ${d.dmg ? `<h4 class="fb-t pl-s">${esc(t('Building damage'))}</h4><p>${esc(t('{n} buildings completely destroyed, estimated from satellite imagery of {d}.', { n: nf(d.dmg.destroyed), d: d.dmg.date ? fbLongDate(d.dmg.date) : '' }))}</p><p class="note">${esc(d.dmg.note || '')} <a href="${esc(d.dmg.src)}" target="_blank" rel="noopener noreferrer">${esc(fbHost(d.dmg.src))}</a></p>` : ''}
       <h4 class="fb-t pl-s">${esc(t('Nearby places'))}</h4><ul class="pl-near">${near.map(([km, x]) => `<li>${plLink(x.id, esc(plName(x)))} <span class="mono dim">${esc(nf(km, km < 10 ? 1 : 0))} km</span></li>`).join('')}</ul>
       <p class="note pl-src">${esc(t('Sources and licences'))}: ${esc(t('names, codes and coordinates: OCHA and the Central Administration of Statistics (CC BY), OCHA COD-AB boundaries (CC BY-IGO), GeoNames (CC BY 4.0)'))}${d.osm ? esc('; ' + t('and OpenStreetMap contributors (ODbL 1.0), which makes this record share-alike')) : ''}${d.ars ? esc('; ' + t('Arabic name: {s}', { s: t(AR_SRC[d.ars] || d.ars) })) : ''}${d.rv ? esc('; ' + t('registered voters: Interior Ministry lists of 2014 as transcribed by lub-anan.com, no licence stated, facts only')) : ''}. ${esc(t('Municipalities: CIB IMPACT and the CAS 2017 list (CIB states no licence). Population: Kontur (CC BY). Refugees: UNHCR via INFORM (CC BY). Districts: OCHA Lebanon Response Plan 2026 package (CC BY), IDMC (CC BY-IGO). Strikes and events: each row links to its own source.'))}</p>`;
+    plSectBlock($('#plSect', el), id, d); plPolBlock($('#plPol', el), d, r); plSvcBlock($('#plSvc', el), d);
     // strikes
     const s = $('#plStrikes', el);
     if (!st.length) s.innerHTML = `<p class="hub-empty">${esc(t('No strike is documented at this place. That does not mean none happened: the Strike map says per war what is complete and what is not.'))}</p>`;
@@ -170,7 +199,7 @@ HUB.tab('places', { render(args, info) {
   PL.sec = sec;
   fbLoad(root, ['data/geo/lebanon.json', 'data/places/cazas.json'], (geo, cj) => {
     PL.geo = geo; PL.cz = cj; PL.cazaByCode = cj.cazas || {};
-    root.innerHTML = `<div class="chips fb-nav" id="plNav"></div><div id="plView"></div>`;
+    root.innerHTML = `<div class="chips fb-nav" id="plNav"></div><div id="plView"></div><p class="note pl-data"><a href="#data/places" data-hub="data" data-hash="data/places">${esc(t('Data behind this tab'))}</a></p>`;
     const go = id => {
       PL.sec = id;
       const el = $('#plView'); el.innerHTML = '';
@@ -184,11 +213,12 @@ HUB.tab('places', { render(args, info) {
 function plSection(sec, el, args) {
   if (sec === 'places') {
     fbLoad(el, ['data/places/index.json'], idx => {
-      PL.idx = idx; PL.rows = idx.rows.map(plRow);
+      PL.idx = idx; PL.rows = idx.rows.map(plRow); PL.byId = Object.fromEntries(PL.rows.map(r => [r.id, r]));
       el.innerHTML = '<div id="plInner"></div>';
       if (args[0] === 'place' && args[1]) plPlaceView($('#plInner'), args[1]); else plSearchView($('#plInner'));
     });
   } else if (sec === 'elections') plElections(el, args);
   else if (sec === 'war') plWar(el);
+  else if (sec === 'history') plHistory(el);
   else plPeople(el);
 }

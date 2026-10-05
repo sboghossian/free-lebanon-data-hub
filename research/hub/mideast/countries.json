@@ -1,0 +1,267 @@
+{
+ "id": "R-countries",
+ "title": "The 17 economies of the Hub's Middle East lens, with names in English, Arabic and French",
+ "region_definition": "Lebanon, Syria, Jordan, Iraq, Israel, Palestine, Egypt, Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman, Yemen, Iran, Turkey, Cyprus. This is the Hub's working definition for the Middle East tab, not an official UN or World Bank region: the World Bank puts Turkey and Cyprus in Europe and Central Asia, and UN M49 lists Egypt under Northern Africa.",
+ "source": "Natural Earth admin_0_countries (names in English, Arabic, French, ISO codes), via research/hub/world/ne-50m.json; alternative names from the World Bank country list (research/hub/world/W2-countries.json), the IMF DIP code list (api.imf.org codelist IMF.STA/CL_DIP_COUNTRY) and the UN DESA International Migrant Stock 2024 workbook; UN M49 codes from the UN DESA workbook.",
+ "source_url": "https://www.naturalearthdata.com/",
+ "license": "Public domain (Natural Earth); names from the other sources are short labels, attributed here. Boundary and naming choices are those of each source and imply no opinion by the Hub.",
+ "fetched": "2026-10-05",
+ "notes": "Palestine is 'West Bank and Gaza' at the World Bank and IMF, 'State of Palestine' at UN DESA and 'Palestine' in Natural Earth; iso3 PSE is used for all. Natural Earth draws de facto boundaries. UNHCR codes its own country-of-asylum list (Egypt is ARE there, not EGY) so the refugee file is keyed by ISO3 after mapping.",
+ "rows": [
+  {
+   "iso3": "LBN",
+   "iso2": "LB",
+   "m49": 422,
+   "name": "Lebanon",
+   "name_ar": "لبنان",
+   "name_fr": "Liban",
+   "names_other": {
+    "world_bank": "Lebanon",
+    "imf": "Lebanon",
+    "un_desa": "Lebanon"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "SYR",
+   "iso2": "SY",
+   "m49": 760,
+   "name": "Syria",
+   "name_ar": "سوريا",
+   "name_fr": "Syrie",
+   "names_other": {
+    "world_bank": "Syrian Arab Republic",
+    "imf": "Syrian Arab Republic",
+    "un_desa": "Syrian Arab Republic"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": true
+  },
+  {
+   "iso3": "JOR",
+   "iso2": "JO",
+   "m49": 400,
+   "name": "Jordan",
+   "name_ar": "الأردن",
+   "name_fr": "Jordanie",
+   "names_other": {
+    "world_bank": "Jordan",
+    "imf": "Jordan",
+    "un_desa": "Jordan"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "IRQ",
+   "iso2": "IQ",
+   "m49": 368,
+   "name": "Iraq",
+   "name_ar": "العراق",
+   "name_fr": "Irak",
+   "names_other": {
+    "world_bank": "Iraq",
+    "imf": "Iraq",
+    "un_desa": "Iraq"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "ISR",
+   "iso2": "IL",
+   "m49": 376,
+   "name": "Israel",
+   "name_ar": "إسرائيل",
+   "name_fr": "Israël",
+   "names_other": {
+    "world_bank": "Israel",
+    "imf": "Israel",
+    "un_desa": "Israel"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": true
+  },
+  {
+   "iso3": "PSE",
+   "iso2": "PS",
+   "m49": 275,
+   "name": "Palestine",
+   "name_ar": "فلسطين",
+   "name_fr": "Palestine",
+   "names_other": {
+    "world_bank": "West Bank and Gaza",
+    "imf": "West Bank and Gaza",
+    "un_desa": "State of Palestine"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "EGY",
+   "iso2": "EG",
+   "m49": 818,
+   "name": "Egypt",
+   "name_ar": "مصر",
+   "name_fr": "Égypte",
+   "names_other": {
+    "world_bank": "Egypt, Arab Rep.",
+    "imf": "Egypt, Arab Republic of",
+    "un_desa": "Egypt"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "SAU",
+   "iso2": "SA",
+   "m49": 682,
+   "name": "Saudi Arabia",
+   "name_ar": "السعودية",
+   "name_fr": "Arabie saoudite",
+   "names_other": {
+    "world_bank": "Saudi Arabia",
+    "imf": "Saudi Arabia",
+    "un_desa": "Saudi Arabia"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "ARE",
+   "iso2": "AE",
+   "m49": 784,
+   "name": "United Arab Emirates",
+   "name_ar": "الإمارات العربية المتحدة",
+   "name_fr": "Émirats arabes unis",
+   "names_other": {
+    "world_bank": "United Arab Emirates",
+    "imf": "United Arab Emirates",
+    "un_desa": "United Arab Emirates"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "KWT",
+   "iso2": "KW",
+   "m49": 414,
+   "name": "Kuwait",
+   "name_ar": "الكويت",
+   "name_fr": "Koweït",
+   "names_other": {
+    "world_bank": "Kuwait",
+    "imf": "Kuwait",
+    "un_desa": "Kuwait"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "QAT",
+   "iso2": "QA",
+   "m49": 634,
+   "name": "Qatar",
+   "name_ar": "قطر",
+   "name_fr": "Qatar",
+   "names_other": {
+    "world_bank": "Qatar",
+    "imf": "Qatar",
+    "un_desa": "Qatar"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "BHR",
+   "iso2": "BH",
+   "m49": 48,
+   "name": "Bahrain",
+   "name_ar": "البحرين",
+   "name_fr": "Bahreïn",
+   "names_other": {
+    "world_bank": "Bahrain",
+    "imf": "Bahrain, Kingdom of",
+    "un_desa": "Bahrain"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "OMN",
+   "iso2": "OM",
+   "m49": 512,
+   "name": "Oman",
+   "name_ar": "سلطنة عمان",
+   "name_fr": "Oman",
+   "names_other": {
+    "world_bank": "Oman",
+    "imf": "Oman",
+    "un_desa": "Oman"
+   },
+   "gcc_member": true,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "YEM",
+   "iso2": "YE",
+   "m49": 887,
+   "name": "Yemen",
+   "name_ar": "اليمن",
+   "name_fr": "Yémen",
+   "names_other": {
+    "world_bank": "Yemen, Rep.",
+    "imf": "Yemen, Republic of",
+    "un_desa": "Yemen"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "IRN",
+   "iso2": "IR",
+   "m49": 364,
+   "name": "Iran",
+   "name_ar": "إيران",
+   "name_fr": "Iran",
+   "names_other": {
+    "world_bank": "Iran, Islamic Rep.",
+    "imf": "Iran, Islamic Republic of",
+    "un_desa": "Iran (Islamic Republic of)"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "TUR",
+   "iso2": "TR",
+   "m49": 792,
+   "name": "Turkey",
+   "name_ar": "تركيا",
+   "name_fr": "Turquie",
+   "names_other": {
+    "world_bank": "Turkiye",
+    "imf": "Türkiye, Republic of",
+    "un_desa": "Türkiye"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  },
+  {
+   "iso3": "CYP",
+   "iso2": "CY",
+   "m49": 196,
+   "name": "Cyprus",
+   "name_ar": "قبرص",
+   "name_fr": "Chypre",
+   "names_other": {
+    "world_bank": "Cyprus",
+    "imf": "Cyprus",
+    "un_desa": "Cyprus"
+   },
+   "gcc_member": false,
+   "land_neighbour_of_lebanon": false
+  }
+ ]
+}

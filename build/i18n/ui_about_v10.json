@@ -1,0 +1,58 @@
+{
+ "Places, new in October 2026: registered voters by sect in 2014 (not residents), the election results of each town's district, communities and seats over time, and the hospitals, clinics, pharmacies and schools near each place.": {
+  "ar": "في الأماكن، جديد تشرين الأول ٢٠٢٦: الناخبون المسجّلون بحسب الطائفة في ٢٠١٤ (ليسوا المقيمين)، ونتائج الانتخابات في دائرة كل بلدة، والطوائف والمقاعد عبر الزمن، والمستشفيات والمستوصفات والصيدليات والمدارس القريبة من كل مكان.",
+  "fr": "Lieux, nouveau en octobre 2026 : les électeurs inscrits par communauté en 2014 (pas les habitants), les résultats électoraux de la circonscription de chaque localité, les communautés et les sièges au fil du temps, et les hôpitaux, dispensaires, pharmacies et écoles proches de chaque lieu."
+ },
+ "Trade and investment: exports and imports by product and by partner since 1995, Lebanese Customs monthly figures, foreign investment and startup funding.": {
+  "ar": "التجارة والاستثمار: الصادرات والواردات بحسب السلعة والشريك منذ ١٩٩٥، والأرقام الشهرية للجمارك اللبنانية، والاستثمار الأجنبي وتمويل الشركات الناشئة.",
+  "fr": "Commerce et investissement : exportations et importations par produit et par partenaire depuis 1995, chiffres mensuels des Douanes libanaises, investissement étranger et financement des start-up."
+ },
+ "Middle East: Lebanon against its neighbours, the ties of people, money and investment, refugees across the region, conflict events and regional shocks.": {
+  "ar": "الشرق الأوسط: لبنان مقارنةً بجيرانه، وروابط الناس والأموال والاستثمار، واللاجئون في أنحاء المنطقة، وأحداث النزاع والصدمات الإقليمية.",
+  "fr": "Moyen-Orient : le Liban face à ses voisins, les liens de personnes, d'argent et d'investissement, les réfugiés dans la région, les événements de conflit et les chocs régionaux."
+ },
+ "Companies: listed shares, Lebanese companies listed abroad, startups and exits, family business groups and banks, each list ranked by one public measure.": {
+  "ar": "الشركات: الأسهم المدرجة، والشركات اللبنانية المدرجة في الخارج، والشركات الناشئة وعمليات التخارج، ومجموعات الأعمال العائلية والمصارف، وكل قائمة مرتّبة بمقياس علني واحد.",
+  "fr": "Entreprises : actions cotées, entreprises libanaises cotées à l'étranger, start-up et sorties, groupes familiaux et banques, chaque liste classée selon une seule mesure publique."
+ },
+ "Aid and NGOs: aid received by year, donor and appeal, who works where, World Bank projects, and the people reached as the agencies report them.": {
+  "ar": "المساعدات والمنظمات غير الحكومية: المساعدات الواردة بحسب السنة والجهة المانحة والنداء، ومن يعمل وأين، ومشاريع البنك الدولي، والأشخاص الذين وصلت إليهم المساعدة كما تفيد الوكالات.",
+  "fr": "Aide et ONG : l'aide reçue par année, par donateur et par appel, qui travaille où, les projets de la Banque mondiale, et les personnes atteintes telles que les agences les déclarent."
+ },
+ "One search box in the Data tab finds any dataset, series, law, place, company, aid organisation or timeline event.": {
+  "ar": "مربع بحث واحد في تبويب البيانات يجد أي مجموعة بيانات أو سلسلة أو قانون أو مكان أو شركة أو منظمة إغاثة أو حدث في الخط الزمني.",
+  "fr": "Un seul champ de recherche dans l'onglet Données trouve tout jeu de données, série, loi, lieu, entreprise, organisation d'aide ou événement de la chronologie."
+ },
+ "Religion and politics.": {
+  "ar": "الدين والسياسة.",
+  "fr": "Religion et politique."
+ },
+ "Done: registered voters by sect for 1,465 voter lists in 2014, and election results for each district. Not possible: the 2014 lists are the newest public breakdown by town, there is no count of residents by sect, and results are not published by town, so the Hub gives no town a political label.": {
+  "ar": "ما أُنجز: الناخبون المسجّلون بحسب الطائفة في ١٬٤٦٥ لائحة شطب لعام ٢٠١٤، ونتائج الانتخابات في كل دائرة. المستحيل: لوائح ٢٠١٤ هي أحدث توزيع علني بحسب البلدة، ولا يوجد إحصاء للمقيمين بحسب الطائفة، ولا تُنشر النتائج بحسب البلدة، لذلك لا يعطي المركز أي بلدة صفة سياسية.",
+  "fr": "Fait : les électeurs inscrits par communauté pour 1 465 listes électorales en 2014, et les résultats électoraux de chaque circonscription. Impossible : les listes de 2014 sont la répartition publique la plus récente par localité, aucun décompte des habitants par communauté n'existe, et les résultats ne sont pas publiés par localité, donc le Hub n'attribue aucune étiquette politique à une localité."
+ },
+ "Companies.": {
+  "ar": "الشركات.",
+  "fr": "Entreprises."
+ },
+ "Done: every list is ranked by one stated public measure, with a source on each row. Not possible: private companies publish no revenue or profit, figures per bank are partial and startup valuations are private, so most firms cannot be ranked by performance.": {
+  "ar": "ما أُنجز: كل قائمة مرتّبة بمقياس علني واحد مذكور، مع مصدر لكل صف. المستحيل: لا تنشر الشركات الخاصة إيراداتها ولا أرباحها، وأرقام المصارف منفردةً ناقصة، وتقييمات الشركات الناشئة غير علنية، لذلك لا يمكن ترتيب معظم الشركات بحسب أدائها.",
+  "fr": "Fait : chaque liste est classée selon une seule mesure publique indiquée, avec une source à chaque ligne. Impossible : les entreprises privées ne publient ni chiffre d'affaires ni bénéfice, les chiffres par banque sont partiels et les valorisations des start-up sont privées, donc la plupart des entreprises ne peuvent pas être classées selon leurs performances."
+ },
+ "Aid and NGOs.": {
+  "ar": "المساعدات والمنظمات غير الحكومية.",
+  "fr": "Aide et ONG."
+ },
+ "Done: aid flows from OCHA's Financial Tracking Service, donor figures from the OECD and World Bank projects, kept apart and never added together. Not possible: people-reached figures are reported by the agencies themselves and cannot be checked, and there is no open register of Lebanese NGOs.": {
+  "ar": "ما أُنجز: تدفقات المساعدات من خدمة التتبع المالي التابعة لمكتب تنسيق الشؤون الإنسانية، وأرقام المانحين من منظمة التعاون الاقتصادي والتنمية، ومشاريع البنك الدولي، كلٌّ على حدة ومن دون جمعها. المستحيل: أعداد الأشخاص الذين وصلت إليهم المساعدة تفيد بها الوكالات نفسها ولا يمكن التحقق منها، ولا يوجد سجل مفتوح للمنظمات غير الحكومية اللبنانية.",
+  "fr": "Fait : les flux d'aide du Financial Tracking Service de l'OCHA, les chiffres des donateurs de l'OCDE et les projets de la Banque mondiale, présentés séparément et jamais additionnés. Impossible : les chiffres de personnes atteintes sont déclarés par les agences elles-mêmes et ne peuvent pas être vérifiés, et il n'existe aucun registre ouvert des ONG libanaises."
+ },
+ "Trade and investment.": {
+  "ar": "التجارة والاستثمار.",
+  "fr": "Commerce et investissement."
+ },
+ "Done: three sources are shown side by side, CEPII BACI, Lebanese Customs and the World Bank. Not possible: they measure trade differently, so their totals differ (2023 exports: about 4.9 billion US dollars in BACI and 3.0 billion in the Customs figures), and some years of startup funding are missing.": {
+  "ar": "ما أُنجز: ثلاثة مصادر معروضة جنباً إلى جنب، هي قاعدة BACI لدى CEPII والجمارك اللبنانية والبنك الدولي. المستحيل: تقيس هذه المصادر التجارة بطرق مختلفة فتختلف مجاميعها (صادرات ٢٠٢٣: نحو ٤٫٩ مليارات دولار أميركي في BACI و٣٫٠ مليارات في أرقام الجمارك)، وتنقص بعض سنوات تمويل الشركات الناشئة.",
+  "fr": "Fait : trois sources sont présentées côte à côte, CEPII BACI, les Douanes libanaises et la Banque mondiale. Impossible : elles mesurent le commerce différemment, donc leurs totaux diffèrent (exportations 2023 : environ 4,9 milliards de dollars dans BACI et 3,0 milliards dans les chiffres des Douanes), et certaines années de financement des start-up manquent."
+ }
+}

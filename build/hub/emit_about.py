@@ -19,6 +19,12 @@ PANEL = '''<section class="hub-panel" id="about" role="tabpanel" aria-labelledby
     <li>Cost of living and electricity: exchange rates, bread, fuel, generators, wages, prices by category, supply hours, production and night lights.</li>
     <li>World: Lebanon against the Middle East, Europe, the US and the world on dozens of indicators from 1960 to 2026, with flows of people, money and trade.</li>
     <li>Data: public Lebanese datasets, long-run series, elections, public money, the 2023 to 2026 war, fires, climate and an index of laws. Every file can be downloaded.</li>
+    <li>Places, new in October 2026: registered voters by sect in 2014 (not residents), the election results of each town's district, communities and seats over time, and the hospitals, clinics, pharmacies and schools near each place.</li>
+    <li>Trade and investment: exports and imports by product and by partner since 1995, Lebanese Customs monthly figures, foreign investment and startup funding.</li>
+    <li>Middle East: Lebanon against its neighbours, the ties of people, money and investment, refugees across the region, conflict events and regional shocks.</li>
+    <li>Companies: listed shares, Lebanese companies listed abroad, startups and exits, family business groups and banks, each list ranked by one public measure.</li>
+    <li>Aid and NGOs: aid received by year, donor and appeal, who works where, World Bank projects, and the people reached as the agencies report them.</li>
+    <li>One search box in the Data tab finds any dataset, series, law, place, company, aid organisation or timeline event.</li>
   </ul>
   <h3>How rows are checked</h3>
   <ol>
@@ -39,6 +45,10 @@ PANEL = '''<section class="hub-panel" id="about" role="tabpanel" aria-labelledby
     <li><b>World.</b> Done: values after a country's last actual year are dashed and shaded, UN projections are marked, and Lebanon's national figures can be laid over the international series, with their source. Not possible: Lebanon still has gaps in some years, national figures carry no open licence so they are left out of the downloads, and each indicator is as its source publishes it.</li>
     <li><b>Laws.</b> Done: the laws of 2025 are completed from the Parliament's site, and each law links to its full text and has an English title and summary. Not possible: the index holds titles, numbers, dates and summaries, never the article text; numbers before about 1960 are still partial, and a few recent laws may be absent.</li>
     <li><b>Elections.</b> Done: the 2026 election is shown as a fact card with its sources: postponed by Law 41/2026 of 9 March 2026, which extends parliament's term to 31 May 2028, and the Constitutional Council's decision of 7 April 2026. Not possible: there are no results, because no vote has been held, and no new date is set.</li>
+    <li><b>Religion and politics.</b> Done: registered voters by sect for 1,465 voter lists in 2014, and election results for each district. Not possible: the 2014 lists are the newest public breakdown by town, there is no count of residents by sect, and results are not published by town, so the Hub gives no town a political label.</li>
+    <li><b>Companies.</b> Done: every list is ranked by one stated public measure, with a source on each row. Not possible: private companies publish no revenue or profit, figures per bank are partial and startup valuations are private, so most firms cannot be ranked by performance.</li>
+    <li><b>Aid and NGOs.</b> Done: aid flows from OCHA's Financial Tracking Service, donor figures from the OECD and World Bank projects, kept apart and never added together. Not possible: people-reached figures are reported by the agencies themselves and cannot be checked, and there is no open register of Lebanese NGOs.</li>
+    <li><b>Trade and investment.</b> Done: three sources are shown side by side, CEPII BACI, Lebanese Customs and the World Bank. Not possible: they measure trade differently, so their totals differ (2023 exports: about 4.9 billion US dollars in BACI and 3.0 billion in the Customs figures), and some years of startup funding are missing.</li>
     <li><b>Dataset catalogue.</b> Done: each dataset link shows when it was last checked and whether it was reachable, moved or unreachable. Not possible: a reachable link does not show that the file is current.</li>
   </ul>
   <h3>Languages</h3>

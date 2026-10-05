@@ -39,3 +39,26 @@ html[dir=rtl] .pl-ct{text-align:start}
 .fb-fact-l dt{font-size:13px;color:var(--ink-2)}
 .fb-fact-l dd{margin:0;font-size:15px;line-height:1.5;color:var(--ink);overflow-wrap:anywhere}
 @media (max-width:560px){.fb-fact-l>div{grid-template-columns:1fr;gap:0}}
+/* v10: map layers (religion, services), legends, sect bars, history */
+.pl-layers{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:0 0 8px}
+.fb-map .pl-dot{stroke:var(--paper);stroke-width:.8px;vector-effect:non-scaling-stroke;cursor:pointer}
+.fb-map .pl-dot:hover{stroke:var(--ink);stroke-width:2px}
+.fb-map .pl-sv{stroke:var(--paper);stroke-width:.6px;vector-effect:non-scaling-stroke;opacity:.9}
+.pl-lg{list-style:none;margin:8px 0 4px;padding:0;display:flex;flex-wrap:wrap;gap:4px 14px;font:500 12.5px/1.4 var(--display)}
+.pl-lg li{display:flex;align-items:center;gap:6px;min-width:0}
+.pl-sw{display:inline-block;width:12px;height:12px;border-radius:50%;border:1px solid var(--rule-2);flex:none}
+.pl-sw.none{background:transparent;border-style:dashed}
+.pl-lgb{display:inline-flex;align-items:center;gap:6px;padding:2px 4px;border:0;background:none;color:var(--ink);font:inherit;cursor:pointer;border-radius:4px}
+.pl-lgb:hover{background:var(--stone)}
+.pl-lgb[aria-pressed=false]{opacity:.45;text-decoration:line-through}
+.pl-cap{max-width:75ch;color:var(--ink-2)}
+.pl-sects{max-width:640px}
+.pl-data{margin-top:22px}
+.pl-vsrc{margin-top:14px;max-width:80ch}
+.pl-nostrikes .pl-ct{display:none}
+.fb-card[data-e] h5.fb-t{margin:14px 0 4px}
+.pl-hd{margin:10px 0;padding:8px 12px;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.pl-hd>summary{font-size:14px}
+.pl-hd .fb-scroll{margin:6px 0}
+#plMapEx .hub-load{min-height:0;padding:6px 0}
+html[dir=rtl] .pl-lgb{text-align:start}

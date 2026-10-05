@@ -1,78 +1,78 @@
 {
-"What we did about each gap, and what cannot be done.": {
-"ar": "ما فعلناه بشأن كل ثغرة، وما لا يمكن فعله.",
-"fr": "Ce que nous avons fait pour chaque lacune, et ce qui est impossible."
-},
-"Timeline.": {
-"ar": "الخط الزمني.",
-"fr": "Chronologie."
-},
-"Done: it reaches back to 1800. Not possible: the further back, the fewer sources exist, so it stays patchy before 1920.": {
-"ar": "ما أُنجز: يمتد إلى عام ١٨٠٠. المستحيل: كلما رجعنا إلى الوراء قلّت المصادر، فيبقى متفرّقًا قبل ١٩٢٠.",
-"fr": "Fait : elle remonte à 1800. Impossible : plus on remonte, moins il existe de sources, donc elle reste lacunaire avant 1920."
-},
-"Sources.": {
-"ar": "المصادر.",
-"fr": "Sources."
-},
-"Done: every row says whether code could read its source. Not possible: paywalls, bot blocks and PDFs cannot be read by code. Those rows say \"not machine-checked\".": {
-"ar": "ما أُنجز: كل سطر يذكر إن كان البرنامج قد استطاع قراءة مصدره. المستحيل: لا يمكن للبرمجيات قراءة الصفحات المدفوعة ولا ما تحجبه أنظمة الحماية من الروبوتات ولا ملفات PDF. وهذه الأسطر تحمل عبارة «لم يُفحص آليًا».",
-"fr": "Fait : chaque ligne indique si un programme a pu lire sa source. Impossible : les murs payants, les blocages anti-robots et les PDF ne peuvent pas être lus par un programme. Ces lignes disent « non vérifié par machine »."
-},
-"Strike map.": {
-"ar": "خريطة الغارات.",
-"fr": "Carte des frappes."
-},
-"Done: official tolls now sit next to the documented incidents, with who counted and when, and hand-checked coordinates place more incidents. Not possible: no complete public record exists for the civil war, some incidents still have no usable place and are not drawn, and totals are not casualty counts.": {
-"ar": "ما أُنجز: تُعرض الآن الحصائل الرسمية إلى جانب الحوادث الموثّقة، مع ذكر من أحصى ومتى، وتتيح إحداثيات دُقّقت يدويًا رسم حوادث أكثر. المستحيل: لا يوجد سجلّ علني كامل للحرب الأهلية، وما زالت حوادث بلا مكان صالح فلا تُرسم، والمجاميع ليست أعداد ضحايا.",
-"fr": "Fait : les bilans officiels figurent désormais à côté des incidents documentés, avec qui a compté et quand, et des coordonnées vérifiées à la main placent davantage d'incidents. Impossible : il n'existe aucun registre public complet de la guerre civile, certains incidents n'ont toujours pas de lieu exploitable et ne sont pas dessinés, et les totaux ne sont pas des décomptes de victimes."
-},
-"Places.": {
-"ar": "الأماكن.",
-"fr": "Lieux."
-},
-"Done: each place shows registered voters and a modelled resident estimate, both labelled and sourced, and more places have Arabic names. Not possible: Lebanon has held no census since 1932, so no place has a true population count, and village names are still spelled in many ways.": {
-"ar": "ما أُنجز: يعرض كل مكان عدد الناخبين المسجّلين وتقديرًا نمذجيًا للمقيمين، وكلاهما موسوم ومنسوب إلى مصدره، وصار لأماكن أكثر أسماء بالعربية. المستحيل: لم يُجرَ في لبنان تعداد منذ ١٩٣٢، فلا يوجد لأي مكان عدد سكان حقيقي، وما زالت أسماء القرى تُكتب بطرق كثيرة.",
-"fr": "Fait : chaque lieu montre les électeurs inscrits et une estimation modélisée des habitants, toutes deux étiquetées et sourcées, et davantage de lieux ont un nom arabe. Impossible : le Liban n'a pas fait de recensement depuis 1932, donc aucun lieu n'a de vrai chiffre de population, et les noms de villages s'écrivent encore de bien des façons."
-},
-"Cost of living and electricity.": {
-"ar": "غلاء المعيشة والكهرباء.",
-"fr": "Coût de la vie et électricité."
-},
-"Done: holes in fuel prices and generator fees are filled from ministry statements and press copies, marked with hollow dots, and bread and generator prices per kWh are added. Supply hours are shown as a proxy, labelled as one, with its method. Not possible: there is no official series of electricity supply hours, and some series are still dated points.": {
-"ar": "ما أُنجز: مُلئت ثغرات أسعار الوقود ورسوم المولّدات من بيانات الوزارة ونسخ صحافية، ووُسمت بنقاط مفرغة، وأُضيفت أسعار الخبز وسعر كيلواط الساعة من المولّدات. وتُعرض ساعات التغذية بوصفها مؤشّرًا بديلًا موسومًا بذلك مع منهجه. المستحيل: لا توجد سلسلة رسمية لساعات التغذية بالكهرباء، وبعض السلاسل ما زالت نقاطًا مؤرَّخة.",
-"fr": "Fait : les trous des prix des carburants et des redevances des générateurs sont comblés avec des communiqués du ministère et des copies de presse, marqués par des points creux, et les prix du pain et du kWh des générateurs sont ajoutés. Les heures d'alimentation sont présentées comme un proxy, étiqueté comme tel, avec sa méthode. Impossible : il n'existe pas de série officielle des heures d'alimentation électrique, et certaines séries restent des points datés."
-},
-"World.": {
-"ar": "العالم.",
-"fr": "Monde."
-},
-"Done: values after a country's last actual year are dashed and shaded, UN projections are marked, and Lebanon's national figures can be laid over the international series. Not possible: Lebanon still has gaps in some years, and each indicator is as its source publishes it.": {
-"ar": "ما أُنجز: القيم بعد آخر سنة فعلية لأي بلد مرسومة بخط متقطّع ومظلَّلة، وتوقعات الأمم المتحدة موسومة، ويمكن وضع أرقام لبنان الوطنية فوق السلاسل الدولية. المستحيل: ما زالت في بيانات لبنان ثغرات في بعض السنوات، وكل مؤشّر كما ينشره مصدره.",
-"fr": "Fait : les valeurs après la dernière année réelle d'un pays sont en pointillés et ombrées, les projections de l'ONU sont signalées, et les chiffres nationaux du Liban peuvent être superposés aux séries internationales. Impossible : le Liban a encore des trous certaines années, et chaque indicateur est tel que sa source le publie."
-},
-"Laws.": {
-"ar": "القوانين.",
-"fr": "Lois."
-},
-"Done: each law links to its full text, with a short English summary, and 2025 laws from the Parliament's site are added. Not possible: the index holds titles, numbers, dates and summaries, never the article text. Numbers before about 1960 are mostly missing, and a few recent laws may be absent.": {
-"ar": "ما أُنجز: يرتبط كل قانون بنصّه الكامل مع ملخّص إنكليزي قصير، وأُضيفت قوانين ٢٠٢٥ من موقع مجلس النواب. المستحيل: يضم الفهرس العناوين والأرقام والتواريخ والملخّصات فقط، ولا يضم نصوص المواد أبدًا. أما الأرقام قبل نحو ١٩٦٠ فمفقودة في معظمها، وقد يغيب بعض القوانين الحديثة.",
-"fr": "Fait : chaque loi renvoie à son texte intégral, avec un bref résumé en anglais, et les lois de 2025 du site du Parlement sont ajoutées. Impossible : l'index contient titres, numéros, dates et résumés, jamais le texte des articles. Les numéros d'avant 1960 environ manquent pour la plupart, et quelques lois récentes peuvent être absentes."
-},
-"Elections.": {
-"ar": "الانتخابات.",
-"fr": "Élections."
-},
-"Done: the 2026 election is shown as a fact card: postponed, the extension law, the court decision and the new date. Not possible: there are no results, and none can exist until a vote is held. No new date is set.": {
-"ar": "ما أُنجز: تُعرض انتخابات ٢٠٢٦ في بطاقة وقائع: التأجيل وقانون التمديد وقرار المجلس الدستوري والموعد الجديد. المستحيل: لا توجد نتائج، ولن توجد قبل إجراء الاقتراع. ولم يُحدَّد موعد جديد.",
-"fr": "Fait : l'élection de 2026 est présentée dans une fiche de faits : report, loi de prorogation, décision du Conseil constitutionnel et nouvelle date. Impossible : il n'y a pas de résultats, et il n'y en aura pas avant la tenue d'un vote. Aucune nouvelle date n'est fixée."
-},
-"Dataset catalogue.": {
-"ar": "فهرس مجموعات البيانات.",
-"fr": "Catalogue des jeux de données."
-},
-"Done: each dataset shows when its link was last checked: reachable, moved or unreachable. Not possible: a reachable link does not show that the file is current.": {
-"ar": "ما أُنجز: تُظهر كل مجموعة بيانات تاريخ آخر فحص لرابطها: يمكن الوصول إليه أو نُقل أو تعذّر الوصول إليه. المستحيل: الرابط الذي يمكن الوصول إليه لا يثبت أن الملف حديث.",
-"fr": "Fait : chaque jeu de données indique quand son lien a été vérifié pour la dernière fois : joignable, déplacé ou injoignable. Impossible : un lien joignable ne prouve pas que le fichier soit à jour."
-}
+ "What we did about each gap, and what cannot be done.": {
+  "ar": "ما فعلناه بشأن كل ثغرة، وما لا يمكن فعله.",
+  "fr": "Ce que nous avons fait pour chaque lacune, et ce qui est impossible."
+ },
+ "Timeline.": {
+  "ar": "الخط الزمني.",
+  "fr": "Chronologie."
+ },
+ "Done: it reaches back to 1800. Not possible: the further back, the fewer sources exist, so it stays patchy before 1920.": {
+  "ar": "ما أُنجز: يمتد إلى عام ١٨٠٠. المستحيل: كلما رجعنا إلى الوراء قلّت المصادر، فيبقى متفرّقًا قبل ١٩٢٠.",
+  "fr": "Fait : elle remonte à 1800. Impossible : plus on remonte, moins il existe de sources, donc elle reste lacunaire avant 1920."
+ },
+ "Sources.": {
+  "ar": "المصادر.",
+  "fr": "Sources."
+ },
+ "Done: every row says whether code could read its source. Not possible: paywalls, bot blocks and PDFs cannot be read by code. Those rows say \"not machine-checked\".": {
+  "ar": "ما أُنجز: كل سطر يذكر إن كان البرنامج قد استطاع قراءة مصدره. المستحيل: لا يمكن للبرمجيات قراءة الصفحات المدفوعة ولا ما تحجبه أنظمة الحماية من الروبوتات ولا ملفات PDF. وهذه الأسطر تحمل عبارة «لم يُفحص آليًا».",
+  "fr": "Fait : chaque ligne indique si un programme a pu lire sa source. Impossible : les murs payants, les blocages anti-robots et les PDF ne peuvent pas être lus par un programme. Ces lignes disent « non vérifié par machine »."
+ },
+ "Strike map.": {
+  "ar": "خريطة الغارات.",
+  "fr": "Carte des frappes."
+ },
+ "Done: official tolls now sit next to the documented incidents, with who counted and when, and hand-checked coordinates place more incidents. Not possible: no complete public record exists for the civil war, some incidents still have no usable place and are not drawn, and totals are not casualty counts.": {
+  "ar": "ما أُنجز: تُعرض الآن الحصائل الرسمية إلى جانب الحوادث الموثّقة، مع ذكر من أحصى ومتى، وتتيح إحداثيات دُقّقت يدويًا رسم حوادث أكثر. المستحيل: لا يوجد سجلّ علني كامل للحرب الأهلية، وما زالت حوادث بلا مكان صالح فلا تُرسم، والمجاميع ليست أعداد ضحايا.",
+  "fr": "Fait : les bilans officiels figurent désormais à côté des incidents documentés, avec qui a compté et quand, et des coordonnées vérifiées à la main placent davantage d'incidents. Impossible : il n'existe aucun registre public complet de la guerre civile, certains incidents n'ont toujours pas de lieu exploitable et ne sont pas dessinés, et les totaux ne sont pas des décomptes de victimes."
+ },
+ "Places.": {
+  "ar": "الأماكن.",
+  "fr": "Lieux."
+ },
+ "Done: each place shows registered voters and a modelled resident estimate, both labelled and sourced, and more places have Arabic names. Not possible: Lebanon has held no census since 1932, so no place has a true population count, and village names are still spelled in many ways.": {
+  "ar": "ما أُنجز: يعرض كل مكان عدد الناخبين المسجّلين وتقديرًا نمذجيًا للمقيمين، وكلاهما موسوم ومنسوب إلى مصدره، وصار لأماكن أكثر أسماء بالعربية. المستحيل: لم يُجرَ في لبنان تعداد منذ ١٩٣٢، فلا يوجد لأي مكان عدد سكان حقيقي، وما زالت أسماء القرى تُكتب بطرق كثيرة.",
+  "fr": "Fait : chaque lieu montre les électeurs inscrits et une estimation modélisée des habitants, toutes deux étiquetées et sourcées, et davantage de lieux ont un nom arabe. Impossible : le Liban n'a pas fait de recensement depuis 1932, donc aucun lieu n'a de vrai chiffre de population, et les noms de villages s'écrivent encore de bien des façons."
+ },
+ "Cost of living and electricity.": {
+  "ar": "غلاء المعيشة والكهرباء.",
+  "fr": "Coût de la vie et électricité."
+ },
+ "Done: holes in fuel prices and generator fees are filled from ministry statements and press copies, marked with hollow dots, and bread and generator prices per kWh are added. Supply hours are shown as a proxy, labelled as one, with its method. Not possible: there is no official series of electricity supply hours, and some series are still dated points.": {
+  "ar": "ما أُنجز: مُلئت ثغرات أسعار الوقود ورسوم المولّدات من بيانات الوزارة ونسخ صحافية، ووُسمت بنقاط مفرغة، وأُضيفت أسعار الخبز وسعر كيلواط الساعة من المولّدات. وتُعرض ساعات التغذية بوصفها مؤشّرًا بديلًا موسومًا بذلك مع منهجه. المستحيل: لا توجد سلسلة رسمية لساعات التغذية بالكهرباء، وبعض السلاسل ما زالت نقاطًا مؤرَّخة.",
+  "fr": "Fait : les trous des prix des carburants et des redevances des générateurs sont comblés avec des communiqués du ministère et des copies de presse, marqués par des points creux, et les prix du pain et du kWh des générateurs sont ajoutés. Les heures d'alimentation sont présentées comme un proxy, étiqueté comme tel, avec sa méthode. Impossible : il n'existe pas de série officielle des heures d'alimentation électrique, et certaines séries restent des points datés."
+ },
+ "World.": {
+  "ar": "العالم.",
+  "fr": "Monde."
+ },
+ "Done: values after a country's last actual year are dashed and shaded, UN projections are marked, and Lebanon's national figures can be laid over the international series. Not possible: Lebanon still has gaps in some years, and each indicator is as its source publishes it.": {
+  "ar": "ما أُنجز: القيم بعد آخر سنة فعلية لأي بلد مرسومة بخط متقطّع ومظلَّلة، وتوقعات الأمم المتحدة موسومة، ويمكن وضع أرقام لبنان الوطنية فوق السلاسل الدولية. المستحيل: ما زالت في بيانات لبنان ثغرات في بعض السنوات، وكل مؤشّر كما ينشره مصدره.",
+  "fr": "Fait : les valeurs après la dernière année réelle d'un pays sont en pointillés et ombrées, les projections de l'ONU sont signalées, et les chiffres nationaux du Liban peuvent être superposés aux séries internationales. Impossible : le Liban a encore des trous certaines années, et chaque indicateur est tel que sa source le publie."
+ },
+ "Laws.": {
+  "ar": "القوانين.",
+  "fr": "Lois."
+ },
+ "Done: each law links to its full text, with a short English summary, and 2025 laws from the Parliament's site are added. Not possible: the index holds titles, numbers, dates and summaries, never the article text. Numbers before about 1960 are mostly missing, and a few recent laws may be absent.": {
+  "ar": "ما أُنجز: يرتبط كل قانون بنصّه الكامل مع ملخّص إنكليزي قصير، وأُضيفت قوانين ٢٠٢٥ من موقع مجلس النواب. المستحيل: يضم الفهرس العناوين والأرقام والتواريخ والملخّصات فقط، ولا يضم نصوص المواد أبدًا. أما الأرقام قبل نحو ١٩٦٠ فمفقودة في معظمها، وقد يغيب بعض القوانين الحديثة.",
+  "fr": "Fait : chaque loi renvoie à son texte intégral, avec un bref résumé en anglais, et les lois de 2025 du site du Parlement sont ajoutées. Impossible : l'index contient titres, numéros, dates et résumés, jamais le texte des articles. Les numéros d'avant 1960 environ manquent pour la plupart, et quelques lois récentes peuvent être absentes."
+ },
+ "Elections.": {
+  "ar": "الانتخابات.",
+  "fr": "Élections."
+ },
+ "Done: the 2026 election is shown as a fact card: postponed, the extension law, the court decision and the new date. Not possible: there are no results, and none can exist until a vote is held. No new date is set.": {
+  "ar": "ما أُنجز: تُعرض انتخابات ٢٠٢٦ في بطاقة وقائع: التأجيل وقانون التمديد وقرار المجلس الدستوري والموعد الجديد. المستحيل: لا توجد نتائج، ولن توجد قبل إجراء الاقتراع. ولم يُحدَّد موعد جديد.",
+  "fr": "Fait : l'élection de 2026 est présentée dans une fiche de faits : report, loi de prorogation, décision du Conseil constitutionnel et nouvelle date. Impossible : il n'y a pas de résultats, et il n'y en aura pas avant la tenue d'un vote. Aucune nouvelle date n'est fixée."
+ },
+ "Dataset catalogue.": {
+  "ar": "فهرس مجموعات البيانات.",
+  "fr": "Catalogue des jeux de données."
+ },
+ "Done: each dataset shows when its link was last checked: reachable, moved or unreachable. Not possible: a reachable link does not show that the file is current.": {
+  "ar": "ما أُنجز: تُظهر كل مجموعة بيانات تاريخ آخر فحص لرابطها: يمكن الوصول إليه أو نُقل أو تعذّر الوصول إليه. المستحيل: الرابط الذي يمكن الوصول إليه لا يثبت أن الملف حديث.",
+  "fr": "Fait : chaque jeu de données indique quand son lien a été vérifié pour la dernière fois : joignable, déplacé ou injoignable. Impossible : un lien joignable ne prouve pas que le fichier soit à jour."
+ }
 }

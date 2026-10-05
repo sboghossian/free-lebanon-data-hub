@@ -2,12 +2,13 @@
 // A few long-lived pages walk through the views by hash, so the suite stays short.
 export default async function (T) {
   const { ok, sleep, open, fixture, SITE } = T;
-  const VIEWS = [['#electricity', '#elView .fb-card', 8], ['#electricity/lights', '#elLg .fb-card', 3], ['#climate', '#elView .fb-card', 5], ['#electricity/all', '#elAll .fb-br', 20]];
+  const VIEWS = [['#electricity', '#elView .fb-card', 8], ['#electricity/lights', '#elLg .fb-card', 3], ['#climate', '#elView .fb-card', 5]];
   const go = async (p, h, sel, min) => { await p.ev(`location.hash = ${JSON.stringify(h)}`); await sleep(250); return p.wait(`document.querySelectorAll(${JSON.stringify(sel)}).length >= ${min} && !document.querySelector("#elView .hub-load")`, 30000); };
   const count = 'document.getElementById("fbFireCv") ? (() => { const cv = document.getElementById("fbFireCv"), d = cv.getContext("2d").getImageData(0, 0, cv.width, cv.height).data; let n = 0; for (let i = 3; i < d.length; i += 4) if (d[i] > 0) n++; return n; })() : -1';
 
   const p = await open(1400, SITE, { hash: '#electricity' });
-  ok('electricity: opens by deep link with four view chips', await p.wait('!document.getElementById("electricity").hidden && document.querySelectorAll("#elNav [data-id]").length === 4', 15000));
+  ok('electricity: opens by deep link with three view chips (no "All series" view)', await p.wait('!document.getElementById("electricity").hidden && document.querySelectorAll("#elNav [data-id]").length === 3 && !document.querySelector("#elNav [data-id=all]")', 15000));
+  ok('electricity: one "Data behind this tab" link to #data/electricity, and no series table', await p.ev('document.querySelectorAll("#electricity a[href=\\"#data/electricity\\"]").length === 1 && !document.getElementById("elAll")'));
   ok('electricity: supply-hours chart plots the dated statements as separate series with a legend', await p.wait('document.querySelectorAll("#elView .fb-card.wide .hc-lg li").length >= 6', 15000));
   ok('electricity: four stat tiles and the honest note that no official hours series exists', await p.ev('document.querySelectorAll("#elView .fb-stat").length === 4 && /no official time series/.test(document.querySelector("#elView .fb-note-band").textContent)'));
   ok('electricity: every chart card shows its source and licence', await p.ev('[...document.querySelectorAll("#elView .fb-card")].filter(c => c.querySelector(".hc-svg")).every(c => /Source/.test(c.querySelector(".fb-src")?.textContent || "") && /Licence/.test(c.querySelector(".fb-src")?.textContent || ""))'));
@@ -88,7 +89,7 @@ export default async function (T) {
   const fm = fixture('el-missing', null, { 'electricity/nightlights.json': null, 'fires/firms-lbn.json': null });
   const n = await open(1400, fm, { hash: '#electricity/lights', allow: /nightlights|firms|404|Failed to load/ });
   await n.wait('!!document.querySelector("#elLg .hub-err")', 20000);
-  ok('electricity: night lights without their file show the error state with Retry (the other views still work)', await n.ev('!!document.querySelector("#elLg [data-retry]") && document.querySelectorAll("#elNav [data-id]").length === 4'));
+  ok('electricity: night lights without their file show the error state with Retry (the other views still work)', await n.ev('!!document.querySelector("#elLg [data-retry]") && document.querySelectorAll("#elNav [data-id]").length === 3'));
   await n.ev('location.hash = "#climate"'); await n.wait('!!document.querySelector("#elFi .hub-err")', 25000);
   ok('electricity: a missing fires file shows an error in the fire section only; the climate section still loads', await n.ev('!!document.querySelector("#elFi [data-retry]") && document.querySelectorAll("#elCl .fb-card").length >= 3'));
   await n.ev('location.hash = "#map"'); await n.wait('!!document.getElementById("fbFireOn")', 30000);

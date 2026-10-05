@@ -1,0 +1,242 @@
+{
+"leg": "R-trade",
+"id": "idal-projects-by-sector",
+"source": "http://www.investinlebanon.gov.lb/en/about_us/investments_supported_by_idal/yearly_statistics",
+"license": null,
+"unit": "US$ investment size and jobs",
+"fetched": "2026-10-05",
+"years": {
+"2003": [
+{
+"sector": "Tourism",
+"usd": 189438750,
+"jobs": 459
+}
+],
+"2004": [
+{
+"sector": "Industry",
+"usd": 36028870,
+"jobs": 276
+},
+{
+"sector": "Technology",
+"usd": 1915169,
+"jobs": 43
+},
+{
+"sector": "Tourism",
+"usd": 155444830,
+"jobs": 496
+}
+],
+"2005": [
+{
+"sector": "Agri-Food",
+"usd": 17675526,
+"jobs": 259
+},
+{
+"sector": "Industry",
+"usd": 2771672,
+"jobs": 20
+},
+{
+"sector": "Media",
+"usd": 5415000,
+"jobs": 33
+},
+{
+"sector": "Tourism",
+"usd": 315810835,
+"jobs": 1190
+}
+],
+"2006": [
+{
+"sector": "Industry",
+"usd": 128500000,
+"jobs": 97
+},
+{
+"sector": "Technology",
+"usd": 21118864,
+"jobs": 252
+},
+{
+"sector": "Telecommunication",
+"usd": 4385584,
+"jobs": 27
+},
+{
+"sector": "Tourism",
+"usd": 80960190,
+"jobs": 381
+}
+],
+"2007": [
+{
+"sector": "Agri-Food",
+"usd": 11659565,
+"jobs": 14
+},
+{
+"sector": "Industry",
+"usd": 85457740,
+"jobs": 37
+},
+{
+"sector": "Telecommunication",
+"usd": 630000,
+"jobs": 100
+},
+{
+"sector": "Tourism",
+"usd": 21826539,
+"jobs": 122
+}
+],
+"2009": [
+{
+"sector": "ICT",
+"usd": 367287,
+"jobs": 19
+},
+{
+"sector": "Tourism",
+"usd": 45919235,
+"jobs": 35
+}
+],
+"2010": [
+{
+"sector": "Agri-Food",
+"usd": 17452227,
+"jobs": 97
+},
+{
+"sector": "ICT",
+"usd": 12462630,
+"jobs": 53
+},
+{
+"sector": "Technology",
+"usd": 693130,
+"jobs": 5
+},
+{
+"sector": "Tourism",
+"usd": 155481177,
+"jobs": 221
+}
+],
+"2011": [
+{
+"sector": "Industry",
+"usd": 70907258,
+"jobs": 647
+},
+{
+"sector": "Media",
+"usd": 4011264,
+"jobs": 25
+},
+{
+"sector": "Tourism",
+"usd": 31819943,
+"jobs": 70
+}
+],
+"2012": [
+{
+"sector": "Industry",
+"usd": 24875906,
+"jobs": 219
+},
+{
+"sector": "Tourism",
+"usd": 226148083,
+"jobs": 324
+}
+],
+"2014": [
+{
+"sector": "Agri-Food",
+"usd": 4051098,
+"jobs": 33
+},
+{
+"sector": "Industry",
+"usd": 37774683,
+"jobs": 189
+}
+],
+"2015": [
+{
+"sector": "Agri-Food",
+"usd": 5975900,
+"jobs": 75
+}
+],
+"2016": [
+{
+"sector": "Agri-Food",
+"usd": 57162063,
+"jobs": 406
+},
+{
+"sector": "Technology",
+"usd": 1430000,
+"jobs": 41
+}
+],
+"2017": [
+{
+"sector": "Agri-Food",
+"usd": 27853850,
+"jobs": 215
+},
+{
+"sector": "ICT",
+"usd": 506421,
+"jobs": 52
+},
+{
+"sector": "Industry",
+"usd": 52039355,
+"jobs": 156
+}
+],
+"2018": [
+{
+"sector": "Agri-Food",
+"usd": 10025000,
+"jobs": 92
+},
+{
+"sector": "Industry",
+"usd": 13315000,
+"jobs": 75
+},
+{
+"sector": "Tourism",
+"usd": 55206259,
+"jobs": 645
+}
+],
+"2019": [
+{
+"sector": "Agri-Food",
+"usd": 4000000,
+"jobs": 61
+}
+],
+"2020": [
+{
+"sector": "Agriculture",
+"usd": 2164440,
+"jobs": 4
+}
+]
+}
+}

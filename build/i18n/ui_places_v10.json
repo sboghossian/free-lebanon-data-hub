@@ -1,0 +1,970 @@
+{
+ "\"Other groups\" adds up the smaller groups the list names separately, for example Armenian Protestant and Nestorian.": {
+  "ar": "«مجموعات أخرى» تجمع المجموعات الأصغر التي تذكرها اللائحة منفصلة، مثل الأرمن البروتستانت والنساطرة.",
+  "fr": "« Autres groupes » additionne les petits groupes que la liste nomme séparément, par exemple les protestants arméniens et les nestoriens."
+ },
+ "1895 is an official estimate; 1913 is reported as a census count. The figures are Chamie's as repeated on Wikipedia and were not checked against the Ottoman source. The 1913 rows are 33 short of the printed total.": {
+  "ar": "١٨٩٥ تقدير رسمي، و١٩١٣ يُذكر على أنه إحصاء. الأرقام لشامييه كما أعادتها ويكيبيديا، ولم تُقارن بالمصدر العثماني. مجموع صفوف ١٩١٣ أقل من المجموع المطبوع بـ٣٣.",
+  "fr": "1895 est une estimation officielle ; 1913 est présenté comme un recensement. Les chiffres sont ceux de Chamie repris par Wikipédia et n'ont pas été vérifiés auprès de la source ottomane. Les lignes de 1913 sont inférieures de 33 au total imprimé."
+ },
+ "1895, estimate": {
+  "ar": "١٨٩٥ (تقدير)",
+  "fr": "1895 (estimation)"
+ },
+ "1913": {
+  "ar": "١٩١٣",
+  "fr": "1913"
+ },
+ "1922": {
+  "ar": "١٩٢٢",
+  "fr": "1922"
+ },
+ "1932": {
+  "ar": "١٩٣٢",
+  "fr": "1932"
+ },
+ "1927 election: the 16 seats elected in 1927 (Parliament of 46)": {
+  "ar": "انتخابات ١٩٢٧: المقاعد الستة عشر المنتخبة عام ١٩٢٧ (مجلس من ٤٦ نائباً)",
+  "fr": "Élection de 1927 : les 16 sièges élus en 1927 (Parlement de 46 membres)"
+ },
+ "1960 list": {
+  "ar": "قوائم ١٩٦٠",
+  "fr": "Liste de 1960"
+ },
+ "1972, estimate": {
+  "ar": "١٩٧٢ (تقدير)",
+  "fr": "1972 (estimation)"
+ },
+ "A bloc is the parliamentary bloc Wikipedia lists for each elected member; members who left or were expelled during the term are grouped apart. Each list shows its valid votes and the seats it won.": {
+  "ar": "الكتلة هي الكتلة النيابية التي تذكرها ويكيبيديا لكل نائب منتخب. النواب الذين غادروا كتلتهم أو فُصلوا منها خلال الولاية مجمّعون على حدة. تعرض كل لائحة أصواتها الصحيحة والمقاعد التي نالتها.",
+  "fr": "Un bloc est le bloc parlementaire que Wikipédia indique pour chaque élu ; les élus qui ont quitté leur bloc ou en ont été exclus pendant la législature sont regroupés à part. Chaque liste indique ses suffrages valides et les sièges obtenus."
+ },
+ "A description only. The region is approximate and no map is drawn, because the sources give no exact boundary.": {
+  "ar": "وصف فقط. المنطقة تقريبية ولا خريطة مرسومة لها لأن المصادر لا تعطي حدوداً دقيقة.",
+  "fr": "Une description seulement. La région est approximative et aucune carte n'est tracée, car les sources ne donnent pas de limite exacte."
+ },
+ "After Taif": {
+  "ar": "بعد الطائف",
+  "fr": "Après Taëf"
+ },
+ "An estimate. The Monthly prints the table without naming its origin. Muslims are one group in it. The shares are the publisher's.": {
+  "ar": "تقدير. تنشر «ذا منثلي» الجدول دون ذكر مصدره. المسلمون مجموعة واحدة فيه. النسب من الناشر.",
+  "fr": "Une estimation. The Monthly publie le tableau sans en nommer l'origine. Les musulmans y forment un seul groupe. Les parts sont celles de l'éditeur."
+ },
+ "Assyrian": {
+  "ar": "آشوري",
+  "fr": "Assyrien"
+ },
+ "Bars show each group's share of the {n} registered voters on this list; the count and the share are printed beside each bar.": {
+  "ar": "تُظهر الأعمدة حصة كل مجموعة من الناخبين المسجّلين في هذه اللائحة وعددهم {n}؛ ويُطبع العدد والحصة بجانب كل عمود.",
+  "fr": "Les barres montrent la part de chaque groupe parmi les {n} électeurs inscrits de cette liste ; l'effectif et la part sont imprimés à côté de chaque barre."
+ },
+ "Before 1860": {
+  "ar": "قبل ١٨٦٠",
+  "fr": "Avant 1860"
+ },
+ "Before Taif": {
+  "ar": "قبل الطائف",
+  "fr": "Avant Taëf"
+ },
+ "Beirut I (1960 law): registered voters by sect, 1960 list and 1972 estimate": {
+  "ar": "بيروت الأولى (قانون ١٩٦٠): الناخبون المسجّلون بحسب الطائفة، قائمة ١٩٦٠ وتقدير ١٩٧٢",
+  "fr": "Beyrouth I (loi de 1960) : électeurs inscrits par confession, liste de 1960 et estimation de 1972"
+ },
+ "CC BY-SA 4.0 (Wikipedia); the official results state no licence, so only the facts are used, with attribution": {
+  "ar": "CC BY-SA 4.0 (ويكيبيديا)؛ النتائج الرسمية لا تذكر ترخيصاً، فتُستعمل الوقائع فقط مع نسبتها إلى مصدرها",
+  "fr": "CC BY-SA 4.0 (Wikipédia) ; les résultats officiels n'indiquent aucune licence, seuls les faits sont donc repris, avec attribution"
+ },
+ "Census of 1932: residents": {
+  "ar": "إحصاء ١٩٣٢: المقيمون",
+  "fr": "Recensement de 1932 : résidents"
+ },
+ "Census of 1932: residents and emigrants by sect (The Monthly)": {
+  "ar": "إحصاء ١٩٣٢: المقيمون والمهاجرون بحسب الطائفة (ذا منثلي)",
+  "fr": "Recensement de 1932 : résidents et émigrés par confession (The Monthly)"
+ },
+ "Census of 1932: residents and registered emigrants by sect (Maktabi 1999)": {
+  "ar": "إحصاء ١٩٣٢: المقيمون والمهاجرون المسجّلون بحسب الطائفة (مكتبي ١٩٩٩)",
+  "fr": "Recensement de 1932 : résidents et émigrés inscrits par confession (Maktabi 1999)"
+ },
+ "Chaldean": {
+  "ar": "كلداني",
+  "fr": "Chaldéen"
+ },
+ "Changed bloc during the term": {
+  "ar": "غيّر كتلته خلال الولاية",
+  "fr": "A changé de bloc pendant la législature"
+ },
+ "Christian minorities or unspecified": {
+  "ar": "أقليات مسيحية أو غير محددة",
+  "fr": "Minorités chrétiennes ou non précisées"
+ },
+ "Christian to Muslim ratio": {
+  "ar": "النسبة بين المسيحيين والمسلمين",
+  "fr": "Rapport chrétiens/musulmans"
+ },
+ "Christians 30 and Muslims and Druze 25: the 6 to 5 ratio.": {
+  "ar": "المسيحيون ٣٠ والمسلمون والدروز ٢٥: نسبة ٦ إلى ٥.",
+  "fr": "Chrétiens 30, musulmans et Druzes 25 : le rapport de 6 à 5."
+ },
+ "Christians 54, Muslims and Druze 45 (6 to 5). The 1960 law made the 26 qadas the districts. Seats per qada under that law were not found in an open source and are not given.": {
+  "ar": "المسيحيون ٥٤ والمسلمون والدروز ٤٥ (٦ إلى ٥). جعل قانون ١٩٦٠ الأقضية الـ٢٦ دوائر انتخابية. لم يُعثر على توزيع المقاعد بحسب القضاء في ظل ذلك القانون في مصدر مفتوح، ولذلك لا يُعرض.",
+  "fr": "Chrétiens 54, musulmans et Druzes 45 (6 à 5). La loi de 1960 a fait des 26 cazas les circonscriptions. La répartition des sièges par caza sous cette loi n'a été trouvée dans aucune source ouverte et n'est pas donnée."
+ },
+ "Clinic": {
+  "ar": "عيادة",
+  "fr": "Clinique"
+ },
+ "Clinics": {
+  "ar": "العيادات",
+  "fr": "Cliniques"
+ },
+ "College or university": {
+  "ar": "كلية أو جامعة",
+  "fr": "Collège ou université"
+ },
+ "Colour: the group with the most registered voters in the list. Opacity: that group's share of the list, from {a} to 100%. \"Not stated\" and \"Other groups\" count in the totals and never set the colour.": {
+  "ar": "اللون: المجموعة الأكثر عدداً بين الناخبين المسجّلين في اللائحة. الشفافية: حصة تلك المجموعة من اللائحة، من {a} إلى ١٠٠%. «غير مذكور» و«مجموعات أخرى» تدخلان في المجاميع ولا تحدّدان اللون أبداً.",
+  "fr": "Couleur : le groupe qui compte le plus d'électeurs inscrits dans la liste. Opacité : la part de ce groupe dans la liste, de {a} à 100 %. « Non précisé » et « Autres groupes » comptent dans les totaux et ne déterminent jamais la couleur."
+ },
+ "Communities and seats over time": {
+  "ar": "الطوائف والمقاعد عبر الزمن",
+  "fr": "Communautés et sièges au fil du temps"
+ },
+ "Community": {
+  "ar": "الطائفة",
+  "fr": "Communauté"
+ },
+ "Copt": {
+  "ar": "قبطي",
+  "fr": "Copte"
+ },
+ "Counts of people are enumerated or registered persons by civil-status sect, not residents today.": {
+  "ar": "أعداد الأشخاص هي أشخاص مُحصَون أو مسجّلون بحسب الطائفة في سجلات الأحوال الشخصية، لا المقيمون اليوم.",
+  "fr": "Les effectifs sont des personnes recensées ou inscrites par confession à l'état civil, pas les résidents d'aujourd'hui."
+ },
+ "Data behind this tab": {
+  "ar": "البيانات وراء هذا التبويب",
+  "fr": "Données derrière cet onglet"
+ },
+ "Derived: the source lists the 77 members with the seat each holds, and the table counts them by district and seat. The Monthly confirms 77 deputies in nine districts.": {
+  "ar": "مشتق: يسرد المصدر النواب الـ٧٧ مع المقعد الذي يشغله كل منهم، ويعدّهم الجدول بحسب الدائرة والمقعد. وتؤكد «ذا منثلي» وجود ٧٧ نائباً في تسع دوائر.",
+  "fr": "Dérivé : la source énumère les 77 députés avec le siège de chacun, et le tableau les compte par circonscription et par siège. The Monthly confirme 77 députés dans neuf circonscriptions."
+ },
+ "Districts": {
+  "ar": "الدوائر",
+  "fr": "Circonscriptions"
+ },
+ "Double Qaimaqamate of Mount Lebanon, 1843 to 1861 (description, approximate region)": {
+  "ar": "القائمقاميتان في جبل لبنان، ١٨٤٣ إلى ١٨٦١ (وصف، منطقة تقريبية)",
+  "fr": "Double caïmacamat du Mont-Liban, 1843 à 1861 (description, région approximative)"
+ },
+ "Electoral laws and seats per community": {
+  "ar": "قوانين الانتخاب والمقاعد لكل طائفة",
+  "fr": "Lois électorales et sièges par communauté"
+ },
+ "Electoral laws and the size of Parliament, 1926 to 2017": {
+  "ar": "قوانين الانتخاب وحجم المجلس النيابي، ١٩٢٦ إلى ٢٠١٧",
+  "fr": "Lois électorales et taille du Parlement, 1926 à 2017"
+ },
+ "Emigrants": {
+  "ar": "المهاجرون",
+  "fr": "Émigrés"
+ },
+ "Emigrants after 1924, not paying": {
+  "ar": "مهاجرون بعد ١٩٢٤، غير دافعي الضريبة",
+  "fr": "Émigrés après 1924, non imposés"
+ },
+ "Emigrants after 1924, paying tax": {
+  "ar": "مهاجرون بعد ١٩٢٤، دافعو الضريبة",
+  "fr": "Émigrés après 1924, imposés"
+ },
+ "Emigrants before 1924, not paying": {
+  "ar": "مهاجرون قبل ١٩٢٤، غير دافعي الضريبة",
+  "fr": "Émigrés avant 1924, non imposés"
+ },
+ "Emigrants before 1924, paying tax": {
+  "ar": "مهاجرون قبل ١٩٢٤، دافعو الضريبة",
+  "fr": "Émigrés avant 1924, imposés"
+ },
+ "Facilities from OpenStreetMap contributors (ODbL 1.0, snapshot of {d}) and the CERD list of public schools (2017, CC0). OpenStreetMap coverage is uneven, so a missing point can mean unmapped, not absent.": {
+  "ar": "المرافق من مساهمي OpenStreetMap (ODbL 1.0، لقطة بتاريخ {d}) ولائحة المدارس الرسمية لدى المركز التربوي للبحوث والإنماء (٢٠١٧، CC0). تغطية OpenStreetMap متفاوتة، فقد تعني النقطة الناقصة أنها غير مرسومة لا أنها غير موجودة.",
+  "fr": "Établissements d'après les contributeurs d'OpenStreetMap (ODbL 1.0, instantané du {d}) et la liste des écoles publiques du CERD (2017, CC0). La couverture d'OpenStreetMap est inégale : un point absent peut signifier non cartographié, pas inexistant."
+ },
+ "Facility kinds": {
+  "ar": "أنواع المرافق",
+  "fr": "Types d'établissements"
+ },
+ "First election": {
+  "ar": "أول انتخابات",
+  "fr": "Première élection"
+ },
+ "Full results for this district": {
+  "ar": "النتائج الكاملة لهذه الدائرة",
+  "fr": "Résultats complets de cette circonscription"
+ },
+ "Greater Lebanon: counts by sect, 1922 and 1932 (Chamie 1981)": {
+  "ar": "لبنان الكبير: الأعداد بحسب الطائفة، ١٩٢٢ و١٩٣٢ (شامييه ١٩٨١)",
+  "fr": "Grand Liban : effectifs par confession, 1922 et 1932 (Chamie 1981)"
+ },
+ "Health and education facilities": {
+  "ar": "المرافق الصحية والتعليمية",
+  "fr": "Établissements de santé et d'enseignement"
+ },
+ "Hospital": {
+  "ar": "مستشفى",
+  "fr": "Hôpital"
+ },
+ "Hospitals": {
+  "ar": "المستشفيات",
+  "fr": "Hôpitaux"
+ },
+ "How Lebanon's communities and their seats in Parliament have changed, from 1860 to 2022. These are national tables from the sources named under each one. They count people by civil-status sect, not by where they live today, and they say nothing about how any town votes.": {
+  "ar": "كيف تغيّرت طوائف لبنان ومقاعدها في المجلس النيابي من ١٨٦٠ إلى ٢٠٢٢. هذه جداول وطنية من المصادر المذكورة تحت كل منها. تعدّ الأشخاص بحسب الطائفة في سجلات الأحوال الشخصية لا بحسب مكان سكنهم اليوم، ولا تقول شيئاً عن تصويت أي بلدة.",
+  "fr": "Comment les communautés du Liban et leurs sièges au Parlement ont évolué de 1860 à 2022. Ce sont des tableaux nationaux issus des sources citées sous chacun. Ils comptent les personnes par confession d'état civil, non par lieu de résidence actuel, et ne disent rien du vote d'aucune ville."
+ },
+ "Jewish": {
+  "ar": "يهودي",
+  "fr": "Juif"
+ },
+ "Latin": {
+  "ar": "لاتيني",
+  "fr": "Latin"
+ },
+ "List by sect as transcribed": {
+  "ar": "اللائحة بحسب الطائفة كما نُقلت",
+  "fr": "Liste par confession telle que transcrite"
+ },
+ "List votes": {
+  "ar": "أصوات اللوائح",
+  "fr": "Voix des listes"
+ },
+ "Map layer": {
+  "ar": "طبقة الخريطة",
+  "fr": "Couche de carte"
+ },
+ "Map layers": {
+  "ar": "طبقات الخريطة",
+  "fr": "Couches de carte"
+ },
+ "Map of Lebanon: health and education facilities": {
+  "ar": "خريطة لبنان: المرافق الصحية والتعليمية",
+  "fr": "Carte du Liban : établissements de santé et d'enseignement"
+ },
+ "Map of Lebanon: registered voters by sect, 2014": {
+  "ar": "خريطة لبنان: الناخبون المسجّلون بحسب الطائفة، ٢٠١٤",
+  "fr": "Carte du Liban : électeurs inscrits par confession, 2014"
+ },
+ "Mount Lebanon Mutasarrifate, 1860": {
+  "ar": "متصرفية جبل لبنان، ١٨٦٠",
+  "fr": "Moutassarifat du Mont-Liban, 1860"
+ },
+ "Mount Lebanon Mutasarrifate: population by sect, 1860": {
+  "ar": "متصرفية جبل لبنان: السكان بحسب الطائفة، ١٨٦٠",
+  "fr": "Moutassarifat du Mont-Liban : population par confession, 1860"
+ },
+ "Mount Lebanon Mutasarrifate: population by sect, 1895 estimate and 1913 enumeration": {
+  "ar": "متصرفية جبل لبنان: السكان بحسب الطائفة، تقدير ١٨٩٥ وإحصاء ١٩١٣",
+  "fr": "Moutassarifat du Mont-Liban : population par confession, estimation de 1895 et dénombrement de 1913"
+ },
+ "No bloc listed": {
+  "ar": "لا كتلة مذكورة",
+  "fr": "Aucun bloc indiqué"
+ },
+ "No result is on record for the election district {c}.": {
+  "ar": "لا نتيجة مسجّلة لدائرة {c} الانتخابية.",
+  "fr": "Aucun résultat n'est enregistré pour la circonscription {c}."
+ },
+ "No voter list by sect is on record for this place.": {
+  "ar": "لا لائحة ناخبين بحسب الطائفة مسجّلة لهذا المكان.",
+  "fr": "Aucune liste d'électeurs par confession n'est enregistrée pour ce lieu."
+ },
+ "Not stated": {
+  "ar": "غير مذكور",
+  "fr": "Non précisé"
+ },
+ "Other health: doctor, dentist, laboratory": {
+  "ar": "صحة أخرى: طبيب، طبيب أسنان، مختبر",
+  "fr": "Autre santé : médecin, dentiste, laboratoire"
+ },
+ "Other school or kindergarten (OpenStreetMap)": {
+  "ar": "مدرسة أخرى أو روضة (OpenStreetMap)",
+  "fr": "Autre école ou jardin d'enfants (OpenStreetMap)"
+ },
+ "Other schools and kindergartens": {
+  "ar": "مدارس ورياض أطفال أخرى",
+  "fr": "Autres écoles et jardins d'enfants"
+ },
+ "Partial. The Parliament had 46 members: 16 newly elected and 30 carried over from the Representative Council. Only the 16 are itemised by the source. No sourced seat table for the first chamber of 1926 was found.": {
+  "ar": "جزئي. كان المجلس من ٤٦ نائباً: ١٦ منتخباً حديثاً و٣٠ نقلوا من المجلس التمثيلي. يفصّل المصدر الستة عشر فقط. لم يُعثر على جدول موثّق لمقاعد المجلس الأول لعام ١٩٢٦.",
+  "fr": "Partiel. Le Parlement comptait 46 membres : 16 nouvellement élus et 30 repris du Conseil représentatif. La source ne détaille que les 16. Aucun tableau sourcé des sièges de la première chambre de 1926 n'a été trouvé."
+ },
+ "People by community": {
+  "ar": "الناس بحسب الطائفة",
+  "fr": "Les habitants par communauté"
+ },
+ "Pharmacies": {
+  "ar": "الصيدليات",
+  "fr": "Pharmacies"
+ },
+ "Pharmacy": {
+  "ar": "صيدلية",
+  "fr": "Pharmacie"
+ },
+ "Politics: the election district": {
+  "ar": "السياسة: الدائرة الانتخابية",
+  "fr": "Politique : la circonscription électorale"
+ },
+ "Population by sect. An estimate; shares as printed by the publisher.": {
+  "ar": "السكان بحسب الطائفة. تقدير؛ والنسب كما طبعها الناشر.",
+  "fr": "Population par confession. Une estimation ; les parts sont celles imprimées par l'éditeur."
+ },
+ "Proportional representation by list in 15 districts. The 2018 and 2022 elections use the same allocation.": {
+  "ar": "التمثيل النسبي باللوائح في ١٥ دائرة. انتخابات ٢٠١٨ و٢٠٢٢ تعتمد التوزيع نفسه.",
+  "fr": "Représentation proportionnelle par liste dans 15 circonscriptions. Les élections de 2018 et 2022 utilisent la même répartition."
+ },
+ "Public school (CERD list, 2017)": {
+  "ar": "مدرسة رسمية (لائحة المركز التربوي، ٢٠١٧)",
+  "fr": "École publique (liste du CERD, 2017)"
+ },
+ "Public schools": {
+  "ar": "المدارس الرسمية",
+  "fr": "Écoles publiques"
+ },
+ "Registered voters by sect, 2014": {
+  "ar": "الناخبون المسجّلون بحسب الطائفة، ٢٠١٤",
+  "fr": "Électeurs inscrits par confession, 2014"
+ },
+ "Registered voters by sect, 2014 (Interior Ministry lists via lub-anan.com). Not residents.": {
+  "ar": "الناخبون المسجّلون بحسب الطائفة، ٢٠١٤ (لوائح وزارة الداخلية عبر lub-anan.com). ليسوا السكان.",
+  "fr": "Électeurs inscrits par confession, 2014 (listes du ministère de l'Intérieur via lub-anan.com). Pas les résidents."
+ },
+ "Registered voters, not residents. Beirut I here is the district of the 1960 law with eight Christian seats. The 1972 column is an estimate and lists only the sects named by the source; blank means not listed, not zero.": {
+  "ar": "ناخبون مسجّلون لا مقيمون. بيروت الأولى هنا هي دائرة قانون ١٩٦٠ التي فيها ثمانية مقاعد مسيحية. عمود ١٩٧٢ تقدير ولا يسرد إلا الطوائف التي يذكرها المصدر؛ والخانة الفارغة تعني غير مذكور لا صفراً.",
+  "fr": "Électeurs inscrits, pas résidents. Beyrouth I est ici la circonscription de la loi de 1960 qui comptait huit sièges chrétiens. La colonne 1972 est une estimation et ne liste que les confessions nommées par la source ; une case vide signifie non indiqué, pas zéro."
+ },
+ "Religion: registered voters by sect, 2014": {
+  "ar": "الدين: الناخبون المسجّلون بحسب الطائفة، ٢٠١٤",
+  "fr": "Religion : électeurs inscrits par confession, 2014"
+ },
+ "Residents": {
+  "ar": "المقيمون",
+  "fr": "Résidents"
+ },
+ "Results for the election district {c}{q}, not for {p}. Per-town results are not published, and nothing here says how a town voted.": {
+  "ar": "نتائج الدائرة الانتخابية {c}{q}، لا نتائج {p}. نتائج كل بلدة على حدة غير منشورة، ولا شيء هنا يقول كيف صوّتت بلدة.",
+  "fr": "Résultats de la circonscription électorale {c}{q}, pas de {p}. Les résultats par ville ne sont pas publiés, et rien ici ne dit comment une ville a voté."
+ },
+ "Seat and district counts are as the sources state them; where two sources disagree, both are shown.": {
+  "ar": "أعداد المقاعد والدوائر كما تذكرها المصادر؛ وحيث يختلف مصدران يظهر كلاهما.",
+  "fr": "Les nombres de sièges et de circonscriptions sont ceux des sources ; quand deux sources divergent, les deux sont indiquées."
+ },
+ "Seats by bloc": {
+  "ar": "المقاعد بحسب الكتلة",
+  "fr": "Sièges par bloc"
+ },
+ "Seats by community": {
+  "ar": "المقاعد بحسب الطائفة",
+  "fr": "Sièges par communauté"
+ },
+ "Seats per district and sect under the 2008 law (26 qada districts), election of 2009": {
+  "ar": "المقاعد لكل دائرة وطائفة بموجب قانون ٢٠٠٨ (٢٦ دائرة قضاء)، انتخابات ٢٠٠٩",
+  "fr": "Sièges par circonscription et confession sous la loi de 2008 (26 circonscriptions de caza), élection de 2009"
+ },
+ "Seats per district and sect under the 2017 law (15 districts), elections of 2018 and 2022": {
+  "ar": "المقاعد لكل دائرة وطائفة بموجب قانون ٢٠١٧ (١٥ دائرة)، انتخابات ٢٠١٨ و٢٠٢٢",
+  "fr": "Sièges par circonscription et confession sous la loi de 2017 (15 circonscriptions), élections de 2018 et 2022"
+ },
+ "Seats per district and sect, 1943 and 1947 elections (55 seats, five governorate districts)": {
+  "ar": "المقاعد لكل دائرة وطائفة، انتخابات ١٩٤٣ و١٩٤٧ (٥٥ مقعداً، خمس دوائر بحجم المحافظة)",
+  "fr": "Sièges par circonscription et confession, élections de 1943 et 1947 (55 sièges, cinq circonscriptions de la taille des gouvernorats)"
+ },
+ "Seats per district and sect, 1951 election (77 seats, nine districts)": {
+  "ar": "المقاعد لكل دائرة وطائفة، انتخابات ١٩٥١ (٧٧ مقعداً، تسع دوائر)",
+  "fr": "Sièges par circonscription et confession, élection de 1951 (77 sièges, neuf circonscriptions)"
+ },
+ "Seats per district and sect, 1953 election (44 seats, 33 districts)": {
+  "ar": "المقاعد لكل دائرة وطائفة، انتخابات ١٩٥٣ (٤٤ مقعداً، ٣٣ دائرة)",
+  "fr": "Sièges par circonscription et confession, élection de 1953 (44 sièges, 33 circonscriptions)"
+ },
+ "Seats per district and sect, 1957 election (66 seats, 27 districts)": {
+  "ar": "المقاعد لكل دائرة وطائفة، انتخابات ١٩٥٧ (٦٦ مقعداً، ٢٧ دائرة)",
+  "fr": "Sièges par circonscription et confession, élection de 1957 (66 sièges, 27 circonscriptions)"
+ },
+ "Seats per governorate block and sect, 1992 to 2005 elections (128 seats)": {
+  "ar": "المقاعد لكل كتلة محافظة وطائفة، انتخابات ١٩٩٢ إلى ٢٠٠٥ (١٢٨ مقعداً)",
+  "fr": "Sièges par bloc de gouvernorat et confession, élections de 1992 à 2005 (128 sièges)"
+ },
+ "Seats per sect before and after the Taif Agreement (99 to 128; 64 Christian, 64 Muslim)": {
+  "ar": "المقاعد لكل طائفة قبل اتفاق الطائف وبعده (من ٩٩ إلى ١٢٨؛ ٦٤ مسيحياً و٦٤ مسلماً)",
+  "fr": "Sièges par confession avant et après l'accord de Taëf (de 99 à 128 ; 64 chrétiens, 64 musulmans)"
+ },
+ "Seats per sect under the 1960 law (99 seats, 26 qada districts), elections 1960 to 1972": {
+  "ar": "المقاعد لكل طائفة بموجب قانون ١٩٦٠ (٩٩ مقعداً، ٢٦ دائرة قضاء)، انتخابات ١٩٦٠ إلى ١٩٧٢",
+  "fr": "Sièges par confession sous la loi de 1960 (99 sièges, 26 circonscriptions de caza), élections de 1960 à 1972"
+ },
+ "Services": {
+  "ar": "الخدمات",
+  "fr": "Services"
+ },
+ "Share (%)": {
+  "ar": "الحصة (%)",
+  "fr": "Part (%)"
+ },
+ "Subdivision": {
+  "ar": "التقسيم الفرعي",
+  "fr": "Subdivision"
+ },
+ "Syriac Catholic": {
+  "ar": "سريان كاثوليك",
+  "fr": "Syriaque catholique"
+ },
+ "Syriac Orthodox": {
+  "ar": "سريان أرثوذكس",
+  "fr": "Syriaque orthodoxe"
+ },
+ "The 1922 count is the French Mandate census of 1921-22. A blank 1922 cell means the source does not break that group out, not zero. The 1932 totals differ from the census table below.": {
+  "ar": "إحصاء ١٩٢٢ هو إحصاء الانتداب الفرنسي لعامي ١٩٢١-١٩٢٢. الخانة الفارغة لعام ١٩٢٢ تعني أن المصدر لا يفصّل تلك المجموعة، لا أنها صفر. مجاميع ١٩٣٢ تختلف عن جدول الإحصاء أدناه.",
+  "fr": "Le chiffre de 1922 est le recensement du Mandat français de 1921-1922. Une case vide en 1922 signifie que la source ne détaille pas ce groupe, pas zéro. Les totaux de 1932 diffèrent du tableau du recensement ci-dessous."
+ },
+ "The Monthly also gives 44 deputies in 33 districts: 22 with one seat and 11 with two. Two Zahle seats have no known subdivision.": {
+  "ar": "تذكر «ذا منثلي» أيضاً ٤٤ نائباً في ٣٣ دائرة: ٢٢ دائرة بمقعد واحد و١١ بمقعدين. مقعدان في زحلة بلا تقسيم فرعي معروف.",
+  "fr": "The Monthly donne aussi 44 députés dans 33 circonscriptions : 22 à un siège et 11 à deux. Deux sièges de Zahlé n'ont pas de subdivision connue."
+ },
+ "The Monthly also gives 66 deputies in 27 districts.": {
+  "ar": "تذكر «ذا منثلي» أيضاً ٦٦ نائباً في ٢٧ دائرة.",
+  "fr": "The Monthly donne aussi 66 députés dans 27 circonscriptions."
+ },
+ "The Monthly: numbers cited as facts with attribution; no text or table layout copied": {
+  "ar": "ذا منثلي: الأرقام مذكورة كوقائع مع نسبتها إلى المصدر، دون نسخ النص أو تنسيق الجدول",
+  "fr": "The Monthly : chiffres cités comme des faits avec attribution, sans copie du texte ni de la mise en forme du tableau"
+ },
+ "The double qaimaqamate is described, not mapped.": {
+  "ar": "القائمقاميتان موصوفتان لا مرسومتان على خريطة.",
+  "fr": "Le double caïmacamat est décrit, non cartographié."
+ },
+ "The election district of this place is not on record.": {
+  "ar": "الدائرة الانتخابية لهذا المكان غير مسجّلة.",
+  "fr": "La circonscription électorale de ce lieu n'est pas enregistrée."
+ },
+ "The only national census ever taken. The resident rows add up to the printed 793,396. The emigrant columns are as printed: before and after 30 August 1924, paying and not paying tax.": {
+  "ar": "هو الإحصاء الوطني الوحيد الذي أُجري. صفوف المقيمين تجمع إلى ٧٩٣٬٣٩٦ المطبوعة. أعمدة المهاجرين كما طُبعت: قبل ٣٠ آب ١٩٢٤ وبعده، دافعو الضريبة وغير دافعيها.",
+  "fr": "Le seul recensement national jamais réalisé. Les lignes de résidents s'additionnent au total imprimé de 793 396. Les colonnes d'émigrés sont celles imprimées : avant et après le 30 août 1924, imposés et non imposés."
+ },
+ "The only national census. Maktabi 1999, as repeated on Wikipedia.": {
+  "ar": "الإحصاء الوطني الوحيد. مكتبي ١٩٩٩ كما أعادته ويكيبيديا.",
+  "fr": "Le seul recensement national. Maktabi 1999, tel que repris par Wikipédia."
+ },
+ "The published turnout is {a}. Computed from the registered voters and the valid votes it would be {b}.": {
+  "ar": "نسبة الاقتراع المنشورة {a}. وإذا احتُسبت من الناخبين المسجّلين والأصوات الصحيحة تكون {b}.",
+  "fr": "La participation publiée est de {a}. Calculée à partir des inscrits et des suffrages valides, elle serait de {b}."
+ },
+ "The qada districts of the Doha Agreement (Law 25/2008), with Beirut in three districts.": {
+  "ar": "دوائر الأقضية في اتفاق الدوحة (القانون ٢٥/٢٠٠٨)، مع تقسيم بيروت إلى ثلاث دوائر.",
+  "fr": "Les circonscriptions de caza de l'accord de Doha (loi 25/2008), avec Beyrouth en trois circonscriptions."
+ },
+ "The same block totals appear in the Hub election files for 1992, 1996, 2000 and 2005. Seats per qada district under the 2000 law were not found.": {
+  "ar": "تظهر مجاميع الكتل نفسها في ملفات الانتخابات في المنصة لسنوات ١٩٩٢ و١٩٩٦ و٢٠٠٠ و٢٠٠٥. لم يُعثر على المقاعد لكل دائرة قضاء بموجب قانون ٢٠٠٠.",
+  "fr": "Les mêmes totaux par bloc figurent dans les fichiers électoraux du Hub pour 1992, 1996, 2000 et 2005. Les sièges par circonscription de caza sous la loi de 2000 n'ont pas été trouvés."
+ },
+ "The same totals as the Maktabi table, grouped differently, so some sects differ between the two tables. Compare totals, not single lines.": {
+  "ar": "المجاميع نفسها في جدول مكتبي لكن بتجميع مختلف، ولذلك تختلف بعض الطوائف بين الجدولين. قارنوا المجاميع لا الأسطر المفردة.",
+  "fr": "Mêmes totaux que le tableau de Maktabi, regroupés autrement : certaines confessions diffèrent donc entre les deux tableaux. Comparez les totaux, pas les lignes isolées."
+ },
+ "The seats of Parliament are shared by community. These tables show how the law divided them, district by district, from 1927 to 2022.": {
+  "ar": "تُقسَّم مقاعد المجلس النيابي بين الطوائف. تُظهر هذه الجداول كيف وزّعها القانون، دائرة بعد دائرة، من ١٩٢٧ إلى ٢٠٢٢.",
+  "fr": "Les sièges du Parlement sont répartis par communauté. Ces tableaux montrent comment la loi les a répartis, circonscription par circonscription, de 1927 à 2022."
+ },
+ "This list is small, so one voter moves a share by several points.": {
+  "ar": "اللائحة صغيرة، فيحرّك ناخب واحد الحصة بعدة نقاط.",
+  "fr": "Cette liste est petite : un seul électeur déplace une part de plusieurs points."
+ },
+ "Universities and colleges (campuses and buildings)": {
+  "ar": "الجامعات والكليات (حرم ومبانٍ)",
+  "fr": "Universités et collèges (campus et bâtiments)"
+ },
+ "Used for every election from 1992. The 6 to 5 ratio became 1 to 1.": {
+  "ar": "معتمد في كل انتخابات منذ ١٩٩٢. صارت نسبة ٦ إلى ٥ نسبة ١ إلى ١.",
+  "fr": "Utilisé pour toutes les élections depuis 1992. Le rapport de 6 à 5 est devenu 1 à 1."
+ },
+ "Wikipedia CC BY-SA 4.0 (facts only)": {
+  "ar": "ويكيبيديا CC BY-SA 4.0 (وقائع فقط)",
+  "fr": "Wikipédia CC BY-SA 4.0 (faits seulement)"
+ },
+ "Wikipedia CC BY-SA 4.0 (facts only); The Monthly: numbers cited as facts with attribution": {
+  "ar": "ويكيبيديا CC BY-SA 4.0 (وقائع فقط)؛ ذا منثلي: أرقام مذكورة كوقائع مع نسبتها",
+  "fr": "Wikipédia CC BY-SA 4.0 (faits seulement) ; The Monthly : chiffres cités comme faits avec attribution"
+ },
+ "Wikipedia CC BY-SA 4.0; IFES, IPU and IDEA state no licence, facts attributed": {
+  "ar": "ويكيبيديا CC BY-SA 4.0؛ لا تذكر IFES وIPU وIDEA ترخيصاً، والوقائع منسوبة إلى مصادرها",
+  "fr": "Wikipédia CC BY-SA 4.0 ; IFES, IPU et IDEA n'indiquent aucune licence, faits attribués"
+ },
+ "Wikipedia text is CC BY-SA 4.0 (facts only). The Monthly keeps its rights; numbers are cited as facts with attribution. lub-anan.com states no licence; only counts are used.": {
+  "ar": "نص ويكيبيديا بترخيص CC BY-SA 4.0 (وقائع فقط). تحتفظ «ذا منثلي» بحقوقها؛ والأرقام مذكورة كوقائع مع نسبتها. لا يذكر lub-anan.com ترخيصاً؛ ولا تُستعمل إلا الأعداد.",
+  "fr": "Le texte de Wikipédia est sous CC BY-SA 4.0 (faits seulement). The Monthly conserve ses droits ; les chiffres sont cités comme des faits avec attribution. lub-anan.com n'indique aucune licence ; seuls les effectifs sont utilisés."
+ },
+ "approximate": {
+  "ar": "تقريبي",
+  "fr": "approximatif"
+ },
+ "{n} seat": {
+  "ar": "{n} مقعد",
+  "fr": "{n} siège"
+ },
+ "{n} voter lists are drawn. Click a dot to open its place.": {
+  "ar": "رُسمت {n} لائحة ناخبين. انقروا على نقطة لفتح مكانها.",
+  "fr": "{n} listes d'électeurs sont dessinées. Cliquez sur un point pour ouvrir son lieu."
+ },
+ "{p}: {g}, {s} of its registered voters (2014)": {
+  "ar": "{p}: {g}، {s} من ناخبيها المسجّلين (٢٠١٤)",
+  "fr": "{p} : {g}, {s} de ses électeurs inscrits (2014)"
+ },
+ "Muslims (Sunni and Shia not split)": {
+  "ar": "المسلمون (السنة والشيعة غير مفصولين)",
+  "fr": "Musulmans (sunnites et chiites non distingués)"
+ },
+ "Protestant": {
+  "ar": "بروتستانت",
+  "fr": "Protestant"
+ },
+ "Christians": {
+  "ar": "المسيحيون",
+  "fr": "Chrétiens"
+ },
+ "Muslims": {
+  "ar": "المسلمون",
+  "fr": "Musulmans"
+ },
+ "Other Christians": {
+  "ar": "مسيحيون آخرون",
+  "fr": "Autres chrétiens"
+ },
+ "Total population": {
+  "ar": "مجموع السكان",
+  "fr": "Population totale"
+ },
+ "Mount Lebanon was administered as two districts after 1843: a northern, mostly Christian district under a Christian qaim-maqam, and a southern, mixed district under a Druze qaim-maqam (Ahmad Arslan appointed to the south, Haydar Ahmad Abu al-Lama' to the north). Each qaim-maqam had two wakils, one Druze and one Christian, with judicial and fiscal authority over their own community.": {
+  "ar": "أُدير جبل لبنان بعد ١٨٤٣ كدائرتين: دائرة شمالية معظمها مسيحي تحت قائمقام مسيحي، ودائرة جنوبية مختلطة تحت قائمقام درزي (عُيّن أحمد أرسلان في الجنوب وحيدر أحمد أبو اللمع في الشمال). وكان لكل قائمقام وكيلان، أحدهما درزي والآخر مسيحي، ولهما سلطة قضائية ومالية على طائفتهما.",
+  "fr": "Après 1843, le Mont-Liban fut administré en deux districts : un district nord, en majorité chrétien, sous un caïmacam chrétien, et un district sud, mixte, sous un caïmacam druze (Ahmad Arslan nommé au sud, Haydar Ahmad Abou al-Lama' au nord). Chaque caïmacam avait deux wakils, un druze et un chrétien, dotés d'une autorité judiciaire et fiscale sur leur propre communauté."
+ },
+ "The division was proposed by Austrian Chancellor Metternich as a compromise among Ottoman, British and French positions; the Sultan agreed on 1 December 1843.": {
+  "ar": "اقترح التقسيم المستشار النمساوي مترنيخ كتسوية بين المواقف العثمانية والبريطانية والفرنسية؛ ووافق السلطان في ١ كانون الأول ١٨٤٣.",
+  "fr": "La division fut proposée par le chancelier autrichien Metternich comme compromis entre les positions ottomane, britannique et française ; le sultan l'approuva le 1er décembre 1843."
+ },
+ "An 1844 map cited on the source page shows the Nahr al-Kalb as the northern boundary of the Druze district. The exact boundary is not given in the text, so no polygon is drawn.": {
+  "ar": "تُظهر خريطة من ١٨٤٤ يستشهد بها المصدر نهر الكلب حدّاً شمالياً للدائرة الدرزية. ولا يذكر النص الحدّ الدقيق، فلا يُرسم أي مضلّع.",
+  "fr": "Une carte de 1844 citée par la source place le Nahr el-Kalb comme limite nord du district druze. Le texte ne donne pas la limite exacte : aucun polygone n'est donc tracé."
+ },
+ "The arrangement ended after the 1860 conflict; the Mount Lebanon Mutasarrifate followed in 1861.": {
+  "ar": "انتهى هذا الترتيب بعد نزاع ١٨٦٠، وتلتها متصرفية جبل لبنان عام ١٨٦١.",
+  "fr": "Cet arrangement prit fin après le conflit de 1860 ; le moutassarifat du Mont-Liban lui succéda en 1861."
+ },
+ "Melkite (Greek Catholic)": {
+  "ar": "الملكيون (روم كاثوليك)",
+  "fr": "Melkite (grec-catholique)"
+ },
+ "Chaldean Catholic": {
+  "ar": "كلدان كاثوليك",
+  "fr": "Chaldéen catholique"
+ },
+ "Armenian Apostolic (Orthodox)": {
+  "ar": "أرمن أرثوذكس (غريغوريون)",
+  "fr": "Arménien apostolique (orthodoxe)"
+ },
+ "Jews, Baha'i and others": {
+  "ar": "يهود وبهائيون وآخرون",
+  "fr": "Juifs, bahaïs et autres"
+ },
+ "Chaldean Orthodox": {
+  "ar": "كلدان أرثوذكس",
+  "fr": "Chaldéen orthodoxe"
+ },
+ "Miscellaneous": {
+  "ar": "متفرقون",
+  "fr": "Divers"
+ },
+ "Foreigners (not Lebanese)": {
+  "ar": "أجانب (غير لبنانيين)",
+  "fr": "Étrangers (non libanais)"
+ },
+ "Syrian Orthodox": {
+  "ar": "سريان أرثوذكس",
+  "fr": "Syriaque orthodoxe"
+ },
+ "Syrian Catholic": {
+  "ar": "سريان كاثوليك",
+  "fr": "Syriaque catholique"
+ },
+ "Orthodox and Catholic Chaldeans": {
+  "ar": "كلدان أرثوذكس وكاثوليك",
+  "fr": "Chaldéens orthodoxes et catholiques"
+ },
+ "provinces and Tripoli (16 new seats)": {
+  "ar": "المحافظات وطرابلس (١٦ مقعداً جديداً)",
+  "fr": "provinces et Tripoli (16 nouveaux sièges)"
+ },
+ "province": {
+  "ar": "المحافظة",
+  "fr": "province"
+ },
+ "not stated in the sources found": {
+  "ar": "غير مذكور في المصادر التي وُجدت",
+  "fr": "non indiqué dans les sources trouvées"
+ },
+ "6:5 Christians to Muslims, 1932 to 1972": {
+  "ar": "٦:٥ للمسيحيين مقابل المسلمين، ١٩٣٢ إلى ١٩٧٢",
+  "fr": "6:5 chrétiens/musulmans, 1932 à 1972"
+ },
+ "the five governorates (Beirut, Mount Lebanon, North, South, Bekaa)": {
+  "ar": "المحافظات الخمس (بيروت وجبل لبنان والشمال والجنوب والبقاع)",
+  "fr": "les cinq gouvernorats (Beyrouth, Mont-Liban, Nord, Sud, Békaa)"
+ },
+ "6:5 (30 Christian, 25 Muslim and Druze)": {
+  "ar": "٦:٥ (٣٠ مسيحياً و٢٥ مسلماً ودرزياً)",
+  "fr": "6:5 (30 chrétiens, 25 musulmans et Druzes)"
+ },
+ "governorates, Mount Lebanon and North each split in three": {
+  "ar": "المحافظات، مع تقسيم جبل لبنان والشمال كلٍّ إلى ثلاث",
+  "fr": "gouvernorats, le Mont-Liban et le Nord chacun divisé en trois"
+ },
+ "6:5": {
+  "ar": "٦:٥",
+  "fr": "6:5"
+ },
+ "22 single-seat and 11 two-seat districts": {
+  "ar": "٢٢ دائرة بمقعد واحد و١١ بمقعدين",
+  "fr": "22 circonscriptions à un siège et 11 à deux sièges"
+ },
+ "small districts": {
+  "ar": "دوائر صغرى",
+  "fr": "petites circonscriptions"
+ },
+ "the 26 qadas": {
+  "ar": "الأقضية الـ٢٦",
+  "fr": "les 26 cazas"
+ },
+ "6:5 (54 Christian, 45 Muslim and Druze)": {
+  "ar": "٦:٥ (٥٤ مسيحياً و٤٥ مسلماً ودرزياً)",
+  "fr": "6:5 (54 chrétiens, 45 musulmans et Druzes)"
+ },
+ "12 per The Monthly; seat blocks by 5 governorates in the Hub election file": {
+  "ar": "١٢ بحسب «ذا منثلي»؛ وكتل المقاعد بحسب المحافظات الخمس في ملف الانتخابات",
+  "fr": "12 selon The Monthly ; blocs de sièges par les 5 gouvernorats dans le fichier électoral du Hub"
+ },
+ "governorates, with Bekaa in 3 and Mount Lebanon in 6 qada districts per The Monthly": {
+  "ar": "المحافظات، مع ٣ دوائر في البقاع و٦ دوائر أقضية في جبل لبنان بحسب «ذا منثلي»",
+  "fr": "gouvernorats, avec la Békaa en 3 et le Mont-Liban en 6 circonscriptions de caza selon The Monthly"
+ },
+ "1:1 (Taif)": {
+  "ar": "١:١ (الطائف)",
+  "fr": "1:1 (Taëf)"
+ },
+ "1:1": {
+  "ar": "١:١",
+  "fr": "1:1"
+ },
+ "one each for Beirut, North, South and Nabatieh, Bekaa; Mount Lebanon by qada": {
+  "ar": "دائرة لكل من بيروت والشمال والجنوب والنبطية والبقاع؛ وجبل لبنان بحسب القضاء",
+  "fr": "une pour chacun de Beyrouth, du Nord, du Sud et de Nabatiyé, de la Békaa ; le Mont-Liban par caza"
+ },
+ "13 per The Monthly; 14 per the Hub election file": {
+  "ar": "١٣ بحسب «ذا منثلي»؛ و١٤ بحسب ملف الانتخابات",
+  "fr": "13 selon The Monthly ; 14 selon le fichier électoral du Hub"
+ },
+ "3 in Beirut, 1 in South and Nabatieh, 3 in Bekaa, 4 in Mount Lebanon, 2 in North (The Monthly); reused in 2005": {
+  "ar": "٣ في بيروت و١ في الجنوب والنبطية و٣ في البقاع و٤ في جبل لبنان و٢ في الشمال (ذا منثلي)؛ أُعيد استعمالها عام ٢٠٠٥",
+  "fr": "3 à Beyrouth, 1 au Sud et à Nabatiyé, 3 dans la Békaa, 4 au Mont-Liban, 2 au Nord (The Monthly) ; reprises en 2005"
+ },
+ "the 26 qadas (Doha Agreement, Law 25/2008), Beirut in three districts": {
+  "ar": "الأقضية الـ٢٦ (اتفاق الدوحة، القانون ٢٥/٢٠٠٨)، وبيروت في ثلاث دوائر",
+  "fr": "les 26 cazas (accord de Doha, loi 25/2008), Beyrouth en trois circonscriptions"
+ },
+ "proportional representation by list, preferential vote at minor-district (qada) level": {
+  "ar": "التمثيل النسبي باللوائح، مع صوت تفضيلي على مستوى الدائرة الصغرى (القضاء)",
+  "fr": "représentation proportionnelle par liste, vote préférentiel au niveau de la petite circonscription (caza)"
+ },
+ "North Lebanon": {
+  "ar": "لبنان الشمالي",
+  "fr": "Liban-Nord"
+ },
+ "South Lebanon": {
+  "ar": "لبنان الجنوبي",
+  "fr": "Liban-Sud"
+ },
+ "North Lebanon I Tripoli": {
+  "ar": "لبنان الشمالي الأولى: طرابلس",
+  "fr": "Liban-Nord I : Tripoli"
+ },
+ "North Lebanon II Zgharta - Batroun - Koura": {
+  "ar": "لبنان الشمالي الثانية: زغرتا - البترون - الكورة",
+  "fr": "Liban-Nord II : Zghorta - Batroun - Koura"
+ },
+ "North Lebanon III Akkar": {
+  "ar": "لبنان الشمالي الثالثة: عكار",
+  "fr": "Liban-Nord III : Akkar"
+ },
+ "Beqaa": {
+  "ar": "البقاع",
+  "fr": "Békaa"
+ },
+ "Mount Lebanon I Baabda - Matn": {
+  "ar": "جبل لبنان الأولى: بعبدا - المتن",
+  "fr": "Mont-Liban I : Baabda - Metn"
+ },
+ "Mount Lebanon II Chouf - Aley": {
+  "ar": "جبل لبنان الثانية: الشوف - عاليه",
+  "fr": "Mont-Liban II : Chouf - Aley"
+ },
+ "Mount Lebanon III Keserwan": {
+  "ar": "جبل لبنان الثالثة: كسروان",
+  "fr": "Mont-Liban III : Kesrouan"
+ },
+ "Beirut-1": {
+  "ar": "بيروت ١",
+  "fr": "Beyrouth-1"
+ },
+ "Beirut-2": {
+  "ar": "بيروت ٢",
+  "fr": "Beyrouth-2"
+ },
+ "Beirut-3": {
+  "ar": "بيروت ٣",
+  "fr": "Beyrouth-3"
+ },
+ "Beirut-4": {
+  "ar": "بيروت ٤",
+  "fr": "Beyrouth-4"
+ },
+ "Beirut-5": {
+  "ar": "بيروت ٥",
+  "fr": "Beyrouth-5"
+ },
+ "1: Medawar": {
+  "ar": "١: المدوّر",
+  "fr": "1 : Medawar"
+ },
+ "2: Achrafieh, Rmeil, Saifi": {
+  "ar": "٢: الأشرفية، الرميل، الصيفي",
+  "fr": "2 : Achrafieh, Rmeil, Saifi"
+ },
+ "3: Mazraa": {
+  "ar": "٣: المزرعة",
+  "fr": "3 : Mazraa"
+ },
+ "4: Ras Beirut, Zkak El Blat, Bachoura, Moussaytbeh": {
+  "ar": "٤: رأس بيروت، زقاق البلاط، الباشورة، المصيطبة",
+  "fr": "4 : Ras Beyrouth, Zkak el-Blat, Bachoura, Moussaytbé"
+ },
+ "5: Mina El Hossn, Dar El Mreiseh, the Port": {
+  "ar": "٥: ميناء الحصن، دار المريسة، المرفأ",
+  "fr": "5 : Mina el-Hosn, Dar el-Mreisseh, le Port"
+ },
+ "Zahleh": {
+  "ar": "زحلة",
+  "fr": "Zahlé"
+ },
+ "subdivision unknown": {
+  "ar": "تقسيم فرعي غير معروف",
+  "fr": "subdivision inconnue"
+ },
+ "Baalbek - Hermel": {
+  "ar": "بعلبك - الهرمل",
+  "fr": "Baalbek - Hermel"
+ },
+ "Rashaya - West Bekaa": {
+  "ar": "راشيا - البقاع الغربي",
+  "fr": "Rachaya - Békaa-Ouest"
+ },
+ "Keserwan El Ftouh": {
+  "ar": "كسروان الفتوح",
+  "fr": "Kesrouan el-Ftouh"
+ },
+ "North Metn": {
+  "ar": "المتن الشمالي",
+  "fr": "Metn-Nord"
+ },
+ "Bourj Hammoud (Metn)": {
+  "ar": "برج حمود (المتن)",
+  "fr": "Bourj Hammoud (Metn)"
+ },
+ "Deir El Kamar - Cheheem (Chouf)": {
+  "ar": "دير القمر - الشحيم (الشوف)",
+  "fr": "Deir el-Qamar - Chehim (Chouf)"
+ },
+ "Baaklyn - Joun (Chouf)": {
+  "ar": "بعقلين - الجون (الشوف)",
+  "fr": "Baaqline - Jaoun (Chouf)"
+ },
+ "Dennieh": {
+  "ar": "الضنية",
+  "fr": "Denniyé"
+ },
+ "Tripoli-1": {
+  "ar": "طرابلس ١",
+  "fr": "Tripoli-1"
+ },
+ "Tripoli-2": {
+  "ar": "طرابلس ٢",
+  "fr": "Tripoli-2"
+ },
+ "Zghorta": {
+  "ar": "زغرتا",
+  "fr": "Zghorta"
+ },
+ "Bsharrey": {
+  "ar": "بشري",
+  "fr": "Bcharré"
+ },
+ "Saida (city)": {
+  "ar": "صيدا (المدينة)",
+  "fr": "Saïda (ville)"
+ },
+ "Zahrani (Saida villages)": {
+  "ar": "الزهراني (قرى صيدا)",
+  "fr": "Zahrani (villages de Saïda)"
+ },
+ "Marjeyoun - Hasbaya": {
+  "ar": "مرجعيون - حاصبيا",
+  "fr": "Marjayoun - Hasbaya"
+ },
+ "Aley-Damour (Chouf-3)": {
+  "ar": "عاليه - الدامور (الشوف-٣)",
+  "fr": "Aley-Damour (Chouf-3)"
+ },
+ "Deir El Kamar - Cheheem (Chouf-2)": {
+  "ar": "دير القمر - الشحيم (الشوف-٢)",
+  "fr": "Deir el-Qamar - Chehim (Chouf-2)"
+ },
+ "Baaklyn - Joun (Chouf-1)": {
+  "ar": "بعقلين - الجون (الشوف-١)",
+  "fr": "Baaqline - Jaoun (Chouf-1)"
+ },
+ "Tripoli City": {
+  "ar": "مدينة طرابلس",
+  "fr": "Ville de Tripoli"
+ },
+ "Minorities (other)": {
+  "ar": "أقليات (أخرى)",
+  "fr": "Minorités (autres)"
+ },
+ "Minorities (other Christian)": {
+  "ar": "أقليات (مسيحية أخرى)",
+  "fr": "Minorités (autres chrétiennes)"
+ },
+ "Total Christians": {
+  "ar": "مجموع المسيحيين",
+  "fr": "Total chrétiens"
+ },
+ "Total Muslims and Druze": {
+  "ar": "مجموع المسلمين والدروز",
+  "fr": "Total musulmans et Druzes"
+ },
+ "Protestant (Armenian Protestants in 1972)": {
+  "ar": "بروتستانت (أرمن بروتستانت عام ١٩٧٢)",
+  "fr": "Protestant (protestants arméniens en 1972)"
+ },
+ "Facilities mapped to this place: each OpenStreetMap or CERD point is given to the nearest place within 3 km. A count can include a neighbouring village, and a city can show few or none when its points lie nearer to a district or village. Public schools come from the CERD list of 2017; other schools are OpenStreetMap schools that match no CERD school.": {
+  "ar": "المرافق المرسومة لهذا المكان: تُنسب كل نقطة من OpenStreetMap أو المركز التربوي إلى أقرب مكان ضمن ٣ كيلومترات. وقد يشمل العدد قرية مجاورة، وقد تُظهر المدينة عدداً قليلاً أو لا شيء حين تكون نقاطها أقرب إلى حي أو قرية. المدارس الرسمية من لائحة ٢٠١٧؛ والمدارس الأخرى هي مدارس OpenStreetMap التي لا تطابق أي مدرسة في اللائحة.",
+  "fr": "Établissements cartographiés pour ce lieu : chaque point d'OpenStreetMap ou du CERD est attribué au lieu le plus proche dans un rayon de 3 km. Un décompte peut inclure un village voisin, et une ville peut en montrer peu ou aucun quand ses points sont plus proches d'un quartier ou d'un village. Les écoles publiques viennent de la liste du CERD de 2017 ; les autres écoles sont des écoles OpenStreetMap qui ne correspondent à aucune école du CERD."
+ },
+ "No health or education facility is mapped to this place. Each point goes to its nearest place within 3 km and OpenStreetMap coverage is uneven, so this can mean the nearby points belong to a closer place, or are unmapped.": {
+  "ar": "لا مرفق صحي أو تعليمي مرسوم لهذا المكان. تُنسب كل نقطة إلى أقرب مكان ضمن ٣ كيلومترات وتغطية OpenStreetMap متفاوتة، فقد يعني ذلك أن النقاط القريبة تخص مكاناً أقرب، أو أنها غير مرسومة.",
+  "fr": "Aucun établissement de santé ou d'enseignement n'est cartographié pour ce lieu. Chaque point va au lieu le plus proche dans un rayon de 3 km et la couverture d'OpenStreetMap est inégale : les points voisins peuvent appartenir à un lieu plus proche, ou ne pas être cartographiés."
+ },
+ "Elections {n1} and {n2}: seats won by parliamentary bloc, per electoral district (the bloc Wikipedia lists for each elected member)": {
+  "ar": "انتخابات {n1} و{n2}: المقاعد التي نالتها الكتل النيابية في كل دائرة انتخابية (الكتلة التي تذكرها ويكيبيديا لكل نائب منتخب)",
+  "fr": "Élections {n1} et {n2} : sièges remportés par bloc parlementaire, par circonscription électorale (le bloc que Wikipédia indique pour chaque élu)"
+ },
+ "Wikipedia lists of members of the 2018-2022 and 2022-2026 Parliaments": {
+  "ar": "قوائم أعضاء مجلسي النواب ٢٠١٨-٢٠٢٢ و٢٠٢٢-٢٠٢٦ في ويكيبيديا",
+  "fr": "Listes des membres des Parlements 2018-2022 et 2022-2026 sur Wikipédia"
+ },
+ "CC BY-SA 4.0 (Wikipedia contributors); facts attributed": {
+  "ar": "CC BY-SA 4.0 (مساهمو ويكيبيديا)؛ الوقائع منسوبة إلى مصادرها",
+  "fr": "CC BY-SA 4.0 (contributeurs de Wikipédia) ; faits attribués"
+ },
+ "Health and education facilities in Lebanon: {n1} points with source id and nearest place": {
+  "ar": "المرافق الصحية والتعليمية في لبنان: {n1} نقطة مع معرّف المصدر وأقرب مكان",
+  "fr": "Établissements de santé et d'enseignement au Liban : {n1} points avec identifiant de source et lieu le plus proche"
+ },
+ "OpenStreetMap health and education facilities, HOT export on HDX, snapshot 2026-10-03 (https://data.humdata.org/dataset/hotosm_lbn_health_facilities, https://data.humdata.org/dataset/hotosm_lbn_education_facilities); CERD public schools list 2017 (https://data.humdata.org/dataset/lebanon-public-schools-and-unrwa-schools-for-palestine-refugees)": {
+  "ar": "مرافق OpenStreetMap الصحية والتعليمية، تصدير HOT على HDX، لقطة ٢٠٢٦-١٠-٠٣ (https://data.humdata.org/dataset/hotosm_lbn_health_facilities, https://data.humdata.org/dataset/hotosm_lbn_education_facilities)؛ لائحة المدارس الرسمية لدى المركز التربوي للبحوث والإنماء ٢٠١٧ (https://data.humdata.org/dataset/lebanon-public-schools-and-unrwa-schools-for-palestine-refugees)",
+  "fr": "Établissements de santé et d'enseignement d'OpenStreetMap, export HOT sur HDX, instantané du 2026-10-03 (https://data.humdata.org/dataset/hotosm_lbn_health_facilities, https://data.humdata.org/dataset/hotosm_lbn_education_facilities) ; liste des écoles publiques du CERD 2017 (https://data.humdata.org/dataset/lebanon-public-schools-and-unrwa-schools-for-palestine-refugees)"
+ },
+ "ODbL 1.0 for the OpenStreetMap rows, credit OpenStreetMap contributors (the derived table stays share-alike); CC0 for the CERD public schools": {
+  "ar": "ODbL 1.0 لصفوف OpenStreetMap مع نسبتها إلى مساهمي OpenStreetMap (يبقى الجدول المشتق بالترخيص نفسه)؛ CC0 للمدارس الرسمية في لائحة المركز التربوي",
+  "fr": "ODbL 1.0 pour les lignes OpenStreetMap, avec mention des contributeurs d'OpenStreetMap (la table dérivée reste sous la même licence) ; CC0 pour les écoles publiques du CERD"
+ },
+ "Communities and seats over time: every cell of the national history tables, long format (table_id, year, row, field, value)": {
+  "ar": "الطوائف والمقاعد عبر الزمن: كل خانة من الجداول الوطنية التاريخية، بصيغة طويلة (table_id, year, row, field, value)",
+  "fr": "Communautés et sièges au fil du temps : chaque cellule des tableaux nationaux historiques, en format long (table_id, year, row, field, value)"
+ },
+ "The Monthly; Wikipedia; IFES; IPU Parline (see data/places/history.json for each table's source)": {
+  "ar": "ذا منثلي؛ ويكيبيديا؛ IFES؛ IPU Parline (انظر data/places/history.json لمصدر كل جدول)",
+  "fr": "The Monthly ; Wikipédia ; IFES ; IPU Parline (voir data/places/history.json pour la source de chaque tableau)"
+ },
+ "Wikipedia CC BY-SA 4.0 (facts only); other sources: facts cited with attribution": {
+  "ar": "ويكيبيديا CC BY-SA 4.0 (وقائع فقط)؛ المصادر الأخرى: وقائع مذكورة مع نسبتها",
+  "fr": "Wikipédia CC BY-SA 4.0 (faits seulement) ; autres sources : faits cités avec attribution"
+ },
+ "Places: registered voters by sect, {n1}, one row per voter list ({n2} lists; not residents)": {
+  "ar": "الأماكن: الناخبون المسجّلون بحسب الطائفة، {n1}، صف لكل لائحة ناخبين ({n2} لائحة؛ ليسوا السكان)",
+  "fr": "Lieux : électeurs inscrits par confession, {n1}, une ligne par liste d'électeurs ({n2} listes ; pas des résidents)"
+ },
+ "Interior Ministry voter lists of 2014 as transcribed by lub-anan.com (https://www.lub-anan.com/)": {
+  "ar": "لوائح الناخبين لوزارة الداخلية لعام ٢٠١٤ كما نقلها موقع lub-anan.com (https://www.lub-anan.com/)",
+  "fr": "Listes électorales du ministère de l'Intérieur de 2014 telles que transcrites par lub-anan.com (https://www.lub-anan.com/)"
+ },
+ "No licence stated by the source: facts (counts) only, attributed": {
+  "ar": "لا يذكر المصدر ترخيصاً: الوقائع (الأعداد) فقط مع نسبتها",
+  "fr": "Aucune licence indiquée par la source : faits (effectifs) seulement, avec attribution"
+ },
+ "Places: health and education facilities mapped to each of {n1} places (nearest place within {n2} km)": {
+  "ar": "الأماكن: المرافق الصحية والتعليمية المرسومة لكل مكان من {n1} مكاناً (أقرب مكان ضمن {n2} كم)",
+  "fr": "Lieux : établissements de santé et d'enseignement cartographiés pour chacun des {n1} lieux (lieu le plus proche dans un rayon de {n2} km)"
+ },
+ "Health and education facilities in Lebanon: {n1} points for the map layer (OpenStreetMap, CERD public schools)": {
+  "ar": "المرافق الصحية والتعليمية في لبنان: {n1} نقطة لطبقة الخريطة (OpenStreetMap، المدارس الرسمية في لائحة المركز التربوي)",
+  "fr": "Établissements de santé et d'enseignement au Liban : {n1} points pour la couche de carte (OpenStreetMap, écoles publiques du CERD)"
+ },
+ "Communities and seats over time: {n1} national tables, {n2} to {n3}, plus the {n4} voter count by sect": {
+  "ar": "الطوائف والمقاعد عبر الزمن: {n1} جدولاً وطنياً، من {n2} إلى {n3}، مع عدد الناخبين بحسب الطائفة لعام {n4}",
+  "fr": "Communautés et sièges au fil du temps : {n1} tableaux nationaux, de {n2} à {n3}, avec le décompte des électeurs par confession de {n4}"
+ },
+ "The Monthly; Wikipedia (Mount Lebanon Mutasarrifate, Greater Lebanon, Demographics of Lebanon, Lebanese general elections 1927 to 2022); IFES; IPU Parline; lub-anan.com": {
+  "ar": "ذا منثلي؛ ويكيبيديا (متصرفية جبل لبنان، لبنان الكبير، ديموغرافيا لبنان، الانتخابات النيابية اللبنانية ١٩٢٧ إلى ٢٠٢٢)؛ IFES؛ IPU Parline؛ lub-anan.com",
+  "fr": "The Monthly ; Wikipédia (Moutassarifat du Mont-Liban, Grand Liban, Démographie du Liban, élections législatives libanaises de 1927 à 2022) ; IFES ; IPU Parline ; lub-anan.com"
+ },
+ "Wikipedia CC BY-SA 4.0 (facts only); The Monthly and lub-anan.com: facts cited with attribution": {
+  "ar": "ويكيبيديا CC BY-SA 4.0 (وقائع فقط)؛ ذا منثلي وlub-anan.com: وقائع مذكورة مع نسبتها",
+  "fr": "Wikipédia CC BY-SA 4.0 (faits seulement) ; The Monthly et lub-anan.com : faits cités avec attribution"
+ },
+ "Election districts {n1} and {n2}: seats by parliamentary bloc, list votes and turnout (the results the town page shows for its district)": {
+  "ar": "الدوائر الانتخابية {n1} و{n2}: المقاعد بحسب الكتلة النيابية وأصوات اللوائح ونسبة الاقتراع (النتائج التي تعرضها صفحة البلدة لدائرتها)",
+  "fr": "Circonscriptions électorales {n1} et {n2} : sièges par bloc parlementaire, voix des listes et participation (les résultats que la page d'une ville montre pour sa circonscription)"
+ },
+ "Wikipedia (2018 and 2022 Lebanese general elections, lists of members), UNDP key results brochure 2022; underlying results from the Interior Ministry": {
+  "ar": "ويكيبيديا (الانتخابات النيابية اللبنانية ٢٠١٨ و٢٠٢٢، قوائم النواب)، كتيّب النتائج الرئيسية لبرنامج الأمم المتحدة الإنمائي ٢٠٢٢؛ والنتائج الأصلية من وزارة الداخلية",
+  "fr": "Wikipédia (élections législatives libanaises de 2018 et 2022, listes des députés), brochure des résultats clés du PNUD 2022 ; résultats sous-jacents du ministère de l'Intérieur"
+ },
+ "CC BY-SA 4.0 (Wikipedia); official results, no licence stated; UNDP figures as facts, attributed": {
+  "ar": "CC BY-SA 4.0 (ويكيبيديا)؛ النتائج الرسمية بلا ترخيص مذكور؛ وأرقام البرنامج الإنمائي كوقائع منسوبة",
+  "fr": "CC BY-SA 4.0 (Wikipédia) ; résultats officiels, sans licence indiquée ; chiffres du PNUD comme faits, avec attribution"
+ },
+ "Places: registered voters by sect, {n1}, for {n2} villages and towns (counts per sect; not residents)": {
+  "ar": "الأماكن: الناخبون المسجّلون بحسب الطائفة، {n1}، لـ{n2} من القرى والبلدات (أعداد لكل طائفة؛ ليسوا السكان)",
+  "fr": "Lieux : électeurs inscrits par confession, {n1}, pour {n2} villages et villes (effectifs par confession ; pas des résidents)"
+ },
+ "{p}: registered voters by sect, 2014; not residents. Open the place for the shares.": {
+  "ar": "{p}: الناخبون المسجّلون بحسب الطائفة، ٢٠١٤؛ ليسوا المقيمين. افتح صفحة المكان لرؤية النسب.",
+  "fr": "{p} : électeurs inscrits par communauté, 2014 ; pas les habitants. Ouvrez la page du lieu pour voir les parts."
+ },
+ "Facilities within {r} km of this place's centre (3 km for a city, 2 km for a town, 1 km otherwise). Neighbouring places share points, so counts overlap and do not add up. Public schools come from the CERD list of 2017; other schools are OpenStreetMap schools that match no CERD school.": {
+  "ar": "المرافق الواقعة ضمن {r} كلم من وسط هذا المكان (٣ كلم للمدينة، و٢ كلم للبلدة، و١ كلم لغيرهما). تتقاسم الأماكن المتجاورة النقاط نفسها، فتتداخل الأعداد ولا تُجمع. المدارس الرسمية من قائمة المركز التربوي للبحوث والإنماء لعام ٢٠١٧؛ والمدارس الأخرى مدارس من OpenStreetMap لا تطابق أي مدرسة في تلك القائمة.",
+  "fr": "Établissements situés à moins de {r} km du centre de ce lieu (3 km pour une ville, 2 km pour un bourg, 1 km sinon). Des lieux voisins partagent les mêmes points : les chiffres se recoupent et ne s'additionnent pas. Les écoles publiques viennent de la liste du CRDP de 2017 ; les autres écoles sont des écoles OpenStreetMap qui ne correspondent à aucune école du CRDP."
+ },
+ "No health or education facility is mapped within {r} km of this place's centre. OpenStreetMap coverage is uneven, so this can mean the facilities are unmapped.": {
+  "ar": "لا يوجد مرفق صحي أو تعليمي مسجّل ضمن {r} كلم من وسط هذا المكان. تغطية OpenStreetMap غير متساوية، فقد يعني ذلك أن المرافق غير مرسومة على الخريطة.",
+  "fr": "Aucun établissement de santé ou d'enseignement n'est recensé à moins de {r} km du centre de ce lieu. La couverture d'OpenStreetMap est inégale : les établissements peuvent simplement ne pas y figurer."
+ }
+}

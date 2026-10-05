@@ -1,0 +1,2103 @@
+{
+ "title": "Lebanon: sect and electoral history tables (national)",
+ "retrieved": "2026-10-05",
+ "scope": "Sourced national tables only. Counts of people are registered or enumerated persons by civil-status sect, not residents today. No per-town political affiliation is inferred.",
+ "tables": [
+  {
+   "id": "mutasarrifate-1860",
+   "title": "Mount Lebanon Mutasarrifate: population by sect, 1860",
+   "year": 1860,
+   "estimate": true,
+   "rows": [
+    {
+     "sect": "Maronite",
+     "population": 101900,
+     "share_pct": 46.8
+    },
+    {
+     "sect": "Greek Catholic",
+     "population": 38625,
+     "share_pct": 17.7
+    },
+    {
+     "sect": "Druze",
+     "population": 35475,
+     "share_pct": 16.3
+    },
+    {
+     "sect": "Greek Orthodox",
+     "population": 30375,
+     "share_pct": 14.0
+    },
+    {
+     "sect": "Muslims (Sunni and Shia not split)",
+     "population": 10510,
+     "share_pct": 4.8
+    },
+    {
+     "sect": "Protestant",
+     "population": 500,
+     "share_pct": 0.2
+    },
+    {
+     "sect": "Jewish",
+     "population": 290,
+     "share_pct": 0.1
+    },
+    {
+     "sect": "Total",
+     "population": 217675,
+     "share_pct": 100.0
+    }
+   ],
+   "source": "https://monthlymagazine.com/en/article/772/the-lebanese-and-their-sects",
+   "license": "All rights reserved (The Monthly); numbers reproduced as cited facts with attribution, no text or table layout copied",
+   "note": "Estimate. The Monthly gives the 1860 Mutasarrifiya as 3,500 km2 with 217,675 Lebanese; the table's own origin is not named there. Sects as printed; Muslims are one group. Shares are the publisher's."
+  },
+  {
+   "id": "mutasarrifate-1895-1913",
+   "title": "Mount Lebanon Mutasarrifate: population by sect, 1895 estimate and 1913 enumeration",
+   "year": 1913,
+   "estimate": true,
+   "rows": [
+    {
+     "group": "Christians",
+     "sect": "Maronite",
+     "y1895_estimate": 229680,
+     "y1913": 242308
+    },
+    {
+     "group": "Christians",
+     "sect": "Melkite (Greek Catholic)",
+     "y1895_estimate": 34472,
+     "y1913": 31936
+    },
+    {
+     "group": "Christians",
+     "sect": "Greek Orthodox",
+     "y1895_estimate": 54208,
+     "y1913": 52356
+    },
+    {
+     "group": "Christians",
+     "sect": "Other Christians",
+     "y1895_estimate": 936,
+     "y1913": 2882
+    },
+    {
+     "group": "Druze",
+     "sect": "Druze",
+     "y1895_estimate": 49812,
+     "y1913": 47290
+    },
+    {
+     "group": "Muslims",
+     "sect": "Shia",
+     "y1895_estimate": 16846,
+     "y1913": 23413
+    },
+    {
+     "group": "Muslims",
+     "sect": "Sunni",
+     "y1895_estimate": 13576,
+     "y1913": 14529
+    },
+    {
+     "group": "All",
+     "sect": "Total population",
+     "y1895_estimate": 399530,
+     "y1913": 414747
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mount_Lebanon_Mutasarrifate (Demographics; cites Joseph Chamie, Religion and Fertility: Arab Christian-Muslim Differentials, Cambridge UP, 1981, p. 29)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "1895 is an official estimate and 1913 is reported as a census count; the figures are Chamie's as repeated on Wikipedia and were not checked against the primary Ottoman source. Rows sum to 414,714 for 1913 and 399,530 for 1895, so 1913 is 33 below the printed total; the page text gives 37,741 Muslims but the table gives 37,942 (the table sums are used here)."
+  },
+  {
+   "id": "double-qaimaqamate-1843-1861",
+   "title": "Double Qaimaqamate of Mount Lebanon, 1843 to 1861 (description, approximate region)",
+   "year": 1843,
+   "estimate": true,
+   "rows": [
+    {
+     "statement": "Mount Lebanon was administered as two districts after 1843: a northern, mostly Christian district under a Christian qaim-maqam, and a southern, mixed district under a Druze qaim-maqam (Ahmad Arslan appointed to the south, Haydar Ahmad Abu al-Lama' to the north). Each qaim-maqam had two wakils, one Druze and one Christian, with judicial and fiscal authority over their own community.",
+     "approximate": true
+    },
+    {
+     "statement": "The division was proposed by Austrian Chancellor Metternich as a compromise among Ottoman, British and French positions; the Sultan agreed on 1 December 1843.",
+     "approximate": true
+    },
+    {
+     "statement": "An 1844 map cited on the source page shows the Nahr al-Kalb as the northern boundary of the Druze district. The exact boundary is not given in the text, so no polygon is drawn.",
+     "approximate": true
+    },
+    {
+     "statement": "The arrangement ended after the 1860 conflict; the Mount Lebanon Mutasarrifate followed in 1861.",
+     "approximate": true
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Double_Qaim-Maqamate_of_Mount_Lebanon",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Description only, paraphrased from the cited page. Region approximate; no polygons. Dates as the page gives them (1843 to 1861; sometimes cited as 1842)."
+  },
+  {
+   "id": "greater-lebanon-1922-1932-chamie",
+   "title": "Greater Lebanon: counts by sect, 1922 and 1932 (Chamie 1981)",
+   "year": 1922,
+   "estimate": false,
+   "rows": [
+    {
+     "sect": "Maronite",
+     "y1922": 199182,
+     "y1932": 226378
+    },
+    {
+     "sect": "Melkite (Greek Catholic)",
+     "y1922": 42426,
+     "y1932": 45999
+    },
+    {
+     "sect": "Armenian Catholic",
+     "y1922": null,
+     "y1932": 5964
+    },
+    {
+     "sect": "Syriac Catholic",
+     "y1922": 12651,
+     "y1932": 2675
+    },
+    {
+     "sect": "Chaldean Catholic",
+     "y1922": null,
+     "y1932": 528
+    },
+    {
+     "sect": "Greek Orthodox",
+     "y1922": 81409,
+     "y1932": 76522
+    },
+    {
+     "sect": "Armenian Apostolic (Orthodox)",
+     "y1922": null,
+     "y1932": 25462
+    },
+    {
+     "sect": "Protestant",
+     "y1922": null,
+     "y1932": 6712
+    },
+    {
+     "sect": "Syriac Orthodox",
+     "y1922": null,
+     "y1932": 2574
+    },
+    {
+     "sect": "Sunni",
+     "y1922": 124786,
+     "y1932": 175925
+    },
+    {
+     "sect": "Shia",
+     "y1922": 104947,
+     "y1932": 154208
+    },
+    {
+     "sect": "Druze",
+     "y1922": 43633,
+     "y1932": 53047
+    },
+    {
+     "sect": "Jews, Baha'i and others",
+     "y1922": null,
+     "y1932": 9819
+    },
+    {
+     "sect": "Total",
+     "y1922": 629034,
+     "y1932": 785543
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Greater_Lebanon (table 'Religion in Lebanon according to censuses'; cites Chamie 1981 p. 29 and Maktabi 1999)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "The 1922 count is the French Mandate census of 1921-22 (Wikipedia dates it 1922). Blank 1922 cells are not broken out in the source, not zero: only Maronite, Melkite, Syriac Catholic, Greek Orthodox, Sunni, Shia and Druze are listed, and Christians total 355,668, Muslims 229,733. 1932 totals differ by source (this table 785,543; Maktabi table 793,396 residents): see the next two tables. Source arithmetic: the listed 1932 rows sum to 785,813 (270 above the printed total); the listed 1922 rows sum to 609,034, and the printed 1922 Christian total (355,668) is 20,000 above its listed rows, so the printed 629,034 includes 20,000 not itemised."
+  },
+  {
+   "id": "census-1932-residents-emigrants",
+   "title": "Census of 1932: residents and registered emigrants by sect (Maktabi 1999)",
+   "year": 1932,
+   "estimate": false,
+   "rows": [
+    {
+     "sect": "Sunni",
+     "residents": 178100,
+     "emigrants_before_1924_paying_tax": 2653,
+     "emigrants_before_1924_not_paying": 9840,
+     "emigrants_after_1924_paying_tax": 1089,
+     "emigrants_after_1924_not_paying": 3623
+    },
+    {
+     "sect": "Shia",
+     "residents": 155035,
+     "emigrants_before_1924_paying_tax": 2977,
+     "emigrants_before_1924_not_paying": 4543,
+     "emigrants_after_1924_paying_tax": 1770,
+     "emigrants_after_1924_not_paying": 2220
+    },
+    {
+     "sect": "Druze",
+     "residents": 53334,
+     "emigrants_before_1924_paying_tax": 2067,
+     "emigrants_before_1924_not_paying": 3205,
+     "emigrants_after_1924_paying_tax": 1183,
+     "emigrants_after_1924_not_paying": 2295
+    },
+    {
+     "sect": "Maronite",
+     "residents": 227800,
+     "emigrants_before_1924_paying_tax": 31697,
+     "emigrants_before_1924_not_paying": 58457,
+     "emigrants_after_1924_paying_tax": 11434,
+     "emigrants_after_1924_not_paying": 21809
+    },
+    {
+     "sect": "Greek Catholic",
+     "residents": 46709,
+     "emigrants_before_1924_paying_tax": 7190,
+     "emigrants_before_1924_not_paying": 16544,
+     "emigrants_after_1924_paying_tax": 1855,
+     "emigrants_after_1924_not_paying": 4038
+    },
+    {
+     "sect": "Greek Orthodox",
+     "residents": 77312,
+     "emigrants_before_1924_paying_tax": 12547,
+     "emigrants_before_1924_not_paying": 31521,
+     "emigrants_after_1924_paying_tax": 3922,
+     "emigrants_after_1924_not_paying": 9041
+    },
+    {
+     "sect": "Protestant",
+     "residents": 6869,
+     "emigrants_before_1924_paying_tax": 607,
+     "emigrants_before_1924_not_paying": 1575,
+     "emigrants_after_1924_paying_tax": 174,
+     "emigrants_after_1924_not_paying": 575
+    },
+    {
+     "sect": "Armenian Orthodox",
+     "residents": 26102,
+     "emigrants_before_1924_paying_tax": 1,
+     "emigrants_before_1924_not_paying": 60,
+     "emigrants_after_1924_paying_tax": 191,
+     "emigrants_after_1924_not_paying": 1718
+    },
+    {
+     "sect": "Armenian Catholic",
+     "residents": 5890,
+     "emigrants_before_1924_paying_tax": 9,
+     "emigrants_before_1924_not_paying": 50,
+     "emigrants_after_1924_paying_tax": 20,
+     "emigrants_after_1924_not_paying": 375
+    },
+    {
+     "sect": "Syriac Orthodox",
+     "residents": 2723,
+     "emigrants_before_1924_paying_tax": 6,
+     "emigrants_before_1924_not_paying": 34,
+     "emigrants_after_1924_paying_tax": 3,
+     "emigrants_after_1924_not_paying": 54
+    },
+    {
+     "sect": "Syriac Catholic",
+     "residents": 2803,
+     "emigrants_before_1924_paying_tax": 9,
+     "emigrants_before_1924_not_paying": 196,
+     "emigrants_after_1924_paying_tax": 6,
+     "emigrants_after_1924_not_paying": 101
+    },
+    {
+     "sect": "Jewish",
+     "residents": 3588,
+     "emigrants_before_1924_paying_tax": 6,
+     "emigrants_before_1924_not_paying": 214,
+     "emigrants_after_1924_paying_tax": 7,
+     "emigrants_after_1924_not_paying": 188
+    },
+    {
+     "sect": "Chaldean Orthodox",
+     "residents": 190,
+     "emigrants_before_1924_paying_tax": 0,
+     "emigrants_before_1924_not_paying": 0,
+     "emigrants_after_1924_paying_tax": 0,
+     "emigrants_after_1924_not_paying": 0
+    },
+    {
+     "sect": "Chaldean Catholic",
+     "residents": 548,
+     "emigrants_before_1924_paying_tax": 0,
+     "emigrants_before_1924_not_paying": 6,
+     "emigrants_after_1924_paying_tax": 0,
+     "emigrants_after_1924_not_paying": 19
+    },
+    {
+     "sect": "Miscellaneous",
+     "residents": 6393,
+     "emigrants_before_1924_paying_tax": 212,
+     "emigrants_before_1924_not_paying": 758,
+     "emigrants_after_1924_paying_tax": 59,
+     "emigrants_after_1924_not_paying": 234
+    },
+    {
+     "sect": "Total",
+     "residents": 793396,
+     "emigrants_before_1924_paying_tax": 59981,
+     "emigrants_before_1924_not_paying": 127003,
+     "emigrants_after_1924_paying_tax": 21713,
+     "emigrants_after_1924_not_paying": 46290
+    },
+    {
+     "sect": "Foreigners (not Lebanese)",
+     "residents": 61297
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Demographics_of_Lebanon (table 'Census of 1932'; cites Rania Maktabi, The Lebanese Census of 1932 Revisited, Br. J. Middle Eastern Studies 26(2), 1999)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "The only national census ever taken. Resident rows sum to the printed 793,396. Emigrant columns as printed (before and after 30 August 1924; paying and not paying tax). Maktabi's own Chaldean Orthodox row is 190 and Chaldean Catholic 548."
+  },
+  {
+   "id": "census-1932-monthly",
+   "title": "Census of 1932: residents and emigrants by sect (The Monthly)",
+   "year": 1932,
+   "estimate": false,
+   "rows": [
+    {
+     "sect": "Maronite",
+     "residents": 227800,
+     "emigrants": 123397
+    },
+    {
+     "sect": "Greek Orthodox",
+     "residents": 77312,
+     "emigrants": 56031
+    },
+    {
+     "sect": "Greek Catholic",
+     "residents": 46709,
+     "emigrants": 29627
+    },
+    {
+     "sect": "Armenian Orthodox",
+     "residents": 26102,
+     "emigrants": 1970
+    },
+    {
+     "sect": "Armenian Catholic",
+     "residents": 5980,
+     "emigrants": 454
+    },
+    {
+     "sect": "Syrian Orthodox",
+     "residents": 2723,
+     "emigrants": 97
+    },
+    {
+     "sect": "Syrian Catholic",
+     "residents": 2803,
+     "emigrants": 312
+    },
+    {
+     "sect": "Protestant",
+     "residents": 1869,
+     "emigrants": 2731
+    },
+    {
+     "sect": "Orthodox and Catholic Chaldeans",
+     "residents": 738,
+     "emigrants": 6
+    },
+    {
+     "sect": "Sunni",
+     "residents": 178100,
+     "emigrants": 16205
+    },
+    {
+     "sect": "Shia",
+     "residents": 155035,
+     "emigrants": 11510
+    },
+    {
+     "sect": "Druze",
+     "residents": 53344,
+     "emigrants": 8750
+    },
+    {
+     "sect": "Jewish",
+     "residents": 3588,
+     "emigrants": 415
+    },
+    {
+     "sect": "Minorities",
+     "residents": 11293,
+     "emigrants": 1263
+    },
+    {
+     "sect": "Total",
+     "residents": 793396,
+     "emigrants": 252768
+    }
+   ],
+   "source": "https://monthlymagazine.com/en/article/772/the-lebanese-and-their-sects",
+   "license": "All rights reserved (The Monthly); numbers reproduced as cited facts with attribution, no text or table layout copied",
+   "note": "Same total (793,396 residents, 1,046,146 registered incl. emigrants) as the Maktabi table but grouped differently: Protestant 1,869 here against 6,869 there, Druze 53,344 against 53,334, Armenian Catholic 5,980 against 5,890, and a Minorities line of 11,293 against Miscellaneous 6,393. Treat sect lines under 10,000 as differing by source."
+  },
+  {
+   "id": "electoral-laws",
+   "title": "Electoral laws and the size of Parliament, 1926 to 2017",
+   "year": 1926,
+   "rows": [
+    {
+     "law_year": 1926,
+     "first_election": 1927,
+     "seats": 46,
+     "districts": "provinces and Tripoli (16 new seats)",
+     "unit": "province",
+     "ratio": "not stated in the sources found",
+     "source_ref": "Wikipedia 1927 Lebanese general election; Constitution of Lebanon (adopted 23 May 1926)"
+    },
+    {
+     "law_year": 1932,
+     "first_election": 1932,
+     "seats": null,
+     "districts": null,
+     "unit": "",
+     "ratio": "6:5 Christians to Muslims, 1932 to 1972",
+     "source_ref": "Wikipedia Parliament of Lebanon: 'between 1932 and 1972 seats were apportioned between Christians and Muslims in a 6:5 ratio'; the 1932 census was the basis (Wikipedia Sectarianism in Lebanon, National Pact). Seat total for this period not sourced."
+    },
+    {
+     "law_year": 1943,
+     "first_election": 1943,
+     "seats": 55,
+     "districts": 5,
+     "unit": "the five governorates (Beirut, Mount Lebanon, North, South, Bekaa)",
+     "ratio": "6:5 (30 Christian, 25 Muslim and Druze)",
+     "source_ref": "Wikipedia 1943 and 1947 general elections; The Monthly (Arabic) 10 Dec 2015; National Pact (Wikipedia)"
+    },
+    {
+     "law_year": 1951,
+     "first_election": 1951,
+     "seats": 77,
+     "districts": 9,
+     "unit": "governorates, Mount Lebanon and North each split in three",
+     "ratio": "6:5",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Wikipedia 1951 Lebanese general election (members table)"
+    },
+    {
+     "law_year": 1953,
+     "first_election": 1953,
+     "seats": 44,
+     "districts": 33,
+     "unit": "22 single-seat and 11 two-seat districts",
+     "ratio": "6:5",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Wikipedia 1953 Lebanese general election"
+    },
+    {
+     "law_year": 1957,
+     "first_election": 1957,
+     "seats": 66,
+     "districts": 27,
+     "unit": "small districts",
+     "ratio": "6:5",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Wikipedia 1957 Lebanese general election"
+    },
+    {
+     "law_year": 1960,
+     "first_election": 1960,
+     "seats": 99,
+     "districts": 26,
+     "unit": "the 26 qadas",
+     "ratio": "6:5 (54 Christian, 45 Muslim and Druze)",
+     "source_ref": "Arabic Wikipedia (1960 election page); The Monthly (Arabic) 10 Dec 2015; Wikipedia 1968 and 1972 general elections. Used for 1960, 1964, 1968, 1972"
+    },
+    {
+     "law_year": 1992,
+     "first_election": 1992,
+     "seats": 128,
+     "districts": "12 per The Monthly; seat blocks by 5 governorates in the Hub election file",
+     "unit": "governorates, with Bekaa in 3 and Mount Lebanon in 6 qada districts per The Monthly",
+     "ratio": "1:1 (Taif)",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Hub research/hub/elections/1992-parliamentary.json"
+    },
+    {
+     "law_year": 1996,
+     "first_election": 1996,
+     "seats": 128,
+     "districts": 10,
+     "unit": "one each for Beirut, North, South and Nabatieh, Bekaa; Mount Lebanon by qada",
+     "ratio": "1:1",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Wikipedia 1996 Lebanese general election"
+    },
+    {
+     "law_year": 2000,
+     "first_election": 2000,
+     "seats": 128,
+     "districts": "13 per The Monthly; 14 per the Hub election file",
+     "unit": "3 in Beirut, 1 in South and Nabatieh, 3 in Bekaa, 4 in Mount Lebanon, 2 in North (The Monthly); reused in 2005",
+     "ratio": "1:1",
+     "source_ref": "The Monthly (Arabic) 10 Dec 2015; Hub research/hub/elections/2000-parliamentary.json. The two sources count the districts differently"
+    },
+    {
+     "law_year": 2008,
+     "first_election": 2009,
+     "seats": 128,
+     "districts": 26,
+     "unit": "the 26 qadas (Doha Agreement, Law 25/2008), Beirut in three districts",
+     "ratio": "1:1",
+     "source_ref": "Wikipedia Elections in Lebanon (2008 Doha Agreement); Hub research/hub/elections/2009-parliamentary.json"
+    },
+    {
+     "law_year": 2017,
+     "first_election": 2018,
+     "seats": 128,
+     "districts": 15,
+     "unit": "proportional representation by list, preferential vote at minor-district (qada) level",
+     "ratio": "1:1",
+     "source_ref": "Wikipedia Elections in Lebanon (2017 electoral law); Hub research/hub/elections/2018-parliamentary.json and 2022-parliamentary.json"
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Elections_in_Lebanon ; https://monthlymagazine.com/ar-article-desc_3820_ (Arabic, 10 Dec 2015) ; https://en.wikipedia.org/wiki/Parliament_of_Lebanon",
+   "license": "Wikipedia CC BY-SA 4.0; The Monthly all rights reserved (facts only)",
+   "note": "Seat counts and district counts are as stated by the sources named in each row; where two sources disagree both are shown.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1927",
+   "title": "1927 election: the 16 seats elected in 1927 (Parliament of 46)",
+   "year": 1927,
+   "rows": [
+    {
+     "district": "Beirut",
+     "seats": 7,
+     "by_sect": {
+      "Greek Catholic": 1,
+      "Greek Orthodox": 1,
+      "Maronite": 2,
+      "Minorities": 1,
+      "Sunni": 2
+     }
+    },
+    {
+     "district": "Mount Lebanon",
+     "seats": 4,
+     "by_sect": {
+      "Druze": 1,
+      "Maronite": 2,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "North Lebanon",
+     "seats": 2,
+     "by_sect": {
+      "Greek Orthodox": 1,
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "South Lebanon",
+     "seats": 2,
+     "by_sect": {
+      "Shia": 2
+     }
+    },
+    {
+     "district": "Tripoli",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 16,
+     "by_sect": {
+      "Greek Catholic": 1,
+      "Greek Orthodox": 2,
+      "Maronite": 5,
+      "Minorities": 1,
+      "Sunni": 3,
+      "Druze": 1,
+      "Shia": 3
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1927_Lebanese_general_election",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Partial. The 1927 Parliament had 46 members: 16 newly elected plus 30 elected members carried over from the Representative Council. Only the 16 are itemised on the source page, counted here by province and seat, no names kept. No sourced seat table for the 1926 constitution's first chamber was found.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1943-1947",
+   "title": "Seats per district and sect, 1943 and 1947 elections (55 seats, five governorate districts)",
+   "year": 1943,
+   "rows": [
+    {
+     "district": "Beirut",
+     "seats": 9,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Armenian Orthodox": 2,
+      "Minorities": 1,
+      "Sunni": 3,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Bekaa",
+     "seats": 7,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Sunni": 1,
+      "Shia": 2,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon",
+     "seats": 17,
+     "by_sect": {
+      "Maronite": 10,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Sunni": 1,
+      "Shia": 1,
+      "Druze": 3
+     }
+    },
+    {
+     "district": "North",
+     "seats": 12,
+     "by_sect": {
+      "Maronite": 5,
+      "Greek Orthodox": 2,
+      "Sunni": 5
+     }
+    },
+    {
+     "district": "South",
+     "seats": 10,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Sunni": 1,
+      "Shia": 6
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 55,
+     "by_sect": {
+      "Maronite": 18,
+      "Greek Orthodox": 6,
+      "Greek Catholic": 3,
+      "Armenian Orthodox": 2,
+      "Minorities": 1,
+      "Sunni": 11,
+      "Shia": 10,
+      "Druze": 4
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1943_Lebanese_general_election (section 'Apportionment of seats over districts and communities'; same apportionment for 1947: https://en.wikipedia.org/wiki/1947_Lebanese_general_election)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Christians 30 (Maronite 18, Greek Orthodox 6, Greek Catholic 3, Armenian Orthodox 2, Minorities 1) to Muslims and Druze 25 (Sunni 11, Shia 10, Druze 4): the 6:5 ratio. The page's 'Minorities' column is Minorities as printed there.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1951",
+   "title": "Seats per district and sect, 1951 election (77 seats, nine districts)",
+   "year": 1951,
+   "rows": [
+    {
+     "district": "Beirut",
+     "seats": 13,
+     "by_sect": {
+      "Sunni": 4,
+      "Shia": 1,
+      "Protestant": 1,
+      "Greek Catholic": 1,
+      "Maronite": 1,
+      "Minorities": 1,
+      "Armenian Orthodox": 2,
+      "Greek Orthodox": 1,
+      "Armenian Catholic": 1
+     }
+    },
+    {
+     "district": "North Lebanon I Tripoli",
+     "seats": 6,
+     "by_sect": {
+      "Sunni": 5,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "North Lebanon II Zgharta - Batroun - Koura",
+     "seats": 6,
+     "by_sect": {
+      "Maronite": 5,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "North Lebanon III Akkar",
+     "seats": 4,
+     "by_sect": {
+      "Sunni": 2,
+      "Greek Orthodox": 1,
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "South Lebanon",
+     "seats": 14,
+     "by_sect": {
+      "Sunni": 2,
+      "Shia": 8,
+      "Maronite": 2,
+      "Greek Catholic": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Beqaa",
+     "seats": 11,
+     "by_sect": {
+      "Shia": 3,
+      "Sunni": 2,
+      "Greek Catholic": 2,
+      "Maronite": 2,
+      "Druze": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon I Baabda - Matn",
+     "seats": 9,
+     "by_sect": {
+      "Maronite": 5,
+      "Druze": 1,
+      "Greek Orthodox": 1,
+      "Armenian Orthodox": 1,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon II Chouf - Aley",
+     "seats": 9,
+     "by_sect": {
+      "Maronite": 3,
+      "Druze": 3,
+      "Sunni": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon III Keserwan",
+     "seats": 5,
+     "by_sect": {
+      "Maronite": 4,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 77,
+     "by_sect": {
+      "Sunni": 16,
+      "Shia": 14,
+      "Protestant": 1,
+      "Greek Catholic": 5,
+      "Maronite": 23,
+      "Minorities": 1,
+      "Armenian Orthodox": 3,
+      "Greek Orthodox": 8,
+      "Armenian Catholic": 1,
+      "Druze": 5
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1951_Lebanese_general_election (members table, seat category per member)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Derived: the source page lists the 77 elected members with the seat each holds; this table counts them by district and seat, no names kept. The Monthly (Arabic, 10 Dec 2015) confirms 77 deputies and nine districts (the five governorates with Mount Lebanon and the North each split in three).",
+   "estimate": false
+  },
+  {
+   "id": "seats-1953",
+   "title": "Seats per district and sect, 1953 election (44 seats, 33 districts)",
+   "year": 1953,
+   "rows": [
+    {
+     "district": "Beirut-1",
+     "seats": 1,
+     "by_sect": {
+      "Armenian Catholic": 1
+     },
+     "subdivision": "1: Medawar"
+    },
+    {
+     "district": "Beirut-2",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1
+     },
+     "subdivision": "2: Achrafieh, Rmeil, Saifi"
+    },
+    {
+     "district": "Beirut-3",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     },
+     "subdivision": "3: Mazraa"
+    },
+    {
+     "district": "Beirut-4",
+     "seats": 2,
+     "by_sect": {
+      "Sunni": 1,
+      "Shia": 1
+     },
+     "subdivision": "4: Ras Beirut, Zkak El Blat, Bachoura, Moussaytbeh"
+    },
+    {
+     "district": "Beirut-5",
+     "seats": 1,
+     "by_sect": {
+      "Minorities": 1
+     },
+     "subdivision": "5: Mina El Hossn, Dar El Mreiseh, the Port"
+    },
+    {
+     "district": "Zahleh",
+     "seats": 1,
+     "by_sect": {
+      "Greek Orthodox": 1
+     },
+     "subdivision": "subdivision unknown"
+    },
+    {
+     "district": "Zahleh",
+     "seats": 1,
+     "by_sect": {
+      "Greek Catholic": 1
+     },
+     "subdivision": "subdivision unknown"
+    },
+    {
+     "district": "Baalbek - Hermel",
+     "seats": 2,
+     "by_sect": {
+      "Shia": 2
+     }
+    },
+    {
+     "district": "Rashaya - West Bekaa",
+     "seats": 2,
+     "by_sect": {
+      "Greek Orthodox": 1,
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Jbeil",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Keserwan",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Keserwan El Ftouh",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "North Metn",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bourj Hammoud (Metn)",
+     "seats": 1,
+     "by_sect": {
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "Baabda",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Aley",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Deir El Kamar - Cheheem (Chouf)",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Baaklyn - Joun (Chouf)",
+     "seats": 2,
+     "by_sect": {
+      "Greek Catholic": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Akkar",
+     "seats": 2,
+     "by_sect": {
+      "Greek Orthodox": 1,
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Dennieh",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Tripoli-1",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     },
+     "subdivision": "1: Kalmoun, Haddadeen, Nouri, Roummaneh, Mahatra, Askeleh"
+    },
+    {
+     "district": "Tripoli-2",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     },
+     "subdivision": "2: Kobbeh, Hadid, Soueikah, Tabbaneh, Zahrieh, Tall"
+    },
+    {
+     "district": "Zghorta",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Koura",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Bsharrey",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Batroun",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Jezzine",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Saida (city)",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Zahrani (Saida villages)",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Nabatieh",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Tyre",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Bint Jbeil",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Marjeyoun - Hasbaya",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 44,
+     "by_sect": {
+      "Maronite": 13,
+      "Greek Orthodox": 5,
+      "Greek Catholic": 3,
+      "Armenian Orthodox": 1,
+      "Armenian Catholic": 1,
+      "Minorities": 1,
+      "Sunni": 9,
+      "Shia": 8,
+      "Druze": 3
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1953_Lebanese_general_election (section 'Apportionment of seats over districts and communities')",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "The Monthly (Arabic, 10 Dec 2015) also gives 44 deputies in 33 districts: 22 with one seat, 11 with two. Two Zahle seats are listed separately on the source page with unknown subdivision.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1957",
+   "title": "Seats per district and sect, 1957 election (66 seats, 27 districts)",
+   "year": 1957,
+   "rows": [
+    {
+     "district": "Beirut-1",
+     "seats": 5,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Armenian Orthodox": 1,
+      "Sunni": 2
+     },
+     "subdivision": "1: Ashrafieh, Rumayl, Sayfi, Musaytiba, Mazra"
+    },
+    {
+     "district": "Beirut-2",
+     "seats": 6,
+     "by_sect": {
+      "Armenian Orthodox": 1,
+      "Armenian Catholic": 1,
+      "Minorities": 1,
+      "Sunni": 2,
+      "Shia": 1
+     },
+     "subdivision": "2: Bachoura, Zkak El Blat, Mdawar, Port, Mina El Hosson, Dar Mreiseh, Ras Beirut"
+    },
+    {
+     "district": "Zahleh",
+     "seats": 4,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Baalbek - Hermel",
+     "seats": 4,
+     "by_sect": {
+      "Greek Catholic": 1,
+      "Shia": 3
+     }
+    },
+    {
+     "district": "Rashaya - West Bekaa",
+     "seats": 2,
+     "by_sect": {
+      "Sunni": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Jbeil",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Keserwan",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 3
+     }
+    },
+    {
+     "district": "North Metn",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 2,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bourj Hammoud (Metn)",
+     "seats": 1,
+     "by_sect": {
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "Baabda",
+     "seats": 4,
+     "by_sect": {
+      "Maronite": 2,
+      "Shia": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Aley-Damour (Chouf-3)",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Deir El Kamar - Cheheem (Chouf-2)",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 1,
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Baaklyn - Joun (Chouf-1)",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Catholic": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Akkar",
+     "seats": 4,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Sunni": 2
+     }
+    },
+    {
+     "district": "Dennieh",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Tripoli City",
+     "seats": 4,
+     "by_sect": {
+      "Greek Orthodox": 1,
+      "Sunni": 3
+     }
+    },
+    {
+     "district": "Zghorta",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 2
+     }
+    },
+    {
+     "district": "Koura",
+     "seats": 1,
+     "by_sect": {
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bsharrey",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Batroun",
+     "seats": 1,
+     "by_sect": {
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Jezzine",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 2,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Saida (city)",
+     "seats": 1,
+     "by_sect": {
+      "Sunni": 1
+     }
+    },
+    {
+     "district": "Zahrani (Saida villages)",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Nabatieh",
+     "seats": 2,
+     "by_sect": {
+      "Shia": 2
+     }
+    },
+    {
+     "district": "Tyre",
+     "seats": 2,
+     "by_sect": {
+      "Shia": 2
+     }
+    },
+    {
+     "district": "Bint Jbeil",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Marjeyoun - Hasbaya",
+     "seats": 1,
+     "by_sect": {
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 66,
+     "by_sect": {
+      "Maronite": 20,
+      "Greek Orthodox": 7,
+      "Greek Catholic": 4,
+      "Armenian Orthodox": 3,
+      "Armenian Catholic": 1,
+      "Minorities": 1,
+      "Sunni": 14,
+      "Shia": 12,
+      "Druze": 4
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1957_Lebanese_general_election (section 'Apportionment of seats over districts and communities')",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "The Monthly (Arabic, 10 Dec 2015) also gives 66 deputies in 27 districts.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1960-1972",
+   "title": "Seats per sect under the 1960 law (99 seats, 26 qada districts), elections 1960 to 1972",
+   "year": 1960,
+   "rows": [
+    {
+     "sect": "Maronite",
+     "seats": 30
+    },
+    {
+     "sect": "Sunni",
+     "seats": 20
+    },
+    {
+     "sect": "Shia",
+     "seats": 19
+    },
+    {
+     "sect": "Greek Orthodox",
+     "seats": 11
+    },
+    {
+     "sect": "Druze",
+     "seats": 6
+    },
+    {
+     "sect": "Greek Catholic",
+     "seats": 6
+    },
+    {
+     "sect": "Armenian Orthodox",
+     "seats": 4
+    },
+    {
+     "sect": "Protestant",
+     "seats": 1
+    },
+    {
+     "sect": "Armenian Catholic",
+     "seats": 1
+    },
+    {
+     "sect": "Minorities (other)",
+     "seats": 1
+    },
+    {
+     "sect": "Total",
+     "seats": 99
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1968_Lebanese_general_election and https://en.wikipedia.org/wiki/1972_Lebanese_general_election (Background, 'According to the 1960 electoral law, the 99 seats were divided amongst ethnic and religious groups'); Template:Reserved seats in Lebanon",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Christians 54, Muslims and Druze 45 (6:5). The 1960 law (Fouad Chehab, 26 April 1960) made the 26 qadas the districts (Arabic Wikipedia and The Monthly, 10 Dec 2015). Seats per district under the 1960 law were not found in one open source and are not given.",
+   "estimate": false
+  },
+  {
+   "id": "seats-taif",
+   "title": "Seats per sect before and after the Taif Agreement (99 to 128; 64 Christian, 64 Muslim)",
+   "year": 1989,
+   "rows": [
+    {
+     "sect": "Maronite",
+     "before_taif": 30,
+     "after_taif": 34
+    },
+    {
+     "sect": "Greek Orthodox",
+     "before_taif": 11,
+     "after_taif": 14
+    },
+    {
+     "sect": "Greek Catholic",
+     "before_taif": 6,
+     "after_taif": 8
+    },
+    {
+     "sect": "Armenian Orthodox",
+     "before_taif": 4,
+     "after_taif": 5
+    },
+    {
+     "sect": "Armenian Catholic",
+     "before_taif": 1,
+     "after_taif": 1
+    },
+    {
+     "sect": "Protestant",
+     "before_taif": 1,
+     "after_taif": 1
+    },
+    {
+     "sect": "Minorities (other Christian)",
+     "before_taif": 1,
+     "after_taif": 1
+    },
+    {
+     "sect": "Sunni",
+     "before_taif": 20,
+     "after_taif": 27
+    },
+    {
+     "sect": "Shia",
+     "before_taif": 19,
+     "after_taif": 27
+    },
+    {
+     "sect": "Alawite",
+     "before_taif": 0,
+     "after_taif": 2
+    },
+    {
+     "sect": "Druze",
+     "before_taif": 6,
+     "after_taif": 8
+    },
+    {
+     "sect": "Total Christians",
+     "before_taif": 54,
+     "after_taif": 64
+    },
+    {
+     "sect": "Total Muslims and Druze",
+     "before_taif": 45,
+     "after_taif": 64
+    },
+    {
+     "sect": "Total",
+     "before_taif": 99,
+     "after_taif": 128
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Template:Reserved_seats_in_Lebanon (used on Elections in Lebanon and Parliament of Lebanon); Taif Agreement text on Wikipedia: ratio 6:5 reduced to 1:1",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Used for all elections from 1992. The same pages count Eastern Orthodox 11 and 14, which are the Greek Orthodox seats.",
+   "estimate": false
+  },
+  {
+   "id": "seats-1992-2005",
+   "title": "Seats per governorate block and sect, 1992 to 2005 elections (128 seats)",
+   "year": 1992,
+   "rows": [
+    {
+     "district": "Beirut",
+     "seats": 19,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 2,
+      "Greek Catholic": 1,
+      "Armenian Orthodox": 3,
+      "Armenian Catholic": 1,
+      "Sunni": 6,
+      "Shia": 2,
+      "Druze": 1,
+      "Minorities": 1,
+      "Evangelical": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon",
+     "seats": 35,
+     "by_sect": {
+      "Maronite": 19,
+      "Shia": 3,
+      "Greek Orthodox": 3,
+      "Greek Catholic": 2,
+      "Armenian Orthodox": 1,
+      "Druze": 5,
+      "Sunni": 2
+     }
+    },
+    {
+     "district": "North",
+     "seats": 28,
+     "by_sect": {
+      "Sunni": 11,
+      "Alawite": 2,
+      "Greek Orthodox": 6,
+      "Maronite": 9
+     }
+    },
+    {
+     "district": "South",
+     "seats": 23,
+     "by_sect": {
+      "Sunni": 3,
+      "Shia": 14,
+      "Greek Catholic": 2,
+      "Maronite": 2,
+      "Druze": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bekaa",
+     "seats": 23,
+     "by_sect": {
+      "Shia": 8,
+      "Sunni": 5,
+      "Maronite": 3,
+      "Greek Catholic": 3,
+      "Greek Orthodox": 2,
+      "Armenian Orthodox": 1,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 128,
+     "by_sect": {
+      "Maronite": 34,
+      "Greek Orthodox": 14,
+      "Greek Catholic": 8,
+      "Armenian Orthodox": 5,
+      "Armenian Catholic": 1,
+      "Sunni": 27,
+      "Shia": 27,
+      "Druze": 8,
+      "Minorities": 1,
+      "Evangelical": 1,
+      "Alawite": 2
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/1992_Lebanese_general_election; https://ipu.org/parline-e/reports/arc/2179_92.htm; https://www.idea.int/data-tools/data/country?country=124&database_theme=293",
+   "license": "Wikipedia text CC BY-SA 4.0 (Nohlen et al. handbook as cited there); IPU Parline archive and IDEA turnout database, no licence stated, facts only, attributed",
+   "note": "Same block totals in the Hub election files for 1992, 1996, 2000 and 2005 (Beirut 19, Mount Lebanon 35, North 28, South 23, Bekaa 23). Seats per qada district for 2000 are not in these files.",
+   "estimate": false
+  },
+  {
+   "id": "seats-2008-law",
+   "title": "Seats per district and sect under the 2008 law (26 qada districts), election of 2009",
+   "year": 2009,
+   "rows": [
+    {
+     "district": "Akkar",
+     "seats": 7,
+     "by_sect": {
+      "Sunni": 3,
+      "Alawite": 1,
+      "Greek Orthodox": 2,
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Minieh-Dennieh",
+     "seats": 3,
+     "by_sect": {
+      "Sunni": 3
+     }
+    },
+    {
+     "district": "Tripoli",
+     "seats": 8,
+     "by_sect": {
+      "Sunni": 5,
+      "Alawite": 1,
+      "Greek Orthodox": 1,
+      "Maronite": 1
+     }
+    },
+    {
+     "district": "Zgharta",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 3
+     }
+    },
+    {
+     "district": "Bcharre",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 2
+     }
+    },
+    {
+     "district": "Koura",
+     "seats": 3,
+     "by_sect": {
+      "Greek Orthodox": 3
+     }
+    },
+    {
+     "district": "Batroun",
+     "seats": 2,
+     "by_sect": {
+      "Maronite": 2
+     }
+    },
+    {
+     "district": "Jbeil",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 2,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Keserwan",
+     "seats": 5,
+     "by_sect": {
+      "Maronite": 5
+     }
+    },
+    {
+     "district": "Metn",
+     "seats": 8,
+     "by_sect": {
+      "Maronite": 4,
+      "Greek Orthodox": 2,
+      "Greek Catholic": 1,
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "Baabda",
+     "seats": 6,
+     "by_sect": {
+      "Maronite": 3,
+      "Shia": 2,
+      "Druze": 1
+     }
+    },
+    {
+     "district": "Aley",
+     "seats": 5,
+     "by_sect": {
+      "Druze": 2,
+      "Maronite": 2,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Chouf",
+     "seats": 8,
+     "by_sect": {
+      "Maronite": 3,
+      "Druze": 2,
+      "Sunni": 2,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Beirut 1",
+     "seats": 5,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Armenian Orthodox": 1,
+      "Armenian Catholic": 1
+     }
+    },
+    {
+     "district": "Beirut 2",
+     "seats": 4,
+     "by_sect": {
+      "Armenian Orthodox": 2,
+      "Sunni": 1,
+      "Shia": 1
+     }
+    },
+    {
+     "district": "Beirut 3",
+     "seats": 10,
+     "by_sect": {
+      "Sunni": 5,
+      "Shia": 1,
+      "Druze": 1,
+      "Greek Orthodox": 1,
+      "Minorities": 1,
+      "Evangelical": 1
+     }
+    },
+    {
+     "district": "Baalbek-Hermel",
+     "seats": 10,
+     "by_sect": {
+      "Shia": 6,
+      "Sunni": 2,
+      "Maronite": 1,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Zahle",
+     "seats": 7,
+     "by_sect": {
+      "Greek Catholic": 2,
+      "Sunni": 1,
+      "Shia": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "West Bekaa-Rachaya",
+     "seats": 6,
+     "by_sect": {
+      "Sunni": 2,
+      "Shia": 1,
+      "Druze": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Saida",
+     "seats": 2,
+     "by_sect": {
+      "Sunni": 2
+     }
+    },
+    {
+     "district": "Zahrani",
+     "seats": 3,
+     "by_sect": {
+      "Shia": 2,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Jezzine",
+     "seats": 3,
+     "by_sect": {
+      "Maronite": 2,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Marjayoun-Hasbaya",
+     "seats": 5,
+     "by_sect": {
+      "Shia": 2,
+      "Sunni": 1,
+      "Druze": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Nabatieh",
+     "seats": 3,
+     "by_sect": {
+      "Shia": 3
+     }
+    },
+    {
+     "district": "Tyre",
+     "seats": 4,
+     "by_sect": {
+      "Shia": 4
+     }
+    },
+    {
+     "district": "Bint Jbeil",
+     "seats": 3,
+     "by_sect": {
+      "Shia": 3
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 128,
+     "by_sect": {
+      "Sunni": 27,
+      "Alawite": 2,
+      "Greek Orthodox": 14,
+      "Maronite": 34,
+      "Shia": 27,
+      "Greek Catholic": 8,
+      "Armenian Orthodox": 5,
+      "Druze": 8,
+      "Armenian Catholic": 1,
+      "Minorities": 1,
+      "Evangelical": 1
+     }
+    }
+   ],
+   "source": "https://qifanabki.com/wp-content/uploads/2011/10/ifes-lebanon-electoral-districts-2011.pdf; https://en.wikipedia.org/wiki/2009_Lebanese_general_election",
+   "license": "IFES publication (no licence stated; facts only, attributed); Wikipedia CC BY-SA 4.0",
+   "note": "Copied from research/hub/elections/2009-parliamentary.json (seats_by_confession).",
+   "estimate": false
+  },
+  {
+   "id": "seats-2017-law",
+   "title": "Seats per district and sect under the 2017 law (15 districts), elections of 2018 and 2022",
+   "year": 2018,
+   "rows": [
+    {
+     "district": "Beirut I",
+     "seats": 8,
+     "by_sect": {
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1,
+      "Armenian Orthodox": 3,
+      "Armenian Catholic": 1,
+      "Minorities": 1
+     }
+    },
+    {
+     "district": "Beirut II",
+     "seats": 11,
+     "by_sect": {
+      "Sunni": 6,
+      "Shia": 2,
+      "Druze": 1,
+      "Greek Orthodox": 1,
+      "Evangelical": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon I",
+     "seats": 8,
+     "by_sect": {
+      "Shia": 1,
+      "Maronite": 7
+     }
+    },
+    {
+     "district": "Mount Lebanon II",
+     "seats": 8,
+     "by_sect": {
+      "Maronite": 4,
+      "Greek Orthodox": 2,
+      "Greek Catholic": 1,
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "Mount Lebanon III",
+     "seats": 6,
+     "by_sect": {
+      "Shia": 2,
+      "Druze": 1,
+      "Maronite": 3
+     }
+    },
+    {
+     "district": "Mount Lebanon IV",
+     "seats": 13,
+     "by_sect": {
+      "Sunni": 2,
+      "Druze": 4,
+      "Maronite": 5,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "North I",
+     "seats": 7,
+     "by_sect": {
+      "Sunni": 3,
+      "Alawite": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 2
+     }
+    },
+    {
+     "district": "North II",
+     "seats": 11,
+     "by_sect": {
+      "Sunni": 8,
+      "Alawite": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "North III",
+     "seats": 10,
+     "by_sect": {
+      "Maronite": 7,
+      "Greek Orthodox": 3
+     }
+    },
+    {
+     "district": "South I",
+     "seats": 5,
+     "by_sect": {
+      "Sunni": 2,
+      "Maronite": 2,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "South II",
+     "seats": 7,
+     "by_sect": {
+      "Shia": 6,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "South III",
+     "seats": 11,
+     "by_sect": {
+      "Sunni": 1,
+      "Shia": 8,
+      "Druze": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bekaa I",
+     "seats": 7,
+     "by_sect": {
+      "Sunni": 1,
+      "Shia": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 1,
+      "Greek Catholic": 2,
+      "Armenian Orthodox": 1
+     }
+    },
+    {
+     "district": "Bekaa II",
+     "seats": 6,
+     "by_sect": {
+      "Sunni": 2,
+      "Shia": 1,
+      "Druze": 1,
+      "Maronite": 1,
+      "Greek Orthodox": 1
+     }
+    },
+    {
+     "district": "Bekaa III",
+     "seats": 10,
+     "by_sect": {
+      "Sunni": 2,
+      "Shia": 6,
+      "Maronite": 1,
+      "Greek Catholic": 1
+     }
+    },
+    {
+     "district": "Total",
+     "seats": 128,
+     "by_sect": {
+      "Maronite": 34,
+      "Greek Orthodox": 14,
+      "Greek Catholic": 8,
+      "Armenian Orthodox": 5,
+      "Armenian Catholic": 1,
+      "Minorities": 1,
+      "Sunni": 27,
+      "Shia": 27,
+      "Druze": 8,
+      "Evangelical": 1,
+      "Alawite": 2
+     }
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/2018_Lebanese_general_election; https://en.wikipedia.org/wiki/List_of_members_of_the_2018%E2%80%932022_Lebanese_Parliament",
+   "license": "Wikipedia text CC BY-SA 4.0 (attribution: Wikipedia contributors); underlying official results published by the Lebanese Ministry of Interior and Municipalities, no licence stated",
+   "note": "Copied from research/hub/elections/2018-parliamentary.json (seats_by_confession); the 2022 file has the same allocation.",
+   "estimate": false
+  },
+  {
+   "id": "beirut-i-voters-1960-1972",
+   "title": "Beirut I (1960 law): registered voters by sect, 1960 list and 1972 estimate",
+   "year": 1960,
+   "estimate": false,
+   "rows": [
+    {
+     "sect": "Armenian Orthodox",
+     "y1960_list": 21600,
+     "y1972_estimate": 32190
+    },
+    {
+     "sect": "Greek Orthodox",
+     "y1960_list": 16459,
+     "y1972_estimate": 16709
+    },
+    {
+     "sect": "Maronite",
+     "y1960_list": 13654,
+     "y1972_estimate": 13899
+    },
+    {
+     "sect": "Sunni",
+     "y1960_list": 8861,
+     "y1972_estimate": 6573
+    },
+    {
+     "sect": "Armenian Catholic",
+     "y1960_list": 7403,
+     "y1972_estimate": 5352
+    },
+    {
+     "sect": "Jewish",
+     "y1960_list": 5121,
+     "y1972_estimate": 3558
+    },
+    {
+     "sect": "Greek Catholic",
+     "y1960_list": 5059,
+     "y1972_estimate": 8046
+    },
+    {
+     "sect": "Protestant (Armenian Protestants in 1972)",
+     "y1960_list": 3161,
+     "y1972_estimate": 2749
+    },
+    {
+     "sect": "Syriac Catholic",
+     "y1960_list": 2702,
+     "y1972_estimate": 3082
+    },
+    {
+     "sect": "Shia",
+     "y1960_list": 2200,
+     "y1972_estimate": 1831
+    },
+    {
+     "sect": "Latin",
+     "y1960_list": 1117,
+     "y1972_estimate": 2070
+    },
+    {
+     "sect": "Chaldean Catholic",
+     "y1960_list": 748,
+     "y1972_estimate": null
+    },
+    {
+     "sect": "Syriac Orthodox",
+     "y1960_list": 460,
+     "y1972_estimate": null
+    },
+    {
+     "sect": "Druze",
+     "y1960_list": 152,
+     "y1972_estimate": null
+    },
+    {
+     "sect": "Other",
+     "y1960_list": 180,
+     "y1972_estimate": null
+    }
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beirut_I (Demographics; cites the census office voters list of 4 April 1960 via Middle East Record vol. 1, 1960, and Zaven Messerlian, Armenian Participation in the Lebanese Legislative Elections 1934-2009, Haigazian University Press 2014, p. 255)",
+   "license": "Wikipedia contributors, CC BY-SA 4.0 (facts only; table values as cited there)",
+   "note": "Registered voters, not residents. Beirut I here is the district of the 1960 law that held eight Christian seats. The 1972 column is an estimate and lists only the sects named on the source page (blank means not listed, not zero). Shown for context only; never combine with conflict layers."
+  }
+ ]
+}

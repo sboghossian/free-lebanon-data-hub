@@ -8,7 +8,7 @@ export default async function (T) {
   const here = dirname(fileURLToPath(import.meta.url)), shotDir = join(here, '..', '_check_wide');
   mkdirSync(shotDir, { recursive: true });
   const gut = w => Math.min(56, Math.max(16, w * 0.025));
-  const TABS = ['timeline', 'map', 'world', 'places', 'cost', 'electricity', 'data', 'about'];
+  const TABS = ['timeline', 'map', 'world', 'mideast', 'places', 'companies', 'aid', 'cost', 'electricity', 'trade', 'data', 'about'];
   const SHOTS = { 2560: ['timeline', 'map', 'world', 'places', 'data'], 3840: ['timeline'] };
   const laneH = {};
   const panelBox = id => `(() => { const e = document.getElementById(${JSON.stringify(id)}); if (!e || e.hidden) return null; const c = getComputedStyle(e), r = e.getBoundingClientRect(); return { w: r.width - parseFloat(c.paddingLeft) - parseFloat(c.paddingRight), left: r.left, right: innerWidth - r.right }; })()`;

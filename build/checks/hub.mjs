@@ -3,8 +3,8 @@ import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync, statSync, symlinkSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
-const TABS = ['timeline', 'map', 'places', 'cost', 'electricity', 'world', 'data', 'about'];
-const LABELS = 'Timeline,Strike map,Places,Cost of living,Electricity,World,Data,About';
+const TABS = ['timeline', 'map', 'places', 'cost', 'electricity', 'trade', 'world', 'mideast', 'companies', 'aid', 'data', 'about'];
+const LABELS = 'Timeline,Strike map,Places,Cost of living,Electricity,Trade & investment,World,Middle East,Companies,Aid & NGOs,Data,About';
 const csvRows = text => {  // minimal CSV reader (quotes, doubled quotes, newlines inside quotes); returns the rows
   const rows = []; let row = [], cell = '', q = false;
   for (let i = 0; i < text.length; i++) {
@@ -67,7 +67,7 @@ export default async function (T) {
 
   // ---------------------------------------------------------------- tabs and routing
   const h = await open(1400);
-  ok('tabs: 8 tabs in the order Timeline, Strike map, Places, Cost of living, Electricity, World, Data, About', await h.ev(`[...document.querySelectorAll(".hub-tabs [role=tab]")].map(x => x.textContent).join() === "${LABELS}"`));
+  ok(`tabs: ${TABS.length} tabs in the order ${LABELS}`, await h.ev(`[...document.querySelectorAll(".hub-tabs [role=tab]")].map(x => x.textContent).join() === "${LABELS}"`));
   ok('tabs: D.hub.tabs matches the markup (ids and routes from the plugins)', await h.ev(`JSON.stringify(HUB.data.hub.tabs.map(t => t.id)) === JSON.stringify(${JSON.stringify(TABS)}) && HUB.data.hub.tabs.find(t => t.id === "places").routes.includes("place") && HUB.data.hub.tabs.find(t => t.id === "world").routes.includes("compare")`));
   for (const id of ['places', 'cost', 'electricity', 'world']) {
     await h.ev(`document.getElementById("t-${id}").click()`); await sleep(250);
@@ -176,7 +176,7 @@ export default async function (T) {
       const sw = await m.ev('document.documentElement.scrollWidth');
       if (sw > 390) bad.push([id, sw]);
     }
-    ok(`i18n ${lg.toUpperCase()}: 390px, no horizontal overflow on any of the 8 tabs`, bad.length === 0, bad);
+    ok(`i18n ${lg.toUpperCase()}: 390px, no horizontal overflow on any of the ${TABS.length} tabs`, bad.length === 0, bad);
     ok(`i18n ${lg.toUpperCase()}: 390px, the tab bar and the language switch fit the screen`, await m.ev('(() => { const n = document.querySelector(".hub-tabs").getBoundingClientRect(), s = document.getElementById("langSw").getBoundingClientRect(); return n.left >= 0 && n.right <= 390 && s.left >= 0 && s.right <= 390; })()'));
     if (lg === 'ar') await m.shot('shot-v7-ar-390.png');
     ok(`i18n ${lg.toUpperCase()}: 390px, 0 console errors`, m.errors().length === 0, m.errors());
@@ -234,7 +234,7 @@ export default async function (T) {
   const isoBad = [...new Set([...worldFiles].flatMap(f => colsOf(f).slice(1).map(x => x[0])))].filter(i => !cdIds.has(i));
   ok('downloads: every iso3 in the world CSVs is in countries.csv, and Lebanon has its Arabic and French names', isoBad.length === 0 && cd.some(x => x[0] === 'LBN' && x[1] === 'Lebanon' && x[2] && x[3]), isoBad.slice(0, 5));
   const bigBad = man.files.filter(f => f.size > 8 * 1024 * 1024);
-  ok('downloads: every file is at most 8 MB and the whole set is at most 50 MB', bigBad.length === 0 && man.files.reduce((a, f) => a + f.size, 0) <= 50 * 1024 * 1024, man.files.reduce((a, f) => a + f.size, 0));
+  ok('downloads: every file is at most 8 MB and the whole set is at most 150 MB (published over several calls of at most 64 MB)', bigBad.length === 0 && man.files.reduce((a, f) => a + f.size, 0) <= 150 * 1024 * 1024, man.files.reduce((a, f) => a + f.size, 0));
   const loose = [];   // every series in the published series files points at a topic CSV that holds its series_id
   let nWithCsv = 0;
   for (const j of ['cost/fx', 'cost/prices', 'money/series', 'electricity/power', 'electricity/nightlights', 'climate/climate', 'war/series', 'people/series']) {
@@ -255,7 +255,7 @@ export default async function (T) {
   ok('downloads: series_id is unique across the series CSVs', dupSer.length === new Set(dupSer).size, dupSer.length - new Set(dupSer).size);
   const tl = csvRows(readFileSync(join(siteDir, 'data/csv/timeline.csv'), 'utf8').replace(/^\uFEFF/, ''));
   ok('downloads: timeline.csv has one row per embedded event with id, date, title, why and sources', tl.length - 1 === ev.length && tl[0].join() === 'id,date,date_precision,title,why,types,tracks,place,actors,weight,confidence,source_urls', [tl.length - 1, ev.length]);
-  const pub = JSON.parse(readFileSync(join(siteDir, '..', 'build', 'publish_files.json'), 'utf8'));
+  const pub = JSON.parse(readFileSync(existsSync(join(siteDir, 'publish_files.json')) ? join(siteDir, 'publish_files.json') : join(siteDir, '..', 'build', 'publish_files.json'), 'utf8'));   // HUB_OUT builds write it beside the page
   const onDisk = walk(join(siteDir, 'data')).map(f => 'data/' + f).sort();
   ok('publish_files.json: lists every file under v5/data (and nothing else), each mapped to an existing local path', JSON.stringify(Object.keys(pub).sort()) === JSON.stringify(onDisk) && Object.values(pub).every(p => existsSync(p)), [Object.keys(pub).length, onDisk.length]);
   ok('publish_files.json: at most 480 entries (the artifact holds 511 per version) and no file over 8 MB', Object.keys(pub).length <= 480 && Object.values(pub).every(p => statSync(p).size <= 8 * 1024 * 1024), [Object.keys(pub).length, Object.entries(pub).filter(([, p]) => statSync(p).size > 8 * 1024 * 1024).map(([k]) => k).slice(0, 5)]);

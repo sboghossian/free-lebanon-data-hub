@@ -1,0 +1,17 @@
+/* Companies tab (v10). Card, table, chip and note styles are shared: see tab_fb_shared.css. Logical properties only. */
+#companiesRoot .cmp-search{margin:12px 0 4px}
+#companiesRoot .cmp-search input{width:100%;max-width:440px;box-sizing:border-box;font:15px var(--body);padding:9px 11px;border:1px solid var(--rule-2);background:var(--paper);color:var(--ink);border-radius:4px}
+#cmpAlso{margin:4px 0 8px;min-height:1.4em}
+#cmpAlso .chip{margin-inline-end:4px}
+.cmp-metric{margin:14px 0 12px}
+.cmp-co{margin:24px 0 6px;font-size:18px}
+.cmp-card{margin:14px 0}
+.cmp-tbl{margin:8px 0}
+.cmp-tbl td.cmp-wrap{min-width:200px;max-width:360px;overflow-wrap:anywhere}
+.cmp-tbl a,.cmp-foot a,.cmp-list a{overflow-wrap:anywhere}
+.cmp-tbl td:last-child{min-width:120px}
+.cmp-list{margin:6px 0;padding-inline-start:20px;font-size:14px;line-height:1.6}
+.cmp-foot{margin:18px 0 6px}
+.cmp-rounds{margin:14px 0}
+#cmpView .hc-bars li{grid-template-columns:minmax(110px,220px) minmax(0,1fr) auto}
+@media (max-width:640px){#cmpView .hc-bars li{grid-template-columns:minmax(90px,140px) minmax(0,1fr) auto}.cmp-tbl td.cmp-wrap{min-width:160px}}

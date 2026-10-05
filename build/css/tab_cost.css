@@ -1,3 +1,13 @@
 /* Cost of living tab (FE-B). Card, table, map and list styles are shared: see tab_fb_shared.css. */
 #costView .hc-bars li{grid-template-columns:minmax(120px,240px) minmax(0,1fr) auto}
 @media (max-width:640px){#costView .hc-bars li{grid-template-columns:minmax(90px,150px) minmax(0,1fr) auto}}
+/* food security view (v10) */
+#costView .fd-ctl{display:flex;flex-wrap:wrap;gap:10px 16px;margin:10px 0}
+#costView .fd-ctl select{max-width:100%;min-width:0}
+#costView .fd-stack{display:flex;height:22px;border:1px solid var(--rule-2);border-radius:4px;overflow:hidden;margin:8px 0 10px;direction:ltr}
+#costView .fd-stack i{display:block;min-width:2px}
+#costView .fd-leg{list-style:none;margin:0;padding:0;font-size:13.5px}
+#costView .fd-leg li{display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:4px 8px;align-items:baseline;padding:4px 0;border-bottom:1px solid var(--rule)}
+#costView .fd-sw{width:12px;height:12px;border-radius:2px;display:inline-block;align-self:center}
+#costView #foodBars .chip{margin-top:10px}
+#costView .hc-bars .hb-l{overflow-wrap:anywhere}
