@@ -870,5 +870,177 @@
  "The Hub's builder works at HAQQ Legal AI. It is listed under the same inclusion rule as every other row.": {
   "ar": "يعمل منشئ مركز البيانات في HAQQ Legal AI. وهي مدرجة وفق قاعدة الإدراج نفسها المطبّقة على كل الصفوف الأخرى.",
   "fr": "Le créateur du Hub travaille chez HAQQ Legal AI. L'entreprise figure selon la même règle d'inclusion que toutes les autres lignes."
+ },
+ "All origins": {
+  "ar": "كل الأصول",
+  "fr": "Toutes les origines"
+ },
+ "All roles": {
+  "ar": "كل الأدوار",
+  "fr": "Tous les rôles"
+ },
+ "Anyone listed can ask to be removed or corrected: open an issue at {a}.": {
+  "ar": "يمكن لأي شخص مذكور أن يطلب حذف اسمه أو تصحيحه: افتح بلاغاً على {a}.",
+  "fr": "Toute personne citée peut demander à être retirée ou corrigée : ouvrez un ticket sur {a}."
+ },
+ "Born in Lebanon": {
+  "ar": "وُلد في لبنان",
+  "fr": "Né au Liban"
+ },
+ "CEO": {
+  "ar": "مدير تنفيذي",
+  "fr": "PDG"
+ },
+ "CEOs": {
+  "ar": "المديرون التنفيذيون",
+  "fr": "PDG"
+ },
+ "Chair": {
+  "ar": "رئيس مجلس الإدارة",
+  "fr": "Président du conseil"
+ },
+ "Chairs and other executives": {
+  "ar": "رؤساء المجالس وكبار التنفيذيين الآخرين",
+  "fr": "Présidents du conseil et autres dirigeants"
+ },
+ "City": {
+  "ar": "المدينة",
+  "fr": "Ville"
+ },
+ "Clear": {
+  "ar": "مسح",
+  "fr": "Effacer"
+ },
+ "Co-founder": {
+  "ar": "شريك مؤسس",
+  "fr": "Cofondateur"
+ },
+ "Companies around the world founded or led by Lebanese people, as public sources describe them.": {
+  "ar": "شركات حول العالم أسسها أو يقودها لبنانيون، كما تصفها المصادر العامة.",
+  "fr": "Des entreprises du monde entier fondées ou dirigées par des Libanais, telles que les décrivent les sources publiques."
+ },
+ "Companies headquartered in the country": {
+  "ar": "الشركات التي مقرها في البلد",
+  "fr": "Entreprises dont le siège est dans le pays"
+ },
+ "Companies headquartered in {c}": {
+  "ar": "الشركات التي مقرها في {c}",
+  "fr": "Entreprises dont le siège est en {c}"
+ },
+ "Established": {
+  "ar": "راسخة",
+  "fr": "Établies"
+ },
+ "Executive": {
+  "ar": "مسؤول تنفيذي",
+  "fr": "Dirigeant"
+ },
+ "Founder": {
+  "ar": "مؤسس",
+  "fr": "Fondateur"
+ },
+ "Founders and co-founders": {
+  "ar": "المؤسسون والشركاء المؤسسون",
+  "fr": "Fondateurs et cofondateurs"
+ },
+ "Hover, focus or tap a country to see its companies; click or press Enter to pin the full list below the map.": {
+  "ar": "مرّر المؤشر على بلد أو ركّز عليه أو المسه لترى شركاته؛ انقر أو اضغط Enter لتثبيت القائمة الكاملة تحت الخريطة.",
+  "fr": "Survolez, ciblez au clavier ou touchez un pays pour voir ses entreprises ; cliquez ou appuyez sur Entrée pour épingler la liste complète sous la carte."
+ },
+ "Lebanese abroad": {
+  "ar": "لبنانيون في الخارج",
+  "fr": "Libanais à l'étranger"
+ },
+ "Lebanese citizen": {
+  "ar": "مواطن لبناني",
+  "fr": "Citoyen libanais"
+ },
+ "Lebanon is outlined and not counted.": {
+  "ar": "لبنان محدّد بإطار ولا يُحتسب.",
+  "fr": "Le Liban est cerné d'un trait et n'est pas compté."
+ },
+ "Listed": {
+  "ar": "مدرجة",
+  "fr": "Cotées"
+ },
+ "Listed abroad: revenue by year": {
+  "ar": "المدرجة في الخارج: الإيرادات بحسب السنة",
+  "fr": "Cotées à l'étranger : chiffre d'affaires par année"
+ },
+ "Loading the map": {
+  "ar": "جارٍ تحميل الخريطة",
+  "fr": "Chargement de la carte"
+ },
+ "No companies listed.": {
+  "ar": "لا شركات مدرجة.",
+  "fr": "Aucune entreprise listée."
+ },
+ "No company matches the filters in this country.": {
+  "ar": "لا شركة في هذا البلد تطابق عوامل التصفية.",
+  "fr": "Aucune entreprise de ce pays ne correspond aux filtres."
+ },
+ "None": {
+  "ar": "لا شيء",
+  "fr": "Aucune"
+ },
+ "Of Lebanese descent": {
+  "ar": "من أصل لبناني",
+  "fr": "D'origine libanaise"
+ },
+ "Person": {
+  "ar": "الشخص",
+  "fr": "Personne"
+ },
+ "Role": {
+  "ar": "الدور",
+  "fr": "Rôle"
+ },
+ "Sources and licences: Wikidata (CC0 1.0); English Wikipedia and press articles, facts only, each linked in the Sources column. Only the public business role is shown. Origin is the one the source states; hover the origin label for the sentence.": {
+  "ar": "المصادر والتراخيص: ويكيداتا (CC0 1.0)؛ ويكيبيديا الإنجليزية والمقالات الصحفية، الوقائع فقط، وكل منها مرتبط في عمود المصادر. يُعرض الدور المهني العام فقط. الأصل هو ما يذكره المصدر؛ مرّر المؤشر على وسم الأصل لرؤية الجملة.",
+  "fr": "Sources et licences : Wikidata (CC0 1.0) ; Wikipédia en anglais et articles de presse, faits seulement, chacun lié dans la colonne Sources. Seul le rôle professionnel public est montré. L'origine est celle que la source indique ; survolez l'étiquette d'origine pour voir la phrase."
+ },
+ "Startups": {
+  "ar": "الشركات الناشئة",
+  "fr": "Startups"
+ },
+ "The map could not be loaded. The table below has the same data.": {
+  "ar": "تعذّر تحميل الخريطة. الجدول أدناه يضم البيانات نفسها.",
+  "fr": "La carte n'a pas pu être chargée. Le tableau ci-dessous contient les mêmes données."
+ },
+ "Too small to draw:": {
+  "ar": "صغيرة جداً للرسم:",
+  "fr": "Trop petits pour être dessinés :"
+ },
+ "World map: Lebanese-led companies by headquarters country": {
+  "ar": "خريطة العالم: الشركات التي يقودها لبنانيون بحسب بلد المقر",
+  "fr": "Carte du monde : entreprises dirigées par des Libanais, selon le pays du siège"
+ },
+ "and {n} more": {
+  "ar": "و{n} أخرى",
+  "fr": "et {n} autres"
+ },
+ "{a} or more": {
+  "ar": "{a} أو أكثر",
+  "fr": "{a} ou plus"
+ },
+ "{c}, {p}, {r}, {o}": {
+  "ar": "{c}، {p}، {r}، {o}",
+  "fr": "{c}, {p}, {r}, {o}"
+ },
+ "{n} companies": {
+  "ar": "{n} شركة",
+  "fr": "{n} entreprises"
+ },
+ "{n} company": {
+  "ar": "{n} شركة",
+  "fr": "{n} entreprise"
+ },
+ "Described as Lebanese": {
+  "ar": "موصوف بأنه لبناني",
+  "fr": "Décrit comme libanais"
+ },
+ "Included: a founder, co-founder, CEO, chair, president or another top executive, whose origin a source states (born in Lebanon, Lebanese citizen, of Lebanese descent, or described as Lebanese), never guessed from a name.": {
+  "ar": "المشمول: مؤسس أو شريك مؤسس أو مدير تنفيذي أو رئيس مجلس أو رئيس أو مسؤول تنفيذي كبير آخر يذكر مصدر أصله (وُلد في لبنان أو مواطن لبناني أو من أصل لبناني، أو موصوف بأنه لبناني)، ولا يُخمَّن أبداً من الاسم.",
+  "fr": "Inclus : un fondateur, cofondateur, PDG, président du conseil, président ou autre haut dirigeant dont une source indique l'origine (né au Liban, citoyen libanais, d'origine libanaise, ou décrit comme libanais), jamais déduite d'un nom."
  }
 }

@@ -22,7 +22,7 @@ Live page: <https://claude.ai/artifact/RWViDXvpKXH6KuCeS2qta5>
 | **Cost of living.** Exchange rates, bread, fuel, generators, wages. ![Cost of living](docs/img/tab-cost-of-living.png) | **Electricity.** Supply hours, generators, production, night lights. ![Electricity](docs/img/tab-electricity.png) |
 | **World.** Lebanon against the world on a 3D globe and a flat map. ![World globe](docs/img/tab-world-globe.png) | **Data.** Every dataset, series and file in one place, with one search box across all of them. ![Data](docs/img/tab-data.png) |
 | **Trade & investment.** Exports and imports by product and partner since 1995, Customs monthly figures, foreign investment, startup funding. ![Trade & investment](docs/img/tab-trade.png) | **Middle East.** Lebanon against its neighbours, ties of people and money, refugees across the region, conflict events. ![Middle East](docs/img/tab-mideast.png) |
-| **Companies.** Listed shares, companies listed abroad, startups and exits, family groups, banks: each list ranked by one public measure. ![Companies](docs/img/tab-companies.png) | **Aid & NGOs.** Aid by year, donor and appeal, who works where, World Bank projects, people reached as agencies report it. ![Aid & NGOs](docs/img/tab-aid.png) |
+| **Companies.** Listed shares, Lebanese founders and leaders abroad on a world map, startups and exits, family groups, banks: each list ranked by one public measure. ![Companies](docs/img/tab-companies.png) | **Aid & NGOs.** Aid by year, donor and appeal, who works where, World Bank projects, people reached as agencies report it. ![Aid & NGOs](docs/img/tab-aid.png) |
 
 Arabic is a full right-to-left interface, not a label swap:
 
@@ -47,7 +47,7 @@ Counts from `python3 build/build_timeline.py` on this repository.
 | Registered voters by sect, 2014 (not residents) | 1,465 voter lists, 1,385 places |
 | Health and education facilities | 3,574 points |
 | Trade | goods by product and partner 1995 to 2024 (CEPII BACI), Customs monthly 2016 to 2026 |
-| Companies | 10 listed shares, 3 listed abroad, 29 startups, family groups and banks |
+| Companies | 10 listed shares, 29 startups, family groups and banks; Lebanese abroad: 232 founders and leaders of companies in 26 countries |
 | Aid | OCHA FTS 2006 to 2026, OECD donors, 140 World Bank projects, who works where |
 | Middle East | 17 economies, 2,385 UCDP conflict events in Lebanon (1989 to 2024) |
 | Translated strings | 16,741 Arabic, 16,741 French |
@@ -121,6 +121,9 @@ Each gap is also written up on the About tab, with what was done and what cannot
 - **Elections.** The 2026 vote was postponed, so there are no results.
 - **Religion and politics.** The 2014 voter lists are the newest public breakdown by sect for each town. There is no count of
   residents by sect, and results are not published by town, so no town gets a political label.
+- **Lebanese abroad.** A person is listed only when a public source says they are Lebanese, Lebanese-born or of Lebanese descent;
+  origin is never guessed from a name. The list misses many people the sources do not name. Anyone listed can ask to be removed
+  or corrected by opening an issue.
 - **Companies.** Private companies publish no revenue or profit, and startup valuations are private, so most firms cannot be
   ranked by performance. Each list states the one public measure it uses.
 - **Aid.** People-reached figures are reported by the agencies themselves. FTS, OECD and World Bank figures overlap and are

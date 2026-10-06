@@ -1,10 +1,10 @@
-/* ------------------------------------------------------------ Companies tab (v10, LEG B). Data: data/companies/{listed,abroad,startups,family,banks}.json (emit_companies.py).
-   Views: Listed in Beirut (Beirut Stock Exchange), Listed abroad (revenue by year), Startups and exits, Family businesses, Banks (sector totals over time and per bank).
+/* ------------------------------------------------------------ Companies tab (v10, LEG B; v11). Data: data/companies/{listed,abroad,startups,family,banks}.json (emit_companies.py).
+   Views: Listed in Beirut (Beirut Stock Exchange), Lebanese abroad (world map and table of Lebanese-led companies headquartered abroad, then listed-abroad revenue by year), Startups and exits, Family businesses, Banks (sector totals over time and per bank).
    Every list states its ONE ranking metric at the top (it follows the sort chosen); there is no blended score. Every row links its source. One search box covers the open view and says where else it matches.
    Hash: #companies, #companies/<view>. All names start with cmp (the scripts share one scope). Charts reuse fbCard / hubBars; tables reuse fbTable. No downloads here: one link to the Data tab. */
-const CMP_VIEWS = [{ id: 'listed', label: N('Listed in Beirut') }, { id: 'abroad', label: N('Listed abroad') }, { id: 'startups', label: N('Startups and exits') }, { id: 'family', label: N('Family businesses') }, { id: 'banks', label: N('Banks') }];
+const CMP_VIEWS = [{ id: 'listed', label: N('Listed in Beirut') }, { id: 'abroad', label: N('Lebanese abroad') }, { id: 'startups', label: N('Startups and exits') }, { id: 'family', label: N('Family businesses') }, { id: 'banks', label: N('Banks') }];
 const CMP = { view: 'listed', q: '', sort: {}, pref: false, year: 'all', D: null, hay: {} };
-const CMP_FILES = ['listed', 'abroad', 'startups', 'family', 'banks'];
+const CMP_FILES = ['listed', 'abroad', 'startups', 'family', 'banks', 'diaspora'];
 const cmpUsd = v => v == null ? '' : '$' + nfCompact(v);
 const cmpN = (v, d) => v == null ? '' : nf(v, d == null ? 0 : d);
 const cmpNone = () => t('not given');
@@ -69,9 +69,122 @@ function cmpListed(el) {
   }
 }
 
-/* ---------- Listed abroad ---------- */
+/* ---------- Lebanese abroad (v11): world map by headquarters country, filters, sortable table; the listed-abroad revenue stays below ---------- */
+const CMP_ROLES = [['all', N('All roles')], ['founder', N('Founders and co-founders')], ['ceo', N('CEOs')], ['exec', N('Chairs and other executives')]];
+const CMP_ORIGINS = [['all', N('All origins')], ['born_in_lebanon', N('Born in Lebanon')], ['lebanese_citizen', N('Lebanese citizen')], ['lebanese_descent', N('Of Lebanese descent')], ['described_lebanese', N('Described as Lebanese')]];
+const CMP_KINDS = [['all', N('All kinds')], ['startup', N('Startups')], ['established', N('Established')], ['listed', N('Listed')]];
+const CMP_ROLE_L = { founder: N('Founder'), 'co-founder': N('Co-founder'), ceo: N('CEO'), chair: N('Chair'), executive: N('Executive') };
+const CMP_ORIG_L = { born_in_lebanon: N('Born in Lebanon'), lebanese_citizen: N('Lebanese citizen'), lebanese_descent: N('Of Lebanese descent'), described_lebanese: N('Described as Lebanese') };
+const CMP_DIA = { role: 'all', origin: 'all', kind: 'all', iso: null, sk: 'company', dir: 1, paths: null, rows: [], by: new Map() };
+const CMP_DCOLS = [['company', N('Company')], ['country', N('Country')], ['city', N('City')], ['founded', N('Founded')], ['sector', N('Sector')], ['person', N('Person')], ['role', N('Role')], ['origin', N('Origin')], [null, N('Sources')]];
+const cmpCtry = iso => { const n = (CMP.D.diaspora.names || {})[iso]; return n ? ((LANG === 'ar' && n[1]) || (LANG === 'fr' && n[2]) || n[0]) : iso; };
+const cmpCoName = r => (LANG === 'ar' && r.ca) || (LANG === 'fr' && r.cf) || r.c;
+const cmpRoleOf = r => CMP_ROLE_L[String(r.rl).toLowerCase()] ? t(CMP_ROLE_L[String(r.rl).toLowerCase()]) : String(r.rl || '');
+const cmpBin = n => n >= 8 ? 4 : n >= 4 ? 3 : n >= 2 ? 2 : n >= 1 ? 1 : 0;
+const cmpLine = r => t('{c}, {p}, {r}, {o}', { c: cmpCoName(r), p: r.p, r: cmpRoleOf(r), o: t(CMP_ORIG_L[r.o]) });
+const cmpDKey = {
+  company: r => cmpCoName(r), country: r => cmpCtry(r.i), city: r => r.h, founded: r => r.f, sector: r => r.s, person: r => r.p, role: r => cmpRoleOf(r), origin: r => t(CMP_ORIG_L[r.o]) };
+function cmpDiaFiltered() {
+  const x = CMP_DIA, H = CMP.hay.abroad;
+  return CMP.D.diaspora.rows.filter(r => (x.role === 'all' || r.r === x.role) && (x.origin === 'all' || r.o === x.origin) && (x.kind === 'all' || r.k === x.kind) && cmpHit(H.get('d' + r._i)));
+}
+function cmpDiaPaths(cb) {
+  if (CMP_DIA.paths) return cb(CMP_DIA.paths);
+  const X = lon => (lon + 180).toFixed(1), Y = lat => (85 - lat).toFixed(1);
+  hubLoad('data/trade/world-geo.json').then(g => {
+    CMP_DIA.paths = g.countries.map(c => ({ iso: c.iso3, d: c.g.map(poly => poly.map(r => 'M' + r.map(p => X(p[0]) + ' ' + Y(p[1])).join('L') + 'Z').join('')).join('') }));
+    cb(CMP_DIA.paths);
+  }, () => cb(null));
+}
+function cmpTip(iso, tip, box, at) {
+  const L = CMP_DIA.by.get(iso) || [], name = cmpCtry(iso);
+  tip.innerHTML = iso === 'LBN' ? `<b>${esc(name)}</b><br><span class="dim">${esc(t('Lebanon is outlined and not counted.'))}</span>`
+    : `<b>${esc(name)}</b> <span class="mono dim">${esc(nf(L.length))}</span>` + (L.length ? '<ul>' + L.slice(0, 8).map(r => `<li>${esc(cmpLine(r))}</li>`).join('') + '</ul>' + (L.length > 8 ? `<p class="dim">${esc(t('and {n} more', { n: nf(L.length - 8) }))}</p>` : '') : `<br><span class="dim">${esc(t('No companies listed.'))}</span>`);
+  tip.hidden = false;
+  const b = box.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = at.x - b.left + 14, y = at.y - b.top + 14;
+  if (x + w > b.width - 4) x = Math.max(4, at.x - b.left - w - 14);
+  if (y + h > b.height - 4) y = Math.max(4, b.height - h - 4);
+  tip.style.insetInlineStart = '0'; tip.style.left = x + 'px'; tip.style.top = y + 'px';
+}
+function cmpPinDraw() {
+  const el = $('#cmpPin'), iso = CMP_DIA.iso;
+  $$('#cmpMap path.sel').forEach(p => p.classList.remove('sel'));
+  if (!el) return;
+  if (!iso) { el.innerHTML = ''; return; }
+  const p = $('#cmpMap path[data-iso="' + iso + '"]'); if (p) p.classList.add('sel');
+  const L = CMP_DIA.by.get(iso) || [];
+  el.innerHTML = `<div class="cmp-pinh"><h4 class="fb-t">${esc(t('Companies headquartered in {c}', { c: cmpCtry(iso) }))} <span class="mono dim">${esc(nf(L.length))}</span></h4><button type="button" class="chip sm-c" id="cmpPinX">${esc(t('Clear'))}</button></div>` +
+    (L.length ? '<ul class="cmp-pinl">' + L.map(r => `<li>${esc(cmpLine(r))}${r.h ? ' <span class="dim">' + esc(r.h) + '</span>' : ''}</li>`).join('') + '</ul>' : cmpNote(t('No company matches the filters in this country.')));
+  $('#cmpPinX').onclick = () => { CMP_DIA.iso = null; cmpPinDraw(); };
+}
+function cmpDiaTable() {
+  const el = $('#cmpDTbl'), x = CMP_DIA;
+  if (!el) return;
+  const get = cmpDKey[x.sk] || cmpDKey.company, rows = CMP_DIA.rows.slice().sort((a, b) => {
+    const u = get(a), v = get(b), n = x.sk === 'founded' ? cmpNum(u, v, x.dir < 0) : x.dir * cmpName(u == null ? '' : u, v == null ? '' : v);
+    return n || cmpName(cmpCoName(a), cmpCoName(b)) || cmpName(a.p, b.p);
+  });
+  const head = CMP_DCOLS.map(c => c[0] ? `<th scope="col" aria-sort="${x.sk === c[0] ? (x.dir > 0 ? 'ascending' : 'descending') : 'none'}"><button type="button" class="cmp-sort" data-k="${c[0]}">${esc(t(c[1]))}<span aria-hidden="true">${x.sk === c[0] ? (x.dir > 0 ? ' ▲' : ' ▼') : ''}</span></button></th>` : `<th scope="col">${esc(t(c[1]))}</th>`).join('');
+  const body = rows.map(r => `<tr><td><b>${esc(cmpCoName(r))}</b></td><td>${esc(cmpCtry(r.i))}</td><td>${esc(r.h)}</td><td class="num">${r.f ? esc(fy(r.f)) : esc(cmpNone())}</td><td>${esc(r.s)}</td><td>${esc(r.p)}${r.y ? ` <span class="dim mono">${esc(r.y)}</span>` : ''}</td><td>${esc(cmpRoleOf(r))}</td>` +
+    `<td><span class="chip sm-c fb-tag cmp-or" title="${esc(r.q)}">${esc(t(CMP_ORIG_L[r.o]))}</span></td><td class="cmp-srcs">${cmpSrcs(r.u)}</td></tr>`).join('');
+  el.innerHTML = rows.length ? `<div class="fb-scroll"><table class="fb-tbl cmp-tbl cmp-dtbl"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>` : `<p class="hub-empty">${esc(t('Nothing in this view matches the search.'))}</p>`;
+  el.querySelectorAll('.cmp-sort').forEach(b => b.onclick = () => { const k = b.dataset.k; x.dir = x.sk === k ? -x.dir : 1; x.sk = k; cmpDiaTable(); const nb = $('#cmpDTbl .cmp-sort[data-k="' + k + '"]'); if (nb) nb.focus(); });
+}
+function cmpDiaUpdate() {
+  const rows = cmpDiaFiltered(), by = new Map();
+  rows.forEach(r => { if (!by.has(r.i)) by.set(r.i, []); by.get(r.i).push(r); });
+  by.forEach(l => l.sort((a, b) => cmpName(cmpCoName(a), cmpCoName(b))));
+  CMP_DIA.rows = rows; CMP_DIA.by = by;
+  const cos = new Set(rows.map(r => r.c)).size, pe = new Set(rows.map(r => r.p)).size;
+  $('#cmpDStats').innerHTML = fbStats([{ k: t('Companies'), v: nf(cos), n: '' }, { k: t('People'), v: nf(pe), n: '' }, { k: t('Countries'), v: nf(by.size), n: '' }]);
+  $$('#cmpMap path[data-iso]').forEach(p => { const n = (by.get(p.dataset.iso) || []).length, c = p.dataset.iso === 'LBN' ? 0 : cmpBin(n); p.setAttribute('class', 'cmp-c b' + c + (p.dataset.iso === 'LBN' ? ' leb' : '') + (p.dataset.iso === CMP_DIA.iso ? ' sel' : ''));
+    if (p.dataset.iso !== 'LBN') { if (n) { p.setAttribute('tabindex', '0'); p.setAttribute('role', 'button'); p.setAttribute('aria-label', cmpCtry(p.dataset.iso) + ': ' + tp('{n} company', '{n} companies', n, { n: nf(n) })); } else { p.removeAttribute('tabindex'); p.removeAttribute('role'); p.removeAttribute('aria-label'); } } });
+  const miss = $('#cmpMiss');
+  if (miss && CMP_DIA.paths) { const have = new Set(CMP_DIA.paths.map(p => p.iso)), m = [...by.keys()].filter(i => !have.has(i)); miss.innerHTML = m.length ? esc(t('Too small to draw:')) + ' ' + m.map(i => `<button type="button" class="chip sm-c" data-iso="${i}">${esc(cmpCtry(i))} (${nf(by.get(i).length)})</button>`).join(' ') : ''; }
+  cmpPinDraw(); cmpDiaTable();
+}
+function cmpDiaMap(box) {
+  cmpDiaPaths(paths => {
+    if (!$('#cmpMapBox')) return;
+    if (!paths) { box.innerHTML = `<p class="hub-empty">${esc(t('The map could not be loaded. The table below has the same data.'))}</p>`; return; }
+    box.innerHTML = `<svg id="cmpMap" class="cmp-map" viewBox="0 0 360 145" role="group" aria-label="${esc(t('World map: Lebanese-led companies by headquarters country'))}">${paths.map(c => `<path d="${c.d}" data-iso="${c.iso}" class="cmp-c b0" fill-rule="evenodd"></path>`).join('')}</svg><div class="cmp-tip" id="cmpTip" role="status" hidden></div>`;
+    const svg = $('#cmpMap'), tip = $('#cmpTip'), isoOf = ev => { const p = ev.target.closest && ev.target.closest('path[data-iso]'); return p ? p.dataset.iso : null; };
+    tip.dir = document.documentElement.dir || 'ltr';
+    svg.addEventListener('pointerover', ev => { const i = isoOf(ev); if (i) cmpTip(i, tip, box, { x: ev.clientX, y: ev.clientY }); });
+    svg.addEventListener('pointermove', ev => { const i = isoOf(ev); if (i && !tip.hidden) cmpTip(i, tip, box, { x: ev.clientX, y: ev.clientY }); });
+    svg.addEventListener('pointerleave', () => { tip.hidden = true; });
+    svg.addEventListener('focusin', ev => { const i = isoOf(ev); if (i) { const r = ev.target.getBoundingClientRect(); cmpTip(i, tip, box, { x: r.left + r.width / 2, y: r.top + r.height / 2 }); } });
+    svg.addEventListener('focusout', () => { tip.hidden = true; });
+    const pin = i => { if (i && i !== 'LBN' && (CMP_DIA.by.get(i) || []).length) { CMP_DIA.iso = CMP_DIA.iso === i ? null : i; cmpPinDraw(); const pn = $('#cmpPin'); if (CMP_DIA.iso && pn) pn.scrollIntoView({ block: 'nearest' }); } };
+    svg.addEventListener('click', ev => pin(isoOf(ev)));
+    svg.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { const i = isoOf(ev); if (i) { ev.preventDefault(); pin(i); } } else if (ev.key === 'Escape') { tip.hidden = true; } });
+    cmpDiaUpdate();
+  });
+}
 function cmpAbroad(el) {
-  const Ab = CMP.D.abroad, cos = Ab.companies.filter(c => cmpHit(CMP.hay.abroad.get(c.name))), withFy = cos.filter(c => c.fiscal_years.length), ctx = cos.filter(c => !c.fiscal_years.length);
+  const Di = CMP.D.diaspora, sel = (id, lab, o, cur) => cmpSel(id, lab, o, cur);
+  el.innerHTML = `<p class="lead cmp-lead">${esc(t('Companies around the world founded or led by Lebanese people, as public sources describe them.'))}</p>` +
+    `<p class="note cmp-rule">${esc(t('Included: a founder, co-founder, CEO, chair, president or another top executive, whose origin a source states (born in Lebanon, Lebanese citizen, of Lebanese descent, or described as Lebanese), never guessed from a name.'))}</p>` +
+    `<div class="d-filters cmp-dfil">${sel('cmpDRole', t('Role'), CMP_ROLES, CMP_DIA.role)}${sel('cmpDOrig', t('Origin'), CMP_ORIGINS, CMP_DIA.origin)}${sel('cmpDKind', t('Kind'), CMP_KINDS, CMP_DIA.kind)}</div>` +
+    '<div id="cmpDStats"></div>' +
+    `<div class="cmp-mapbox" id="cmpMapBox"><div id="cmpMapIn" class="cmp-mapin"><p class="hub-load" aria-busy="true">${esc(t('Loading the map'))}</p></div></div>` +
+    `<div class="cmp-legend" aria-label="${esc(t('Companies headquartered in the country'))}"><span class="dim">${esc(t('Companies headquartered in the country'))}:</span> <span class="cmp-sw b0"></span>${esc(t('None'))} <span class="cmp-sw b1"></span>${esc(nf(1))} <span class="cmp-sw b2"></span>${esc(t('{a} to {b}', { a: nf(2), b: nf(3) }))} <span class="cmp-sw b3"></span>${esc(t('{a} to {b}', { a: nf(4), b: nf(7) }))} <span class="cmp-sw b4"></span>${esc(t('{a} or more', { a: nf(8) }))}</div>` +
+    `<p class="note" id="cmpMiss"></p><p class="note">${esc(t('Hover, focus or tap a country to see its companies; click or press Enter to pin the full list below the map.'))}</p><div id="cmpPin"></div>` +
+    `<div id="cmpDTbl"></div>` +
+    `<p class="note cmp-del">${tH('Anyone listed can ask to be removed or corrected: open an issue at {a}.', { a: '<a href="https://github.com/sboghossian/free-lebanon-data-hub/issues" target="_blank" rel="noopener noreferrer">github.com/sboghossian/free-lebanon-data-hub/issues</a>' })}</p>` +
+    `<p class="note">${esc(t('Sources and licences: Wikidata (CC0 1.0); English Wikipedia and press articles, facts only, each linked in the Sources column. Only the public business role is shown. Origin is the one the source states; hover the origin label for the sentence.'))}</p>` +
+    `<h3 class="d-h cmp-revh">${esc(t('Listed abroad: revenue by year'))}</h3><div id="cmpRev"></div>`;
+  [['cmpDRole', 'role'], ['cmpDOrig', 'origin'], ['cmpDKind', 'kind']].forEach(([id, k]) => $('#' + id).addEventListener('change', ev => { CMP_DIA[k] = ev.target.value; cmpDiaUpdate(); }));
+  $('#cmpMiss').addEventListener('click', ev => { const b = ev.target.closest('[data-iso]'); if (b) { CMP_DIA.iso = b.dataset.iso; cmpPinDraw(); } });
+  cmpDiaMap($('#cmpMapIn'));
+  cmpDiaUpdate();
+  cmpRevenue($('#cmpRev'));
+}
+
+/* ---------- Listed abroad: revenue by year (below the Lebanese abroad map) ---------- */
+function cmpRevenue(el) {
+  const Ab = CMP.D.abroad, cos = Ab.companies.filter(c => cmpHit(CMP.hay.abroad.get('r' + c.name))), withFy = cos.filter(c => c.fiscal_years.length), ctx = cos.filter(c => !c.fiscal_years.length);
   const blocks = withFy.map(c => {
     const fyRows = c.fiscal_years.slice().sort((a, b) => b.fiscal_year - a.fiscal_year), filed = r => (String(r.filed).match(/\d{4}-\d{2}-\d{2}/g) || []).pop();
     const cols = [{ h: t('Fiscal year'), k: r => fy(r.fiscal_year), cls: 'num' }, { h: t('Revenue (US dollars)'), cls: 'num', k: r => cmpN(r.revenue) }, { h: t('Net income (US dollars)'), cls: 'num', k: r => cmpN(r.net_income) },
@@ -206,7 +319,9 @@ const CMP_RENDER = { listed: cmpListed, abroad: cmpAbroad, startups: cmpStartups
 function cmpIndex() {
   const X = CMP.D, m = (...a) => fbNrm(a.filter(v => v != null && v !== '').join(' ')), H = {};
   H.listed = new Map(X.listed.securities.map(r => [r.ticker, m(r.name, r.issuer, r.ticker, r.sector, t(r.sector || ''))]));
-  H.abroad = new Map(X.abroad.companies.map(c => [c.name, m(c.name, c.ticker, c.sector, t(c.sector || ''), c.exchange)]));
+  X.diaspora.rows.forEach((r, i) => { r._i = i; });
+  H.abroad = new Map(X.abroad.companies.map(c => ['r' + c.name, m(c.name, c.ticker, c.sector, t(c.sector || ''), c.exchange)]).concat(X.diaspora.rows.map(r => ['d' + r._i,
+    m(r.c, r.ca, r.cf, r.p, r.h, r.s, cmpRoleOf(r), t(CMP_ORIG_L[r.o]), (X.diaspora.names[r.i] || []).join(' '), r.i)])));
   H.startups = new Map(X.startups.startups.map(s => [s.name, m(s.name, s.sector, t(s.sector || ''), s.hq, ...[].concat(...s.rounds.map(r => r.investors)), ...s.exits.map(e => e.acquirer))]));
   H.family = new Map(X.family.rows.map(r => [r.group + r.year, m(r.group, r.sector, t(r.sector || ''), r.year)]));
   H.banks = new Map(X.banks.per_bank.map(p => [p.bank, m(p.bank, p.ticker)]));

@@ -335,6 +335,12 @@ def search_rows(ctx, tr, portals, laws):
     org += [["companies/family", g, "", "", r.get("sector") or "", ""] for g, r in sorted(FA.items())]
     BK = _load(ctx, "companies/banks.json").get("per_bank") or []
     org += [["companies/banks", b.get("bank"), "", "", "Banks", dx_key(b.get("ticker"), skip=(b.get("bank"),))] for b in BK if b.get("bank")]
+    DI, byco = _load(ctx, "companies/diaspora.json").get("rows") or [], {}
+    for r in DI:                                   # v11 Lebanese abroad: one result per company; its people's names are searchable too
+        if r.get("c"):
+            e = byco.setdefault(r["c"], {"s": r.get("s") or "", "p": []})
+            e["p"].append(r.get("p") or "")
+    org += [["companies/abroad", c, "", "", e["s"], dx_key(*e["p"], skip=(c,))] for c, e in sorted(byco.items())]
     P = _load(ctx, "aid/presence.json")
     types = P.get("types") or []
     org += [["aid/where", o[1] or o[0], "", "", types[o[2]] if isinstance(o[2], int) and 0 <= o[2] < len(types) else "", dx_key(o[0], skip=(o[1],))] for o in P.get("orgs") or [] if o and (o[0] or o[1])]

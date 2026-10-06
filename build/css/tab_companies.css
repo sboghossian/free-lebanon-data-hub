@@ -15,3 +15,37 @@
 .cmp-rounds{margin:14px 0}
 #cmpView .hc-bars li{grid-template-columns:minmax(110px,220px) minmax(0,1fr) auto}
 @media (max-width:640px){#cmpView .hc-bars li{grid-template-columns:minmax(90px,140px) minmax(0,1fr) auto}.cmp-tbl td.cmp-wrap{min-width:160px}}
+/* Lebanese abroad (v11): world map, legend, pinned list, sortable table */
+.cmp-lead{margin:10px 0 4px}
+.cmp-rule{margin:0 0 10px}
+.cmp-dfil{margin:10px 0}
+.cmp-mapbox{margin:10px 0 6px}
+.cmp-mapin{position:relative;direction:ltr;background:var(--stone);border:1px solid var(--rule);border-radius:4px;overflow:hidden;min-height:60px}
+.cmp-map{display:block;width:100%;height:auto}
+.cmp-map .cmp-c{fill:var(--paper);stroke:var(--rule-2);stroke-width:.25}
+.cmp-map .cmp-c.b1,.cmp-sw.b1{fill:var(--cedar);fill-opacity:.3}
+.cmp-map .cmp-c.b2,.cmp-sw.b2{fill:var(--cedar);fill-opacity:.55}
+.cmp-map .cmp-c.b3,.cmp-sw.b3{fill:var(--cedar);fill-opacity:.8}
+.cmp-map .cmp-c.b4,.cmp-sw.b4{fill:var(--cedar);fill-opacity:1}
+.cmp-map .cmp-c:not(.b0):not(.leb){cursor:pointer}
+.cmp-map .cmp-c.leb{fill:none;stroke:var(--diesel);stroke-width:.9}
+.cmp-map .cmp-c.sel,.cmp-map .cmp-c:focus-visible{stroke:var(--ink);stroke-width:1;outline:none}
+.cmp-tip{position:absolute;z-index:3;max-width:260px;background:var(--paper);color:var(--ink);border:1px solid var(--rule-2);border-radius:4px;padding:8px 10px;font:13px/1.4 var(--body);box-shadow:var(--shadow);pointer-events:none;text-align:start}
+.cmp-tip ul{margin:4px 0 0;padding-inline-start:16px}
+.cmp-tip p{margin:4px 0 0}
+.cmp-legend{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font:13px var(--display);margin:6px 0}
+.cmp-sw{display:inline-block;width:14px;height:14px;border:1px solid var(--rule-2);border-radius:2px;vertical-align:middle;margin-inline-end:4px;background:var(--paper)}
+.cmp-sw.b0{background:var(--paper)}
+.cmp-sw.b1,.cmp-sw.b2,.cmp-sw.b3,.cmp-sw.b4{background:color-mix(in srgb,var(--cedar) calc(var(--o,1) * 100%),var(--paper))}
+.cmp-sw.b1{--o:.3}.cmp-sw.b2{--o:.55}.cmp-sw.b3{--o:.8}.cmp-sw.b4{--o:1}
+#cmpPin{margin:10px 0}
+.cmp-pinh{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.cmp-pinh h4{margin:0}
+.cmp-pinl{margin:6px 0;padding-inline-start:20px;font-size:14px;line-height:1.6}
+.cmp-dtbl .cmp-sort{all:unset;cursor:pointer;font:inherit;font-weight:600;color:inherit}
+.cmp-dtbl .cmp-sort:focus-visible{outline:2px solid var(--cedar);outline-offset:2px}
+.cmp-dtbl td.cmp-srcs{min-width:150px;max-width:300px}
+.cmp-or{white-space:nowrap}
+.cmp-del{margin:14px 0 4px}
+.cmp-revh{margin:28px 0 6px}
+@media (max-width:640px){.cmp-tip{max-width:200px}}

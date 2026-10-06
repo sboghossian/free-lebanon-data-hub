@@ -38,12 +38,63 @@ export default async function (T) {
   ok('companies: the jump chip opens Startups with the search kept', await p.ev('document.querySelector("#cmpNav [data-id=startups]").getAttribute("aria-pressed") === "true" && document.getElementById("cmpQ").value === "berytech" && location.hash === "#companies/startups"') && (await rows(p)) >= 1);
   await type(p, '');
 
-  // abroad
+  // Lebanese abroad (v11): lead, rule, world map, filters, table, then the listed-abroad revenue
   await go(p, 'abroad');
-  ok('companies: Listed abroad states revenue by fiscal year as its metric', await p.ev('/revenue by fiscal year/.test(document.querySelector("#cmpView .cmp-metric").textContent)'));
-  ok('companies: the revenue chart is drawn and every fiscal year (2020 to 2025) is a row with a source link', await p.ev('!!document.querySelector("#cmpView .cmp-chart .hc-line") && document.querySelectorAll("#cmpView .cmp-tbl")[0].querySelectorAll("tbody tr").length === 6') && await linked(p));
-  ok('companies: Anghami FY2025 revenue (99,304,526) is shown, marked reported', await p.ev('/99,304,526/.test(document.getElementById("cmpView").textContent) && !!document.querySelector("#cmpView .cf-reported")'));
-  ok('companies: the context table lists Investcom with its sale price', await p.ev('/Investcom/.test(document.getElementById("cmpView").textContent) && /\\$5\\.5B/.test(document.getElementById("cmpView").textContent)'));
+  const DI = readData('companies/diaspora.json'), dRows = DI.rows, isos = new Set(dRows.map(r => r.i));
+  ok('companies: the view is called Lebanese abroad and keeps the id abroad', await p.ev('document.querySelector("#cmpNav [data-id=abroad]").textContent === "Lebanese abroad" && location.hash === "#companies/abroad"'));
+  ok('companies: Lebanese abroad opens with the lead and the one-line inclusion rule', await p.ev('/^Companies around the world founded or led by Lebanese people, as public sources describe them\\./.test(document.querySelector("#cmpView .cmp-lead").textContent) && /founder, co-founder, CEO, chair, president or another top executive/.test(document.querySelector("#cmpView .cmp-rule").textContent) && /never guessed from a name/.test(document.querySelector("#cmpView .cmp-rule").textContent)'));
+  ok('companies: the data holds rows, none headquartered in Lebanon, each with an origin, a quote of at most 20 words and a source link', dRows.length >= 30 && dRows.every(r => r.i !== 'LBN' && ['born_in_lebanon', 'lebanese_citizen', 'lebanese_descent'].includes(r.o) && r.q && r.q.split(/\s+/).length <= 20 && r.oq.startsWith('http') && r.u.length >= 1));
+  await p.wait('document.querySelectorAll("#cmpMap path[data-iso]").length > 100', 15000);
+  ok('companies: the world map draws 176 countries', (await p.ev('document.querySelectorAll("#cmpMap path[data-iso]").length')) === 176);
+  const shaded = await p.ev('document.querySelectorAll("#cmpMap path.b1, #cmpMap path.b2, #cmpMap path.b3, #cmpMap path.b4").length');
+  ok('companies: the map shades the countries that have companies (at least one), and nothing else', shaded >= 1 && shaded <= isos.size && shaded >= isos.size - 3, shaded + ' of ' + isos.size);
+  ok('companies: Lebanon is outlined and not shaded, and the legend lists the scale', await p.ev('!!document.querySelector("#cmpMap path.leb") && !document.querySelector("#cmpMap path.leb").getAttribute("class").match(/b[1-4]/) && document.querySelectorAll("#cmpView .cmp-sw").length === 5'));
+  const top = [...isos].map(i => [i, dRows.filter(r => r.i === i).length]).sort((a, b) => b[1] - a[1])[0], topNames = dRows.filter(r => r.i === top[0]).map(r => r.c);
+  await p.ev(`(() => { const e = document.querySelector('#cmpMap path[data-iso="${top[0]}"]'), b = e.getBoundingClientRect(); e.dispatchEvent(new PointerEvent('pointerover', { bubbles: true, clientX: b.left + b.width / 2, clientY: b.top + b.height / 2 })); })()`); await sleep(150);
+  ok('companies: hovering the most-used country shows a tooltip with its name, a company and the person', await p.ev(`(() => { const t = document.getElementById('cmpTip'); return !t.hidden && ${JSON.stringify(topNames)}.some(n => t.textContent.includes(n)) && /Born in Lebanon|Lebanese citizen|Of Lebanese descent/.test(t.textContent); })()`));
+  ok('companies: the tooltip lists at most 8 companies and says "and N more" beyond that', await p.ev(`(() => { const t = document.getElementById('cmpTip'); return t.querySelectorAll('li').length === Math.min(8, ${top[1]}) && (${top[1]} <= 8 || /and \\d+ more/.test(t.textContent)); })()`));
+  await p.ev('document.getElementById("cmpMap").dispatchEvent(new PointerEvent("pointerleave"))'); await sleep(100);
+  ok('companies: leaving the map hides the tooltip', await p.ev('document.getElementById("cmpTip").hidden'));
+  await p.ev(`(() => { const e = document.querySelector('#cmpMap path[data-iso="${top[0]}"]'); e.focus(); })()`); await sleep(150);
+  ok('companies: keyboard focus on a shaded country shows the tooltip too', await p.ev('!document.getElementById("cmpTip").hidden'));
+  await p.ev(`document.querySelector('#cmpMap path[data-iso="${top[0]}"]').dispatchEvent(new MouseEvent('click', { bubbles: true }))`); await sleep(200);
+  ok('companies: clicking the country pins its full list below the map, with a clear button', await p.ev(`document.querySelectorAll('#cmpPin li').length === ${top[1]} && !!document.getElementById('cmpPinX') && document.querySelector('#cmpMap path.sel').dataset.iso === '${top[0]}'`));
+  await p.ev('document.getElementById("cmpPinX").click()'); await sleep(150);
+  ok('companies: the clear button unpins the list', await p.ev('document.querySelectorAll("#cmpPin li").length === 0 && !document.querySelector("#cmpMap path.sel")'));
+  // filters change the counts, the map and the table
+  const stat = () => p.ev('[...document.querySelectorAll("#cmpDStats .fb-stat")].map(x => x.textContent)');
+  ok('companies: the counts tiles show companies, people and countries and match the data', await p.ev(`document.querySelectorAll('#cmpDStats .fb-stat').length === 3`) && (await rows(p)) === dRows.length);
+  await pick(p, 'cmpDRole', 'ceo');
+  const ceo = dRows.filter(r => r.r === 'ceo');
+  ok('companies: filtering to CEOs changes the table, the counts and the shaded countries', (await rows(p)) === ceo.length && ceo.length < dRows.length && (await p.ev('document.querySelectorAll("#cmpMap path.b1, #cmpMap path.b2, #cmpMap path.b3, #cmpMap path.b4").length')) === new Set(ceo.map(r => r.i)).size);
+  await pick(p, 'cmpDRole', 'all'); await pick(p, 'cmpDOrig', 'lebanese_descent');
+  const des = dRows.filter(r => r.o === 'lebanese_descent');
+  ok('companies: filtering to "Of Lebanese descent" keeps only those rows (Carlos Slim is of Lebanese descent, not a citizen)', (await rows(p)) === des.length && des.length >= 3 && await p.ev('[...document.querySelectorAll("#cmpDTbl tbody tr")].every(tr => /Of Lebanese descent/.test(tr.textContent)) && [...document.querySelectorAll("#cmpDTbl tbody tr")].some(tr => /Carlos Slim/.test(tr.textContent))'));
+  await pick(p, 'cmpDOrig', 'all'); await pick(p, 'cmpDKind', 'startup');
+  ok('companies: filtering to startups keeps only startups', (await rows(p)) === dRows.filter(r => r.k === 'startup').length);
+  await pick(p, 'cmpDKind', 'all');
+  await type(p, 'slim');
+  ok('companies: the search box narrows the map list and the table together', (await rows(p)) === dRows.filter(r => /slim/i.test(r.p + r.c)).length && (await rows(p)) >= 1);
+  await type(p, '');
+  ok('companies: back to all, the table is whole again', (await rows(p)) === dRows.length);
+  // table: columns, sortable, one source link per row
+  ok('companies: the table has the nine columns (company, country, city, founded, sector, person, role, origin, sources)', await p.ev('[...document.querySelectorAll("#cmpDTbl th")].map(h => h.textContent.trim().replace(/[\\u25B2\\u25BC]/g, "").trim()).join("|") === "Company|Country|City|Founded|Sector|Person|Role|Origin|Sources"'));
+  ok('companies: every table row links at least one source', await p.ev('[...document.querySelectorAll("#cmpDTbl tbody tr")].every(tr => !!tr.querySelector("a[href^=\\"http\\"]"))'));
+  await p.ev('document.querySelector("#cmpDTbl .cmp-sort[data-k=country]").click()'); await sleep(150);
+  const cn = await p.ev('[...document.querySelectorAll("#cmpDTbl tbody tr")].map(tr => tr.children[1].textContent)');
+  ok('companies: clicking a column head sorts by it (country, ascending) and marks it with aria-sort', await p.ev('document.querySelector("#cmpDTbl th[aria-sort=ascending]").textContent.includes("Country")') && cn.every((v, i) => !i || cn[i - 1].localeCompare(v) <= 0));
+  await p.ev('document.querySelector("#cmpDTbl .cmp-sort[data-k=country]").click()'); await sleep(150);
+  ok('companies: a second click reverses the order', await p.ev('!!document.querySelector("#cmpDTbl th[aria-sort=descending]")'));
+  await p.ev('document.querySelector("#cmpDTbl .cmp-sort[data-k=founded]").click()'); await sleep(150);
+  const fo = (await p.ev('[...document.querySelectorAll("#cmpDTbl tbody tr")].map(tr => parseInt(tr.children[3].textContent.replace(/\\D/g, "")) || 99999)'));
+  ok('companies: sorting by founded puts the oldest first and the unknown last', fo.every((v, i) => !i || fo[i - 1] <= v));
+  // note, licences, revenue
+  ok('companies: the removal note and the sources and licences note are present', await p.ev('/Anyone listed can ask to be removed or corrected: open an issue at github\\.com\\/sboghossian\\/free-lebanon-data-hub\\/issues\\./.test(document.querySelector("#cmpView .cmp-del").textContent) && !!document.querySelector("#cmpView .cmp-del a[href=\\"https://github.com/sboghossian/free-lebanon-data-hub/issues\\"]") && /Wikidata \\(CC0 1\\.0\\)/.test(document.getElementById("cmpView").textContent) && /facts only/.test(document.getElementById("cmpView").textContent)'));
+  ok('companies: the listed-abroad revenue stays below, titled "Listed abroad: revenue by year", with revenue by fiscal year as its metric', await p.ev('/Listed abroad: revenue by year/.test(document.querySelector("#cmpView .cmp-revh").textContent) && /revenue by fiscal year/.test(document.querySelector("#cmpRev .cmp-metric").textContent)'));
+  ok('companies: the revenue chart is drawn and every fiscal year (2020 to 2025) is a row with a source link', await p.ev('!!document.querySelector("#cmpRev .cmp-chart .hc-line") && document.querySelectorAll("#cmpRev .cmp-tbl")[0].querySelectorAll("tbody tr").length === 6 && [...document.querySelectorAll("#cmpRev .cmp-tbl")[0].querySelectorAll("tbody tr")].every(tr => !!tr.querySelector("a[href^=\\"http\\"]"))'));
+  ok('companies: Anghami FY2025 revenue (99,304,526) is shown, marked reported', await p.ev('/99,304,526/.test(document.getElementById("cmpRev").textContent) && !!document.querySelector("#cmpRev .cf-reported")'));
+  ok('companies: the context table lists Investcom with its sale price', await p.ev('/Investcom/.test(document.getElementById("cmpRev").textContent) && /\\$5\\.5B/.test(document.getElementById("cmpRev").textContent)'));
+  ok('companies: the CSV of the rows is registered and the topic keeps one Data link', readData('companies/diaspora.json').rows.length === dRows.length);
 
   // startups
   await go(p, 'startups');
@@ -91,6 +142,10 @@ export default async function (T) {
   // ---- 390 px, English
   const m = await open(390, SITE, { hash: '#companies' });
   for (const v of VIEWS) { await go(m, v); await sleep(500); ok(`companies: ${v} has no horizontal overflow at 390`, (await m.ev('document.documentElement.scrollWidth')) <= 390); }
+  await go(m, 'abroad'); await m.wait('document.querySelectorAll("#cmpMap path[data-iso]").length === 176', 15000);
+  ok('companies: at 390 the Lebanese abroad map fits the screen and the table scrolls in its own box', await m.ev('document.getElementById("cmpMapIn").getBoundingClientRect().width <= 390 && document.documentElement.scrollWidth <= 390 && !!document.querySelector("#cmpDTbl .fb-scroll")'));
+  await m.ev(`(() => { const e = document.querySelector('#cmpMap path.b1, #cmpMap path.b2, #cmpMap path.b3, #cmpMap path.b4'); e.dispatchEvent(new MouseEvent('click', { bubbles: true })); })()`); await sleep(200);
+  ok('companies: a tap on a shaded country pins its list at 390 without overflow', await m.ev('document.querySelectorAll("#cmpPin li").length > 0 && document.documentElement.scrollWidth <= 390'));
   ok('companies: 0 console errors across all views at 390', m.errors().length === 0, m.errors());
   await m.close();
 
@@ -102,6 +157,11 @@ export default async function (T) {
   }
   await go(a, 'listed');
   ok('companies: Arabic translates the chips, the metric line and the table heads', await a.ev('/[\\u0600-\\u06FF]/.test(document.querySelector("#cmpNav").textContent) && /الترتيب بحسب/.test(document.querySelector("#cmpView .cmp-metric").textContent) && /[\\u0600-\\u06FF]/.test(document.querySelector("#cmpView .cmp-tbl th").textContent)'));
+  await go(a, 'abroad');
+  await a.wait('document.querySelectorAll("#cmpMap path[data-iso]").length === 176', 15000);
+  ok('companies: Arabic Lebanese abroad has an Arabic lead, filters and removal note, a left-to-right map and a right-to-left table', await a.ev('/[\\u0600-\\u06FF]/.test(document.querySelector("#cmpView .cmp-lead").textContent) && /[\\u0600-\\u06FF]/.test(document.querySelector("#cmpDRole").closest("label").textContent) && /github\\.com\\/sboghossian\\/free-lebanon-data-hub\\/issues/.test(document.querySelector("#cmpView .cmp-del").textContent) && /[\\u0600-\\u06FF]/.test(document.querySelector("#cmpView .cmp-del").textContent) && getComputedStyle(document.getElementById("cmpMapIn")).direction === "ltr" && getComputedStyle(document.querySelector("#cmpDTbl table")).direction === "rtl" && document.documentElement.scrollWidth <= 1400'));
+  await a.ev(`(() => { const e = document.querySelector('#cmpMap path.b1, #cmpMap path.b2, #cmpMap path.b3, #cmpMap path.b4'), b = e.getBoundingClientRect(); e.dispatchEvent(new PointerEvent('pointerover', { bubbles: true, clientX: b.left + b.width / 2, clientY: b.top + b.height / 2 })); })()`); await sleep(150);
+  ok('companies: the Arabic tooltip is right to left and names a country in Arabic', await a.ev('(() => { const t = document.getElementById("cmpTip"); return !t.hidden && t.dir === "rtl" && /[\\u0600-\\u06FF]/.test(t.querySelector("b").textContent); })()'));
   await go(a, 'banks');
   ok('companies: Arabic keeps charts left to right', await a.ev('getComputedStyle(document.querySelector("#cmpView .hc-svg")).direction === "ltr"'));
   await a.ev('HUB.setLang("fr", { noStore: true })'); await sleep(900);
@@ -125,6 +185,13 @@ export default async function (T) {
   ok('companies: sorting by price change states it at the top', /price change/.test(await h.ev('document.querySelector("#cmpView .cmp-metric").textContent')));
   ok('companies: with price history in the data, a price chart is drawn', await h.ev('!!document.querySelector("#cmpHch .hc-line")'));
   await h.close();
+
+  // ---- the map file missing: the table still works and says so
+  const fg = fixture('companies-nogeo', null, { 'trade/world-geo.json': null });
+  const gg = await open(1400, fg, { hash: '#companies/abroad', allow: /world-geo|404|Failed to load/ });
+  await gg.wait('!!document.querySelector("#cmpMapIn .hub-empty")', 15000);
+  ok('companies: with the map outline missing the page says so and the table still lists the companies', await gg.ev('!!document.querySelector("#cmpMapIn .hub-empty") && document.querySelectorAll("#cmpDTbl tbody tr").length > 10'));
+  await gg.close();
 
   // ---- empty and error states
   const fe = fixture('companies-empty', D => { D.tabs.companies = {}; });
